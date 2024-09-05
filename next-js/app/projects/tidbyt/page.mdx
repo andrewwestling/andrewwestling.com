@@ -97,7 +97,7 @@ Using Tidbyt's [configuration Schema](https://tidbyt.dev/docs/reference/schema),
 
 When the app got published to Tidbyt's Community Apps, I commemorated it with an [Instagram reel](https://www.instagram.com/reel/CvKb_dpgVHL/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==).
 
-👉 [See the code on GitHub](https://github.com/expandrew/tidbyt/tree/main/wqxr)
+👉 [See the code on GitHub](https://github.com/andrewwestling/tidbyt/tree/main/wqxr)
 
 ### KQAC
 
@@ -122,7 +122,7 @@ KQAC has some minor internal differences from WQXR. If you're curious, they are 
 
 My developer brain wants everything to be completely consistent, but the reality is that the only people who will notice are the ones who happen to use both apps. I'm over it. 🤷‍♀️
 
-👉 [See the code on GitHub](https://github.com/expandrew/tidbyt/tree/main/kqac)
+👉 [See the code on GitHub](https://github.com/andrewwestling/tidbyt/tree/main/kqac)
 
 ### WNYC
 
@@ -147,7 +147,7 @@ Key points about this app:
 | **Name and Description**: The show's title, and the "description" of the show. Scrolls vertically, but slower. (For some shows, the "description" is used for information about the particular episode; for other shows, it's just generic information about the show) | <TidbytGif width={256} src="/assets/projects/tidbyt/wnyc-name-and-description.gif" /> |
 | **Name only**: Just the show's title, no other info. Wraps and scrolls vertically if it gets too long.                                                                                                                                                                 | <TidbytGif width={256} src="/assets/projects/tidbyt/wnyc-name-only.gif" />            |
 
-👉 [See the code on GitHub](https://github.com/expandrew/tidbyt/tree/main/wnyc)
+👉 [See the code on GitHub](https://github.com/andrewwestling/tidbyt/tree/main/wnyc)
 
 ## Development Environment
 
@@ -157,7 +157,7 @@ In my own workflow, I put together a few other helpful pieces to make my own dev
 
 ### My repo
 
-I build in my [expandrew/tidbyt](https://github.com/expandrew/tidbyt) repo. When I'm ready to publish an app to the community, I make a copy of my code with the comments removed, then push to my fork of [tidbyt/community](https://github.com/tidbyt/community) and make a PR from there.
+I build in my [expandrew/tidbyt](https://github.com/andrewwestling/tidbyt) repo. When I'm ready to publish an app to the community, I make a copy of my code with the comments removed, then push to my fork of [tidbyt/community](https://github.com/tidbyt/community) and make a PR from there.
 
 ### Mock Endpoints
 
@@ -201,7 +201,7 @@ Some general notes about this:
   - **Infrequent Changes**: Programs change less frequently (maybe every 30 or 60 minutes)
   - **Schedule**: There's usually a schedule on the website of the programs for that day, so you know what to expect; I found this helpful so I didn't have to listen to the station all day to wait for the endpoint data to change
 
-See examples of my mock data on GitHub: [WQXR](https://github.com/expandrew/tidbyt/tree/main/wqxr/mocks), [WNYC](https://github.com/expandrew/tidbyt/tree/main/wnyc/mocks)
+See examples of my mock data on GitHub: [WQXR](https://github.com/andrewwestling/tidbyt/tree/main/wqxr/mocks), [WNYC](https://github.com/andrewwestling/tidbyt/tree/main/wnyc/mocks)
 
 ### VS Code Tasks
 
@@ -217,14 +217,14 @@ I set up the following tasks:
 
 I configured my repo's tasks to use an [input variable](https://code.visualstudio.com/docs/editor/variables-reference#_input-variables) to choose which app I wanted to start.
 
-[See my tasks.json file on GitHub](https://github.com/expandrew/tidbyt/blob/main/.vscode/tasks.json)
+[See my tasks.json file on GitHub](https://github.com/andrewwestling/tidbyt/blob/main/.vscode/tasks.json)
 
 ## Takeaways
 
 - **Unintended Uses**: I built the app for the use-case of _"I'm currently listening to the radio; what am I listening to?"_ As I lived with the app more, I found myself glancing at the Tidbyt throughout the day and seeing that a piece I liked was currently playing, prompting me to go turn on the radio and listen. Kind of the opposite of what I intended when I made it, but a fun little surprise.
 - **Replicable**: These apps ended up being kind of "formulaic." I'd love to make more of these. I just did my favorite radio stations, but they were pretty easy to make. I could see making a generic "New York Public Radio" app that gives you a setting to choose which station to show, but I decided not to do that because there are nuances with displaying information about classical music that don't translate to other stations.
 - **Minor Inconsistencies**: Between the three apps, there are minor inconsistencies; no one will care from the outside. I know they're there, but the users don't. Helpful to remember this.
-- **New API?**: I think New York Public Radio might be moving to a new API at some point; I noticed the newer ["Radio"](https://www.wnyc.org/radio/) page for WNYC was pointing to a different API than WQXR, even though the one WQXR points to has an option for getting data for WNYC if you specify that as the path. Basically, I'm expecting to have to migrate the NYPR apps to the newer API once everything is using it. I did capture some responses from it in the [v4](https://github.com/expandrew/tidbyt/tree/main/wnyc/mocks/v4) folder of WNYC's mock API responses, just in case
+- **New API?**: I think New York Public Radio might be moving to a new API at some point; I noticed the newer ["Radio"](https://www.wnyc.org/radio/) page for WNYC was pointing to a different API than WQXR, even though the one WQXR points to has an option for getting data for WNYC if you specify that as the path. Basically, I'm expecting to have to migrate the NYPR apps to the newer API once everything is using it. I did capture some responses from it in the [v4](https://github.com/andrewwestling/tidbyt/tree/main/wnyc/mocks/v4) folder of WNYC's mock API responses, just in case
 - **Horizontal Marquees are Slow**: On the classical music apps, I was getting impatient waiting for horizontal marquees to finish scrolling for a long title. This prompted me to add the "vertical" mode, as an alternative for people like me. My partner still likes the horizontal mode, that's why there's both options.
 - **Radio Fatigue**: Listening to WNYC all day is actually kind of exhausting. There's a lot of bad news these days. Building the classical music apps was easier and more enjoyable because the music just feels better 😌
 - **Tidbyt's Cloud**: Something I didn't expect is that _very little computation happens on the Tidbyt device, itself_. It all happens in the cloud, and once your device is connected to Wi-Fi, it just sends heartbeats to the cloud, which returns rendered WebP images for the device to display. In retrospect, this actually is kinda brilliant architecture; it just wasn't what I expected.
