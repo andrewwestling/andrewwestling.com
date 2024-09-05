@@ -13,8 +13,8 @@ const socialAccounts = [
   },
   {
     icon: "github",
-    username: "expandrew",
-    url: "https://github.com/expandrew",
+    username: "andrewwestling",
+    url: "https://github.com/andrewwestling",
   },
   {
     icon: "linkedin",
