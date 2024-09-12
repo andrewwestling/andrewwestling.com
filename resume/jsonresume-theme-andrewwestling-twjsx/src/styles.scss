@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@import "styles/common/variables";
+@import "styles/common/mixins";
+@import "styles/common/reset";
+@import "styles/common/pdf";
+@import "styles/common/global";
+@import "styles/common/utils";
+@import "styles/common/markdown";
+
+@import "styles/main";
+
+@import "styles/basics";
+@import "styles/links";
+@import "styles/education";
+@import "styles/awards";
+@import "styles/certificates";
+@import "styles/skills";
+@import "styles/languages";
+@import "styles/interests";
+@import "styles/references";
+@import "styles/meta";
