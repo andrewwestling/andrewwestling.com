@@ -23,12 +23,22 @@
       },
       {
         "network": "GitHub",
-        "username": "expandrew",
+        "username": "andrewwestling",
         "url": "https://github.com/andrewwestling"
       }
     ]
   },
   "work": [
+    {
+      "name": "Alloy",
+      "location": "New York City",
+      "description": "Platform for fraud management, identity decisions, and regulatory compliance",
+      "position": "Senior Design Engineer",
+      "url": "https://alloy.com",
+      "startDate": "2024-09-09",
+      "summary": "Solving problems that arise where design and engineering overlap. Alloy is a platform for fraud management, identity decisions, and regulatory compliance.",
+      "highlights": []
+    },
     {
       "name": "Droit",
       "location": "New York City",
@@ -36,8 +46,12 @@
       "position": "Senior UI Engineer",
       "url": "https://droit.tech",
       "startDate": "2023-10-30",
-      "summary": "Design system and user interface development. Droit builds tools for decision-making and global regulatory compliance for financial institutions.",
-      "highlights": []
+      "endDate": "2024-08-16",
+      "summary": "Front-end application development. Droit builds tools for decision-making and global regulatory compliance for financial institutions.",
+      "highlights": [
+        "**Applications**: productionized and delivered the first version of a new application to help analysts validate transaction reports before they are sent to regulators",
+        "**Design systems**: improved build performance and developer experience of Droit's component library"
+      ]
     },
     {
       "name": "Forte",
@@ -47,7 +61,7 @@
       "url": "https://fortelessons.com",
       "startDate": "2022-07-11",
       "endDate": "2023-03-31",
-      "summary": "Feature development, setting up tools and culture. First engineering hire. Forte is a purpose-built music education platform for teachers and students.",
+      "summary": "Feature development. Setting up tools and culture. First engineering hire. Forte is a purpose-built music education platform for teachers and students.",
       "highlights": [
         "**From scratch**: set up Forte's Next.js application from the ground up; chose tools and workflows to enable quick iteration; established a component library for consistent user experience",
         "**Built features**: built the first iteration of various customer-facing features for Forte's marketplace: Teacher Profiles; Certified Institutions; Invitations and Sign Up; Teacher Ratings and Reviews; \"Switch Role\" functionality; etc.",
@@ -92,7 +106,7 @@
       "url": "https://architizer.com",
       "startDate": "2015-09-08",
       "endDate": "2018-06-15",
-      "summary": "Full-stack and front end feature development and infrastructure maintenance for Architizer’s platform to help architects find products for buildings.",
+      "summary": "Full-stack and front-end feature development and infrastructure maintenance. Architizer is a platform to help architects find products for buildings.",
       "highlights": [
         "**Component libraries**: established and maintained a UI component system to speed up feature development, and improve collaboration with designers",
         "**Features**: built internal- and external-facing features: a private messaging interface; directory interfaces to Solr search indexes; etc.",
@@ -130,14 +144,6 @@
       "studyType": "B.Arch",
       "startDate": "2009-09-15",
       "endDate": "2014-06-15"
-    },
-    {
-      "institution": "Epicodus",
-      "url": "https://www.epicodus.com/",
-      "area": "Code school",
-      "studyType": "",
-      "startDate": "2014-07-05",
-      "endDate": "2014-10-30"
     }
   ],
   "skills": [
@@ -196,6 +202,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.1.0",
-    "lastModified": "2023-12-14"
+    "lastModified": "2024-09-14"
   }
 }
