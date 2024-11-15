@@ -22,6 +22,12 @@ const socialAccounts = [
     url: "https://linkedin.com/in/andrewwestling",
   },
   {
+    icon: "bluesky",
+    username: "@andrewwestling.com",
+    url: "https://bsky.app/profile/andrewwestling.com",
+  },
+  {
+    title: "Last.fm",
     icon: "lastfm",
     username: "andwest",
     url: "https://last.fm/user/andwest",
