@@ -2,18 +2,6 @@ import NextLink from "next/link";
 
 const socialAccounts = [
   {
-    title: "Instagram",
-    icon: "instagram",
-    username: "expandrew",
-    url: "https://instagram.com/expandrew",
-  },
-  {
-    title: "Instagram",
-    icon: "instagram",
-    username: "antiperformances",
-    url: "https://instagram.com/antiperformances",
-  },
-  {
     title: "GitHub",
     icon: "github",
     username: "andrewwestling",
@@ -30,6 +18,12 @@ const socialAccounts = [
     icon: "bluesky",
     username: "@andrewwestling.com",
     url: "https://bsky.app/profile/andrewwestling.com",
+  },
+  {
+    title: "Instagram",
+    icon: "instagram",
+    username: "expandrew",
+    url: "https://instagram.com/expandrew",
   },
   {
     title: "Last.fm",
