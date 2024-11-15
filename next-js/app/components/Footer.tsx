@@ -2,26 +2,31 @@ import NextLink from "next/link";
 
 const socialAccounts = [
   {
+    title: "Instagram",
     icon: "instagram",
     username: "expandrew",
     url: "https://instagram.com/expandrew",
   },
   {
+    title: "Instagram",
     icon: "instagram",
     username: "antiperformances",
     url: "https://instagram.com/antiperformances",
   },
   {
+    title: "GitHub",
     icon: "github",
     username: "andrewwestling",
     url: "https://github.com/andrewwestling",
   },
   {
+    title: "LinkedIn",
     icon: "linkedin",
     username: "andrewwestling",
     url: "https://linkedin.com/in/andrewwestling",
   },
   {
+    title: "Bluesky",
     icon: "bluesky",
     username: "@andrewwestling.com",
     url: "https://bsky.app/profile/andrewwestling.com",
@@ -33,6 +38,7 @@ const socialAccounts = [
     url: "https://last.fm/user/andwest",
   },
   {
+    title: "Spotify",
     icon: "spotify",
     username: "1283883",
     url: "https://open.spotify.com/user/1283883",
@@ -70,6 +76,7 @@ export const Footer = () => {
                 key={account.url}
                 className="flex flex-row items-center text-muted dark:text-muted-dark w-fit"
                 href={account.url}
+                title={`${account.username} on ${account.title}`}
               >
                 <svg width={20} height={20} fill={"currentColor"}>
                   <use
