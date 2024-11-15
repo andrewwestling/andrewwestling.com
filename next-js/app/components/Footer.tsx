@@ -83,7 +83,7 @@ export const Footer = () => {
                     xlinkHref={`/assets/minima-social-icons.svg#${account.icon}`}
                   ></use>
                 </svg>
-                <span className="block ml-2">{account.username}</span>
+                <span className="block ml-2">{account.title}</span>
               </a>
             ))}
           </div>
