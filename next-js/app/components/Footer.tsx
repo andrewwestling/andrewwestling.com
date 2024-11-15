@@ -2,31 +2,37 @@ import NextLink from "next/link";
 
 const socialAccounts = [
   {
-    icon: "instagram",
-    username: "expandrew",
-    url: "https://instagram.com/expandrew",
-  },
-  {
-    icon: "instagram",
-    username: "antiperformances",
-    url: "https://instagram.com/antiperformances",
-  },
-  {
+    title: "GitHub",
     icon: "github",
     username: "andrewwestling",
     url: "https://github.com/andrewwestling",
   },
   {
+    title: "LinkedIn",
     icon: "linkedin",
     username: "andrewwestling",
     url: "https://linkedin.com/in/andrewwestling",
   },
   {
+    title: "Bluesky",
+    icon: "bluesky",
+    username: "@andrewwestling.com",
+    url: "https://bsky.app/profile/andrewwestling.com",
+  },
+  {
+    title: "Instagram",
+    icon: "instagram",
+    username: "expandrew",
+    url: "https://instagram.com/expandrew",
+  },
+  {
+    title: "Last.fm",
     icon: "lastfm",
     username: "andwest",
     url: "https://last.fm/user/andwest",
   },
   {
+    title: "Spotify",
     icon: "spotify",
     username: "1283883",
     url: "https://open.spotify.com/user/1283883",
@@ -39,38 +45,61 @@ export const Footer = () => {
       <div className="max-w-container mx-auto w-full px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <div className="mb-3">
-            <span className="block text-muted dark:text-muted-dark">
-              Andrew M Westling
+            <span className="flex gap-2 items-center text-muted dark:text-muted-dark">
+              <span>👋</span>
+              <span>Andrew M Westling</span>
+              <span className="text-xs">(he/him)</span>
             </span>
-            <span className="block text-muted dark:text-muted-dark">
-              Brooklyn, NY
+            <span className="flex gap-2 items-center text-muted dark:text-muted-dark">
+              <span>📍</span>
+              <span>Brooklyn, NY</span>
             </span>
-            <span className="block text-muted dark:text-muted-dark">
-              <a href="mailto:hi@andrewwestling.com">hi@andrewwestling.com</a>
-            </span>
-            <span className="block text-muted dark:text-muted-dark">
-              <NextLink href="/projects">Projects</NextLink>
-            </span>
-            <span className="block text-muted dark:text-muted-dark">
-              <NextLink href="/resume">Resume</NextLink>
-            </span>
-            <span className="block text-highlight dark:text-highlight-dark">
-              <NextLink href="/awds">AWDS</NextLink>
-            </span>
+
+            <a
+              href="mailto:hi@andrewwestling.com"
+              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
+            >
+              <span className="no-underline">✉️</span>
+              <span className="underline">hi@andrewwestling.com</span>
+            </a>
+
+            <NextLink
+              href="/projects"
+              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
+            >
+              <span className="no-underline">🏄‍♂️</span>
+              <span className="underline">Projects</span>
+            </NextLink>
+
+            <NextLink
+              href="/resume"
+              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
+            >
+              <span className="no-underline">📄</span>
+              <span className="underline">Resume</span>
+            </NextLink>
+
+            <NextLink
+              href="/awds"
+              className="flex gap-2 text-highlight dark:text-highlight-dark"
+            >
+              <span>AWDS</span>
+            </NextLink>
           </div>
           <div>
             {socialAccounts.map((account) => (
               <a
                 key={account.url}
-                className="flex flex-row items-center text-muted dark:text-muted-dark w-fit"
+                className="flex gap-2 items-center text-muted dark:text-muted-dark w-fit hover:text-primary"
                 href={account.url}
+                title={`${account.username} on ${account.title}`}
               >
                 <svg width={20} height={20} fill={"currentColor"}>
                   <use
                     xlinkHref={`/assets/minima-social-icons.svg#${account.icon}`}
                   ></use>
                 </svg>
-                <span className="block ml-2">{account.username}</span>
+                <span className="block">{account.title}</span>
               </a>
             ))}
           </div>
