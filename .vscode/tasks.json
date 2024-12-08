@@ -69,6 +69,24 @@
         "cwd": "anti-performances/"
       },
       "problemMatcher": ["$tsc-watch"]
+    },
+    {
+      "label": "anti-performances: Generate Database",
+      "detail": "Generate the database for anti-performances content from Obsidian vault",
+      "type": "shell",
+      "command": "npm run generate-db ${input:vaultPath}",
+      "options": {
+        "cwd": "${workspaceFolder}/anti-performances"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "vaultPath",
+      "type": "promptString",
+      "description": "Path to the Obsidian vault",
+      "default": "/Users/amw/o-vault-antiperformances"
     }
   ]
 }

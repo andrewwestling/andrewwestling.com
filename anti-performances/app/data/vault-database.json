@@ -1,0 +1,268 @@
+{
+  "concert": [
+    {
+      "slug": "202404211400",
+      "type": "concert",
+      "path": "Concerts/2024/202404211400 Concert - BSO (Concert 4 - \"BSO at the Movies\").md",
+      "title": "202404211400 Concert - BSO (Concert 4 - \"BSO at the Movies\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-04-21T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Felipe Tristan"
+        ],
+        "spotify playlist": null
+      }
+    },
+    {
+      "slug": "202410271400",
+      "type": "concert",
+      "path": "Concerts/2024/202410271400 Concert - BSO (Concert 1 - David Hagy).md",
+      "title": "202410271400 Concert - BSO (Concert 1 - David Hagy)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-10-27T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": [
+          "Shostakovich - Symphony No. 5",
+          "Beethoven - Symphony No. 8"
+        ],
+        "conductor": [
+          "David Hagy"
+        ],
+        "spotify playlist": null
+      }
+    },
+    {
+      "slug": "202412151400",
+      "type": "concert",
+      "path": "Concerts/2024/202412151400 Concert - BSO (Concert 2 - Andrew Kim).md",
+      "title": "202412151400 Concert - BSO (Concert 2 - Andrew Kim)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-12-15T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Andrew Kim"
+        ],
+        "spotify playlist": null
+      }
+    }
+  ],
+  "composer": [
+    {
+      "slug": "beethoven-ludwig-van",
+      "type": "composer",
+      "path": "Composers/Beethoven, Ludwig van.md",
+      "title": "Beethoven, Ludwig van",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "shostakovich-dmitri",
+      "type": "composer",
+      "path": "Composers/Shostakovich, Dmitri.md",
+      "title": "Shostakovich, Dmitri",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    }
+  ],
+  "conductor": [
+    {
+      "slug": "andrew-kim",
+      "type": "conductor",
+      "path": "Conductors/Andrew Kim.md",
+      "title": "Andrew Kim",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "david-hagy",
+      "type": "conductor",
+      "path": "Conductors/David Hagy.md",
+      "title": "David Hagy",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "felipe-tristan",
+      "type": "conductor",
+      "path": "Conductors/Felipe Tristan.md",
+      "title": "Felipe Tristan",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    }
+  ],
+  "group": [
+    {
+      "slug": "bantam",
+      "type": "group",
+      "path": "Groups/Bantam Studios.md",
+      "title": "Bantam Studios",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Brooklyn, New York",
+        "slug": "bantam"
+      }
+    },
+    {
+      "slug": "boise-phil",
+      "type": "group",
+      "path": "Groups/Boise Philharmonic.md",
+      "title": "Boise Philharmonic",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Boise, Idaho",
+        "slug": "boise-phil"
+      }
+    },
+    {
+      "slug": "bso",
+      "type": "group",
+      "path": "Groups/Brooklyn Symphony Orchestra.md",
+      "title": "Brooklyn Symphony Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Brooklyn, New York",
+        "slug": "bso"
+      }
+    },
+    {
+      "slug": "centre",
+      "type": "group",
+      "path": "Groups/Centre Symphony Orchestra.md",
+      "title": "Centre Symphony Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Manhattan, New York",
+        "slug": "centre"
+      }
+    },
+    {
+      "slug": "chehalem",
+      "type": "group",
+      "path": "Groups/Chehalem Symphony Orchestra.md",
+      "title": "Chehalem Symphony Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Newberg, Oregon",
+        "slug": "chehalem"
+      }
+    },
+    {
+      "slug": "grace-chorale",
+      "type": "group",
+      "path": "Groups/Grace Chorale.md",
+      "title": "Grace Chorale",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Brooklyn, New York",
+        "slug": "grace-chorale"
+      }
+    },
+    {
+      "slug": "gvo",
+      "type": "group",
+      "path": "Groups/Greenwich Village Orchestra.md",
+      "title": "Greenwich Village Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Manhattan, New York",
+        "slug": "gvo"
+      }
+    },
+    {
+      "slug": "litha",
+      "type": "group",
+      "path": "Groups/Litha Symphony.md",
+      "title": "Litha Symphony",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Manhattan, New York",
+        "slug": "litha"
+      }
+    },
+    {
+      "slug": "marylhurst",
+      "type": "group",
+      "path": "Groups/Marylhurst Symphony Orchestra.md",
+      "title": "Marylhurst Symphony Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Lake Oswego, Oregon",
+        "slug": "marylhurst"
+      }
+    },
+    {
+      "slug": "mys",
+      "type": "group",
+      "path": "Groups/Metropolitan Youth Symphony.md",
+      "title": "Metropolitan Youth Symphony",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Portland, Oregon",
+        "slug": "mys"
+      }
+    },
+    {
+      "slug": "pyp-alumni",
+      "type": "group",
+      "path": "Groups/Portland Youth Philharmonic Alumni Orchestra.md",
+      "title": "Portland Youth Philharmonic Alumni Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Portland, Oregon",
+        "slug": "pyp-alumni"
+      }
+    },
+    {
+      "slug": "pyp",
+      "type": "group",
+      "path": "Groups/Portland Youth Philharmonic.md",
+      "title": "Portland Youth Philharmonic",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Portland, Oregon",
+        "slug": "pyp"
+      }
+    },
+    {
+      "slug": "uo-symphony",
+      "type": "group",
+      "path": "Groups/University of Oregon Symphony Orchestra.md",
+      "title": "University of Oregon Symphony Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "frontmatter": {
+        "location": "Eugene, Oregon",
+        "slug": "uo-symphony"
+      }
+    }
+  ],
+  "rehearsal": [],
+  "sheet-music": [],
+  "work": [
+    {
+      "slug": "beethoven-symphony-no-8",
+      "type": "work",
+      "path": "Works/Beethoven - Symphony No. 8.md",
+      "title": "Beethoven - Symphony No. 8",
+      "content": "",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van"
+      }
+    },
+    {
+      "slug": "shostakovich-symphony-no-5",
+      "type": "work",
+      "path": "Works/Shostakovich - Symphony No. 5.md",
+      "title": "Shostakovich - Symphony No. 5",
+      "content": "",
+      "frontmatter": {
+        "composer": "Shostakovich, Dmitri"
+      }
+    }
+  ]
+}
