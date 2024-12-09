@@ -8,7 +8,10 @@ export function getDateFromFilename(filename: string): string | null {
 }
 
 // Helper to format concert title
-export function formatConcertTitle(filename: string, group: { title: string } | undefined): string {
+export function formatConcertTitle(
+  filename: string,
+  group: { title: string } | undefined
+): string {
   // Extract the part in parentheses
   const parenthesesMatch = filename.match(/\((.*?)\)$/);
   const subtitle = parenthesesMatch ? parenthesesMatch[1] : "";
@@ -22,7 +25,9 @@ export function formatDate(dateStr: string | undefined): string {
 
   try {
     // Parse ISO date string components directly
-    const match = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/);
+    const match = dateStr.match(
+      /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/
+    );
     if (!match) return "Invalid date format";
 
     const [_, year, month, day, hour, minute] = match;
@@ -45,7 +50,7 @@ export function formatDate(dateStr: string | undefined): string {
       day: "numeric",
       hour: "numeric",
       minute: "2-digit",
-      hour12: true // Use 12-hour time with AM/PM
+      hour12: true, // Use 12-hour time with AM/PM
     };
 
     return localDate.toLocaleString("en-US", options).replace(":00", ""); // Remove :00 for clean times
@@ -60,7 +65,9 @@ export function getDateForSorting(dateStr: string | undefined): number {
 
   try {
     // Parse ISO date string components directly
-    const match = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/);
+    const match = dateStr.match(
+      /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/
+    );
     if (!match) return 0;
 
     const [_, year, month, day, hour, minute] = match;

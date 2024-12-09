@@ -1,6 +1,12 @@
 import Link from "next/link";
 import database from "@/database";
-import { getDateFromFilename, formatConcertTitle, formatDate, getDateForSorting, findConductorSlug } from "@/lib/helpers";
+import {
+  getDateFromFilename,
+  formatConcertTitle,
+  formatDate,
+  getDateForSorting,
+  findConductorSlug,
+} from "@/lib/helpers";
 
 export default function ConcertsPage() {
   // Sort concerts by date
@@ -40,16 +46,12 @@ export default function ConcertsPage() {
 
               <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
                 <dt className="font-medium">Date</dt>
-                <dd>
-                  {formatDate(concert.frontmatter.date)}
-                </dd>
+                <dd>{formatDate(concert.frontmatter.date)}</dd>
 
                 <dt className="font-medium">Group</dt>
                 <dd>
                   {group && (
-                    <Link href={`/groups/${group.slug}`}>
-                      {group.title}
-                    </Link>
+                    <Link href={`/groups/${group.slug}`}>{group.title}</Link>
                   )}
                 </dd>
 
@@ -65,7 +67,11 @@ export default function ConcertsPage() {
                       {conductors.map((conductorName, i) => (
                         <span key={conductorName}>
                           {i > 0 && ", "}
-                          <Link href={`/conductors/${findConductorSlug(conductorName)}`}>
+                          <Link
+                            href={`/conductors/${findConductorSlug(
+                              conductorName
+                            )}`}
+                          >
                             {conductorName}
                           </Link>
                         </span>

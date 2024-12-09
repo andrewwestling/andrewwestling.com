@@ -5,7 +5,9 @@ import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
 
 export default function ComposerPage({ params }: PageProps) {
-  const composer = database.composer.find((c) => c.slug === decodeURIComponent(params.slug));
+  const composer = database.composer.find(
+    (c) => c.slug === decodeURIComponent(params.slug)
+  );
 
   if (!composer) {
     notFound();
@@ -36,9 +38,7 @@ export default function ComposerPage({ params }: PageProps) {
           <div className="grid gap-4">
             {works.map((work) => (
               <div key={work.slug}>
-                <Link href={`/works/${work.slug}`}>
-                  {work.title}
-                </Link>
+                <Link href={`/works/${work.slug}`}>{work.title}</Link>
               </div>
             ))}
           </div>

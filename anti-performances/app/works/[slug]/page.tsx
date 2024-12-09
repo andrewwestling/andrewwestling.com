@@ -5,7 +5,9 @@ import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
 
 export default function WorkPage({ params }: PageProps) {
-  const work = database.work.find((w) => w.slug === decodeURIComponent(params.slug));
+  const work = database.work.find(
+    (w) => w.slug === decodeURIComponent(params.slug)
+  );
 
   if (!work) {
     notFound();
@@ -32,10 +34,7 @@ export default function WorkPage({ params }: PageProps) {
 
       {composer && (
         <p className="text-lg mb-6">
-          by{" "}
-          <Link href={`/composers/${composer.slug}`}>
-            {composer.title}
-          </Link>
+          by <Link href={`/composers/${composer.slug}`}>{composer.title}</Link>
         </p>
       )}
 

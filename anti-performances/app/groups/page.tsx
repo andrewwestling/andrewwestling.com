@@ -15,13 +15,15 @@ export default function GroupsPage() {
 
           return (
             <div key={group.slug}>
-              <Link href={`/groups/${group.slug}`}>
-                {group.title}
-              </Link>
+              <Link href={`/groups/${group.slug}`}>{group.title}</Link>
               <span className="text-muted ml-2">
                 {group.frontmatter.location}
                 {concerts.length > 0 && (
-                  <> • {concerts.length} concert{concerts.length !== 1 ? "s" : ""}</>
+                  <>
+                    {" "}
+                    • {concerts.length} concert
+                    {concerts.length !== 1 ? "s" : ""}
+                  </>
                 )}
               </span>
             </div>

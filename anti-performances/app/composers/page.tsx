@@ -13,9 +13,7 @@ export default function ComposersPage() {
           );
           return (
             <div key={composer.slug}>
-              <Link href={`/composers/${composer.slug}`}>
-                {composer.title}
-              </Link>
+              <Link href={`/composers/${composer.slug}`}>{composer.title}</Link>
               <span className="text-muted ml-2">
                 ({works.length} work{works.length !== 1 ? "s" : ""})
               </span>

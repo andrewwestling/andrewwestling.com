@@ -9,9 +9,7 @@ export default function HomePage() {
         {/* Concerts */}
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            <Link href="/concerts">
-              Concerts
-            </Link>
+            <Link href="/concerts">Concerts</Link>
           </h2>
           <div className="grid gap-4">
             {database.concert.map((concert) => {
@@ -25,9 +23,7 @@ export default function HomePage() {
 
               return (
                 <div key={concert.slug}>
-                  <Link href={`/concerts/${concertDate}`}>
-                    {displayTitle}
-                  </Link>
+                  <Link href={`/concerts/${concertDate}`}>{displayTitle}</Link>
                 </div>
               );
             })}
@@ -37,16 +33,12 @@ export default function HomePage() {
         {/* Groups */}
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            <Link href="/groups">
-              Groups
-            </Link>
+            <Link href="/groups">Groups</Link>
           </h2>
           <div className="grid gap-4">
             {database.group.map((group) => (
               <div key={group.slug}>
-                <Link href={`/groups/${group.slug}`}>
-                  {group.title}
-                </Link>
+                <Link href={`/groups/${group.slug}`}>{group.title}</Link>
                 <span className="text-muted ml-2">
                   {group.frontmatter.location}
                 </span>
@@ -58,9 +50,7 @@ export default function HomePage() {
         {/* Conductors */}
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            <Link href="/conductors">
-              Conductors
-            </Link>
+            <Link href="/conductors">Conductors</Link>
           </h2>
           <div className="grid gap-4">
             {database.conductor.map((conductor) => (
@@ -76,9 +66,7 @@ export default function HomePage() {
         {/* Works */}
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            <Link href="/works">
-              Works
-            </Link>
+            <Link href="/works">Works</Link>
           </h2>
           <div className="grid gap-4">
             {database.work.map((work) => {
@@ -87,9 +75,7 @@ export default function HomePage() {
               );
               return (
                 <div key={work.slug}>
-                  <Link href={`/works/${work.slug}`}>
-                    {work.title}
-                  </Link>
+                  <Link href={`/works/${work.slug}`}>{work.title}</Link>
                   {composer && (
                     <span className="text-muted ml-2">
                       by{" "}
@@ -107,9 +93,7 @@ export default function HomePage() {
         {/* Composers */}
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            <Link href="/composers">
-              Composers
-            </Link>
+            <Link href="/composers">Composers</Link>
           </h2>
           <div className="grid gap-4">
             {database.composer.map((composer) => {

@@ -25,9 +25,7 @@ export default function WorksPage() {
 
           return (
             <div key={work.slug}>
-              <Link href={`/works/${work.slug}`}>
-                {work.title}
-              </Link>
+              <Link href={`/works/${work.slug}`}>{work.title}</Link>
               {composer && (
                 <span className="text-muted ml-2">
                   by{" "}
@@ -35,7 +33,11 @@ export default function WorksPage() {
                     {composer.title}
                   </Link>
                   {concerts.length > 0 && (
-                    <> • {concerts.length} performance{concerts.length !== 1 ? "s" : ""}</>
+                    <>
+                      {" "}
+                      • {concerts.length} performance
+                      {concerts.length !== 1 ? "s" : ""}
+                    </>
                   )}
                 </span>
               )}

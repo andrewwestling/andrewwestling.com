@@ -5,9 +5,7 @@ import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
 
 export default function GroupPage({ params }: PageProps) {
-  const group = database.group.find(
-    (g) => g.slug === params.slug
-  );
+  const group = database.group.find((g) => g.slug === params.slug);
 
   if (!group) {
     notFound();

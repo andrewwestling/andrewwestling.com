@@ -1,7 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import database from "@/database";
-import { getDateFromFilename, formatConcertTitle, formatDate, findConductorSlug } from "@/lib/helpers";
+import {
+  getDateFromFilename,
+  formatConcertTitle,
+  formatDate,
+  findConductorSlug,
+} from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
 
 export default function ConcertPage({ params }: PageProps) {
@@ -48,17 +53,11 @@ export default function ConcertPage({ params }: PageProps) {
         <h2 className="text-lg font-semibold mb-2">Details</h2>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2">
           <dt className="font-medium">Date</dt>
-          <dd>
-            {formatDate(concert.frontmatter.date)}
-          </dd>
+          <dd>{formatDate(concert.frontmatter.date)}</dd>
 
           <dt className="font-medium">Group</dt>
           <dd>
-            {group && (
-              <Link href={`/groups/${group.slug}`}>
-                {group.title}
-              </Link>
-            )}
+            {group && <Link href={`/groups/${group.slug}`}>{group.title}</Link>}
           </dd>
 
           <dt className="font-medium">Location</dt>
@@ -73,7 +72,9 @@ export default function ConcertPage({ params }: PageProps) {
                 {conductors.map((conductorName, i) => (
                   <span key={conductorName}>
                     {i > 0 && ", "}
-                    <Link href={`/conductors/${findConductorSlug(conductorName)}`}>
+                    <Link
+                      href={`/conductors/${findConductorSlug(conductorName)}`}
+                    >
                       {conductorName}
                     </Link>
                   </span>
@@ -90,9 +91,7 @@ export default function ConcertPage({ params }: PageProps) {
           <ul className="list-disc list-inside">
             {workObjects.map((work) => (
               <li key={work?.slug}>
-                <Link href={`/works/${work?.slug}`}>
-                  {work?.title}
-                </Link>
+                <Link href={`/works/${work?.slug}`}>{work?.title}</Link>
               </li>
             ))}
           </ul>
