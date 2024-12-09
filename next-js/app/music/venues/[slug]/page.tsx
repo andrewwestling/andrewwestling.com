@@ -3,6 +3,7 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { getDateFromFilename } from "@music/lib/helpers";
 import { notFound } from "next/navigation";
+import { routes } from "@music/lib/routes";
 import dynamic from "next/dynamic";
 
 // Import the map component dynamically to avoid SSR issues
@@ -14,13 +15,27 @@ export default function VenuePage({ params }: PageProps) {
   const venue = database.venue.find((v) => v.slug === params.slug);
   if (!venue) notFound();
 
-  const concerts = database.concert.filter(
-    (c) => c.frontmatter.venue === `[[${venue.title}]]`
-  );
+  // Get all concerts at this venue, excluding didNotPlay ones
+  const concerts = database.concert
+    .filter(
+      (c) => !c.frontmatter.didNotPlay && c.frontmatter.venue === venue.title
+    )
+    .sort(
+      (a, b) =>
+        new Date(b.frontmatter.date).getTime() -
+        new Date(a.frontmatter.date).getTime()
+    );
 
   return (
     <div className="py-8">
-      <h1 className="text-4xl font-bold mb-8">{venue.title}</h1>
+      <h1 className="text-4xl font-bold mb-8">
+        {venue.title}
+        {venue.concertCount > 0 && (
+          <span className="text-muted text-2xl ml-4">
+            ({venue.concertCount} concert{venue.concertCount !== 1 ? "s" : ""})
+          </span>
+        )}
+      </h1>
 
       <div className="grid gap-8">
         {/* Venue Details */}
@@ -49,13 +64,13 @@ export default function VenuePage({ params }: PageProps) {
                 const date = getDateFromFilename(concert.slug);
                 return (
                   <div key={concert.slug}>
-                    <Link href={`/concerts/${concert.slug}`}>
+                    <Link href={routes.concerts.show(concert.slug)}>
                       {concert.title}
                     </Link>
                     {group && (
                       <span className="text-muted ml-2">
                         with{" "}
-                        <Link href={`/groups/${group.slug}`}>
+                        <Link href={routes.groups.show(group.slug)}>
                           {group.title}
                         </Link>
                       </span>

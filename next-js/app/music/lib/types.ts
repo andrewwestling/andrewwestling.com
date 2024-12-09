@@ -20,6 +20,7 @@ export interface VenueFrontmatter {
 
 export interface Venue extends BaseItem {
   frontmatter: VenueFrontmatter;
+  concertCount: number;
 }
 
 export interface ConcertFrontmatter {
@@ -58,18 +59,22 @@ export interface Concert extends BaseItem {
 
 export interface Work extends BaseItem {
   frontmatter: WorkFrontmatter;
+  concertCount: number;
 }
 
 export interface Group extends BaseItem {
   frontmatter: GroupFrontmatter;
+  concertCount: number;
 }
 
 export interface Conductor extends BaseItem {
   frontmatter: ConductorFrontmatter;
+  concertCount: number;
 }
 
 export interface Composer extends BaseItem {
   frontmatter: ComposerFrontmatter;
+  concertCount: number;
 }
 
 export interface Database {

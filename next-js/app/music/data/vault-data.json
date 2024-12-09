@@ -1347,7 +1347,7 @@
         "group": "Greenwich Village Orchestra",
         "works": [
           "Mozart - Clarinet Concerto in A Major",
-          "Sibelius - Symphony No. 2"
+          "Sibelius - Symphony No. 1 in E Minor"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -1375,7 +1375,7 @@
           "Andrew Kim"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2jukY5BSpTJWhnssa3wH6x?si=aca03f0980ee4c88",
-        "venue": null
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -1408,7 +1408,8 @@
       "path": "Composers/Adams, John.md",
       "title": "Adams, John",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "anderson-leroy",
@@ -1416,7 +1417,8 @@
       "path": "Composers/Anderson, Leroy.md",
       "title": "Anderson, Leroy",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "bach-carl-philipp-emanuel",
@@ -1424,7 +1426,8 @@
       "path": "Composers/Bach, Carl Philipp Emanuel.md",
       "title": "Bach, Carl Philipp Emanuel",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "bach-johann-sebastian",
@@ -1432,7 +1435,8 @@
       "path": "Composers/Bach, Johann Sebastian.md",
       "title": "Bach, Johann Sebastian",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "badelt-klaus",
@@ -1440,7 +1444,8 @@
       "path": "Composers/Badelt, Klaus.md",
       "title": "Badelt, Klaus",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "barber-samuel",
@@ -1448,7 +1453,8 @@
       "path": "Composers/Barber, Samuel.md",
       "title": "Barber, Samuel",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "bartok-bela",
@@ -1456,7 +1462,8 @@
       "path": "Composers/Bartok, Bela.md",
       "title": "Bartok, Bela",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "beach-amy",
@@ -1464,7 +1471,8 @@
       "path": "Composers/Beach, Amy.md",
       "title": "Beach, Amy",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "beethoven-ludwig-van",
@@ -1472,7 +1480,8 @@
       "path": "Composers/Beethoven, Ludwig van.md",
       "title": "Beethoven, Ludwig van",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 8
     },
     {
       "slug": "berko-alex",
@@ -1480,7 +1489,8 @@
       "path": "Composers/Berko, Alex.md",
       "title": "Berko, Alex",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "berlioz-hector",
@@ -1488,7 +1498,8 @@
       "path": "Composers/Berlioz, Hector.md",
       "title": "Berlioz, Hector",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "bernstein-leonard",
@@ -1496,7 +1507,8 @@
       "path": "Composers/Bernstein, Leonard.md",
       "title": "Bernstein, Leonard",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "bizet-georges",
@@ -1504,7 +1516,8 @@
       "path": "Composers/Bizet, Georges.md",
       "title": "Bizet, Georges",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "brahms-johannes",
@@ -1512,7 +1525,8 @@
       "path": "Composers/Brahms, Johannes.md",
       "title": "Brahms, Johannes",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 6
     },
     {
       "slug": "bridge-frank",
@@ -1520,7 +1534,8 @@
       "path": "Composers/Bridge, Frank.md",
       "title": "Bridge, Frank",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "britten-benjamin",
@@ -1528,7 +1543,8 @@
       "path": "Composers/Britten, Benjamin.md",
       "title": "Britten, Benjamin",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "chausson-ernest",
@@ -1536,7 +1552,8 @@
       "path": "Composers/Chausson, Ernest.md",
       "title": "Chausson, Ernest",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "chavez-carlos",
@@ -1544,7 +1561,8 @@
       "path": "Composers/Chavez, Carlos.md",
       "title": "Chavez, Carlos",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "chevalier-de-saint-georges-joseph-bologne",
@@ -1552,7 +1570,8 @@
       "path": "Composers/Chevalier de Saint-Georges, Joseph Bologne.md",
       "title": "Chevalier de Saint-Georges, Joseph Bologne",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "coleridge-taylor-samuel",
@@ -1560,7 +1579,8 @@
       "path": "Composers/Coleridge-Taylor, Samuel.md",
       "title": "Coleridge-Taylor, Samuel",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "copland-aaron",
@@ -1568,7 +1588,8 @@
       "path": "Composers/Copland, Aaron.md",
       "title": "Copland, Aaron",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 4
     },
     {
       "slug": "debussy-claude",
@@ -1576,7 +1597,8 @@
       "path": "Composers/Debussy, Claude.md",
       "title": "Debussy, Claude",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "delius-frederick",
@@ -1584,7 +1606,8 @@
       "path": "Composers/Delius, Frederick.md",
       "title": "Delius, Frederick",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "dvorak-antonin",
@@ -1592,7 +1615,8 @@
       "path": "Composers/Dvorak, Antonin.md",
       "title": "Dvorak, Antonin",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 7
     },
     {
       "slug": "elgar-edward",
@@ -1600,7 +1624,8 @@
       "path": "Composers/Elgar, Edward.md",
       "title": "Elgar, Edward",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 4
     },
     {
       "slug": "ellington-duke",
@@ -1608,7 +1633,8 @@
       "path": "Composers/Ellington, Duke.md",
       "title": "Ellington, Duke",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "enescu-george",
@@ -1616,7 +1642,8 @@
       "path": "Composers/Enescu, George.md",
       "title": "Enescu, George",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "faure-gabriel",
@@ -1624,7 +1651,8 @@
       "path": "Composers/Faure, Gabriel.md",
       "title": "Faure, Gabriel",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "gershwin-george",
@@ -1632,7 +1660,8 @@
       "path": "Composers/Gershwin, George.md",
       "title": "Gershwin, George",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "giordano-umberto",
@@ -1640,7 +1669,8 @@
       "path": "Composers/Giordano, Umberto.md",
       "title": "Giordano, Umberto",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "glass-philip",
@@ -1648,7 +1678,8 @@
       "path": "Composers/Glass, Philip.md",
       "title": "Glass, Philip",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "gliere-reinhold",
@@ -1656,7 +1687,8 @@
       "path": "Composers/Gliere, Reinhold.md",
       "title": "Gliere, Reinhold",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "glinka-mikhail",
@@ -1664,7 +1696,8 @@
       "path": "Composers/Glinka, Mikhail.md",
       "title": "Glinka, Mikhail",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "grieg-edvard",
@@ -1672,7 +1705,8 @@
       "path": "Composers/Grieg, Edvard.md",
       "title": "Grieg, Edvard",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "griffes-charles",
@@ -1680,7 +1714,8 @@
       "path": "Composers/Griffes, Charles.md",
       "title": "Griffes, Charles",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "haydn-joseph",
@@ -1688,7 +1723,8 @@
       "path": "Composers/Haydn, Joseph.md",
       "title": "Haydn, Joseph",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "herrmann-bernard",
@@ -1696,7 +1732,8 @@
       "path": "Composers/Herrmann, Bernard.md",
       "title": "Herrmann, Bernard",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "higdon-jennifer",
@@ -1704,7 +1741,8 @@
       "path": "Composers/Higdon, Jennifer.md",
       "title": "Higdon, Jennifer",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "hindemith-paul",
@@ -1712,7 +1750,8 @@
       "path": "Composers/Hindemith, Paul.md",
       "title": "Hindemith, Paul",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "holst-gustav",
@@ -1720,7 +1759,8 @@
       "path": "Composers/Holst, Gustav.md",
       "title": "Holst, Gustav",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "ives-charles",
@@ -1728,7 +1768,8 @@
       "path": "Composers/Ives, Charles.md",
       "title": "Ives, Charles",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "khachaturian-aram",
@@ -1736,7 +1777,8 @@
       "path": "Composers/Khachaturian, Aram.md",
       "title": "Khachaturian, Aram",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "lecuona-ernesto",
@@ -1744,7 +1786,8 @@
       "path": "Composers/Lecuona, Ernesto.md",
       "title": "Lecuona, Ernesto",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "leshnoff-jonathan",
@@ -1752,7 +1795,8 @@
       "path": "Composers/Leshnoff, Jonathan.md",
       "title": "Leshnoff, Jonathan",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "liszt-franz",
@@ -1760,7 +1804,8 @@
       "path": "Composers/Liszt, Franz.md",
       "title": "Liszt, Franz",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "lully-jean-baptiste",
@@ -1768,7 +1813,8 @@
       "path": "Composers/Lully, Jean-Baptiste.md",
       "title": "Lully, Jean-Baptiste",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "mahler-gustav",
@@ -1776,7 +1822,8 @@
       "path": "Composers/Mahler, Gustav.md",
       "title": "Mahler, Gustav",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "marquez-arturo",
@@ -1784,7 +1831,8 @@
       "path": "Composers/Marquez, Arturo.md",
       "title": "Marquez, Arturo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "mazzoli-missy",
@@ -1792,7 +1840,8 @@
       "path": "Composers/Mazzoli, Missy.md",
       "title": "Mazzoli, Missy",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "mendelssohn-felix",
@@ -1800,7 +1849,8 @@
       "path": "Composers/Mendelssohn, Felix.md",
       "title": "Mendelssohn, Felix",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "moncayo-jose-pablo",
@@ -1808,7 +1858,8 @@
       "path": "Composers/Moncayo, Jose Pablo.md",
       "title": "Moncayo, Jose Pablo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "montgomery-jessie",
@@ -1816,7 +1867,8 @@
       "path": "Composers/Montgomery, Jessie.md",
       "title": "Montgomery, Jessie",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "mozart-wolfgang-amadeus",
@@ -1824,7 +1876,8 @@
       "path": "Composers/Mozart, Wolfgang Amadeus.md",
       "title": "Mozart, Wolfgang Amadeus",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 9
     },
     {
       "slug": "nielsen-carl",
@@ -1832,7 +1885,8 @@
       "path": "Composers/Nielsen, Carl.md",
       "title": "Nielsen, Carl",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "paganini-niccolo",
@@ -1840,7 +1894,8 @@
       "path": "Composers/Paganini, Niccolo.md",
       "title": "Paganini, Niccolo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "pergolesi-giovanni-battista",
@@ -1848,7 +1903,8 @@
       "path": "Composers/Pergolesi, Giovanni Battista.md",
       "title": "Pergolesi, Giovanni Battista",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "price-florence",
@@ -1856,7 +1912,8 @@
       "path": "Composers/Price, Florence.md",
       "title": "Price, Florence",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "prokofiev-sergei",
@@ -1864,7 +1921,8 @@
       "path": "Composers/Prokofiev, Sergei.md",
       "title": "Prokofiev, Sergei",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 4
     },
     {
       "slug": "puccini-giacomo",
@@ -1872,7 +1930,8 @@
       "path": "Composers/Puccini, Giacomo.md",
       "title": "Puccini, Giacomo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "reinecke-carl",
@@ -1880,7 +1939,8 @@
       "path": "Composers/Reinecke, Carl.md",
       "title": "Reinecke, Carl",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "respighi-ottorino",
@@ -1888,7 +1948,8 @@
       "path": "Composers/Respighi, Ottorino.md",
       "title": "Respighi, Ottorino",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "richter-max",
@@ -1896,7 +1957,8 @@
       "path": "Composers/Richter, Max.md",
       "title": "Richter, Max",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "rimsky-korsakov-nikolai",
@@ -1904,7 +1966,8 @@
       "path": "Composers/Rimsky-Korsakov, Nikolai.md",
       "title": "Rimsky-Korsakov, Nikolai",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "rosauro-ney",
@@ -1912,7 +1975,8 @@
       "path": "Composers/Rosauro, Ney.md",
       "title": "Rosauro, Ney",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "rossini-gioachino",
@@ -1920,7 +1984,8 @@
       "path": "Composers/Rossini, Gioachino.md",
       "title": "Rossini, Gioachino",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "roussel-albert",
@@ -1928,7 +1993,8 @@
       "path": "Composers/Roussel, Albert.md",
       "title": "Roussel, Albert",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "rubenstein-anton",
@@ -1936,7 +2002,8 @@
       "path": "Composers/Rubenstein, Anton.md",
       "title": "Rubenstein, Anton",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "saint-saens-camille",
@@ -1944,7 +2011,8 @@
       "path": "Composers/Saint-Saens, Camille.md",
       "title": "Saint-Saens, Camille",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "sankey-stuart",
@@ -1952,7 +2020,8 @@
       "path": "Composers/Sankey, Stuart.md",
       "title": "Sankey, Stuart",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "schumann-robert",
@@ -1960,7 +2029,8 @@
       "path": "Composers/Schumann, Robert.md",
       "title": "Schumann, Robert",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "shchedrin-rodion",
@@ -1968,7 +2038,8 @@
       "path": "Composers/Shchedrin, Rodion.md",
       "title": "Shchedrin, Rodion",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "shepherd-sean",
@@ -1976,7 +2047,8 @@
       "path": "Composers/Shepherd, Sean.md",
       "title": "Shepherd, Sean",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "shostakovich-dmitri",
@@ -1984,7 +2056,8 @@
       "path": "Composers/Shostakovich, Dmitri.md",
       "title": "Shostakovich, Dmitri",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "sibelius-jean",
@@ -1992,7 +2065,8 @@
       "path": "Composers/Sibelius, Jean.md",
       "title": "Sibelius, Jean",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 5
     },
     {
       "slug": "sousa-john-philip",
@@ -2000,7 +2074,8 @@
       "path": "Composers/Sousa, John Philip.md",
       "title": "Sousa, John Philip",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "still-william-grant",
@@ -2008,7 +2083,8 @@
       "path": "Composers/Still, William Grant.md",
       "title": "Still, William Grant",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "strauss-johann",
@@ -2016,7 +2092,8 @@
       "path": "Composers/Strauss, Johann.md",
       "title": "Strauss, Johann",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "strauss-richard",
@@ -2024,7 +2101,8 @@
       "path": "Composers/Strauss, Richard.md",
       "title": "Strauss, Richard",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "tchaikovsky-piotr-ilyich",
@@ -2032,7 +2110,8 @@
       "path": "Composers/Tchaikovsky, Piotr Ilyich.md",
       "title": "Tchaikovsky, Piotr Ilyich",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 13
     },
     {
       "slug": "vaughan-williams-ralph",
@@ -2040,7 +2119,8 @@
       "path": "Composers/Vaughan Williams, Ralph.md",
       "title": "Vaughan Williams, Ralph",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "verdi-giuseppe",
@@ -2048,7 +2128,8 @@
       "path": "Composers/Verdi, Giuseppe.md",
       "title": "Verdi, Giuseppe",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "vivaldi-antonio",
@@ -2056,7 +2137,8 @@
       "path": "Composers/Vivaldi, Antonio.md",
       "title": "Vivaldi, Antonio",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "wagner-richard",
@@ -2064,7 +2146,8 @@
       "path": "Composers/Wagner, Richard.md",
       "title": "Wagner, Richard",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "waldteufel-emile",
@@ -2072,7 +2155,8 @@
       "path": "Composers/Waldteufel, Emile.md",
       "title": "Waldteufel, Emile",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "webern-anton",
@@ -2080,7 +2164,8 @@
       "path": "Composers/Webern, Anton.md",
       "title": "Webern, Anton",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "williams-john",
@@ -2088,7 +2173,8 @@
       "path": "Composers/Williams, John.md",
       "title": "Williams, John",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "wolf-ferrari-ermanno",
@@ -2096,7 +2182,8 @@
       "path": "Composers/Wolf-Ferrari, Ermanno.md",
       "title": "Wolf-Ferrari, Ermanno",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "yarmolinsky-benjamin",
@@ -2104,7 +2191,8 @@
       "path": "Composers/Yarmolinsky, Benjamin.md",
       "title": "Yarmolinsky, Benjamin",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "von-weber-carl-maria",
@@ -2112,7 +2200,8 @@
       "path": "Composers/von Weber, Carl Maria.md",
       "title": "von Weber, Carl Maria",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     }
   ],
   "conductor": [
@@ -2122,7 +2211,8 @@
       "path": "Conductors/Andrew Kim.md",
       "title": "Andrew Kim",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "andy-bhasin",
@@ -2130,7 +2220,8 @@
       "path": "Conductors/Andy Bhasin.md",
       "title": "Andy Bhasin",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "barbara-yahr",
@@ -2138,7 +2229,8 @@
       "path": "Conductors/Barbara Yahr.md",
       "title": "Barbara Yahr",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 18
     },
     {
       "slug": "bryant-denmark",
@@ -2146,7 +2238,8 @@
       "path": "Conductors/Bryant Denmark.md",
       "title": "Bryant Denmark",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "david-bernard",
@@ -2154,7 +2247,8 @@
       "path": "Conductors/David Bernard.md",
       "title": "David Bernard",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "david-hagy",
@@ -2162,7 +2256,8 @@
       "path": "Conductors/David Hagy.md",
       "title": "David Hagy",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "david-hattner",
@@ -2170,7 +2265,8 @@
       "path": "Conductors/David Hattner.md",
       "title": "David Hattner",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "david-jacobs",
@@ -2178,7 +2274,8 @@
       "path": "Conductors/David Jacobs.md",
       "title": "David Jacobs",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "eli-spindel",
@@ -2186,7 +2283,8 @@
       "path": "Conductors/Eli Spindel.md",
       "title": "Eli Spindel",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "eric-garcia",
@@ -2194,7 +2292,8 @@
       "path": "Conductors/Eric Garcia.md",
       "title": "Eric Garcia",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "eric-hayslett",
@@ -2202,7 +2301,8 @@
       "path": "Conductors/Eric Hayslett.md",
       "title": "Eric Hayslett",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "eric-mahl",
@@ -2210,7 +2310,8 @@
       "path": "Conductors/Eric Mahl.md",
       "title": "Eric Mahl",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 4
     },
     {
       "slug": "felipe-tristan",
@@ -2218,7 +2319,8 @@
       "path": "Conductors/Felipe Tristan.md",
       "title": "Felipe Tristan",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 5
     },
     {
       "slug": "ian-shafer",
@@ -2226,7 +2328,8 @@
       "path": "Conductors/Ian Shafer.md",
       "title": "Ian Shafer",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     },
     {
       "slug": "jason-asbury",
@@ -2234,7 +2337,8 @@
       "path": "Conductors/Jason Asbury.md",
       "title": "Jason Asbury",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "nick-armstrong",
@@ -2242,7 +2346,8 @@
       "path": "Conductors/Nick Armstrong.md",
       "title": "Nick Armstrong",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 6
     },
     {
       "slug": "nico-olarte-hayes",
@@ -2250,7 +2355,8 @@
       "path": "Conductors/Nico Olarte-Hayes.md",
       "title": "Nico Olarte-Hayes",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "scott-jackson-wiley",
@@ -2258,7 +2364,8 @@
       "path": "Conductors/Scott Jackson Wiley.md",
       "title": "Scott Jackson Wiley",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
-      "frontmatter": {}
+      "frontmatter": {},
+      "concertCount": 2
     }
   ],
   "group": [
@@ -2271,7 +2378,8 @@
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "back-quartet"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "bantam",
@@ -2282,7 +2390,8 @@
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "bantam"
-      }
+      },
+      "concertCount": 3
     },
     {
       "slug": "boise-phil",
@@ -2293,7 +2402,8 @@
       "frontmatter": {
         "location": "Boise, Idaho",
         "slug": "boise-phil"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "bso",
@@ -2304,7 +2414,8 @@
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "bso"
-      }
+      },
+      "concertCount": 16
     },
     {
       "slug": "centre",
@@ -2315,7 +2426,8 @@
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "centre"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "chehalem",
@@ -2326,7 +2438,8 @@
       "frontmatter": {
         "location": "Newberg, Oregon",
         "slug": "chehalem"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "grace-chorale",
@@ -2337,7 +2450,8 @@
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "grace-chorale"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "gvo",
@@ -2348,7 +2462,8 @@
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "gvo"
-      }
+      },
+      "concertCount": 18
     },
     {
       "slug": "litha",
@@ -2359,7 +2474,8 @@
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "litha"
-      }
+      },
+      "concertCount": 3
     },
     {
       "slug": "marylhurst",
@@ -2370,7 +2486,8 @@
       "frontmatter": {
         "location": "Lake Oswego, Oregon",
         "slug": "marylhurst"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "mys",
@@ -2381,7 +2498,8 @@
       "frontmatter": {
         "location": "Portland, Oregon",
         "slug": "mys"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "new-school",
@@ -2392,7 +2510,8 @@
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "new-school"
-      }
+      },
+      "concertCount": 4
     },
     {
       "slug": "pyp-alumni",
@@ -2403,7 +2522,8 @@
       "frontmatter": {
         "location": "Portland, Oregon",
         "slug": "pyp-alumni"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "pyp",
@@ -2414,7 +2534,8 @@
       "frontmatter": {
         "location": "Portland, Oregon",
         "slug": "pyp"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "uo-symphony",
@@ -2425,7 +2546,8 @@
       "frontmatter": {
         "location": "Eugene, Oregon",
         "slug": "uo-symphony"
-      }
+      },
+      "concertCount": 0
     }
   ],
   "rehearsal": [],
@@ -2439,7 +2561,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.761709219548486, -73.96460402266095"
-      }
+      },
+      "concertCount": 6
     },
     {
       "slug": "arlene-schnitzer-concert-hall",
@@ -2449,7 +2572,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "45.517072894870246, -122.68115749999998"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "broadway-presbyterian-church",
@@ -2459,7 +2583,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.80704919393662, -73.96516734879553"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "brooklyn-museum",
@@ -2469,7 +2594,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.671303786389714, -73.96339456115611"
-      }
+      },
+      "concertCount": 15
     },
     {
       "slug": "church-of-the-holy-apostles",
@@ -2479,7 +2605,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.74940177287778, -73.99852036440322"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "concert-grove-pavilion-prospect-park",
@@ -2489,7 +2616,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.659367878012375, -73.96422698510285"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "good-shepherd-faith-presbyterian-church",
@@ -2499,7 +2627,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.77445657027036, -73.98372227861884"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "high-school-of-fashion-industries",
@@ -2509,7 +2638,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.74559725687072, -73.99604441594519"
-      }
+      },
+      "concertCount": 7
     },
     {
       "slug": "littlefield",
@@ -2519,7 +2649,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.67872855633899, -73.9831076571556"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "morrison-center",
@@ -2529,7 +2660,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "43.60691693461088, -116.20706762492217"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "roulette",
@@ -2539,7 +2671,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.68569005483316, -73.98039798665222"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "saint-john-s-in-the-village",
@@ -2549,7 +2682,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.7364142786547, -74.00207533777161"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "st-ann-and-the-holy-trinity-church",
@@ -2559,7 +2693,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.69792476267189, -73.98781909687445"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "the-dimenna-center-for-classical-music",
@@ -2569,7 +2704,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.756322473257136, -73.99656469813138"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "tishman-auditorium-the-new-school",
@@ -2579,7 +2715,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.73555460149865, -73.99321600608772"
-      }
+      },
+      "concertCount": 4
     },
     {
       "slug": "washington-irving-high-school",
@@ -2589,7 +2726,8 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.73562193587602, -73.98689945662588"
-      }
+      },
+      "concertCount": 3
     }
   ],
   "work": [
@@ -2601,7 +2739,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Adams, John"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "anderson-sleigh-ride",
@@ -2611,7 +2750,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "bach-flute-concerto-in-a-major",
@@ -2621,7 +2761,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bach, Carl Philipp Emanuel"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "badelt-pirates-of-the-caribbean",
@@ -2631,7 +2772,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Badelt, Klaus"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "barber-adagio-for-strings",
@@ -2641,7 +2783,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "barber-souvenirs",
@@ -2651,7 +2794,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "barber-violin-concerto",
@@ -2661,7 +2805,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "bartok-concerto-for-orchestra",
@@ -2671,7 +2816,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bartok, Bela"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "beethoven-leonore-overture-no-3",
@@ -2681,7 +2827,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "beethoven-symphony-no-5-in-c-minor",
@@ -2691,7 +2838,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "beethoven-symphony-no-6-in-f-major",
@@ -2701,7 +2849,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "beethoven-symphony-no-7-in-a-major",
@@ -2711,7 +2860,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "beethoven-symphony-no-8-in-f-major",
@@ -2721,7 +2871,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
-      }
+      },
+      "concertCount": 3
     },
     {
       "slug": "berko-condense-eternity",
@@ -2731,7 +2882,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Berko, Alex"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "berlioz-roman-carnival-overture",
@@ -2741,7 +2893,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Berlioz, Hector"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "bernstein-overture-to-candide",
@@ -2751,7 +2904,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bernstein, Leonard"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "bizet-carmen-suite-no-1",
@@ -2761,7 +2915,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "bizet-carmen-suite-no-2",
@@ -2771,7 +2926,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "bizet-carmen",
@@ -2781,7 +2937,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "brahms-academic-festival-overture",
@@ -2791,7 +2948,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "brahms-symphony-no-1-in-c-minor",
@@ -2801,7 +2959,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "brahms-symphony-no-2-in-d-major",
@@ -2811,7 +2970,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "brahms-symphony-no-3-in-f-major",
@@ -2821,7 +2981,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "brahms-symphony-no-4-in-e-minor",
@@ -2831,7 +2992,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "chausson-poeme",
@@ -2841,7 +3003,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chausson, Ernest"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "chavez-sinfonia-india-symphony-no-2",
@@ -2851,7 +3014,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chavez, Carlos"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "chevalier-de-saint-georges-overture-to-l-amant-anonyme",
@@ -2861,7 +3025,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chevalier de Saint-Georges, Joseph Bologne"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "coleridge-taylor-scenes-from-the-song-of-hiawatha",
@@ -2871,7 +3036,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Coleridge-Taylor, Samuel"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "copland-appalachian-spring",
@@ -2881,7 +3047,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "copland-fanfare-for-the-common-man",
@@ -2891,7 +3058,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "copland-lincoln-portrait",
@@ -2901,7 +3069,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "copland-rodeo",
@@ -2911,7 +3080,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "debussy-la-mer",
@@ -2921,7 +3091,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Debussy, Claude"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "debussy-petite-suite",
@@ -2931,7 +3102,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Debussy, Claude"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "delius-sleigh-ride",
@@ -2941,7 +3113,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Delius, Frederick"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "dvorak-string-quartet-no-12-in-f-major-american",
@@ -2951,7 +3124,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "dvorak-symphony-no-6-in-d-major",
@@ -2961,7 +3135,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "dvorak-symphony-no-7-in-d-minor",
@@ -2971,7 +3146,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "dvorak-symphony-no-8-in-g-major",
@@ -2981,7 +3157,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin"
-      }
+      },
+      "concertCount": 3
     },
     {
       "slug": "dvorak-symphony-no-9-in-e-minor",
@@ -2991,7 +3168,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "elgar-cello-concerto-in-e-minor",
@@ -3001,7 +3179,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "elgar-in-the-south-alassio-concert-overture",
@@ -3011,7 +3190,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "elgar-pomp-and-circumstance-march-no-3-in-c-minor",
@@ -3021,7 +3201,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "elgar-pomp-and-circumstance-march-no-4-in-g-major",
@@ -3031,7 +3212,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "elgar-serenade-for-strings",
@@ -3041,7 +3223,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "ellington-nutcracker-suite",
@@ -3051,7 +3234,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ellington, Duke"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "enescu-romanian-rhapsody-no-1-in-a-major",
@@ -3061,7 +3245,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Enescu, George"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "faure-pavane",
@@ -3071,7 +3256,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Faure, Gabriel"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "gershwin-an-american-in-paris",
@@ -3081,7 +3267,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Gershwin, George"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "giordano-andrea-chenier",
@@ -3091,7 +3278,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Giordano, Umberto"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "gliere-russian-sailor-s-dance-from-the-red-poppy",
@@ -3101,7 +3289,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Gliere, Reinhold"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "glinka-ruslan-and-ludmila-overture",
@@ -3111,7 +3300,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Glinka, Mikhail"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "grieg-peer-gynt-suite-no-1",
@@ -3121,7 +3311,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Grieg, Edvard"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "griffes-poem-for-flute-and-orchestra",
@@ -3131,7 +3322,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Griffes, Charles"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "haydn-symphony-no-104-in-d-major-london",
@@ -3141,7 +3333,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "haydn-symphony-no-31-in-d-major",
@@ -3151,7 +3344,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "herrmann-psycho-a-suite-for-strings",
@@ -3161,7 +3355,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Herrmann, Bernard"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "hindemith-symphonic-metamorphosis-of-themes-by-carl-maria-von-weber",
@@ -3171,7 +3366,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Hindemith, Paul"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "holst-st-paul-s-suite",
@@ -3181,7 +3377,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Holst, Gustav"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "ives-the-unanswered-question",
@@ -3191,7 +3388,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ives, Charles"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "khachaturian-maskerade-suite",
@@ -3201,7 +3399,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Khachaturian, Aram"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "lecuona-andalucia-suite",
@@ -3211,7 +3410,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Lecuona, Ernesto"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "leshnoff-double-concerto-for-clarinet-bassoon",
@@ -3221,7 +3421,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Leshnoff, Jonathan"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "liszt-les-preludes",
@@ -3231,7 +3432,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Liszt, Franz"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mahler-symphony-no-1",
@@ -3241,7 +3443,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mahler, Gustav"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "marquez-danzon-no-2",
@@ -3251,7 +3454,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Marquez, Arturo"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "marquez-danzon-no-4",
@@ -3261,7 +3465,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Marquez, Arturo"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mazzoli-these-worlds-in-us",
@@ -3271,7 +3476,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mazzoli, Missy"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mendelssohn-a-midsummer-night-s-dream",
@@ -3281,7 +3487,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mendelssohn-hebrides-overture-fingal-s-cave",
@@ -3291,7 +3498,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
@@ -3301,7 +3509,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mendelssohn-violin-concerto-in-e-minor",
@@ -3311,7 +3520,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "moncayo-huapango",
@@ -3321,7 +3531,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Moncayo, Jose Pablo"
-      }
+      },
+      "concertCount": 3
     },
     {
       "slug": "montgomery-strum",
@@ -3331,7 +3542,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Montgomery, Jessie"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mozart-clarinet-concerto-in-a-major",
@@ -3341,7 +3553,8 @@
       "content": "K. 622",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mozart-divertimento-in-f-major",
@@ -3351,7 +3564,8 @@
       "content": "K. 138",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mozart-horn-concerto-no-3-in-e-flat-major",
@@ -3361,7 +3575,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mozart-piano-concerto-no-20-in-d-minor",
@@ -3371,7 +3586,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "mozart-serenade-no-10-in-b-flat-major",
@@ -3381,7 +3597,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "mozart-sinfonia-concertante-for-violin-and-viola",
@@ -3391,7 +3608,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "mozart-symphony-no-31",
@@ -3401,7 +3619,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "nielsen-flute-concerto",
@@ -3411,7 +3630,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Nielsen, Carl"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "paganini-violin-concerto-no-1-in-d-major",
@@ -3421,7 +3641,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Paganini, Niccolo"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "price-andante-cantabile-from-string-quartet-no-2",
@@ -3431,7 +3652,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Price, Florence"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "price-the-oak",
@@ -3441,7 +3663,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Price, Florence"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "prokofiev-overture-on-hebrew-themes",
@@ -3451,7 +3674,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "prokofiev-peter-and-the-wolf",
@@ -3461,7 +3685,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "prokofiev-romeo-and-juliet",
@@ -3471,7 +3696,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "prokofiev-symphony-no-5-in-b-flat-major",
@@ -3481,7 +3707,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "prokofiev-violin-concerto-no-2-in-g-minor",
@@ -3491,7 +3718,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "puccini-tosca",
@@ -3501,7 +3729,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Puccini, Giacomo"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "reinecke-flute-concerto-in-d-major",
@@ -3511,7 +3740,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Reinecke, Carl"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "respighi-the-pines-of-rome",
@@ -3521,7 +3751,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Respighi, Ottorino"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "richter-recomposed-the-four-seasons",
@@ -3531,7 +3762,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Richter, Max"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "rimsky-korsakov-snow-maiden-suite",
@@ -3541,7 +3773,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "rosauro-concerto-no-1-for-marimba-string-orchestra",
@@ -3551,7 +3784,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rosauro, Ney"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "rossini-overture-to-la-gazza-ladra",
@@ -3561,7 +3795,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "rossini-overture-to-the-barber-of-seville",
@@ -3571,7 +3806,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "rossini-overture-to-william-tell",
@@ -3581,7 +3817,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "rubenstein-cello-concerto-no-2",
@@ -3591,7 +3828,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rubenstein, Anton"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "saint-saens-bacchanale-from-samson-and-delilah",
@@ -3601,7 +3839,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Saint-Saens, Camille"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "saint-saens-violin-concerto-no-3-in-b-minor",
@@ -3611,7 +3850,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Saint-Saens, Camille"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "sankey-carmen-fantasy-after-bizet",
@@ -3621,7 +3861,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sankey, Stuart"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "schumann-symphony-no-4-in-d-minor",
@@ -3631,7 +3872,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Schumann, Robert"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "shchedrin-carmen-suite",
@@ -3641,7 +3883,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shchedrin, Rodion"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "shepherd-songs",
@@ -3651,7 +3894,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shepherd, Sean"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "shostakovich-symphony-no-5",
@@ -3661,7 +3905,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shostakovich, Dmitri"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "sibelius-andante-festivo",
@@ -3671,7 +3916,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "sibelius-spring-song-v-rs-ng",
@@ -3681,7 +3927,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "sibelius-symphony-no-1-in-e-minor",
@@ -3691,7 +3938,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "sibelius-symphony-no-2",
@@ -3701,7 +3949,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "sibelius-violin-concerto",
@@ -3711,7 +3960,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "sousa-stars-and-stripes-forever",
@@ -3721,7 +3971,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sousa, John Philip"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "still-afro-american-symphony",
@@ -3731,7 +3982,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Still, William Grant"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "still-danzas-de-panama",
@@ -3741,7 +3993,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Still, William Grant"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "strauss-emperor-waltz",
@@ -3751,7 +4004,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "strauss-perpetuum-mobile",
@@ -3761,7 +4015,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "strauss-radetsky-march",
@@ -3771,7 +4026,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "strauss-the-blue-danube",
@@ -3781,7 +4037,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-romeo-juliet-fantasy-overture",
@@ -3791,7 +4048,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-serenade-for-strings",
@@ -3801,7 +4059,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "tchaikovsky-string-quartet-no-1-in-d-major",
@@ -3811,7 +4070,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-suite-no-4-in-g-major-mozartiana",
@@ -3821,7 +4081,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-swan-lake-suite",
@@ -3831,7 +4092,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-symphony-no-1-in-g-minor",
@@ -3841,7 +4103,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-symphony-no-4-in-f-minor",
@@ -3851,7 +4114,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 2
     },
     {
       "slug": "tchaikovsky-symphony-no-5-in-e-minor",
@@ -3861,7 +4125,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 0
     },
     {
       "slug": "tchaikovsky-the-nutcracker-suite",
@@ -3871,7 +4136,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 3
     },
     {
       "slug": "tchaikovsky-variations-on-a-rococo-theme",
@@ -3881,7 +4147,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "vaughan-williams-norfolk-rhapsody-no-1-in-e-minor",
@@ -3891,7 +4158,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "vaughan-williams-the-lark-ascending",
@@ -3901,7 +4169,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "verdi-overture-to-nabucco",
@@ -3911,7 +4180,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Verdi, Giuseppe"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "verdi-rigoletto",
@@ -3921,7 +4191,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Verdi, Giuseppe"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "vivaldi-concerto-for-strings-in-g-minor",
@@ -3931,7 +4202,8 @@
       "content": "RV 157",
       "frontmatter": {
         "composer": "Vivaldi, Antonio"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "wagner-die-walk-re",
@@ -3941,7 +4213,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Wagner, Richard"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "wagner-lohengrin",
@@ -3951,7 +4224,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Wagner, Richard"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "wagner-tristan-und-isolde",
@@ -3961,7 +4235,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Wagner, Richard"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "waldteufel-the-skater-s-waltz-les-patineurs",
@@ -3971,7 +4246,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Waldteufel, Emile"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "webern-langsamer-satz",
@@ -3981,7 +4257,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Webern, Anton"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "williams-star-wars",
@@ -3991,7 +4268,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Williams, John"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "williams-superman-march",
@@ -4001,7 +4279,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Williams, John"
-      }
+      },
+      "concertCount": 1
     },
     {
       "slug": "yarmolinsky-the-consitution-a-secular-oratorio",
@@ -4011,7 +4290,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Yarmolinsky, Benjamin"
-      }
+      },
+      "concertCount": 1
     }
   ]
 }
