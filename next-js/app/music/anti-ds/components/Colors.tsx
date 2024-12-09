@@ -1,4 +1,4 @@
-import { antiColors } from "../../../tailwind.config";
+import { awdsColors } from "../../../../tailwind.config";
 
 export const Colors = () => {
   const ForceTailwindToGenerateStylesForAllTheColors = () => (
@@ -18,7 +18,7 @@ export const Colors = () => {
   );
 
   /** Show the color's `DEFAULT` or `dark` value, depending on screen mode */
-  const ColorValue = ({ value }: { value: (typeof antiColors)[string] }) => (
+  const ColorValue = ({ value }: { value: (typeof awdsColors)[string] }) => (
     <>
       {/* Default Value */}
       <span className={value.dark && "block dark:hidden"}>{value.DEFAULT}</span>
@@ -30,7 +30,7 @@ export const Colors = () => {
 
   return (
     <div className="mt-3 grid grid-cols-1 md:grid-cols-4 gap-1 md:gap-3">
-      {Object.entries(antiColors).map(([color, value]) => (
+      {Object.entries(awdsColors).map(([color, value]) => (
         <div key={color} className="grid grid-rows-2">
           <div
             className={[

@@ -1,11 +1,11 @@
 import { ComponentWrapper } from "./components/ComponentWrapper";
 import { Colors } from "./components/Colors";
 import NextLink from "next/link";
-import { DidNotPlay } from "@/components/DidNotPlay";
-import { VenueMap } from "@/components/VenueMap";
+import { DidNotPlay } from "@music/components/DidNotPlay";
+import { VenueMap } from "@music/components/VenueMap";
 import dynamic from "next/dynamic";
 
-export const ClientVenueMap = dynamic(() => import("@/components/VenueMap"), {
+export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
 });
 
@@ -34,80 +34,13 @@ export const Message = ({ children }) => (
 
 ---
 
-# Colors
-
-<Colors />
-
----
-
 # Components
 
-- [Typography](#typography)
-  - [Headings](#headings)
-  - [Text](#text)
-  - [Links](#links)
-  - [Lists](#lists)
-  - [Blockquotes](#blockquotes)
-  - [Code](#code)
-- [Badges](#badges)
-  - [DidNotPlay](#didnotplay)
-- [Maps](#maps)
-  - [VenueMap](#venuemap)
+- [DidNotPlay](#didnotplay)
+- [VenueMap](#venuemap)
 
-## Typography
 
-### Headings
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-### Text
-
-Regular paragraph text looks like this. The quick brown fox jumps over the lazy dog.
-
-*This text is italicized*
-
-**This text is bold**
-
-***This text is bold and italicized***
-
-### Links
-
-[This is a link](#)
-
-### Lists
-
-- Unordered list item 1
-- Unordered list item 2
-- Unordered list item 3
-
-1. Ordered list item 1
-2. Ordered list item 2
-3. Ordered list item 3
-
-### Blockquotes
-
-> This is a blockquote. It can span multiple lines and is indented to show that it's a quote.
-
-### Code
-
-Inline `code` looks like this.
-
-```typescript
-// Code blocks look like this
-function example() {
-  return "Hello, world!";
-}
-```
-
-## Badges
-
-### DidNotPlay
+## DidNotPlay
 
 This badge is used to indicate when I didn't play in a particular concert, or it didn't take place as planned.
 
@@ -115,9 +48,7 @@ This badge is used to indicate when I didn't play in a particular concert, or it
   <DidNotPlay />
 </ComponentWrapper>
 
-## Maps
-
-### VenueMap
+## VenueMap
 
 The VenueMap component displays an interactive map centered on a venue's location. It's used on venue pages to show where venues are located.
 
