@@ -1,6 +1,312 @@
 {
   "concert": [
     {
+      "slug": "201812121900",
+      "type": "concert",
+      "path": "Concerts/2018/201812121900 Concert - New School Community Orchestra.md",
+      "title": "201812121900 Concert - New School Community Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2018-12-12T19:00:00.000Z",
+        "group": "New School Community Orchestra",
+        "works": [
+          "Dvorak - Symphony No. 8 in G Major"
+        ],
+        "conductor": [
+          "Ian Shafer"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/653g4Qj5P6aDkqpsJxCmnP?si=3998aefe9b7848ce",
+        "venue": "Tishman Auditorium, The New School"
+      }
+    },
+    {
+      "slug": "201902201900",
+      "type": "concert",
+      "path": "Concerts/2019/201902201900 Concert - New School Community Orchestra.md",
+      "title": "201902201900 Concert - New School Community Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-02-20T19:00:00.000Z",
+        "group": "New School Community Orchestra",
+        "works": [
+          "Nielsen - Flute Concerto",
+          "Tchaikovsky - Swan Lake Suite"
+        ],
+        "conductor": [
+          "Bryant Denmark"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5kHRIfrMlX6tSdOo5jhFk7?si=0eefe4fb113d4e23",
+        "venue": "Tishman Auditorium, The New School"
+      }
+    },
+    {
+      "slug": "201903241900",
+      "type": "concert",
+      "path": "Concerts/2019/201903241900 Concert - Bantam Studios.md",
+      "title": "201903241900 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-03-24T19:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Elgar - Serenade for Strings",
+          "Holst - St. Paul's Suite"
+        ],
+        "conductor": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7stlty6dj2XPG4ui07caur?si=fd94cbe0ca284ddb",
+        "venue": "Littlefield"
+      }
+    },
+    {
+      "slug": "201904031900",
+      "type": "concert",
+      "path": "Concerts/2019/201904031900 Concert - New School Community Orchestra.md",
+      "title": "201904031900 Concert - New School Community Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-04-03T19:00:00.000Z",
+        "group": "New School Community Orchestra",
+        "works": [
+          "Elgar - Pomp and Circumstance March No. 3 in C Minor",
+          "Elgar - Pomp and Circumstance March No. 4 in G Major",
+          "Schumann - Symphony No. 4 in D Minor"
+        ],
+        "conductor": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/34trwIZWXM66DThEcrTHvI?si=c3cf198e391f41df",
+        "venue": "Tishman Auditorium, The New School"
+      }
+    },
+    {
+      "slug": "201904261900",
+      "type": "concert",
+      "path": "Concerts/2019/201904261900 Concert - Boise Philharmonic (The Virtuoso Orchestra).md",
+      "title": "201904261900 Concert - Boise Philharmonic (The Virtuoso Orchestra)",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-04-26T19:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": [
+          "Adams - The Chairman Dances (Foxtrot for Orchestra)",
+          "Shepherd - Songs",
+          "Bartok - Concerto for Orchestra"
+        ],
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2QIUrl9yWXPjD1yKTo5HLV?si=97bb358c24a34d25",
+        "venue": "Morrison Center"
+      }
+    },
+    {
+      "slug": "201905081900",
+      "type": "concert",
+      "path": "Concerts/2019/201905081900 Concert - New School Community Orchestra.md",
+      "title": "201905081900 Concert - New School Community Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-05-08T19:00:00.000Z",
+        "group": "New School Community Orchestra",
+        "works": [
+          "Ives - The Unanswered Question",
+          "Chausson - Poeme",
+          "Haydn - Symphony No. 104 in D Major, \"London\""
+        ],
+        "conductor": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3xmboOa91k77rCN5o7fXKD?si=07cf5868b12e4737",
+        "venue": "Tishman Auditorium, The New School"
+      }
+    },
+    {
+      "slug": "201906291500",
+      "type": "concert",
+      "path": "Concerts/2019/201906291500 Concert - Bantam Studios.md",
+      "title": "201906291500 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-06-29T15:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Webern - Langsamer Satz"
+        ],
+        "conductor": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0wjIVeHd2sDFMSB8dyF6ku?si=217693aafe7240b6",
+        "venue": "Littlefield"
+      }
+    },
+    {
+      "slug": "201910271500",
+      "type": "concert",
+      "path": "Concerts/2019/201910271500 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "201910271500 Concert - Brooklyn Symphony Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-10-27T15:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": [
+          "Wagner - Tristan und Isolde",
+          "Vaughan Williams - The Lark Ascending",
+          "Brahms - Symphony No. 3 in F Major"
+        ],
+        "conductor": [
+          "Ian Shafer"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/59mLCiomqFgvLnEhvZ7zJl?si=ea634d56722d46d0",
+        "venue": "Brooklyn Museum"
+      }
+    },
+    {
+      "slug": "201911241500",
+      "type": "concert",
+      "path": "Concerts/2019/201911241500 Concert - Bantam Studios.md",
+      "title": "201911241500 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-11-24T15:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Mozart - Sinfonia Concertante for Violin and Viola",
+          "Tchaikovsky - Serenade for Strings"
+        ],
+        "conductor": [
+          "Eli Spindel"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4VwI519C6gGxioUxff9PvQ?si=de9a47b3bdd845b8",
+        "venue": "Roulette"
+      }
+    },
+    {
+      "slug": "201912151500",
+      "type": "concert",
+      "path": "Concerts/2019/201912151500 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "201912151500 Concert - Brooklyn Symphony Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-12-15T15:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": [
+          "Prokofiev - Peter and the Wolf",
+          "Ellington - Nutcracker Suite",
+          "Tchaikovsky - The Nutcracker Suite",
+          "Strauss - Perpetuum Mobile",
+          "Anderson - Sleigh Ride"
+        ],
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2DlFxhqqJYrzjXlMEsYclX?si=68baadf5db374a27",
+        "venue": "Brooklyn Museum"
+      }
+    },
+    {
+      "slug": "201912261900",
+      "type": "concert",
+      "path": "Concerts/2019/201912261900 Concert - Portland Youth Philharmonic Alumni Orchestra (Concert-at-Christmas).md",
+      "title": "201912261900 Concert - Portland Youth Philharmonic Alumni Orchestra (Concert-at-Christmas)",
+      "content": "",
+      "frontmatter": {
+        "date": "2019-12-26T19:00:00.000Z",
+        "group": "Portland Youth Philharmonic Alumni Orchestra",
+        "works": [
+          "Saint-Saens - Bacchanale from Samson and Delilah"
+        ],
+        "conductor": [
+          "David Hattner"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/39qTpCYV49J6qLYbTTutwR?si=8deff8b6e7344196",
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "202002231500",
+      "type": "concert",
+      "path": "Concerts/2020/202002231500 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202002231500 Concert - Brooklyn Symphony Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2020-02-23T15:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": [
+          "Beethoven - Leonore Overture No. 3",
+          "Marquez - Danzon No. 4",
+          "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
+          "Liszt - Les Preludes",
+          "Moncayo - Huapango"
+        ],
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4MJ6NvlVOCpTGFTVRbbGPD?si=472f87c19da34b2e",
+        "venue": "Brooklyn Museum"
+      }
+    },
+    {
+      "slug": "202105151500",
+      "type": "concert",
+      "path": "Concerts/2021/202105151500 Concert - Litha Symphony (St. John's in the Village Live Stream).md",
+      "title": "202105151500 Concert - Litha Symphony (St. John's in the Village Live Stream)",
+      "content": "",
+      "frontmatter": {
+        "date": "2021-05-15T15:00:00.000Z",
+        "group": "Litha Symphony",
+        "works": [
+          "Haydn - Symphony No. 31 in D Major",
+          "Tchaikovsky - String Quartet No. 1 in D Major",
+          "Mozart - Serenade No. 10 in B-Flat Major"
+        ],
+        "conductor": [
+          "Eric Hayslett"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0SuwXYmy1gPHTtEGwfwarl?si=fb33f4af7e614796",
+        "venue": "Saint John's in the Village"
+      }
+    },
+    {
+      "slug": "202105161500",
+      "type": "concert",
+      "path": "Concerts/2021/202105161500 Concert - Brooklyn Symphony Orchestra (Summer Outdoor Concert).md",
+      "title": "202105161500 Concert - Brooklyn Symphony Orchestra (Summer Outdoor Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2021-05-16T15:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": [
+          "Vivaldi - Concerto for Strings in G Minor",
+          "Tchaikovsky - Serenade for Strings",
+          "Mozart - Divertimento in F Major",
+          "Still - Danzas de Panama",
+          "Copland - Rodeo"
+        ],
+        "conductor": [
+          "Nick Armstrong",
+          "Andy Bhasin"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4cuxdbFCAUehna9t3voYeP?si=b1ee25f314dc4801",
+        "venue": "Brooklyn Museum"
+      }
+    },
+    {
+      "slug": "202110241500",
+      "type": "concert",
+      "path": "Concerts/2021/202110241500 Concert - Greenwich Village Orchestra.md",
+      "title": "202110241500 Concert - Greenwich Village Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2021-10-24T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": [
+          "Brahms - Academic Festival Overture",
+          "Montgomery - Strum",
+          "Tchaikovsky - Variations on a Rococo Theme",
+          "Beethoven - Symphony No. 5 in C Minor"
+        ],
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3ynWCE7GyfcdNoaoCVMPYR?si=1a47bb02327844d7",
+        "venue": "Washington Irving High School"
+      }
+    },
+    {
       "slug": "202111061900",
       "type": "concert",
       "path": "Concerts/2021/202111061900 Concert - Boise Phil (Dvorak 7, Mozart 31).md",
@@ -12,7 +318,7 @@
         "works": [
           "Brahms - Academic Festival Overture",
           "Mozart - Symphony No. 31",
-          "Dvorak - Symphony No. 7"
+          "Dvorak - Symphony No. 7 in D Minor"
         ],
         "conductor": [
           "Eric Garcia"
@@ -31,7 +337,8 @@
         "date": "2022-02-20T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
-          "Brahms - Symphony No. 4"
+          "Brahms - Symphony No. 4 in E Minor",
+          "Glinka - Ruslan and Ludmila Overture"
         ],
         "conductor": [
           "Felipe Tristan"
@@ -41,19 +348,22 @@
       }
     },
     {
-      "slug": "202203182030",
+      "slug": "202203172030",
       "type": "concert",
-      "path": "Concerts/2022/202203182030 Concert - Centre Symphony (Mozart SC, Haydn 104).md",
-      "title": "202203182030 Concert - Centre Symphony (Mozart SC, Haydn 104)",
+      "path": "Concerts/2022/202203172030 Concert - Centre Symphony (Mozart SC, Haydn 104).md",
+      "title": "202203172030 Concert - Centre Symphony (Mozart SC, Haydn 104)",
       "content": "",
       "frontmatter": {
-        "date": "2022-03-18T20:30:00.000Z",
+        "date": "2022-03-17T20:30:00.000Z",
         "group": "Centre Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Haydn - Symphony No. 104 in D Major, \"London\"",
+          "Mozart - Sinfonia Concertante for Violin and Viola"
+        ],
         "conductor": [
           "Scott Jackson Wiley"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7j9JhEY6RGhpfLFP5j8YLY?si=77960b6831ee459f",
         "venue": "Broadway Presbyterian Church"
       }
     },
@@ -66,11 +376,15 @@
       "frontmatter": {
         "date": "2022-03-20T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Prokofiev - Overture on Hebrew Themes",
+          "Prokofiev - Violin Concerto No. 2 in G Minor",
+          "Tchaikovsky - Symphony No. 4 in F Minor"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3eZ2fPlaUyMjPtSZxCKZEp?si=ff686e48f0ae461d",
         "venue": "Washington Irving High School"
       }
     },
@@ -83,11 +397,15 @@
       "frontmatter": {
         "date": "2022-03-26T19:00:00.000Z",
         "group": "Boise Philharmonic",
-        "works": null,
+        "works": [
+          "Marquez - Danzon No. 2",
+          "Coleridge-Taylor - Scenes from The Song of Hiawatha",
+          "Shchedrin - Carmen Suite"
+        ],
         "conductor": [
           "Eric Garcia"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1CGaDaZYU152jBrj8y63gL?si=cdddee9c146143d9",
         "venue": "Morrison Center",
         "didNotPlay": true
       }
@@ -101,11 +419,17 @@
       "frontmatter": {
         "date": "2022-05-08T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
-        "conductor": [
-          "Barbara Yahr"
+        "works": [
+          "Coleridge-Taylor - Scenes from The Song of Hiawatha",
+          "Bach - Flute Concerto in A Major",
+          "Griffes - Poem for Flute and Orchestra",
+          "Sibelius - Symphony No. 2"
         ],
-        "spotifyPlaylistUrl": null,
+        "conductor": [
+          "Barbara Yahr",
+          "Eric Mahl"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3ToLB1ptpIFf8eXujM4BXN?si=e947d0b05b084832",
         "venue": "Washington Irving High School"
       }
     },
@@ -118,7 +442,9 @@
       "frontmatter": {
         "date": "2022-05-14T19:00:00.000Z",
         "group": "Grace Chorale",
-        "works": null,
+        "works": [
+          "Yarmolinsky - The Consitution, A Secular Oratorio"
+        ],
         "conductor": [
           "Jason Asbury"
         ],
@@ -135,11 +461,15 @@
       "frontmatter": {
         "date": "2022-05-19T19:30:00.000Z",
         "group": "Centre Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Copland - Fanfare for the Common Man",
+          "Copland - Appalachian Spring",
+          "Elgar - Cello Concerto in E Minor"
+        ],
         "conductor": [
           "Scott Jackson Wiley"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0sTdXRaKoHELs36W2qCDzO?si=1875c1f5803d4bb3",
         "venue": "Broadway Presbyterian Church"
       }
     },
@@ -168,12 +498,15 @@
       "frontmatter": {
         "date": "2022-06-12T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Strauss - Emperor Waltz",
+          "Mahler - Symphony No. 1"
+        ],
         "conductor": [
           "Nick Armstrong",
           "Andy Bhasin"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6vlqobFav1H9zwNTqz7TGR?si=6d66a5155c1449e6",
         "venue": "Brooklyn Museum"
       }
     },
@@ -186,11 +519,20 @@
       "frontmatter": {
         "date": "2022-07-10T17:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Strauss - Radetsky March",
+          "Mendelssohn - A Midsummer Night's Dream",
+          "Still - Afro-American Symphony",
+          "Strauss - The Blue Danube",
+          "Gliere - Russian Sailor's Dance from The Red Poppy",
+          "Tchaikovsky - Symphony No. 4 in F Minor",
+          "Williams - Star Wars",
+          "Sousa - Stars and Stripes Forever"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/257P64IMJ9ysh5uKicY6Dr?si=a6ddc2bd1cfd4246",
         "venue": "Concert Grove Pavilion, Prospect Park"
       }
     },
@@ -221,11 +563,16 @@
       "frontmatter": {
         "date": "2022-08-06T19:00:00.000Z",
         "group": "Litha Symphony",
-        "works": null,
+        "works": [
+          "Rimsky-Korsakov - Snow Maiden Suite",
+          "Delius - Sleigh Ride",
+          "Waldteufel - The Skater's Waltz (Les Patineurs)",
+          "Tchaikovsky - Symphony No. 1 in G Minor"
+        ],
         "conductor": [
           "Eric Hayslett"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/19lylg066fWAYfxM47hx0i?si=b4fa461fd26748dc",
         "venue": "Church of the Holy Apostles"
       }
     },
@@ -256,11 +603,16 @@
       "frontmatter": {
         "date": "2022-08-27T19:00:00.000Z",
         "group": "Litha Symphony",
-        "works": null,
+        "works": [
+          "Sibelius - Spring Song (Vårsång)",
+          "Copland - Appalachian Spring",
+          "Richter - Recomposed - The Four Seasons",
+          "Respighi - The Pines of Rome"
+        ],
         "conductor": [
           "Eric Hayslett"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6aAH7o35AGFOO5thZ0vmDH?si=826ea61a079d40f6",
         "venue": "Church of the Holy Apostles"
       }
     },
@@ -291,11 +643,15 @@
       "frontmatter": {
         "date": "2022-10-16T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Bernstein - Overture to Candide",
+          "Copland - Lincoln Portrait",
+          "Beethoven - Symphony No. 8 in F Major"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2MteUxkanIrEF3tR8uvyvL?si=c137f7349740480a",
         "venue": "Good Shepherd-Faith Presbyterian Church"
       }
     },
@@ -326,9 +682,11 @@
       "frontmatter": {
         "date": "2022-11-05T19:00:00.000Z",
         "group": "BACK Quartet",
-        "works": null,
+        "works": [
+          "Dvorak - String Quartet No. 12 in F Major, \"American\""
+        ],
         "conductor": null,
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0YuXuI4MVRtaBJOrHJFxww?si=528ff95fdb8c4dce",
         "venue": null
       }
     },
@@ -359,11 +717,14 @@
       "frontmatter": {
         "date": "2022-11-20T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Leshnoff - Double Concerto for Clarinet & Bassoon",
+          "Shostakovich - Symphony No. 5"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6x0DaBMCjBEF3MSlPcK3jY?si=bc00085723dc4eef",
         "venue": null
       }
     },
@@ -412,11 +773,18 @@
       "frontmatter": {
         "date": "2022-12-18T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Moncayo - Huapango",
+          "Rossini - Overture to William Tell",
+          "Beethoven - Symphony No. 8 in F Major",
+          "Grieg - Peer Gynt Suite No. 1",
+          "Tchaikovsky - The Nutcracker Suite",
+          "Anderson - Sleigh Ride"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1jfFR4vOKlQ4SGBJBt4AZM?si=a479b3a5b57846bd",
         "venue": "All Saints Church"
       }
     },
@@ -447,12 +815,20 @@
       "frontmatter": {
         "date": "2023-02-05T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Berlioz - Roman Carnival Overture",
+          "Bizet - Carmen",
+          "Saint-Saens - Bacchanale from Samson and Delilah",
+          "Verdi - Rigoletto",
+          "Giordano - Andrea Chenier",
+          "Wagner - Die Walküre",
+          "Puccini - Tosca"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": null
+        "venue": "All Saints Church"
       }
     },
     {
@@ -482,13 +858,17 @@
       "frontmatter": {
         "date": "2023-02-26T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Wagner - Lohengrin",
+          "Barber - Souvenirs",
+          "Schumann - Symphony No. 4 in D Minor"
+        ],
         "conductor": [
           "Nick Armstrong",
           "Andy Bhasin"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3rPbKJaYEoayf7bRQs8Hmq?si=7adf8898554c48e7",
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -500,12 +880,17 @@
       "frontmatter": {
         "date": "2023-03-19T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
-        "conductor": [
-          "Barbara Yahr"
+        "works": [
+          "Mozart - Piano Concerto No. 20 in D Minor",
+          "Tchaikovsky - Romeo & Juliet Fantasy Overture",
+          "Enescu - Romanian Rhapsody No. 1 in A Major"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "conductor": [
+          "Barbara Yahr",
+          "Eric Mahl"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3eXc05tTQFEBCvnX5xiKfQ?si=47cd79558cab4b6d",
+        "venue": "All Saints Church"
       }
     },
     {
@@ -553,12 +938,16 @@
       "frontmatter": {
         "date": "2023-04-16T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Grieg - Peer Gynt Suite No. 1",
+          "Sibelius - Violin Concerto",
+          "Sibelius - Symphony No. 2"
+        ],
         "conductor": [
           "David Bernard"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/34bTB0t3Nx1o1M2k7qIW9K?si=3825be678c6543c0",
+        "venue": "All Saints Church"
       }
     },
     {
@@ -570,12 +959,15 @@
       "frontmatter": {
         "date": "2023-05-07T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Paganini - Violin Concerto No. 1 in D Major",
+          "Brahms - Symphony No. 2 in D Major"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/62uy2RE5hiBrGOX76LJSdO?si=213bad7aa63c4180",
+        "venue": "All Saints Church"
       }
     },
     {
@@ -623,12 +1015,16 @@
       "frontmatter": {
         "date": "2023-06-11T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Lecuona - Andalucia Suite",
+          "Mozart - Piano Concerto No. 20 in D Minor",
+          "Dvorak - Symphony No. 8 in G Major"
+        ],
         "conductor": [
           "Nick Armstrong"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6opOJI45RVvR1qv6pfHBts?si=5bab775e27714b59",
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -640,12 +1036,16 @@
       "frontmatter": {
         "date": "2023-07-15T12:30:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Beethoven - Symphony No. 6 in F Major",
+          "Rossini - Overture to The Barber of Seville",
+          "Mozart - Horn Concerto No. 3 in E-Flat Major"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/06bWHAyqohXHAUcQ9VCFYL?si=5b623dff0e18470c",
+        "venue": "All Saints Church"
       }
     },
     {
@@ -657,12 +1057,16 @@
       "frontmatter": {
         "date": "2023-10-15T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Beethoven - Leonore Overture No. 3",
+          "Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber",
+          "Brahms - Symphony No. 1 in C Minor"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4xEladc60bwxiVeqk64vBi?si=fc3eeece701549a2",
+        "venue": "High School of Fashion Industries"
       }
     },
     {
@@ -674,12 +1078,15 @@
       "frontmatter": {
         "date": "2023-10-29T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Prokofiev - Romeo and Juliet",
+          "Beethoven - Symphony No. 7 in A Major"
+        ],
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3viNxTfNlWqcvCeM9RsJkJ?si=13d07dcbf46744c2",
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -691,12 +1098,16 @@
       "frontmatter": {
         "date": "2023-11-19T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Barber - Adagio for Strings",
+          "Mazzoli - These Worlds in Us",
+          "Dvorak - Symphony No. 9 in E Minor"
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4JE5Iv101lrbxwmoOIphB4?si=47784d73adad4768",
+        "venue": "High School of Fashion Industries"
       }
     },
     {
@@ -708,12 +1119,16 @@
       "frontmatter": {
         "date": "2023-12-10T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Rossini - Overture to La Gazza Ladra",
+          "Reinecke - Flute Concerto in D Major",
+          "Tchaikovsky - The Nutcracker Suite"
+        ],
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/23UAYXzZcKMG5rAVwSFtMJ?si=0b1cde5a40774d2e",
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -730,7 +1145,7 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": null,
+        "venue": "High School of Fashion Industries",
         "didNotPlay": true
       }
     },
@@ -743,12 +1158,14 @@
       "frontmatter": {
         "date": "2023-12-26T19:30:00.000Z",
         "group": "Portland Youth Philharmonic Alumni Orchestra",
-        "works": null,
+        "works": [
+          "Williams - Superman March"
+        ],
         "conductor": [
           "David Hattner"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": null
+        "venue": "Arlene Schnitzer Concert Hall"
       }
     },
     {
@@ -760,13 +1177,17 @@
       "frontmatter": {
         "date": "2024-02-04T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Price - The Oak",
+          "Rubenstein - Cello Concerto No. 2",
+          "Prokofiev - Symphony No. 5 in B-Flat Major"
+        ],
         "conductor": [
           "Barbara Yahr",
           "Eric Mahl"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6GlrluYDigO4hJoaD9oTt6?si=527e13bdabc14d5a",
+        "venue": "High School of Fashion Industries"
       }
     },
     {
@@ -778,12 +1199,18 @@
       "frontmatter": {
         "date": "2024-02-18T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Khachaturian - Maskerade Suite",
+          "Chavez - Sinfonia India (\"Symphony No. 2\")",
+          "Bizet - Carmen Suite No. 1",
+          "Bizet - Carmen Suite No. 2",
+          "Moncayo - Huapango"
+        ],
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/27b6FfSHxHubYNPgkzhHOY?si=a176f218b1b0463c",
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -795,13 +1222,17 @@
       "frontmatter": {
         "date": "2024-03-24T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Vaughan Williams - Norfolk Rhapsody No. 1 in E minor",
+          "Rosauro - Concerto No. 1 for Marimba & String Orchestra",
+          "Debussy - La Mer"
+        ],
         "conductor": [
           "Barbara Yahr",
           "Eric Mahl"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5hZSlM7MAGJwWbDUmB2yhV?si=6fe254bbec8b4132",
+        "venue": "High School of Fashion Industries"
       }
     },
     {
@@ -813,12 +1244,15 @@
       "frontmatter": {
         "date": "2024-04-21T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Herrmann - Psycho - A Suite for Strings",
+          "Badelt - Pirates of the Caribbean"
+        ],
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7DurYdCMjVE8O8tO5TwCy2?si=244606e70b08436a",
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -830,12 +1264,16 @@
       "frontmatter": {
         "date": "2024-05-05T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
-        "works": null,
+        "works": [
+          "Sibelius - Andante Festivo",
+          "Barber - Violin Concerto",
+          "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\""
+        ],
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3baSrSPcr4unAAamXiPDnz?si=18c75c64aed14c8c",
+        "venue": "High School of Fashion Industries"
       }
     },
     {
@@ -857,6 +1295,27 @@
       }
     },
     {
+      "slug": "202410061500",
+      "type": "concert",
+      "path": "Concerts/2024/202410061500 Concert - Greenwich Village Orchestra (Originals).md",
+      "title": "202410061500 Concert - Greenwich Village Orchestra (Originals)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-10-06T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": [
+          "Verdi - Overture to Nabucco",
+          "Dvorak - Symphony No. 8 in G Major",
+          "Saint-Saens - Violin Concerto No. 3 in B Minor"
+        ],
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2pkZQYzka9s0mx1OWDmwKi?si=bdbd4d6e48df43d7",
+        "venue": "High School of Fashion Industries"
+      }
+    },
+    {
       "slug": "202410271400",
       "type": "concert",
       "path": "Concerts/2024/202410271400 Concert - BSO (Concert 1 - David Hagy).md",
@@ -865,12 +1324,36 @@
       "frontmatter": {
         "date": "2024-10-27T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Beethoven - Symphony No. 8 in F Major",
+          "Shostakovich - Symphony No. 5",
+          "Price - Andante Cantabile from String Quartet No. 2"
+        ],
         "conductor": [
           "David Hagy"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5jZtQh1MXUaOspirRxM9xH?si=3e503b546cbe4076",
+        "venue": "Brooklyn Museum"
+      }
+    },
+    {
+      "slug": "202411171500",
+      "type": "concert",
+      "path": "Concerts/2024/202411171500 Concert - Greenwich Village Orchestra (Renewals).md",
+      "title": "202411171500 Concert - Greenwich Village Orchestra (Renewals)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-11-17T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": [
+          "Mozart - Clarinet Concerto in A Major",
+          "Sibelius - Symphony No. 2"
+        ],
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/424PGgqXstFMkWc5ICicww?si=6be50e3bb95f43b8",
+        "venue": "High School of Fashion Industries"
       }
     },
     {
@@ -882,11 +1365,16 @@
       "frontmatter": {
         "date": "2024-12-15T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Elgar - In The South (Alassio) - Concert Overture",
+          "Mendelssohn - Hebrides Overture \"Fingal's Cave\"",
+          "Mendelssohn - Violin Concerto in E Minor",
+          "Berko - Condense Eternity"
+        ],
         "conductor": [
           "Andrew Kim"
         ],
-        "spotifyPlaylistUrl": null,
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2jukY5BSpTJWhnssa3wH6x?si=aca03f0980ee4c88",
         "venue": null
       }
     },
@@ -899,21 +1387,122 @@
       "frontmatter": {
         "date": "2025-02-23T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": null,
+        "works": [
+          "Chevalier de Saint-Georges - Overture to L'Amant Anonyme",
+          "Faure - Pavane",
+          "Sankey - Carmen Fantasy (after Bizet)",
+          "Dvorak - Symphony No. 7 in D Minor"
+        ],
         "conductor": [
           "Nico Olarte-Hayes"
         ],
-        "spotifyPlaylistUrl": null,
-        "venue": null
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4jjNGrNTKgqSJsDqiArteJ?si=2f53de1cf8f242ad",
+        "venue": "Brooklyn Museum"
       }
     }
   ],
   "composer": [
     {
+      "slug": "adams-john",
+      "type": "composer",
+      "path": "Composers/Adams, John.md",
+      "title": "Adams, John",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "anderson-leroy",
+      "type": "composer",
+      "path": "Composers/Anderson, Leroy.md",
+      "title": "Anderson, Leroy",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "bach-carl-philipp-emanuel",
+      "type": "composer",
+      "path": "Composers/Bach, Carl Philipp Emanuel.md",
+      "title": "Bach, Carl Philipp Emanuel",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "bach-johann-sebastian",
+      "type": "composer",
+      "path": "Composers/Bach, Johann Sebastian.md",
+      "title": "Bach, Johann Sebastian",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "badelt-klaus",
+      "type": "composer",
+      "path": "Composers/Badelt, Klaus.md",
+      "title": "Badelt, Klaus",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "barber-samuel",
+      "type": "composer",
+      "path": "Composers/Barber, Samuel.md",
+      "title": "Barber, Samuel",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "bartok-bela",
+      "type": "composer",
+      "path": "Composers/Bartok, Bela.md",
+      "title": "Bartok, Bela",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "beach-amy",
+      "type": "composer",
+      "path": "Composers/Beach, Amy.md",
+      "title": "Beach, Amy",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
       "slug": "beethoven-ludwig-van",
       "type": "composer",
       "path": "Composers/Beethoven, Ludwig van.md",
       "title": "Beethoven, Ludwig van",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "berko-alex",
+      "type": "composer",
+      "path": "Composers/Berko, Alex.md",
+      "title": "Berko, Alex",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "berlioz-hector",
+      "type": "composer",
+      "path": "Composers/Berlioz, Hector.md",
+      "title": "Berlioz, Hector",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "bernstein-leonard",
+      "type": "composer",
+      "path": "Composers/Bernstein, Leonard.md",
+      "title": "Bernstein, Leonard",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "bizet-georges",
+      "type": "composer",
+      "path": "Composers/Bizet, Georges.md",
+      "title": "Bizet, Georges",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {}
     },
@@ -926,10 +1515,298 @@
       "frontmatter": {}
     },
     {
+      "slug": "bridge-frank",
+      "type": "composer",
+      "path": "Composers/Bridge, Frank.md",
+      "title": "Bridge, Frank",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "britten-benjamin",
+      "type": "composer",
+      "path": "Composers/Britten, Benjamin.md",
+      "title": "Britten, Benjamin",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "chausson-ernest",
+      "type": "composer",
+      "path": "Composers/Chausson, Ernest.md",
+      "title": "Chausson, Ernest",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "chavez-carlos",
+      "type": "composer",
+      "path": "Composers/Chavez, Carlos.md",
+      "title": "Chavez, Carlos",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "chevalier-de-saint-georges-joseph-bologne",
+      "type": "composer",
+      "path": "Composers/Chevalier de Saint-Georges, Joseph Bologne.md",
+      "title": "Chevalier de Saint-Georges, Joseph Bologne",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "coleridge-taylor-samuel",
+      "type": "composer",
+      "path": "Composers/Coleridge-Taylor, Samuel.md",
+      "title": "Coleridge-Taylor, Samuel",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "copland-aaron",
+      "type": "composer",
+      "path": "Composers/Copland, Aaron.md",
+      "title": "Copland, Aaron",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "debussy-claude",
+      "type": "composer",
+      "path": "Composers/Debussy, Claude.md",
+      "title": "Debussy, Claude",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "delius-frederick",
+      "type": "composer",
+      "path": "Composers/Delius, Frederick.md",
+      "title": "Delius, Frederick",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
       "slug": "dvorak-antonin",
       "type": "composer",
       "path": "Composers/Dvorak, Antonin.md",
       "title": "Dvorak, Antonin",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "elgar-edward",
+      "type": "composer",
+      "path": "Composers/Elgar, Edward.md",
+      "title": "Elgar, Edward",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "ellington-duke",
+      "type": "composer",
+      "path": "Composers/Ellington, Duke.md",
+      "title": "Ellington, Duke",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "enescu-george",
+      "type": "composer",
+      "path": "Composers/Enescu, George.md",
+      "title": "Enescu, George",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "faure-gabriel",
+      "type": "composer",
+      "path": "Composers/Faure, Gabriel.md",
+      "title": "Faure, Gabriel",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "gershwin-george",
+      "type": "composer",
+      "path": "Composers/Gershwin, George.md",
+      "title": "Gershwin, George",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "giordano-umberto",
+      "type": "composer",
+      "path": "Composers/Giordano, Umberto.md",
+      "title": "Giordano, Umberto",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "glass-philip",
+      "type": "composer",
+      "path": "Composers/Glass, Philip.md",
+      "title": "Glass, Philip",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "gliere-reinhold",
+      "type": "composer",
+      "path": "Composers/Gliere, Reinhold.md",
+      "title": "Gliere, Reinhold",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "glinka-mikhail",
+      "type": "composer",
+      "path": "Composers/Glinka, Mikhail.md",
+      "title": "Glinka, Mikhail",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "grieg-edvard",
+      "type": "composer",
+      "path": "Composers/Grieg, Edvard.md",
+      "title": "Grieg, Edvard",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "griffes-charles",
+      "type": "composer",
+      "path": "Composers/Griffes, Charles.md",
+      "title": "Griffes, Charles",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "haydn-joseph",
+      "type": "composer",
+      "path": "Composers/Haydn, Joseph.md",
+      "title": "Haydn, Joseph",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "herrmann-bernard",
+      "type": "composer",
+      "path": "Composers/Herrmann, Bernard.md",
+      "title": "Herrmann, Bernard",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "higdon-jennifer",
+      "type": "composer",
+      "path": "Composers/Higdon, Jennifer.md",
+      "title": "Higdon, Jennifer",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "hindemith-paul",
+      "type": "composer",
+      "path": "Composers/Hindemith, Paul.md",
+      "title": "Hindemith, Paul",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "holst-gustav",
+      "type": "composer",
+      "path": "Composers/Holst, Gustav.md",
+      "title": "Holst, Gustav",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "ives-charles",
+      "type": "composer",
+      "path": "Composers/Ives, Charles.md",
+      "title": "Ives, Charles",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "khachaturian-aram",
+      "type": "composer",
+      "path": "Composers/Khachaturian, Aram.md",
+      "title": "Khachaturian, Aram",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "lecuona-ernesto",
+      "type": "composer",
+      "path": "Composers/Lecuona, Ernesto.md",
+      "title": "Lecuona, Ernesto",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "leshnoff-jonathan",
+      "type": "composer",
+      "path": "Composers/Leshnoff, Jonathan.md",
+      "title": "Leshnoff, Jonathan",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "liszt-franz",
+      "type": "composer",
+      "path": "Composers/Liszt, Franz.md",
+      "title": "Liszt, Franz",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "lully-jean-baptiste",
+      "type": "composer",
+      "path": "Composers/Lully, Jean-Baptiste.md",
+      "title": "Lully, Jean-Baptiste",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "mahler-gustav",
+      "type": "composer",
+      "path": "Composers/Mahler, Gustav.md",
+      "title": "Mahler, Gustav",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "marquez-arturo",
+      "type": "composer",
+      "path": "Composers/Marquez, Arturo.md",
+      "title": "Marquez, Arturo",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "mazzoli-missy",
+      "type": "composer",
+      "path": "Composers/Mazzoli, Missy.md",
+      "title": "Mazzoli, Missy",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "mendelssohn-felix",
+      "type": "composer",
+      "path": "Composers/Mendelssohn, Felix.md",
+      "title": "Mendelssohn, Felix",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "moncayo-jose-pablo",
+      "type": "composer",
+      "path": "Composers/Moncayo, Jose Pablo.md",
+      "title": "Moncayo, Jose Pablo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {}
     },
@@ -950,6 +1827,158 @@
       "frontmatter": {}
     },
     {
+      "slug": "nielsen-carl",
+      "type": "composer",
+      "path": "Composers/Nielsen, Carl.md",
+      "title": "Nielsen, Carl",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "paganini-niccolo",
+      "type": "composer",
+      "path": "Composers/Paganini, Niccolo.md",
+      "title": "Paganini, Niccolo",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "pergolesi-giovanni-battista",
+      "type": "composer",
+      "path": "Composers/Pergolesi, Giovanni Battista.md",
+      "title": "Pergolesi, Giovanni Battista",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "price-florence",
+      "type": "composer",
+      "path": "Composers/Price, Florence.md",
+      "title": "Price, Florence",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "prokofiev-sergei",
+      "type": "composer",
+      "path": "Composers/Prokofiev, Sergei.md",
+      "title": "Prokofiev, Sergei",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "puccini-giacomo",
+      "type": "composer",
+      "path": "Composers/Puccini, Giacomo.md",
+      "title": "Puccini, Giacomo",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "reinecke-carl",
+      "type": "composer",
+      "path": "Composers/Reinecke, Carl.md",
+      "title": "Reinecke, Carl",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "respighi-ottorino",
+      "type": "composer",
+      "path": "Composers/Respighi, Ottorino.md",
+      "title": "Respighi, Ottorino",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "richter-max",
+      "type": "composer",
+      "path": "Composers/Richter, Max.md",
+      "title": "Richter, Max",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "rimsky-korsakov-nikolai",
+      "type": "composer",
+      "path": "Composers/Rimsky-Korsakov, Nikolai.md",
+      "title": "Rimsky-Korsakov, Nikolai",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "rosauro-ney",
+      "type": "composer",
+      "path": "Composers/Rosauro, Ney.md",
+      "title": "Rosauro, Ney",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "rossini-gioachino",
+      "type": "composer",
+      "path": "Composers/Rossini, Gioachino.md",
+      "title": "Rossini, Gioachino",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "roussel-albert",
+      "type": "composer",
+      "path": "Composers/Roussel, Albert.md",
+      "title": "Roussel, Albert",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "rubenstein-anton",
+      "type": "composer",
+      "path": "Composers/Rubenstein, Anton.md",
+      "title": "Rubenstein, Anton",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "saint-saens-camille",
+      "type": "composer",
+      "path": "Composers/Saint-Saens, Camille.md",
+      "title": "Saint-Saens, Camille",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "sankey-stuart",
+      "type": "composer",
+      "path": "Composers/Sankey, Stuart.md",
+      "title": "Sankey, Stuart",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "schumann-robert",
+      "type": "composer",
+      "path": "Composers/Schumann, Robert.md",
+      "title": "Schumann, Robert",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "shchedrin-rodion",
+      "type": "composer",
+      "path": "Composers/Shchedrin, Rodion.md",
+      "title": "Shchedrin, Rodion",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "shepherd-sean",
+      "type": "composer",
+      "path": "Composers/Shepherd, Sean.md",
+      "title": "Shepherd, Sean",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
       "slug": "shostakovich-dmitri",
       "type": "composer",
       "path": "Composers/Shostakovich, Dmitri.md",
@@ -958,10 +1987,130 @@
       "frontmatter": {}
     },
     {
+      "slug": "sibelius-jean",
+      "type": "composer",
+      "path": "Composers/Sibelius, Jean.md",
+      "title": "Sibelius, Jean",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "sousa-john-philip",
+      "type": "composer",
+      "path": "Composers/Sousa, John Philip.md",
+      "title": "Sousa, John Philip",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "still-william-grant",
+      "type": "composer",
+      "path": "Composers/Still, William Grant.md",
+      "title": "Still, William Grant",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "strauss-johann",
+      "type": "composer",
+      "path": "Composers/Strauss, Johann.md",
+      "title": "Strauss, Johann",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "strauss-richard",
+      "type": "composer",
+      "path": "Composers/Strauss, Richard.md",
+      "title": "Strauss, Richard",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
       "slug": "tchaikovsky-piotr-ilyich",
       "type": "composer",
       "path": "Composers/Tchaikovsky, Piotr Ilyich.md",
       "title": "Tchaikovsky, Piotr Ilyich",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "vaughan-williams-ralph",
+      "type": "composer",
+      "path": "Composers/Vaughan Williams, Ralph.md",
+      "title": "Vaughan Williams, Ralph",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "verdi-giuseppe",
+      "type": "composer",
+      "path": "Composers/Verdi, Giuseppe.md",
+      "title": "Verdi, Giuseppe",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "vivaldi-antonio",
+      "type": "composer",
+      "path": "Composers/Vivaldi, Antonio.md",
+      "title": "Vivaldi, Antonio",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "wagner-richard",
+      "type": "composer",
+      "path": "Composers/Wagner, Richard.md",
+      "title": "Wagner, Richard",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "waldteufel-emile",
+      "type": "composer",
+      "path": "Composers/Waldteufel, Emile.md",
+      "title": "Waldteufel, Emile",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "webern-anton",
+      "type": "composer",
+      "path": "Composers/Webern, Anton.md",
+      "title": "Webern, Anton",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "williams-john",
+      "type": "composer",
+      "path": "Composers/Williams, John.md",
+      "title": "Williams, John",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "wolf-ferrari-ermanno",
+      "type": "composer",
+      "path": "Composers/Wolf-Ferrari, Ermanno.md",
+      "title": "Wolf-Ferrari, Ermanno",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "yarmolinsky-benjamin",
+      "type": "composer",
+      "path": "Composers/Yarmolinsky, Benjamin.md",
+      "title": "Yarmolinsky, Benjamin",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "von-weber-carl-maria",
+      "type": "composer",
+      "path": "Composers/von Weber, Carl Maria.md",
+      "title": "von Weber, Carl Maria",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {}
     }
@@ -988,7 +2137,15 @@
       "type": "conductor",
       "path": "Conductors/Barbara Yahr.md",
       "title": "Barbara Yahr",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "bryant-denmark",
+      "type": "conductor",
+      "path": "Conductors/Bryant Denmark.md",
+      "title": "Bryant Denmark",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -996,7 +2153,7 @@
       "type": "conductor",
       "path": "Conductors/David Bernard.md",
       "title": "David Bernard",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -1012,7 +2169,7 @@
       "type": "conductor",
       "path": "Conductors/David Hattner.md",
       "title": "David Hattner",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -1020,7 +2177,15 @@
       "type": "conductor",
       "path": "Conductors/David Jacobs.md",
       "title": "David Jacobs",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "eli-spindel",
+      "type": "conductor",
+      "path": "Conductors/Eli Spindel.md",
+      "title": "Eli Spindel",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -1036,7 +2201,7 @@
       "type": "conductor",
       "path": "Conductors/Eric Hayslett.md",
       "title": "Eric Hayslett",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -1044,7 +2209,7 @@
       "type": "conductor",
       "path": "Conductors/Eric Mahl.md",
       "title": "Eric Mahl",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -1052,6 +2217,14 @@
       "type": "conductor",
       "path": "Conductors/Felipe Tristan.md",
       "title": "Felipe Tristan",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "ian-shafer",
+      "type": "conductor",
+      "path": "Conductors/Ian Shafer.md",
+      "title": "Ian Shafer",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
@@ -1068,7 +2241,7 @@
       "type": "conductor",
       "path": "Conductors/Nick Armstrong.md",
       "title": "Nick Armstrong",
-      "content": "",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
     },
     {
@@ -1369,6 +2542,16 @@
       }
     },
     {
+      "slug": "saint-john-s-in-the-village",
+      "type": "venue",
+      "path": "Venues/Saint John's in the Village.md",
+      "title": "Saint John's in the Village",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.7364142786547, -74.00207533777161"
+      }
+    },
+    {
       "slug": "st-ann-and-the-holy-trinity-church",
       "type": "venue",
       "path": "Venues/St. Ann and the Holy Trinity Church.md",
@@ -1411,13 +2594,193 @@
   ],
   "work": [
     {
-      "slug": "beethoven-symphony-no-8",
+      "slug": "adams-the-chairman-dances-foxtrot-for-orchestra",
       "type": "work",
-      "path": "Works/Beethoven - Symphony No. 8.md",
-      "title": "Beethoven - Symphony No. 8",
+      "path": "Works/Adams - The Chairman Dances (Foxtrot for Orchestra).md",
+      "title": "Adams - The Chairman Dances (Foxtrot for Orchestra)",
+      "content": "",
+      "frontmatter": {
+        "composer": "Adams, John"
+      }
+    },
+    {
+      "slug": "anderson-sleigh-ride",
+      "type": "work",
+      "path": "Works/Anderson - Sleigh Ride.md",
+      "title": "Anderson - Sleigh Ride",
+      "content": "",
+      "frontmatter": {
+        "composer": "Anderson, Leroy"
+      }
+    },
+    {
+      "slug": "bach-flute-concerto-in-a-major",
+      "type": "work",
+      "path": "Works/Bach - Flute Concerto in A Major.md",
+      "title": "Bach - Flute Concerto in A Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bach, Carl Philipp Emanuel"
+      }
+    },
+    {
+      "slug": "badelt-pirates-of-the-caribbean",
+      "type": "work",
+      "path": "Works/Badelt - Pirates of the Caribbean.md",
+      "title": "Badelt - Pirates of the Caribbean",
+      "content": "",
+      "frontmatter": {
+        "composer": "Badelt, Klaus"
+      }
+    },
+    {
+      "slug": "barber-adagio-for-strings",
+      "type": "work",
+      "path": "Works/Barber - Adagio for Strings.md",
+      "title": "Barber - Adagio for Strings",
+      "content": "",
+      "frontmatter": {
+        "composer": "Barber, Samuel"
+      }
+    },
+    {
+      "slug": "barber-souvenirs",
+      "type": "work",
+      "path": "Works/Barber - Souvenirs.md",
+      "title": "Barber - Souvenirs",
+      "content": "",
+      "frontmatter": {
+        "composer": "Barber, Samuel"
+      }
+    },
+    {
+      "slug": "barber-violin-concerto",
+      "type": "work",
+      "path": "Works/Barber - Violin Concerto.md",
+      "title": "Barber - Violin Concerto",
+      "content": "",
+      "frontmatter": {
+        "composer": "Barber, Samuel"
+      }
+    },
+    {
+      "slug": "bartok-concerto-for-orchestra",
+      "type": "work",
+      "path": "Works/Bartok - Concerto for Orchestra.md",
+      "title": "Bartok - Concerto for Orchestra",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bartok, Bela"
+      }
+    },
+    {
+      "slug": "beethoven-leonore-overture-no-3",
+      "type": "work",
+      "path": "Works/Beethoven - Leonore Overture No. 3.md",
+      "title": "Beethoven - Leonore Overture No. 3",
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
+      }
+    },
+    {
+      "slug": "beethoven-symphony-no-5-in-c-minor",
+      "type": "work",
+      "path": "Works/Beethoven - Symphony No. 5 in C Minor.md",
+      "title": "Beethoven - Symphony No. 5 in C Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van"
+      }
+    },
+    {
+      "slug": "beethoven-symphony-no-6-in-f-major",
+      "type": "work",
+      "path": "Works/Beethoven - Symphony No. 6 in F Major.md",
+      "title": "Beethoven - Symphony No. 6 in F Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van"
+      }
+    },
+    {
+      "slug": "beethoven-symphony-no-7-in-a-major",
+      "type": "work",
+      "path": "Works/Beethoven - Symphony No. 7 in A Major.md",
+      "title": "Beethoven - Symphony No. 7 in A Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van"
+      }
+    },
+    {
+      "slug": "beethoven-symphony-no-8-in-f-major",
+      "type": "work",
+      "path": "Works/Beethoven - Symphony No. 8 in F Major.md",
+      "title": "Beethoven - Symphony No. 8 in F Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van"
+      }
+    },
+    {
+      "slug": "berko-condense-eternity",
+      "type": "work",
+      "path": "Works/Berko - Condense Eternity.md",
+      "title": "Berko - Condense Eternity",
+      "content": "",
+      "frontmatter": {
+        "composer": "Berko, Alex"
+      }
+    },
+    {
+      "slug": "berlioz-roman-carnival-overture",
+      "type": "work",
+      "path": "Works/Berlioz - Roman Carnival Overture.md",
+      "title": "Berlioz - Roman Carnival Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Berlioz, Hector"
+      }
+    },
+    {
+      "slug": "bernstein-overture-to-candide",
+      "type": "work",
+      "path": "Works/Bernstein - Overture to Candide.md",
+      "title": "Bernstein - Overture to Candide",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bernstein, Leonard"
+      }
+    },
+    {
+      "slug": "bizet-carmen-suite-no-1",
+      "type": "work",
+      "path": "Works/Bizet - Carmen Suite No. 1.md",
+      "title": "Bizet - Carmen Suite No. 1",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bizet, Georges"
+      }
+    },
+    {
+      "slug": "bizet-carmen-suite-no-2",
+      "type": "work",
+      "path": "Works/Bizet - Carmen Suite No. 2.md",
+      "title": "Bizet - Carmen Suite No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bizet, Georges"
+      }
+    },
+    {
+      "slug": "bizet-carmen",
+      "type": "work",
+      "path": "Works/Bizet - Carmen.md",
+      "title": "Bizet - Carmen",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bizet, Georges"
       }
     },
     {
@@ -1431,23 +2794,603 @@
       }
     },
     {
-      "slug": "brahms-symphony-no-4",
+      "slug": "brahms-symphony-no-1-in-c-minor",
       "type": "work",
-      "path": "Works/Brahms - Symphony No. 4.md",
-      "title": "Brahms - Symphony No. 4",
+      "path": "Works/Brahms - Symphony No. 1 in C Minor.md",
+      "title": "Brahms - Symphony No. 1 in C Minor",
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
       }
     },
     {
-      "slug": "dvorak-symphony-no-7",
+      "slug": "brahms-symphony-no-2-in-d-major",
       "type": "work",
-      "path": "Works/Dvorak - Symphony No. 7.md",
-      "title": "Dvorak - Symphony No. 7",
+      "path": "Works/Brahms - Symphony No. 2 in D Major.md",
+      "title": "Brahms - Symphony No. 2 in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes"
+      }
+    },
+    {
+      "slug": "brahms-symphony-no-3-in-f-major",
+      "type": "work",
+      "path": "Works/Brahms - Symphony No. 3 in F Major.md",
+      "title": "Brahms - Symphony No. 3 in F Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes"
+      }
+    },
+    {
+      "slug": "brahms-symphony-no-4-in-e-minor",
+      "type": "work",
+      "path": "Works/Brahms - Symphony No. 4 in E Minor.md",
+      "title": "Brahms - Symphony No. 4 in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes"
+      }
+    },
+    {
+      "slug": "chausson-poeme",
+      "type": "work",
+      "path": "Works/Chausson - Poeme.md",
+      "title": "Chausson - Poeme",
+      "content": "",
+      "frontmatter": {
+        "composer": "Chausson, Ernest"
+      }
+    },
+    {
+      "slug": "chavez-sinfonia-india-symphony-no-2",
+      "type": "work",
+      "path": "Works/Chavez - Sinfonia India (\"Symphony No. 2\").md",
+      "title": "Chavez - Sinfonia India (\"Symphony No. 2\")",
+      "content": "",
+      "frontmatter": {
+        "composer": "Chavez, Carlos"
+      }
+    },
+    {
+      "slug": "chevalier-de-saint-georges-overture-to-l-amant-anonyme",
+      "type": "work",
+      "path": "Works/Chevalier de Saint-Georges - Overture to L'Amant Anonyme.md",
+      "title": "Chevalier de Saint-Georges - Overture to L'Amant Anonyme",
+      "content": "",
+      "frontmatter": {
+        "composer": "Chevalier de Saint-Georges, Joseph Bologne"
+      }
+    },
+    {
+      "slug": "coleridge-taylor-scenes-from-the-song-of-hiawatha",
+      "type": "work",
+      "path": "Works/Coleridge-Taylor - Scenes from The Song of Hiawatha.md",
+      "title": "Coleridge-Taylor - Scenes from The Song of Hiawatha",
+      "content": "",
+      "frontmatter": {
+        "composer": "Coleridge-Taylor, Samuel"
+      }
+    },
+    {
+      "slug": "copland-appalachian-spring",
+      "type": "work",
+      "path": "Works/Copland - Appalachian Spring.md",
+      "title": "Copland - Appalachian Spring",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron"
+      }
+    },
+    {
+      "slug": "copland-fanfare-for-the-common-man",
+      "type": "work",
+      "path": "Works/Copland - Fanfare for the Common Man.md",
+      "title": "Copland - Fanfare for the Common Man",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron"
+      }
+    },
+    {
+      "slug": "copland-lincoln-portrait",
+      "type": "work",
+      "path": "Works/Copland - Lincoln Portrait.md",
+      "title": "Copland - Lincoln Portrait",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron"
+      }
+    },
+    {
+      "slug": "copland-rodeo",
+      "type": "work",
+      "path": "Works/Copland - Rodeo.md",
+      "title": "Copland - Rodeo",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron"
+      }
+    },
+    {
+      "slug": "debussy-la-mer",
+      "type": "work",
+      "path": "Works/Debussy - La Mer.md",
+      "title": "Debussy - La Mer",
+      "content": "",
+      "frontmatter": {
+        "composer": "Debussy, Claude"
+      }
+    },
+    {
+      "slug": "debussy-petite-suite",
+      "type": "work",
+      "path": "Works/Debussy - Petite Suite.md",
+      "title": "Debussy - Petite Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Debussy, Claude"
+      }
+    },
+    {
+      "slug": "delius-sleigh-ride",
+      "type": "work",
+      "path": "Works/Delius - Sleigh Ride.md",
+      "title": "Delius - Sleigh Ride",
+      "content": "",
+      "frontmatter": {
+        "composer": "Delius, Frederick"
+      }
+    },
+    {
+      "slug": "dvorak-string-quartet-no-12-in-f-major-american",
+      "type": "work",
+      "path": "Works/Dvorak - String Quartet No. 12 in F Major, \"American\".md",
+      "title": "Dvorak - String Quartet No. 12 in F Major, \"American\"",
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin"
+      }
+    },
+    {
+      "slug": "dvorak-symphony-no-6-in-d-major",
+      "type": "work",
+      "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
+      "title": "Dvorak - Symphony No. 6 in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin"
+      }
+    },
+    {
+      "slug": "dvorak-symphony-no-7-in-d-minor",
+      "type": "work",
+      "path": "Works/Dvorak - Symphony No. 7 in D Minor.md",
+      "title": "Dvorak - Symphony No. 7 in D Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin"
+      }
+    },
+    {
+      "slug": "dvorak-symphony-no-8-in-g-major",
+      "type": "work",
+      "path": "Works/Dvorak - Symphony No. 8 in G Major.md",
+      "title": "Dvorak - Symphony No. 8 in G Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin"
+      }
+    },
+    {
+      "slug": "dvorak-symphony-no-9-in-e-minor",
+      "type": "work",
+      "path": "Works/Dvorak - Symphony No. 9 in E Minor.md",
+      "title": "Dvorak - Symphony No. 9 in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin"
+      }
+    },
+    {
+      "slug": "elgar-cello-concerto-in-e-minor",
+      "type": "work",
+      "path": "Works/Elgar - Cello Concerto in E Minor.md",
+      "title": "Elgar - Cello Concerto in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward"
+      }
+    },
+    {
+      "slug": "elgar-in-the-south-alassio-concert-overture",
+      "type": "work",
+      "path": "Works/Elgar - In The South (Alassio) - Concert Overture.md",
+      "title": "Elgar - In The South (Alassio) - Concert Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward"
+      }
+    },
+    {
+      "slug": "elgar-pomp-and-circumstance-march-no-3-in-c-minor",
+      "type": "work",
+      "path": "Works/Elgar - Pomp and Circumstance March No. 3 in C Minor.md",
+      "title": "Elgar - Pomp and Circumstance March No. 3 in C Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward"
+      }
+    },
+    {
+      "slug": "elgar-pomp-and-circumstance-march-no-4-in-g-major",
+      "type": "work",
+      "path": "Works/Elgar - Pomp and Circumstance March No. 4 in G Major.md",
+      "title": "Elgar - Pomp and Circumstance March No. 4 in G Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward"
+      }
+    },
+    {
+      "slug": "elgar-serenade-for-strings",
+      "type": "work",
+      "path": "Works/Elgar - Serenade for Strings.md",
+      "title": "Elgar - Serenade for Strings",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward"
+      }
+    },
+    {
+      "slug": "ellington-nutcracker-suite",
+      "type": "work",
+      "path": "Works/Ellington - Nutcracker Suite.md",
+      "title": "Ellington - Nutcracker Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Ellington, Duke"
+      }
+    },
+    {
+      "slug": "enescu-romanian-rhapsody-no-1-in-a-major",
+      "type": "work",
+      "path": "Works/Enescu - Romanian Rhapsody No. 1 in A Major.md",
+      "title": "Enescu - Romanian Rhapsody No. 1 in A Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Enescu, George"
+      }
+    },
+    {
+      "slug": "faure-pavane",
+      "type": "work",
+      "path": "Works/Faure - Pavane.md",
+      "title": "Faure - Pavane",
+      "content": "",
+      "frontmatter": {
+        "composer": "Faure, Gabriel"
+      }
+    },
+    {
+      "slug": "gershwin-an-american-in-paris",
+      "type": "work",
+      "path": "Works/Gershwin - An American in Paris.md",
+      "title": "Gershwin - An American in Paris",
+      "content": "",
+      "frontmatter": {
+        "composer": "Gershwin, George"
+      }
+    },
+    {
+      "slug": "giordano-andrea-chenier",
+      "type": "work",
+      "path": "Works/Giordano - Andrea Chenier.md",
+      "title": "Giordano - Andrea Chenier",
+      "content": "",
+      "frontmatter": {
+        "composer": "Giordano, Umberto"
+      }
+    },
+    {
+      "slug": "gliere-russian-sailor-s-dance-from-the-red-poppy",
+      "type": "work",
+      "path": "Works/Gliere - Russian Sailor's Dance from The Red Poppy.md",
+      "title": "Gliere - Russian Sailor's Dance from The Red Poppy",
+      "content": "",
+      "frontmatter": {
+        "composer": "Gliere, Reinhold"
+      }
+    },
+    {
+      "slug": "glinka-ruslan-and-ludmila-overture",
+      "type": "work",
+      "path": "Works/Glinka - Ruslan and Ludmila Overture.md",
+      "title": "Glinka - Ruslan and Ludmila Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Glinka, Mikhail"
+      }
+    },
+    {
+      "slug": "grieg-peer-gynt-suite-no-1",
+      "type": "work",
+      "path": "Works/Grieg - Peer Gynt Suite No. 1.md",
+      "title": "Grieg - Peer Gynt Suite No. 1",
+      "content": "",
+      "frontmatter": {
+        "composer": "Grieg, Edvard"
+      }
+    },
+    {
+      "slug": "griffes-poem-for-flute-and-orchestra",
+      "type": "work",
+      "path": "Works/Griffes - Poem for Flute and Orchestra.md",
+      "title": "Griffes - Poem for Flute and Orchestra",
+      "content": "",
+      "frontmatter": {
+        "composer": "Griffes, Charles"
+      }
+    },
+    {
+      "slug": "haydn-symphony-no-104-in-d-major-london",
+      "type": "work",
+      "path": "Works/Haydn - Symphony No. 104 in D Major, \"London\".md",
+      "title": "Haydn - Symphony No. 104 in D Major, \"London\"",
+      "content": "",
+      "frontmatter": {
+        "composer": "Haydn, Joseph"
+      }
+    },
+    {
+      "slug": "haydn-symphony-no-31-in-d-major",
+      "type": "work",
+      "path": "Works/Haydn - Symphony No. 31 in D Major.md",
+      "title": "Haydn - Symphony No. 31 in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Haydn, Joseph"
+      }
+    },
+    {
+      "slug": "herrmann-psycho-a-suite-for-strings",
+      "type": "work",
+      "path": "Works/Herrmann - Psycho - A Suite for Strings.md",
+      "title": "Herrmann - Psycho - A Suite for Strings",
+      "content": "",
+      "frontmatter": {
+        "composer": "Herrmann, Bernard"
+      }
+    },
+    {
+      "slug": "hindemith-symphonic-metamorphosis-of-themes-by-carl-maria-von-weber",
+      "type": "work",
+      "path": "Works/Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber.md",
+      "title": "Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber",
+      "content": "",
+      "frontmatter": {
+        "composer": "Hindemith, Paul"
+      }
+    },
+    {
+      "slug": "holst-st-paul-s-suite",
+      "type": "work",
+      "path": "Works/Holst - St. Paul's Suite.md",
+      "title": "Holst - St. Paul's Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Holst, Gustav"
+      }
+    },
+    {
+      "slug": "ives-the-unanswered-question",
+      "type": "work",
+      "path": "Works/Ives - The Unanswered Question.md",
+      "title": "Ives - The Unanswered Question",
+      "content": "",
+      "frontmatter": {
+        "composer": "Ives, Charles"
+      }
+    },
+    {
+      "slug": "khachaturian-maskerade-suite",
+      "type": "work",
+      "path": "Works/Khachaturian - Maskerade Suite.md",
+      "title": "Khachaturian - Maskerade Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Khachaturian, Aram"
+      }
+    },
+    {
+      "slug": "lecuona-andalucia-suite",
+      "type": "work",
+      "path": "Works/Lecuona - Andalucia Suite.md",
+      "title": "Lecuona - Andalucia Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Lecuona, Ernesto"
+      }
+    },
+    {
+      "slug": "leshnoff-double-concerto-for-clarinet-bassoon",
+      "type": "work",
+      "path": "Works/Leshnoff - Double Concerto for Clarinet & Bassoon.md",
+      "title": "Leshnoff - Double Concerto for Clarinet & Bassoon",
+      "content": "",
+      "frontmatter": {
+        "composer": "Leshnoff, Jonathan"
+      }
+    },
+    {
+      "slug": "liszt-les-preludes",
+      "type": "work",
+      "path": "Works/Liszt - Les Preludes.md",
+      "title": "Liszt - Les Preludes",
+      "content": "",
+      "frontmatter": {
+        "composer": "Liszt, Franz"
+      }
+    },
+    {
+      "slug": "mahler-symphony-no-1",
+      "type": "work",
+      "path": "Works/Mahler - Symphony No. 1.md",
+      "title": "Mahler - Symphony No. 1",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mahler, Gustav"
+      }
+    },
+    {
+      "slug": "marquez-danzon-no-2",
+      "type": "work",
+      "path": "Works/Marquez - Danzon No. 2.md",
+      "title": "Marquez - Danzon No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Marquez, Arturo"
+      }
+    },
+    {
+      "slug": "marquez-danzon-no-4",
+      "type": "work",
+      "path": "Works/Marquez - Danzon No. 4.md",
+      "title": "Marquez - Danzon No. 4",
+      "content": "",
+      "frontmatter": {
+        "composer": "Marquez, Arturo"
+      }
+    },
+    {
+      "slug": "mazzoli-these-worlds-in-us",
+      "type": "work",
+      "path": "Works/Mazzoli - These Worlds in Us.md",
+      "title": "Mazzoli - These Worlds in Us",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mazzoli, Missy"
+      }
+    },
+    {
+      "slug": "mendelssohn-a-midsummer-night-s-dream",
+      "type": "work",
+      "path": "Works/Mendelssohn - A Midsummer Night's Dream.md",
+      "title": "Mendelssohn - A Midsummer Night's Dream",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mendelssohn, Felix"
+      }
+    },
+    {
+      "slug": "mendelssohn-hebrides-overture-fingal-s-cave",
+      "type": "work",
+      "path": "Works/Mendelssohn - Hebrides Overture \"Fingal's Cave\".md",
+      "title": "Mendelssohn - Hebrides Overture \"Fingal's Cave\"",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mendelssohn, Felix"
+      }
+    },
+    {
+      "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
+      "type": "work",
+      "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md",
+      "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\"",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mendelssohn, Felix"
+      }
+    },
+    {
+      "slug": "mendelssohn-violin-concerto-in-e-minor",
+      "type": "work",
+      "path": "Works/Mendelssohn - Violin Concerto in E Minor.md",
+      "title": "Mendelssohn - Violin Concerto in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mendelssohn, Felix"
+      }
+    },
+    {
+      "slug": "moncayo-huapango",
+      "type": "work",
+      "path": "Works/Moncayo - Huapango.md",
+      "title": "Moncayo - Huapango",
+      "content": "",
+      "frontmatter": {
+        "composer": "Moncayo, Jose Pablo"
+      }
+    },
+    {
+      "slug": "montgomery-strum",
+      "type": "work",
+      "path": "Works/Montgomery - Strum.md",
+      "title": "Montgomery - Strum",
+      "content": "",
+      "frontmatter": {
+        "composer": "Montgomery, Jessie"
+      }
+    },
+    {
+      "slug": "mozart-clarinet-concerto-in-a-major",
+      "type": "work",
+      "path": "Works/Mozart - Clarinet Concerto in A Major.md",
+      "title": "Mozart - Clarinet Concerto in A Major",
+      "content": "K. 622",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      }
+    },
+    {
+      "slug": "mozart-divertimento-in-f-major",
+      "type": "work",
+      "path": "Works/Mozart - Divertimento in F Major.md",
+      "title": "Mozart - Divertimento in F Major",
+      "content": "K. 138",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      }
+    },
+    {
+      "slug": "mozart-horn-concerto-no-3-in-e-flat-major",
+      "type": "work",
+      "path": "Works/Mozart - Horn Concerto No. 3 in E-Flat Major.md",
+      "title": "Mozart - Horn Concerto No. 3 in E-Flat Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      }
+    },
+    {
+      "slug": "mozart-piano-concerto-no-20-in-d-minor",
+      "type": "work",
+      "path": "Works/Mozart - Piano Concerto No. 20 in D Minor.md",
+      "title": "Mozart - Piano Concerto No. 20 in D Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      }
+    },
+    {
+      "slug": "mozart-serenade-no-10-in-b-flat-major",
+      "type": "work",
+      "path": "Works/Mozart - Serenade No. 10 in B-Flat Major.md",
+      "title": "Mozart - Serenade No. 10 in B-Flat Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      }
+    },
+    {
+      "slug": "mozart-sinfonia-concertante-for-violin-and-viola",
+      "type": "work",
+      "path": "Works/Mozart - Sinfonia Concertante for Violin and Viola.md",
+      "title": "Mozart - Sinfonia Concertante for Violin and Viola",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
       }
     },
     {
@@ -1461,6 +3404,256 @@
       }
     },
     {
+      "slug": "nielsen-flute-concerto",
+      "type": "work",
+      "path": "Works/Nielsen - Flute Concerto.md",
+      "title": "Nielsen - Flute Concerto",
+      "content": "",
+      "frontmatter": {
+        "composer": "Nielsen, Carl"
+      }
+    },
+    {
+      "slug": "paganini-violin-concerto-no-1-in-d-major",
+      "type": "work",
+      "path": "Works/Paganini - Violin Concerto No. 1 in D Major.md",
+      "title": "Paganini - Violin Concerto No. 1 in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Paganini, Niccolo"
+      }
+    },
+    {
+      "slug": "price-andante-cantabile-from-string-quartet-no-2",
+      "type": "work",
+      "path": "Works/Price - Andante Cantabile from String Quartet No. 2.md",
+      "title": "Price - Andante Cantabile from String Quartet No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Price, Florence"
+      }
+    },
+    {
+      "slug": "price-the-oak",
+      "type": "work",
+      "path": "Works/Price - The Oak.md",
+      "title": "Price - The Oak",
+      "content": "",
+      "frontmatter": {
+        "composer": "Price, Florence"
+      }
+    },
+    {
+      "slug": "prokofiev-overture-on-hebrew-themes",
+      "type": "work",
+      "path": "Works/Prokofiev - Overture on Hebrew Themes.md",
+      "title": "Prokofiev - Overture on Hebrew Themes",
+      "content": "",
+      "frontmatter": {
+        "composer": "Prokofiev, Sergei"
+      }
+    },
+    {
+      "slug": "prokofiev-peter-and-the-wolf",
+      "type": "work",
+      "path": "Works/Prokofiev - Peter and the Wolf.md",
+      "title": "Prokofiev - Peter and the Wolf",
+      "content": "",
+      "frontmatter": {
+        "composer": "Prokofiev, Sergei"
+      }
+    },
+    {
+      "slug": "prokofiev-romeo-and-juliet",
+      "type": "work",
+      "path": "Works/Prokofiev - Romeo and Juliet.md",
+      "title": "Prokofiev - Romeo and Juliet",
+      "content": "",
+      "frontmatter": {
+        "composer": "Prokofiev, Sergei"
+      }
+    },
+    {
+      "slug": "prokofiev-symphony-no-5-in-b-flat-major",
+      "type": "work",
+      "path": "Works/Prokofiev - Symphony No. 5 in B-Flat Major.md",
+      "title": "Prokofiev - Symphony No. 5 in B-Flat Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Prokofiev, Sergei"
+      }
+    },
+    {
+      "slug": "prokofiev-violin-concerto-no-2-in-g-minor",
+      "type": "work",
+      "path": "Works/Prokofiev - Violin Concerto No. 2 in G Minor.md",
+      "title": "Prokofiev - Violin Concerto No. 2 in G Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Prokofiev, Sergei"
+      }
+    },
+    {
+      "slug": "puccini-tosca",
+      "type": "work",
+      "path": "Works/Puccini - Tosca.md",
+      "title": "Puccini - Tosca",
+      "content": "",
+      "frontmatter": {
+        "composer": "Puccini, Giacomo"
+      }
+    },
+    {
+      "slug": "reinecke-flute-concerto-in-d-major",
+      "type": "work",
+      "path": "Works/Reinecke - Flute Concerto in D Major.md",
+      "title": "Reinecke - Flute Concerto in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Reinecke, Carl"
+      }
+    },
+    {
+      "slug": "respighi-the-pines-of-rome",
+      "type": "work",
+      "path": "Works/Respighi - The Pines of Rome.md",
+      "title": "Respighi - The Pines of Rome",
+      "content": "",
+      "frontmatter": {
+        "composer": "Respighi, Ottorino"
+      }
+    },
+    {
+      "slug": "richter-recomposed-the-four-seasons",
+      "type": "work",
+      "path": "Works/Richter - Recomposed - The Four Seasons.md",
+      "title": "Richter - Recomposed - The Four Seasons",
+      "content": "",
+      "frontmatter": {
+        "composer": "Richter, Max"
+      }
+    },
+    {
+      "slug": "rimsky-korsakov-snow-maiden-suite",
+      "type": "work",
+      "path": "Works/Rimsky-Korsakov - Snow Maiden Suite.md",
+      "title": "Rimsky-Korsakov - Snow Maiden Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rimsky-Korsakov, Nikolai"
+      }
+    },
+    {
+      "slug": "rosauro-concerto-no-1-for-marimba-string-orchestra",
+      "type": "work",
+      "path": "Works/Rosauro - Concerto No. 1 for Marimba & String Orchestra.md",
+      "title": "Rosauro - Concerto No. 1 for Marimba & String Orchestra",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rosauro, Ney"
+      }
+    },
+    {
+      "slug": "rossini-overture-to-la-gazza-ladra",
+      "type": "work",
+      "path": "Works/Rossini - Overture to La Gazza Ladra.md",
+      "title": "Rossini - Overture to La Gazza Ladra",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rossini, Gioachino"
+      }
+    },
+    {
+      "slug": "rossini-overture-to-the-barber-of-seville",
+      "type": "work",
+      "path": "Works/Rossini - Overture to The Barber of Seville.md",
+      "title": "Rossini - Overture to The Barber of Seville",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rossini, Gioachino"
+      }
+    },
+    {
+      "slug": "rossini-overture-to-william-tell",
+      "type": "work",
+      "path": "Works/Rossini - Overture to William Tell.md",
+      "title": "Rossini - Overture to William Tell",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rossini, Gioachino"
+      }
+    },
+    {
+      "slug": "rubenstein-cello-concerto-no-2",
+      "type": "work",
+      "path": "Works/Rubenstein - Cello Concerto No. 2.md",
+      "title": "Rubenstein - Cello Concerto No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rubenstein, Anton"
+      }
+    },
+    {
+      "slug": "saint-saens-bacchanale-from-samson-and-delilah",
+      "type": "work",
+      "path": "Works/Saint-Saens - Bacchanale from Samson and Delilah.md",
+      "title": "Saint-Saens - Bacchanale from Samson and Delilah",
+      "content": "",
+      "frontmatter": {
+        "composer": "Saint-Saens, Camille"
+      }
+    },
+    {
+      "slug": "saint-saens-violin-concerto-no-3-in-b-minor",
+      "type": "work",
+      "path": "Works/Saint-Saens - Violin Concerto No. 3 in B Minor.md",
+      "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Saint-Saens, Camille"
+      }
+    },
+    {
+      "slug": "sankey-carmen-fantasy-after-bizet",
+      "type": "work",
+      "path": "Works/Sankey - Carmen Fantasy (after Bizet).md",
+      "title": "Sankey - Carmen Fantasy (after Bizet)",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sankey, Stuart"
+      }
+    },
+    {
+      "slug": "schumann-symphony-no-4-in-d-minor",
+      "type": "work",
+      "path": "Works/Schumann - Symphony No. 4 in D Minor.md",
+      "title": "Schumann - Symphony No. 4 in D Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Schumann, Robert"
+      }
+    },
+    {
+      "slug": "shchedrin-carmen-suite",
+      "type": "work",
+      "path": "Works/Shchedrin - Carmen Suite.md",
+      "title": "Shchedrin - Carmen Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Shchedrin, Rodion"
+      }
+    },
+    {
+      "slug": "shepherd-songs",
+      "type": "work",
+      "path": "Works/Shepherd - Songs.md",
+      "title": "Shepherd - Songs",
+      "content": "",
+      "frontmatter": {
+        "composer": "Shepherd, Sean"
+      }
+    },
+    {
       "slug": "shostakovich-symphony-no-5",
       "type": "work",
       "path": "Works/Shostakovich - Symphony No. 5.md",
@@ -1468,6 +3661,356 @@
       "content": "",
       "frontmatter": {
         "composer": "Shostakovich, Dmitri"
+      }
+    },
+    {
+      "slug": "sibelius-andante-festivo",
+      "type": "work",
+      "path": "Works/Sibelius - Andante Festivo.md",
+      "title": "Sibelius - Andante Festivo",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      }
+    },
+    {
+      "slug": "sibelius-spring-song-v-rs-ng",
+      "type": "work",
+      "path": "Works/Sibelius - Spring Song (Vårsång).md",
+      "title": "Sibelius - Spring Song (Vårsång)",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      }
+    },
+    {
+      "slug": "sibelius-symphony-no-1-in-e-minor",
+      "type": "work",
+      "path": "Works/Sibelius - Symphony No. 1 in E Minor.md",
+      "title": "Sibelius - Symphony No. 1 in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      }
+    },
+    {
+      "slug": "sibelius-symphony-no-2",
+      "type": "work",
+      "path": "Works/Sibelius - Symphony No. 2.md",
+      "title": "Sibelius - Symphony No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      }
+    },
+    {
+      "slug": "sibelius-violin-concerto",
+      "type": "work",
+      "path": "Works/Sibelius - Violin Concerto.md",
+      "title": "Sibelius - Violin Concerto",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      }
+    },
+    {
+      "slug": "sousa-stars-and-stripes-forever",
+      "type": "work",
+      "path": "Works/Sousa - Stars and Stripes Forever.md",
+      "title": "Sousa - Stars and Stripes Forever",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sousa, John Philip"
+      }
+    },
+    {
+      "slug": "still-afro-american-symphony",
+      "type": "work",
+      "path": "Works/Still - Afro-American Symphony.md",
+      "title": "Still - Afro-American Symphony",
+      "content": "",
+      "frontmatter": {
+        "composer": "Still, William Grant"
+      }
+    },
+    {
+      "slug": "still-danzas-de-panama",
+      "type": "work",
+      "path": "Works/Still - Danzas de Panama.md",
+      "title": "Still - Danzas de Panama",
+      "content": "",
+      "frontmatter": {
+        "composer": "Still, William Grant"
+      }
+    },
+    {
+      "slug": "strauss-emperor-waltz",
+      "type": "work",
+      "path": "Works/Strauss - Emperor Waltz.md",
+      "title": "Strauss - Emperor Waltz",
+      "content": "",
+      "frontmatter": {
+        "composer": "Strauss, Johann"
+      }
+    },
+    {
+      "slug": "strauss-perpetuum-mobile",
+      "type": "work",
+      "path": "Works/Strauss - Perpetuum Mobile.md",
+      "title": "Strauss - Perpetuum Mobile",
+      "content": "",
+      "frontmatter": {
+        "composer": "Strauss, Johann"
+      }
+    },
+    {
+      "slug": "strauss-radetsky-march",
+      "type": "work",
+      "path": "Works/Strauss - Radetsky March.md",
+      "title": "Strauss - Radetsky March",
+      "content": "",
+      "frontmatter": {
+        "composer": "Strauss, Johann"
+      }
+    },
+    {
+      "slug": "strauss-the-blue-danube",
+      "type": "work",
+      "path": "Works/Strauss - The Blue Danube.md",
+      "title": "Strauss - The Blue Danube",
+      "content": "",
+      "frontmatter": {
+        "composer": "Strauss, Johann"
+      }
+    },
+    {
+      "slug": "tchaikovsky-romeo-juliet-fantasy-overture",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Romeo & Juliet Fantasy Overture.md",
+      "title": "Tchaikovsky - Romeo & Juliet Fantasy Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-serenade-for-strings",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Serenade for Strings.md",
+      "title": "Tchaikovsky - Serenade for Strings",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-string-quartet-no-1-in-d-major",
+      "type": "work",
+      "path": "Works/Tchaikovsky - String Quartet No. 1 in D Major.md",
+      "title": "Tchaikovsky - String Quartet No. 1 in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-suite-no-4-in-g-major-mozartiana",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\".md",
+      "title": "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-swan-lake-suite",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Swan Lake Suite.md",
+      "title": "Tchaikovsky - Swan Lake Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-symphony-no-1-in-g-minor",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Symphony No. 1 in G Minor.md",
+      "title": "Tchaikovsky - Symphony No. 1 in G Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-symphony-no-4-in-f-minor",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
+      "title": "Tchaikovsky - Symphony No. 4 in F Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-symphony-no-5-in-e-minor",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Symphony No. 5 in E Minor.md",
+      "title": "Tchaikovsky - Symphony No. 5 in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-the-nutcracker-suite",
+      "type": "work",
+      "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
+      "title": "Tchaikovsky - The Nutcracker Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "tchaikovsky-variations-on-a-rococo-theme",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Variations on a Rococo Theme.md",
+      "title": "Tchaikovsky - Variations on a Rococo Theme",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      }
+    },
+    {
+      "slug": "vaughan-williams-norfolk-rhapsody-no-1-in-e-minor",
+      "type": "work",
+      "path": "Works/Vaughan Williams - Norfolk Rhapsody No. 1 in E minor.md",
+      "title": "Vaughan Williams - Norfolk Rhapsody No. 1 in E minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Vaughan Williams, Ralph"
+      }
+    },
+    {
+      "slug": "vaughan-williams-the-lark-ascending",
+      "type": "work",
+      "path": "Works/Vaughan Williams - The Lark Ascending.md",
+      "title": "Vaughan Williams - The Lark Ascending",
+      "content": "",
+      "frontmatter": {
+        "composer": "Vaughan Williams, Ralph"
+      }
+    },
+    {
+      "slug": "verdi-overture-to-nabucco",
+      "type": "work",
+      "path": "Works/Verdi - Overture to Nabucco.md",
+      "title": "Verdi - Overture to Nabucco",
+      "content": "",
+      "frontmatter": {
+        "composer": "Verdi, Giuseppe"
+      }
+    },
+    {
+      "slug": "verdi-rigoletto",
+      "type": "work",
+      "path": "Works/Verdi - Rigoletto.md",
+      "title": "Verdi - Rigoletto",
+      "content": "",
+      "frontmatter": {
+        "composer": "Verdi, Giuseppe"
+      }
+    },
+    {
+      "slug": "vivaldi-concerto-for-strings-in-g-minor",
+      "type": "work",
+      "path": "Works/Vivaldi - Concerto for Strings in G Minor.md",
+      "title": "Vivaldi - Concerto for Strings in G Minor",
+      "content": "RV 157",
+      "frontmatter": {
+        "composer": "Vivaldi, Antonio"
+      }
+    },
+    {
+      "slug": "wagner-die-walk-re",
+      "type": "work",
+      "path": "Works/Wagner - Die Walküre.md",
+      "title": "Wagner - Die Walküre",
+      "content": "",
+      "frontmatter": {
+        "composer": "Wagner, Richard"
+      }
+    },
+    {
+      "slug": "wagner-lohengrin",
+      "type": "work",
+      "path": "Works/Wagner - Lohengrin.md",
+      "title": "Wagner - Lohengrin",
+      "content": "",
+      "frontmatter": {
+        "composer": "Wagner, Richard"
+      }
+    },
+    {
+      "slug": "wagner-tristan-und-isolde",
+      "type": "work",
+      "path": "Works/Wagner - Tristan und Isolde.md",
+      "title": "Wagner - Tristan und Isolde",
+      "content": "",
+      "frontmatter": {
+        "composer": "Wagner, Richard"
+      }
+    },
+    {
+      "slug": "waldteufel-the-skater-s-waltz-les-patineurs",
+      "type": "work",
+      "path": "Works/Waldteufel - The Skater's Waltz (Les Patineurs).md",
+      "title": "Waldteufel - The Skater's Waltz (Les Patineurs)",
+      "content": "",
+      "frontmatter": {
+        "composer": "Waldteufel, Emile"
+      }
+    },
+    {
+      "slug": "webern-langsamer-satz",
+      "type": "work",
+      "path": "Works/Webern - Langsamer Satz.md",
+      "title": "Webern - Langsamer Satz",
+      "content": "",
+      "frontmatter": {
+        "composer": "Webern, Anton"
+      }
+    },
+    {
+      "slug": "williams-star-wars",
+      "type": "work",
+      "path": "Works/Williams - Star Wars.md",
+      "title": "Williams - Star Wars",
+      "content": "",
+      "frontmatter": {
+        "composer": "Williams, John"
+      }
+    },
+    {
+      "slug": "williams-superman-march",
+      "type": "work",
+      "path": "Works/Williams - Superman March.md",
+      "title": "Williams - Superman March",
+      "content": "",
+      "frontmatter": {
+        "composer": "Williams, John"
+      }
+    },
+    {
+      "slug": "yarmolinsky-the-consitution-a-secular-oratorio",
+      "type": "work",
+      "path": "Works/Yarmolinsky - The Consitution, A Secular Oratorio.md",
+      "title": "Yarmolinsky - The Consitution, A Secular Oratorio",
+      "content": "",
+      "frontmatter": {
+        "composer": "Yarmolinsky, Benjamin"
       }
     }
   ]
