@@ -16,7 +16,9 @@ export function formatConcertTitle(
   const parenthesesMatch = filename.match(/\((.*?)\)$/);
   const subtitle = parenthesesMatch ? parenthesesMatch[1] : "";
 
-  return group ? `${group.title}: ${subtitle}` : subtitle || filename;
+  if (!group) return subtitle || filename;
+
+  return subtitle ? `${group.title}: ${subtitle}` : group.title;
 }
 
 // Helper to safely format a date string
