@@ -189,7 +189,7 @@ async function generateDatabase(vaultPath: string) {
     database[dir.type] = objects;
   }
 
-  const outputPath = path.resolve(__dirname, "../app/data/vault-database.json");
+  const outputPath = path.resolve(__dirname, "../app/data/vault-data.json");
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
   await fs.writeFile(outputPath, JSON.stringify(database, null, 2));
 
