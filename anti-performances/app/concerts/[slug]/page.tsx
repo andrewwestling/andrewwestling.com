@@ -2,21 +2,20 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import database from "@/database";
 import {
-  getDateFromFilename,
-  formatConcertTitle,
   formatDate,
   findConductorSlug,
+  formatConcertTitle,
 } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
 import { DidNotPlay } from "@/components/DidNotPlay";
+import {
+  getLocationsForVenues,
+  findVenueFromFrontmatter,
+} from "@/lib/location";
 
-export default function ConcertPage({ params }: PageProps) {
+export default async function ConcertPage({ params }: PageProps) {
   // Find concert by matching the date portion of the slug
-  const concert = database.concert.find((c) => {
-    const concertDate = getDateFromFilename(c.slug);
-    return concertDate === params.slug;
-  });
-
+  const concert = database.concert.find((c) => c.slug === params.slug);
   if (!concert) {
     notFound();
   }
@@ -46,6 +45,19 @@ export default function ConcertPage({ params }: PageProps) {
     .map((workTitle) => database.work.find((w) => w.title === workTitle))
     .filter(Boolean);
 
+  // Get venue location if available
+  const locationMap = await getLocationsForVenues(database.venue);
+  const venue = findVenueFromFrontmatter(
+    concert.frontmatter.venue,
+    database.venue
+  );
+  let location = venue ? locationMap[venue.slug] : null;
+
+  // Fall back to group location if no venue location
+  if (!location && group?.frontmatter.location) {
+    location = group.frontmatter.location;
+  }
+
   return (
     <article className="py-8">
       <h1 className="text-2xl font-bold mb-4 flex items-center gap-2 flex-wrap">
@@ -64,8 +76,17 @@ export default function ConcertPage({ params }: PageProps) {
             {group && <Link href={`/groups/${group.slug}`}>{group.title}</Link>}
           </dd>
 
-          <dt className="font-medium">Location</dt>
-          <dd>{group?.frontmatter.location}</dd>
+          {venue && (
+            <>
+              <dt className="font-medium">Venue</dt>
+              <dd>
+                <Link href={`/venues/${venue.slug}`}>{venue.title}</Link>
+                {location && (
+                  <span className="text-muted ml-2">({location})</span>
+                )}
+              </dd>
+            </>
+          )}
 
           {conductors.length > 0 && (
             <>

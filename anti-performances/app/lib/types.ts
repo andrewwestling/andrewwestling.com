@@ -12,12 +12,22 @@ export interface BaseItem {
   content: string;
 }
 
+export interface VenueFrontmatter {
+  coordinates?: string;
+  [key: string]: any;
+}
+
+export interface Venue extends BaseItem {
+  frontmatter: VenueFrontmatter;
+}
+
 export interface ConcertFrontmatter {
   date: string;
   group: string;
   works: string | string[] | null;
   conductor: string | string[] | null;
   spotifyPlaylistUrl: string | null;
+  venue?: string | null;
   didNotPlay?: boolean;
   [key: string]: any;
 }
@@ -65,13 +75,22 @@ export interface Database {
   group: Group[];
   conductor: Conductor[];
   composer: Composer[];
+  venue: Venue[];
 }
 
 interface VaultObject {
   slug: string;
-  type: "concert" | "composer" | "conductor" | "group" | "rehearsal" | "sheet-music" | "work";
+  type:
+    | "concert"
+    | "composer"
+    | "conductor"
+    | "group"
+    | "rehearsal"
+    | "sheet-music"
+    | "work"
+    | "venue";
   path: string;
   title: string;
   content: string;
-  frontmatter: ConcertFrontmatter | Record<string, any>;
+  frontmatter: ConcertFrontmatter | VenueFrontmatter | Record<string, any>;
 }

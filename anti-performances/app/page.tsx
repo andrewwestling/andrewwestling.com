@@ -2,8 +2,14 @@ import Link from "next/link";
 import database from "@/database";
 import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { DidNotPlay } from "@/components/DidNotPlay";
+import {
+  getLocationsForVenues,
+  findVenueFromFrontmatter,
+} from "@/lib/location";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const locationMap = await getLocationsForVenues(database.venue);
+
   return (
     <div className="py-8">
       <div className="grid gap-12">
@@ -22,9 +28,18 @@ export default function HomePage() {
 
               const displayTitle = formatConcertTitle(concert.title, group);
 
+              const venue = findVenueFromFrontmatter(
+                concert.frontmatter.venue,
+                database.venue
+              );
+              let location = venue ? locationMap[venue.slug] : null;
+              if (!location && group?.frontmatter.location) {
+                location = group.frontmatter.location;
+              }
+
               return (
                 <div key={concert.slug} className="flex items-center gap-2">
-                  <Link href={`/concerts/${concertDate}`}>{displayTitle}</Link>
+                  <Link href={`/concerts/${concert.slug}`}>{displayTitle}</Link>
                   {concert.frontmatter.didNotPlay && <DidNotPlay />}
                 </div>
               );
@@ -110,6 +125,26 @@ export default function HomePage() {
                   <span className="text-muted ml-2">
                     ({works.length} work{works.length !== 1 ? "s" : ""})
                   </span>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* Venues */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">
+            <Link href="/venues">Venues</Link>
+          </h2>
+          <div className="grid gap-4">
+            {database.venue.map((venue) => {
+              const location = locationMap[venue.slug];
+              return (
+                <div key={venue.slug}>
+                  <Link href={`/venues/${venue.slug}`}>{venue.title}</Link>
+                  {location && (
+                    <span className="text-muted ml-2">{location}</span>
+                  )}
                 </div>
               );
             })}

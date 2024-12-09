@@ -13,7 +13,8 @@
         "conductor": [
           "Eric Garcia"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Morrison Center"
       }
     },
     {
@@ -29,7 +30,8 @@
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -45,7 +47,8 @@
         "conductor": [
           "Scott Jackson Wiley"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Broadway Presbyterian Church"
       }
     },
     {
@@ -61,7 +64,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Washington Irving High School"
       }
     },
     {
@@ -78,6 +82,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Morrison Center",
         "didNotPlay": true
       }
     },
@@ -94,7 +99,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Washington Irving High School"
       }
     },
     {
@@ -110,7 +116,8 @@
         "conductor": [
           "Jason Asbury"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "St. Ann and the Holy Trinity Church"
       }
     },
     {
@@ -126,7 +133,8 @@
         "conductor": [
           "Scott Jackson Wiley"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Broadway Presbyterian Church"
       }
     },
     {
@@ -141,6 +149,7 @@
         "works": null,
         "conductor": null,
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -158,7 +167,8 @@
           "Nick Armstrong",
           "Andy Bhasin"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Brooklyn Museum"
       }
     },
     {
@@ -174,7 +184,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Concert Grove Pavilion, Prospect Park"
       }
     },
     {
@@ -191,6 +202,7 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Brooklyn Museum",
         "didNotPlay": true
       }
     },
@@ -207,7 +219,8 @@
         "conductor": [
           "Eric Hayslett"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Church of the Holy Apostles"
       }
     },
     {
@@ -224,6 +237,7 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Brooklyn Museum",
         "didNotPlay": true
       }
     },
@@ -240,7 +254,8 @@
         "conductor": [
           "Eric Hayslett"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Church of the Holy Apostles"
       }
     },
     {
@@ -257,6 +272,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Morrison Center",
         "didNotPlay": true
       }
     },
@@ -273,7 +289,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "Good Shepherd-Faith Presbyterian Church"
       }
     },
     {
@@ -290,6 +307,7 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Brooklyn Museum",
         "didNotPlay": true
       }
     },
@@ -304,7 +322,8 @@
         "group": "BACK Quartet",
         "works": null,
         "conductor": null,
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -321,6 +340,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Morrison Center",
         "didNotPlay": true
       }
     },
@@ -337,7 +357,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -354,6 +375,7 @@
           "Scott Jackson Wiley"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Broadway Presbyterian Church",
         "didNotPlay": true
       }
     },
@@ -371,6 +393,7 @@
           "Felipe Tristan"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": "Brooklyn Museum",
         "didNotPlay": true
       }
     },
@@ -387,7 +410,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": "All Saints Church"
       }
     },
     {
@@ -404,6 +428,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -420,7 +445,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -437,6 +463,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -454,7 +481,8 @@
           "Nick Armstrong",
           "Andy Bhasin"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -470,7 +498,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -487,6 +516,7 @@
           "Scott Jackson Wiley"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -504,6 +534,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -520,7 +551,8 @@
         "conductor": [
           "David Bernard"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -536,7 +568,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -553,6 +586,7 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -570,6 +604,7 @@
           "Scott Jackson Wiley"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -586,7 +621,8 @@
         "conductor": [
           "Nick Armstrong"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -602,7 +638,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -618,7 +655,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -634,7 +672,8 @@
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -650,7 +689,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -666,7 +706,8 @@
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -683,6 +724,7 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -699,7 +741,8 @@
         "conductor": [
           "David Hattner"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -716,7 +759,8 @@
           "Barbara Yahr",
           "Eric Mahl"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -732,7 +776,8 @@
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -749,7 +794,8 @@
           "Barbara Yahr",
           "Eric Mahl"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -765,7 +811,8 @@
         "conductor": [
           "Felipe Tristan"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -781,7 +828,8 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -798,6 +846,7 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": null,
+        "venue": null,
         "didNotPlay": true
       }
     },
@@ -814,7 +863,8 @@
         "conductor": [
           "David Hagy"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -830,7 +880,8 @@
         "conductor": [
           "Andrew Kim"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     },
     {
@@ -846,7 +897,8 @@
         "conductor": [
           "Nico Olarte-Hayes"
         ],
-        "spotifyPlaylistUrl": null
+        "spotifyPlaylistUrl": null,
+        "venue": null
       }
     }
   ],
@@ -1113,6 +1165,17 @@
       }
     },
     {
+      "slug": "new-school",
+      "type": "group",
+      "path": "Groups/New School Community Orchestra.md",
+      "title": "New School Community Orchestra",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+      "frontmatter": {
+        "location": "Manhattan, New York",
+        "slug": "new-school"
+      }
+    },
+    {
       "slug": "pyp-alumni",
       "type": "group",
       "path": "Groups/Portland Youth Philharmonic Alumni Orchestra.md",
@@ -1148,6 +1211,158 @@
   ],
   "rehearsal": [],
   "sheet-music": [],
+  "venue": [
+    {
+      "slug": "all-saints-church",
+      "type": "venue",
+      "path": "Venues/All Saints Church.md",
+      "title": "All Saints Church",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.761709219548486, -73.96460402266095"
+      }
+    },
+    {
+      "slug": "arlene-schnitzer-concert-hall",
+      "type": "venue",
+      "path": "Venues/Arlene Schnitzer Concert Hall.md",
+      "title": "Arlene Schnitzer Concert Hall",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "45.517072894870246, -122.68115749999998"
+      }
+    },
+    {
+      "slug": "broadway-presbyterian-church",
+      "type": "venue",
+      "path": "Venues/Broadway Presbyterian Church.md",
+      "title": "Broadway Presbyterian Church",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.80704919393662, -73.96516734879553"
+      }
+    },
+    {
+      "slug": "brooklyn-museum",
+      "type": "venue",
+      "path": "Venues/Brooklyn Museum.md",
+      "title": "Brooklyn Museum",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.671303786389714, -73.96339456115611"
+      }
+    },
+    {
+      "slug": "church-of-the-holy-apostles",
+      "type": "venue",
+      "path": "Venues/Church of the Holy Apostles.md",
+      "title": "Church of the Holy Apostles",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.74940177287778, -73.99852036440322"
+      }
+    },
+    {
+      "slug": "concert-grove-pavilion-prospect-park",
+      "type": "venue",
+      "path": "Venues/Concert Grove Pavilion, Prospect Park.md",
+      "title": "Concert Grove Pavilion, Prospect Park",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.659367878012375, -73.96422698510285"
+      }
+    },
+    {
+      "slug": "good-shepherd-faith-presbyterian-church",
+      "type": "venue",
+      "path": "Venues/Good Shepherd-Faith Presbyterian Church.md",
+      "title": "Good Shepherd-Faith Presbyterian Church",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.77445657027036, -73.98372227861884"
+      }
+    },
+    {
+      "slug": "high-school-of-fashion-industries",
+      "type": "venue",
+      "path": "Venues/High School of Fashion Industries.md",
+      "title": "High School of Fashion Industries",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.74559725687072, -73.99604441594519"
+      }
+    },
+    {
+      "slug": "littlefield",
+      "type": "venue",
+      "path": "Venues/Littlefield.md",
+      "title": "Littlefield",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.67872855633899, -73.9831076571556"
+      }
+    },
+    {
+      "slug": "morrison-center",
+      "type": "venue",
+      "path": "Venues/Morrison Center.md",
+      "title": "Morrison Center",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "43.60691693461088, -116.20706762492217"
+      }
+    },
+    {
+      "slug": "roulette",
+      "type": "venue",
+      "path": "Venues/Roulette.md",
+      "title": "Roulette",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.68569005483316, -73.98039798665222"
+      }
+    },
+    {
+      "slug": "st-ann-and-the-holy-trinity-church",
+      "type": "venue",
+      "path": "Venues/St. Ann and the Holy Trinity Church.md",
+      "title": "St. Ann and the Holy Trinity Church",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.69792476267189, -73.98781909687445"
+      }
+    },
+    {
+      "slug": "the-dimenna-center-for-classical-music",
+      "type": "venue",
+      "path": "Venues/The DiMenna Center for Classical Music.md",
+      "title": "The DiMenna Center for Classical Music",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.756322473257136, -73.99656469813138"
+      }
+    },
+    {
+      "slug": "tishman-auditorium-the-new-school",
+      "type": "venue",
+      "path": "Venues/Tishman Auditorium, The New School.md",
+      "title": "Tishman Auditorium, The New School",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.73555460149865, -73.99321600608772"
+      }
+    },
+    {
+      "slug": "washington-irving-high-school",
+      "type": "venue",
+      "path": "Venues/Washington Irving High School.md",
+      "title": "Washington Irving High School",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.73562193587602, -73.98689945662588"
+      }
+    }
+  ],
   "work": [
     {
       "slug": "beethoven-symphony-no-8",

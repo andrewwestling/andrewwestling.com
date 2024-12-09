@@ -7,7 +7,7 @@ function slugify(text: string): string {
   return text
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-") // Replace non-alphanumeric chars with hyphens
-    .replace(/^-+|-+$/g, "")     // Remove leading/trailing hyphens
+    .replace(/^-+|-+$/g, "") // Remove leading/trailing hyphens
     .trim();
 }
 
@@ -35,7 +35,15 @@ function isValidDate(dateStr: string): boolean {
 
 interface VaultObject {
   slug: string;
-  type: "concert" | "composer" | "conductor" | "group" | "rehearsal" | "sheet-music" | "work";
+  type:
+    | "concert"
+    | "composer"
+    | "conductor"
+    | "group"
+    | "rehearsal"
+    | "sheet-music"
+    | "work"
+    | "venue";
   path: string;
   title: string;
   content: string;
@@ -127,7 +135,10 @@ async function readVaultDirectory(
           let concertDate = undefined;
 
           // Try frontmatter date first
-          if (processedFrontmatter.date && isValidDate(processedFrontmatter.date)) {
+          if (
+            processedFrontmatter.date &&
+            isValidDate(processedFrontmatter.date)
+          ) {
             concertDate = new Date(processedFrontmatter.date).toISOString();
           }
 
@@ -148,7 +159,12 @@ async function readVaultDirectory(
         }
 
         const title = path.basename(entry.name, ".md");
-        const slug = generateSlug(type, entry.name, title, processedFrontmatter);
+        const slug = generateSlug(
+          type,
+          entry.name,
+          title,
+          processedFrontmatter
+        );
 
         objects.push({
           slug,
@@ -178,6 +194,7 @@ async function generateDatabase(vaultPath: string) {
     { path: "Groups", type: "group" },
     { path: "Rehearsals", type: "rehearsal" },
     { path: "Sheet Music", type: "sheet-music" },
+    { path: "Venues", type: "venue" },
     { path: "Works", type: "work" },
   ] as const;
 

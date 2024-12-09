@@ -8,8 +8,15 @@ import {
   findConductorSlug,
 } from "@/lib/helpers";
 import { DidNotPlay } from "@/components/DidNotPlay";
+import {
+  getLocationsForVenues,
+  findVenueFromFrontmatter,
+} from "@/lib/location";
 
-export default function ConcertsPage() {
+export default async function ConcertsPage() {
+  // Get locations for all venues
+  const locationMap = await getLocationsForVenues(database.venue);
+
   // Sort concerts by date
   const concerts = [...database.concert].sort((a, b) => {
     const dateA = getDateForSorting(a.frontmatter.date);
@@ -39,6 +46,17 @@ export default function ConcertsPage() {
             ? [concert.frontmatter.conductor]
             : [];
 
+          // Get venue location if available
+          const venue = findVenueFromFrontmatter(
+            concert.frontmatter.venue,
+            database.venue
+          );
+          let location = venue ? locationMap[venue.slug] : null;
+          // Fall back to group location if no venue location
+          if (!location && group?.frontmatter.location) {
+            location = group.frontmatter.location;
+          }
+
           return (
             <article key={concert.slug} className="border-b pb-6">
               <h2 className="text-lg font-semibold mb-2 flex items-center gap-2">
@@ -57,8 +75,17 @@ export default function ConcertsPage() {
                   )}
                 </dd>
 
-                <dt className="font-medium">Location</dt>
-                <dd>{group?.frontmatter.location}</dd>
+                {venue && (
+                  <>
+                    <dt className="font-medium">Venue</dt>
+                    <dd>
+                      <Link href={`/venues/${venue.slug}`}>{venue.title}</Link>
+                      {location && (
+                        <span className="text-muted ml-2">({location})</span>
+                      )}
+                    </dd>
+                  </>
+                )}
 
                 {conductors.length > 0 && (
                   <>
