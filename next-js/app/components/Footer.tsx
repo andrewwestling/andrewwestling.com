@@ -80,10 +80,20 @@ export const Footer = () => {
             </NextLink>
 
             <NextLink
+              href="/music"
+              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
+            >
+              <span className="no-underline">🎻</span>
+              <span className="underline">Music</span>
+            </NextLink>
+
+            <NextLink
               href="/awds"
               className="flex gap-2 text-highlight dark:text-highlight-dark no-underline w-fit hover:text-primary group"
             >
-              <span className="no-underline opacity-0 group-hover:opacity-100">📐</span>
+              <span className="no-underline opacity-0 group-hover:opacity-100">
+                📐
+              </span>
               <span className="underline">AWDS</span>
             </NextLink>
           </div>

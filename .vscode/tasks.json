@@ -71,12 +71,12 @@
       "problemMatcher": ["$tsc-watch"]
     },
     {
-      "label": "anti-performances: Generate Database",
-      "detail": "Generate the database for anti-performances content from Obsidian vault",
+      "label": "Music: Generate Database",
+      "detail": "Generate the database for music content from Obsidian vault",
       "type": "shell",
-      "command": "npm run generate-db ${input:vaultPath}",
+      "command": "npm run generate-music-db ${input:vaultPath}",
       "options": {
-        "cwd": "${workspaceFolder}/anti-performances"
+        "cwd": "${workspaceFolder}/next-js"
       },
       "problemMatcher": []
     }
@@ -86,7 +86,7 @@
       "id": "vaultPath",
       "type": "promptString",
       "description": "Path to the Obsidian vault",
-      "default": "./o-vault-antiperformances"
+      "default": "./app/music/data/vault"
     }
   ]
 }

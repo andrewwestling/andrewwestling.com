@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply underline;
+  }
+}
+
+/* To use with MDX components to revert list styles back to normal (Tailwind resets it) */
+ul.list-revert,
+ol.list-revert {
+  list-style: revert;
+}
