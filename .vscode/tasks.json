@@ -48,29 +48,6 @@
       "problemMatcher": []
     },
     {
-      "command": "npm run dev",
-      "detail": "Start development for anti-performances",
-      "group": "build",
-      "label": "anti-performances: Start",
-      "type": "shell",
-      "options": {
-        "cwd": "anti-performances/"
-      },
-      "dependsOn": ["anti-performances: Install"],
-      "problemMatcher": ["$tsc-watch"]
-    },
-    {
-      "command": "npm install",
-      "detail": "Install dependencies for anti-performances",
-      "group": "build",
-      "label": "anti-performances: Install",
-      "type": "shell",
-      "options": {
-        "cwd": "anti-performances/"
-      },
-      "problemMatcher": ["$tsc-watch"]
-    },
-    {
       "label": "Music: Generate Database",
       "detail": "Generate the database for music content from Obsidian vault",
       "type": "shell",
