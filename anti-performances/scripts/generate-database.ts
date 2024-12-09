@@ -122,10 +122,7 @@ async function readVaultDirectory(
         // Process the frontmatter to handle wiki-links
         const processedFrontmatter = processFrontmatterValue(frontmatter);
 
-        // For concerts, handle date priority:
-        // 1. Valid frontmatter date
-        // 2. Valid filename date
-        // 3. Leave empty/undefined
+        // For concerts, handle date priority and omit content
         if (type === "concert") {
           let concertDate = undefined;
 
@@ -158,7 +155,8 @@ async function readVaultDirectory(
           type,
           path: relativePath,
           title,
-          content: content.trim(),
+          // Only include content if it's not a concert
+          content: type === "concert" ? "" : content.trim(),
           frontmatter: processedFrontmatter,
         });
       }
