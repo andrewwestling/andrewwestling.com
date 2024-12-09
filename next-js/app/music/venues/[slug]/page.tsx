@@ -1,7 +1,11 @@
 import Link from "next/link";
 import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
-import { getDateFromFilename } from "@music/lib/helpers";
+import {
+  getDateFromFilename,
+  formatConcertTitle,
+  formatDate,
+} from "@music/lib/helpers";
 import { notFound } from "next/navigation";
 import { routes } from "@music/lib/routes";
 import dynamic from "next/dynamic";
@@ -61,23 +65,14 @@ export default function VenuePage({ params }: PageProps) {
                 const group = database.group.find(
                   (g) => g.title === concert.frontmatter.group
                 );
-                const date = getDateFromFilename(concert.slug);
                 return (
                   <div key={concert.slug}>
                     <Link href={routes.concerts.show(concert.slug)}>
-                      {concert.title}
+                      {formatConcertTitle(concert.title, group)}
                     </Link>
-                    {group && (
+                    {concert.frontmatter.date && (
                       <span className="text-muted ml-2">
-                        with{" "}
-                        <Link href={routes.groups.show(group.slug)}>
-                          {group.title}
-                        </Link>
-                      </span>
-                    )}
-                    {date && (
-                      <span className="text-muted ml-2">
-                        on {new Date(date).toLocaleDateString()}
+                        on {formatDate(concert.frontmatter.date)}
                       </span>
                     )}
                   </div>
