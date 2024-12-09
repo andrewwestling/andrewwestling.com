@@ -66,3 +66,12 @@ export interface Database {
   conductor: Conductor[];
   composer: Composer[];
 }
+
+interface VaultObject {
+  slug: string;
+  type: "concert" | "composer" | "conductor" | "group" | "rehearsal" | "sheet-music" | "work";
+  path: string;
+  title: string;
+  content: string;
+  frontmatter: ConcertFrontmatter | Record<string, any>;
+}

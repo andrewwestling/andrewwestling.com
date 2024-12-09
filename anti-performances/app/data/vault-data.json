@@ -1,6 +1,758 @@
 {
   "concert": [
     {
+      "slug": "202111061900",
+      "type": "concert",
+      "path": "Concerts/2021/202111061900 Concert - Boise Phil (Dvorak 7, Mozart 31).md",
+      "title": "202111061900 Concert - Boise Phil (Dvorak 7, Mozart 31)",
+      "content": "",
+      "frontmatter": {
+        "date": "2021-11-06T19:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202202202200",
+      "type": "concert",
+      "path": "Concerts/2022/202202202200 Concert - BSO (Concert 3).md",
+      "title": "202202202200 Concert - BSO (Concert 3)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-02-20T22:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Felipe Tristan"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202203182030",
+      "type": "concert",
+      "path": "Concerts/2022/202203182030 Concert - Centre Symphony (Mozart SC, Haydn 104).md",
+      "title": "202203182030 Concert - Centre Symphony (Mozart SC, Haydn 104)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-03-18T20:30:00.000Z",
+        "group": "Centre Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Scott Jackson Wiley"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202203201500",
+      "type": "concert",
+      "path": "Concerts/2022/202203201500 Concert - GVO (\"Energy\").md",
+      "title": "202203201500 Concert - GVO (\"Energy\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-03-20T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202203261900",
+      "type": "concert",
+      "path": "Concerts/2022/202203261900 Concert - Boise Phil (Dance, Dance, Dance!).md",
+      "title": "202203261900 Concert - Boise Phil (Dance, Dance, Dance!)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-03-26T19:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202205081500",
+      "type": "concert",
+      "path": "Concerts/2022/202205081500 Concert - GVO (\"Hope\").md",
+      "title": "202205081500 Concert - GVO (\"Hope\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-05-08T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202205141900",
+      "type": "concert",
+      "path": "Concerts/2022/202205141900 Concert - Grace Chorale (\"The Constitution, A Secular Oratorio\").md",
+      "title": "202205141900 Concert - Grace Chorale (\"The Constitution, A Secular Oratorio\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-05-14T19:00:00.000Z",
+        "group": "Grace Chorale",
+        "works": null,
+        "conductor": [
+          "Jason Asbury"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202205191930",
+      "type": "concert",
+      "path": "Concerts/2022/202205191930 Concert - Centre Symphony.md",
+      "title": "202205191930 Concert - Centre Symphony",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-05-19T19:30:00.000Z",
+        "group": "Centre Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Scott Jackson Wiley"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202206031930",
+      "type": "concert",
+      "path": "Concerts/2022/202206031930 Concert - GVO (Chamber Concert).md",
+      "title": "202206031930 Concert - GVO (Chamber Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-06-03T19:30:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": null,
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202206121400",
+      "type": "concert",
+      "path": "Concerts/2022/202206121400 Concert - BSO (Concert 5).md",
+      "title": "202206121400 Concert - BSO (Concert 5)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-06-12T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong",
+          "Andy Bhasin"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202207101700",
+      "type": "concert",
+      "path": "Concerts/2022/202207101700 Concert - GVO (Prospect Park).md",
+      "title": "202207101700 Concert - GVO (Prospect Park)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-07-10T17:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202207171400",
+      "type": "concert",
+      "path": "Concerts/2022/202207171400 Concert - BSO (Popup, Summer).md",
+      "title": "202207171400 Concert - BSO (Popup, Summer)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-07-17T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202208061900",
+      "type": "concert",
+      "path": "Concerts/2022/202208061900 Concert - Litha Symphony (3. Winter Daydreams).md",
+      "title": "202208061900 Concert - Litha Symphony (3. Winter Daydreams)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-08-06T19:00:00.000Z",
+        "group": "Litha Symphony",
+        "works": null,
+        "conductor": [
+          "Eric Hayslett"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202208211400",
+      "type": "concert",
+      "path": "Concerts/2022/202208211400 Concert - BSO (Popup, Summer).md",
+      "title": "202208211400 Concert - BSO (Popup, Summer)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-08-21T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202208271900",
+      "type": "concert",
+      "path": "Concerts/2022/202208271900 Concert - Litha Symphony (4. Spring Finale).md",
+      "title": "202208271900 Concert - Litha Symphony (4. Spring Finale)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-08-27T19:00:00.000Z",
+        "group": "Litha Symphony",
+        "works": null,
+        "conductor": [
+          "Eric Hayslett"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202210081300",
+      "type": "concert",
+      "path": "Concerts/2022/202210081300 Concert - Boise Phil (Musical Gems).md",
+      "title": "202210081300 Concert - Boise Phil (Musical Gems)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-10-08T13:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202210161500",
+      "type": "concert",
+      "path": "Concerts/2022/202210161500 Concert - GVO (\"Fellow Citizens...\").md",
+      "title": "202210161500 Concert - GVO (\"Fellow Citizens...\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-10-16T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202210301400",
+      "type": "concert",
+      "path": "Concerts/2022/202210301400 Concert - BSO (Concert 1).md",
+      "title": "202210301400 Concert - BSO (Concert 1)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-10-30T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202211051900",
+      "type": "concert",
+      "path": "Concerts/2022/202211051900 Concert - BACK Quartet (Dvorak American performance).md",
+      "title": "202211051900 Concert - BACK Quartet (Dvorak American performance)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-11-05T19:00:00.000Z",
+        "group": "BACK Quartet",
+        "works": null,
+        "conductor": null,
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202211121300",
+      "type": "concert",
+      "path": "Concerts/2022/202211121300 Concert - Boise Phil (Rhapsody in Blue).md",
+      "title": "202211121300 Concert - Boise Phil (Rhapsody in Blue)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-11-12T13:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202211201500",
+      "type": "concert",
+      "path": "Concerts/2022/202211201500 Concert - GVO (Concert 2).md",
+      "title": "202211201500 Concert - GVO (Concert 2)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-11-20T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202212151900",
+      "type": "concert",
+      "path": "Concerts/2022/202212151900 Concert - Centre Symphony.md",
+      "title": "202212151900 Concert - Centre Symphony",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-12-15T19:00:00.000Z",
+        "group": "Centre Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Scott Jackson Wiley"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202212181400",
+      "type": "concert",
+      "path": "Concerts/2022/202212181400 Concert - BSO (Concert 2).md",
+      "title": "202212181400 Concert - BSO (Concert 2)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-12-18T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Felipe Tristan"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202212181500",
+      "type": "concert",
+      "path": "Concerts/2022/202212181500 Concert - GVO (Concert 3).md",
+      "title": "202212181500 Concert - GVO (Concert 3)",
+      "content": "",
+      "frontmatter": {
+        "date": "2022-12-18T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202301211300",
+      "type": "concert",
+      "path": "Concerts/2023/202301211300 Concert - Boise Phil (Bring on the Brahms).md",
+      "title": "202301211300 Concert - Boise Phil (Bring on the Brahms)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-01-21T13:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202302051500",
+      "type": "concert",
+      "path": "Concerts/2023/202302051500 Concert - GVO (Concert 4).md",
+      "title": "202302051500 Concert - GVO (Concert 4)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-02-05T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202302251300",
+      "type": "concert",
+      "path": "Concerts/2023/202302251300 Concert - Boise Phil (Sorcerer's Apprentice).md",
+      "title": "202302251300 Concert - Boise Phil (Sorcerer's Apprentice)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-02-25T13:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202302261400",
+      "type": "concert",
+      "path": "Concerts/2023/202302261400 Concert - BSO (Concert 3).md",
+      "title": "202302261400 Concert - BSO (Concert 3)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-02-26T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong",
+          "Andy Bhasin"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202303191500",
+      "type": "concert",
+      "path": "Concerts/2023/202303191500 Concert - GVO (Concert 5).md",
+      "title": "202303191500 Concert - GVO (Concert 5)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-03-19T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202303301900",
+      "type": "concert",
+      "path": "Concerts/2023/202303301900 Concert - Centre Symphony.md",
+      "title": "202303301900 Concert - Centre Symphony",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-03-30T19:00:00.000Z",
+        "group": "Centre Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Scott Jackson Wiley"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202304011300",
+      "type": "concert",
+      "path": "Concerts/2023/202304011300 Concert - Boise Phil (Altered Landscape).md",
+      "title": "202304011300 Concert - Boise Phil (Altered Landscape)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-04-01T13:00:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202304161400",
+      "type": "concert",
+      "path": "Concerts/2023/202304161400 Concert - BSO (Concert 4).md",
+      "title": "202304161400 Concert - BSO (Concert 4)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-04-16T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "David Bernard"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202305071500",
+      "type": "concert",
+      "path": "Concerts/2023/202305071500 Concert - GVO (Concert 6).md",
+      "title": "202305071500 Concert - GVO (Concert 6)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-05-07T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202305201930",
+      "type": "concert",
+      "path": "Concerts/2023/202305201930 Concert - Boise Phil (A Sea of Sound - Mahler 5).md",
+      "title": "202305201930 Concert - Boise Phil (A Sea of Sound - Mahler 5)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-05-20T19:30:00.000Z",
+        "group": "Boise Philharmonic",
+        "works": null,
+        "conductor": [
+          "Eric Garcia"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202305251900",
+      "type": "concert",
+      "path": "Concerts/2023/202305251900 Concert - Centre Symphony.md",
+      "title": "202305251900 Concert - Centre Symphony",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-05-25T19:00:00.000Z",
+        "group": "Centre Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Scott Jackson Wiley"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202306111400",
+      "type": "concert",
+      "path": "Concerts/2023/202306111400 Concert - BSO (Concert 5).md",
+      "title": "202306111400 Concert - BSO (Concert 5)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-06-11T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202307151230",
+      "type": "concert",
+      "path": "Concerts/2023/202307151230 Concert - GVO (Open Rehearsal instead of Prospect Park).md",
+      "title": "202307151230 Concert - GVO (Open Rehearsal instead of Prospect Park)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-07-15T12:30:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202310151500",
+      "type": "concert",
+      "path": "Concerts/2023/202310151500 Concert - GVO (Concert 1).md",
+      "title": "202310151500 Concert - GVO (Concert 1)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-10-15T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202310291400",
+      "type": "concert",
+      "path": "Concerts/2023/202310291400 Concert - BSO (Concert 1 - Fall).md",
+      "title": "202310291400 Concert - BSO (Concert 1 - Fall)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-10-29T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Felipe Tristan"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202311191500",
+      "type": "concert",
+      "path": "Concerts/2023/202311191500 Concert - GVO (Concert 2).md",
+      "title": "202311191500 Concert - GVO (Concert 2)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-11-19T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202312101400",
+      "type": "concert",
+      "path": "Concerts/2023/202312101400 Concert - BSO (Concert 2 - Flute Concerto, Holiday).md",
+      "title": "202312101400 Concert - BSO (Concert 2 - Flute Concerto, Holiday)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-12-10T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Felipe Tristan"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202312101500",
+      "type": "concert",
+      "path": "Concerts/2023/202312101500 Concert - GVO (Concert 3 - \"Together in Music\").md",
+      "title": "202312101500 Concert - GVO (Concert 3 - \"Together in Music\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-12-10T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
+      "slug": "202312261930",
+      "type": "concert",
+      "path": "Concerts/2023/202312261930 Concert - PYP (2023 Concert-at-Christmas).md",
+      "title": "202312261930 Concert - PYP (2023 Concert-at-Christmas)",
+      "content": "",
+      "frontmatter": {
+        "date": "2023-12-26T19:30:00.000Z",
+        "group": "Portland Youth Philharmonic Alumni Orchestra",
+        "works": null,
+        "conductor": [
+          "David Hattner"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202402041500",
+      "type": "concert",
+      "path": "Concerts/2024/202402041500 Concert - GVO (Concert 4).md",
+      "title": "202402041500 Concert - GVO (Concert 4)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-02-04T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr",
+          "Eric Mahl"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202402181400",
+      "type": "concert",
+      "path": "Concerts/2024/202402181400 Concert - BSO (Concert 3 - \"Mexico Dupe\").md",
+      "title": "202402181400 Concert - BSO (Concert 3 - \"Mexico Dupe\")",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-02-18T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Felipe Tristan"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202403241500",
+      "type": "concert",
+      "path": "Concerts/2024/202403241500 Concert - GVO (Concert 5).md",
+      "title": "202403241500 Concert - GVO (Concert 5)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-03-24T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr",
+          "Eric Mahl"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
       "slug": "202404211400",
       "type": "concert",
       "path": "Concerts/2024/202404211400 Concert - BSO (Concert 4 - \"BSO at the Movies\").md",
@@ -17,6 +769,39 @@
       }
     },
     {
+      "slug": "202405051500",
+      "type": "concert",
+      "path": "Concerts/2024/202405051500 Concert - GVO (Concert 6).md",
+      "title": "202405051500 Concert - GVO (Concert 6)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-05-05T15:00:00.000Z",
+        "group": "Greenwich Village Orchestra",
+        "works": null,
+        "conductor": [
+          "Barbara Yahr"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202406091400",
+      "type": "concert",
+      "path": "Concerts/2024/202406091400 Concert - BSO (Concert 5 - Nick Armstrong).md",
+      "title": "202406091400 Concert - BSO (Concert 5 - Nick Armstrong)",
+      "content": "",
+      "frontmatter": {
+        "date": "2024-06-09T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nick Armstrong"
+        ],
+        "spotifyPlaylistUrl": null,
+        "didNotPlay": true
+      }
+    },
+    {
       "slug": "202410271400",
       "type": "concert",
       "path": "Concerts/2024/202410271400 Concert - BSO (Concert 1 - David Hagy).md",
@@ -25,10 +810,7 @@
       "frontmatter": {
         "date": "2024-10-27T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
-        "works": [
-          "Shostakovich - Symphony No. 5",
-          "Beethoven - Symphony No. 8"
-        ],
+        "works": null,
         "conductor": [
           "David Hagy"
         ],
@@ -47,6 +829,22 @@
         "works": null,
         "conductor": [
           "Andrew Kim"
+        ],
+        "spotifyPlaylistUrl": null
+      }
+    },
+    {
+      "slug": "202502231400",
+      "type": "concert",
+      "path": "Concerts/2025/202502231400 Concert - BSO (Concert 3 - Nico Olarte-Hayes).md",
+      "title": "202502231400 Concert - BSO (Concert 3 - Nico Olarte-Hayes)",
+      "content": "",
+      "frontmatter": {
+        "date": "2025-02-23T14:00:00.000Z",
+        "group": "Brooklyn Symphony Orchestra",
+        "works": null,
+        "conductor": [
+          "Nico Olarte-Hayes"
         ],
         "spotifyPlaylistUrl": null
       }
@@ -80,11 +878,75 @@
       "frontmatter": {}
     },
     {
+      "slug": "andy-bhasin",
+      "type": "conductor",
+      "path": "Conductors/Andy Bhasin.md",
+      "title": "Andy Bhasin",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "barbara-yahr",
+      "type": "conductor",
+      "path": "Conductors/Barbara Yahr.md",
+      "title": "Barbara Yahr",
+      "content": "",
+      "frontmatter": {}
+    },
+    {
+      "slug": "david-bernard",
+      "type": "conductor",
+      "path": "Conductors/David Bernard.md",
+      "title": "David Bernard",
+      "content": "",
+      "frontmatter": {}
+    },
+    {
       "slug": "david-hagy",
       "type": "conductor",
       "path": "Conductors/David Hagy.md",
       "title": "David Hagy",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "david-hattner",
+      "type": "conductor",
+      "path": "Conductors/David Hattner.md",
+      "title": "David Hattner",
+      "content": "",
+      "frontmatter": {}
+    },
+    {
+      "slug": "david-jacobs",
+      "type": "conductor",
+      "path": "Conductors/David Jacobs.md",
+      "title": "David Jacobs",
+      "content": "",
+      "frontmatter": {}
+    },
+    {
+      "slug": "eric-garcia",
+      "type": "conductor",
+      "path": "Conductors/Eric Garcia.md",
+      "title": "Eric Garcia",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "eric-hayslett",
+      "type": "conductor",
+      "path": "Conductors/Eric Hayslett.md",
+      "title": "Eric Hayslett",
+      "content": "",
+      "frontmatter": {}
+    },
+    {
+      "slug": "eric-mahl",
+      "type": "conductor",
+      "path": "Conductors/Eric Mahl.md",
+      "title": "Eric Mahl",
+      "content": "",
       "frontmatter": {}
     },
     {
@@ -94,15 +956,58 @@
       "title": "Felipe Tristan",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {}
+    },
+    {
+      "slug": "jason-asbury",
+      "type": "conductor",
+      "path": "Conductors/Jason Asbury.md",
+      "title": "Jason Asbury",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "nick-armstrong",
+      "type": "conductor",
+      "path": "Conductors/Nick Armstrong.md",
+      "title": "Nick Armstrong",
+      "content": "",
+      "frontmatter": {}
+    },
+    {
+      "slug": "nico-olarte-hayes",
+      "type": "conductor",
+      "path": "Conductors/Nico Olarte-Hayes.md",
+      "title": "Nico Olarte-Hayes",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
+    },
+    {
+      "slug": "scott-jackson-wiley",
+      "type": "conductor",
+      "path": "Conductors/Scott Jackson Wiley.md",
+      "title": "Scott Jackson Wiley",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {}
     }
   ],
   "group": [
+    {
+      "slug": "back-quartet",
+      "type": "group",
+      "path": "Groups/BACK Quartet.md",
+      "title": "BACK Quartet",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+      "frontmatter": {
+        "location": "Brooklyn, New York",
+        "slug": "back-quartet"
+      }
+    },
     {
       "slug": "bantam",
       "type": "group",
       "path": "Groups/Bantam Studios.md",
       "title": "Bantam Studios",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "bantam"
@@ -113,7 +1018,7 @@
       "type": "group",
       "path": "Groups/Boise Philharmonic.md",
       "title": "Boise Philharmonic",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Boise, Idaho",
         "slug": "boise-phil"
@@ -124,7 +1029,7 @@
       "type": "group",
       "path": "Groups/Brooklyn Symphony Orchestra.md",
       "title": "Brooklyn Symphony Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "bso"
@@ -135,7 +1040,7 @@
       "type": "group",
       "path": "Groups/Centre Symphony Orchestra.md",
       "title": "Centre Symphony Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "centre"
@@ -146,7 +1051,7 @@
       "type": "group",
       "path": "Groups/Chehalem Symphony Orchestra.md",
       "title": "Chehalem Symphony Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Newberg, Oregon",
         "slug": "chehalem"
@@ -157,7 +1062,7 @@
       "type": "group",
       "path": "Groups/Grace Chorale.md",
       "title": "Grace Chorale",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Brooklyn, New York",
         "slug": "grace-chorale"
@@ -168,7 +1073,7 @@
       "type": "group",
       "path": "Groups/Greenwich Village Orchestra.md",
       "title": "Greenwich Village Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "gvo"
@@ -179,7 +1084,7 @@
       "type": "group",
       "path": "Groups/Litha Symphony.md",
       "title": "Litha Symphony",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Manhattan, New York",
         "slug": "litha"
@@ -190,7 +1095,7 @@
       "type": "group",
       "path": "Groups/Marylhurst Symphony Orchestra.md",
       "title": "Marylhurst Symphony Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Lake Oswego, Oregon",
         "slug": "marylhurst"
@@ -201,7 +1106,7 @@
       "type": "group",
       "path": "Groups/Metropolitan Youth Symphony.md",
       "title": "Metropolitan Youth Symphony",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Portland, Oregon",
         "slug": "mys"
@@ -212,7 +1117,7 @@
       "type": "group",
       "path": "Groups/Portland Youth Philharmonic Alumni Orchestra.md",
       "title": "Portland Youth Philharmonic Alumni Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Portland, Oregon",
         "slug": "pyp-alumni"
@@ -223,7 +1128,7 @@
       "type": "group",
       "path": "Groups/Portland Youth Philharmonic.md",
       "title": "Portland Youth Philharmonic",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Portland, Oregon",
         "slug": "pyp"
@@ -234,7 +1139,7 @@
       "type": "group",
       "path": "Groups/University of Oregon Symphony Orchestra.md",
       "title": "University of Oregon Symphony Orchestra",
-      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE file.frontmatter.group = \"[[this.file.name]]\"\n```",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
       "frontmatter": {
         "location": "Eugene, Oregon",
         "slug": "uo-symphony"

@@ -3,6 +3,7 @@ import Link from "next/link";
 import database from "@/database";
 import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export default function WorkPage({ params }: PageProps) {
   const work = database.work.find(
@@ -54,7 +55,12 @@ export default function WorkPage({ params }: PageProps) {
               return (
                 <div key={concert.slug} className="border-b pb-4">
                   <Link href={`/concerts/${concertDate}`}>
-                    <h3 className="font-medium">{displayTitle}</h3>
+                    <h3 className="font-medium flex items-center gap-2">
+                      <span className="inline-flex items-center">
+                        {displayTitle}
+                      </span>
+                      {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                    </h3>
                   </Link>
                 </div>
               );

@@ -1,6 +1,7 @@
 import { ComponentWrapper } from "./components/ComponentWrapper";
 import { Colors } from "./components/Colors";
 import NextLink from "next/link";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export const metadata = { title: "anti-ds" };
 
@@ -42,6 +43,8 @@ export const Message = ({ children }) => (
   - [Lists](#lists)
   - [Blockquotes](#blockquotes)
   - [Code](#code)
+- [Badges](#badges)
+  - [DidNotPlay](#didnotplay)
 
 ## Typography
 
@@ -93,3 +96,13 @@ function example() {
   return "Hello, world!";
 }
 ```
+
+## Badges
+
+### DidNotPlay
+
+This badge is used to indicate when I didn't play in a particular concert, or it didn't take place as planned.
+
+<ComponentWrapper>
+  <DidNotPlay />
+</ComponentWrapper>

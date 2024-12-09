@@ -3,6 +3,7 @@ import Link from "next/link";
 import database from "@/database";
 import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export default function ConductorPage({ params }: PageProps) {
   const conductor = database.conductor.find((c) => c.slug === params.slug);
@@ -38,9 +39,12 @@ export default function ConductorPage({ params }: PageProps) {
 
               return (
                 <div key={concert.slug} className="border-b pb-4">
-                  <Link href={`/concerts/${concertDate}`}>
-                    <h3 className="font-medium">{displayTitle}</h3>
-                  </Link>
+                  <h3 className="font-medium flex items-center gap-2">
+                    <Link href={`/concerts/${concert.slug}`}>
+                      {displayTitle}
+                    </Link>
+                    {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                  </h3>
                 </div>
               );
             })}

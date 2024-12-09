@@ -1,6 +1,7 @@
 import Link from "next/link";
 import database from "@/database";
 import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export default function HomePage() {
   return (
@@ -22,8 +23,9 @@ export default function HomePage() {
               const displayTitle = formatConcertTitle(concert.title, group);
 
               return (
-                <div key={concert.slug}>
+                <div key={concert.slug} className="flex items-center gap-2">
                   <Link href={`/concerts/${concertDate}`}>{displayTitle}</Link>
+                  {concert.frontmatter.didNotPlay && <DidNotPlay />}
                 </div>
               );
             })}

@@ -8,6 +8,7 @@ import {
   findConductorSlug,
 } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export default function ConcertPage({ params }: PageProps) {
   // Find concert by matching the date portion of the slug
@@ -47,7 +48,10 @@ export default function ConcertPage({ params }: PageProps) {
 
   return (
     <article className="py-8">
-      <h1 className="text-2xl font-bold mb-4">{displayTitle}</h1>
+      <h1 className="text-2xl font-bold mb-4 flex items-center gap-2 flex-wrap">
+        {displayTitle}
+        {concert.frontmatter.didNotPlay && <DidNotPlay />}
+      </h1>
 
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-2">Details</h2>

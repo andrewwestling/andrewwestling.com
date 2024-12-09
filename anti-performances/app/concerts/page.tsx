@@ -7,6 +7,7 @@ import {
   getDateForSorting,
   findConductorSlug,
 } from "@/lib/helpers";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export default function ConcertsPage() {
   // Sort concerts by date
@@ -40,9 +41,10 @@ export default function ConcertsPage() {
 
           return (
             <article key={concert.slug} className="border-b pb-6">
-              <Link href={`/concerts/${concertDate}`}>
-                <h2 className="text-lg font-semibold mb-2">{displayTitle}</h2>
-              </Link>
+              <h2 className="text-lg font-semibold mb-2 flex items-center gap-2">
+                <Link href={`/concerts/${concert.slug}`}>{displayTitle}</Link>
+                {concert.frontmatter.didNotPlay && <DidNotPlay />}
+              </h2>
 
               <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
                 <dt className="font-medium">Date</dt>

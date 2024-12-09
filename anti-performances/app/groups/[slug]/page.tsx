@@ -3,6 +3,7 @@ import Link from "next/link";
 import database from "@/database";
 import { getDateFromFilename, formatConcertTitle } from "@/lib/helpers";
 import { PageProps } from "@/lib/types";
+import { DidNotPlay } from "@/components/DidNotPlay";
 
 export default function GroupPage({ params }: PageProps) {
   const group = database.group.find((g) => g.slug === params.slug);
@@ -32,10 +33,13 @@ export default function GroupPage({ params }: PageProps) {
               const displayTitle = formatConcertTitle(concert.title, group);
 
               return (
-                <div key={concert.slug} className="border-b pb-4">
-                  <Link href={`/concerts/${concertDate}`}>
-                    <h3 className="font-medium">{displayTitle}</h3>
-                  </Link>
+                <div key={concert.slug} className="pb-4">
+                  <h3 className="font-medium flex items-center gap-2">
+                    <Link href={`/concerts/${concert.slug}`}>
+                      {displayTitle}
+                    </Link>
+                    {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                  </h3>
                 </div>
               );
             })}
