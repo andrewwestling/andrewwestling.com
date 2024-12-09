@@ -56,6 +56,13 @@
         "cwd": "${workspaceFolder}/next-js"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Music: Create Vault Symlink",
+      "detail": "Create symlink to Obsidian vault in music data directory",
+      "type": "shell",
+      "command": "ln -sfn ${input:vaultPath} ${workspaceFolder}/next-js/app/music/data/vault",
+      "problemMatcher": []
     }
   ],
   "inputs": [
