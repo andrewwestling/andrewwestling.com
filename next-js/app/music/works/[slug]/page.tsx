@@ -1,9 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import database from "@music/data/database";
-import { getDateFromFilename, formatConcertTitle } from "@music/lib/helpers";
+import {
+  getDateFromFilename,
+  formatConcertTitle,
+  isUpcoming,
+} from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
-import { DidNotPlay } from "@music/components/DidNotPlay";
+import { ConcertBadges } from "@music/components/ConcertBadges";
 import { routes } from "@music/lib/routes";
 
 export default function WorkPage({ params }: PageProps) {
@@ -63,7 +67,7 @@ export default function WorkPage({ params }: PageProps) {
                       <span className="inline-flex items-center">
                         {displayTitle}
                       </span>
-                      {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                      <ConcertBadges concert={concert} />
                     </h3>
                   </Link>
                 </div>

@@ -7,12 +7,12 @@ import {
   getDateForSorting,
   findConductorSlug,
 } from "@music/lib/helpers";
-import { DidNotPlay } from "@music/components/DidNotPlay";
 import {
   getLocationsForVenues,
   findVenueFromFrontmatter,
 } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
+import { ConcertBadges } from "@music/components/ConcertBadges";
 
 export default async function ConcertsPage() {
   // Get locations for all venues
@@ -64,7 +64,7 @@ export default async function ConcertsPage() {
                 <Link href={routes.concerts.show(concert.slug)}>
                   {displayTitle}
                 </Link>
-                {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                <ConcertBadges concert={concert} />
               </h2>
 
               <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">

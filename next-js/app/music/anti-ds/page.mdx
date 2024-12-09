@@ -4,6 +4,7 @@ import NextLink from "next/link";
 import { DidNotPlay } from "@music/components/DidNotPlay";
 import { VenueMap } from "@music/components/VenueMap";
 import dynamic from "next/dynamic";
+import { Upcoming } from "@music/components/Upcoming";
 
 export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
@@ -37,6 +38,7 @@ export const Message = ({ children }) => (
 # Components
 
 - [DidNotPlay](#didnotplay)
+- [Upcoming](#upcoming)
 - [VenueMap](#venuemap)
 
 
@@ -46,6 +48,14 @@ This badge is used to indicate when I didn't play in a particular concert, or it
 
 <ComponentWrapper>
   <DidNotPlay />
+</ComponentWrapper>
+
+## Upcoming
+
+This badge is used to indicate upcoming concerts.
+
+<ComponentWrapper>
+  <Upcoming />
 </ComponentWrapper>
 
 ## VenueMap

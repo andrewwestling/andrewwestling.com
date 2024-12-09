@@ -1,9 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import database from "@music/data/database";
-import { getDateFromFilename, formatConcertTitle } from "@music/lib/helpers";
+import {
+  getDateFromFilename,
+  formatConcertTitle,
+  isUpcoming,
+} from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
-import { DidNotPlay } from "@music/components/DidNotPlay";
+import { ConcertBadges } from "@music/components/ConcertBadges";
 import { routes } from "@music/lib/routes";
 
 export default function ComposerPage({ params }: PageProps) {
@@ -65,7 +69,7 @@ export default function ComposerPage({ params }: PageProps) {
                   <Link href={routes.concerts.show(concert.slug)}>
                     <h3 className="font-medium flex items-center gap-2">
                       {displayTitle}
-                      {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                      <ConcertBadges concert={concert} />
                     </h3>
                   </Link>
                 </div>

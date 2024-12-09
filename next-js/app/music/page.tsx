@@ -1,7 +1,7 @@
 import Link from "next/link";
 import database from "@music/data/database";
 import { getDateFromFilename, formatConcertTitle } from "@music/lib/helpers";
-import { DidNotPlay } from "@music/components/DidNotPlay";
+import { ConcertBadges } from "@music/components/ConcertBadges";
 import {
   getLocationsForVenues,
   findVenueFromFrontmatter,
@@ -38,7 +38,7 @@ export default async function HomePage() {
                   <Link href={routes.concerts.show(concert.slug)}>
                     {displayTitle}
                   </Link>
-                  {concert.frontmatter.didNotPlay && <DidNotPlay />}
+                  <ConcertBadges concert={concert} />
                 </div>
               );
             })}

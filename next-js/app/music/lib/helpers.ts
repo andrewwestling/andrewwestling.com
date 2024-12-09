@@ -92,3 +92,10 @@ export function findConductorSlug(name: string): string | undefined {
   const conductor = database.conductor.find((c) => c.title === name);
   return conductor?.slug;
 }
+
+export function isUpcoming(date: string): boolean {
+  const concertDate = new Date(date);
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return concertDate >= today;
+}
