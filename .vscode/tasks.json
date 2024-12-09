@@ -86,7 +86,7 @@
       "id": "vaultPath",
       "type": "promptString",
       "description": "Path to the Obsidian vault",
-      "default": "/Users/amw/o-vault-antiperformances"
+      "default": "./o-vault-antiperformances"
     }
   ]
 }
