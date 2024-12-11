@@ -10,6 +10,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import "./VenueMap.css";
 
 // Fix for default marker icons in react-leaflet
 const icon = L.icon({
@@ -22,18 +23,13 @@ const icon = L.icon({
   shadowSize: [41, 41],
 });
 
-// Get the API key from environment variables
-const STADIA_MAPS_API_KEY = process.env.NEXT_PUBLIC_STADIA_MAPS_API_KEY;
-
-// Custom monochrome style URL from Stadia Maps with API key
-const MONOCHROME_URL = STADIA_MAPS_API_KEY
-  ? `https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${STADIA_MAPS_API_KEY}`
-  : // Fallback to OpenStreetMap if no API key is present (for development only)
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-
-const ATTRIBUTION = STADIA_MAPS_API_KEY
-  ? '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-  : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+// CartoDB styles for light and dark modes
+const LIGHT_TILE_URL =
+  "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+const DARK_TILE_URL =
+  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
+const ATTRIBUTION =
+  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
 
 // NYC County to Borough mapping
 const NYC_COUNTIES: Record<string, string> = {
@@ -55,8 +51,19 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
     .map((coord) => parseFloat(coord.trim()));
   const [address, setAddress] = useState<string | null>(null);
   const [mapError, setMapError] = useState<string | null>(null);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   useEffect(() => {
+    // Check initial dark mode preference
+    const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    setIsDarkMode(darkModeQuery.matches);
+
+    // Listen for changes in dark mode preference
+    const darkModeListener = (e: MediaQueryListEvent) => {
+      setIsDarkMode(e.matches);
+    };
+    darkModeQuery.addEventListener("change", darkModeListener);
+
     // This is needed to fix the map container size after initial render
     window.dispatchEvent(new Event("resize"));
 
@@ -67,13 +74,6 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
       iconRetinaUrl: "/assets/leaflet/marker-icon-2x.png",
       shadowUrl: "/assets/leaflet/marker-shadow.png",
     });
-
-    // Show warning in development if API key is missing
-    if (process.env.NODE_ENV === "development" && !STADIA_MAPS_API_KEY) {
-      console.warn(
-        "Stadia Maps API key is not set. Using OpenStreetMap tiles as fallback."
-      );
-    }
 
     // Fetch address using reverse geocoding
     fetch(
@@ -122,6 +122,11 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
       .catch((error) => {
         console.error("Error fetching address:", error);
       });
+
+    // Cleanup event listener
+    return () => {
+      darkModeQuery.removeEventListener("change", darkModeListener);
+    };
   }, [lat, lng]);
 
   if (mapError) {
@@ -145,7 +150,7 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
         >
           <TileLayer
             attribution={ATTRIBUTION}
-            url={MONOCHROME_URL}
+            url={isDarkMode ? DARK_TILE_URL : LIGHT_TILE_URL}
             maxZoom={20}
           />
           <ZoomControl position="bottomright" />
@@ -159,12 +164,6 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
           </Marker>
         </MapContainer>
       </div>
-      {process.env.NODE_ENV === "development" && !STADIA_MAPS_API_KEY && (
-        <div className="text-amber-500 text-sm">
-          Note: Using OpenStreetMap tiles (development only). Set
-          NEXT_PUBLIC_STADIA_MAPS_API_KEY for production use.
-        </div>
-      )}
     </div>
   );
 }

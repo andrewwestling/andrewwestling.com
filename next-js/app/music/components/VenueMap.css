@@ -1,0 +1,11 @@
+/* Dark mode styles for map attribution */
+@media (prefers-color-scheme: dark) {
+  :root .leaflet-container .leaflet-control-attribution {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: rgb(229, 229, 229) !important;
+  }
+
+  :root .leaflet-container .leaflet-control-attribution a {
+    color: rgb(147, 197, 253) !important;
+  }
+}
