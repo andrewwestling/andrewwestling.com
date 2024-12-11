@@ -2,6 +2,7 @@ import Link from "next/link";
 import database from "@music/data/database";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
+import { ConcertListItem } from "@music/components/ConcertListItem";
 
 export default async function VenuesPage() {
   const locationMap = await getLocationsForVenues(database.venue);
@@ -15,35 +16,36 @@ export default async function VenuesPage() {
     <div className="py-8">
       <h1 className="text-2xl font-bold mb-6">Venues</h1>
 
-      <div className="grid gap-8">
+      <div className="grid gap-12">
         {sortedVenues.map((venue) => {
           const location = locationMap[venue.slug];
 
           return (
-            <div key={venue.slug} className="grid gap-2">
-              <div>
+            <div
+              key={venue.slug}
+              className="grid gap-6 pb-8 border-b border-b-highlight"
+            >
+              <div className="space-y-1">
                 <h2 className="text-2xl font-bold">
                   <Link href={routes.venues.show(venue.slug)}>
                     {venue.title}
                   </Link>
                 </h2>
-                {location && (
-                  <div className="text-muted text-sm mt-1">{location}</div>
-                )}
-                {venue.concertCount > 0 && (
-                  <div className="text-muted text-sm">
-                    {venue.concertCount} concert
-                    {venue.concertCount !== 1 ? "s" : ""}
-                  </div>
-                )}
+                <div className="text-muted text-sm">
+                  {location && <>{location}</>}
+                  {location && venue.concertCount > 0 && " • "}
+                  {venue.concertCount > 0 && (
+                    <>
+                      {venue.concertCount} concert
+                      {venue.concertCount !== 1 ? "s" : ""}
+                    </>
+                  )}
+                </div>
               </div>
 
               {venue.concertCount > 0 && (
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Recent Concerts
-                  </h3>
-                  <div className="grid gap-2">
+                <div className="space-y-4">
+                  <div className="grid gap-4">
                     {database.concert
                       .filter(
                         (c) =>
@@ -56,26 +58,19 @@ export default async function VenuesPage() {
                           new Date(a.frontmatter.date).getTime()
                       )
                       .slice(0, 3)
-                      .map((concert) => {
-                        const group = database.group.find(
-                          (g) => g.title === concert.frontmatter.group
-                        );
-                        return (
-                          <div key={concert.slug}>
-                            <Link href={routes.concerts.show(concert.slug)}>
-                              {concert.title}
-                            </Link>
-                            {group && (
-                              <span className="text-muted ml-2">
-                                with{" "}
-                                <Link href={routes.groups.show(group.slug)}>
-                                  {group.title}
-                                </Link>
-                              </span>
-                            )}
-                          </div>
-                        );
-                      })}
+                      .map((concert) => (
+                        <ConcertListItem key={concert.slug} concert={concert} />
+                      ))}
+                    {venue.concertCount > 3 && (
+                      <div>
+                        <Link
+                          href={routes.venues.show(venue.slug)}
+                          className="text-sm text-muted"
+                        >
+                          View all {venue.concertCount} concerts →
+                        </Link>
+                      </div>
+                    )}
                   </div>
                 </div>
               )}

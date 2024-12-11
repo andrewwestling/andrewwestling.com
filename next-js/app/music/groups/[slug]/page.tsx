@@ -1,14 +1,8 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import database from "@music/data/database";
-import {
-  getDateFromFilename,
-  formatConcertTitle,
-  isUpcoming,
-} from "@music/lib/helpers";
+import { getDateFromFilename, getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
-import { ConcertBadges } from "@music/components/ConcertBadges";
-import { routes } from "@music/lib/routes";
+import { ConcertListItem } from "@music/components/ConcertListItem";
 
 export default function GroupPage({ params }: PageProps) {
   const group = database.group.find((g) => g.slug === params.slug);
@@ -17,14 +11,18 @@ export default function GroupPage({ params }: PageProps) {
     notFound();
   }
 
-  // Find all concerts for this group
-  const concerts = database.concert.filter(
-    (c) => c.frontmatter.group === group.title
-  );
+  // Find all concerts for this group and sort by date
+  const concerts = [...database.concert]
+    .filter((c) => c.frontmatter.group === group.title)
+    .sort((a, b) => {
+      const dateA = getDateForSorting(a.frontmatter.date);
+      const dateB = getDateForSorting(b.frontmatter.date);
+      return dateB - dateA; // Sort descending (newest first)
+    });
 
   return (
     <article className="py-8">
-      <h1 className="text-2xl font-bold mb-4">{group.title}</h1>
+      <h1 className="text-2xl font-bold">{group.title}</h1>
       <p className="text-lg mb-6">{group.frontmatter.location}</p>
 
       {concerts.length > 0 && (
@@ -34,19 +32,7 @@ export default function GroupPage({ params }: PageProps) {
             {concerts.map((concert) => {
               const concertDate = getDateFromFilename(concert.slug);
               if (!concertDate) return null;
-
-              const displayTitle = formatConcertTitle(concert.title, group);
-
-              return (
-                <div key={concert.slug} className="pb-4">
-                  <h3 className="font-medium flex items-center gap-2">
-                    <Link href={routes.concerts.show(concert.slug)}>
-                      {displayTitle}
-                    </Link>
-                    <ConcertBadges concert={concert} />
-                  </h3>
-                </div>
-              );
+              return <ConcertListItem key={concert.slug} concert={concert} />;
             })}
           </div>
         </div>

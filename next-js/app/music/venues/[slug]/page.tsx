@@ -1,14 +1,8 @@
-import Link from "next/link";
 import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
-import {
-  getDateFromFilename,
-  formatConcertTitle,
-  formatDate,
-} from "@music/lib/helpers";
 import { notFound } from "next/navigation";
-import { routes } from "@music/lib/routes";
 import dynamic from "next/dynamic";
+import { ConcertListItem } from "@music/components/ConcertListItem";
 
 // Import the map component dynamically to avoid SSR issues
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
@@ -65,18 +59,7 @@ export default function VenuePage({ params }: PageProps) {
                 const group = database.group.find(
                   (g) => g.title === concert.frontmatter.group
                 );
-                return (
-                  <div key={concert.slug}>
-                    <Link href={routes.concerts.show(concert.slug)}>
-                      {formatConcertTitle(concert.title, group)}
-                    </Link>
-                    {concert.frontmatter.date && (
-                      <span className="text-muted ml-2">
-                        on {formatDate(concert.frontmatter.date)}
-                      </span>
-                    )}
-                  </div>
-                );
+                return <ConcertListItem key={concert.slug} concert={concert} />;
               })}
             </div>
           </section>

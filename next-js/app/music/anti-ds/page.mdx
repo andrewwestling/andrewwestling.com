@@ -5,12 +5,54 @@ import { DidNotPlay } from "@music/components/DidNotPlay";
 import { VenueMap } from "@music/components/VenueMap";
 import dynamic from "next/dynamic";
 import { Upcoming } from "@music/components/Upcoming";
+import { ConcertListItem } from "@music/components/ConcertListItem";
+import database from "@music/data/database";
 
 export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
 });
 
 export const metadata = { title: "anti-ds" };
+
+export const sampleConcertWithTitle = {
+  slug: '200001011200',
+  type: 'concert',
+  path: 'Concerts/2000/200001011200 Greenwich Village Orchestra (Fall Concert).md',
+  title: '200001011200 Greenwich Village Orchestra (Fall Concert)',
+  content: '',
+  frontmatter: {
+    date: '2000-01-01T12:00:00.000Z',
+    group: 'Greenwich Village Orchestra',
+    works: ['Sibelius - Symphony No. 1 in E Minor'],
+    conductor: ['Barbara Yahr'],
+    spotifyPlaylistUrl: null,
+    venue: 'All Saints Church',
+  },
+};
+
+export const sampleConcertWithoutTitle = {
+  slug: '200002021200',
+  type: 'concert',
+  path: 'Concerts/2000/200002021200 Greenwich Village Orchestra.md',
+  title: '200002021200 Greenwich Village Orchestra',
+  content: '',
+  frontmatter: {
+    date: '2000-02-02T12:00:00.000Z',
+    group: 'Greenwich Village Orchestra',
+    works: ['Sibelius - Symphony No. 1 in E Minor'],
+    conductor: ['Barbara Yahr'],
+    spotifyPlaylistUrl: null,
+    venue: 'All Saints Church',
+  },
+};
+
+export const sampleGroup = {
+  title: 'Greenwich Village Orchestra',
+  slug: 'gvo',
+  path: 'Groups/Greenwich Village Orchestra.md',
+  content: '',
+  frontmatter: {},
+};
 
 export const messageContent = (
   <>
@@ -37,10 +79,46 @@ export const Message = ({ children }) => (
 
 # Components
 
+- [ConcertListItem](#concertlistitem)
 - [DidNotPlay](#didnotplay)
 - [Upcoming](#upcoming)
 - [VenueMap](#venuemap)
 
+---
+
+## ConcertListItem
+
+This is used when listing concerts on a page.
+
+- Shows the concert title, the group name, and the date
+- Falls back to the group name if a concert title isn't available
+- Has an optional `expanded` prop that shows the group name and the date
+
+<ComponentWrapper>
+  <div className="grid gap-6">
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">With Title</label>
+      <ConcertListItem concert={sampleConcertWithTitle} group={sampleGroup} />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Without Title</label>
+      <ConcertListItem
+        concert={sampleConcertWithoutTitle}
+        group={sampleGroup}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Without Title, Expanded</label>
+      <ConcertListItem
+        concert={sampleConcertWithoutTitle}
+        group={sampleGroup}
+        expanded
+      />
+    </div>
+  </div>
+</ComponentWrapper>
 
 ## DidNotPlay
 
