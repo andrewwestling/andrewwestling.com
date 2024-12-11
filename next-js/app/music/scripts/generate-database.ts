@@ -1,7 +1,7 @@
 import * as fs from "fs/promises";
 import * as path from "path";
 import matter from "gray-matter";
-import { Database, VaultObject } from "../lib/types";
+import { Database, VaultObject, Work, Concert, Season } from "../lib/types";
 
 // Helper to convert strings to URL-friendly slugs
 function slugify(text: string): string {
@@ -168,6 +168,95 @@ async function readVaultDirectory(
   return objects;
 }
 
+function calculateConcertCounts(database: Database) {
+  // Calculate work counts
+  database.work.forEach((work) => {
+    const count = database.concert.filter((c) => {
+      if (c.frontmatter.didNotPlay) return false;
+      const works = c.frontmatter.works || [];
+      if (Array.isArray(works)) {
+        return works.includes(work.title);
+      }
+      return works === work.title;
+    }).length;
+    work.concertCount = count;
+  });
+
+  // Calculate venue counts
+  database.venue.forEach((venue) => {
+    const count = database.concert.filter(
+      (c) => !c.frontmatter.didNotPlay && c.frontmatter.venue === venue.title
+    ).length;
+    venue.concertCount = count;
+  });
+
+  // Calculate group counts
+  database.group.forEach((group) => {
+    const count = database.concert.filter(
+      (c) => !c.frontmatter.didNotPlay && c.frontmatter.group === group.title
+    ).length;
+    group.concertCount = count;
+  });
+
+  // Calculate conductor counts
+  database.conductor.forEach((conductor) => {
+    const count = database.concert.filter((c) => {
+      if (c.frontmatter.didNotPlay) return false;
+      const conductors = Array.isArray(c.frontmatter.conductor)
+        ? c.frontmatter.conductor
+        : [c.frontmatter.conductor];
+      return conductors.includes(conductor.title);
+    }).length;
+    conductor.concertCount = count;
+  });
+
+  // Calculate composer counts
+  database.composer.forEach((composer) => {
+    const count = database.concert.filter((c) => {
+      if (c.frontmatter.didNotPlay) return false;
+      const works = Array.isArray(c.frontmatter.works)
+        ? c.frontmatter.works
+        : [c.frontmatter.works];
+      return works.some((workTitle) => {
+        if (!workTitle) return false;
+        const workObj = database.work.find((w) => w.title === workTitle);
+        return workObj?.frontmatter.composer === composer.title;
+      });
+    }).length;
+    composer.concertCount = count;
+  });
+}
+
+function processSeasons(database: Database) {
+  // Process each season
+  (database.season as Season[]).forEach((season) => {
+    // Find concerts that belong to this season
+    const seasonConcerts = (database.concert as Concert[]).filter((concert) => {
+      return concert.frontmatter.season === season.slug;
+    });
+
+    // Get unique works from these concerts
+    const works = new Set<string>();
+    seasonConcerts.forEach((concert) => {
+      const concertWorks = concert.frontmatter.works || [];
+      if (Array.isArray(concertWorks)) {
+        concertWorks.forEach((work) => works.add(work));
+      } else if (concertWorks) {
+        works.add(concertWorks);
+      }
+    });
+
+    // Set concert and work slugs for the season
+    season.concertSlugs = seasonConcerts.map((concert) => concert.slug);
+    season.workSlugs = Array.from(works)
+      .map(
+        (workTitle) =>
+          (database.work as Work[]).find((w) => w.title === workTitle)?.slug
+      )
+      .filter((slug): slug is string => slug !== undefined);
+  });
+}
+
 async function generateDatabase({
   vaultPath,
   includeDidNotPlay = false,
@@ -186,6 +275,7 @@ async function generateDatabase({
     { path: "Sheet Music", type: "sheet-music" },
     { path: "Venues", type: "venue" },
     { path: "Works", type: "work" },
+    { path: "Seasons", type: "season" },
   ] as const;
 
   for (const dir of directories) {
@@ -200,68 +290,9 @@ async function generateDatabase({
     }
   }
 
-  // After loading all the files, before writing the database
-  function calculateConcertCounts(database: Database) {
-    // Calculate work counts
-    database.work.forEach((work) => {
-      const count = database.concert.filter((c) => {
-        if (c.frontmatter.didNotPlay) return false;
-        const works = c.frontmatter.works || [];
-        if (Array.isArray(works)) {
-          return works.includes(work.title);
-        }
-        return works === work.title;
-      }).length;
-      work.concertCount = count;
-    });
-
-    // Calculate venue counts
-    database.venue.forEach((venue) => {
-      const count = database.concert.filter(
-        (c) => !c.frontmatter.didNotPlay && c.frontmatter.venue === venue.title
-      ).length;
-      venue.concertCount = count;
-    });
-
-    // Calculate group counts
-    database.group.forEach((group) => {
-      const count = database.concert.filter(
-        (c) => !c.frontmatter.didNotPlay && c.frontmatter.group === group.title
-      ).length;
-      group.concertCount = count;
-    });
-
-    // Calculate conductor counts
-    database.conductor.forEach((conductor) => {
-      const count = database.concert.filter((c) => {
-        if (c.frontmatter.didNotPlay) return false;
-        const conductors = Array.isArray(c.frontmatter.conductor)
-          ? c.frontmatter.conductor
-          : [c.frontmatter.conductor];
-        return conductors.includes(conductor.title);
-      }).length;
-      conductor.concertCount = count;
-    });
-
-    // Calculate composer counts
-    database.composer.forEach((composer) => {
-      const count = database.concert.filter((c) => {
-        if (c.frontmatter.didNotPlay) return false;
-        const works = Array.isArray(c.frontmatter.works)
-          ? c.frontmatter.works
-          : [c.frontmatter.works];
-        return works.some((workTitle) => {
-          if (!workTitle) return false;
-          const workObj = database.work.find((w) => w.title === workTitle);
-          return workObj?.frontmatter.composer === composer.title;
-        });
-      }).length;
-      composer.concertCount = count;
-    });
-  }
-
-  // Add this line before writing the database
+  // After loading all the files, calculate counts and process seasons
   calculateConcertCounts(database as unknown as Database); // TODO: Fix types here
+  processSeasons(database as unknown as Database); // TODO: Fix types here
 
   const outputPath = path.resolve(__dirname, "../data/vault-data.json");
   await fs.mkdir(path.dirname(outputPath), { recursive: true });

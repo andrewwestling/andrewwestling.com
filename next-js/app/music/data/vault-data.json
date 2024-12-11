@@ -3,8 +3,8 @@
     {
       "slug": "200703021930",
       "type": "concert",
-      "path": "Concerts/2007/200703021930 Concert - Metropolitan Youth Symphony (Spring Concert).md",
-      "title": "200703021930 Concert - Metropolitan Youth Symphony (Spring Concert)",
+      "path": "Concerts/2007/200703021930 Concert - Metropolitan Youth Symphony (Winter Concert).md",
+      "title": "200703021930 Concert - Metropolitan Youth Symphony (Winter Concert)",
       "content": "",
       "frontmatter": {
         "date": "2007-03-02T19:30:00.000Z",
@@ -16,7 +16,8 @@
           "Lajos Balogh"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2006-2007"
       }
     },
     {
@@ -37,7 +38,8 @@
           "Lajos Balogh"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2006-2007"
       }
     },
     {
@@ -58,7 +60,8 @@
           "Lajos Balogh"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2007-2008"
       }
     },
     {
@@ -79,7 +82,8 @@
           "Lajos Balogh"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2007-2008"
       }
     },
     {
@@ -100,7 +104,8 @@
           "Lajos Balogh"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2007-2008"
       }
     },
     {
@@ -122,7 +127,8 @@
           "David Hattner"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2008-2009"
       }
     },
     {
@@ -144,7 +150,8 @@
           "David Hattner"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2008-2009"
       }
     },
     {
@@ -168,7 +175,8 @@
           "David Hattner"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2008-2009"
       }
     },
     {
@@ -189,7 +197,8 @@
           "Wayne Bennett"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Beall Concert Hall, University of Oregon"
+        "venue": "Beall Concert Hall, University of Oregon",
+        "season": "2009-2010"
       }
     },
     {
@@ -211,7 +220,8 @@
           "Wayne Bennett"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Beall Concert Hall, University of Oregon"
+        "venue": "Beall Concert Hall, University of Oregon",
+        "season": "2009-2010"
       }
     },
     {
@@ -232,7 +242,8 @@
           "David Jacobs"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Beall Concert Hall, University of Oregon"
+        "venue": "Beall Concert Hall, University of Oregon",
+        "season": "2012-2013"
       }
     },
     {
@@ -253,7 +264,8 @@
           "David Jacobs"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Beall Concert Hall, University of Oregon"
+        "venue": "Beall Concert Hall, University of Oregon",
+        "season": "2012-2013"
       }
     },
     {
@@ -272,7 +284,8 @@
           "David Hattner"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2012-2013"
       }
     },
     {
@@ -293,7 +306,8 @@
           "David Jacobs"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Beall Concert Hall, University of Oregon"
+        "venue": "Beall Concert Hall, University of Oregon",
+        "season": "2012-2013"
       }
     },
     {
@@ -313,7 +327,8 @@
           "Ian Shafer"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/653g4Qj5P6aDkqpsJxCmnP?si=3998aefe9b7848ce",
-        "venue": "Tishman Auditorium, The New School"
+        "venue": "Tishman Auditorium, The New School",
+        "season": "2018-2019"
       }
     },
     {
@@ -333,7 +348,8 @@
           "Bryant Denmark"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5kHRIfrMlX6tSdOo5jhFk7?si=0eefe4fb113d4e23",
-        "venue": "Tishman Auditorium, The New School"
+        "venue": "Tishman Auditorium, The New School",
+        "season": "2018-2019"
       }
     },
     {
@@ -351,7 +367,8 @@
         ],
         "conductor": null,
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7stlty6dj2XPG4ui07caur?si=fd94cbe0ca284ddb",
-        "venue": "Littlefield"
+        "venue": "Littlefield",
+        "season": "2018-2019"
       }
     },
     {
@@ -370,7 +387,8 @@
         ],
         "conductor": null,
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/34trwIZWXM66DThEcrTHvI?si=c3cf198e391f41df",
-        "venue": "Tishman Auditorium, The New School"
+        "venue": "Tishman Auditorium, The New School",
+        "season": "2018-2019"
       }
     },
     {
@@ -391,7 +409,8 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2QIUrl9yWXPjD1yKTo5HLV?si=97bb358c24a34d25",
-        "venue": "Morrison Center"
+        "venue": "Morrison Center",
+        "season": "2018-2019"
       }
     },
     {
@@ -410,7 +429,8 @@
         ],
         "conductor": null,
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3xmboOa91k77rCN5o7fXKD?si=07cf5868b12e4737",
-        "venue": "Tishman Auditorium, The New School"
+        "venue": "Tishman Auditorium, The New School",
+        "season": "2018-2019"
       }
     },
     {
@@ -427,7 +447,8 @@
         ],
         "conductor": null,
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0wjIVeHd2sDFMSB8dyF6ku?si=217693aafe7240b6",
-        "venue": "Littlefield"
+        "venue": "Littlefield",
+        "season": "2018-2019"
       }
     },
     {
@@ -448,7 +469,8 @@
           "Ian Shafer"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/59mLCiomqFgvLnEhvZ7zJl?si=ea634d56722d46d0",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": ""
       }
     },
     {
@@ -468,7 +490,8 @@
           "Eli Spindel"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4VwI519C6gGxioUxff9PvQ?si=de9a47b3bdd845b8",
-        "venue": "Roulette"
+        "venue": "Roulette",
+        "season": "2019-2020"
       }
     },
     {
@@ -491,7 +514,8 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2DlFxhqqJYrzjXlMEsYclX?si=68baadf5db374a27",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2019-2020"
       }
     },
     {
@@ -510,7 +534,8 @@
           "David Hattner"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/39qTpCYV49J6qLYbTTutwR?si=8deff8b6e7344196",
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2019-2020"
       }
     },
     {
@@ -533,7 +558,8 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4MJ6NvlVOCpTGFTVRbbGPD?si=472f87c19da34b2e",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2019-2020"
       }
     },
     {
@@ -554,7 +580,8 @@
           "Eric Hayslett"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0SuwXYmy1gPHTtEGwfwarl?si=fb33f4af7e614796",
-        "venue": "Saint John's in the Village"
+        "venue": "Saint John's in the Village",
+        "season": "2020-2021"
       }
     },
     {
@@ -578,7 +605,8 @@
           "Andy Bhasin"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4cuxdbFCAUehna9t3voYeP?si=b1ee25f314dc4801",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2020-2021"
       }
     },
     {
@@ -600,14 +628,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3ynWCE7GyfcdNoaoCVMPYR?si=1a47bb02327844d7",
-        "venue": "Washington Irving High School"
+        "venue": "Washington Irving High School",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202111061900",
       "type": "concert",
-      "path": "Concerts/2021/202111061900 Concert - Boise Phil (Dvorak 7, Mozart 31).md",
-      "title": "202111061900 Concert - Boise Phil (Dvorak 7, Mozart 31)",
+      "path": "Concerts/2021/202111061900 Concert - Boise Philharmonic (Dvorak 7, Mozart 31).md",
+      "title": "202111061900 Concert - Boise Philharmonic (Dvorak 7, Mozart 31)",
       "content": "",
       "frontmatter": {
         "date": "2021-11-06T19:00:00.000Z",
@@ -621,14 +650,15 @@
           "Eric Garcia"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/55U7WGfvLOvK2GsjprmwzG?si=3629b2696ddc4b96",
-        "venue": "Morrison Center"
+        "venue": "Morrison Center",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202202201400",
       "type": "concert",
-      "path": "Concerts/2022/202202201400 Concert - BSO (Concert 3).md",
-      "title": "202202201400 Concert - BSO (Concert 3)",
+      "path": "Concerts/2022/202202201400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202202201400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2022-02-20T14:00:00.000Z",
@@ -641,14 +671,15 @@
           "Felipe Tristan"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0rfetgBgN4QNKOfdRcaHkH?si=46e2e231602b4709",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202203172030",
       "type": "concert",
-      "path": "Concerts/2022/202203172030 Concert - Centre Symphony (Mozart SC, Haydn 104).md",
-      "title": "202203172030 Concert - Centre Symphony (Mozart SC, Haydn 104)",
+      "path": "Concerts/2022/202203172030 Concert - Centre Symphony (Mozart Sinfonia Concertante, Haydn 104).md",
+      "title": "202203172030 Concert - Centre Symphony (Mozart Sinfonia Concertante, Haydn 104)",
       "content": "",
       "frontmatter": {
         "date": "2022-03-17T20:30:00.000Z",
@@ -661,14 +692,15 @@
           "Scott Jackson Wiley"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7j9JhEY6RGhpfLFP5j8YLY?si=77960b6831ee459f",
-        "venue": "Broadway Presbyterian Church"
+        "venue": "Broadway Presbyterian Church",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202203201500",
       "type": "concert",
-      "path": "Concerts/2022/202203201500 Concert - GVO (\"Energy\").md",
-      "title": "202203201500 Concert - GVO (\"Energy\")",
+      "path": "Concerts/2022/202203201500 Concert - Greenwich Village Orchestra (Energy).md",
+      "title": "202203201500 Concert - Greenwich Village Orchestra (Energy)",
       "content": "",
       "frontmatter": {
         "date": "2022-03-20T15:00:00.000Z",
@@ -682,14 +714,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3eZ2fPlaUyMjPtSZxCKZEp?si=ff686e48f0ae461d",
-        "venue": "Washington Irving High School"
+        "venue": "Washington Irving High School",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202205081500",
       "type": "concert",
-      "path": "Concerts/2022/202205081500 Concert - GVO (\"Hope\").md",
-      "title": "202205081500 Concert - GVO (\"Hope\")",
+      "path": "Concerts/2022/202205081500 Concert - Greenwich Village Orchestra (Hope).md",
+      "title": "202205081500 Concert - Greenwich Village Orchestra (Hope)",
       "content": "",
       "frontmatter": {
         "date": "2022-05-08T15:00:00.000Z",
@@ -705,14 +738,15 @@
           "Eric Mahl"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3ToLB1ptpIFf8eXujM4BXN?si=e947d0b05b084832",
-        "venue": "Washington Irving High School"
+        "venue": "Washington Irving High School",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202205141900",
       "type": "concert",
-      "path": "Concerts/2022/202205141900 Concert - Grace Chorale (\"The Constitution, A Secular Oratorio\").md",
-      "title": "202205141900 Concert - Grace Chorale (\"The Constitution, A Secular Oratorio\")",
+      "path": "Concerts/2022/202205141900 Concert - Grace Chorale (The Constitution, A Secular Oratorio).md",
+      "title": "202205141900 Concert - Grace Chorale (The Constitution, A Secular Oratorio)",
       "content": "",
       "frontmatter": {
         "date": "2022-05-14T19:00:00.000Z",
@@ -724,7 +758,8 @@
           "Jason Asbury"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "St. Ann and the Holy Trinity Church"
+        "venue": "St. Ann and the Holy Trinity Church",
+        "season": "2021-2022"
       }
     },
     {
@@ -745,14 +780,15 @@
           "Scott Jackson Wiley"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0sTdXRaKoHELs36W2qCDzO?si=1875c1f5803d4bb3",
-        "venue": "Broadway Presbyterian Church"
+        "venue": "Broadway Presbyterian Church",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202206121400",
       "type": "concert",
-      "path": "Concerts/2022/202206121400 Concert - BSO (Concert 5).md",
-      "title": "202206121400 Concert - BSO (Concert 5)",
+      "path": "Concerts/2022/202206121400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202206121400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2022-06-12T14:00:00.000Z",
@@ -766,14 +802,15 @@
           "Andy Bhasin"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6vlqobFav1H9zwNTqz7TGR?si=6d66a5155c1449e6",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202207101700",
       "type": "concert",
-      "path": "Concerts/2022/202207101700 Concert - GVO (Prospect Park).md",
-      "title": "202207101700 Concert - GVO (Prospect Park)",
+      "path": "Concerts/2022/202207101700 Concert - Greenwich Village Orchestra (Prospect Park).md",
+      "title": "202207101700 Concert - Greenwich Village Orchestra (Prospect Park)",
       "content": "",
       "frontmatter": {
         "date": "2022-07-10T17:00:00.000Z",
@@ -792,14 +829,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/257P64IMJ9ysh5uKicY6Dr?si=a6ddc2bd1cfd4246",
-        "venue": "Concert Grove Pavilion, Prospect Park"
+        "venue": "Concert Grove Pavilion, Prospect Park",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202208061900",
       "type": "concert",
-      "path": "Concerts/2022/202208061900 Concert - Litha Symphony (3. Winter Daydreams).md",
-      "title": "202208061900 Concert - Litha Symphony (3. Winter Daydreams)",
+      "path": "Concerts/2022/202208061900 Concert - Litha Symphony (Winter Daydreams).md",
+      "title": "202208061900 Concert - Litha Symphony (Winter Daydreams)",
       "content": "",
       "frontmatter": {
         "date": "2022-08-06T19:00:00.000Z",
@@ -814,14 +852,15 @@
           "Eric Hayslett"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/19lylg066fWAYfxM47hx0i?si=b4fa461fd26748dc",
-        "venue": "Church of the Holy Apostles"
+        "venue": "Church of the Holy Apostles",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202208271900",
       "type": "concert",
-      "path": "Concerts/2022/202208271900 Concert - Litha Symphony (4. Spring Finale).md",
-      "title": "202208271900 Concert - Litha Symphony (4. Spring Finale)",
+      "path": "Concerts/2022/202208271900 Concert - Litha Symphony (Spring Finale).md",
+      "title": "202208271900 Concert - Litha Symphony (Spring Finale)",
       "content": "",
       "frontmatter": {
         "date": "2022-08-27T19:00:00.000Z",
@@ -836,14 +875,15 @@
           "Eric Hayslett"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6aAH7o35AGFOO5thZ0vmDH?si=826ea61a079d40f6",
-        "venue": "Church of the Holy Apostles"
+        "venue": "Church of the Holy Apostles",
+        "season": "2021-2022"
       }
     },
     {
       "slug": "202210161500",
       "type": "concert",
-      "path": "Concerts/2022/202210161500 Concert - GVO (\"Fellow Citizens...\").md",
-      "title": "202210161500 Concert - GVO (\"Fellow Citizens...\")",
+      "path": "Concerts/2022/202210161500 Concert - Greenwich Village Orchestra (Fellow Citizens...).md",
+      "title": "202210161500 Concert - Greenwich Village Orchestra (Fellow Citizens...)",
       "content": "",
       "frontmatter": {
         "date": "2022-10-16T15:00:00.000Z",
@@ -857,7 +897,8 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2MteUxkanIrEF3tR8uvyvL?si=c137f7349740480a",
-        "venue": "Good Shepherd-Faith Presbyterian Church"
+        "venue": "Good Shepherd-Faith Presbyterian Church",
+        "season": "2022-2023"
       }
     },
     {
@@ -874,14 +915,15 @@
         ],
         "conductor": null,
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0YuXuI4MVRtaBJOrHJFxww?si=528ff95fdb8c4dce",
-        "venue": null
+        "venue": null,
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202211201500",
       "type": "concert",
-      "path": "Concerts/2022/202211201500 Concert - GVO (Concert 2).md",
-      "title": "202211201500 Concert - GVO (Concert 2)",
+      "path": "Concerts/2022/202211201500 Concert - Greenwich Village Orchestra.md",
+      "title": "202211201500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2022-11-20T15:00:00.000Z",
@@ -894,14 +936,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6x0DaBMCjBEF3MSlPcK3jY?si=bc00085723dc4eef",
-        "venue": null
+        "venue": null,
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202212181500",
       "type": "concert",
-      "path": "Concerts/2022/202212181500 Concert - GVO (Concert 3).md",
-      "title": "202212181500 Concert - GVO (Concert 3)",
+      "path": "Concerts/2022/202212181500 Concert - Greenwich Village Orchestra.md",
+      "title": "202212181500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2022-12-18T15:00:00.000Z",
@@ -918,14 +961,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1jfFR4vOKlQ4SGBJBt4AZM?si=a479b3a5b57846bd",
-        "venue": "All Saints Church"
+        "venue": "All Saints Church",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202302051500",
       "type": "concert",
-      "path": "Concerts/2023/202302051500 Concert - GVO (Concert 4).md",
-      "title": "202302051500 Concert - GVO (Concert 4)",
+      "path": "Concerts/2023/202302051500 Concert - Greenwich Village Orchestra.md",
+      "title": "202302051500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-02-05T15:00:00.000Z",
@@ -943,14 +987,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "All Saints Church"
+        "venue": "All Saints Church",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202302261400",
       "type": "concert",
-      "path": "Concerts/2023/202302261400 Concert - BSO (Concert 3).md",
-      "title": "202302261400 Concert - BSO (Concert 3)",
+      "path": "Concerts/2023/202302261400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202302261400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-02-26T14:00:00.000Z",
@@ -965,14 +1010,15 @@
           "Andy Bhasin"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3rPbKJaYEoayf7bRQs8Hmq?si=7adf8898554c48e7",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202303191500",
       "type": "concert",
-      "path": "Concerts/2023/202303191500 Concert - GVO (Concert 5).md",
-      "title": "202303191500 Concert - GVO (Concert 5)",
+      "path": "Concerts/2023/202303191500 Concert - Greenwich Village Orchestra.md",
+      "title": "202303191500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-03-19T15:00:00.000Z",
@@ -987,14 +1033,15 @@
           "Eric Mahl"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3eXc05tTQFEBCvnX5xiKfQ?si=47cd79558cab4b6d",
-        "venue": "All Saints Church"
+        "venue": "All Saints Church",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202304161400",
       "type": "concert",
-      "path": "Concerts/2023/202304161400 Concert - BSO (Concert 4).md",
-      "title": "202304161400 Concert - BSO (Concert 4)",
+      "path": "Concerts/2023/202304161400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202304161400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-04-16T14:00:00.000Z",
@@ -1008,14 +1055,15 @@
           "David Bernard"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/34bTB0t3Nx1o1M2k7qIW9K?si=3825be678c6543c0",
-        "venue": "All Saints Church"
+        "venue": "All Saints Church",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202305071500",
       "type": "concert",
-      "path": "Concerts/2023/202305071500 Concert - GVO (Concert 6).md",
-      "title": "202305071500 Concert - GVO (Concert 6)",
+      "path": "Concerts/2023/202305071500 Concert - Greenwich Village Orchestra.md",
+      "title": "202305071500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-05-07T15:00:00.000Z",
@@ -1028,14 +1076,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/62uy2RE5hiBrGOX76LJSdO?si=213bad7aa63c4180",
-        "venue": "All Saints Church"
+        "venue": "All Saints Church",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202306111400",
       "type": "concert",
-      "path": "Concerts/2023/202306111400 Concert - BSO (Concert 5).md",
-      "title": "202306111400 Concert - BSO (Concert 5)",
+      "path": "Concerts/2023/202306111400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202306111400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-06-11T14:00:00.000Z",
@@ -1049,14 +1098,15 @@
           "Nick Armstrong"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6opOJI45RVvR1qv6pfHBts?si=5bab775e27714b59",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202307151230",
       "type": "concert",
-      "path": "Concerts/2023/202307151230 Concert - GVO (Open Rehearsal instead of Prospect Park).md",
-      "title": "202307151230 Concert - GVO (Open Rehearsal instead of Prospect Park)",
+      "path": "Concerts/2023/202307151230 Concert - Greenwich Village Orchestra (Open Rehearsal instead of Prospect Park).md",
+      "title": "202307151230 Concert - Greenwich Village Orchestra (Open Rehearsal instead of Prospect Park)",
       "content": "",
       "frontmatter": {
         "date": "2023-07-15T12:30:00.000Z",
@@ -1070,14 +1120,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/06bWHAyqohXHAUcQ9VCFYL?si=5b623dff0e18470c",
-        "venue": "All Saints Church"
+        "venue": "All Saints Church",
+        "season": "2022-2023"
       }
     },
     {
       "slug": "202310151500",
       "type": "concert",
-      "path": "Concerts/2023/202310151500 Concert - GVO (Concert 1).md",
-      "title": "202310151500 Concert - GVO (Concert 1)",
+      "path": "Concerts/2023/202310151500 Concert - Greenwich Village Orchestra.md",
+      "title": "202310151500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-10-15T15:00:00.000Z",
@@ -1091,14 +1142,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4xEladc60bwxiVeqk64vBi?si=fc3eeece701549a2",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202310291400",
       "type": "concert",
-      "path": "Concerts/2023/202310291400 Concert - BSO (Concert 1 - Fall).md",
-      "title": "202310291400 Concert - BSO (Concert 1 - Fall)",
+      "path": "Concerts/2023/202310291400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202310291400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-10-29T14:00:00.000Z",
@@ -1111,14 +1163,15 @@
           "Felipe Tristan"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3viNxTfNlWqcvCeM9RsJkJ?si=13d07dcbf46744c2",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202311191500",
       "type": "concert",
-      "path": "Concerts/2023/202311191500 Concert - GVO (Concert 2).md",
-      "title": "202311191500 Concert - GVO (Concert 2)",
+      "path": "Concerts/2023/202311191500 Concert - Greenwich Village Orchestra.md",
+      "title": "202311191500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-11-19T15:00:00.000Z",
@@ -1132,14 +1185,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4JE5Iv101lrbxwmoOIphB4?si=47784d73adad4768",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202312101400",
       "type": "concert",
-      "path": "Concerts/2023/202312101400 Concert - BSO (Concert 2 - Flute Concerto, Holiday).md",
-      "title": "202312101400 Concert - BSO (Concert 2 - Flute Concerto, Holiday)",
+      "path": "Concerts/2023/202312101400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202312101400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2023-12-10T14:00:00.000Z",
@@ -1153,14 +1207,15 @@
           "Felipe Tristan"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/23UAYXzZcKMG5rAVwSFtMJ?si=0b1cde5a40774d2e",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202312261930",
       "type": "concert",
-      "path": "Concerts/2023/202312261930 Concert - PYP (2023 Concert-at-Christmas).md",
-      "title": "202312261930 Concert - PYP (2023 Concert-at-Christmas)",
+      "path": "Concerts/2023/202312261930 Concert - Portland Youth Philharmonic Alumni Orchestra (2023 Concert-at-Christmas).md",
+      "title": "202312261930 Concert - Portland Youth Philharmonic Alumni Orchestra (2023 Concert-at-Christmas)",
       "content": "",
       "frontmatter": {
         "date": "2023-12-26T19:30:00.000Z",
@@ -1172,14 +1227,15 @@
           "David Hattner"
         ],
         "spotifyPlaylistUrl": null,
-        "venue": "Arlene Schnitzer Concert Hall"
+        "venue": "Arlene Schnitzer Concert Hall",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202402041500",
       "type": "concert",
-      "path": "Concerts/2024/202402041500 Concert - GVO (Concert 4).md",
-      "title": "202402041500 Concert - GVO (Concert 4)",
+      "path": "Concerts/2024/202402041500 Concert - Greenwich Village Orchestra.md",
+      "title": "202402041500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2024-02-04T15:00:00.000Z",
@@ -1194,14 +1250,15 @@
           "Eric Mahl"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6GlrluYDigO4hJoaD9oTt6?si=527e13bdabc14d5a",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202402181400",
       "type": "concert",
-      "path": "Concerts/2024/202402181400 Concert - BSO (Concert 3 - \"Mexico Dupe\").md",
-      "title": "202402181400 Concert - BSO (Concert 3 - \"Mexico Dupe\")",
+      "path": "Concerts/2024/202402181400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "202402181400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2024-02-18T14:00:00.000Z",
@@ -1217,14 +1274,15 @@
           "Felipe Tristan"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/27b6FfSHxHubYNPgkzhHOY?si=a176f218b1b0463c",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202403241500",
       "type": "concert",
-      "path": "Concerts/2024/202403241500 Concert - GVO (Concert 5).md",
-      "title": "202403241500 Concert - GVO (Concert 5)",
+      "path": "Concerts/2024/202403241500 Concert - Greenwich Village Orchestra.md",
+      "title": "202403241500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2024-03-24T15:00:00.000Z",
@@ -1239,14 +1297,15 @@
           "Eric Mahl"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5hZSlM7MAGJwWbDUmB2yhV?si=6fe254bbec8b4132",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202404211400",
       "type": "concert",
-      "path": "Concerts/2024/202404211400 Concert - BSO (Concert 4 - \"BSO at the Movies\").md",
-      "title": "202404211400 Concert - BSO (Concert 4 - \"BSO at the Movies\")",
+      "path": "Concerts/2024/202404211400 Concert - Brooklyn Symphony Orchestra (BSO at the Movies).md",
+      "title": "202404211400 Concert - Brooklyn Symphony Orchestra (BSO at the Movies)",
       "content": "",
       "frontmatter": {
         "date": "2024-04-21T14:00:00.000Z",
@@ -1259,14 +1318,15 @@
           "Felipe Tristan"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7DurYdCMjVE8O8tO5TwCy2?si=244606e70b08436a",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2023-2024"
       }
     },
     {
       "slug": "202405051500",
       "type": "concert",
-      "path": "Concerts/2024/202405051500 Concert - GVO (Concert 6).md",
-      "title": "202405051500 Concert - GVO (Concert 6)",
+      "path": "Concerts/2024/202405051500 Concert - Greenwich Village Orchestra.md",
+      "title": "202405051500 Concert - Greenwich Village Orchestra",
       "content": "",
       "frontmatter": {
         "date": "2024-05-05T15:00:00.000Z",
@@ -1280,7 +1340,8 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3baSrSPcr4unAAamXiPDnz?si=18c75c64aed14c8c",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2023-2024"
       }
     },
     {
@@ -1301,14 +1362,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2pkZQYzka9s0mx1OWDmwKi?si=bdbd4d6e48df43d7",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2024-2025"
       }
     },
     {
       "slug": "202410271400",
       "type": "concert",
-      "path": "Concerts/2024/202410271400 Concert - BSO (Concert 1 - David Hagy).md",
-      "title": "202410271400 Concert - BSO (Concert 1 - David Hagy)",
+      "path": "Concerts/2024/202410271400 Concert - Brooklyn Symphony Orchestra (David Hagy).md",
+      "title": "202410271400 Concert - Brooklyn Symphony Orchestra (David Hagy)",
       "content": "",
       "frontmatter": {
         "date": "2024-10-27T14:00:00.000Z",
@@ -1322,7 +1384,8 @@
           "David Hagy"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5jZtQh1MXUaOspirRxM9xH?si=3e503b546cbe4076",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2024-2025"
       }
     },
     {
@@ -1342,14 +1405,15 @@
           "Barbara Yahr"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/424PGgqXstFMkWc5ICicww?si=6be50e3bb95f43b8",
-        "venue": "High School of Fashion Industries"
+        "venue": "High School of Fashion Industries",
+        "season": "2024-2025"
       }
     },
     {
       "slug": "202412151400",
       "type": "concert",
-      "path": "Concerts/2024/202412151400 Concert - BSO (Concert 2 - Andrew Kim).md",
-      "title": "202412151400 Concert - BSO (Concert 2 - Andrew Kim)",
+      "path": "Concerts/2024/202412151400 Concert - Brooklyn Symphony Orchestra (Andrew Kim).md",
+      "title": "202412151400 Concert - Brooklyn Symphony Orchestra (Andrew Kim)",
       "content": "",
       "frontmatter": {
         "date": "2024-12-15T14:00:00.000Z",
@@ -1364,7 +1428,8 @@
           "Andrew Kim"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2jukY5BSpTJWhnssa3wH6x?si=aca03f0980ee4c88",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2024-2025"
       }
     },
     {
@@ -1386,7 +1451,8 @@
           "Nico Olarte-Hayes"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4jjNGrNTKgqSJsDqiArteJ?si=2f53de1cf8f242ad",
-        "venue": "Brooklyn Museum"
+        "venue": "Brooklyn Museum",
+        "season": "2024-2025"
       }
     }
   ],
@@ -4768,6 +4834,432 @@
         "composer": "Zaerr, Laura"
       },
       "concertCount": 1
+    }
+  ],
+  "season": [
+    {
+      "slug": "2006-2007",
+      "type": "season",
+      "path": "Seasons/2006-2007.md",
+      "title": "2006-2007",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "200703021930",
+        "200706101500"
+      ],
+      "workSlugs": [
+        "sibelius-symphony-no-1-in-e-minor",
+        "coates-joyous-youth-suite",
+        "elgar-cello-concerto-in-e-minor",
+        "sibelius-finlandia"
+      ]
+    },
+    {
+      "slug": "2007-2008",
+      "type": "season",
+      "path": "Seasons/2007-2008.md",
+      "title": "2007-2008",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "200711301930",
+        "200803071500",
+        "200806081500"
+      ],
+      "workSlugs": [
+        "tchaikovsky-the-nutcracker-suite",
+        "bruch-hebrew-songs",
+        "vaughan-williams-fantasia-on-christmas-carols",
+        "rimsky-korsakov-russian-easter-overture",
+        "saint-saens-violin-concerto-no-3-in-b-minor",
+        "glazunov-the-seasons",
+        "liszt-gaudeamus-igitur",
+        "barber-violin-concerto",
+        "kodaly-dances-of-galanta"
+      ]
+    },
+    {
+      "slug": "2008-2009",
+      "type": "season",
+      "path": "Seasons/2008-2009.md",
+      "title": "2008-2009",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "200811081930",
+        "200903071930",
+        "200905021930"
+      ],
+      "workSlugs": [
+        "barber-music-for-a-scene-from-shelley",
+        "cowell-ancient-desert-drone",
+        "copland-billy-the-kid",
+        "dvorak-symphony-no-6-in-d-major",
+        "mussorgsky-prelude-to-khovantchina",
+        "barber-violin-concerto",
+        "avshalomov-seasons-greetings",
+        "tchaikovsky-symphony-no-4-in-f-minor",
+        "mozart-overture-to-the-marriage-of-figaro",
+        "haydn-symphony-no-60-in-c-major-il-distratto",
+        "beethoven-overture-to-fidelio",
+        "grieg-peer-gynt-suite-no-2",
+        "lutoslawski-concerto-for-orchestra",
+        "elgar-enigma-variations"
+      ]
+    },
+    {
+      "slug": "2009-2010",
+      "type": "season",
+      "path": "Seasons/2009-2010.md",
+      "title": "2009-2010",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "200910251500",
+        "200911221500"
+      ],
+      "workSlugs": [
+        "sibelius-andante-festivo",
+        "sibelius-karelia-suite",
+        "tchaikovsky-sleeping-beauty",
+        "debussy-petite-suite",
+        "zaerr-celtic-concerto-for-harp",
+        "bizet-carmen-suite-no-1",
+        "bizet-carmen-suite-no-2"
+      ]
+    },
+    {
+      "slug": "2010-2011",
+      "type": "season",
+      "path": "Seasons/2010-2011.md",
+      "title": "2010-2011",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [],
+      "workSlugs": []
+    },
+    {
+      "slug": "2011-2012",
+      "type": "season",
+      "path": "Seasons/2011-2012.md",
+      "title": "2011-2012",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [],
+      "workSlugs": []
+    },
+    {
+      "slug": "2012-2013",
+      "type": "season",
+      "path": "Seasons/2012-2013.md",
+      "title": "2012-2013",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "201210281500",
+        "201211192000",
+        "201212261930",
+        "201303101500"
+      ],
+      "workSlugs": [
+        "dvorak-carnival-overture",
+        "rogerson-oaken-sky",
+        "tchaikovsky-symphony-no-5-in-e-minor",
+        "brahms-tragic-overture",
+        "mozart-symphony-no-41-jupiter",
+        "gershwin-an-american-in-paris",
+        "offenbach-overture-to-la-belle-helene",
+        "beethoven-leonore-overture-no-3",
+        "ibert-concertino-da-camera",
+        "brahms-symphony-no-1-in-c-minor"
+      ]
+    },
+    {
+      "slug": "2018-2019",
+      "type": "season",
+      "path": "Seasons/2018-2019.md",
+      "title": "2018-2019",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "201812121900",
+        "201902201900",
+        "201903241900",
+        "201904031900",
+        "201904261900",
+        "201905081900",
+        "201906291500"
+      ],
+      "workSlugs": [
+        "brahms-variations-on-a-theme-by-haydn",
+        "dvorak-symphony-no-8-in-g-major",
+        "nielsen-flute-concerto",
+        "tchaikovsky-swan-lake-suite",
+        "elgar-serenade-for-strings",
+        "holst-st-paul-s-suite",
+        "elgar-pomp-and-circumstance-march-no-3-in-c-minor",
+        "elgar-pomp-and-circumstance-march-no-4-in-g-major",
+        "schumann-symphony-no-4-in-d-minor",
+        "adams-the-chairman-dances-foxtrot-for-orchestra",
+        "shepherd-songs",
+        "bartok-concerto-for-orchestra",
+        "ives-the-unanswered-question",
+        "chausson-poeme",
+        "haydn-symphony-no-104-in-d-major-london",
+        "webern-langsamer-satz"
+      ]
+    },
+    {
+      "slug": "2019-2020",
+      "type": "season",
+      "path": "Seasons/2019-2020.md",
+      "title": "2019-2020",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "201911241500",
+        "201912151500",
+        "201912261900",
+        "202002231500"
+      ],
+      "workSlugs": [
+        "mozart-sinfonia-concertante-for-violin-and-viola",
+        "tchaikovsky-serenade-for-strings",
+        "prokofiev-peter-and-the-wolf",
+        "ellington-nutcracker-suite",
+        "tchaikovsky-the-nutcracker-suite",
+        "strauss-perpetuum-mobile",
+        "anderson-sleigh-ride",
+        "saint-saens-bacchanale-from-samson-and-delilah",
+        "beethoven-leonore-overture-no-3",
+        "marquez-danzon-no-4",
+        "tchaikovsky-suite-no-4-in-g-major-mozartiana",
+        "liszt-les-preludes",
+        "moncayo-huapango"
+      ]
+    },
+    {
+      "slug": "2020-2021",
+      "type": "season",
+      "path": "Seasons/2020-2021.md",
+      "title": "2020-2021",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "202105151500",
+        "202105161500"
+      ],
+      "workSlugs": [
+        "haydn-symphony-no-31-in-d-major",
+        "tchaikovsky-string-quartet-no-1-in-d-major",
+        "mozart-serenade-no-10-in-b-flat-major",
+        "vivaldi-concerto-for-strings-in-g-minor",
+        "tchaikovsky-serenade-for-strings",
+        "mozart-divertimento-in-f-major",
+        "still-danzas-de-panama",
+        "copland-rodeo"
+      ]
+    },
+    {
+      "slug": "2021-2022",
+      "type": "season",
+      "path": "Seasons/2021-2022.md",
+      "title": "2021-2022",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "202110241500",
+        "202111061900",
+        "202202201400",
+        "202203172030",
+        "202203201500",
+        "202205081500",
+        "202205141900",
+        "202205191930",
+        "202206121400",
+        "202207101700",
+        "202208061900",
+        "202208271900"
+      ],
+      "workSlugs": [
+        "brahms-academic-festival-overture",
+        "montgomery-strum",
+        "tchaikovsky-variations-on-a-rococo-theme",
+        "beethoven-symphony-no-5-in-c-minor",
+        "mozart-symphony-no-31",
+        "dvorak-symphony-no-7-in-d-minor",
+        "brahms-symphony-no-4-in-e-minor",
+        "glinka-ruslan-and-ludmila-overture",
+        "haydn-symphony-no-104-in-d-major-london",
+        "mozart-sinfonia-concertante-for-violin-and-viola",
+        "prokofiev-overture-on-hebrew-themes",
+        "prokofiev-violin-concerto-no-2-in-g-minor",
+        "tchaikovsky-symphony-no-4-in-f-minor",
+        "coleridge-taylor-scenes-from-the-song-of-hiawatha",
+        "bach-flute-concerto-in-a-major",
+        "griffes-poem-for-flute-and-orchestra",
+        "sibelius-symphony-no-2-in-d-major",
+        "yarmolinsky-the-consitution-a-secular-oratorio",
+        "copland-fanfare-for-the-common-man",
+        "copland-appalachian-spring",
+        "elgar-cello-concerto-in-e-minor",
+        "strauss-emperor-waltz",
+        "mahler-symphony-no-1",
+        "strauss-radetsky-march",
+        "mendelssohn-a-midsummer-night-s-dream",
+        "still-afro-american-symphony",
+        "strauss-the-blue-danube",
+        "gliere-russian-sailor-s-dance-from-the-red-poppy",
+        "williams-star-wars",
+        "sousa-stars-and-stripes-forever",
+        "rimsky-korsakov-snow-maiden-suite",
+        "delius-sleigh-ride",
+        "waldteufel-the-skater-s-waltz-les-patineurs",
+        "tchaikovsky-symphony-no-1-in-g-minor",
+        "sibelius-spring-song-v-rs-ng",
+        "richter-recomposed-the-four-seasons",
+        "respighi-the-pines-of-rome"
+      ]
+    },
+    {
+      "slug": "2022-2023",
+      "type": "season",
+      "path": "Seasons/2022-2023.md",
+      "title": "2022-2023",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "202210161500",
+        "202211051900",
+        "202211201500",
+        "202212181500",
+        "202302051500",
+        "202302261400",
+        "202303191500",
+        "202304161400",
+        "202305071500",
+        "202306111400",
+        "202307151230"
+      ],
+      "workSlugs": [
+        "bernstein-overture-to-candide",
+        "copland-lincoln-portrait",
+        "beethoven-symphony-no-8-in-f-major",
+        "dvorak-string-quartet-no-12-in-f-major-american",
+        "leshnoff-double-concerto-for-clarinet-bassoon",
+        "shostakovich-symphony-no-5",
+        "moncayo-huapango",
+        "rossini-overture-to-william-tell",
+        "grieg-peer-gynt-suite-no-1",
+        "tchaikovsky-the-nutcracker-suite",
+        "anderson-sleigh-ride",
+        "berlioz-roman-carnival-overture",
+        "bizet-carmen",
+        "saint-saens-bacchanale-from-samson-and-delilah",
+        "verdi-rigoletto",
+        "giordano-andrea-chenier",
+        "wagner-die-walk-re",
+        "puccini-tosca",
+        "wagner-lohengrin",
+        "barber-souvenirs",
+        "schumann-symphony-no-4-in-d-minor",
+        "mozart-piano-concerto-no-20-in-d-minor",
+        "tchaikovsky-romeo-juliet-fantasy-overture",
+        "enescu-romanian-rhapsody-no-1-in-a-major",
+        "sibelius-violin-concerto",
+        "sibelius-symphony-no-2-in-d-major",
+        "paganini-violin-concerto-no-1-in-d-major",
+        "brahms-symphony-no-2-in-d-major",
+        "lecuona-andalucia-suite",
+        "dvorak-symphony-no-8-in-g-major",
+        "beethoven-symphony-no-6-in-f-major",
+        "rossini-overture-to-the-barber-of-seville",
+        "mozart-horn-concerto-no-3-in-e-flat-major"
+      ]
+    },
+    {
+      "slug": "2023-2024",
+      "type": "season",
+      "path": "Seasons/2023-2024.md",
+      "title": "2023-2024",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "202310151500",
+        "202310291400",
+        "202311191500",
+        "202312101400",
+        "202312261930",
+        "202402041500",
+        "202402181400",
+        "202403241500",
+        "202404211400",
+        "202405051500"
+      ],
+      "workSlugs": [
+        "beethoven-leonore-overture-no-3",
+        "hindemith-symphonic-metamorphosis-of-themes-by-carl-maria-von-weber",
+        "brahms-symphony-no-1-in-c-minor",
+        "prokofiev-romeo-and-juliet",
+        "beethoven-symphony-no-7-in-a-major",
+        "barber-adagio-for-strings",
+        "mazzoli-these-worlds-in-us",
+        "dvorak-symphony-no-9-in-e-minor",
+        "rossini-overture-to-la-gazza-ladra",
+        "reinecke-flute-concerto-in-d-major",
+        "tchaikovsky-the-nutcracker-suite",
+        "williams-superman-march",
+        "price-the-oak",
+        "rubenstein-cello-concerto-no-2",
+        "prokofiev-symphony-no-5-in-b-flat-major",
+        "khachaturian-maskerade-suite",
+        "chavez-sinfonia-india-symphony-no-2",
+        "bizet-carmen-suite-no-1",
+        "bizet-carmen-suite-no-2",
+        "moncayo-huapango",
+        "vaughan-williams-norfolk-rhapsody-no-1-in-e-minor",
+        "rosauro-concerto-no-1-for-marimba-string-orchestra",
+        "debussy-la-mer",
+        "herrmann-psycho-a-suite-for-strings",
+        "badelt-pirates-of-the-caribbean",
+        "sibelius-andante-festivo",
+        "barber-violin-concerto",
+        "mendelssohn-symphony-no-3-in-a-minor-scottish"
+      ]
+    },
+    {
+      "slug": "2024-2025",
+      "type": "season",
+      "path": "Seasons/2024-2025.md",
+      "title": "2024-2025",
+      "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+      "frontmatter": {},
+      "concertSlugs": [
+        "202410061500",
+        "202410271400",
+        "202411171500",
+        "202412151400",
+        "202502231400"
+      ],
+      "workSlugs": [
+        "verdi-overture-to-nabucco",
+        "dvorak-symphony-no-8-in-g-major",
+        "saint-saens-violin-concerto-no-3-in-b-minor",
+        "beethoven-symphony-no-8-in-f-major",
+        "shostakovich-symphony-no-5",
+        "price-andante-cantabile-from-string-quartet-no-2",
+        "mozart-clarinet-concerto-in-a-major",
+        "sibelius-symphony-no-1-in-e-minor",
+        "elgar-in-the-south-alassio-concert-overture",
+        "mendelssohn-hebrides-overture-fingal-s-cave",
+        "mendelssohn-violin-concerto-in-e-minor",
+        "berko-condense-eternity",
+        "chevalier-de-saint-georges-overture-to-l-amant-anonyme",
+        "faure-pavane",
+        "sankey-carmen-fantasy-after-bizet",
+        "dvorak-symphony-no-7-in-d-minor"
+      ]
     }
   ]
 }

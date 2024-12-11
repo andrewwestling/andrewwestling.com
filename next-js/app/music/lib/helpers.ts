@@ -101,3 +101,13 @@ export function isUpcoming(date: string): boolean {
   today.setHours(0, 0, 0, 0);
   return concertDate >= today;
 }
+
+// Helper to sort seasons in descending order
+export function sortSeasons<T extends { title: string }>(seasons: T[]): T[] {
+  return [...seasons].sort((a, b) => {
+    // Extract the year from the season title (assuming format like "2023-2024")
+    const yearA = parseInt(a.title.split("-")[1] || a.title);
+    const yearB = parseInt(b.title.split("-")[1] || b.title);
+    return yearB - yearA; // Sort descending
+  });
+}

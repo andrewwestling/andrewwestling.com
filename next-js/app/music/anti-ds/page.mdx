@@ -8,6 +8,7 @@ import { Upcoming } from "@music/components/Upcoming";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import database from "@music/data/database";
 import { VenueStats } from "@music/components/VenueStats";
+import { SeasonListItem } from "@music/components/SeasonListItem";
 
 export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
@@ -80,11 +81,16 @@ export const Message = ({ children }) => (
 
 # Components
 
-- [ConcertListItem](#concertlistitem)
-- [DidNotPlay](#didnotplay)
-- [Upcoming](#upcoming)
-- [VenueMap](#venuemap)
-- [VenueStats](#venuestats)
+- List Items
+  - [ConcertListItem](#concertlistitem)
+  - [SeasonListItem](#seasonlistitem)
+- Badges
+  - [DidNotPlay](#didnotplay)
+  - [Upcoming](#upcoming)
+- Maps
+  - [VenueMap](#venuemap)
+- Stats
+  - [VenueStats](#venuestats)
 
 ---
 
@@ -119,6 +125,30 @@ This is used when listing concerts on a page.
         expanded
       />
     </div>
+  </div>
+</ComponentWrapper>
+
+## SeasonListItem
+
+This component displays a season with its title, number of concerts, and number of works.
+
+export const sampleSeason = {
+  slug: '2020-2021',
+  title: '2020-2021',
+  concertSlugs: ['202105151500',],
+  workSlugs: ['sibelius-symphony-no-1-in-e-minor'],
+};
+export const sampleSeasonNoConcerts = {
+  slug: '2000-2001',
+  title: '2000-2001',
+  concertSlugs: [],
+  workSlugs: [],
+};
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <SeasonListItem season={sampleSeason} />
+    <SeasonListItem season={sampleSeasonNoConcerts} />
   </div>
 </ComponentWrapper>
 

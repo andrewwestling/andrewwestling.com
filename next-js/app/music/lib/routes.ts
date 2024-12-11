@@ -26,4 +26,8 @@ export const routes = {
     index: () => `${BASE_PATH}/works`,
     show: (slug: string) => `${BASE_PATH}/works/${slug}`,
   },
+  seasons: {
+    index: () => `${BASE_PATH}/seasons`,
+    show: (slug: string) => `${BASE_PATH}/seasons/${slug}`,
+  },
 } as const;

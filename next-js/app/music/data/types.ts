@@ -15,4 +15,5 @@ export type VaultObjectType =
   | "rehearsal"
   | "sheet-music"
   | "venue"
-  | "work";
+  | "work"
+  | "season";

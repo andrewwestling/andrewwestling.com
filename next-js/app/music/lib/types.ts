@@ -77,6 +77,11 @@ export interface Composer extends BaseItem {
   concertCount: number;
 }
 
+export interface Season extends BaseItem {
+  concertSlugs: string[];
+  workSlugs: string[];
+}
+
 export interface Database {
   concert: Concert[];
   work: Work[];
@@ -86,6 +91,7 @@ export interface Database {
   venue: Venue[];
   rehearsal: BaseItem[];
   "sheet-music": BaseItem[];
+  season: Season[];
 }
 
 export type VaultObject = BaseItem;

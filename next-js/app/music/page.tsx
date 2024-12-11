@@ -1,9 +1,15 @@
 import Link from "next/link";
 import database from "@music/data/database";
-import { getDateFromFilename, isUpcoming } from "@music/lib/helpers";
+import {
+  getDateFromFilename,
+  isUpcoming,
+  sortSeasons,
+} from "@music/lib/helpers";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
-import { ConcertListItem } from "./components/ConcertListItem";
+import { ConcertListItem } from "@music/components/ConcertListItem";
+import { Season } from "@music/lib/types";
+import { SeasonListItem } from "@music/components/SeasonListItem";
 
 export default async function HomePage() {
   const locationMap = await getLocationsForVenues(database.venue);
@@ -272,6 +278,30 @@ export default async function HomePage() {
                   className="text-sm text-muted"
                 >
                   View all {database.venue.length} venues →
+                </Link>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Seasons */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">
+            <Link href={routes.seasons.index()}>Seasons</Link>
+          </h2>
+          <div className="grid gap-4">
+            {sortSeasons<Season>(database.season)
+              .slice(0, 5)
+              .map((season) => (
+                <SeasonListItem key={season.slug} season={season} />
+              ))}
+            {database.season.length > 5 && (
+              <div className="mt-2">
+                <Link
+                  href={routes.seasons.index()}
+                  className="text-sm text-muted"
+                >
+                  View all {database.season.length} seasons →
                 </Link>
               </div>
             )}
