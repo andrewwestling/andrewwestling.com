@@ -22,11 +22,18 @@ const icon = L.icon({
   shadowSize: [41, 41],
 });
 
-// Custom monochrome style URL from Stadia Maps
-const MONOCHROME_URL =
-  "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png";
-const ATTRIBUTION =
-  '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+// Get the API key from environment variables
+const STADIA_MAPS_API_KEY = process.env.NEXT_PUBLIC_STADIA_MAPS_API_KEY;
+
+// Custom monochrome style URL from Stadia Maps with API key
+const MONOCHROME_URL = STADIA_MAPS_API_KEY
+  ? `https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${STADIA_MAPS_API_KEY}`
+  : // Fallback to OpenStreetMap if no API key is present (for development only)
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+const ATTRIBUTION = STADIA_MAPS_API_KEY
+  ? '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+  : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
 // NYC County to Borough mapping
 const NYC_COUNTIES: Record<string, string> = {
@@ -47,6 +54,7 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
     .split(",")
     .map((coord) => parseFloat(coord.trim()));
   const [address, setAddress] = useState<string | null>(null);
+  const [mapError, setMapError] = useState<string | null>(null);
 
   useEffect(() => {
     // This is needed to fix the map container size after initial render
@@ -59,6 +67,13 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
       iconRetinaUrl: "/assets/leaflet/marker-icon-2x.png",
       shadowUrl: "/assets/leaflet/marker-shadow.png",
     });
+
+    // Show warning in development if API key is missing
+    if (process.env.NODE_ENV === "development" && !STADIA_MAPS_API_KEY) {
+      console.warn(
+        "Stadia Maps API key is not set. Using OpenStreetMap tiles as fallback."
+      );
+    }
 
     // Fetch address using reverse geocoding
     fetch(
@@ -109,6 +124,10 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
       });
   }, [lat, lng]);
 
+  if (mapError) {
+    return <div className="text-red-500">{mapError}</div>;
+  }
+
   return (
     <div className="grid gap-4">
       {address && (
@@ -140,6 +159,12 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
           </Marker>
         </MapContainer>
       </div>
+      {process.env.NODE_ENV === "development" && !STADIA_MAPS_API_KEY && (
+        <div className="text-amber-500 text-sm">
+          Note: Using OpenStreetMap tiles (development only). Set
+          NEXT_PUBLIC_STADIA_MAPS_API_KEY for production use.
+        </div>
+      )}
     </div>
   );
 }

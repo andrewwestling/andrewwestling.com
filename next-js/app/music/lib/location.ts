@@ -18,8 +18,23 @@ export async function getLocationFromCoordinates(
       .map((coord) => parseFloat(coord.trim()));
     const response = await fetch(
       `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lng}`,
-      { cache: "force-cache" } // Cache the response
+      {
+        cache: "force-cache", // Cache the response
+        headers: {
+          "User-Agent": "andrewwestling.com/2.0.0", // Required by Nominatim's usage policy
+          "Accept": "application/json"
+        }
+      }
     );
+
+    if (!response.ok) {
+      if (response.status === 429) {
+        console.warn("Rate limit exceeded for location service");
+        return null;
+      }
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
     const data = await response.json();
 
     if (data.address) {
