@@ -168,7 +168,13 @@ async function readVaultDirectory(
   return objects;
 }
 
-async function generateDatabase(vaultPath: string) {
+async function generateDatabase({
+  vaultPath,
+  includeDidNotPlay = false,
+}: {
+  vaultPath: string;
+  includeDidNotPlay?: boolean;
+}) {
   const database: Record<string, VaultObject[]> = {};
 
   const directories = [
@@ -185,7 +191,13 @@ async function generateDatabase(vaultPath: string) {
   for (const dir of directories) {
     const dirPath = path.join(vaultPath, dir.path);
     const objects = await readVaultDirectory(dirPath, dir.type, vaultPath);
-    database[dir.type] = objects;
+
+    // Filter out didNotPlay concerts if includeDidNotPlay is false
+    if (dir.type === "concert" && !includeDidNotPlay) {
+      database[dir.type] = objects.filter((obj) => !obj.frontmatter.didNotPlay);
+    } else {
+      database[dir.type] = objects;
+    }
   }
 
   // After loading all the files, before writing the database
@@ -260,12 +272,26 @@ async function generateDatabase(vaultPath: string) {
 
 // Allow running from command line
 if (require.main === module) {
-  const vaultPath = process.argv[2];
+  const args = process.argv.slice(2);
+  let vaultPath: string | undefined;
+  let includeDidNotPlay = false;
+
+  // Parse arguments
+  args.forEach((arg) => {
+    if (arg === "--include-dnp") {
+      includeDidNotPlay = true;
+    } else if (!vaultPath) {
+      vaultPath = arg;
+    }
+  });
+
   if (!vaultPath) {
     console.error("Please provide the vault path as an argument");
+    console.error("Usage: generate-database <vault-path> [--include-dnp]");
     process.exit(1);
   }
-  generateDatabase(vaultPath).catch(console.error);
+
+  generateDatabase({ vaultPath, includeDidNotPlay }).catch(console.error);
 }
 
 export { generateDatabase };
