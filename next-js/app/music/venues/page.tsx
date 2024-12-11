@@ -3,6 +3,7 @@ import database from "@music/data/database";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { VenueStats } from "@music/components/VenueStats";
 
 export default async function VenuesPage() {
   const locationMap = await getLocationsForVenues(database.venue);
@@ -31,16 +32,10 @@ export default async function VenuesPage() {
                     {venue.title}
                   </Link>
                 </h2>
-                <div className="text-muted text-sm">
-                  {location && <>{location}</>}
-                  {location && venue.concertCount > 0 && " • "}
-                  {venue.concertCount > 0 && (
-                    <>
-                      {venue.concertCount} concert
-                      {venue.concertCount !== 1 ? "s" : ""}
-                    </>
-                  )}
-                </div>
+                <VenueStats
+                  location={location}
+                  concertCount={venue.concertCount}
+                />
               </div>
 
               {venue.concertCount > 0 && (

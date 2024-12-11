@@ -3,15 +3,20 @@ import { PageProps } from "@music/lib/types";
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { getLocationsForVenues } from "../../lib/location";
+import { VenueStats } from "@music/components/VenueStats";
 
 // Import the map component dynamically to avoid SSR issues
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
 });
 
-export default function VenuePage({ params }: PageProps) {
+export default async function VenuePage({ params }: PageProps) {
   const venue = database.venue.find((v) => v.slug === params.slug);
   if (!venue) notFound();
+
+  const locationMap = await getLocationsForVenues(database.venue);
+  const location = locationMap[venue.slug];
 
   // Get all concerts at this venue, excluding didNotPlay ones
   const concerts = database.concert
@@ -25,15 +30,11 @@ export default function VenuePage({ params }: PageProps) {
     );
 
   return (
-    <div className="py-8">
-      <h1 className="text-4xl font-bold mb-8">
-        {venue.title}
-        {venue.concertCount > 0 && (
-          <span className="text-muted text-2xl ml-4">
-            ({venue.concertCount} concert{venue.concertCount !== 1 ? "s" : ""})
-          </span>
-        )}
-      </h1>
+    <div className="py-8 grid gap-8">
+      <div className="grid gap-4">
+        <h1 className="text-4xl font-bold mb-2">{venue.title}</h1>
+        <VenueStats location={location} concertCount={venue.concertCount} />
+      </div>
 
       <div className="grid gap-8">
         {/* Venue Details */}
@@ -44,10 +45,6 @@ export default function VenuePage({ params }: PageProps) {
               venueName={venue.title}
             />
           )}
-
-          {venue.content && (
-            <div className="prose dark:prose-invert mt-4">{venue.content}</div>
-          )}
         </section>
 
         {/* Concerts */}
@@ -55,12 +52,9 @@ export default function VenuePage({ params }: PageProps) {
           <section>
             <h2 className="text-2xl font-bold mb-4">Concerts</h2>
             <div className="grid gap-4">
-              {concerts.map((concert) => {
-                const group = database.group.find(
-                  (g) => g.title === concert.frontmatter.group
-                );
-                return <ConcertListItem key={concert.slug} concert={concert} />;
-              })}
+              {concerts.map((concert) => (
+                <ConcertListItem key={concert.slug} concert={concert} />
+              ))}
             </div>
           </section>
         )}

@@ -7,6 +7,7 @@ import dynamic from "next/dynamic";
 import { Upcoming } from "@music/components/Upcoming";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import database from "@music/data/database";
+import { VenueStats } from "@music/components/VenueStats";
 
 export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
@@ -83,6 +84,7 @@ export const Message = ({ children }) => (
 - [DidNotPlay](#didnotplay)
 - [Upcoming](#upcoming)
 - [VenueMap](#venuemap)
+- [VenueStats](#venuestats)
 
 ---
 
@@ -145,4 +147,25 @@ The VenueMap component displays an interactive map centered on a venue's locatio
     coordinates="40.765263912243164, -73.97990214578063"
     name="Carnegie Hall"
   />
+</ComponentWrapper>
+
+## VenueStats
+
+This component displays a venue's location and concert count in a consistent format.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <div>
+      <label className="text-xs text-muted">With location and concerts</label>
+      <VenueStats location="New York, NY" concertCount={5} />
+    </div>
+    <div>
+      <label className="text-xs text-muted">With location only</label>
+      <VenueStats location="New York, NY" concertCount={0} />
+    </div>
+    <div>
+      <label className="text-xs text-muted">With concerts only</label>
+      <VenueStats location={null} concertCount={3} />
+    </div>
+  </div>
 </ComponentWrapper>

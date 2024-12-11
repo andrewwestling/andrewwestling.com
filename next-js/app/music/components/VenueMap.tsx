@@ -135,11 +135,6 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
 
   return (
     <div className="grid gap-4">
-      {address && (
-        <div className="text-base text-muted">
-          <span className="font-medium">Address:</span> {address}
-        </div>
-      )}
       <div className="h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
         <MapContainer
           center={[lat, lng]}
@@ -164,6 +159,11 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
           </Marker>
         </MapContainer>
       </div>
+      {address && (
+        <div className="text-sm text-muted">
+          <span>{address}</span>
+        </div>
+      )}
     </div>
   );
 }
