@@ -1,6 +1,302 @@
 {
   "concert": [
     {
+      "slug": "200703021930",
+      "type": "concert",
+      "path": "Concerts/2007/200703021930 Concert - Metropolitan Youth Symphony (Spring Concert).md",
+      "title": "200703021930 Concert - Metropolitan Youth Symphony (Spring Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-03-02T19:30:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Sibelius - Symphony No. 1 in E Minor"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200706101500",
+      "type": "concert",
+      "path": "Concerts/2007/200706101500 Concert - Metropolitan Youth Symphony (Spring Concert).md",
+      "title": "200706101500 Concert - Metropolitan Youth Symphony (Spring Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-06-10T15:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Coates - Joyous Youth Suite",
+          "Elgar - Cello Concerto in E Minor",
+          "Sibelius - Finlandia"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200711301930",
+      "type": "concert",
+      "path": "Concerts/2007/200711301930 Concert - Metropolitan Youth Symphony (Festival of Lights).md",
+      "title": "200711301930 Concert - Metropolitan Youth Symphony (Festival of Lights)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-11-30T19:30:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Tchaikovsky - The Nutcracker Suite",
+          "Bruch - Hebrew Songs",
+          "Vaughan Williams - Fantasia on Christmas Carols"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200803071500",
+      "type": "concert",
+      "path": "Concerts/2008/200803071500 Concert - Metropolitan Youth Symphony (The Russians are Coming).md",
+      "title": "200803071500 Concert - Metropolitan Youth Symphony (The Russians are Coming)",
+      "content": "",
+      "frontmatter": {
+        "date": "2008-03-07T15:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Rimsky-Korsakov - Russian Easter Overture",
+          "Saint-Saens - Violin Concerto No. 3 in B Minor",
+          "Glazunov - The Seasons"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200806081500",
+      "type": "concert",
+      "path": "Concerts/2008/200806081500 Concert - Metropolitan Youth Symphony (From Hungary with Love).md",
+      "title": "200806081500 Concert - Metropolitan Youth Symphony (From Hungary with Love)",
+      "content": "",
+      "frontmatter": {
+        "date": "2008-06-08T15:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Liszt - Gaudeamus Igitur",
+          "Barber - Violin Concerto",
+          "Kodaly - Dances of Galanta"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200811081930",
+      "type": "concert",
+      "path": "Concerts/2008/200811081930 Concert - Portland Youth Philharmonic (Fall Concert).md",
+      "title": "200811081930 Concert - Portland Youth Philharmonic (Fall Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2008-11-08T19:30:00.000Z",
+        "group": "Portland Youth Philharmonic",
+        "works": [
+          "Barber - Music for a Scene from Shelley",
+          "Cowell - Ancient Desert Drone",
+          "Copland - Billy the Kid",
+          "Dvorak - Symphony No. 6 in D Major"
+        ],
+        "conductor": [
+          "David Hattner"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200903071930",
+      "type": "concert",
+      "path": "Concerts/2009/200903071930 Concert - Portland Youth Philharmonic (Winter Concert).md",
+      "title": "200903071930 Concert - Portland Youth Philharmonic (Winter Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2009-03-07T19:30:00.000Z",
+        "group": "Portland Youth Philharmonic",
+        "works": [
+          "Mussorgsky - Prelude to Khovantchina",
+          "Barber - Violin Concerto",
+          "Avshalomov - Seasons' Greetings",
+          "Tchaikovsky - Symphony No. 4 in F Minor"
+        ],
+        "conductor": [
+          "David Hattner"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200905021930",
+      "type": "concert",
+      "path": "Concerts/2009/200905021930 Concert - Portland Youth Philharmonic (Spring Concert).md",
+      "title": "200905021930 Concert - Portland Youth Philharmonic (Spring Concert)",
+      "content": "",
+      "frontmatter": {
+        "date": "2009-05-02T19:30:00.000Z",
+        "group": "Portland Youth Philharmonic",
+        "works": [
+          "Mozart - Overture to The Marriage of Figaro",
+          "Haydn - Symphony No. 60 in C Major, \"Il Distratto\"",
+          "Beethoven - Overture to Fidelio",
+          "Grieg - Peer Gynt Suite No. 2",
+          "Lutoslawski - Concerto for Orchestra",
+          "Elgar - Enigma Variations"
+        ],
+        "conductor": [
+          "David Hattner"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "200910251500",
+      "type": "concert",
+      "path": "Concerts/2009/200910251500 Concert - University of Oregon Symphony Orchestra.md",
+      "title": "200910251500 Concert - University of Oregon Symphony Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2009-10-25T15:00:00.000Z",
+        "group": "University of Oregon Symphony Orchestra",
+        "works": [
+          "Sibelius - Andante Festivo",
+          "Sibelius - Karelia Suite",
+          "Tchaikovsky - Sleeping Beauty"
+        ],
+        "conductor": [
+          "Wayne Bennett"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Beall Concert Hall, University of Oregon"
+      }
+    },
+    {
+      "slug": "200911221500",
+      "type": "concert",
+      "path": "Concerts/2009/200911221500 Concert - University of Oregon Symphony Orchestra.md",
+      "title": "200911221500 Concert - University of Oregon Symphony Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2009-11-22T15:00:00.000Z",
+        "group": "University of Oregon Symphony Orchestra",
+        "works": [
+          "Debussy - Petite Suite",
+          "Zaerr - Celtic Concerto for Harp",
+          "Bizet - Carmen Suite No. 1",
+          "Bizet - Carmen Suite No. 2"
+        ],
+        "conductor": [
+          "Wayne Bennett"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Beall Concert Hall, University of Oregon"
+      }
+    },
+    {
+      "slug": "201210281500",
+      "type": "concert",
+      "path": "Concerts/2012/201210281500 Concert - University of Oregon Symphony Orchestra.md",
+      "title": "201210281500 Concert - University of Oregon Symphony Orchestra",
+      "content": "",
+      "frontmatter": {
+        "date": "2012-10-28T15:00:00.000Z",
+        "group": "University of Oregon Symphony Orchestra",
+        "works": [
+          "Dvorak - Carnival Overture",
+          "Rogerson - Oaken Sky",
+          "Tchaikovsky - Symphony No. 5 in E Minor"
+        ],
+        "conductor": [
+          "David Jacobs"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Beall Concert Hall, University of Oregon"
+      }
+    },
+    {
+      "slug": "201211192000",
+      "type": "concert",
+      "path": "Concerts/2012/201211192000 Concert - University of Oregon Symphony Orchestra (Brahms, Mozart, Gershwin).md",
+      "title": "201211192000 Concert - University of Oregon Symphony Orchestra (Brahms, Mozart, Gershwin)",
+      "content": "",
+      "frontmatter": {
+        "date": "2012-11-19T20:00:00.000Z",
+        "group": "University of Oregon Symphony Orchestra",
+        "works": [
+          "Brahms - Tragic Overture",
+          "Mozart - Symphony No. 41, \"Jupiter\"",
+          "Gershwin - An American in Paris"
+        ],
+        "conductor": [
+          "David Jacobs"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Beall Concert Hall, University of Oregon"
+      }
+    },
+    {
+      "slug": "201212261930",
+      "type": "concert",
+      "path": "Concerts/2012/201212261930 Concert - Portland Youth Philharmonic Alumni Orchestra (2012 Concert-at-Christmas).md",
+      "title": "201212261930 Concert - Portland Youth Philharmonic Alumni Orchestra (2012 Concert-at-Christmas)",
+      "content": "",
+      "frontmatter": {
+        "date": "2012-12-26T19:30:00.000Z",
+        "group": "Portland Youth Philharmonic Alumni Orchestra",
+        "works": [
+          "Offenbach - Overture to La Belle Helene"
+        ],
+        "conductor": [
+          "David Hattner"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Arlene Schnitzer Concert Hall"
+      }
+    },
+    {
+      "slug": "201303101500",
+      "type": "concert",
+      "path": "Concerts/2013/201303101500 Concert - University of Oregon Symphony Orchestra (Beethoven, Ibert, Brahms).md",
+      "title": "201303101500 Concert - University of Oregon Symphony Orchestra (Beethoven, Ibert, Brahms)",
+      "content": "",
+      "frontmatter": {
+        "date": "2013-03-10T15:00:00.000Z",
+        "group": "University of Oregon Symphony Orchestra",
+        "works": [
+          "Beethoven - Leonore Overture No. 3",
+          "Ibert - Concertino da Camera",
+          "Brahms - Symphony No. 1 in C Minor"
+        ],
+        "conductor": [
+          "David Jacobs"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Beall Concert Hall, University of Oregon"
+      }
+    },
+    {
       "slug": "201812121900",
       "type": "concert",
       "path": "Concerts/2018/201812121900 Concert - New School Community Orchestra.md",
@@ -10,6 +306,7 @@
         "date": "2018-12-12T19:00:00.000Z",
         "group": "New School Community Orchestra",
         "works": [
+          "Brahms - Variations on a Theme by Haydn",
           "Dvorak - Symphony No. 8 in G Major"
         ],
         "conductor": [
@@ -200,8 +497,8 @@
     {
       "slug": "201912261900",
       "type": "concert",
-      "path": "Concerts/2019/201912261900 Concert - Portland Youth Philharmonic Alumni Orchestra (Concert-at-Christmas).md",
-      "title": "201912261900 Concert - Portland Youth Philharmonic Alumni Orchestra (Concert-at-Christmas)",
+      "path": "Concerts/2019/201912261900 Concert - Portland Youth Philharmonic Alumni Orchestra (2019 Concert-at-Christmas).md",
+      "title": "201912261900 Concert - Portland Youth Philharmonic Alumni Orchestra (2019 Concert-at-Christmas)",
       "content": "",
       "frontmatter": {
         "date": "2019-12-26T19:00:00.000Z",
@@ -389,28 +686,6 @@
       }
     },
     {
-      "slug": "202203261900",
-      "type": "concert",
-      "path": "Concerts/2022/202203261900 Concert - Boise Phil (Dance, Dance, Dance!).md",
-      "title": "202203261900 Concert - Boise Phil (Dance, Dance, Dance!)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-03-26T19:00:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": [
-          "Marquez - Danzon No. 2",
-          "Coleridge-Taylor - Scenes from The Song of Hiawatha",
-          "Shchedrin - Carmen Suite"
-        ],
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1CGaDaZYU152jBrj8y63gL?si=cdddee9c146143d9",
-        "venue": "Morrison Center",
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202205081500",
       "type": "concert",
       "path": "Concerts/2022/202205081500 Concert - GVO (\"Hope\").md",
@@ -423,7 +698,7 @@
           "Coleridge-Taylor - Scenes from The Song of Hiawatha",
           "Bach - Flute Concerto in A Major",
           "Griffes - Poem for Flute and Orchestra",
-          "Sibelius - Symphony No. 2"
+          "Sibelius - Symphony No. 2 in D Major"
         ],
         "conductor": [
           "Barbara Yahr",
@@ -474,22 +749,6 @@
       }
     },
     {
-      "slug": "202206031930",
-      "type": "concert",
-      "path": "Concerts/2022/202206031930 Concert - GVO (Chamber Concert).md",
-      "title": "202206031930 Concert - GVO (Chamber Concert)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-06-03T19:30:00.000Z",
-        "group": "Greenwich Village Orchestra",
-        "works": null,
-        "conductor": null,
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202206121400",
       "type": "concert",
       "path": "Concerts/2022/202206121400 Concert - BSO (Concert 5).md",
@@ -537,24 +796,6 @@
       }
     },
     {
-      "slug": "202207171400",
-      "type": "concert",
-      "path": "Concerts/2022/202207171400 Concert - BSO (Popup, Summer).md",
-      "title": "202207171400 Concert - BSO (Popup, Summer)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-07-17T14:00:00.000Z",
-        "group": "Brooklyn Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Nick Armstrong"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Brooklyn Museum",
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202208061900",
       "type": "concert",
       "path": "Concerts/2022/202208061900 Concert - Litha Symphony (3. Winter Daydreams).md",
@@ -574,24 +815,6 @@
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/19lylg066fWAYfxM47hx0i?si=b4fa461fd26748dc",
         "venue": "Church of the Holy Apostles"
-      }
-    },
-    {
-      "slug": "202208211400",
-      "type": "concert",
-      "path": "Concerts/2022/202208211400 Concert - BSO (Popup, Summer).md",
-      "title": "202208211400 Concert - BSO (Popup, Summer)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-08-21T14:00:00.000Z",
-        "group": "Brooklyn Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Nick Armstrong"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Brooklyn Museum",
-        "didNotPlay": true
       }
     },
     {
@@ -617,24 +840,6 @@
       }
     },
     {
-      "slug": "202210081300",
-      "type": "concert",
-      "path": "Concerts/2022/202210081300 Concert - Boise Phil (Musical Gems).md",
-      "title": "202210081300 Concert - Boise Phil (Musical Gems)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-10-08T13:00:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": null,
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Morrison Center",
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202210161500",
       "type": "concert",
       "path": "Concerts/2022/202210161500 Concert - GVO (\"Fellow Citizens...\").md",
@@ -656,24 +861,6 @@
       }
     },
     {
-      "slug": "202210301400",
-      "type": "concert",
-      "path": "Concerts/2022/202210301400 Concert - BSO (Concert 1).md",
-      "title": "202210301400 Concert - BSO (Concert 1)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-10-30T14:00:00.000Z",
-        "group": "Brooklyn Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Nick Armstrong"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Brooklyn Museum",
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202211051900",
       "type": "concert",
       "path": "Concerts/2022/202211051900 Concert - BACK Quartet (Dvorak American performance).md",
@@ -688,24 +875,6 @@
         "conductor": null,
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0YuXuI4MVRtaBJOrHJFxww?si=528ff95fdb8c4dce",
         "venue": null
-      }
-    },
-    {
-      "slug": "202211121300",
-      "type": "concert",
-      "path": "Concerts/2022/202211121300 Concert - Boise Phil (Rhapsody in Blue).md",
-      "title": "202211121300 Concert - Boise Phil (Rhapsody in Blue)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-11-12T13:00:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": null,
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Morrison Center",
-        "didNotPlay": true
       }
     },
     {
@@ -726,42 +895,6 @@
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6x0DaBMCjBEF3MSlPcK3jY?si=bc00085723dc4eef",
         "venue": null
-      }
-    },
-    {
-      "slug": "202212151900",
-      "type": "concert",
-      "path": "Concerts/2022/202212151900 Concert - Centre Symphony.md",
-      "title": "202212151900 Concert - Centre Symphony",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-12-15T19:00:00.000Z",
-        "group": "Centre Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Scott Jackson Wiley"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Broadway Presbyterian Church",
-        "didNotPlay": true
-      }
-    },
-    {
-      "slug": "202212181400",
-      "type": "concert",
-      "path": "Concerts/2022/202212181400 Concert - BSO (Concert 2).md",
-      "title": "202212181400 Concert - BSO (Concert 2)",
-      "content": "",
-      "frontmatter": {
-        "date": "2022-12-18T14:00:00.000Z",
-        "group": "Brooklyn Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Felipe Tristan"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "Brooklyn Museum",
-        "didNotPlay": true
       }
     },
     {
@@ -789,24 +922,6 @@
       }
     },
     {
-      "slug": "202301211300",
-      "type": "concert",
-      "path": "Concerts/2023/202301211300 Concert - Boise Phil (Bring on the Brahms).md",
-      "title": "202301211300 Concert - Boise Phil (Bring on the Brahms)",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-01-21T13:00:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": null,
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202302051500",
       "type": "concert",
       "path": "Concerts/2023/202302051500 Concert - GVO (Concert 4).md",
@@ -829,24 +944,6 @@
         ],
         "spotifyPlaylistUrl": null,
         "venue": "All Saints Church"
-      }
-    },
-    {
-      "slug": "202302251300",
-      "type": "concert",
-      "path": "Concerts/2023/202302251300 Concert - Boise Phil (Sorcerer's Apprentice).md",
-      "title": "202302251300 Concert - Boise Phil (Sorcerer's Apprentice)",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-02-25T13:00:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": null,
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
       }
     },
     {
@@ -894,42 +991,6 @@
       }
     },
     {
-      "slug": "202303301900",
-      "type": "concert",
-      "path": "Concerts/2023/202303301900 Concert - Centre Symphony.md",
-      "title": "202303301900 Concert - Centre Symphony",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-03-30T19:00:00.000Z",
-        "group": "Centre Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Scott Jackson Wiley"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
-      }
-    },
-    {
-      "slug": "202304011300",
-      "type": "concert",
-      "path": "Concerts/2023/202304011300 Concert - Boise Phil (Altered Landscape).md",
-      "title": "202304011300 Concert - Boise Phil (Altered Landscape)",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-04-01T13:00:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": null,
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202304161400",
       "type": "concert",
       "path": "Concerts/2023/202304161400 Concert - BSO (Concert 4).md",
@@ -941,7 +1002,7 @@
         "works": [
           "Grieg - Peer Gynt Suite No. 1",
           "Sibelius - Violin Concerto",
-          "Sibelius - Symphony No. 2"
+          "Sibelius - Symphony No. 2 in D Major"
         ],
         "conductor": [
           "David Bernard"
@@ -968,42 +1029,6 @@
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/62uy2RE5hiBrGOX76LJSdO?si=213bad7aa63c4180",
         "venue": "All Saints Church"
-      }
-    },
-    {
-      "slug": "202305201930",
-      "type": "concert",
-      "path": "Concerts/2023/202305201930 Concert - Boise Phil (A Sea of Sound - Mahler 5).md",
-      "title": "202305201930 Concert - Boise Phil (A Sea of Sound - Mahler 5)",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-05-20T19:30:00.000Z",
-        "group": "Boise Philharmonic",
-        "works": null,
-        "conductor": [
-          "Eric Garcia"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
-      }
-    },
-    {
-      "slug": "202305251900",
-      "type": "concert",
-      "path": "Concerts/2023/202305251900 Concert - Centre Symphony.md",
-      "title": "202305251900 Concert - Centre Symphony",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-05-25T19:00:00.000Z",
-        "group": "Centre Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Scott Jackson Wiley"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
       }
     },
     {
@@ -1129,24 +1154,6 @@
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/23UAYXzZcKMG5rAVwSFtMJ?si=0b1cde5a40774d2e",
         "venue": "Brooklyn Museum"
-      }
-    },
-    {
-      "slug": "202312101500",
-      "type": "concert",
-      "path": "Concerts/2023/202312101500 Concert - GVO (Concert 3 - \"Together in Music\").md",
-      "title": "202312101500 Concert - GVO (Concert 3 - \"Together in Music\")",
-      "content": "",
-      "frontmatter": {
-        "date": "2023-12-10T15:00:00.000Z",
-        "group": "Greenwich Village Orchestra",
-        "works": null,
-        "conductor": [
-          "Barbara Yahr"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": "High School of Fashion Industries",
-        "didNotPlay": true
       }
     },
     {
@@ -1277,24 +1284,6 @@
       }
     },
     {
-      "slug": "202406091400",
-      "type": "concert",
-      "path": "Concerts/2024/202406091400 Concert - BSO (Concert 5 - Nick Armstrong).md",
-      "title": "202406091400 Concert - BSO (Concert 5 - Nick Armstrong)",
-      "content": "",
-      "frontmatter": {
-        "date": "2024-06-09T14:00:00.000Z",
-        "group": "Brooklyn Symphony Orchestra",
-        "works": null,
-        "conductor": [
-          "Nick Armstrong"
-        ],
-        "spotifyPlaylistUrl": null,
-        "venue": null,
-        "didNotPlay": true
-      }
-    },
-    {
       "slug": "202410061500",
       "type": "concert",
       "path": "Concerts/2024/202410061500 Concert - Greenwich Village Orchestra (Originals).md",
@@ -1421,6 +1410,15 @@
       "concertCount": 2
     },
     {
+      "slug": "avshalomov-jacob",
+      "type": "composer",
+      "path": "Composers/Avshalomov, Jacob.md",
+      "title": "Avshalomov, Jacob",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
       "slug": "bach-carl-philipp-emanuel",
       "type": "composer",
       "path": "Composers/Bach, Carl Philipp Emanuel.md",
@@ -1454,7 +1452,7 @@
       "title": "Barber, Samuel",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 3
+      "concertCount": 6
     },
     {
       "slug": "bartok-bela",
@@ -1481,7 +1479,7 @@
       "title": "Beethoven, Ludwig van",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 8
+      "concertCount": 10
     },
     {
       "slug": "berko-alex",
@@ -1517,7 +1515,7 @@
       "title": "Bizet, Georges",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 2
+      "concertCount": 3
     },
     {
       "slug": "brahms-johannes",
@@ -1526,7 +1524,7 @@
       "title": "Brahms, Johannes",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 6
+      "concertCount": 9
     },
     {
       "slug": "bridge-frank",
@@ -1545,6 +1543,15 @@
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 0
+    },
+    {
+      "slug": "bruch-max",
+      "type": "composer",
+      "path": "Composers/Bruch, Max.md",
+      "title": "Bruch, Max",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "chausson-ernest",
@@ -1574,6 +1581,15 @@
       "concertCount": 1
     },
     {
+      "slug": "coates-eric",
+      "type": "composer",
+      "path": "Composers/Coates, Eric.md",
+      "title": "Coates, Eric",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
       "slug": "coleridge-taylor-samuel",
       "type": "composer",
       "path": "Composers/Coleridge-Taylor, Samuel.md",
@@ -1589,7 +1605,16 @@
       "title": "Copland, Aaron",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 4
+      "concertCount": 5
+    },
+    {
+      "slug": "cowell-henry",
+      "type": "composer",
+      "path": "Composers/Cowell, Henry.md",
+      "title": "Cowell, Henry",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "debussy-claude",
@@ -1598,7 +1623,7 @@
       "title": "Debussy, Claude",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "delius-frederick",
@@ -1616,7 +1641,7 @@
       "title": "Dvorak, Antonin",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 7
+      "concertCount": 9
     },
     {
       "slug": "elgar-edward",
@@ -1625,7 +1650,7 @@
       "title": "Elgar, Edward",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 4
+      "concertCount": 6
     },
     {
       "slug": "ellington-duke",
@@ -1661,7 +1686,7 @@
       "title": "Gershwin, George",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 0
+      "concertCount": 1
     },
     {
       "slug": "giordano-umberto",
@@ -1680,6 +1705,15 @@
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 0
+    },
+    {
+      "slug": "glazunov-alexander",
+      "type": "composer",
+      "path": "Composers/Glazunov, Alexander.md",
+      "title": "Glazunov, Alexander",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "gliere-reinhold",
@@ -1706,7 +1740,7 @@
       "title": "Grieg, Edvard",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 2
+      "concertCount": 3
     },
     {
       "slug": "griffes-charles",
@@ -1724,7 +1758,7 @@
       "title": "Haydn, Joseph",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 3
+      "concertCount": 4
     },
     {
       "slug": "herrmann-bernard",
@@ -1763,6 +1797,15 @@
       "concertCount": 1
     },
     {
+      "slug": "ibert-jacques",
+      "type": "composer",
+      "path": "Composers/Ibert, Jacques.md",
+      "title": "Ibert, Jacques",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
       "slug": "ives-charles",
       "type": "composer",
       "path": "Composers/Ives, Charles.md",
@@ -1772,10 +1815,28 @@
       "concertCount": 1
     },
     {
+      "slug": "janacek-leos",
+      "type": "composer",
+      "path": "Composers/Janacek, Leos.md",
+      "title": "Janacek, Leos",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 0
+    },
+    {
       "slug": "khachaturian-aram",
       "type": "composer",
       "path": "Composers/Khachaturian, Aram.md",
       "title": "Khachaturian, Aram",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
+      "slug": "kodaly-zoltan",
+      "type": "composer",
+      "path": "Composers/Kodaly, Zoltan.md",
+      "title": "Kodaly, Zoltan",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 1
@@ -1805,7 +1866,7 @@
       "title": "Liszt, Franz",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "lully-jean-baptiste",
@@ -1815,6 +1876,15 @@
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 0
+    },
+    {
+      "slug": "lutoslawski-witold",
+      "type": "composer",
+      "path": "Composers/Lutoslawski, Witold.md",
+      "title": "Lutoslawski, Witold",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "mahler-gustav",
@@ -1877,13 +1947,31 @@
       "title": "Mozart, Wolfgang Amadeus",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 9
+      "concertCount": 11
+    },
+    {
+      "slug": "mussorgsky-modest",
+      "type": "composer",
+      "path": "Composers/Mussorgsky, Modest.md",
+      "title": "Mussorgsky, Modest",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
     },
     {
       "slug": "nielsen-carl",
       "type": "composer",
       "path": "Composers/Nielsen, Carl.md",
       "title": "Nielsen, Carl",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
+      "slug": "offenbach-jacques",
+      "type": "composer",
+      "path": "Composers/Offenbach, Jacques.md",
+      "title": "Offenbach, Jacques",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 1
@@ -1967,6 +2055,15 @@
       "title": "Rimsky-Korsakov, Nikolai",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
+      "concertCount": 2
+    },
+    {
+      "slug": "rogerson-chris",
+      "type": "composer",
+      "path": "Composers/Rogerson, Chris.md",
+      "title": "Rogerson, Chris",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
       "concertCount": 1
     },
     {
@@ -2012,7 +2109,7 @@
       "title": "Saint-Saens, Camille",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 3
+      "concertCount": 4
     },
     {
       "slug": "sankey-stuart",
@@ -2066,7 +2163,7 @@
       "title": "Sibelius, Jean",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 5
+      "concertCount": 8
     },
     {
       "slug": "sousa-john-philip",
@@ -2111,7 +2208,7 @@
       "title": "Tchaikovsky, Piotr Ilyich",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 13
+      "concertCount": 17
     },
     {
       "slug": "vaughan-williams-ralph",
@@ -2120,7 +2217,7 @@
       "title": "Vaughan Williams, Ralph",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 2
+      "concertCount": 3
     },
     {
       "slug": "verdi-giuseppe",
@@ -2190,6 +2287,15 @@
       "type": "composer",
       "path": "Composers/Yarmolinsky, Benjamin.md",
       "title": "Yarmolinsky, Benjamin",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
+      "slug": "zaerr-laura",
+      "type": "composer",
+      "path": "Composers/Zaerr, Laura.md",
+      "title": "Zaerr, Laura",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 1
@@ -2266,7 +2372,7 @@
       "title": "David Hattner",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 2
+      "concertCount": 6
     },
     {
       "slug": "david-jacobs",
@@ -2275,7 +2381,7 @@
       "title": "David Jacobs",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 0
+      "concertCount": 3
     },
     {
       "slug": "eli-spindel",
@@ -2341,6 +2447,15 @@
       "concertCount": 1
     },
     {
+      "slug": "lajos-balogh",
+      "type": "conductor",
+      "path": "Conductors/Lajos Balogh.md",
+      "title": "Lajos Balogh",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 5
+    },
+    {
       "slug": "nick-armstrong",
       "type": "conductor",
       "path": "Conductors/Nick Armstrong.md",
@@ -2363,6 +2478,15 @@
       "type": "conductor",
       "path": "Conductors/Scott Jackson Wiley.md",
       "title": "Scott Jackson Wiley",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 2
+    },
+    {
+      "slug": "wayne-bennett",
+      "type": "conductor",
+      "path": "Conductors/Wayne Bennett.md",
+      "title": "Wayne Bennett",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 2
@@ -2499,7 +2623,7 @@
         "location": "Portland, Oregon",
         "slug": "mys"
       },
-      "concertCount": 0
+      "concertCount": 5
     },
     {
       "slug": "new-school",
@@ -2523,7 +2647,7 @@
         "location": "Portland, Oregon",
         "slug": "pyp-alumni"
       },
-      "concertCount": 2
+      "concertCount": 3
     },
     {
       "slug": "pyp",
@@ -2535,7 +2659,7 @@
         "location": "Portland, Oregon",
         "slug": "pyp"
       },
-      "concertCount": 0
+      "concertCount": 3
     },
     {
       "slug": "uo-symphony",
@@ -2547,7 +2671,7 @@
         "location": "Eugene, Oregon",
         "slug": "uo-symphony"
       },
-      "concertCount": 0
+      "concertCount": 5
     }
   ],
   "rehearsal": [],
@@ -2573,7 +2697,18 @@
       "frontmatter": {
         "coordinates": "45.517072894870246, -122.68115749999998"
       },
-      "concertCount": 2
+      "concertCount": 11
+    },
+    {
+      "slug": "beall-concert-hall-university-of-oregon",
+      "type": "venue",
+      "path": "Venues/Beall Concert Hall, University of Oregon.md",
+      "title": "Beall Concert Hall, University of Oregon",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "44.04060627229427, -123.07840933069025"
+      },
+      "concertCount": 5
     },
     {
       "slug": "broadway-presbyterian-church",
@@ -2754,6 +2889,17 @@
       "concertCount": 2
     },
     {
+      "slug": "avshalomov-seasons-greetings",
+      "type": "work",
+      "path": "Works/Avshalomov - Seasons' Greetings.md",
+      "title": "Avshalomov - Seasons' Greetings",
+      "content": "",
+      "frontmatter": {
+        "composer": "Avshalomov, Jacob"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "bach-flute-concerto-in-a-major",
       "type": "work",
       "path": "Works/Bach - Flute Concerto in A Major.md",
@@ -2787,6 +2933,17 @@
       "concertCount": 1
     },
     {
+      "slug": "barber-music-for-a-scene-from-shelley",
+      "type": "work",
+      "path": "Works/Barber - Music for a Scene from Shelley.md",
+      "title": "Barber - Music for a Scene from Shelley",
+      "content": "",
+      "frontmatter": {
+        "composer": "Barber, Samuel"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "barber-souvenirs",
       "type": "work",
       "path": "Works/Barber - Souvenirs.md",
@@ -2806,7 +2963,7 @@
       "frontmatter": {
         "composer": "Barber, Samuel"
       },
-      "concertCount": 1
+      "concertCount": 3
     },
     {
       "slug": "bartok-concerto-for-orchestra",
@@ -2828,7 +2985,18 @@
       "frontmatter": {
         "composer": "Beethoven, Ludwig van"
       },
-      "concertCount": 2
+      "concertCount": 3
+    },
+    {
+      "slug": "beethoven-overture-to-fidelio",
+      "type": "work",
+      "path": "Works/Beethoven - Overture to Fidelio.md",
+      "title": "Beethoven - Overture to Fidelio",
+      "content": "Op. 72b",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van"
+      },
+      "concertCount": 1
     },
     {
       "slug": "beethoven-symphony-no-5-in-c-minor",
@@ -2916,7 +3084,7 @@
       "frontmatter": {
         "composer": "Bizet, Georges"
       },
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "bizet-carmen-suite-no-2",
@@ -2927,7 +3095,7 @@
       "frontmatter": {
         "composer": "Bizet, Georges"
       },
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "bizet-carmen",
@@ -2960,7 +3128,7 @@
       "frontmatter": {
         "composer": "Brahms, Johannes"
       },
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "brahms-symphony-no-2-in-d-major",
@@ -2992,6 +3160,50 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "brahms-tragic-overture",
+      "type": "work",
+      "path": "Works/Brahms - Tragic Overture.md",
+      "title": "Brahms - Tragic Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "brahms-variations-on-a-theme-by-haydn",
+      "type": "work",
+      "path": "Works/Brahms - Variations on a Theme by Haydn.md",
+      "title": "Brahms - Variations on a Theme by Haydn",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "britten-simple-symphony",
+      "type": "work",
+      "path": "Works/Britten - Simple Symphony.md",
+      "title": "Britten - Simple Symphony",
+      "content": "",
+      "frontmatter": {
+        "composer": "Britten, Benjamin"
+      },
+      "concertCount": 0
+    },
+    {
+      "slug": "bruch-hebrew-songs",
+      "type": "work",
+      "path": "Works/Bruch - Hebrew Songs.md",
+      "title": "Bruch - Hebrew Songs",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bruch, Max"
       },
       "concertCount": 1
     },
@@ -3029,6 +3241,17 @@
       "concertCount": 1
     },
     {
+      "slug": "coates-joyous-youth-suite",
+      "type": "work",
+      "path": "Works/Coates - Joyous Youth Suite.md",
+      "title": "Coates - Joyous Youth Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Coates, Eric"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "coleridge-taylor-scenes-from-the-song-of-hiawatha",
       "type": "work",
       "path": "Works/Coleridge-Taylor - Scenes from The Song of Hiawatha.md",
@@ -3049,6 +3272,17 @@
         "composer": "Copland, Aaron"
       },
       "concertCount": 2
+    },
+    {
+      "slug": "copland-billy-the-kid",
+      "type": "work",
+      "path": "Works/Copland - Billy the Kid.md",
+      "title": "Copland - Billy the Kid",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron"
+      },
+      "concertCount": 1
     },
     {
       "slug": "copland-fanfare-for-the-common-man",
@@ -3084,6 +3318,17 @@
       "concertCount": 1
     },
     {
+      "slug": "cowell-ancient-desert-drone",
+      "type": "work",
+      "path": "Works/Cowell - Ancient Desert Drone.md",
+      "title": "Cowell - Ancient Desert Drone",
+      "content": "",
+      "frontmatter": {
+        "composer": "Cowell, Henry"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "debussy-la-mer",
       "type": "work",
       "path": "Works/Debussy - La Mer.md",
@@ -3103,7 +3348,7 @@
       "frontmatter": {
         "composer": "Debussy, Claude"
       },
-      "concertCount": 0
+      "concertCount": 1
     },
     {
       "slug": "delius-sleigh-ride",
@@ -3113,6 +3358,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Delius, Frederick"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "dvorak-carnival-overture",
+      "type": "work",
+      "path": "Works/Dvorak - Carnival Overture.md",
+      "title": "Dvorak - Carnival Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin"
       },
       "concertCount": 1
     },
@@ -3136,7 +3392,7 @@
       "frontmatter": {
         "composer": "Dvorak, Antonin"
       },
-      "concertCount": 0
+      "concertCount": 1
     },
     {
       "slug": "dvorak-symphony-no-7-in-d-minor",
@@ -3176,6 +3432,17 @@
       "type": "work",
       "path": "Works/Elgar - Cello Concerto in E Minor.md",
       "title": "Elgar - Cello Concerto in E Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward"
+      },
+      "concertCount": 2
+    },
+    {
+      "slug": "elgar-enigma-variations",
+      "type": "work",
+      "path": "Works/Elgar - Enigma Variations.md",
+      "title": "Elgar - Enigma Variations",
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward"
@@ -3268,7 +3535,7 @@
       "frontmatter": {
         "composer": "Gershwin, George"
       },
-      "concertCount": 0
+      "concertCount": 1
     },
     {
       "slug": "giordano-andrea-chenier",
@@ -3278,6 +3545,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Giordano, Umberto"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "glazunov-the-seasons",
+      "type": "work",
+      "path": "Works/Glazunov - The Seasons.md",
+      "title": "Glazunov - The Seasons",
+      "content": "",
+      "frontmatter": {
+        "composer": "Glazunov, Alexander"
       },
       "concertCount": 1
     },
@@ -3315,6 +3593,17 @@
       "concertCount": 2
     },
     {
+      "slug": "grieg-peer-gynt-suite-no-2",
+      "type": "work",
+      "path": "Works/Grieg - Peer Gynt Suite No. 2.md",
+      "title": "Grieg - Peer Gynt Suite No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Grieg, Edvard"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "griffes-poem-for-flute-and-orchestra",
       "type": "work",
       "path": "Works/Griffes - Poem for Flute and Orchestra.md",
@@ -3341,6 +3630,17 @@
       "type": "work",
       "path": "Works/Haydn - Symphony No. 31 in D Major.md",
       "title": "Haydn - Symphony No. 31 in D Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Haydn, Joseph"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "haydn-symphony-no-60-in-c-major-il-distratto",
+      "type": "work",
+      "path": "Works/Haydn - Symphony No. 60 in C Major, \"Il Distratto\".md",
+      "title": "Haydn - Symphony No. 60 in C Major, \"Il Distratto\"",
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph"
@@ -3381,6 +3681,17 @@
       "concertCount": 1
     },
     {
+      "slug": "ibert-concertino-da-camera",
+      "type": "work",
+      "path": "Works/Ibert - Concertino da Camera.md",
+      "title": "Ibert - Concertino da Camera",
+      "content": "",
+      "frontmatter": {
+        "composer": "Ibert, Jacques"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "ives-the-unanswered-question",
       "type": "work",
       "path": "Works/Ives - The Unanswered Question.md",
@@ -3392,6 +3703,17 @@
       "concertCount": 1
     },
     {
+      "slug": "janacek-sinfonietta",
+      "type": "work",
+      "path": "Works/Janacek - Sinfonietta.md",
+      "title": "Janacek - Sinfonietta",
+      "content": "",
+      "frontmatter": {
+        "composer": "Janacek, Leos"
+      },
+      "concertCount": 0
+    },
+    {
       "slug": "khachaturian-maskerade-suite",
       "type": "work",
       "path": "Works/Khachaturian - Maskerade Suite.md",
@@ -3399,6 +3721,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Khachaturian, Aram"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "kodaly-dances-of-galanta",
+      "type": "work",
+      "path": "Works/Kodaly - Dances of Galanta.md",
+      "title": "Kodaly - Dances of Galanta",
+      "content": "",
+      "frontmatter": {
+        "composer": "Kodaly, Zoltan"
       },
       "concertCount": 1
     },
@@ -3425,6 +3758,17 @@
       "concertCount": 1
     },
     {
+      "slug": "liszt-gaudeamus-igitur",
+      "type": "work",
+      "path": "Works/Liszt - Gaudeamus Igitur.md",
+      "title": "Liszt - Gaudeamus Igitur",
+      "content": "",
+      "frontmatter": {
+        "composer": "Liszt, Franz"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "liszt-les-preludes",
       "type": "work",
       "path": "Works/Liszt - Les Preludes.md",
@@ -3432,6 +3776,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Liszt, Franz"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "lutoslawski-concerto-for-orchestra",
+      "type": "work",
+      "path": "Works/Lutoslawski - Concerto for Orchestra.md",
+      "title": "Lutoslawski - Concerto for Orchestra",
+      "content": "",
+      "frontmatter": {
+        "composer": "Lutoslawski, Witold"
       },
       "concertCount": 1
     },
@@ -3579,6 +3934,17 @@
       "concertCount": 1
     },
     {
+      "slug": "mozart-overture-to-the-marriage-of-figaro",
+      "type": "work",
+      "path": "Works/Mozart - Overture to The Marriage of Figaro.md",
+      "title": "Mozart - Overture to The Marriage of Figaro",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "mozart-piano-concerto-no-20-in-d-minor",
       "type": "work",
       "path": "Works/Mozart - Piano Concerto No. 20 in D Minor.md",
@@ -3623,6 +3989,28 @@
       "concertCount": 1
     },
     {
+      "slug": "mozart-symphony-no-41-jupiter",
+      "type": "work",
+      "path": "Works/Mozart - Symphony No. 41, \"Jupiter\".md",
+      "title": "Mozart - Symphony No. 41, \"Jupiter\"",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "mussorgsky-prelude-to-khovantchina",
+      "type": "work",
+      "path": "Works/Mussorgsky - Prelude to Khovantchina.md",
+      "title": "Mussorgsky - Prelude to Khovantchina",
+      "content": "",
+      "frontmatter": {
+        "composer": "Mussorgsky, Modest"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "nielsen-flute-concerto",
       "type": "work",
       "path": "Works/Nielsen - Flute Concerto.md",
@@ -3630,6 +4018,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Nielsen, Carl"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "offenbach-overture-to-la-belle-helene",
+      "type": "work",
+      "path": "Works/Offenbach - Overture to La Belle Helene.md",
+      "title": "Offenbach - Overture to La Belle Helene",
+      "content": "",
+      "frontmatter": {
+        "composer": "Offenbach, Jacques"
       },
       "concertCount": 1
     },
@@ -3766,6 +4165,17 @@
       "concertCount": 1
     },
     {
+      "slug": "rimsky-korsakov-russian-easter-overture",
+      "type": "work",
+      "path": "Works/Rimsky-Korsakov - Russian Easter Overture.md",
+      "title": "Rimsky-Korsakov - Russian Easter Overture",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rimsky-Korsakov, Nikolai"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "rimsky-korsakov-snow-maiden-suite",
       "type": "work",
       "path": "Works/Rimsky-Korsakov - Snow Maiden Suite.md",
@@ -3773,6 +4183,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "rogerson-oaken-sky",
+      "type": "work",
+      "path": "Works/Rogerson - Oaken Sky.md",
+      "title": "Rogerson - Oaken Sky",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rogerson, Chris"
       },
       "concertCount": 1
     },
@@ -3851,7 +4272,7 @@
       "frontmatter": {
         "composer": "Saint-Saens, Camille"
       },
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "sankey-carmen-fantasy-after-bizet",
@@ -3917,6 +4338,28 @@
       "frontmatter": {
         "composer": "Sibelius, Jean"
       },
+      "concertCount": 2
+    },
+    {
+      "slug": "sibelius-finlandia",
+      "type": "work",
+      "path": "Works/Sibelius - Finlandia.md",
+      "title": "Sibelius - Finlandia",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "sibelius-karelia-suite",
+      "type": "work",
+      "path": "Works/Sibelius - Karelia Suite.md",
+      "title": "Sibelius - Karelia Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean"
+      },
       "concertCount": 1
     },
     {
@@ -3939,13 +4382,13 @@
       "frontmatter": {
         "composer": "Sibelius, Jean"
       },
-      "concertCount": 1
+      "concertCount": 2
     },
     {
-      "slug": "sibelius-symphony-no-2",
+      "slug": "sibelius-symphony-no-2-in-d-major",
       "type": "work",
-      "path": "Works/Sibelius - Symphony No. 2.md",
-      "title": "Sibelius - Symphony No. 2",
+      "path": "Works/Sibelius - Symphony No. 2 in D Major.md",
+      "title": "Sibelius - Symphony No. 2 in D Major",
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean"
@@ -4063,6 +4506,17 @@
       "concertCount": 2
     },
     {
+      "slug": "tchaikovsky-sleeping-beauty",
+      "type": "work",
+      "path": "Works/Tchaikovsky - Sleeping Beauty.md",
+      "title": "Tchaikovsky - Sleeping Beauty",
+      "content": "",
+      "frontmatter": {
+        "composer": "Tchaikovsky, Piotr Ilyich"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "tchaikovsky-string-quartet-no-1-in-d-major",
       "type": "work",
       "path": "Works/Tchaikovsky - String Quartet No. 1 in D Major.md",
@@ -4115,7 +4569,7 @@
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
       },
-      "concertCount": 2
+      "concertCount": 3
     },
     {
       "slug": "tchaikovsky-symphony-no-5-in-e-minor",
@@ -4126,7 +4580,7 @@
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
       },
-      "concertCount": 0
+      "concertCount": 1
     },
     {
       "slug": "tchaikovsky-the-nutcracker-suite",
@@ -4137,7 +4591,7 @@
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
       },
-      "concertCount": 3
+      "concertCount": 4
     },
     {
       "slug": "tchaikovsky-variations-on-a-rococo-theme",
@@ -4147,6 +4601,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "vaughan-williams-fantasia-on-christmas-carols",
+      "type": "work",
+      "path": "Works/Vaughan Williams - Fantasia on Christmas Carols.md",
+      "title": "Vaughan Williams - Fantasia on Christmas Carols",
+      "content": "",
+      "frontmatter": {
+        "composer": "Vaughan Williams, Ralph"
       },
       "concertCount": 1
     },
@@ -4290,6 +4755,17 @@
       "content": "",
       "frontmatter": {
         "composer": "Yarmolinsky, Benjamin"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "zaerr-celtic-concerto-for-harp",
+      "type": "work",
+      "path": "Works/Zaerr - Celtic Concerto for Harp.md",
+      "title": "Zaerr - Celtic Concerto for Harp",
+      "content": "",
+      "frontmatter": {
+        "composer": "Zaerr, Laura"
       },
       "concertCount": 1
     }
