@@ -129,6 +129,22 @@ export default async function ConcertPage({ params }: PageProps) {
           </ul>
         </div>
       )}
+
+      {concert.frontmatter.spotifyPlaylistUrl && (
+        <div className="mt-6">
+          <h2 className="text-lg font-semibold mb-2">Listen</h2>
+          <iframe
+            src={concert.frontmatter.spotifyPlaylistUrl.replace(
+              "spotify.com/playlist",
+              "spotify.com/embed/playlist"
+            )}
+            width="100%"
+            height="400"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          />
+        </div>
+      )}
     </article>
   );
 }
