@@ -20,7 +20,22 @@ export default async function ConcertsPage({
   }
 
   if (searchParams.season) {
-    const season = database.season.find((s) => s.slug === searchParams.season);
+    let seasonSlug = searchParams.season;
+    // Handle "current" season in the URL
+    if (seasonSlug === "current") {
+      const currentYear = new Date().getFullYear();
+      const month = new Date().getMonth();
+      const year = month < 8 ? currentYear - 1 : currentYear;
+      const expectedSeasonTitle = `${year}-${year + 1}`;
+      const currentSeason = database.season.find(
+        (s) => s.title === expectedSeasonTitle
+      );
+      if (currentSeason) {
+        seasonSlug = currentSeason.slug;
+      }
+    }
+
+    const season = database.season.find((s) => s.slug === seasonSlug);
     if (season) {
       concerts = concerts.filter(
         (concert) => concert.frontmatter.season === season.title

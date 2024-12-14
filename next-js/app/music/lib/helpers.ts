@@ -111,3 +111,31 @@ export function sortSeasons<T extends { title: string }>(seasons: T[]): T[] {
     return yearB - yearA; // Sort descending
   });
 }
+
+export function getCurrentSeasonYear(): number {
+  const now = new Date();
+  const year = now.getFullYear();
+  // If we're before September, we're in the previous year's season
+  if (now.getMonth() < 8) {
+    // JavaScript months are 0-based, so 8 is September
+    return year - 1;
+  }
+  return year;
+}
+
+export function getCurrentSeasonSlug(seasons: any[]): string | null {
+  const currentYear = getCurrentSeasonYear();
+  const expectedSeasonTitle = `${currentYear}-${currentYear + 1}`;
+  const currentSeason = seasons.find((s) => s.title === expectedSeasonTitle);
+  return currentSeason?.slug || null;
+}
+
+export function resolveSeasonSlug(
+  seasonSlug: string,
+  seasons: any[]
+): string | null {
+  if (seasonSlug === "current") {
+    return getCurrentSeasonSlug(seasons);
+  }
+  return seasonSlug;
+}

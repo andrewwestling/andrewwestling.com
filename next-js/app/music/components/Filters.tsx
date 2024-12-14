@@ -3,6 +3,7 @@
 import { useCallback, useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import database from "@music/data/database";
+import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
 
 export type FilterFacetId = "group" | "season" | "conductor" | "venue";
 
@@ -48,13 +49,17 @@ export function Filters({
     }
 
     if (searchParams.get("season")) {
-      const season = database.season.find(
-        (s) => s.slug === searchParams.get("season")
+      const seasonSlug = resolveSeasonSlug(
+        searchParams.get("season")!,
+        database.season
       );
-      if (season) {
-        concerts = concerts.filter(
-          (concert) => concert.frontmatter.season === season.title
-        );
+      if (seasonSlug) {
+        const season = database.season.find((s) => s.slug === seasonSlug);
+        if (season) {
+          concerts = concerts.filter(
+            (concert) => concert.frontmatter.season === season.title
+          );
+        }
       }
     }
 
@@ -110,19 +115,26 @@ export function Filters({
       {
         id: "season",
         label: "Season",
-        options: database.season
-          .filter((season) => {
-            if (searchParams.get("season") === season.slug) return true;
-            return usedSeasons.has(season.title);
-          })
-          .sort((a, b) => b.title.localeCompare(a.title)) // Reverse sort
-          .map((season) => ({
-            label: season.title,
-            value: season.slug,
-            count: filteredConcerts.filter(
-              (c) => c.frontmatter.season === season.title
-            ).length,
-          })),
+        options: [
+          {
+            label: "Current Season",
+            value: "current",
+            count: getCurrentSeasonSlug(database.season) ? undefined : 0,
+          },
+          ...database.season
+            .filter((season) => {
+              if (searchParams.get("season") === season.slug) return true;
+              return usedSeasons.has(season.title);
+            })
+            .sort((a, b) => b.title.localeCompare(a.title))
+            .map((season) => ({
+              label: season.title,
+              value: season.slug,
+              count: filteredConcerts.filter(
+                (c) => c.frontmatter.season === season.title
+              ).length,
+            })),
+        ],
       },
       {
         id: "group",
@@ -188,7 +200,17 @@ export function Filters({
       const params = new URLSearchParams(searchParams);
 
       if (value) {
-        params.set(facetId, value);
+        // Handle "current" season selection
+        if (facetId === "season" && value === "current") {
+          const currentSeasonSlug = getCurrentSeasonSlug(database.season);
+          if (currentSeasonSlug) {
+            params.set(facetId, currentSeasonSlug);
+          } else {
+            params.delete(facetId);
+          }
+        } else {
+          params.set(facetId, value);
+        }
       } else {
         params.delete(facetId);
       }
