@@ -1,7 +1,8 @@
 "use client";
 
-import { useCallback, useMemo } from "react";
+import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import Select, { StylesConfig } from "react-select";
 import database from "@music/data/database";
 import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
 
@@ -11,6 +12,18 @@ interface FilterOption {
   label: string;
   value: string;
   count?: number;
+}
+
+interface SelectOption {
+  label: string;
+  value: string;
+  type: FilterFacetId;
+  count?: number;
+}
+
+interface GroupedOption {
+  label: string;
+  options: SelectOption[];
 }
 
 interface FilterFacet {
@@ -23,6 +36,43 @@ interface FiltersProps {
   facets?: FilterFacetId[];
   onFiltersChange?: (filters: Record<string, string>) => void;
 }
+
+const selectStyles: StylesConfig<SelectOption, true> = {
+  control: (base) => ({
+    ...base,
+    minHeight: "40px",
+    height: "40px",
+    backgroundColor: "rgb(249 250 251)",
+    borderColor: "rgb(209 213 219)",
+    minWidth: "300px",
+  }),
+  option: (base, state) => ({
+    ...base,
+    padding: "8px 12px",
+    fontSize: "0.875rem",
+    color: state.isSelected ? "white" : "rgb(17 24 39)",
+  }),
+  valueContainer: (base) => ({
+    ...base,
+    padding: "0 12px",
+  }),
+  placeholder: (base) => ({
+    ...base,
+    fontSize: "0.875rem",
+  }),
+  multiValue: (base) => ({
+    ...base,
+    backgroundColor: "rgb(243 244 246)",
+  }),
+  groupHeading: (base) => ({
+    ...base,
+    fontSize: "0.875rem",
+    fontWeight: "600",
+    color: "rgb(107 114 128)",
+    padding: "8px 12px",
+    textTransform: "none",
+  }),
+};
 
 export function Filters({
   facets = ["group", "season", "conductor", "venue"],
@@ -195,132 +245,85 @@ export function Filters({
     facets.includes(facet.id)
   );
 
-  const handleFilterChange = useCallback(
-    (facetId: string, value: string) => {
-      const params = new URLSearchParams(searchParams);
+  const formatOptionLabel = ({ label, count, type }: SelectOption) => (
+    <div className="flex justify-between">
+      <span>{label}</span>
+      {count !== undefined && (
+        <span className="text-gray-500 ml-2">({count})</span>
+      )}
+    </div>
+  );
 
-      if (value) {
-        // Handle "current" season selection
-        if (facetId === "season" && value === "current") {
-          const currentSeasonSlug = getCurrentSeasonSlug(database.season);
-          if (currentSeasonSlug) {
-            params.set(facetId, currentSeasonSlug);
-          } else {
-            params.delete(facetId);
-          }
-        } else {
-          params.set(facetId, value);
+  const options: GroupedOption[] = activeFacets.map((facet) => ({
+    label: facet.label + "s",
+    options: facet.options.map((opt) => ({
+      ...opt,
+      type: facet.id,
+      value: `${facet.id}:${opt.value}`,
+    })),
+  }));
+
+  const selectedValues = activeFacets
+    .map((facet) => {
+      const value = searchParams.get(facet.id);
+      if (!value) return null;
+      const option = facet.options.find((opt) => opt.value === value);
+      if (!option) return null;
+      return {
+        ...option,
+        type: facet.id,
+        value: `${facet.id}:${option.value}`,
+      };
+    })
+    .filter((v): v is SelectOption => v !== null);
+
+  const handleChange = (newValue: readonly SelectOption[]) => {
+    const params = new URLSearchParams(searchParams);
+
+    // Clear all existing filter params
+    facets.forEach((facet) => params.delete(facet));
+
+    // Add new filter params
+    newValue.forEach((option) => {
+      const [type, value] = option.value.split(":");
+      if (type === "season" && value === "current") {
+        const currentSeasonSlug = getCurrentSeasonSlug(database.season);
+        if (currentSeasonSlug) {
+          params.set(type, currentSeasonSlug);
         }
       } else {
-        params.delete(facetId);
+        params.set(type, value);
       }
+    });
 
-      // Update URL
-      router.push(`${pathname}?${params.toString()}`);
-
-      // Notify parent component
-      if (onFiltersChange) {
-        const filters: Record<string, string> = {};
-        params.forEach((value, key) => {
-          filters[key] = value;
-        });
-        onFiltersChange(filters);
-      }
-    },
-    [pathname, router, searchParams, onFiltersChange]
-  );
-
-  const hasActiveFilters = Array.from(searchParams.keys()).some((key) =>
-    facets.includes(key as FilterFacetId)
-  );
-
-  const handleClearAll = useCallback(() => {
-    const params = new URLSearchParams(searchParams);
-    facets.forEach((facet) => params.delete(facet));
     router.push(`${pathname}?${params.toString()}`);
 
     if (onFiltersChange) {
-      const remainingFilters: Record<string, string> = {};
+      const filters: Record<string, string> = {};
       params.forEach((value, key) => {
-        remainingFilters[key] = value;
+        filters[key] = value;
       });
-      onFiltersChange(remainingFilters);
+      onFiltersChange(filters);
     }
-  }, [facets, pathname, router, searchParams, onFiltersChange]);
+  };
 
   return (
     <div className="space-y-4 mb-8">
       <div className="flex flex-wrap items-end gap-4">
-        {activeFacets.map((facet) => {
-          const selectedValue = searchParams.get(facet.id);
-          const selectedOption = selectedValue
-            ? facet.options.find((opt) => opt.value === selectedValue)
-            : null;
-
-          return (
-            <div key={facet.id} className="min-w-[200px]">
-              <label className="block text-sm font-medium mb-1">
-                {facet.label}
-              </label>
-              <div className="flex gap-2">
-                {selectedOption ? (
-                  <div className="flex-1 flex items-center h-10 rounded-md border border-gray-300 bg-gray-50 px-3">
-                    <span className="flex-1">
-                      {selectedOption.label}
-                      {selectedOption.count !== undefined &&
-                        ` (${selectedOption.count})`}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() => handleFilterChange(facet.id, "")}
-                      className="text-sm text-gray-500 hover:text-gray-700"
-                      title={`Clear ${facet.label} filter`}
-                    >
-                      ×
-                    </button>
-                  </div>
-                ) : (
-                  <div className="flex-1 relative">
-                    <select
-                      className="w-full h-10 appearance-none rounded-md border border-gray-300 bg-gray-50 px-3 pr-8"
-                      value=""
-                      onChange={(e) =>
-                        handleFilterChange(facet.id, e.target.value)
-                      }
-                    >
-                      <option value="">All {facet.label}s</option>
-                      {facet.options.map((option) => (
-                        <option key={option.value} value={option.value}>
-                          {option.label}
-                          {option.count !== undefined && ` (${option.count})`}
-                        </option>
-                      ))}
-                    </select>
-                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
-                      <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          );
-        })}
-        {hasActiveFilters && (
-          <button
-            type="button"
-            onClick={handleClearAll}
-            className="flex h-10 items-center rounded-md border border-gray-300 bg-gray-50 px-3 text-sm gap-2"
-          >
-            <span className="text-gray-900">Clear all filters</span>
-            <span className="text-gray-500 hover:text-gray-700">×</span>
-          </button>
-        )}
+        <div className="flex-1">
+          <label className="block text-sm font-medium mb-1">Filters</label>
+          <Select
+            isMulti
+            value={selectedValues}
+            onChange={(newValue) => handleChange(newValue as SelectOption[])}
+            options={options}
+            formatOptionLabel={formatOptionLabel}
+            styles={selectStyles}
+            placeholder="Select filters..."
+            isClearable={true}
+            isSearchable={true}
+          />
+        </div>
       </div>
     </div>
   );
