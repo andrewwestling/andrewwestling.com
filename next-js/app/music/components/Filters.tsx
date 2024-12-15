@@ -144,9 +144,7 @@ export function Filters({
     })),
   }));
 
-  const params = new URLSearchParams(
-    updateUrl ? useSearchParams() : initialFilters
-  );
+  const params = new URLSearchParams(useSearchParams() || initialFilters);
   const selectedValues = activeFacets
     .map((facet) => {
       const value = params.get(facet.id);
