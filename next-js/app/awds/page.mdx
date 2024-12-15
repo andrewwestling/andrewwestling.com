@@ -25,6 +25,7 @@ import {
   sampleSeasonNoConcerts,
 } from "./components/sampleData.ts";
 import { Navigation } from "@music/components/Navigation";
+import { Suspense } from "react";
 
 export const metadata = { title: "AWDS" };
 
@@ -283,7 +284,9 @@ This component displays a venue's location and concert count in a consistent for
 The Filters component provides a multi-select dropdown for filtering concerts by various criteria.
 
 <ComponentWrapper>
-  <FilterExamples />
+  <Suspense>
+    <FilterExamples />
+  </Suspense>
 </ComponentWrapper>
 
 ---
