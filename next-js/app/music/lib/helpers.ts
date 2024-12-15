@@ -96,10 +96,7 @@ export function findConductorSlug(name: string): string | undefined {
 }
 
 export function isUpcoming(date: string): boolean {
-  const concertDate = new Date(date);
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return concertDate >= today;
+  return new Date(date) >= new Date();
 }
 
 // Helper to sort seasons in descending order
