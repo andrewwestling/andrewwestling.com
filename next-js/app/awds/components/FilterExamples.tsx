@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import { Filters } from "@music/components/Filters";
-import { ComponentWrapper } from "./ComponentWrapper";
-import { Button } from "@components/Button";
 
 const DEFAULT_FILTERS: Record<string, string> = {
   group: "gvo",
@@ -21,7 +19,7 @@ export function FilterExamples() {
     useState<Record<string, string>>(LIMITED_FILTERS);
 
   return (
-    <ComponentWrapper>
+    <>
       <div className="grid gap-4">
         <div>
           <div className="flex justify-between items-center mb-2">
@@ -54,16 +52,6 @@ export function FilterExamples() {
           />
         </div>
       </div>
-      <div>
-        <Button
-          onClick={() => {
-            setDefaultFilters(DEFAULT_FILTERS);
-            setLimitedFilters(LIMITED_FILTERS);
-          }}
-        >
-          Reset
-        </Button>
-      </div>
-    </ComponentWrapper>
+    </>
   );
 }
