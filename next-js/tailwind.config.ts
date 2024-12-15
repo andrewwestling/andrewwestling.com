@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import type { PluginAPI } from "tailwindcss/types/config";
 
 export type AwdsColor = {
   DEFAULT: string;
@@ -71,7 +72,7 @@ const config: Config = {
     },
   },
   plugins: [
-    function ({ addBase, theme }) {
+    function ({ addBase, theme }: PluginAPI) {
       addBase({
         ":root": {
           "--color-text": theme("colors.text.DEFAULT"),
