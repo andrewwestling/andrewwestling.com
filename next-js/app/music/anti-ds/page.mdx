@@ -9,6 +9,7 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import database from "@music/data/database";
 import { VenueStats } from "@music/components/VenueStats";
 import { SeasonListItem } from "@music/components/SeasonListItem";
+import { FilterExamples } from "./components/FilterExamples";
 
 export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
@@ -91,6 +92,8 @@ export const Message = ({ children }) => (
   - [VenueMap](#venuemap)
 - Stats
   - [VenueStats](#venuestats)
+- Filters
+  - [Filters](#filters)
 
 ---
 
@@ -199,3 +202,9 @@ This component displays a venue's location and concert count in a consistent for
     </div>
   </div>
 </ComponentWrapper>
+
+## Filters
+
+The Filters component provides a multi-select dropdown for filtering concerts by various criteria.
+
+<FilterExamples />

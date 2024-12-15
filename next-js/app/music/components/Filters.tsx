@@ -1,10 +1,8 @@
 "use client";
 
-import { useMemo } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import Select, { StylesConfig } from "react-select";
-import database from "@music/data/database";
-import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
+import { useFilters } from "@music/hooks/useFilters";
 
 export type FilterFacetId = "group" | "season" | "conductor" | "venue";
 
@@ -32,8 +30,10 @@ interface FilterFacet {
   options: FilterOption[];
 }
 
-interface FiltersProps {
+export interface FiltersProps {
   facets?: FilterFacetId[];
+  updateUrl?: boolean;
+  initialFilters?: Record<string, string>;
   onFiltersChange?: (filters: Record<string, string>) => void;
 }
 
@@ -111,173 +111,19 @@ const selectStyles: StylesConfig<SelectOption, true> = {
 
 export function Filters({
   facets = ["group", "season", "conductor", "venue"],
+  updateUrl = true,
+  initialFilters = {},
   onFiltersChange,
 }: FiltersProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  // Get filtered concerts based on current filters
-  const filteredConcerts = useMemo(() => {
-    let concerts = [...database.concert];
-
-    // Apply each active filter
-    if (searchParams.get("group")) {
-      const group = database.group.find(
-        (g) => g.slug === searchParams.get("group")
-      );
-      if (group) {
-        concerts = concerts.filter(
-          (concert) => concert.frontmatter.group === group.title
-        );
-      }
-    }
-
-    if (searchParams.get("season")) {
-      const seasonSlug = resolveSeasonSlug(
-        searchParams.get("season")!,
-        database.season
-      );
-      if (seasonSlug) {
-        const season = database.season.find((s) => s.slug === seasonSlug);
-        if (season) {
-          concerts = concerts.filter(
-            (concert) => concert.frontmatter.season === season.title
-          );
-        }
-      }
-    }
-
-    if (searchParams.get("conductor")) {
-      const conductor = database.conductor.find(
-        (c) => c.slug === searchParams.get("conductor")
-      );
-      if (conductor) {
-        concerts = concerts.filter((concert) => {
-          const conductors = Array.isArray(concert.frontmatter.conductor)
-            ? concert.frontmatter.conductor
-            : [concert.frontmatter.conductor];
-          return conductors.includes(conductor.title);
-        });
-      }
-    }
-
-    if (searchParams.get("venue")) {
-      const venue = database.venue.find(
-        (v) => v.slug === searchParams.get("venue")
-      );
-      if (venue) {
-        concerts = concerts.filter(
-          (concert) => concert.frontmatter.venue === venue.title
-        );
-      }
-    }
-
-    return concerts;
-  }, [searchParams]);
-
-  // Generate facet options based on filtered concerts
-  const availableFacets: FilterFacet[] = useMemo(() => {
-    // Get unique values from filtered concerts
-    const usedGroups = new Set(
-      filteredConcerts.map((c) => c.frontmatter.group)
-    );
-    const usedSeasons = new Set(
-      filteredConcerts.map((c) => c.frontmatter.season)
-    );
-    const usedVenues = new Set(
-      filteredConcerts.map((c) => c.frontmatter.venue)
-    );
-    const usedConductors = new Set(
-      filteredConcerts.flatMap((c) =>
-        Array.isArray(c.frontmatter.conductor)
-          ? c.frontmatter.conductor
-          : [c.frontmatter.conductor]
-      )
-    );
-
-    return [
-      {
-        id: "season",
-        label: "Season",
-        options: [
-          {
-            label: "Current Season",
-            value: "current",
-            count: getCurrentSeasonSlug(database.season) ? undefined : 0,
-          },
-          ...database.season
-            .filter((season) => {
-              if (searchParams.get("season") === season.slug) return true;
-              return usedSeasons.has(season.title);
-            })
-            .sort((a, b) => b.title.localeCompare(a.title))
-            .map((season) => ({
-              label: season.title,
-              value: season.slug,
-              count: filteredConcerts.filter(
-                (c) => c.frontmatter.season === season.title
-              ).length,
-            })),
-        ],
-      },
-      {
-        id: "group",
-        label: "Group",
-        options: database.group
-          .filter((group) => {
-            // Don't filter if this facet is currently selected
-            if (searchParams.get("group") === group.slug) return true;
-            return usedGroups.has(group.title);
-          })
-          .map((group) => ({
-            label: group.title,
-            value: group.slug,
-            count: filteredConcerts.filter(
-              (c) => c.frontmatter.group === group.title
-            ).length,
-          })),
-      },
-      {
-        id: "conductor",
-        label: "Conductor",
-        options: database.conductor
-          .filter((conductor) => {
-            if (searchParams.get("conductor") === conductor.slug) return true;
-            return usedConductors.has(conductor.title);
-          })
-          .map((conductor) => ({
-            label: conductor.title,
-            value: conductor.slug,
-            count: filteredConcerts.filter((c) => {
-              const conductors = Array.isArray(c.frontmatter.conductor)
-                ? c.frontmatter.conductor
-                : [c.frontmatter.conductor];
-              return conductors.includes(conductor.title);
-            }).length,
-          })),
-      },
-      {
-        id: "venue",
-        label: "Venue",
-        options: database.venue
-          .filter((venue) => {
-            if (searchParams.get("venue") === venue.slug) return true;
-            return usedVenues.has(venue.title);
-          })
-          .map((venue) => ({
-            label: venue.title,
-            value: venue.slug,
-            count: filteredConcerts.filter(
-              (c) => c.frontmatter.venue === venue.title
-            ).length,
-          })),
-      },
-    ];
-  }, [filteredConcerts, searchParams]);
+  const { availableFacets, handleChange } = useFilters({
+    facets,
+    updateUrl,
+    initialFilters,
+    onFiltersChange,
+  });
 
   const activeFacets = availableFacets.filter((facet) =>
-    facets.includes(facet.id)
+    facets.includes(facet.id as FilterFacetId)
   );
 
   const formatOptionLabel = ({ label, count, type }: SelectOption) => (
@@ -293,54 +139,27 @@ export function Filters({
     label: facet.label + "s",
     options: facet.options.map((opt) => ({
       ...opt,
-      type: facet.id,
+      type: facet.id as FilterFacetId,
       value: `${facet.id}:${opt.value}`,
     })),
   }));
 
+  const params = new URLSearchParams(
+    updateUrl ? useSearchParams() : initialFilters
+  );
   const selectedValues = activeFacets
     .map((facet) => {
-      const value = searchParams.get(facet.id);
+      const value = params.get(facet.id);
       if (!value) return null;
       const option = facet.options.find((opt) => opt.value === value);
       if (!option) return null;
       return {
         ...option,
-        type: facet.id,
+        type: facet.id as FilterFacetId,
         value: `${facet.id}:${option.value}`,
-      };
+      } as SelectOption;
     })
     .filter((v): v is SelectOption => v !== null);
-
-  const handleChange = (newValue: readonly SelectOption[]) => {
-    const params = new URLSearchParams(searchParams);
-
-    // Clear all existing filter params
-    facets.forEach((facet) => params.delete(facet));
-
-    // Add new filter params
-    newValue.forEach((option) => {
-      const [type, value] = option.value.split(":");
-      if (type === "season" && value === "current") {
-        const currentSeasonSlug = getCurrentSeasonSlug(database.season);
-        if (currentSeasonSlug) {
-          params.set(type, currentSeasonSlug);
-        }
-      } else {
-        params.set(type, value);
-      }
-    });
-
-    router.push(`${pathname}?${params.toString()}`);
-
-    if (onFiltersChange) {
-      const filters: Record<string, string> = {};
-      params.forEach((value, key) => {
-        filters[key] = value;
-      });
-      onFiltersChange(filters);
-    }
-  };
 
   return (
     <div className="space-y-4 mb-8">

@@ -1,7 +1,7 @@
 import database from "@music/data/database";
 import { getDateForSorting } from "@music/lib/helpers";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { ServerFilters } from "@music/components/ServerFilters";
+import { Filters } from "@music/components/Filters";
 
 export default async function ConcertsPage({
   searchParams,
@@ -10,6 +10,7 @@ export default async function ConcertsPage({
 }) {
   let concerts = [...database.concert];
 
+  // Apply filters from searchParams
   if (searchParams.group) {
     const group = database.group.find((g) => g.slug === searchParams.group);
     if (group) {
@@ -77,7 +78,7 @@ export default async function ConcertsPage({
     <div className="py-8">
       <h1 className="text-2xl font-bold mb-6">Concerts</h1>
 
-      <ServerFilters facets={["group", "season", "conductor", "venue"]} />
+      <Filters initialFilters={searchParams as Record<string, string>} />
 
       <div className="grid gap-6">
         {concerts.map((concert) => (
