@@ -21,7 +21,7 @@ export default function GroupPage({ params }: PageProps) {
     });
 
   return (
-    <article className="py-8">
+    <article>
       <h1 className="text-2xl font-bold">{group.title}</h1>
       <p className="text-lg mb-6">{group.frontmatter.location}</p>
 

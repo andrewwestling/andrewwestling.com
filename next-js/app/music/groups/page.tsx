@@ -4,7 +4,7 @@ import { routes } from "@music/lib/routes";
 
 export default function GroupsPage() {
   return (
-    <div className="py-8">
+    <div>
       <h1 className="text-2xl font-bold mb-6">Groups</h1>
 
       <div className="grid gap-4">

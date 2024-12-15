@@ -75,7 +75,7 @@ export default async function ConcertsPage({
   });
 
   return (
-    <div className="py-8">
+    <div>
       <h1 className="text-2xl font-bold mb-6">Concerts</h1>
 
       <Filters initialFilters={searchParams as Record<string, string>} />

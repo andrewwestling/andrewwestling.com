@@ -30,7 +30,7 @@ export default async function VenuePage({ params }: PageProps) {
     );
 
   return (
-    <div className="py-8 grid gap-8">
+    <div className="grid gap-8">
       <div className="grid gap-4">
         <h1 className="text-4xl font-bold mb-2">{venue.title}</h1>
         <VenueStats location={location} concertCount={venue.concertCount} />

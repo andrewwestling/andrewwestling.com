@@ -5,7 +5,7 @@ import { SeasonListItem } from "@music/components/SeasonListItem";
 
 export default function SeasonsPage() {
   return (
-    <div className="py-8">
+    <div>
       <h1 className="text-2xl font-bold mb-6">Seasons</h1>
 
       <div className="grid gap-4">

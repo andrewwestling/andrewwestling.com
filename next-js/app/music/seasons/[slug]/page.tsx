@@ -23,7 +23,7 @@ export default function SeasonPage({ params }: PageProps) {
     .filter(Boolean);
 
   return (
-    <article className="py-8">
+    <article>
       <h1 className="text-2xl font-bold">{season.title}</h1>
 
       {concerts.length > 0 && (

@@ -30,7 +30,7 @@ export default function WorkPage({ params }: PageProps) {
   });
 
   return (
-    <article className="py-8">
+    <article>
       <h1 className="text-2xl font-bold mb-4">{work.title}</h1>
 
       {composer && (

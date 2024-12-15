@@ -22,7 +22,7 @@ export default function ComposerPage({ params }: PageProps) {
   );
 
   return (
-    <article className="py-8">
+    <article>
       <h1 className="text-2xl font-bold mb-6">{composer.title}</h1>
 
       {works.length > 0 && (

@@ -60,7 +60,7 @@ export default async function ConcertPage({ params }: PageProps) {
   }
 
   return (
-    <article className="py-8">
+    <article>
       <h1 className="text-2xl font-bold mb-4 flex items-center gap-2 flex-wrap">
         {displayTitle}
         {concert.frontmatter.didNotPlay && <DidNotPlay />}

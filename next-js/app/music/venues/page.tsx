@@ -14,7 +14,7 @@ export default async function VenuesPage() {
   );
 
   return (
-    <div className="py-8">
+    <div>
       <h1 className="text-2xl font-bold mb-6">Venues</h1>
 
       <div className="grid gap-12">

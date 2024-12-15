@@ -24,6 +24,7 @@ import {
   sampleSeason,
   sampleSeasonNoConcerts,
 } from "./components/sampleData.ts";
+import { Navigation } from "@music/components/Navigation";
 
 export const metadata = { title: "AWDS" };
 
@@ -283,4 +284,14 @@ The Filters component provides a multi-select dropdown for filtering concerts by
 
 <ComponentWrapper>
   <FilterExamples />
+</ComponentWrapper>
+
+---
+
+## Navigation
+
+This component provides navigation links to different sections of the music database, showing the count of items in each section.
+
+<ComponentWrapper>
+  <Navigation />
 </ComponentWrapper>

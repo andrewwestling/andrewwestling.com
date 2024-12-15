@@ -20,7 +20,7 @@ export default function ConductorPage({ params }: PageProps) {
   });
 
   return (
-    <article className="py-8">
+    <article>
       <h1 className="text-2xl font-bold mb-6">{conductor.title}</h1>
 
       {concerts.length > 0 && (
