@@ -38,37 +38,72 @@ interface FiltersProps {
 }
 
 const selectStyles: StylesConfig<SelectOption, true> = {
-  control: (base) => ({
+  control: (base, state) => ({
     ...base,
     minHeight: "40px",
-    height: "40px",
-    backgroundColor: "rgb(249 250 251)",
-    borderColor: "rgb(209 213 219)",
+    backgroundColor: "var(--color-surface)",
+    borderColor: "var(--color-border)",
     minWidth: "300px",
+    boxShadow: state.isFocused ? "0 0 0 1px var(--color-selected)" : "none",
+    "&:hover": {
+      borderColor: "var(--color-selected)",
+    },
+  }),
+  menu: (base) => ({
+    ...base,
+    backgroundColor: "var(--color-surface)",
+    borderColor: "var(--color-border)",
   }),
   option: (base, state) => ({
     ...base,
     padding: "8px 12px",
     fontSize: "0.875rem",
-    color: state.isSelected ? "white" : "rgb(17 24 39)",
+    color: state.isSelected ? "white" : "var(--color-text)",
+    backgroundColor: state.isSelected
+      ? "var(--color-selected)"
+      : state.isFocused
+      ? "var(--color-highlight)"
+      : "var(--color-surface)",
+    "&:active": {
+      backgroundColor: "var(--color-selected)",
+      color: "black",
+    },
   }),
-  valueContainer: (base) => ({
+  input: (base) => ({
     ...base,
-    padding: "0 12px",
+    color: "var(--color-text)",
   }),
   placeholder: (base) => ({
     ...base,
     fontSize: "0.875rem",
+    color: "var(--color-muted)",
+  }),
+  singleValue: (base) => ({
+    ...base,
+    color: "var(--color-text)",
   }),
   multiValue: (base) => ({
     ...base,
-    backgroundColor: "rgb(243 244 246)",
+    backgroundColor: "var(--color-highlight)",
+  }),
+  multiValueLabel: (base) => ({
+    ...base,
+    color: "var(--color-text)",
+  }),
+  multiValueRemove: (base) => ({
+    ...base,
+    color: "var(--color-muted)",
+    "&:hover": {
+      backgroundColor: "var(--color-selected)",
+      color: "black",
+    },
   }),
   groupHeading: (base) => ({
     ...base,
     fontSize: "0.875rem",
     fontWeight: "600",
-    color: "rgb(107 114 128)",
+    color: "var(--color-muted)",
+    backgroundColor: "var(--color-surface)",
     padding: "8px 12px",
     textTransform: "none",
   }),
