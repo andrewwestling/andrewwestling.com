@@ -1,13 +1,11 @@
 import Link from "next/link";
 import database from "@music/data/database";
-import { getDateFromFilename, isUpcoming } from "@music/lib/helpers";
+import { getDateFromFrontmatter, isUpcoming } from "@music/lib/helpers";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 
 export default async function HomePage() {
-  const locationMap = await getLocationsForVenues(database.venue);
-
   // Get all concerts and sort them by date
   const allConcerts = [...database.concert].filter(
     (concert) => !concert.frontmatter.didNotPlay
@@ -17,17 +15,19 @@ export default async function HomePage() {
   const upcomingConcerts = allConcerts
     .filter((concert) => isUpcoming(concert.frontmatter.date))
     .sort((a, b) => {
-      const dateA = getDateFromFilename(a.slug) || "";
-      const dateB = getDateFromFilename(b.slug) || "";
-      return dateA.localeCompare(dateB); // Ascending for upcoming
+      const dateA = getDateFromFrontmatter(a);
+      const dateB = getDateFromFrontmatter(b);
+      if (!dateA || !dateB) return 0;
+      return dateA.getTime() - dateB.getTime(); // Ascending for upcoming
     });
 
   const pastConcerts = allConcerts
     .filter((concert) => !isUpcoming(concert.frontmatter.date))
     .sort((a, b) => {
-      const dateA = getDateFromFilename(a.slug) || "";
-      const dateB = getDateFromFilename(b.slug) || "";
-      return dateB.localeCompare(dateA); // Descending for past
+      const dateA = getDateFromFrontmatter(a);
+      const dateB = getDateFromFrontmatter(b);
+      if (!dateA || !dateB) return 0;
+      return dateB.getTime() - dateA.getTime(); // Descending for past
     });
 
   return (

@@ -1,11 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import database from "@music/data/database";
-import { getDateFromFilename, formatConcertTitle } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
-import { ConcertBadges } from "@music/components/ConcertBadges";
 import { routes } from "@music/lib/routes";
-import { ConcertListItem } from "@music/components/ConcertListItem";
 
 export default function ComposerPage({ params }: PageProps) {
   const composer = database.composer.find(

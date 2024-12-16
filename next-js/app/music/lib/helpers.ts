@@ -1,10 +1,12 @@
 import database from "@music/data/database";
 
-// Helper to extract date from filename in YYYYMMDDHHmm format
-export function getDateFromFilename(filename: string): string | null {
-  const match = filename.match(/^(\d{12})/);
-  if (!match) return null;
-  return match[1];
+// Helper to extract date from frontmatter
+export function getDateFromFrontmatter(concert: {
+  frontmatter: { date?: string };
+}): Date | null {
+  if (!concert.frontmatter.date) return null;
+  const date = new Date(concert.frontmatter.date);
+  return isNaN(date.getTime()) ? null : date;
 }
 
 // Helper to format concert title

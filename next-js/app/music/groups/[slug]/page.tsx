@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import database from "@music/data/database";
-import { getDateFromFilename, getDateForSorting } from "@music/lib/helpers";
+import { getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 
@@ -29,11 +29,9 @@ export default function GroupPage({ params }: PageProps) {
         <div>
           <h2 className="text-lg font-semibold mb-4">Concerts</h2>
           <div className="grid gap-4">
-            {concerts.map((concert) => {
-              const concertDate = getDateFromFilename(concert.slug);
-              if (!concertDate) return null;
-              return <ConcertListItem key={concert.slug} concert={concert} />;
-            })}
+            {concerts.map((concert) => (
+              <ConcertListItem key={concert.slug} concert={concert} />
+            ))}
           </div>
         </div>
       )}

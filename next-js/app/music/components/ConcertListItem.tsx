@@ -9,6 +9,7 @@ import { routes } from "@music/lib/routes";
 import { Concert } from "@music/lib/types";
 import database from "@music/data/database";
 import { findVenueFromFrontmatter } from "@music/lib/location";
+import { getLocationFromCoordinates } from "@music/lib/location";
 
 interface ConcertListItemProps {
   concert: Concert;
