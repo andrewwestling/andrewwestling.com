@@ -22,8 +22,8 @@ export async function getLocationFromCoordinates(
         cache: "force-cache", // Cache the response
         headers: {
           "User-Agent": "andrewwestling.com/2.0.0", // Required by Nominatim's usage policy
-          "Accept": "application/json"
-        }
+          Accept: "application/json",
+        },
       }
     );
 
@@ -49,10 +49,15 @@ export async function getLocationFromCoordinates(
         }
       }
 
-      // For non-NYC addresses, use city/town and state
+      // For US non-NYC addresses, use city/town and state
       const city = data.address.city || data.address.town;
       if (city && data.address.state) {
         return `${city}, ${data.address.state}`;
+      }
+
+      // If we don't have a state, use the city and country
+      if (city && data.address.country) {
+        return `${city}, ${data.address.country}`;
       }
     }
     return null;

@@ -16,7 +16,7 @@ interface ConcertListItemProps {
   expanded?: boolean;
 }
 
-export function ConcertListItem({
+export async function ConcertListItem({
   concert,
   expanded = false,
 }: ConcertListItemProps) {
@@ -72,9 +72,13 @@ export function ConcertListItem({
             <dt className="font-medium">Venue</dt>
             <dd>
               <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
-              {group?.frontmatter.location && (
+              {venue.frontmatter.coordinates && (
                 <span className="text-muted ml-2">
-                  ({group.frontmatter.location})
+                  (
+                  {await getLocationFromCoordinates(
+                    venue.frontmatter.coordinates
+                  )}
+                  )
                 </span>
               )}
             </dd>
