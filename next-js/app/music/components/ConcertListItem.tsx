@@ -50,7 +50,7 @@ export async function ConcertListItem({
   }
 
   return (
-    <article className="border-b pb-6">
+    <article className="pb-6">
       <h2 className="text-lg font-semibold mb-2 flex items-center gap-2">
         <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
         <ConcertBadges concert={concert} />

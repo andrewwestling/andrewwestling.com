@@ -41,11 +41,7 @@ export default async function HomePage() {
               <h3 className="text-xl font-semibold mb-4">Upcoming concerts</h3>
               <div className="grid gap-4">
                 {upcomingConcerts.map((concert) => (
-                  <ConcertListItem
-                    key={concert.slug}
-                    concert={concert}
-                    expanded
-                  />
+                  <ConcertListItem key={concert.slug} concert={concert} />
                 ))}
               </div>
             </div>
