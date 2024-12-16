@@ -1,6 +1,6 @@
-import Link from "next/link";
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
+import { ListItem } from "@music/components/ListItem";
 
 export default function GroupsPage() {
   return (
@@ -15,19 +15,15 @@ export default function GroupsPage() {
           );
 
           return (
-            <div key={group.slug}>
-              <Link href={routes.groups.show(group.slug)}>{group.title}</Link>
-              <span className="text-muted ml-2">
-                {group.frontmatter.location}
-                {concerts.length > 0 && (
-                  <>
-                    {" "}
-                    • {concerts.length} concert
-                    {concerts.length !== 1 ? "s" : ""}
-                  </>
-                )}
-              </span>
-            </div>
+            <ListItem
+              key={group.slug}
+              title={group.title}
+              href={routes.groups.show(group.slug)}
+              stats={[
+                group.frontmatter.location,
+                `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
+              ]}
+            />
           );
         })}
       </div>

@@ -1,6 +1,6 @@
-import Link from "next/link";
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
+import { ListItem } from "@music/components/ListItem";
 
 export default function WorksPage() {
   return (
@@ -25,24 +25,15 @@ export default function WorksPage() {
           });
 
           return (
-            <div key={work.slug}>
-              <Link href={routes.works.show(work.slug)}>{work.title}</Link>
-              {composer && (
-                <span className="text-muted ml-2">
-                  by{" "}
-                  <Link href={routes.composers.show(composer.slug)}>
-                    {composer.title}
-                  </Link>
-                  {concerts.length > 0 && (
-                    <>
-                      {" "}
-                      • {concerts.length} performance
-                      {concerts.length !== 1 ? "s" : ""}
-                    </>
-                  )}
-                </span>
-              )}
-            </div>
+            <ListItem
+              key={work.slug}
+              title={work.title}
+              href={routes.works.show(work.slug)}
+              stats={[
+                composer && `by ${composer.title}`,
+                `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
+              ]}
+            />
           );
         })}
       </div>

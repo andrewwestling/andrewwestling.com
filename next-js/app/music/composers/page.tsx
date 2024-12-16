@@ -1,6 +1,6 @@
-import Link from "next/link";
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
+import { ListItem } from "@music/components/ListItem";
 
 export default function ComposersPage() {
   return (
@@ -13,14 +13,12 @@ export default function ComposersPage() {
             (w) => w.frontmatter.composer === composer.title
           );
           return (
-            <div key={composer.slug}>
-              <Link href={routes.composers.show(composer.slug)}>
-                {composer.title}
-              </Link>
-              <span className="text-muted ml-2">
-                ({works.length} work{works.length !== 1 ? "s" : ""})
-              </span>
-            </div>
+            <ListItem
+              key={composer.slug}
+              title={composer.title}
+              href={routes.composers.show(composer.slug)}
+              stats={[`${works.length} work${works.length !== 1 ? "s" : ""}`]}
+            />
           );
         })}
       </div>

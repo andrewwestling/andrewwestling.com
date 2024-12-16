@@ -11,10 +11,9 @@ import { TidbytGif } from "@/app/projects/tidbyt/components/TidbytGif";
 import { PostedModified } from "@components/PostedModified";
 import NextLink from "next/link";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { SeasonListItem } from "@music/components/SeasonListItem";
+import { ListItem } from "@music/components/ListItem";
 import { DidNotPlay } from "@music/components/DidNotPlay";
 import { Upcoming } from "@music/components/Upcoming";
-import { VenueStats } from "@music/components/VenueStats";
 import { Filters } from "@music/components/Filters";
 import { FilterExamples } from "./components/FilterExamples";
 import {
@@ -200,14 +199,50 @@ This is used when listing concerts on a page.
 
 ---
 
-### SeasonListItem
+### ListItem
 
-This component displays a season with its title, number of concerts, and number of works.
+This is a generic list item component used throughout the music section to display various types of data in a consistent format. It shows a title as a link with optional statistics.
 
 <ComponentWrapper>
   <div className="grid gap-4">
-    <SeasonListItem season={sampleSeason} />
-    <SeasonListItem season={sampleSeasonNoConcerts} />
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Season Example</label>
+      <ListItem
+        title={sampleSeason.title}
+        href={`/music/seasons/${sampleSeason.slug}`}
+        stats={[
+          `${sampleSeason.concertSlugs.length} concerts`,
+          `${sampleSeason.workSlugs.length} works`
+        ]}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Venue Example</label>
+      <ListItem
+        title="Carnegie Hall"
+        href="/music/venues/carnegie-hall"
+        stats={["New York, NY", "15 concerts"]}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Composer Example</label>
+      <ListItem
+        title="Gustav Mahler"
+        href="/music/composers/mahler-gustav"
+        stats={["12 works"]}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Group Example</label>
+      <ListItem
+        title="New York Philharmonic"
+        href="/music/groups/ny-phil"
+        stats={["New York, NY", "8 concerts"]}
+      />
+    </div>
   </div>
 </ComponentWrapper>
 
@@ -250,29 +285,6 @@ The VenueMap component displays an interactive map centered on a venue's locatio
     coordinates="40.765263912243164, -73.97990214578063"
     name="Carnegie Hall"
   />
-</ComponentWrapper>
-
----
-
-### VenueStats
-
-This component displays a venue's location and concert count in a consistent format.
-
-<ComponentWrapper>
-  <div className="grid gap-4">
-    <div>
-      <label className="text-xs text-muted">With location and concerts</label>
-      <VenueStats location="New York, NY" concertCount={5} />
-    </div>
-    <div>
-      <label className="text-xs text-muted">With location only</label>
-      <VenueStats location="New York, NY" concertCount={0} />
-    </div>
-    <div>
-      <label className="text-xs text-muted">With concerts only</label>
-      <VenueStats location={null} concertCount={3} />
-    </div>
-  </div>
 </ComponentWrapper>
 
 ---

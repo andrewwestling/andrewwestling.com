@@ -1,6 +1,6 @@
-import Link from "next/link";
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
+import { ListItem } from "@music/components/ListItem";
 
 export default function ConductorsPage() {
   // Sort conductors by concert count
@@ -14,15 +14,16 @@ export default function ConductorsPage() {
 
       <div className="grid gap-4">
         {sortedConductors.map((conductor) => (
-          <div key={conductor.slug}>
-            <Link href={routes.conductors.show(conductor.slug)}>
-              {conductor.title}
-            </Link>
-            <span className="text-muted ml-2">
-              ({conductor.concertCount} concert
-              {conductor.concertCount !== 1 ? "s" : ""})
-            </span>
-          </div>
+          <ListItem
+            key={conductor.slug}
+            title={conductor.title}
+            href={routes.conductors.show(conductor.slug)}
+            stats={[
+              `${conductor.concertCount} concert${
+                conductor.concertCount !== 1 ? "s" : ""
+              }`,
+            ]}
+          />
         ))}
       </div>
     </div>

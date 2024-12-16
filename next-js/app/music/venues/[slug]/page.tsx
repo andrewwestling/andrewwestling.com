@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
-import { VenueStats } from "@music/components/VenueStats";
 
 // Import the map component dynamically to avoid SSR issues
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
@@ -31,9 +30,18 @@ export default async function VenuePage({ params }: PageProps) {
 
   return (
     <div className="grid gap-8">
-      <div className="grid gap-4">
-        <h1 className="text-4xl font-bold mb-2">{venue.title}</h1>
-        <VenueStats location={location} concertCount={venue.concertCount} />
+      <div>
+        <h1 className="text-4xl font-bold">{venue.title}</h1>
+        <div className="text-muted text-sm">
+          {location && <>{location}</>}
+          {location && concerts.length > 0 && " • "}
+          {concerts.length > 0 && (
+            <>
+              {concerts.length} concert
+              {concerts.length !== 1 ? "s" : ""}
+            </>
+          )}
+        </div>
       </div>
 
       <div className="grid gap-8">
