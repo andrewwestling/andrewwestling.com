@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Filters } from "@music/components/Filters";
+import { useFilters } from "@/app/music/hooks/useFilters";
 
 const DEFAULT_FILTERS: Record<string, string> = {
   group: "gvo",
@@ -18,6 +19,18 @@ export function FilterExamples() {
   const [limitedFilters, setLimitedFilters] =
     useState<Record<string, string>>(LIMITED_FILTERS);
 
+  const { handleChange: handleChangeDefault } = useFilters({
+    initialFilters: defaultFilters,
+    onFiltersChange: setDefaultFilters,
+    updateUrl: false,
+  });
+
+  const { handleChange: handleChangeLimited } = useFilters({
+    initialFilters: limitedFilters,
+    onFiltersChange: setLimitedFilters,
+    updateUrl: false,
+  });
+
   return (
     <>
       <div className="grid gap-4">
@@ -31,7 +44,7 @@ export function FilterExamples() {
           <Filters
             updateUrl={false}
             initialFilters={defaultFilters}
-            onFiltersChange={setDefaultFilters}
+            onFiltersChange={handleChangeDefault}
           />
         </div>
 
@@ -48,7 +61,7 @@ export function FilterExamples() {
             facets={["group", "season"]}
             updateUrl={false}
             initialFilters={limitedFilters}
-            onFiltersChange={setLimitedFilters}
+            onFiltersChange={handleChangeLimited}
           />
         </div>
       </div>
