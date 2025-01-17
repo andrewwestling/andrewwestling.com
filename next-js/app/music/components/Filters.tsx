@@ -41,13 +41,14 @@ const selectStyles: StylesConfig<SelectOption, true> = {
   control: (base, state) => ({
     ...base,
     minHeight: "40px",
-    backgroundColor: "var(--color-surface)",
-    borderColor: "var(--color-border)",
+    backgroundColor: "var(--color-background)",
+    borderColor: state.isFocused ? "var(--color-active)" : "var(--color-muted)",
     minWidth: "300px",
-    boxShadow: state.isFocused ? "0 0 0 1px var(--color-selected)" : "none",
+    boxShadow: state.isFocused ? "0 0 0 1px var(--color-active)" : "none",
     "&:hover": {
-      borderColor: "var(--color-selected)",
+      borderColor: "var(--color-active)",
     },
+    cursor: "pointer",
   }),
   menu: (base) => ({
     ...base,
@@ -58,16 +59,21 @@ const selectStyles: StylesConfig<SelectOption, true> = {
     ...base,
     padding: "8px 12px",
     fontSize: "0.875rem",
-    color: state.isSelected ? "white" : "var(--color-text)",
+    color: state.isSelected
+      ? "var(--color-background)"
+      : state.isFocused
+      ? "var(--color-background)"
+      : "var(--color-text)",
     backgroundColor: state.isSelected
       ? "var(--color-selected)"
       : state.isFocused
-      ? "var(--color-highlight)"
+      ? "var(--color-selected)"
       : "var(--color-surface)",
     "&:active": {
       backgroundColor: "var(--color-selected)",
-      color: "black",
+      color: "var(--color-active)",
     },
+    cursor: "pointer",
   }),
   input: (base) => ({
     ...base,
@@ -84,7 +90,8 @@ const selectStyles: StylesConfig<SelectOption, true> = {
   }),
   multiValue: (base) => ({
     ...base,
-    backgroundColor: "var(--color-highlight)",
+    backgroundColor: "var(--color-surface)",
+    border: "1px solid var(--color-muted)",
   }),
   multiValueLabel: (base) => ({
     ...base,
@@ -94,15 +101,15 @@ const selectStyles: StylesConfig<SelectOption, true> = {
     ...base,
     color: "var(--color-muted)",
     "&:hover": {
-      backgroundColor: "var(--color-selected)",
-      color: "black",
+      backgroundColor: "var(--color-surface)",
+      color: "var(--color-text)",
     },
   }),
   groupHeading: (base) => ({
     ...base,
     fontSize: "0.875rem",
     fontWeight: "600",
-    color: "var(--color-muted)",
+    color: "var(--color-text)",
     backgroundColor: "var(--color-surface)",
     padding: "8px 12px",
     textTransform: "none",
@@ -127,11 +134,9 @@ export function Filters({
   );
 
   const formatOptionLabel = ({ label, count, type }: SelectOption) => (
-    <div className="flex justify-between">
+    <div className="flex justify-between gap-2">
       <span>{label}</span>
-      {count !== undefined && (
-        <span className="text-gray-500 ml-2">({count})</span>
-      )}
+      {count !== undefined && <span>({count})</span>}
     </div>
   );
 

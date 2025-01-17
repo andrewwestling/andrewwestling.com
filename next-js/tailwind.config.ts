@@ -25,18 +25,6 @@ export const awdsColors: {
     DEFAULT: "#efefef",
     dark: "#333333",
   },
-  surface: {
-    DEFAULT: "#f8f9fa",
-    dark: "#1a1a1a",
-  },
-  border: {
-    DEFAULT: "#efefef",
-    dark: "#333333",
-  },
-  selected: {
-    DEFAULT: "#fcbb1a",
-    dark: "#fcbb1a",
-  },
   primary: {
     DEFAULT: "#f1553a",
   },
@@ -48,6 +36,22 @@ export const awdsColors: {
   },
   accent: {
     DEFAULT: "#fcbb1a",
+  },
+  surface: {
+    DEFAULT: "#efefef",
+    dark: "#333333",
+  },
+  border: {
+    DEFAULT: "#666666",
+    dark: "#898989",
+  },
+  active: {
+    DEFAULT: "#050708",
+    dark: "#dddddd",
+  },
+  selected: {
+    DEFAULT: "#f1553a",
+    dark: "#f1553a",
   },
 };
 
@@ -85,6 +89,7 @@ const config: Config = {
           "--color-accent": theme("colors.accent.DEFAULT"),
           "--color-surface": theme("colors.surface.DEFAULT"),
           "--color-border": theme("colors.border.DEFAULT"),
+          "--color-active": theme("colors.active.DEFAULT"),
           "--color-selected": theme("colors.selected.DEFAULT"),
         },
         "@media (prefers-color-scheme: dark)": {
@@ -95,6 +100,7 @@ const config: Config = {
             "--color-highlight": theme("colors.highlight.dark"),
             "--color-surface": theme("colors.surface.dark"),
             "--color-border": theme("colors.border.dark"),
+            "--color-active": theme("colors.active.dark"),
             "--color-selected": theme("colors.selected.dark"),
           },
         },
