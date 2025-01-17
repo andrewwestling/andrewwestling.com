@@ -49,8 +49,9 @@ export async function getLocationFromCoordinates(
         }
       }
 
-      // For US non-NYC addresses, use city/town and state
-      const city = data.address.city || data.address.town;
+      // For US non-NYC addresses, use city/town/county and state
+      const city =
+        data.address.city || data.address.town || data.address.county;
       if (city && data.address.state) {
         return `${city}, ${data.address.state}`;
       }
@@ -58,6 +59,11 @@ export async function getLocationFromCoordinates(
       // If we don't have a state, use the city and country
       if (city && data.address.country) {
         return `${city}, ${data.address.country}`;
+      }
+
+      // If we have nothing else useful, just return the country
+      if (data.address.country) {
+        return `${data.address.country}`;
       }
     }
     return null;
