@@ -1,7 +1,6 @@
 import Link from "next/link";
 import database from "@music/data/database";
 import { getDateFromFrontmatter, isUpcoming } from "@music/lib/helpers";
-import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 
