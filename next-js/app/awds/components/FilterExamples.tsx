@@ -44,7 +44,7 @@ export function FilterExamples() {
           <Filters
             updateUrl={false}
             initialFilters={defaultFilters}
-            onFiltersChange={handleChangeDefault}
+            onFiltersChange={handleChangeDefault as any}
           />
         </div>
 
@@ -61,7 +61,7 @@ export function FilterExamples() {
             facets={["group", "season"]}
             updateUrl={false}
             initialFilters={limitedFilters}
-            onFiltersChange={handleChangeLimited}
+            onFiltersChange={handleChangeLimited as any}
           />
         </div>
       </div>
