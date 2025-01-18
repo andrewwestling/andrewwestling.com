@@ -95,3 +95,7 @@ export interface Database {
 }
 
 export type VaultObject = BaseItem;
+
+export interface LocationData {
+  [coordinates: string]: string | null;
+}

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-music-db": "tsx app/music/scripts/generate-database.ts"
+    "generate-music-db": "tsx app/music/scripts/generate-database.ts",
+    "generate-location-data": "tsx app/music/scripts/generate-location-data.ts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.1",
