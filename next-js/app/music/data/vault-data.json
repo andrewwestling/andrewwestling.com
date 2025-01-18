@@ -353,6 +353,114 @@
       }
     },
     {
+      "slug": "200707131900",
+      "type": "concert",
+      "path": "Concerts/2007/200707131900 Concert - Metropolitan Youth Symphony (China Tour - Beijing).md",
+      "title": "200707131900 Concert - Metropolitan Youth Symphony (China Tour - Beijing)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-07-13T19:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Brahms - Hungarian Dance No. 1",
+          "Brahms - Hungarian Dance No. 5",
+          "Brahms - Hungarian Dance No. 6",
+          "Coates - Joyous Youth Suite",
+          "Sibelius - Finlandia",
+          "Mozart - Sinfonia Concertante for Violin and Viola",
+          "Badelt - Pirates of the Caribbean",
+          "Bach - Fugue in G Minor"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Beijing Theater (北京剧院)",
+        "season": "2006-2007"
+      }
+    },
+    {
+      "slug": "200707151900",
+      "type": "concert",
+      "path": "Concerts/2007/200707151900 Concert - Metropolitan Youth Symphony (China Tour - Xi'an).md",
+      "title": "200707151900 Concert - Metropolitan Youth Symphony (China Tour - Xi'an)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-07-15T19:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Brahms - Hungarian Dance No. 1",
+          "Brahms - Hungarian Dance No. 5",
+          "Brahms - Hungarian Dance No. 6",
+          "Coates - Joyous Youth Suite",
+          "Sibelius - Finlandia",
+          "Mozart - Sinfonia Concertante for Violin and Viola",
+          "Badelt - Pirates of the Caribbean",
+          "Bach - Fugue in G Minor"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Xincheng Theatre (西安新城剧场)",
+        "season": "2006-2007"
+      }
+    },
+    {
+      "slug": "200707171900",
+      "type": "concert",
+      "path": "Concerts/2007/200707171900 Concert - Metropolitan Youth Symphony (China Tour - Hangzhou).md",
+      "title": "200707171900 Concert - Metropolitan Youth Symphony (China Tour - Hangzhou)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-07-17T19:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Brahms - Hungarian Dance No. 1",
+          "Brahms - Hungarian Dance No. 5",
+          "Brahms - Hungarian Dance No. 6",
+          "Coates - Joyous Youth Suite",
+          "Sibelius - Finlandia",
+          "Mozart - Sinfonia Concertante for Violin and Viola",
+          "Badelt - Pirates of the Caribbean",
+          "Bach - Fugue in G Minor"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Red Star Theater (杭州紅星刷院)",
+        "season": "2006-2007"
+      }
+    },
+    {
+      "slug": "200707211900",
+      "type": "concert",
+      "path": "Concerts/2007/200707211900 Concert - Metropolitan Youth Symphony (China Tour - Shanghai).md",
+      "title": "200707211900 Concert - Metropolitan Youth Symphony (China Tour - Shanghai)",
+      "content": "",
+      "frontmatter": {
+        "date": "2007-07-21T19:00:00.000Z",
+        "group": "Metropolitan Youth Symphony",
+        "works": [
+          "Brahms - Hungarian Dance No. 1",
+          "Brahms - Hungarian Dance No. 5",
+          "Brahms - Hungarian Dance No. 6",
+          "Coates - Joyous Youth Suite",
+          "Sibelius - Finlandia",
+          "Mozart - Sinfonia Concertante for Violin and Viola",
+          "Badelt - Pirates of the Caribbean",
+          "Bach - Fugue in G Minor"
+        ],
+        "conductor": [
+          "Lajos Balogh"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Shanghai Conservatory of Music (上海⾳乐学院)",
+        "season": "2006-2007"
+      }
+    },
+    {
       "slug": "200711161930",
       "type": "concert",
       "path": "Concerts/2007/200711161930 Concert - Chehalem Symphony Orchestra.md",
@@ -2501,7 +2609,7 @@
       "title": "Bach, Johann Sebastian",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 5
     },
     {
       "slug": "badelt-klaus",
@@ -2510,7 +2618,7 @@
       "title": "Badelt, Klaus",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 5
     },
     {
       "slug": "barber-samuel",
@@ -2636,7 +2744,7 @@
       "title": "Brahms, Johannes",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 13
+      "concertCount": 17
     },
     {
       "slug": "bridge-frank",
@@ -2699,7 +2807,7 @@
       "title": "Coates, Eric",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 5
     },
     {
       "slug": "coleman-valerie",
@@ -3167,7 +3275,7 @@
       "title": "Mozart, Wolfgang Amadeus",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 15
+      "concertCount": 19
     },
     {
       "slug": "mussorgsky-modest",
@@ -3410,7 +3518,7 @@
       "title": "Sibelius, Jean",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 12
+      "concertCount": 16
     },
     {
       "slug": "silvestri-alan",
@@ -3808,7 +3916,7 @@
       "title": "Lajos Balogh",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 12
+      "concertCount": 16
     },
     {
       "slug": "nick-armstrong",
@@ -4017,7 +4125,7 @@
         "location": "Portland, Oregon",
         "slug": "mys"
       },
-      "concertCount": 13
+      "concertCount": 17
     },
     {
       "slug": "new-school",
@@ -4161,6 +4269,17 @@
         "coordinates": "44.04060627229427, -123.07840933069025"
       },
       "concertCount": 5
+    },
+    {
+      "slug": "beijing-theater",
+      "type": "venue",
+      "path": "Venues/Beijing Theater (北京剧院).md",
+      "title": "Beijing Theater (北京剧院)",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "39.991084718726924, 116.40858158067547"
+      },
+      "concertCount": 1
     },
     {
       "slug": "broadway-presbyterian-church",
@@ -4317,6 +4436,17 @@
       "concertCount": 1
     },
     {
+      "slug": "red-star-theater",
+      "type": "venue",
+      "path": "Venues/Red Star Theater (杭州紅星刷院).md",
+      "title": "Red Star Theater (杭州紅星刷院)",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "30.243735445014266, 120.17894065111561"
+      },
+      "concertCount": 1
+    },
+    {
       "slug": "roulette",
       "type": "venue",
       "path": "Venues/Roulette.md",
@@ -4346,6 +4476,17 @@
       "content": "",
       "frontmatter": {
         "coordinates": "40.7364142786547, -74.00207533777161"
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "shanghai-conservatory-of-music",
+      "type": "venue",
+      "path": "Venues/Shanghai Conservatory of Music (上海⾳乐学院).md",
+      "title": "Shanghai Conservatory of Music (上海⾳乐学院)",
+      "content": "He Luting Concert Hall (贺绿汀音乐厅)",
+      "frontmatter": {
+        "coordinates": "31.21349732388623, 121.45416340720176"
       },
       "concertCount": 1
     },
@@ -4469,6 +4610,17 @@
         "coordinates": "40.73562193587602, -73.98689945662588"
       },
       "concertCount": 3
+    },
+    {
+      "slug": "xincheng-theatre",
+      "type": "venue",
+      "path": "Venues/Xincheng Theatre (西安新城剧场).md",
+      "title": "Xincheng Theatre (西安新城剧场)",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "34.26364694250108, 108.9531390282412"
+      },
+      "concertCount": 1
     }
   ],
   "work": [
@@ -4581,6 +4733,18 @@
       "concertCount": 1
     },
     {
+      "slug": "bach-fugue-in-g-minor",
+      "type": "work",
+      "path": "Works/Bach - Fugue in G Minor.md",
+      "title": "Bach - Fugue in G Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bach, Johann Sebastian",
+        "opus": "BWV 578"
+      },
+      "concertCount": 4
+    },
+    {
       "slug": "bach-toccata-and-fugue-in-d-minor",
       "type": "work",
       "path": "Works/Bach - Toccata and Fugue in D Minor.md",
@@ -4602,7 +4766,7 @@
         "composer": "Badelt, Klaus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 5
     },
     {
       "slug": "barber-adagio-for-strings",
@@ -4917,6 +5081,18 @@
       "concertCount": 3
     },
     {
+      "slug": "brahms-hungarian-dance-no-1",
+      "type": "work",
+      "path": "Works/Brahms - Hungarian Dance No. 1.md",
+      "title": "Brahms - Hungarian Dance No. 1",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes",
+        "opus": ""
+      },
+      "concertCount": 4
+    },
+    {
       "slug": "brahms-hungarian-dance-no-5",
       "type": "work",
       "path": "Works/Brahms - Hungarian Dance No. 5.md",
@@ -4926,7 +5102,7 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 6
     },
     {
       "slug": "brahms-hungarian-dance-no-6",
@@ -4938,7 +5114,7 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 6
     },
     {
       "slug": "brahms-hungarian-dance-no-7",
@@ -5106,7 +5282,7 @@
         "composer": "Coates, Eric",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 5
     },
     {
       "slug": "coleman-seven-o-clock-shout",
@@ -6270,7 +6446,7 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 7
     },
     {
       "slug": "mozart-symphony-no-31",
@@ -6858,7 +7034,7 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 5
     },
     {
       "slug": "sibelius-karelia-suite",
@@ -7746,7 +7922,11 @@
         "200612011930",
         "200703021930",
         "200705301900",
-        "200706101500"
+        "200706101500",
+        "200707131900",
+        "200707151900",
+        "200707171900",
+        "200707211900"
       ],
       "workSlugs": [
         "beethoven-string-quartet-no-4-in-c-minor",
@@ -7762,7 +7942,13 @@
         "corelli-violin-sonata-in-g-major-op-4-no-10",
         "coates-joyous-youth-suite",
         "elgar-cello-concerto-in-e-minor",
-        "sibelius-finlandia"
+        "sibelius-finlandia",
+        "brahms-hungarian-dance-no-1",
+        "brahms-hungarian-dance-no-5",
+        "brahms-hungarian-dance-no-6",
+        "mozart-sinfonia-concertante-for-violin-and-viola",
+        "badelt-pirates-of-the-caribbean",
+        "bach-fugue-in-g-minor"
       ]
     },
     {
