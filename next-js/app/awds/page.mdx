@@ -23,7 +23,7 @@ import {
   sampleSeason,
   sampleSeasonNoConcerts,
 } from "./components/sampleData.ts";
-import { Navigation } from "@music/components/Navigation";
+import { Breadcrumbs } from "@music/components/Breadcrumbs";
 import { Suspense } from "react";
 
 export const metadata = { title: "AWDS" };
@@ -303,10 +303,32 @@ The Filters component provides a multi-select dropdown for filtering concerts by
 
 ---
 
-## Navigation
+## Breadcrumbs
 
-This component provides navigation links to different sections of the music database, showing the count of items in each section.
+This component provides navigation breadcrumbs showing the current location in the music section.
 
 <ComponentWrapper>
-  <Navigation />
+  <div className="grid gap-4">
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">"Index" page examples</label>
+      <Breadcrumbs path="/music/concerts" />
+      <Breadcrumbs path="/music/works" />
+      <Breadcrumbs path="/music/venues" />
+      <Breadcrumbs path="/music/conductors" />
+      <Breadcrumbs path="/music/composers" />
+      <Breadcrumbs path="/music/groups" />
+      <Breadcrumbs path="/music/seasons" />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">"Detail" page examples</label>
+      <Breadcrumbs path="/music/concerts/202411171500" />
+      <Breadcrumbs path="/music/works/debussy-la-mer" />
+      <Breadcrumbs path="/music/venues/brooklyn-museum" />
+      <Breadcrumbs path="/music/conductors/barbara-yahr" />
+      <Breadcrumbs path="/music/composers/mahler-gustav" />
+      <Breadcrumbs path="/music/groups/gvo" />
+      <Breadcrumbs path="/music/seasons/2024-2025" />
+    </div>
+  </div>
 </ComponentWrapper>

@@ -1,4 +1,4 @@
-import { Navigation } from "./components/Navigation";
+import { Breadcrumbs } from "./components/Breadcrumbs";
 
 export default function MusicLayout({
   children,
@@ -6,8 +6,8 @@ export default function MusicLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="py-4 flex flex-col gap-8">
-      <Navigation />
+    <div className="py-4 flex flex-col gap-6">
+      <Breadcrumbs />
       {children}
     </div>
   );
