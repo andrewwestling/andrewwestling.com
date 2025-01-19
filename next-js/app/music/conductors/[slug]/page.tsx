@@ -11,12 +11,18 @@ export default function ConductorPage({ params }: PageProps) {
   }
 
   // Find all concerts for this conductor
-  const concerts = database.concert.filter((c) => {
-    const conductors = Array.isArray(c.frontmatter.conductor)
-      ? c.frontmatter.conductor
-      : [c.frontmatter.conductor];
-    return conductors.includes(conductor.title);
-  });
+  const concerts = database.concert
+    .filter((c) => {
+      const conductors = Array.isArray(c.frontmatter.conductor)
+        ? c.frontmatter.conductor
+        : [c.frontmatter.conductor];
+      return conductors.includes(conductor.title);
+    })
+    .sort(
+      (a, b) =>
+        new Date(b.frontmatter.date).getTime() -
+        new Date(a.frontmatter.date).getTime()
+    );
 
   return (
     <article>
