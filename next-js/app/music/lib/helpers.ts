@@ -101,16 +101,6 @@ export function isUpcoming(date: string): boolean {
   return new Date(date) >= new Date();
 }
 
-// Helper to sort seasons in descending order
-export function sortSeasons<T extends { title: string }>(seasons: T[]): T[] {
-  return [...seasons].sort((a, b) => {
-    // Extract the year from the season title (assuming format like "2023-2024")
-    const yearA = parseInt(a.title.split("-")[1] || a.title);
-    const yearB = parseInt(b.title.split("-")[1] || b.title);
-    return yearB - yearA; // Sort descending
-  });
-}
-
 export function getCurrentSeasonYear(): number {
   const now = new Date();
   const year = now.getFullYear();

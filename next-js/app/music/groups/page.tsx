@@ -17,6 +17,9 @@ export default function GroupsPage() {
         group.frontmatter.location,
         `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
       ].filter((stat): stat is string => stat !== undefined),
+      sortableFields: {
+        concerts: concerts.length,
+      },
     };
   });
 

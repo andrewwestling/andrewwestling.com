@@ -13,6 +13,9 @@ export default async function VenuesPage() {
       locationMap[venue.slug],
       `${venue.concertCount} concert${venue.concertCount !== 1 ? "s" : ""}`,
     ].filter((stat): stat is string => stat !== null),
+    sortableFields: {
+      concerts: venue.concertCount,
+    },
   }));
 
   return <IndexPage title="Venues" items={items} />;

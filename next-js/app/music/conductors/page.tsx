@@ -12,6 +12,9 @@ export default function ConductorsPage() {
         conductor.concertCount !== 1 ? "s" : ""
       }`,
     ],
+    sortableFields: {
+      concerts: conductor.concertCount,
+    },
   }));
 
   return <IndexPage title="Conductors" items={items} />;

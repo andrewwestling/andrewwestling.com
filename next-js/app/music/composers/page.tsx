@@ -7,11 +7,29 @@ export default function ComposersPage() {
     const works = database.work.filter(
       (w) => w.frontmatter.composer === composer.title
     );
+
+    // Find all concerts that include any of this composer's works
+    const concerts = database.concert.filter((concert) => {
+      const concertWorks = concert.frontmatter.works
+        ? Array.isArray(concert.frontmatter.works)
+          ? concert.frontmatter.works
+          : [concert.frontmatter.works]
+        : [];
+      return works.some((work) => concertWorks.includes(work.title));
+    });
+
     return {
       slug: composer.slug,
       title: composer.title,
       href: routes.composers.show(composer.slug),
-      stats: [`${works.length} work${works.length !== 1 ? "s" : ""}`],
+      stats: [
+        `${works.length} work${works.length !== 1 ? "s" : ""}`,
+        `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
+      ],
+      sortableFields: {
+        concerts: concerts.length,
+        works: works.length,
+      },
     };
   });
 
