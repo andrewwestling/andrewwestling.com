@@ -38,7 +38,7 @@ export default async function HomePage() {
     : [];
 
   return (
-    <div className="grid gap-8">
+    <div className="grid gap-6">
       <QuickLinks />
       {/* Up Next */}
       {upcomingConcerts.length > 0 && (
@@ -46,7 +46,7 @@ export default async function HomePage() {
           <h1 className="text-2xl font-semibold mb-4">Up Next</h1>
           <div className="grid gap-4">
             {upcomingConcerts.slice(0, 2).map((concert) => (
-              <ConcertListItem key={concert.slug} concert={concert} />
+              <ConcertListItem key={concert.slug} concert={concert} expanded />
             ))}
           </div>
         </section>
