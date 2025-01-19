@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { getDateForSorting } from "../../lib/helpers";
 
 export default function ConductorPage({ params }: PageProps) {
   const conductor = database.conductor.find((c) => c.slug === params.slug);
@@ -18,11 +19,11 @@ export default function ConductorPage({ params }: PageProps) {
         : [c.frontmatter.conductor];
       return conductors.includes(conductor.title);
     })
-    .sort(
-      (a, b) =>
-        new Date(b.frontmatter.date).getTime() -
-        new Date(a.frontmatter.date).getTime()
-    );
+    .sort((a, b) => {
+      const dateA = getDateForSorting(a.frontmatter.date);
+      const dateB = getDateForSorting(b.frontmatter.date);
+      return dateB - dateA; // Sort descending (newest first)
+    });
 
   return (
     <article>

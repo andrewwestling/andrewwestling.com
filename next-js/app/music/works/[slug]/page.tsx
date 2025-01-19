@@ -4,6 +4,7 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { getDateForSorting } from "../../lib/helpers";
 
 export default function WorkPage({ params }: PageProps) {
   const work = database.work.find(
@@ -20,14 +21,20 @@ export default function WorkPage({ params }: PageProps) {
   );
 
   // Find all concerts featuring this work
-  const concerts = database.concert.filter((c) => {
-    const works = c.frontmatter.works
-      ? Array.isArray(c.frontmatter.works)
-        ? c.frontmatter.works
-        : [c.frontmatter.works]
-      : [];
-    return works.includes(work.title);
-  });
+  const concerts = database.concert
+    .filter((c) => {
+      const works = c.frontmatter.works
+        ? Array.isArray(c.frontmatter.works)
+          ? c.frontmatter.works
+          : [c.frontmatter.works]
+        : [];
+      return works.includes(work.title);
+    })
+    .sort((a, b) => {
+      const dateA = getDateForSorting(a.frontmatter.date);
+      const dateB = getDateForSorting(b.frontmatter.date);
+      return dateB - dateA; // Sort descending (newest first)
+    });
 
   return (
     <article>

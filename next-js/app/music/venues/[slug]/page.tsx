@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
+import { getDateForSorting } from "../../lib/helpers";
 
 // Import the map component dynamically to avoid SSR issues
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
@@ -22,11 +23,11 @@ export default async function VenuePage({ params }: PageProps) {
     .filter(
       (c) => !c.frontmatter.didNotPlay && c.frontmatter.venue === venue.title
     )
-    .sort(
-      (a, b) =>
-        new Date(b.frontmatter.date).getTime() -
-        new Date(a.frontmatter.date).getTime()
-    );
+    .sort((a, b) => {
+      const dateA = getDateForSorting(a.frontmatter.date);
+      const dateB = getDateForSorting(b.frontmatter.date);
+      return dateB - dateA; // Sort descending (newest first)
+    });
 
   return (
     <div className="grid gap-8">
