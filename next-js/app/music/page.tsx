@@ -8,9 +8,9 @@ export default async function HomePage() {
   return (
     <div className="grid gap-8">
       <section>
-        <h1 className="text-2xl font-semibold">Andrew's Music Archive</h1>
+        <h1 className="text-2xl font-semibold">{`Andrew's Music Archive`}</h1>
         <label className="text-sm text-muted italic">
-          "Probably every concert and work I've ever performed"
+          {`"Probably every concert and work I've ever performed"`}
         </label>
       </section>
 
