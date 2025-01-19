@@ -2,12 +2,8 @@
 
 import NextLink from "next/link";
 import NextImage from "next/image";
-import { usePathname } from "next/navigation";
 
 export const Header = () => {
-  const pathname = usePathname();
-  const isMusicPage = pathname?.startsWith("/music");
-
   return (
     <header
       role="banner"
@@ -28,14 +24,6 @@ export const Header = () => {
             <NextLink href="/" className="hover:text-primary">
               andrewwestling.com
             </NextLink>
-            {isMusicPage && (
-              <>
-                <span className="text-muted mx-2">/</span>
-                <NextLink href="/music" className="hover:text-primary">
-                  music
-                </NextLink>
-              </>
-            )}
           </div>
         </div>
       </div>
