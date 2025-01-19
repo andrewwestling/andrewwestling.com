@@ -253,9 +253,12 @@ This is a generic list item component used throughout the music section to displ
 
 This is a layout component used for index/listing pages throughout the music section. It displays a title and a list of items using the ListItem component.
 
+If the items have sortable fields, it will display a sort dropdown.
+
 <ComponentWrapper>
+  <div className="flex flex-col gap-12">
   <div className="flex flex-col gap-2">
-    <label className="text-xs text-muted">Example</label>
+    <label className="text-xs text-muted">Example (no sortable fields)</label>
     <Suspense>
       <IndexPage
         title="Groups"
@@ -275,6 +278,36 @@ This is a layout component used for index/listing pages throughout the music sec
         ]}
       />
     </Suspense>
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Example (with sortable fields)</label>
+      <Suspense>
+        <IndexPage
+          title="Groups"
+          items={[
+            {
+              slug: "bso",
+              title: "Brooklyn Symphony Orchestra",
+              href: "/music/groups/bso",
+              stats: ["Brooklyn, New York", "12 concerts"],
+              sortableFields: {
+                concerts: 12,
+              },
+            },
+            {
+              slug: "gvo",
+              title: "Greenwich Village Orchestra",
+              href: "/music/groups/gvo",
+              stats: ["Manhattan, New York", "10 concerts"],
+              sortableFields: {
+                concerts: 10,
+              },
+            },
+          ]}
+        />
+      </Suspense>
+    </div>
   </div>
 </ComponentWrapper>
 
@@ -302,9 +335,7 @@ This badge is used to indicate upcoming concerts.
 
 ---
 
-## Maps
-
-### VenueMap
+## VenueMap
 
 export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
@@ -322,8 +353,6 @@ The VenueMap component displays an interactive map centered on a venue's locatio
 ---
 
 ## Filters
-
-### Filters
 
 The Filters component provides a multi-select dropdown for filtering concerts by various criteria.
 
