@@ -2,6 +2,7 @@ import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { ListItem } from "@music/components/ListItem";
 import { Filters } from "@music/components/Filters";
+import { formatWorkTitle } from "../lib/helpers";
 
 export default function WorksPage({
   searchParams,
@@ -74,7 +75,7 @@ export default function WorksPage({
           return (
             <ListItem
               key={work.slug}
-              title={work.title}
+              title={formatWorkTitle(work.title)}
               href={routes.works.show(work.slug)}
               stats={[
                 composer && `by ${composer.title}`,

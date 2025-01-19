@@ -4,7 +4,7 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { getDateForSorting } from "../../lib/helpers";
+import { getDateForSorting, formatWorkTitle } from "../../lib/helpers";
 
 export default function WorkPage({ params }: PageProps) {
   const work = database.work.find(
@@ -38,7 +38,7 @@ export default function WorkPage({ params }: PageProps) {
 
   return (
     <article>
-      <h1 className="text-2xl font-bold mb-4">{work.title}</h1>
+      <h1 className="text-2xl font-bold mb-4">{formatWorkTitle(work.title)}</h1>
 
       {composer && (
         <p className="text-lg mb-6">

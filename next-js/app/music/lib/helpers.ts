@@ -112,6 +112,16 @@ export function getCurrentSeasonYear(): number {
   return year;
 }
 
+// Helper to format work titles by removing composer prefix
+export function formatWorkTitle(title: string): string {
+  // Look for the first " - " that separates composer from work title
+  const composerSeparatorIndex = title.indexOf(" - ");
+  if (composerSeparatorIndex === -1) return title;
+
+  // Return everything after the first dash
+  return title.slice(composerSeparatorIndex + 3).trim();
+}
+
 export function getCurrentSeasonSlug(seasons: any[]): string | null {
   const currentYear = getCurrentSeasonYear();
   const expectedSeasonTitle = `${currentYear}-${currentYear + 1}`;

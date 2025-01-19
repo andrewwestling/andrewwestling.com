@@ -26,7 +26,7 @@ export interface Venue extends BaseItem {
 export interface ConcertFrontmatter {
   date: string;
   group: string;
-  works: string | string[] | null;
+  works: string[] | null;
   conductor: string | string[] | null;
   spotifyPlaylistUrl: string | null;
   venue?: string | null;

@@ -5,6 +5,7 @@ import {
   formatDate,
   findConductorSlug,
   formatConcertTitle,
+  formatWorkTitle,
 } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { DidNotPlay } from "@music/components/DidNotPlay";
@@ -13,6 +14,8 @@ import {
   findVenueFromFrontmatter,
 } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
+import type { Work } from "@music/lib/types";
+import { ListItem } from "../../components/ListItem";
 
 export default async function ConcertPage({ params }: PageProps) {
   // Find concert by matching the date portion of the slug
@@ -37,14 +40,10 @@ export default async function ConcertPage({ params }: PageProps) {
     : [];
 
   // Find the referenced works
-  const works = concert.frontmatter.works
-    ? Array.isArray(concert.frontmatter.works)
-      ? concert.frontmatter.works
-      : [concert.frontmatter.works]
-    : [];
-  const workObjects = works
-    .map((workTitle) => database.work.find((w) => w.title === workTitle))
-    .filter(Boolean);
+  const works: string[] = concert.frontmatter.works || [];
+  const workObjects = works.map((workTitle: string) =>
+    database.work.find((w) => w.title === workTitle)
+  );
 
   // Get venue location if available
   const locationMap = await getLocationsForVenues(database.venue);
@@ -120,10 +119,15 @@ export default async function ConcertPage({ params }: PageProps) {
           <h2 className="text-lg font-semibold mb-2">Program</h2>
           <ul className="list-disc list-inside">
             {workObjects.map((work) => (
-              <li key={work?.slug}>
-                <Link href={routes.works.show(work?.slug || "")}>
-                  {work?.title}
-                </Link>
+              <li key={work.slug}>
+                <ListItem
+                  title={formatWorkTitle(work.title)}
+                  href={routes.works.show(work.slug)}
+                  stats={[
+                    work.frontmatter.composer &&
+                      `by ${work.frontmatter.composer}`,
+                  ]}
+                />
               </li>
             ))}
           </ul>

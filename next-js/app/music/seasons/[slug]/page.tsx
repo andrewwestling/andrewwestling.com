@@ -4,6 +4,7 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { formatWorkTitle } from "../../lib/helpers";
 
 export default function SeasonPage({ params }: PageProps) {
   const season = database.season.find((s) => s.slug === params.slug);
@@ -52,7 +53,7 @@ export default function SeasonPage({ params }: PageProps) {
                       href={routes.works.show(work.slug)}
                       className="font-medium"
                     >
-                      {work.title}
+                      {formatWorkTitle(work.title)}
                     </Link>
                     {work.frontmatter.composer && (
                       <span className="text-muted ml-2">

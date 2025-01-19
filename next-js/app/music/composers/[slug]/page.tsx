@@ -3,6 +3,7 @@ import Link from "next/link";
 import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
+import { formatWorkTitle } from "../../lib/helpers";
 
 export default function ComposerPage({ params }: PageProps) {
   const composer = database.composer.find(
@@ -28,7 +29,9 @@ export default function ComposerPage({ params }: PageProps) {
           <div className="grid gap-4">
             {works.map((work) => (
               <div key={work.slug}>
-                <Link href={routes.works.show(work.slug)}>{work.title}</Link>
+                <Link href={routes.works.show(work.slug)}>
+                  {formatWorkTitle(work.title)}
+                </Link>
               </div>
             ))}
           </div>
