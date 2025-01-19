@@ -43,7 +43,7 @@ export default async function ConcertPage({ params }: PageProps) {
   const works: string[] = concert.frontmatter.works || [];
   const workObjects = works.map((workTitle: string) =>
     database.work.find((w) => w.title === workTitle)
-  );
+  ) as Work[];
 
   // Get venue location if available
   const locationMap = await getLocationsForVenues(database.venue);
