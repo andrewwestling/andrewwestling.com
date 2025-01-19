@@ -95,6 +95,11 @@ async function readVaultDirectory(
     const entries = await fs.readdir(dirPath, { withFileTypes: true });
 
     for (const entry of entries) {
+      // Skip files/directories that start with underscore (e.g. _index.md)
+      if (entry.name.startsWith("_")) {
+        continue;
+      }
+
       if (entry.isDirectory()) {
         // Recursively read subdirectories
         const subObjects = await readVaultDirectory(
