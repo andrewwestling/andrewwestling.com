@@ -2,6 +2,7 @@ const BASE_PATH = "/music";
 
 export const routes = {
   home: () => BASE_PATH,
+  upcoming: () => `${BASE_PATH}/upcoming`,
   concerts: {
     index: () => `${BASE_PATH}/concerts`,
     show: (slug: string) => `${BASE_PATH}/concerts/${slug}`,
