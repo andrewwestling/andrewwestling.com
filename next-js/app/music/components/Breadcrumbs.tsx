@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { routes } from "@music/lib/routes";
 import database from "@music/data/database";
+import { formatConcertTitle, formatDate } from "../lib/helpers";
 
 interface BreadcrumbsProps {
   path?: string;
@@ -46,7 +47,7 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
     switch (parentSection) {
       case "concerts":
         const concert = database.concert.find((c) => c.slug === slug);
-        if (concert) label = concert.title;
+        if (concert) label = formatDate(concert.frontmatter.date);
         break;
       case "works":
         const work = database.work.find((w) => w.slug === slug);
