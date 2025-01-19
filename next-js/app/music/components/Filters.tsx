@@ -4,7 +4,12 @@ import { useSearchParams } from "next/navigation";
 import Select, { StylesConfig } from "react-select";
 import { useFilters } from "@music/hooks/useFilters";
 
-export type FilterFacetId = "group" | "season" | "conductor" | "venue";
+export type FilterFacetId =
+  | "group"
+  | "season"
+  | "conductor"
+  | "venue"
+  | "composer";
 
 interface FilterOption {
   label: string;
@@ -117,7 +122,7 @@ const selectStyles: StylesConfig<SelectOption, true> = {
 };
 
 export function Filters({
-  facets = ["group", "season", "conductor", "venue"],
+  facets = ["group", "season", "conductor", "venue", "composer"],
   updateUrl = true,
   initialFilters = {},
   onFiltersChange,

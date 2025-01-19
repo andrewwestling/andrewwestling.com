@@ -67,6 +67,30 @@ export default async function ConcertsPage({
     }
   }
 
+  // Add composer filtering
+  if (searchParams.composer) {
+    const composer = database.composer.find(
+      (c) => c.slug === searchParams.composer
+    );
+    if (composer) {
+      concerts = concerts.filter((concert) => {
+        const works = concert.frontmatter.works
+          ? Array.isArray(concert.frontmatter.works)
+            ? concert.frontmatter.works
+            : [concert.frontmatter.works]
+          : [];
+
+        // Find works by this composer in the concert
+        const composerWorks = database.work.filter(
+          (work) => work.frontmatter.composer === composer.title
+        );
+
+        // Check if any of the composer's works are in this concert
+        return composerWorks.some((work) => works.includes(work.title));
+      });
+    }
+  }
+
   // Sort concerts by date
   concerts.sort((a, b) => {
     const dateA = getDateForSorting(a.frontmatter.date);

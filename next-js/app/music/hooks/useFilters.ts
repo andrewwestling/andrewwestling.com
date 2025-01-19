@@ -5,7 +5,7 @@ import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
 import type { FilterFacetId } from "@music/components/Filters";
 
 export function useFilters({
-  facets = ["group", "season", "conductor", "venue"],
+  facets = ["group", "season", "conductor", "venue", "composer"],
   updateUrl = true,
   initialFilters = {},
   onFiltersChange,
@@ -71,6 +71,30 @@ export function useFilters({
         concerts = concerts.filter(
           (concert) => concert.frontmatter.venue === venue.title
         );
+      }
+    }
+
+    // Add composer filtering
+    if (params.get("composer")) {
+      const composer = database.composer.find(
+        (c) => c.slug === params.get("composer")
+      );
+      if (composer) {
+        concerts = concerts.filter((concert) => {
+          const works = concert.frontmatter.works
+            ? Array.isArray(concert.frontmatter.works)
+              ? concert.frontmatter.works
+              : [concert.frontmatter.works]
+            : [];
+
+          // Find works by this composer in the concert
+          const composerWorks = database.work.filter(
+            (work) => work.frontmatter.composer === composer.title
+          );
+
+          // Check if any of the composer's works are in this concert
+          return composerWorks.some((work) => works.includes(work.title));
+        });
       }
     }
 
@@ -175,6 +199,54 @@ export function useFilters({
             count: filteredConcerts.filter(
               (c) => c.frontmatter.venue === venue.title
             ).length,
+          })),
+      },
+      {
+        id: "composer",
+        label: "Composer",
+        options: database.composer
+          .filter((composer) => {
+            // If a composer is already selected, only show that composer
+            const selectedComposer = params.get("composer");
+            if (selectedComposer) {
+              return composer.slug === selectedComposer;
+            }
+
+            // Find works by this composer
+            const composerWorks = database.work.filter(
+              (work) => work.frontmatter.composer === composer.title
+            );
+
+            // Check if any of the composer's works are in the filtered concerts
+            return composerWorks.some((work) =>
+              filteredConcerts.some((concert) => {
+                const works = concert.frontmatter.works
+                  ? Array.isArray(concert.frontmatter.works)
+                    ? concert.frontmatter.works
+                    : [concert.frontmatter.works]
+                  : [];
+                return works.includes(work.title);
+              })
+            );
+          })
+          .map((composer) => ({
+            label: composer.title,
+            value: composer.slug,
+            count: filteredConcerts.filter((concert) => {
+              const works = concert.frontmatter.works
+                ? Array.isArray(concert.frontmatter.works)
+                  ? concert.frontmatter.works
+                  : [concert.frontmatter.works]
+                : [];
+
+              // Find works by this composer
+              const composerWorks = database.work.filter(
+                (work) => work.frontmatter.composer === composer.title
+              );
+
+              // Check if any of the composer's works are in this concert
+              return composerWorks.some((work) => works.includes(work.title));
+            }).length,
           })),
       },
     ];

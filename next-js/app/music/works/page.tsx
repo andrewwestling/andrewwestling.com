@@ -1,14 +1,61 @@
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { ListItem } from "@music/components/ListItem";
+import { Filters } from "@music/components/Filters";
 
-export default function WorksPage() {
+export default function WorksPage({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | undefined };
+}) {
+  let works = [...database.work];
+
+  // Apply filters from searchParams
+  if (searchParams.season) {
+    const season = database.season.find((s) => s.slug === searchParams.season);
+    if (season) {
+      works = works.filter((work) => {
+        // Find concerts in this season that include this work
+        const concertsInSeason = database.concert.filter(
+          (concert) =>
+            concert.frontmatter.season === season.title &&
+            (concert.frontmatter.works
+              ? (Array.isArray(concert.frontmatter.works)
+                  ? concert.frontmatter.works
+                  : [concert.frontmatter.works]
+                ).includes(work.title)
+              : false)
+        );
+
+        // Keep the work if it was played in any concerts in this season
+        return concertsInSeason.length > 0;
+      });
+    }
+  }
+
+  // Apply composer filter
+  if (searchParams.composer) {
+    const composer = database.composer.find(
+      (c) => c.slug === searchParams.composer
+    );
+    if (composer) {
+      works = works.filter(
+        (work) => work.frontmatter.composer === composer.title
+      );
+    }
+  }
+
   return (
     <div>
       <h1 className="text-2xl font-bold mb-6">Works</h1>
 
+      <Filters
+        initialFilters={searchParams as Record<string, string>}
+        facets={["season", "composer"]}
+      />
+
       <div className="grid gap-4">
-        {database.work.map((work) => {
+        {works.map((work) => {
           // Find the composer
           const composer = database.composer.find(
             (c) => c.title === work.frontmatter.composer
