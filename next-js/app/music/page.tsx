@@ -152,16 +152,10 @@ export default async function HomePage({
       <section>
         <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
         <div className="grid gap-2">
-          <Link
-            href={routes.concerts.index()}
-            className="text-muted hover:text-text"
-          >
+          <Link className="w-fit" href={routes.concerts.index()}>
             All Concerts →
           </Link>
-          <Link
-            href={routes.works.index()}
-            className="text-muted hover:text-text"
-          >
+          <Link className="w-fit" href={routes.works.index()}>
             All Works →
           </Link>
         </div>

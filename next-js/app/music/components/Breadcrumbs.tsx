@@ -88,9 +88,7 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
           {i === crumbs.length - 1 ? (
             <span className="font-medium">{crumb.label}</span>
           ) : (
-            <Link href={crumb.href} className="text-muted hover:text-text">
-              {crumb.label}
-            </Link>
+            <Link href={crumb.href}>{crumb.label}</Link>
           )}
         </span>
       ))}
