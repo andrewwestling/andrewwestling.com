@@ -84,7 +84,7 @@ export default async function ConcertPage({ params }: PageProps) {
               <dd>
                 <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
                 {location && (
-                  <span className="text-muted ml-2">({location})</span>
+                  <span className="text-muted text-sm ml-2">({location})</span>
                 )}
               </dd>
             </>

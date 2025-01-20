@@ -44,7 +44,7 @@ export async function ConcertListItem({
           <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
           <ConcertBadges concert={concert} />
         </h3>
-        <p className="text-muted">{formattedDate}</p>
+        <p className="text-muted text-sm">{formattedDate}</p>
       </div>
     );
   }
@@ -73,7 +73,7 @@ export async function ConcertListItem({
             <dd>
               <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
               {venue.frontmatter.coordinates && (
-                <span className="text-muted ml-2">
+                <span className="text-muted text-sm ml-2">
                   (
                   {await getLocationFromCoordinates(
                     venue.frontmatter.coordinates
