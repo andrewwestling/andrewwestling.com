@@ -130,11 +130,6 @@ export function useFilters({
         id: "season",
         label: "Season",
         options: [
-          {
-            label: "Current Season",
-            value: "current",
-            count: getCurrentSeasonSlug(database.season) ? undefined : 0,
-          },
           ...database.season
             .filter((season) => {
               if (params.get("season") === season.slug) return true;
@@ -263,14 +258,7 @@ export function useFilters({
     // Add new filter params
     newValue.forEach((option) => {
       const [type, value] = option.value.split(":");
-      if (type === "season" && value === "current") {
-        const currentSeasonSlug = getCurrentSeasonSlug(database.season);
-        if (currentSeasonSlug) {
-          params.set(type, currentSeasonSlug);
-        }
-      } else {
-        params.set(type, value);
-      }
+      params.set(type, value);
     });
 
     if (updateUrl) {
