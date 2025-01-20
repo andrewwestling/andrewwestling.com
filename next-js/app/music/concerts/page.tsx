@@ -106,11 +106,7 @@ export default async function ConcertsPage({
 
       <div className="grid gap-6">
         {concerts.map((concert) => (
-          <ConcertListItem
-            key={concert.slug}
-            concert={concert}
-            expanded={true}
-          />
+          <ConcertListItem key={concert.slug} concert={concert} />
         ))}
       </div>
     </div>
