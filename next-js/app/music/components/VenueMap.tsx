@@ -139,8 +139,10 @@ export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
         <MapContainer
           center={[lat, lng]}
           zoom={14}
-          scrollWheelZoom={true}
+          scrollWheelZoom={false}
           zoomControl={false}
+          dragging={!L.Browser.mobile}
+          touchZoom={L.Browser.mobile}
           style={{ height: "100%", width: "100%" }}
         >
           <TileLayer
