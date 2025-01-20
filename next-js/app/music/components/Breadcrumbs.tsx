@@ -30,7 +30,11 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
 
     // Handle index pages
     if (i === 1) {
-      const section = segment.charAt(0).toUpperCase() + segment.slice(1);
+      const section = segment
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+
       crumbs.push({
         label: section,
         href: `${routes.home()}/${segment}`,

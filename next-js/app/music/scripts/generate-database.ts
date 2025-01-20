@@ -1,4 +1,5 @@
 import * as fs from "fs/promises";
+import * as fsSync from "fs";
 import * as path from "path";
 import matter from "gray-matter";
 import { Database, VaultObject, Work, Concert, Season } from "../lib/types";
@@ -262,6 +263,55 @@ function processSeasons(database: Database) {
   });
 }
 
+// Helper to process Bucket List
+function processBucketList(database: Database, vaultPath: string) {
+  // Read the Bucket List file
+  const bucketListPath = path.join(vaultPath, "Bucket List.md");
+
+  try {
+    const fileContent = fsSync.readFileSync(bucketListPath, "utf-8");
+    const { content } = matter(fileContent);
+
+    // Parse the content to find work titles, handling various formats
+    const bucketListWorks = content
+      .split("\n")
+      .map((line) => {
+        // Remove leading dash or bullet points
+        line = line.replace(/^[-*•]\s*/, "").trim();
+
+        // Extract title from wiki-link
+        const wikiLinkMatch = line.match(/\[\[(.*?)\]\]/);
+        if (wikiLinkMatch) {
+          // If it's a wiki-link, extract the title
+          return extractTitleFromWikiLink(wikiLinkMatch[0]);
+        }
+
+        // If it's a markdown link
+        const markdownLinkMatch = line.match(/\[([^\]]+)\]\([^\)]+\)/);
+        if (markdownLinkMatch) {
+          return markdownLinkMatch[1];
+        }
+
+        // If it's a plain text title
+        return line;
+      })
+      .filter((line) => line.length > 0);
+
+    // Mark works in the database as bucket list works
+    database.work.forEach((work) => {
+      work.bucketList = bucketListWorks.some((bucketWork) => {
+        // Try exact match first
+        if (work.title.toLowerCase() === bucketWork.toLowerCase()) return true;
+
+        // Then try partial match (useful for variations in titles)
+        return work.title.toLowerCase().includes(bucketWork.toLowerCase());
+      });
+    });
+  } catch (error) {
+    console.warn("Could not read Bucket List file:", error);
+  }
+}
+
 async function generateDatabase({
   vaultPath,
   includeDidNotPlay = false,
@@ -298,6 +348,7 @@ async function generateDatabase({
   // After loading all the files, calculate counts and process seasons
   calculateConcertCounts(database as unknown as Database); // TODO: Fix types here
   processSeasons(database as unknown as Database); // TODO: Fix types here
+  processBucketList(database as unknown as Database, vaultPath);
 
   const outputPath = path.resolve(__dirname, "../data/vault-data.json");
   await fs.mkdir(path.dirname(outputPath), { recursive: true });

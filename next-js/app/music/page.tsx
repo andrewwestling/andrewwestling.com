@@ -36,6 +36,10 @@ export default async function HomePage() {
         <Link className={linkClasses} href={routes.works.index()}>
           All Works
         </Link>
+        {/* Bucket List */}
+        <Link className={linkClasses} href={routes.bucketList()}>
+          Bucket List
+        </Link>
       </div>
     </div>
   );

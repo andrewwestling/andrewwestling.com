@@ -127,6 +127,7 @@ export default async function ConcertPage({ params }: PageProps) {
                     work.frontmatter.composer &&
                       `by ${work.frontmatter.composer}`,
                   ]}
+                  bucketList={work.bucketList}
                 />
               </li>
             ))}

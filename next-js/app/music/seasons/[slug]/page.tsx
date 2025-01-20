@@ -5,6 +5,7 @@ import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { formatWorkTitle } from "../../lib/helpers";
+import { ListItem } from "../../components/ListItem";
 
 export default function SeasonPage({ params }: PageProps) {
   const season = database.season.find((s) => s.slug === params.slug);
@@ -48,19 +49,13 @@ export default function SeasonPage({ params }: PageProps) {
             {works.map(
               (work) =>
                 work && (
-                  <div key={work.slug}>
-                    <Link
-                      href={routes.works.show(work.slug)}
-                      className="font-medium"
-                    >
-                      {formatWorkTitle(work.title)}
-                    </Link>
-                    {work.frontmatter.composer && (
-                      <span className="text-muted ml-2">
-                        by {work.frontmatter.composer}
-                      </span>
-                    )}
-                  </div>
+                  <ListItem
+                    key={work.slug}
+                    title={formatWorkTitle(work.title)}
+                    href={routes.works.show(work.slug)}
+                    stats={[]}
+                    bucketList={work.bucketList}
+                  />
                 )
             )}
           </div>

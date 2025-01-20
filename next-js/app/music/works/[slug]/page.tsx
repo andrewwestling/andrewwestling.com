@@ -5,6 +5,7 @@ import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getDateForSorting, formatWorkTitle } from "../../lib/helpers";
+import { BucketList } from "../../components/BucketList";
 
 export default function WorkPage({ params }: PageProps) {
   const work = database.work.find(
@@ -38,7 +39,10 @@ export default function WorkPage({ params }: PageProps) {
 
   return (
     <article>
-      <h1 className="text-2xl font-bold mb-4">{formatWorkTitle(work.title)}</h1>
+      <h1 className="text-2xl font-bold mb-4 flex gap-2 items-center">
+        {formatWorkTitle(work.title)}
+        {work.bucketList && <BucketList />}
+      </h1>
 
       {composer && (
         <p className="text-lg mb-6">

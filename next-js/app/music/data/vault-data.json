@@ -4634,7 +4634,8 @@
         "composer": "Adams, John",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "anderson-blue-tango",
@@ -4646,7 +4647,8 @@
         "composer": "Anderson, Leroy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "anderson-chicken-reel",
@@ -4658,7 +4660,8 @@
         "composer": "Anderson, Leroy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "anderson-christmas-festival",
@@ -4670,7 +4673,8 @@
         "composer": "Anderson, Leroy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "anderson-fiddle-faddle",
@@ -4682,7 +4686,8 @@
         "composer": "Anderson, Leroy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "anderson-plink-plank-plunk",
@@ -4694,7 +4699,8 @@
         "composer": "Anderson, Leroy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "anderson-sleigh-ride",
@@ -4706,7 +4712,8 @@
         "composer": "Anderson, Leroy",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "avshalomov-seasons-greetings",
@@ -4718,7 +4725,8 @@
         "composer": "Avshalomov, Jacob",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "bach-flute-concerto-in-a-major",
@@ -4730,7 +4738,8 @@
         "composer": "Bach, Carl Philipp Emanuel",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "bach-fugue-in-g-minor",
@@ -4742,7 +4751,8 @@
         "composer": "Bach, Johann Sebastian",
         "opus": "BWV 578"
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "bach-toccata-and-fugue-in-d-minor",
@@ -4754,7 +4764,8 @@
         "composer": "Bach, Johann Sebastian",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "badelt-pirates-of-the-caribbean",
@@ -4766,7 +4777,8 @@
         "composer": "Badelt, Klaus",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "barber-adagio-for-strings",
@@ -4778,7 +4790,8 @@
         "composer": "Barber, Samuel",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "barber-music-for-a-scene-from-shelley",
@@ -4790,7 +4803,8 @@
         "composer": "Barber, Samuel",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "barber-souvenirs",
@@ -4802,7 +4816,8 @@
         "composer": "Barber, Samuel",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "barber-violin-concerto",
@@ -4814,7 +4829,8 @@
         "composer": "Barber, Samuel",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "barry-dances-with-wolves",
@@ -4826,7 +4842,8 @@
         "composer": "Barry, John",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "bartok-concerto-for-orchestra",
@@ -4838,7 +4855,8 @@
         "composer": "Bartok, Bela",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "basulto-habanera-reggaeton",
@@ -4850,7 +4868,8 @@
         "composer": "Basulto, Alejandro",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "beethoven-egmont-overture",
@@ -4862,7 +4881,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": "84"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "beethoven-leonore-overture-no-3",
@@ -4874,7 +4894,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "beethoven-overture-to-fidelio",
@@ -4886,7 +4907,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": "72b"
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "beethoven-string-quartet-no-4-in-c-minor",
@@ -4898,7 +4920,21 @@
         "composer": "Beethoven, Ludwig van",
         "opus": "18"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "beethoven-symphony-no-3-in-e-flat-major",
+      "type": "work",
+      "path": "Works/Beethoven - Symphony No. 3 in E-Flat Major.md",
+      "title": "Beethoven - Symphony No. 3 in E-Flat Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Beethoven, Ludwig van",
+        "opus": "53"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "beethoven-symphony-no-5-in-c-minor",
@@ -4910,7 +4946,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "beethoven-symphony-no-6-in-f-major",
@@ -4922,7 +4959,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "beethoven-symphony-no-7-in-a-major",
@@ -4934,7 +4972,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "beethoven-symphony-no-8-in-f-major",
@@ -4946,7 +4985,8 @@
         "composer": "Beethoven, Ludwig van",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "berko-condense-eternity",
@@ -4958,7 +4998,8 @@
         "composer": "Berko, Alex",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "berlin-white-christmas",
@@ -4970,7 +5011,8 @@
         "composer": "Berlin, Irving",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "berlioz-roman-carnival-overture",
@@ -4982,7 +5024,21 @@
         "composer": "Berlioz, Hector",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "berlioz-symphonie-fantastique",
+      "type": "work",
+      "path": "Works/Berlioz - Symphonie Fantastique.md",
+      "title": "Berlioz - Symphonie Fantastique",
+      "content": "",
+      "frontmatter": {
+        "composer": "Berlioz, Hector",
+        "opus": "14"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "bernstein-overture-to-candide",
@@ -4994,7 +5050,8 @@
         "composer": "Bernstein, Leonard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "bizet-carmen-suite-no-1",
@@ -5006,7 +5063,8 @@
         "composer": "Bizet, Georges",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "bizet-carmen-suite-no-2",
@@ -5018,7 +5076,8 @@
         "composer": "Bizet, Georges",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "bizet-carmen",
@@ -5030,7 +5089,8 @@
         "composer": "Bizet, Georges",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "bizet-l-arlesienne-suite-no-1",
@@ -5042,7 +5102,21 @@
         "composer": "Bizet, Georges",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "bizet-symphony-in-c",
+      "type": "work",
+      "path": "Works/Bizet - Symphony in C.md",
+      "title": "Bizet - Symphony in C",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bizet, Georges",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "bock-fiddler-on-the-roof",
@@ -5054,7 +5128,8 @@
         "composer": "Bock, Jerry",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "borzoni-antinous-and-hadrian-suite",
@@ -5066,7 +5141,8 @@
         "composer": "Borzoni, Clint",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "brahms-academic-festival-overture",
@@ -5078,7 +5154,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "brahms-hungarian-dance-no-1",
@@ -5090,7 +5167,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "brahms-hungarian-dance-no-5",
@@ -5102,7 +5180,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 6
+      "concertCount": 6,
+      "bucketList": false
     },
     {
       "slug": "brahms-hungarian-dance-no-6",
@@ -5114,7 +5193,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 6
+      "concertCount": 6,
+      "bucketList": false
     },
     {
       "slug": "brahms-hungarian-dance-no-7",
@@ -5126,7 +5206,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "brahms-symphony-no-1-in-c-minor",
@@ -5138,7 +5219,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "brahms-symphony-no-2-in-d-major",
@@ -5150,7 +5232,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": true
     },
     {
       "slug": "brahms-symphony-no-3-in-f-major",
@@ -5162,7 +5245,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "brahms-symphony-no-4-in-e-minor",
@@ -5174,7 +5258,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "brahms-tragic-overture",
@@ -5186,7 +5271,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "brahms-variations-on-a-theme-by-haydn",
@@ -5198,7 +5284,8 @@
         "composer": "Brahms, Johannes",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "britten-simple-symphony",
@@ -5210,7 +5297,8 @@
         "composer": "Britten, Benjamin",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "bruch-hebrew-songs",
@@ -5222,7 +5310,8 @@
         "composer": "Bruch, Max",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "bruch-kol-nidrei",
@@ -5234,7 +5323,8 @@
         "composer": "Bruch, Max",
         "opus": "47"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "chausson-poeme",
@@ -5246,7 +5336,8 @@
         "composer": "Chausson, Ernest",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "chavez-sinfonia-india-symphony-no-2",
@@ -5258,7 +5349,8 @@
         "composer": "Chavez, Carlos",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "chevalier-de-saint-georges-overture-to-l-amant-anonyme",
@@ -5270,7 +5362,8 @@
         "composer": "Chevalier de Saint-Georges, Joseph Bologne",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "coates-joyous-youth-suite",
@@ -5282,7 +5375,8 @@
         "composer": "Coates, Eric",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "coleman-seven-o-clock-shout",
@@ -5294,7 +5388,8 @@
         "composer": "Coleman, Valerie",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "coleridge-taylor-scenes-from-the-song-of-hiawatha",
@@ -5306,7 +5401,8 @@
         "composer": "Coleridge-Taylor, Samuel",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "copland-appalachian-spring",
@@ -5318,7 +5414,8 @@
         "composer": "Copland, Aaron",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": true
     },
     {
       "slug": "copland-billy-the-kid",
@@ -5330,7 +5427,8 @@
         "composer": "Copland, Aaron",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "copland-fanfare-for-the-common-man",
@@ -5342,7 +5440,8 @@
         "composer": "Copland, Aaron",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "copland-lincoln-portrait",
@@ -5354,7 +5453,8 @@
         "composer": "Copland, Aaron",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "copland-rodeo",
@@ -5366,7 +5466,8 @@
         "composer": "Copland, Aaron",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "copland-the-tender-land",
@@ -5378,7 +5479,8 @@
         "composer": "Copland, Aaron",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": true
     },
     {
       "slug": "corelli-concerto-grosso-no-4-in-d-major",
@@ -5390,7 +5492,8 @@
         "composer": "Corelli, Arcangelo",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "corelli-violin-sonata-in-d-minor-op-5-no-7",
@@ -5402,7 +5505,8 @@
         "composer": "Corelli, Arcangelo",
         "opus": "5"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "corelli-violin-sonata-in-g-major-op-4-no-10",
@@ -5414,7 +5518,8 @@
         "composer": "Corelli, Arcangelo",
         "opus": "4"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "cowell-ancient-desert-drone",
@@ -5426,7 +5531,8 @@
         "composer": "Cowell, Henry",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "debussy-clair-de-lune",
@@ -5438,7 +5544,8 @@
         "composer": "Debussy, Claude",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "debussy-la-mer",
@@ -5450,7 +5557,8 @@
         "composer": "Debussy, Claude",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": true
     },
     {
       "slug": "debussy-petite-suite",
@@ -5462,7 +5570,8 @@
         "composer": "Debussy, Claude",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "delius-sleigh-ride",
@@ -5474,7 +5583,8 @@
         "composer": "Delius, Frederick",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "dvorak-carnival-overture",
@@ -5486,7 +5596,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "dvorak-nocturne-in-b-major",
@@ -5498,7 +5609,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "dvorak-string-quartet-no-12-in-f-major-american",
@@ -5510,7 +5622,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "dvorak-symphony-no-6-in-d-major",
@@ -5522,7 +5635,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "dvorak-symphony-no-7-in-d-minor",
@@ -5534,7 +5648,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "dvorak-symphony-no-8-in-g-major",
@@ -5546,7 +5661,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "dvorak-symphony-no-9-in-e-minor",
@@ -5558,7 +5674,8 @@
         "composer": "Dvorak, Antonin",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "elgar-cello-concerto-in-e-minor",
@@ -5570,7 +5687,8 @@
         "composer": "Elgar, Edward",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "elgar-enigma-variations",
@@ -5582,7 +5700,8 @@
         "composer": "Elgar, Edward",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "elgar-in-the-south-alassio-concert-overture",
@@ -5594,7 +5713,8 @@
         "composer": "Elgar, Edward",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "elgar-pomp-and-circumstance-march-no-3-in-c-minor",
@@ -5606,7 +5726,8 @@
         "composer": "Elgar, Edward",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "elgar-pomp-and-circumstance-march-no-4-in-g-major",
@@ -5618,7 +5739,8 @@
         "composer": "Elgar, Edward",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "elgar-serenade-for-strings",
@@ -5630,7 +5752,8 @@
         "composer": "Elgar, Edward",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "ellington-nutcracker-suite",
@@ -5642,7 +5765,8 @@
         "composer": "Ellington, Duke",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "enescu-romanian-rhapsody-no-1-in-a-major",
@@ -5654,7 +5778,8 @@
         "composer": "Enescu, George",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "faure-pavane",
@@ -5666,7 +5791,8 @@
         "composer": "Faure, Gabriel",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "frucht-a-more-perfect-union",
@@ -5678,7 +5804,8 @@
         "composer": "Frucht, Paul",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "fucik-entrance-of-the-gladiators",
@@ -5690,7 +5817,8 @@
         "composer": "Fucik, Julius",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "gershwin-an-american-in-paris",
@@ -5702,7 +5830,8 @@
         "composer": "Gershwin, George",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "ginastera-danza-final-from-estancia",
@@ -5714,7 +5843,8 @@
         "composer": "Ginastera, Alberto",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "giordano-andrea-chenier",
@@ -5726,7 +5856,8 @@
         "composer": "Giordano, Umberto",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "glazunov-scenes-de-ballet",
@@ -5738,7 +5869,8 @@
         "composer": "Glazunov, Alexander",
         "opus": "52"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "glazunov-the-seasons",
@@ -5750,7 +5882,8 @@
         "composer": "Glazunov, Alexander",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "gliere-russian-sailor-s-dance-from-the-red-poppy",
@@ -5762,7 +5895,8 @@
         "composer": "Gliere, Reinhold",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "glinka-capriccio-brillante-on-the-jota-aragonesa",
@@ -5774,7 +5908,8 @@
         "composer": "Glinka, Mikhail",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "glinka-ruslan-and-ludmila-overture",
@@ -5786,7 +5921,8 @@
         "composer": "Glinka, Mikhail",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "grainger-molly-on-the-shore",
@@ -5798,7 +5934,8 @@
         "composer": "Grainger, Percy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "grainger-shepherd-s-hey",
@@ -5810,7 +5947,8 @@
         "composer": "Grainger, Percy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "grieg-peer-gynt-suite-no-1",
@@ -5822,7 +5960,8 @@
         "composer": "Grieg, Edvard",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "grieg-peer-gynt-suite-no-2",
@@ -5834,7 +5973,8 @@
         "composer": "Grieg, Edvard",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "griffes-poem-for-flute-and-orchestra",
@@ -5846,7 +5986,8 @@
         "composer": "Griffes, Charles",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "hanson-song-of-democracy",
@@ -5858,7 +5999,8 @@
         "composer": "Hanson, Howard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "haydn-cello-concerto-no-1",
@@ -5870,7 +6012,8 @@
         "composer": "Haydn, Joseph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "haydn-symphony-no-104-in-d-major-london",
@@ -5882,7 +6025,8 @@
         "composer": "Haydn, Joseph",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "haydn-symphony-no-31-in-d-major",
@@ -5894,7 +6038,8 @@
         "composer": "Haydn, Joseph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "haydn-symphony-no-60-in-c-major-il-distratto",
@@ -5906,7 +6051,8 @@
         "composer": "Haydn, Joseph",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "haydn-symphony-no-88-in-g-major",
@@ -5918,7 +6064,8 @@
         "composer": "Haydn, Joseph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "herrmann-psycho-a-suite-for-strings",
@@ -5930,7 +6077,8 @@
         "composer": "Herrmann, Bernard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "higdon-blue-cathedral",
@@ -5942,7 +6090,8 @@
         "composer": "Higdon, Jennifer",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "hindemith-symphonic-metamorphosis-of-themes-by-carl-maria-von-weber",
@@ -5954,7 +6103,8 @@
         "composer": "Hindemith, Paul",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "holst-st-paul-s-suite",
@@ -5966,7 +6116,8 @@
         "composer": "Holst, Gustav",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "holst-the-planets",
@@ -5978,7 +6129,8 @@
         "composer": "Holst, Gustav",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "humperdinck-vorspiel-from-h-nsel-and-gretel-suite",
@@ -5990,7 +6142,8 @@
         "composer": "Humperdinck, Engelbert",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "ibert-concertino-da-camera",
@@ -6002,7 +6155,8 @@
         "composer": "Ibert, Jacques",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "ives-the-unanswered-question",
@@ -6014,7 +6168,8 @@
         "composer": "Ives, Charles",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "janacek-sinfonietta",
@@ -6026,7 +6181,8 @@
         "composer": "Janacek, Leos",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "khachaturian-maskerade-suite",
@@ -6038,7 +6194,8 @@
         "composer": "Khachaturian, Aram",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "kodaly-dances-of-galanta",
@@ -6050,7 +6207,8 @@
         "composer": "Kodaly, Zoltan",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "kodaly-hary-janos-suite",
@@ -6062,7 +6220,8 @@
         "composer": "Kodaly, Zoltan",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "lecuona-andalucia-suite",
@@ -6074,7 +6233,8 @@
         "composer": "Lecuona, Ernesto",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "leshnoff-double-concerto-for-clarinet-bassoon",
@@ -6086,7 +6246,8 @@
         "composer": "Leshnoff, Jonathan",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "leyden-christmas-sing-a-long",
@@ -6098,7 +6259,8 @@
         "composer": "Leyden, Norman",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "leyden-concerto-for-3-trombones",
@@ -6110,7 +6272,8 @@
         "composer": "Leyden, Norman",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "liszt-gaudeamus-igitur",
@@ -6122,7 +6285,8 @@
         "composer": "Liszt, Franz",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "liszt-les-preludes",
@@ -6134,7 +6298,8 @@
         "composer": "Liszt, Franz",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "liszt-symphonic-poem-no-6-mazeppa",
@@ -6146,7 +6311,8 @@
         "composer": "Liszt, Franz",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "lutoslawski-concerto-for-orchestra",
@@ -6158,7 +6324,8 @@
         "composer": "Lutoslawski, Witold",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "mahler-symphony-no-1",
@@ -6170,7 +6337,8 @@
         "composer": "Mahler, Gustav",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": true
     },
     {
       "slug": "mahler-symphony-no-4",
@@ -6182,7 +6350,8 @@
         "composer": "Mahler, Gustav",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mahler-symphony-no-5",
@@ -6194,7 +6363,8 @@
         "composer": "Mahler, Gustav",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "mancini-the-pink-panther",
@@ -6206,7 +6376,8 @@
         "composer": "Mancini, Henry",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "marquez-danzon-no-2",
@@ -6218,7 +6389,8 @@
         "composer": "Marquez, Arturo",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": false
     },
     {
       "slug": "marquez-danzon-no-4",
@@ -6230,7 +6402,8 @@
         "composer": "Marquez, Arturo",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mascagni-intermezzo-from-cavalleria-rusticana",
@@ -6242,7 +6415,8 @@
         "composer": "Mascagni, Pietro",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mazzoli-these-worlds-in-us",
@@ -6254,7 +6428,8 @@
         "composer": "Mazzoli, Missy",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mendelssohn-a-midsummer-night-s-dream",
@@ -6266,7 +6441,8 @@
         "composer": "Mendelssohn, Felix",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mendelssohn-hebrides-overture-fingal-s-cave",
@@ -6278,7 +6454,8 @@
         "composer": "Mendelssohn, Felix",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mendelssohn-sinfonia-no-10-in-b-minor",
@@ -6290,7 +6467,8 @@
         "composer": "Mendelssohn, Felix",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
@@ -6302,7 +6480,8 @@
         "composer": "Mendelssohn, Felix",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mendelssohn-violin-concerto-in-e-minor",
@@ -6314,7 +6493,8 @@
         "composer": "Mendelssohn, Felix",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "moncayo-huapango",
@@ -6326,7 +6506,8 @@
         "composer": "Moncayo, Jose Pablo",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "montgomery-strum",
@@ -6338,7 +6519,8 @@
         "composer": "Montgomery, Jessie",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-clarinet-concerto-in-a-major",
@@ -6350,7 +6532,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-divertimento-in-f-major",
@@ -6362,7 +6545,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-eine-kleine-nachtmusik",
@@ -6374,7 +6558,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": "K. 525"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-horn-concerto-no-3-in-e-flat-major",
@@ -6386,7 +6571,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-musical-sleigh-ride",
@@ -6398,7 +6584,8 @@
         "composer": "Mozart, Leopold",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-overture-to-the-marriage-of-figaro",
@@ -6410,7 +6597,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "mozart-piano-concerto-no-20-in-d-minor",
@@ -6422,7 +6610,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "mozart-serenade-no-10-in-b-flat-major",
@@ -6434,7 +6623,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-sinfonia-concertante-for-violin-and-viola",
@@ -6446,7 +6636,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 7
+      "concertCount": 7,
+      "bucketList": false
     },
     {
       "slug": "mozart-symphony-no-31",
@@ -6458,7 +6649,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-symphony-no-39-in-e-flat-major",
@@ -6470,7 +6662,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": "K. 543"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mozart-symphony-no-41-jupiter",
@@ -6482,7 +6675,8 @@
         "composer": "Mozart, Wolfgang Amadeus",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mussorgsky-night-on-bald-mountain",
@@ -6494,7 +6688,8 @@
         "composer": "Mussorgsky, Modest",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "mussorgsky-prelude-to-khovantchina",
@@ -6506,7 +6701,8 @@
         "composer": "Mussorgsky, Modest",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "nielsen-flute-concerto",
@@ -6518,7 +6714,8 @@
         "composer": "Nielsen, Carl",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "nielsen-little-suite",
@@ -6530,7 +6727,8 @@
         "composer": "Nielsen, Carl",
         "opus": "1"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "offenbach-overture-to-la-belle-helene",
@@ -6542,7 +6740,8 @@
         "composer": "Offenbach, Jacques",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "paganini-violin-concerto-no-1-in-d-major",
@@ -6554,7 +6753,8 @@
         "composer": "Paganini, Niccolo",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "price-andante-cantabile-from-string-quartet-no-2",
@@ -6566,7 +6766,8 @@
         "composer": "Price, Florence",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "price-the-oak",
@@ -6578,7 +6779,8 @@
         "composer": "Price, Florence",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "prokofiev-overture-on-hebrew-themes",
@@ -6590,7 +6792,8 @@
         "composer": "Prokofiev, Sergei",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "prokofiev-peter-and-the-wolf",
@@ -6602,7 +6805,8 @@
         "composer": "Prokofiev, Sergei",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "prokofiev-romeo-and-juliet",
@@ -6614,7 +6818,8 @@
         "composer": "Prokofiev, Sergei",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "prokofiev-symphony-no-5-in-b-flat-major",
@@ -6626,7 +6831,8 @@
         "composer": "Prokofiev, Sergei",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "prokofiev-symphony-no-7-in-c-sharp-minor",
@@ -6638,7 +6844,8 @@
         "composer": "Prokofiev, Sergei",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "prokofiev-violin-concerto-no-2-in-g-minor",
@@ -6650,7 +6857,8 @@
         "composer": "Prokofiev, Sergei",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "puccini-intermezzo-from-manon-lescaut",
@@ -6662,7 +6870,8 @@
         "composer": "Puccini, Giacomo",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "puccini-tosca",
@@ -6674,7 +6883,21 @@
         "composer": "Puccini, Giacomo",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "rachmaninoff-isle-of-the-dead",
+      "type": "work",
+      "path": "Works/Rachmaninoff - Isle of the Dead.md",
+      "title": "Rachmaninoff - Isle of the Dead",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rachmaninoff, Sergei",
+        "opus": "29"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "rachmaninoff-symphonic-dances",
@@ -6686,7 +6909,8 @@
         "composer": "Rachmaninoff, Sergei",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "ravel-string-quartet-in-f-major",
@@ -6698,7 +6922,8 @@
         "composer": "Ravel, Maurice",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "reinecke-flute-concerto-in-d-major",
@@ -6710,7 +6935,21 @@
         "composer": "Reinecke, Carl",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "respighi-the-fountains-of-rome",
+      "type": "work",
+      "path": "Works/Respighi - The Fountains of Rome.md",
+      "title": "Respighi - The Fountains of Rome",
+      "content": "",
+      "frontmatter": {
+        "composer": "Respighi, Ottorino",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "respighi-the-pines-of-rome",
@@ -6722,7 +6961,8 @@
         "composer": "Respighi, Ottorino",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": true
     },
     {
       "slug": "richter-recomposed-the-four-seasons",
@@ -6734,7 +6974,8 @@
         "composer": "Richter, Max",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rimsky-korsakov-capriccio-espagnol",
@@ -6746,7 +6987,8 @@
         "composer": "Rimsky-Korsakov, Nikolai",
         "opus": "34"
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "rimsky-korsakov-russian-easter-overture",
@@ -6758,7 +7000,8 @@
         "composer": "Rimsky-Korsakov, Nikolai",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rimsky-korsakov-snow-maiden-suite",
@@ -6770,7 +7013,8 @@
         "composer": "Rimsky-Korsakov, Nikolai",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rogers-victory-at-sea",
@@ -6782,7 +7026,8 @@
         "composer": "Rogers, Richard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rogerson-oaken-sky",
@@ -6794,7 +7039,8 @@
         "composer": "Rogerson, Chris",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rosauro-concerto-no-1-for-marimba-string-orchestra",
@@ -6806,7 +7052,8 @@
         "composer": "Rosauro, Ney",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rossini-overture-to-la-cenerentola",
@@ -6818,7 +7065,8 @@
         "composer": "Rossini, Gioachino",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "rossini-overture-to-la-gazza-ladra",
@@ -6830,7 +7078,8 @@
         "composer": "Rossini, Gioachino",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "rossini-overture-to-the-barber-of-seville",
@@ -6842,7 +7091,8 @@
         "composer": "Rossini, Gioachino",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "rossini-overture-to-william-tell",
@@ -6854,7 +7104,8 @@
         "composer": "Rossini, Gioachino",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "rossini-passo-a-sei-from-william-tell",
@@ -6866,7 +7117,8 @@
         "composer": "Rossini, Gioachino",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "rubenstein-cello-concerto-no-2",
@@ -6878,7 +7130,8 @@
         "composer": "Rubenstein, Anton",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "saint-saens-bacchanale-from-samson-and-delilah",
@@ -6890,7 +7143,8 @@
         "composer": "Saint-Saens, Camille",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "saint-saens-symphony-no-3-in-c-minor-organ",
@@ -6902,7 +7156,8 @@
         "composer": "Saint-Saens, Camille",
         "opus": "78"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "saint-saens-violin-concerto-no-3-in-b-minor",
@@ -6914,7 +7169,8 @@
         "composer": "Saint-Saens, Camille",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "sankey-carmen-fantasy-after-bizet",
@@ -6926,7 +7182,8 @@
         "composer": "Sankey, Stuart",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "schumann-dichterliebe",
@@ -6938,7 +7195,8 @@
         "composer": "Schumann, Robert",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "schumann-overture-scherzo-and-finale",
@@ -6950,7 +7208,8 @@
         "composer": "Schumann, Robert",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "schumann-symphony-no-4-in-d-minor",
@@ -6962,7 +7221,8 @@
         "composer": "Schumann, Robert",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "shchedrin-carmen-suite",
@@ -6974,7 +7234,8 @@
         "composer": "Shchedrin, Rodion",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": false
     },
     {
       "slug": "shepherd-songs",
@@ -6986,7 +7247,8 @@
         "composer": "Shepherd, Sean",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "shostakovich-festive-overture",
@@ -6998,7 +7260,8 @@
         "composer": "Shostakovich, Dmitri",
         "opus": "96"
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "shostakovich-symphony-no-5",
@@ -7010,7 +7273,8 @@
         "composer": "Shostakovich, Dmitri",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "sibelius-andante-festivo",
@@ -7022,7 +7286,8 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "sibelius-finlandia",
@@ -7034,7 +7299,8 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "sibelius-karelia-suite",
@@ -7046,7 +7312,8 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "sibelius-king-christian-ii-suite",
@@ -7058,7 +7325,8 @@
         "composer": "Sibelius, Jean",
         "opus": "27"
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "sibelius-spring-song-v-rs-ng",
@@ -7070,7 +7338,21 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "sibelius-suite-for-violin-and-string-orchestra",
+      "type": "work",
+      "path": "Works/Sibelius - Suite for Violin and String Orchestra.md",
+      "title": "Sibelius - Suite for Violin and String Orchestra",
+      "content": "Also known as JS 185 (https://en.wikipedia.org/wiki/Suite_for_Violin_and_String_Orchestra#cite_note-Op._117-3)",
+      "frontmatter": {
+        "composer": "Sibelius, Jean",
+        "opus": "JS 185 (Op. 117)"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "sibelius-symphony-no-1-in-e-minor",
@@ -7082,7 +7364,8 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "sibelius-symphony-no-2-in-d-major",
@@ -7094,7 +7377,8 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "sibelius-symphony-no-3-in-c-major",
@@ -7106,7 +7390,21 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "sibelius-symphony-no-6-in-d-minor",
+      "type": "work",
+      "path": "Works/Sibelius - Symphony No. 6 in D Minor.md",
+      "title": "Sibelius - Symphony No. 6 in D Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean",
+        "opus": "104"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "sibelius-violin-concerto",
@@ -7118,7 +7416,8 @@
         "composer": "Sibelius, Jean",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "silvestri-suite-for-orchestra-from-back-to-the-future",
@@ -7130,7 +7429,8 @@
         "composer": "Silvestri, Alan",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "smetana-the-bartered-bride",
@@ -7142,7 +7442,8 @@
         "composer": "Smetana, Bedrich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "smetana-the-moldau",
@@ -7154,7 +7455,8 @@
         "composer": "Smetana, Bedrich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "sousa-stars-and-stripes-forever",
@@ -7166,7 +7468,8 @@
         "composer": "Sousa, John Philip",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "still-afro-american-symphony",
@@ -7178,7 +7481,8 @@
         "composer": "Still, William Grant",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "still-danzas-de-panama",
@@ -7190,7 +7494,8 @@
         "composer": "Still, William Grant",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-artist-s-life",
@@ -7202,7 +7507,8 @@
         "composer": "Strauss, Johann",
         "opus": "316"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-emperor-waltz",
@@ -7214,7 +7520,8 @@
         "composer": "Strauss, Johann",
         "opus": "437"
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "strauss-express-polka",
@@ -7226,7 +7533,8 @@
         "composer": "Strauss, Johann",
         "opus": "311"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-morning-papers",
@@ -7238,7 +7546,8 @@
         "composer": "Strauss, Johann",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-ohne-sorgen",
@@ -7250,7 +7559,8 @@
         "composer": "Strauss, Josef",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-on-holiday",
@@ -7262,7 +7572,8 @@
         "composer": "Strauss, Josef",
         "opus": "133"
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "strauss-perpetuum-mobile",
@@ -7274,7 +7585,8 @@
         "composer": "Strauss, Johann",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-radetsky-march",
@@ -7286,7 +7598,8 @@
         "composer": "Strauss, Johann",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "strauss-roses-from-the-south",
@@ -7298,7 +7611,8 @@
         "composer": "Strauss, Johann",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-the-blue-danube",
@@ -7310,7 +7624,8 @@
         "composer": "Strauss, Johann",
         "opus": "314"
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "strauss-thunder-and-lightning",
@@ -7322,7 +7637,8 @@
         "composer": "Strauss, Johann",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "strauss-vienna-blood",
@@ -7334,7 +7650,8 @@
         "composer": "Strauss, Johann",
         "opus": "354"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "strauss-voices-of-spring",
@@ -7346,7 +7663,8 @@
         "composer": "Strauss, Johann",
         "opus": "410"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-capriccio-italien",
@@ -7358,7 +7676,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": "45"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-romeo-juliet-fantasy-overture",
@@ -7370,7 +7689,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-serenade-for-strings",
@@ -7382,7 +7702,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-sleeping-beauty",
@@ -7394,7 +7715,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-string-quartet-no-1-in-d-major",
@@ -7406,7 +7728,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-suite-no-4-in-g-major-mozartiana",
@@ -7418,7 +7741,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-swan-lake-suite",
@@ -7430,7 +7754,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-symphony-no-1-in-g-minor",
@@ -7442,7 +7767,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-symphony-no-4-in-f-minor",
@@ -7454,7 +7780,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 6
+      "concertCount": 6,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-symphony-no-5-in-e-minor",
@@ -7466,7 +7793,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-symphony-no-6-in-b-minor",
@@ -7478,7 +7806,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 0
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "tchaikovsky-the-nutcracker-suite",
@@ -7490,7 +7819,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 5
+      "concertCount": 5,
+      "bucketList": false
     },
     {
       "slug": "tchaikovsky-variations-on-a-rococo-theme",
@@ -7502,7 +7832,8 @@
         "composer": "Tchaikovsky, Piotr Ilyich",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vaughan-williams-concerto-grosso",
@@ -7514,7 +7845,8 @@
         "composer": "Vaughan Williams, Ralph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vaughan-williams-fantasia-on-christmas-carols",
@@ -7526,7 +7858,8 @@
         "composer": "Vaughan Williams, Ralph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vaughan-williams-fantasia-on-greensleeves",
@@ -7538,7 +7871,8 @@
         "composer": "Vaughan Williams, Ralph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vaughan-williams-norfolk-rhapsody-no-1-in-e-minor",
@@ -7550,7 +7884,8 @@
         "composer": "Vaughan Williams, Ralph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vaughan-williams-symphony-no-5",
@@ -7562,7 +7897,8 @@
         "composer": "Vaughan Williams, Ralph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vaughan-williams-the-lark-ascending",
@@ -7574,7 +7910,8 @@
         "composer": "Vaughan Williams, Ralph",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "verdi-overture-to-la-forza-del-destino",
@@ -7586,7 +7923,8 @@
         "composer": "Verdi, Giuseppe",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "verdi-overture-to-nabucco",
@@ -7598,7 +7936,8 @@
         "composer": "Verdi, Giuseppe",
         "opus": ""
       },
-      "concertCount": 4
+      "concertCount": 4,
+      "bucketList": false
     },
     {
       "slug": "verdi-rigoletto",
@@ -7610,7 +7949,8 @@
         "composer": "Verdi, Giuseppe",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "villoldo-el-choclo",
@@ -7622,7 +7962,8 @@
         "composer": "Villoldo, Angel",
         "opus": ""
       },
-      "concertCount": 2
+      "concertCount": 2,
+      "bucketList": false
     },
     {
       "slug": "vivaldi-concerto-for-four-violins-in-b-minor",
@@ -7634,7 +7975,8 @@
         "composer": "Vivaldi, Antonio",
         "opus": "RV 580"
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "vivaldi-concerto-for-strings-in-g-minor",
@@ -7646,7 +7988,8 @@
         "composer": "Vivaldi, Antonio",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "wagner-die-walk-re",
@@ -7658,7 +8001,8 @@
         "composer": "Wagner, Richard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "wagner-lohengrin",
@@ -7670,7 +8014,8 @@
         "composer": "Wagner, Richard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "wagner-tristan-und-isolde",
@@ -7682,7 +8027,8 @@
         "composer": "Wagner, Richard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "waldteufel-the-skater-s-waltz-les-patineurs",
@@ -7694,7 +8040,8 @@
         "composer": "Waldteufel, Emile",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "weber-phantom-of-the-opera",
@@ -7706,7 +8053,8 @@
         "composer": "Weber, Andrew Lloyd",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "webern-langsamer-satz",
@@ -7718,7 +8066,8 @@
         "composer": "Webern, Anton",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "white-childhood-scenes",
@@ -7730,7 +8079,8 @@
         "composer": "White, Richard",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "williams-harry-potter-and-the-sorcerer-s-stone",
@@ -7742,7 +8092,8 @@
         "composer": "Williams, John",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "williams-star-wars",
@@ -7754,7 +8105,8 @@
         "composer": "Williams, John",
         "opus": ""
       },
-      "concertCount": 3
+      "concertCount": 3,
+      "bucketList": false
     },
     {
       "slug": "williams-superman-march",
@@ -7766,7 +8118,8 @@
         "composer": "Williams, John",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "yarmolinsky-the-consitution-a-secular-oratorio",
@@ -7778,7 +8131,8 @@
         "composer": "Yarmolinsky, Benjamin",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "zaerr-celtic-concerto-for-harp",
@@ -7790,7 +8144,8 @@
         "composer": "Zaerr, Laura",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "zimmer-gladiator",
@@ -7802,7 +8157,8 @@
         "composer": "Zimmer, Hans",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "zimmer-the-crown",
@@ -7814,7 +8170,8 @@
         "composer": "Zimmer, Hans",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "von-suppe-overture-to-banditenstreiche-jolly-robbers",
@@ -7826,7 +8183,8 @@
         "composer": "von Suppe, Franz",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     },
     {
       "slug": "von-weber-clarinet-concerto-no-1",
@@ -7838,7 +8196,8 @@
         "composer": "von Weber, Carl Maria",
         "opus": ""
       },
-      "concertCount": 1
+      "concertCount": 1,
+      "bucketList": false
     }
   ],
   "season": [

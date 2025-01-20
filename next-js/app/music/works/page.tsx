@@ -81,6 +81,7 @@ export default function WorksPage({
                 composer && `by ${composer.title}`,
                 `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
               ]}
+              bucketList={work.bucketList}
             />
           );
         })}

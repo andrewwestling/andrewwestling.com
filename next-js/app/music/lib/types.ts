@@ -60,6 +60,7 @@ export interface Concert extends BaseItem {
 export interface Work extends BaseItem {
   frontmatter: WorkFrontmatter;
   concertCount: number;
+  bucketList?: boolean;
 }
 
 export interface Group extends BaseItem {

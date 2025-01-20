@@ -4,6 +4,8 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { formatWorkTitle } from "../../lib/helpers";
+import { BucketList } from "../../components/BucketList";
+import { ListItem } from "../../components/ListItem";
 
 export default function ComposerPage({ params }: PageProps) {
   const composer = database.composer.find(
@@ -28,11 +30,13 @@ export default function ComposerPage({ params }: PageProps) {
           <h2 className="text-lg font-semibold mb-4">Works</h2>
           <div className="grid gap-4">
             {works.map((work) => (
-              <div key={work.slug}>
-                <Link href={routes.works.show(work.slug)}>
-                  {formatWorkTitle(work.title)}
-                </Link>
-              </div>
+              <ListItem
+                key={work.slug}
+                title={formatWorkTitle(work.title)}
+                href={routes.works.show(work.slug)}
+                stats={[]}
+                bucketList={work.bucketList}
+              />
             ))}
           </div>
         </div>
