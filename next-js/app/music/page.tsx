@@ -6,19 +6,23 @@ export default async function HomePage() {
     "bg-surface dark:bg-surface-dark p-3 rounded-md cursor-pointer";
 
   return (
-    <div className="grid gap-8">
-      <section>
-        <h1 className="text-2xl font-semibold">{`Andrew's Music Archive`}</h1>
-        <label className="text-sm text-muted italic">
+    <div className="grid gap-6">
+      <section className="my-6 flex flex-col gap-2">
+        <h1 className="text-2xl md:text-4xl font-semibold">{`Andrew's Music Archive`}</h1>
+        <p className="text-sm md:text-base text-muted italic">
           {`"Probably every concert and work I've ever performed"`}
-        </label>
+        </p>
       </section>
 
       {/* Browse links */}
       <div className="grid md:grid-cols-2 gap-6">
         {/* Upcoming Concerts */}
-        <Link className={linkClasses} href={routes.upcoming()}>
-          Upcoming Concerts
+        <Link
+          className={`${linkClasses} flex gap-1 no-underline`}
+          href={routes.upcoming()}
+        >
+          <span className="no-underline">✨</span>
+          <span className="underline">Upcoming Concerts</span>
         </Link>
         {/* All Seasons */}
         <Link className={linkClasses} href={routes.seasons.index()}>

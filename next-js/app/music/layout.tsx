@@ -7,7 +7,7 @@ export default function MusicLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="py-4 flex flex-col gap-6">
+    <div className="flex flex-col gap-6">
       <Breadcrumbs />
       <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
     </div>
