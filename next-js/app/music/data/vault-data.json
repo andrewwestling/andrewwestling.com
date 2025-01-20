@@ -1593,7 +1593,7 @@
         ],
         "spotifyPlaylistUrl": null,
         "venue": "Church of the Holy Apostles",
-        "season": "2021-2022"
+        "season": "2020-2021"
       }
     },
     {
@@ -8242,7 +8242,8 @@
       "frontmatter": {},
       "concertSlugs": [
         "202105151500",
-        "202105161500"
+        "202105161500",
+        "202107311500"
       ],
       "workSlugs": [
         "haydn-symphony-no-31-in-d-major",
@@ -8252,7 +8253,12 @@
         "tchaikovsky-serenade-for-strings",
         "mozart-divertimento-in-f-major",
         "still-danzas-de-panama",
-        "copland-rodeo"
+        "copland-rodeo",
+        "rossini-overture-to-the-barber-of-seville",
+        "von-weber-clarinet-concerto-no-1",
+        "dvorak-nocturne-in-b-major",
+        "schumann-dichterliebe",
+        "schumann-overture-scherzo-and-finale"
       ]
     },
     {
@@ -8263,7 +8269,6 @@
       "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
       "frontmatter": {},
       "concertSlugs": [
-        "202107311500",
         "202110241500",
         "202111061900",
         "202202201400",
@@ -8278,11 +8283,6 @@
         "202208271900"
       ],
       "workSlugs": [
-        "rossini-overture-to-the-barber-of-seville",
-        "von-weber-clarinet-concerto-no-1",
-        "dvorak-nocturne-in-b-major",
-        "schumann-dichterliebe",
-        "schumann-overture-scherzo-and-finale",
         "brahms-academic-festival-overture",
         "montgomery-strum",
         "tchaikovsky-variations-on-a-rococo-theme",
