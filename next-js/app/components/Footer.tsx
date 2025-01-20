@@ -84,7 +84,7 @@ export const Footer = () => {
               className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
             >
               <span className="no-underline">🎻</span>
-              <span className="underline">Music</span>
+              <span className="underline">Music Archive</span>
             </NextLink>
 
             <NextLink
