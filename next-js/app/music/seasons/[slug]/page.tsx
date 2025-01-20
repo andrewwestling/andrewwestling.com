@@ -53,7 +53,7 @@ export default function SeasonPage({ params }: PageProps) {
                     key={work.slug}
                     title={formatWorkTitle(work.title)}
                     href={routes.works.show(work.slug)}
-                    stats={[]}
+                    stats={[`by ${work.frontmatter.composer}`]}
                     bucketList={work.bucketList}
                   />
                 )
