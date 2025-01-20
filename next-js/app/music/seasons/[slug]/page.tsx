@@ -51,7 +51,7 @@ export default function SeasonPage({ params }: PageProps) {
                 work && (
                   <ListItem
                     key={work.slug}
-                    title={formatWorkTitle(work.title)}
+                    title={formatWorkTitle(work)}
                     href={routes.works.show(work.slug)}
                     stats={[`by ${work.frontmatter.composer}`]}
                     bucketList={work.bucketList}

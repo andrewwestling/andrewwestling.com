@@ -121,7 +121,7 @@ export default async function ConcertPage({ params }: PageProps) {
             {workObjects.map((work) => (
               <li key={work.slug}>
                 <ListItem
-                  title={formatWorkTitle(work.title)}
+                  title={formatWorkTitle(work)}
                   href={routes.works.show(work.slug)}
                   stats={[
                     work.frontmatter.composer &&

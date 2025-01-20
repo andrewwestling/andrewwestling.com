@@ -36,6 +36,8 @@ export interface ConcertFrontmatter {
 
 export interface WorkFrontmatter {
   composer?: string;
+  catalogue?: string;
+  displayName?: string;
   [key: string]: any;
 }
 

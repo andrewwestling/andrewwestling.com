@@ -63,7 +63,7 @@ export default function WorksPage({
 
     return {
       slug: work.slug,
-      title: formatWorkTitle(work.title),
+      title: formatWorkTitle(work),
       href: routes.works.show(work.slug),
       stats: [
         composer && `by ${composer.title}`,

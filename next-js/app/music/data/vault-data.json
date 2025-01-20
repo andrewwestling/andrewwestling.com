@@ -4659,7 +4659,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Adams, John",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4672,7 +4673,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4685,7 +4687,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4698,7 +4701,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4711,7 +4715,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4724,7 +4729,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4737,7 +4743,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Anderson, Leroy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -4750,7 +4757,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Avshalomov, Jacob",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -4763,7 +4771,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bach, Carl Philipp Emanuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4776,7 +4785,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bach, Johann Sebastian",
-        "opus": "BWV 578"
+        "catalogue": "BWV 578",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -4789,7 +4799,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bach, Johann Sebastian",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4802,7 +4813,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Badelt, Klaus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -4815,7 +4827,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4828,7 +4841,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -4841,7 +4855,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4854,7 +4869,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -4867,7 +4883,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Barry, John",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4880,7 +4897,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bartok, Bela",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4893,7 +4911,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Basulto, Alejandro",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4906,7 +4925,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": "84"
+        "catalogue": "84",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4919,7 +4939,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -4932,7 +4953,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": "72b"
+        "catalogue": "Op. 72b",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -4945,7 +4967,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": "18"
+        "catalogue": "18",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4958,7 +4981,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": "53"
+        "catalogue": "53",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -4971,7 +4995,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -4984,7 +5009,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -4997,7 +5023,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5010,7 +5037,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -5023,7 +5051,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Berko, Alex",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5036,7 +5065,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Berlin, Irving",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5049,7 +5079,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Berlioz, Hector",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5062,7 +5093,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Berlioz, Hector",
-        "opus": "14"
+        "catalogue": "14",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -5075,7 +5107,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bernstein, Leonard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5088,7 +5121,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -5101,7 +5135,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5114,7 +5149,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5127,7 +5163,8 @@
       "content": "I. Prelude\nII. Minuetto\nIII. Adagietto\nIV. Carillon",
       "frontmatter": {
         "composer": "Bizet, Georges",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5140,7 +5177,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bizet, Georges",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -5153,7 +5191,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bock, Jerry",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5166,7 +5205,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Borzoni, Clint",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5179,7 +5219,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -5192,7 +5233,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -5205,7 +5247,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 6,
       "bucketList": false
@@ -5218,7 +5261,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 6,
       "bucketList": false
@@ -5231,7 +5275,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5244,7 +5289,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5257,7 +5303,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": true
@@ -5270,7 +5317,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5283,7 +5331,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5296,7 +5345,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5309,7 +5359,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5322,7 +5373,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Britten, Benjamin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -5335,7 +5387,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bruch, Max",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5348,7 +5401,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bruch, Max",
-        "opus": "47"
+        "catalogue": "47",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5361,7 +5415,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chabrier, Emmanuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": false
@@ -5374,7 +5429,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chausson, Ernest",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5387,7 +5443,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chavez, Carlos",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5400,7 +5457,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Chevalier de Saint-Georges, Joseph Bologne",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5413,7 +5471,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Coates, Eric",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -5426,7 +5485,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Coleman, Valerie",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5439,7 +5499,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Coleridge-Taylor, Samuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5452,7 +5513,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": true
@@ -5465,7 +5527,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -5478,7 +5541,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5491,7 +5555,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5504,7 +5569,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5517,7 +5583,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": true
@@ -5530,7 +5597,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Corelli, Arcangelo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5543,7 +5611,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Corelli, Arcangelo",
-        "opus": "5"
+        "catalogue": "Op. 5, No. 7",
+        "displayName": "Violin Sonata in D Minor"
       },
       "concertCount": 1,
       "bucketList": false
@@ -5556,7 +5625,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Corelli, Arcangelo",
-        "opus": "4"
+        "catalogue": "Op, 4, No. 10",
+        "displayName": "Violin Sonata in G Major"
       },
       "concertCount": 1,
       "bucketList": false
@@ -5569,7 +5639,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Cowell, Henry",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -5582,7 +5653,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Debussy, Claude",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5595,7 +5667,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Debussy, Claude",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": true
@@ -5608,7 +5681,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Debussy, Claude",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5621,7 +5695,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Delius, Frederick",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5634,7 +5709,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5647,7 +5723,8 @@
       "content": "Op. 40",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5660,7 +5737,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5673,7 +5751,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -5686,7 +5765,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5699,7 +5779,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -5712,7 +5793,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5725,7 +5807,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -5738,7 +5821,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -5751,7 +5835,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5764,7 +5849,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5777,7 +5863,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5790,7 +5877,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5803,7 +5891,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ellington, Duke",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5816,7 +5905,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Enescu, George",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5829,7 +5919,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Faure, Gabriel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5842,7 +5933,8 @@
       "content": "Movement V. \"Address on the 50th Anniversary of the Selma, Alabama March Eulogy for Reverend Clementa C. Pinckney\"",
       "frontmatter": {
         "composer": "Frucht, Paul",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5855,7 +5947,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Fucik, Julius",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5868,7 +5961,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Gershwin, George",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5881,7 +5975,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ginastera, Alberto",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5894,7 +5989,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Giordano, Umberto",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5907,7 +6003,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Glazunov, Alexander",
-        "opus": "52"
+        "catalogue": "52",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5920,7 +6017,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Glazunov, Alexander",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5933,7 +6031,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Gliere, Reinhold",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5946,7 +6045,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Glinka, Mikhail",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5959,7 +6059,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Glinka, Mikhail",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5972,7 +6073,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Grainger, Percy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5985,7 +6087,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Grainger, Percy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -5998,7 +6101,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Grieg, Edvard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6011,7 +6115,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Grieg, Edvard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -6024,7 +6129,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Griffes, Charles",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6037,7 +6143,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Hanson, Howard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6050,7 +6157,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6063,7 +6171,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6076,7 +6185,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6089,7 +6199,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6102,7 +6213,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6115,7 +6227,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Herrmann, Bernard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6128,7 +6241,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Higdon, Jennifer",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6141,7 +6255,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Hindemith, Paul",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6154,7 +6269,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Holst, Gustav",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6167,7 +6283,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Holst, Gustav",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6180,7 +6297,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Humperdinck, Engelbert",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6193,7 +6311,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ibert, Jacques",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6206,7 +6325,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ives, Charles",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6219,7 +6339,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Janacek, Leos",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -6232,7 +6353,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Khachaturian, Aram",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6245,7 +6367,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Khachaturian, Aram",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -6258,7 +6381,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Kodaly, Zoltan",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6271,7 +6395,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Kodaly, Zoltan",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6284,7 +6409,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Lecuona, Ernesto",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6297,7 +6423,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Leshnoff, Jonathan",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6310,7 +6437,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Leyden, Norman",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6323,7 +6451,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Leyden, Norman",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6336,7 +6465,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Liszt, Franz",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6349,7 +6479,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Liszt, Franz",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -6362,7 +6493,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Liszt, Franz",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6375,7 +6507,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Lutoslawski, Witold",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6388,7 +6521,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mahler, Gustav",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": true
@@ -6401,7 +6535,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mahler, Gustav",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6414,7 +6549,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mahler, Gustav",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -6427,7 +6563,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mancini, Henry",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6440,7 +6577,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Marquez, Arturo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": false
@@ -6453,7 +6591,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Marquez, Arturo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6466,7 +6605,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mascagni, Pietro",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6479,7 +6619,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mazzoli, Missy",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6492,7 +6633,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6505,7 +6647,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6518,7 +6661,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6531,7 +6675,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6544,7 +6689,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6557,7 +6703,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Moncayo, Jose Pablo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -6570,7 +6717,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Montgomery, Jessie",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6583,7 +6731,8 @@
       "content": "K. 622",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6596,7 +6745,8 @@
       "content": "K. 138",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6609,7 +6759,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": "K. 525"
+        "catalogue": "K. 525",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6622,7 +6773,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6635,7 +6787,8 @@
       "content": "Die musikalische Schlittenfahrt",
       "frontmatter": {
         "composer": "Mozart, Leopold",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6648,7 +6801,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6661,7 +6815,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6674,7 +6829,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6687,7 +6843,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 7,
       "bucketList": false
@@ -6700,7 +6857,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6713,7 +6871,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": "K. 543"
+        "catalogue": "K. 543",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6726,7 +6885,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6739,7 +6899,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mussorgsky, Modest",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6752,7 +6913,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Mussorgsky, Modest",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6765,7 +6927,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Nielsen, Carl",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6778,7 +6941,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Nielsen, Carl",
-        "opus": "1"
+        "catalogue": "1",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6791,7 +6955,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Offenbach, Jacques",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6804,7 +6969,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Paganini, Niccolo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6817,7 +6983,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Price, Florence",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6830,7 +6997,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Price, Florence",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6843,7 +7011,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6856,7 +7025,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -6869,7 +7039,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6882,7 +7053,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6895,7 +7067,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -6908,7 +7081,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6921,7 +7095,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Puccini, Giacomo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6934,7 +7109,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Puccini, Giacomo",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6947,7 +7123,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rachmaninoff, Sergei",
-        "opus": "29"
+        "catalogue": "29",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -6960,7 +7137,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rachmaninoff, Sergei",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -6973,7 +7151,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Ravel, Maurice",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6986,7 +7165,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Reinecke, Carl",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -6999,7 +7179,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Respighi, Ottorino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -7012,7 +7193,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Respighi, Ottorino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": true
@@ -7025,7 +7207,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Richter, Max",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7038,7 +7221,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai",
-        "opus": "34"
+        "catalogue": "34",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7051,7 +7235,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7064,7 +7249,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai",
-        "opus": "35"
+        "catalogue": "35",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -7077,7 +7263,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7090,7 +7277,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rogers, Richard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7103,7 +7291,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rogerson, Chris",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7116,7 +7305,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rosauro, Ney",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7129,7 +7319,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7142,7 +7333,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -7155,7 +7347,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7168,7 +7361,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7181,7 +7375,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rossini, Gioachino",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7194,7 +7389,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Rubenstein, Anton",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7207,7 +7403,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Saint-Saens, Camille",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7220,7 +7417,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Saint-Saens, Camille",
-        "opus": "78"
+        "catalogue": "78",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7233,7 +7431,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Saint-Saens, Camille",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7246,7 +7445,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sankey, Stuart",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7259,7 +7459,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Schumann, Robert",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7272,7 +7473,8 @@
       "content": "Op. 52",
       "frontmatter": {
         "composer": "Schumann, Robert",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7285,7 +7487,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Schumann, Robert",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7298,7 +7501,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shchedrin, Rodion",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": false
@@ -7311,7 +7515,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shepherd, Sean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7324,7 +7529,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shostakovich, Dmitri",
-        "opus": "96"
+        "catalogue": "96",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7337,7 +7543,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Shostakovich, Dmitri",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7350,7 +7557,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7363,7 +7571,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -7376,7 +7585,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7389,7 +7599,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": "27"
+        "catalogue": "27",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -7402,7 +7613,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7415,7 +7627,8 @@
       "content": "Also known as JS 185 (https://en.wikipedia.org/wiki/Suite_for_Violin_and_String_Orchestra#cite_note-Op._117-3)",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": "JS 185 (Op. 117)"
+        "catalogue": "JS 185 (Op. 117)",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -7428,7 +7641,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7441,7 +7655,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7454,7 +7669,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7467,7 +7683,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": "104"
+        "catalogue": "104",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -7480,7 +7697,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7493,7 +7711,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Silvestri, Alan",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7506,7 +7725,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Smetana, Bedrich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7519,7 +7739,8 @@
       "content": "Ma Vlast",
       "frontmatter": {
         "composer": "Smetana, Bedrich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7532,7 +7753,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Sousa, John Philip",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7545,7 +7767,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Still, William Grant",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7558,7 +7781,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Still, William Grant",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7571,7 +7795,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": "316"
+        "catalogue": "316",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7584,7 +7809,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": "437"
+        "catalogue": "437",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -7597,7 +7823,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": "311"
+        "catalogue": "311",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7610,7 +7837,8 @@
       "content": "Morgenblätter\n\nOp. 279",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7623,7 +7851,8 @@
       "content": "Op. 271",
       "frontmatter": {
         "composer": "Strauss, Josef",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7636,7 +7865,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Josef",
-        "opus": "133"
+        "catalogue": "133",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7649,7 +7879,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7662,7 +7893,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -7675,7 +7907,8 @@
       "content": "Rosen aus dem Suden\n\nOp. 388",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7688,7 +7921,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": "314"
+        "catalogue": "314",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -7701,7 +7935,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7714,7 +7949,8 @@
       "content": "Wiener Blut",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": "354"
+        "catalogue": "354",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7727,7 +7963,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Strauss, Johann",
-        "opus": "410"
+        "catalogue": "410",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7740,7 +7977,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": "45"
+        "catalogue": "45",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7753,7 +7991,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7766,7 +8005,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -7779,7 +8019,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7792,7 +8033,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7805,7 +8047,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -7818,7 +8061,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7831,7 +8075,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7844,7 +8089,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 6,
       "bucketList": false
@@ -7857,7 +8103,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7870,7 +8117,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -7883,7 +8131,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 5,
       "bucketList": false
@@ -7896,7 +8145,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7909,7 +8159,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Theofanidis, Christopher",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -7922,7 +8173,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7935,7 +8187,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7948,7 +8201,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7961,7 +8215,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7974,7 +8229,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -7987,7 +8243,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8000,7 +8257,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Verdi, Giuseppe",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8013,7 +8271,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Verdi, Giuseppe",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 4,
       "bucketList": false
@@ -8026,7 +8285,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Verdi, Giuseppe",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8039,7 +8299,8 @@
       "content": "Tango Argentino",
       "frontmatter": {
         "composer": "Villoldo, Angel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 2,
       "bucketList": false
@@ -8052,7 +8313,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Vivaldi, Antonio",
-        "opus": "RV 580"
+        "catalogue": "RV 580",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8065,7 +8327,8 @@
       "content": "RV 157",
       "frontmatter": {
         "composer": "Vivaldi, Antonio",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8078,7 +8341,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Wagner, Richard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8091,7 +8355,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Wagner, Richard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8104,7 +8369,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Wagner, Richard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8117,7 +8383,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Waldteufel, Emile",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8130,7 +8397,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Weber, Andrew Lloyd",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8143,7 +8411,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Webern, Anton",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8156,7 +8425,8 @@
       "content": "",
       "frontmatter": {
         "composer": "White, Richard",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8169,7 +8439,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Williams, John",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8182,7 +8453,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Williams, John",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 3,
       "bucketList": false
@@ -8195,7 +8467,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Williams, John",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8208,7 +8481,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Yarmolinsky, Benjamin",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8221,7 +8495,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Zaerr, Laura",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8234,7 +8509,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Zimmer, Hans",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8247,7 +8523,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Zimmer, Hans",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8260,7 +8537,8 @@
       "content": "El sombrero de tres picos\n\nThere are two suites but either one is great",
       "frontmatter": {
         "composer": "de Falla, Manuel",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 0,
       "bucketList": true
@@ -8273,7 +8551,8 @@
       "content": "",
       "frontmatter": {
         "composer": "von Suppe, Franz",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -8286,7 +8565,8 @@
       "content": "",
       "frontmatter": {
         "composer": "von Weber, Carl Maria",
-        "opus": ""
+        "catalogue": "",
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false

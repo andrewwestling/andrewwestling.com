@@ -34,7 +34,7 @@ export default function BucketListPage() {
           return (
             <ListItem
               key={work.slug}
-              title={formatWorkTitle(work.title)}
+              title={formatWorkTitle(work)}
               href={routes.works.show(work.slug)}
               stats={[
                 composer && `by ${composer.title}`,

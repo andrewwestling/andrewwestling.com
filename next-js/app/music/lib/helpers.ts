@@ -1,4 +1,5 @@
 import database from "@music/data/database";
+import { Work } from "./types";
 
 // Helper to extract date from frontmatter
 export function getDateFromFrontmatter(concert: {
@@ -113,13 +114,28 @@ export function getCurrentSeasonYear(): number {
 }
 
 // Helper to format work titles by removing composer prefix
-export function formatWorkTitle(title: string): string {
+export function formatWorkTitle(work: Work): string {
   // Look for the first " - " that separates composer from work title
-  const composerSeparatorIndex = title.indexOf(" - ");
-  if (composerSeparatorIndex === -1) return title;
+  const composerSeparatorIndex = work.title.indexOf(" - ");
+  if (composerSeparatorIndex === -1) return work.title;
 
-  // Return everything after the first dash
-  return title.slice(composerSeparatorIndex + 3).trim();
+  // Get the base title
+  const baseTitle = work.title.slice(composerSeparatorIndex + 3).trim();
+
+  // Use displayName from frontmatter if present
+  const titleToUse = work.frontmatter?.displayName || baseTitle;
+
+  // If no catalogue number provided, return just the title
+  if (!work.frontmatter?.catalogue) return titleToUse;
+
+  // If catalogue is a number, format as "Op. X", otherwise use as-is
+  const catalogueString = /^\d+$/.test(work.frontmatter.catalogue)
+    ? `Op. ${work.frontmatter.catalogue}`
+    : work.frontmatter.catalogue;
+
+  return `${titleToUse}${
+    work.frontmatter.catalogue ? `, ${catalogueString}` : ""
+  }`;
 }
 
 export function getCurrentSeasonSlug(seasons: any[]): string | null {

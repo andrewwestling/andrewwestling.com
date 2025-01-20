@@ -32,7 +32,7 @@ export default function ComposerPage({ params }: PageProps) {
             {works.map((work) => (
               <ListItem
                 key={work.slug}
-                title={formatWorkTitle(work.title)}
+                title={formatWorkTitle(work)}
                 href={routes.works.show(work.slug)}
                 stats={[]}
                 bucketList={work.bucketList}

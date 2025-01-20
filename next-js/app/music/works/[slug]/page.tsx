@@ -40,7 +40,7 @@ export default function WorkPage({ params }: PageProps) {
   return (
     <article>
       <h1 className="text-2xl font-bold mb-4 flex gap-2 items-center">
-        {formatWorkTitle(work.title)}
+        {formatWorkTitle(work)}
         {work.bucketList && <BucketList />}
       </h1>
 
