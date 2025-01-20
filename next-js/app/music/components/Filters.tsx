@@ -42,7 +42,7 @@ export interface FiltersProps {
   onFiltersChange?: (filters: Record<string, string>) => void;
 }
 
-const selectStyles: StylesConfig<SelectOption, true> = {
+const selectStyles: StylesConfig<SelectOption, boolean> = {
   control: (base, state) => ({
     ...base,
     minHeight: "40px",
@@ -173,15 +173,29 @@ export function Filters({
     <div className="space-y-4 mb-8">
       <div className="flex flex-wrap items-end gap-4">
         <div className="flex-1">
-          <label className="block text-sm font-medium mb-1">Filters</label>
-          <Select
-            isMulti
-            value={selectedValues}
-            onChange={(newValue) => handleChange(newValue as SelectOption[])}
+          <label className="block text-sm font-medium mb-1">
+            {facets.length > 1 ? "Filters" : activeFacets[0]?.label + "s"}
+          </label>
+          <Select<SelectOption, boolean>
+            isMulti={facets.length > 1}
+            value={
+              facets.length > 1 ? selectedValues : selectedValues[0] || null
+            }
+            onChange={(newValue) =>
+              handleChange(
+                facets.length > 1
+                  ? (newValue as SelectOption[])
+                  : newValue
+                  ? [newValue as SelectOption]
+                  : []
+              )
+            }
             options={options}
             formatOptionLabel={formatOptionLabel}
             styles={selectStyles}
-            placeholder="Select filters..."
+            placeholder={`Select ${
+              facets.length > 1 ? "filters" : activeFacets[0]?.label + "s"
+            }...`}
             isClearable={true}
             isSearchable={true}
           />

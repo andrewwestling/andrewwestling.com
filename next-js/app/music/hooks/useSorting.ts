@@ -1,7 +1,12 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useMemo } from "react";
 
-export type SortType = "alphabetical" | "concerts" | "works" | "year";
+export type SortType =
+  | "alphabetical"
+  | "composer"
+  | "concerts"
+  | "works"
+  | "year";
 
 export interface SortOption {
   label: string;
@@ -10,6 +15,7 @@ export interface SortOption {
 
 const SORT_LABELS: Record<SortType, string> = {
   alphabetical: "alphabetically",
+  composer: "by composer name",
   concerts: "by concert count",
   works: "by work count",
   year: "by year",

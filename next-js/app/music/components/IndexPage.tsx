@@ -3,6 +3,7 @@
 import { ListItem } from "@music/components/ListItem";
 import { Sort } from "./Sort";
 import { useSorting, SortType } from "@music/hooks/useSorting";
+import { Filters, FilterFacetId } from "./Filters";
 
 interface IndexPageProps {
   title: string;
@@ -14,11 +15,26 @@ interface IndexPageProps {
     sortableFields?: {
       [key in SortType]?: any;
     };
+    bucketList?: boolean;
   }>;
   defaultSort?: SortType;
+  showFilters?: boolean;
+  facets?: FilterFacetId[];
+  initialFilters?: Record<string, string>;
+  onFiltersChange?: (filters: Record<string, string>) => void;
+  updateUrl?: boolean;
 }
 
-export function IndexPage({ title, items, defaultSort }: IndexPageProps) {
+export function IndexPage({
+  title,
+  items,
+  defaultSort,
+  showFilters = false,
+  facets = ["group", "season", "conductor", "venue", "composer"],
+  initialFilters = {},
+  onFiltersChange,
+  updateUrl = true,
+}: IndexPageProps) {
   const { sortedItems, currentSort, handleSort, sortOptions } = useSorting({
     items,
     defaultSort,
@@ -27,7 +43,7 @@ export function IndexPage({ title, items, defaultSort }: IndexPageProps) {
   return (
     <div>
       <div className="flex flex-col gap-1 mb-6">
-        <h1 className="text-2xl font-bold">{title}</h1>
+        {title && <h1 className="text-2xl font-bold">{title}</h1>}
         {sortOptions.length > 1 && (
           <Sort
             options={sortOptions}
@@ -37,6 +53,15 @@ export function IndexPage({ title, items, defaultSort }: IndexPageProps) {
         )}
       </div>
 
+      {showFilters && (
+        <Filters
+          facets={facets}
+          initialFilters={initialFilters}
+          onFiltersChange={onFiltersChange}
+          updateUrl={updateUrl}
+        />
+      )}
+
       <div className="grid gap-4">
         {sortedItems.map((item) => (
           <ListItem
@@ -44,6 +69,7 @@ export function IndexPage({ title, items, defaultSort }: IndexPageProps) {
             title={item.title}
             href={item.href}
             stats={item.stats}
+            bucketList={item.bucketList}
           />
         ))}
       </div>

@@ -1,7 +1,6 @@
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
-import { ListItem } from "@music/components/ListItem";
-import { Filters } from "@music/components/Filters";
+import { IndexPage } from "@music/components/IndexPage";
 import { formatWorkTitle } from "../lib/helpers";
 
 export default function WorksPage({
@@ -46,46 +45,48 @@ export default function WorksPage({
     }
   }
 
+  const items = works.map((work) => {
+    // Find the composer
+    const composer = database.composer.find(
+      (c) => c.title === work.frontmatter.composer
+    );
+
+    // Find all concerts featuring this work
+    const concerts = database.concert.filter((c) => {
+      const works = c.frontmatter.works
+        ? Array.isArray(c.frontmatter.works)
+          ? c.frontmatter.works
+          : [c.frontmatter.works]
+        : [];
+      return works.includes(work.title);
+    });
+
+    return {
+      slug: work.slug,
+      title: formatWorkTitle(work.title),
+      href: routes.works.show(work.slug),
+      stats: [
+        composer && `by ${composer.title}`,
+        `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
+      ].filter(Boolean) as string[],
+      sortableFields: {
+        concerts: concerts.length,
+        composer: composer?.title || "",
+      },
+      bucketList: work.bucketList,
+    };
+  });
+
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-6">Works</h1>
-
-      <Filters
+      <IndexPage
+        title="Works"
+        items={items}
+        defaultSort="concerts"
+        showFilters={true}
+        facets={["composer"]}
         initialFilters={searchParams as Record<string, string>}
-        facets={["season", "composer"]}
       />
-
-      <div className="grid gap-4">
-        {works.map((work) => {
-          // Find the composer
-          const composer = database.composer.find(
-            (c) => c.title === work.frontmatter.composer
-          );
-
-          // Find all concerts featuring this work
-          const concerts = database.concert.filter((c) => {
-            const works = c.frontmatter.works
-              ? Array.isArray(c.frontmatter.works)
-                ? c.frontmatter.works
-                : [c.frontmatter.works]
-              : [];
-            return works.includes(work.title);
-          });
-
-          return (
-            <ListItem
-              key={work.slug}
-              title={formatWorkTitle(work.title)}
-              href={routes.works.show(work.slug)}
-              stats={[
-                composer && `by ${composer.title}`,
-                `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
-              ]}
-              bucketList={work.bucketList}
-            />
-          );
-        })}
-      </div>
     </div>
   );
 }
