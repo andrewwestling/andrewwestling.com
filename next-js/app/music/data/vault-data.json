@@ -2774,6 +2774,15 @@
       "concertCount": 2
     },
     {
+      "slug": "chabrier-emmanuel",
+      "type": "composer",
+      "path": "Composers/Chabrier, Emmanuel.md",
+      "title": "Chabrier, Emmanuel",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 0
+    },
+    {
       "slug": "chausson-ernest",
       "type": "composer",
       "path": "Composers/Chausson, Ernest.md",
@@ -3593,6 +3602,15 @@
       "concertCount": 24
     },
     {
+      "slug": "theofanidis-christopher",
+      "type": "composer",
+      "path": "Composers/Theofanidis, Christopher.md",
+      "title": "Theofanidis, Christopher",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 0
+    },
+    {
       "slug": "vaughan-williams-ralph",
       "type": "composer",
       "path": "Composers/Vaughan Williams, Ralph.md",
@@ -3717,6 +3735,15 @@
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 1
+    },
+    {
+      "slug": "de-falla-manuel",
+      "type": "composer",
+      "path": "Composers/de Falla, Manuel.md",
+      "title": "de Falla, Manuel",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 0
     },
     {
       "slug": "von-suppe-franz",
@@ -5327,6 +5354,19 @@
       "bucketList": false
     },
     {
+      "slug": "chabrier-espana",
+      "type": "work",
+      "path": "Works/Chabrier - Espana.md",
+      "title": "Chabrier - Espana",
+      "content": "",
+      "frontmatter": {
+        "composer": "Chabrier, Emmanuel",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": false
+    },
+    {
       "slug": "chausson-poeme",
       "type": "work",
       "path": "Works/Chausson - Poeme.md",
@@ -6198,6 +6238,19 @@
       "bucketList": false
     },
     {
+      "slug": "khachaturian-violin-concerto",
+      "type": "work",
+      "path": "Works/Khachaturian - Violin Concerto.md",
+      "title": "Khachaturian - Violin Concerto",
+      "content": "",
+      "frontmatter": {
+        "composer": "Khachaturian, Aram",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
       "slug": "kodaly-dances-of-galanta",
       "type": "work",
       "path": "Works/Kodaly - Dances of Galanta.md",
@@ -7002,6 +7055,19 @@
       },
       "concertCount": 1,
       "bucketList": false
+    },
+    {
+      "slug": "rimsky-korsakov-scheherazade",
+      "type": "work",
+      "path": "Works/Rimsky-Korsakov - Scheherazade.md",
+      "title": "Rimsky-Korsakov - Scheherazade",
+      "content": "",
+      "frontmatter": {
+        "composer": "Rimsky-Korsakov, Nikolai",
+        "opus": "35"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "rimsky-korsakov-snow-maiden-suite",
@@ -7836,6 +7902,19 @@
       "bucketList": false
     },
     {
+      "slug": "theofanidis-rainbow-body",
+      "type": "work",
+      "path": "Works/Theofanidis - Rainbow Body.md",
+      "title": "Theofanidis - Rainbow Body",
+      "content": "",
+      "frontmatter": {
+        "composer": "Theofanidis, Christopher",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
       "slug": "vaughan-williams-concerto-grosso",
       "type": "work",
       "path": "Works/Vaughan Williams - Concerto Grosso.md",
@@ -8172,6 +8251,19 @@
       },
       "concertCount": 1,
       "bucketList": false
+    },
+    {
+      "slug": "de-falla-the-three-cornered-hat-suite",
+      "type": "work",
+      "path": "Works/de Falla - The Three-Cornered Hat Suite.md",
+      "title": "de Falla - The Three-Cornered Hat Suite",
+      "content": "El sombrero de tres picos\n\nThere are two suites but either one is great",
+      "frontmatter": {
+        "composer": "de Falla, Manuel",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "von-suppe-overture-to-banditenstreiche-jolly-robbers",
