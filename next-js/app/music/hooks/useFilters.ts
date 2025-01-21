@@ -125,6 +125,9 @@ export function useFilters({
       ? searchParams
       : new URLSearchParams(initialFilters);
 
+    // Check if we're using only a single facet
+    const isSingleFacet = facets.length === 1;
+
     return [
       {
         id: "season",
@@ -132,6 +135,7 @@ export function useFilters({
         options: [
           ...database.season
             .filter((season) => {
+              if (isSingleFacet && facets[0] === "season") return true;
               if (params.get("season") === season.slug) return true;
               return usedSeasons.has(season.title);
             })
@@ -150,6 +154,7 @@ export function useFilters({
         label: "Group",
         options: database.group
           .filter((group) => {
+            if (isSingleFacet && facets[0] === "group") return true;
             if (params.get("group") === group.slug) return true;
             return usedGroups.has(group.title);
           })
@@ -166,6 +171,7 @@ export function useFilters({
         label: "Conductor",
         options: database.conductor
           .filter((conductor) => {
+            if (isSingleFacet && facets[0] === "conductor") return true;
             if (params.get("conductor") === conductor.slug) return true;
             return usedConductors.has(conductor.title);
           })
@@ -185,6 +191,7 @@ export function useFilters({
         label: "Venue",
         options: database.venue
           .filter((venue) => {
+            if (isSingleFacet && facets[0] === "venue") return true;
             if (params.get("venue") === venue.slug) return true;
             return usedVenues.has(venue.title);
           })
@@ -201,28 +208,30 @@ export function useFilters({
         label: "Composer",
         options: database.composer
           .filter((composer) => {
-            // If a composer is already selected, only show that composer
-            const selectedComposer = params.get("composer");
-            if (selectedComposer) {
-              return composer.slug === selectedComposer;
+            if (isSingleFacet && facets[0] === "composer") return true;
+            if (params.get("composer") === composer.slug) return true;
+
+            // Only check for works if not in single facet mode
+            if (!isSingleFacet) {
+              // Find works by this composer
+              const composerWorks = database.work.filter(
+                (work) => work.frontmatter.composer === composer.title
+              );
+
+              // Check if any of the composer's works are in the filtered concerts
+              return composerWorks.some((work) =>
+                filteredConcerts.some((concert) => {
+                  const works = concert.frontmatter.works
+                    ? Array.isArray(concert.frontmatter.works)
+                      ? concert.frontmatter.works
+                      : [concert.frontmatter.works]
+                    : [];
+                  return works.includes(work.title);
+                })
+              );
             }
 
-            // Find works by this composer
-            const composerWorks = database.work.filter(
-              (work) => work.frontmatter.composer === composer.title
-            );
-
-            // Check if any of the composer's works are in the filtered concerts
-            return composerWorks.some((work) =>
-              filteredConcerts.some((concert) => {
-                const works = concert.frontmatter.works
-                  ? Array.isArray(concert.frontmatter.works)
-                    ? concert.frontmatter.works
-                    : [concert.frontmatter.works]
-                  : [];
-                return works.includes(work.title);
-              })
-            );
+            return true;
           })
           .map((composer) => ({
             label: composer.title,
@@ -245,7 +254,7 @@ export function useFilters({
           })),
       },
     ];
-  }, [filteredConcerts, searchParams, updateUrl, initialFilters]);
+  }, [filteredConcerts, searchParams, updateUrl, initialFilters, facets]);
 
   const handleChange = (newValue: readonly any[]) => {
     const params = new URLSearchParams(
