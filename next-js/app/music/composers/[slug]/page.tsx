@@ -3,7 +3,7 @@ import Link from "next/link";
 import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
-import { formatWorkTitle } from "../../lib/helpers";
+import { formatWorkTitle, formatComposerName } from "../../lib/helpers";
 import { BucketList } from "../../components/BucketList";
 import { ListItem } from "../../components/ListItem";
 
@@ -23,7 +23,9 @@ export default function ComposerPage({ params }: PageProps) {
 
   return (
     <article>
-      <h1 className="text-2xl font-bold mb-6">{composer.title}</h1>
+      <h1 className="text-2xl font-bold mb-6">
+        {formatComposerName(composer.title)}
+      </h1>
 
       {works.length > 0 && (
         <div className="mb-8">

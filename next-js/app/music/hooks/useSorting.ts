@@ -64,6 +64,10 @@ export function useSorting({
     return [...items].sort((a, b) => {
       switch (currentSortOption.value) {
         case "alphabetical":
+          // If we specify title in the sortableFields, use that
+          if (a.sortableFields?.title && b.sortableFields?.title) {
+            return a.sortableFields.title.localeCompare(b.sortableFields.title);
+          }
           return a.title.localeCompare(b.title);
         default:
           return (

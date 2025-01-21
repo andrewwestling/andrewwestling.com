@@ -4,7 +4,11 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { getDateForSorting, formatWorkTitle } from "../../lib/helpers";
+import {
+  getDateForSorting,
+  formatWorkTitle,
+  formatComposerName,
+} from "../../lib/helpers";
 import { BucketList } from "../../components/BucketList";
 
 export default function WorkPage({ params }: PageProps) {
@@ -48,7 +52,7 @@ export default function WorkPage({ params }: PageProps) {
         <p className="text-lg mb-6">
           by{" "}
           <Link href={routes.composers.show(composer.slug)}>
-            {composer.title}
+            {formatComposerName(composer.title)}
           </Link>
         </p>
       )}

@@ -4,7 +4,7 @@ import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { formatWorkTitle } from "../../lib/helpers";
+import { formatComposerName, formatWorkTitle } from "../../lib/helpers";
 import { ListItem } from "../../components/ListItem";
 
 export default function SeasonPage({ params }: PageProps) {
@@ -53,7 +53,10 @@ export default function SeasonPage({ params }: PageProps) {
                     key={work.slug}
                     title={formatWorkTitle(work)}
                     href={routes.works.show(work.slug)}
-                    stats={[`by ${work.frontmatter.composer}`]}
+                    stats={[
+                      work.frontmatter.composer &&
+                        `by ${formatComposerName(work.frontmatter.composer)}`,
+                    ]}
                     bucketList={work.bucketList}
                   />
                 )

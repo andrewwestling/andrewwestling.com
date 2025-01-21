@@ -1,7 +1,7 @@
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
-import { formatWorkTitle } from "../lib/helpers";
+import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 
 export default function WorksPage({
   searchParams,
@@ -66,7 +66,7 @@ export default function WorksPage({
       title: formatWorkTitle(work),
       href: routes.works.show(work.slug),
       stats: [
-        composer && `by ${composer.title}`,
+        composer && `by ${formatComposerName(composer.title)}`,
         `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
       ].filter(Boolean) as string[],
       sortableFields: {

@@ -1,7 +1,7 @@
 import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { ListItem } from "@music/components/ListItem";
-import { formatWorkTitle } from "../lib/helpers";
+import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 
 export default function BucketListPage() {
   // Find bucket list works
@@ -37,7 +37,7 @@ export default function BucketListPage() {
               title={formatWorkTitle(work)}
               href={routes.works.show(work.slug)}
               stats={[
-                composer && `by ${composer.title}`,
+                composer && `by ${formatComposerName(composer.title)}`,
                 `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
               ]}
               className={hasBeenPlayed ? "line-through text-muted" : ""}

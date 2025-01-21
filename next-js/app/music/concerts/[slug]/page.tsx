@@ -6,6 +6,7 @@ import {
   findConductorSlug,
   formatConcertTitle,
   formatWorkTitle,
+  formatComposerName,
 } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { DidNotPlay } from "@music/components/DidNotPlay";
@@ -125,7 +126,7 @@ export default async function ConcertPage({ params }: PageProps) {
                   href={routes.works.show(work.slug)}
                   stats={[
                     work.frontmatter.composer &&
-                      `by ${work.frontmatter.composer}`,
+                      `by ${formatComposerName(work.frontmatter.composer)}`,
                   ]}
                   bucketList={work.bucketList}
                 />

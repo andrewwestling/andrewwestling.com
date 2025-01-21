@@ -154,3 +154,12 @@ export function resolveSeasonSlug(
   }
   return seasonSlug;
 }
+
+export function formatComposerName(name: string): string {
+  // Split on comma and trim whitespace
+  const parts = name.split(",").map((part) => part.trim());
+  if (parts.length !== 2) return name;
+
+  // Return in firstname lastname format
+  return `${parts[1]} ${parts[0]}`;
+}
