@@ -95,6 +95,7 @@ export interface Database {
   rehearsal: BaseItem[];
   "sheet-music": BaseItem[];
   season: Season[];
+  orderedBucketList: string[];
 }
 
 export type VaultObject = BaseItem;

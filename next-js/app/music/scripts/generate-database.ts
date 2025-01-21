@@ -297,6 +297,9 @@ function processBucketList(database: Database, vaultPath: string) {
       })
       .filter((line) => line.length > 0);
 
+    // Store the ordered list in the database
+    database.orderedBucketList = bucketListWorks;
+
     // Mark works in the database as bucket list works
     database.work.forEach((work) => {
       work.bucketList = bucketListWorks.some((bucketWork) => {

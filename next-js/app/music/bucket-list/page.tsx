@@ -4,8 +4,17 @@ import { ListItem } from "@music/components/ListItem";
 import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 
 export default function BucketListPage() {
-  // Find bucket list works
-  const bucketListWorks = database.work.filter((work) => work.bucketList);
+  // Get works in the order they appear in the bucket list
+  const bucketListWorks = database.orderedBucketList
+    .map((title) => {
+      // Find the work by title, trying both exact and partial matches
+      return database.work.find((work) => {
+        const workTitle = work.title.toLowerCase();
+        const bucketTitle = title.toLowerCase();
+        return workTitle === bucketTitle || workTitle.includes(bucketTitle);
+      });
+    })
+    .filter((work): work is (typeof database.work)[0] => work !== undefined);
 
   return (
     <div>
