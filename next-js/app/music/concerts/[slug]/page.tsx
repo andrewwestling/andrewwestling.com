@@ -7,6 +7,7 @@ import {
   formatConcertTitle,
   formatWorkTitle,
   formatComposerName,
+  isUpcoming,
 } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { DidNotPlay } from "@music/components/DidNotPlay";
@@ -17,6 +18,7 @@ import {
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/lib/types";
 import { ListItem } from "../../components/ListItem";
+import { ExternalLink } from "../../components/ExternalLink";
 
 export default async function ConcertPage({ params }: PageProps) {
   // Find concert by matching the date portion of the slug
@@ -68,7 +70,7 @@ export default async function ConcertPage({ params }: PageProps) {
 
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-2">Details</h2>
-        <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2">
+        <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-medium">Date</dt>
           <dd>{formatDate(concert.frontmatter.date)}</dd>
 
@@ -112,6 +114,21 @@ export default async function ConcertPage({ params }: PageProps) {
               </dd>
             </>
           )}
+
+          {concert.frontmatter.ticketUrl &&
+            isUpcoming(concert.frontmatter.date) && (
+              <>
+                <dt className="font-medium">Tickets</dt>
+                <dd>
+                  <ExternalLink
+                    href={concert.frontmatter.ticketUrl}
+                    className="text-primary"
+                  >
+                    Buy Tickets
+                  </ExternalLink>
+                </dd>
+              </>
+            )}
         </dl>
       </div>
 

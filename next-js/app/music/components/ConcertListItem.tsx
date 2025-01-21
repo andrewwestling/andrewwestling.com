@@ -4,21 +4,25 @@ import {
   formatConcertTitle,
   formatDate,
   findConductorSlug,
+  isUpcoming,
 } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
 import { Concert } from "@music/lib/types";
 import database from "@music/data/database";
 import { findVenueFromFrontmatter } from "@music/lib/location";
 import { getLocationFromCoordinates } from "@music/lib/location";
+import { ExternalLink } from "./ExternalLink";
 
 interface ConcertListItemProps {
   concert: Concert;
   expanded?: boolean;
+  showTickets?: boolean;
 }
 
 export async function ConcertListItem({
   concert,
   expanded = false,
+  showTickets = false,
 }: ConcertListItemProps) {
   const group = database.group.find(
     (g) => g.title === concert.frontmatter.group
@@ -44,7 +48,20 @@ export async function ConcertListItem({
           <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
           <ConcertBadges concert={concert} />
         </h3>
-        <p className="text-muted text-sm">{formattedDate}</p>
+        <div className="flex items-center gap-1 text-muted text-sm">
+          <p>{formattedDate}</p>
+          {showTickets && concert.frontmatter.ticketUrl && (
+            <>
+              {" • "}
+              <ExternalLink
+                className="text-primary"
+                href={concert.frontmatter.ticketUrl}
+              >
+                Buy Tickets
+              </ExternalLink>
+            </>
+          )}
+        </div>
       </div>
     );
   }
@@ -103,6 +120,19 @@ export async function ConcertListItem({
                   </Link>
                 </span>
               ))}
+            </dd>
+          </>
+        )}
+        {showTickets && concert.frontmatter.ticketUrl && (
+          <>
+            <dt className="font-medium">Tickets</dt>
+            <dd>
+              <ExternalLink
+                className="text-primary"
+                href={concert.frontmatter.ticketUrl}
+              >
+                Buy Tickets
+              </ExternalLink>
             </dd>
           </>
         )}

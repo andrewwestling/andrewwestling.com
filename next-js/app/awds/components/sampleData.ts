@@ -11,6 +11,7 @@ export const sampleConcertWithTitle = {
     conductor: ["Barbara Yahr"],
     spotifyPlaylistUrl: null,
     venue: "All Saints Church",
+    ticketUrl: "https://gvo.org",
   },
 };
 
@@ -27,6 +28,7 @@ export const sampleConcertWithoutTitle = {
     conductor: ["Barbara Yahr"],
     spotifyPlaylistUrl: null,
     venue: "All Saints Church",
+    ticketUrl: "https://gvo.org",
   },
 };
 

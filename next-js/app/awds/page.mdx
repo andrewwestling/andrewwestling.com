@@ -196,6 +196,25 @@ This is used when listing concerts on a page.
         expanded
       />
     </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">With Tickets</label>
+      <ConcertListItem
+        concert={sampleConcertWithTitle}
+        group={sampleGroup}
+        showTickets
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">With Tickets, Expanded</label>
+      <ConcertListItem
+        concert={sampleConcertWithTitle}
+        group={sampleGroup}
+        expanded
+        showTickets
+      />
+    </div>
   </div>
 </ComponentWrapper>
 

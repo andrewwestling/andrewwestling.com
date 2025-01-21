@@ -27,10 +27,15 @@ export default async function HomePage() {
       {/* Up Next */}
       {upcomingConcerts.length > 0 && (
         <section>
-          <h1 className="text-2xl font-semibold mb-4">Up Next</h1>
+          <h1 className="text-2xl font-bold mb-4">Up Next</h1>
           <div className="grid gap-4">
             {upcomingConcerts.slice(0, 1).map((concert) => (
-              <ConcertListItem key={concert.slug} concert={concert} expanded />
+              <ConcertListItem
+                key={concert.slug}
+                concert={concert}
+                expanded
+                showTickets={true}
+              />
             ))}
           </div>
         </section>
@@ -39,7 +44,7 @@ export default async function HomePage() {
       {/* This Season */}
       {upcomingConcerts.length > 1 && (
         <section>
-          <h1 className="text-2xl font-semibold mb-4">Later This Season</h1>
+          <h1 className="text-2xl font-bold mb-4">Later This Season</h1>
           {upcomingConcerts.length > 0 && (
             <div className="grid gap-4">
               {upcomingConcerts.slice(1).map((concert) => (
