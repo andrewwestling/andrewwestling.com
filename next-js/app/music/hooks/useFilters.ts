@@ -74,7 +74,6 @@ export function useFilters({
       }
     }
 
-    // Add composer filtering
     if (params.get("composer")) {
       const composer = database.composer.find(
         (c) => c.slug === params.get("composer")
@@ -87,7 +86,7 @@ export function useFilters({
               : [concert.frontmatter.works]
             : [];
 
-          // Find works by this composer in the concert
+          // Find works by this composer
           const composerWorks = database.work.filter(
             (work) => work.frontmatter.composer === composer.title
           );
@@ -256,18 +255,23 @@ export function useFilters({
     ];
   }, [filteredConcerts, searchParams, updateUrl, initialFilters, facets]);
 
-  const handleChange = (newValue: readonly any[]) => {
+  const handleChange = (newValue: readonly any[] | any) => {
     const params = new URLSearchParams(
-      updateUrl ? searchParams : initialFilters
+      updateUrl ? searchParams.toString() : initialFilters
     );
 
     // Clear all existing filter params
     facets.forEach((facet) => params.delete(facet));
 
-    // Add new filter params
-    newValue.forEach((option) => {
-      const [type, value] = option.value.split(":");
-      params.set(type, value);
+    // Handle both array and single object values
+    const values = Array.isArray(newValue) ? newValue : [newValue];
+
+    // Only process values that have a valid value property
+    values.forEach((option) => {
+      if (option?.value) {
+        const [type, value] = option.value.split(":");
+        params.set(type, value);
+      }
     });
 
     if (updateUrl) {

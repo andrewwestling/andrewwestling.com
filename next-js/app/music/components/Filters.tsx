@@ -154,10 +154,14 @@ export function Filters({
     })),
   }));
 
-  const params = new URLSearchParams(useSearchParams() || initialFilters);
+  const urlParams = useSearchParams();
+  const searchParams = updateUrl
+    ? urlParams
+    : new URLSearchParams(initialFilters);
+
   const selectedValues = activeFacets
     .map((facet) => {
-      const value = params.get(facet.id);
+      const value = searchParams.get(facet.id);
       if (!value) return null;
       const option = facet.options.find((opt) => opt.value === value);
       if (!option) return null;
