@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
 import { getDateForSorting } from "../../lib/helpers";
+import { ExternalLink } from "../../components/ExternalLink";
 
 // Import the map component dynamically to avoid SSR issues
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
@@ -42,7 +43,13 @@ export default async function VenuePage({ params }: PageProps) {
               {concerts.length !== 1 ? "s" : ""}
             </>
           )}
-        </div>
+          {venue.frontmatter.url && (
+            <>
+              {" • "}
+              <ExternalLink href={venue.frontmatter.url}>{"Link"}</ExternalLink>
+            </>
+          )}
+        </p>
       </div>
 
       <div className="grid gap-8">

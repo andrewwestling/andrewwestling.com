@@ -3,6 +3,7 @@ import database from "@music/data/database";
 import { getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { ExternalLink } from "@music/components/ExternalLink";
 
 export default function GroupPage({ params }: PageProps) {
   const group = database.group.find((g) => g.slug === params.slug);
@@ -23,7 +24,15 @@ export default function GroupPage({ params }: PageProps) {
   return (
     <article>
       <h1 className="text-2xl font-bold">{group.title}</h1>
-      <p className="text-lg mb-6">{group.frontmatter.location}</p>
+      <p className="mb-6">
+        {group.frontmatter.location}
+        {group.frontmatter.url && " • "}
+        {group.frontmatter.url && (
+          <ExternalLink href={group.frontmatter.url}>
+            {group.frontmatter.url}
+          </ExternalLink>
+        )}
+      </p>
 
       {concerts.length > 0 && (
         <div>
