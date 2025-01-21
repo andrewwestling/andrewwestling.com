@@ -22,17 +22,19 @@ export default function GroupPage({ params }: PageProps) {
     });
 
   return (
-    <article>
-      <h1 className="text-2xl font-bold">{group.title}</h1>
-      <p className="mb-6">
-        {group.frontmatter.location}
-        {group.frontmatter.url && " • "}
-        {group.frontmatter.url && (
-          <ExternalLink href={group.frontmatter.url}>
-            {group.frontmatter.url}
-          </ExternalLink>
-        )}
-      </p>
+    <article className="flex flex-col gap-6">
+      <div>
+        <h1 className="text-2xl font-bold">{group.title}</h1>
+        <p>
+          {group.frontmatter.location}
+          {group.frontmatter.url && " • "}
+          {group.frontmatter.url && (
+            <ExternalLink href={group.frontmatter.url}>
+              {group.frontmatter.url}
+            </ExternalLink>
+          )}
+        </p>
+      </div>
 
       {concerts.length > 0 && (
         <div>

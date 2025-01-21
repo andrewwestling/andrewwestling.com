@@ -31,10 +31,10 @@ export default async function VenuePage({ params }: PageProps) {
     });
 
   return (
-    <div className="grid gap-8">
+    <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-4xl font-bold">{venue.title}</h1>
-        <div className="text-muted text-sm">
+        <h1 className="text-2xl font-bold">{venue.title}</h1>
+        <p>
           {location && <>{location}</>}
           {location && concerts.length > 0 && " • "}
           {concerts.length > 0 && (
@@ -66,7 +66,7 @@ export default async function VenuePage({ params }: PageProps) {
         {/* Concerts */}
         {concerts.length > 0 && (
           <section>
-            <h2 className="text-2xl font-bold mb-4">Concerts</h2>
+            <h2 className="text-lg font-semibold mb-4">Concerts</h2>
             <div className="grid gap-4">
               {concerts.map((concert) => (
                 <ConcertListItem key={concert.slug} concert={concert} />

@@ -22,11 +22,12 @@ export default function ComposerPage({ params }: PageProps) {
   );
 
   return (
-    <article>
-      <h1 className="text-2xl font-bold mb-6">
-        {formatComposerName(composer.title)}
-      </h1>
-
+    <article className="flex flex-col gap-6">
+      <div>
+        <h1 className="text-2xl font-bold">
+          {formatComposerName(composer.title)}
+        </h1>
+      </div>
       {works.length > 0 && (
         <div className="mb-8">
           <h2 className="text-lg font-semibold mb-4">Works</h2>

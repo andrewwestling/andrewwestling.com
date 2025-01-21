@@ -42,20 +42,22 @@ export default function WorkPage({ params }: PageProps) {
     });
 
   return (
-    <article>
-      <h1 className="text-2xl font-bold mb-4 flex gap-2 items-center">
-        {formatWorkTitle(work)}
-        {work.bucketList && <BucketList />}
-      </h1>
+    <article className="flex flex-col gap-6">
+      <div>
+        <h1 className="text-2xl font-bold flex gap-2 items-center">
+          {formatWorkTitle(work)}
+          {work.bucketList && <BucketList />}
+        </h1>
 
-      {composer && (
-        <p className="text-lg mb-6">
-          by{" "}
-          <Link href={routes.composers.show(composer.slug)}>
-            {formatComposerName(composer.title)}
-          </Link>
-        </p>
-      )}
+        {composer && (
+          <p>
+            by{" "}
+            <Link href={routes.composers.show(composer.slug)}>
+              {formatComposerName(composer.title)}
+            </Link>
+          </p>
+        )}
+      </div>
 
       {concerts.length > 0 && (
         <div>

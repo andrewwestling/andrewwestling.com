@@ -25,11 +25,11 @@ export default function SeasonPage({ params }: PageProps) {
     .filter(Boolean);
 
   return (
-    <article>
+    <article className="flex flex-col gap-6">
       <h1 className="text-2xl font-bold">{season.title}</h1>
 
       {concerts.length > 0 && (
-        <section className="mt-8">
+        <section>
           <h2 className="text-lg font-semibold mb-4">Concerts</h2>
           <div className="grid gap-4">
             {concerts.map(
