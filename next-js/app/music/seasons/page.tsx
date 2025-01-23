@@ -1,16 +1,15 @@
-import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
+import { getSeasons } from "@music/data/queries/seasons";
+import { getConcertsBySeason } from "@music/data/queries/concerts";
+import { getWorksBySeason } from "@music/data/queries/works";
 
 export default function SeasonsPage() {
-  const items = database.season.map((season) => {
-    const concerts = season.concertSlugs.map((concertSlug: string) =>
-      database.concert.find((c) => c.slug === concertSlug)
-    );
+  const seasons = getSeasons();
 
-    const works = season.workSlugs.map((workSlug: string) =>
-      database.work.find((w) => w.slug === workSlug)
-    );
+  const items = seasons.map((season) => {
+    const concerts = getConcertsBySeason(season.slug);
+    const works = getWorksBySeason(season.slug);
 
     return {
       slug: season.slug,

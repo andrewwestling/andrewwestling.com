@@ -1,43 +1,35 @@
-import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { ListItem } from "@music/components/ListItem";
 import { formatWorkTitle, formatComposerName } from "../lib/helpers";
+import {
+  getOrderedBucketList,
+  getWorkByTitle,
+} from "@music/data/queries/works";
+import { getComposerByTitle } from "@music/data/queries/composers";
+import { getConcertsByWork } from "@music/data/queries/concerts";
+import { Work } from "../lib/types";
 
 export default function BucketListPage() {
   // Get works in the order they appear in the bucket list
-  const bucketListWorks = database.orderedBucketList
-    .map((title) => {
-      // Find the work by title, trying both exact and partial matches
-      return database.work.find((work) => {
-        const workTitle = work.title.toLowerCase();
-        const bucketTitle = title.toLowerCase();
-        return workTitle === bucketTitle || workTitle.includes(bucketTitle);
-      });
-    })
-    .filter((work): work is (typeof database.work)[0] => work !== undefined);
+  const bucketListWorks = getOrderedBucketList()
+    .map((title) => getWorkByTitle(title))
+    .filter((work): work is Work => work !== undefined);
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-6">Bucket List</h1>
+    <article className="flex flex-col gap-6">
+      <div>
+        <h1 className="text-2xl font-bold">Bucket List</h1>
+      </div>
 
       <div className="grid gap-4">
         {bucketListWorks.map((work) => {
           // Find the composer
-          const composer = database.composer.find(
-            (c) => c.title === work.frontmatter.composer
-          );
+          const composer = work.frontmatter.composer
+            ? getComposerByTitle(work.frontmatter.composer)
+            : undefined;
 
           // Find all concerts featuring this work
-          const concerts = database.concert.filter((c) => {
-            const works = c.frontmatter.works
-              ? Array.isArray(c.frontmatter.works)
-                ? c.frontmatter.works
-                : [c.frontmatter.works]
-              : [];
-            return works.includes(work.title);
-          });
-
-          // Determine if the work has been played
+          const concerts = getConcertsByWork(work.title);
           const hasBeenPlayed = concerts.length > 0;
 
           return (
@@ -54,6 +46,6 @@ export default function BucketListPage() {
           );
         })}
       </div>
-    </div>
+    </article>
   );
 }

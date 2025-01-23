@@ -1,8 +1,17 @@
 import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import database from "@music/data/database";
 import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
 import type { FilterFacetId } from "@music/components/Filters";
+import { getConcerts } from "@music/data/queries/concerts";
+import { getGroups, getGroupBySlug } from "@music/data/queries/groups";
+import { getSeasons, getSeasonBySlug } from "@music/data/queries/seasons";
+import {
+  getConductors,
+  getConductorBySlug,
+} from "@music/data/queries/conductors";
+import { getVenues, getVenueBySlug } from "@music/data/queries/venues";
+import { getComposers, getComposerBySlug } from "@music/data/queries/composers";
+import { getWorks, getWorksByComposer } from "@music/data/queries/works";
 
 export function useFilters({
   facets = ["group", "season", "conductor", "venue", "composer"],
@@ -21,14 +30,14 @@ export function useFilters({
 
   // Get filtered concerts based on current filters
   const filteredConcerts = useMemo(() => {
-    let concerts = [...database.concert];
+    let concerts = [...getConcerts()];
     const params = updateUrl
       ? searchParams
       : new URLSearchParams(initialFilters);
 
     // Apply each active filter
     if (params.get("group")) {
-      const group = database.group.find((g) => g.slug === params.get("group"));
+      const group = getGroupBySlug(params.get("group")!);
       if (group) {
         concerts = concerts.filter(
           (concert) => concert.frontmatter.group === group.title
@@ -37,12 +46,9 @@ export function useFilters({
     }
 
     if (params.get("season")) {
-      const seasonSlug = resolveSeasonSlug(
-        params.get("season")!,
-        database.season
-      );
+      const seasonSlug = resolveSeasonSlug(params.get("season")!);
       if (seasonSlug) {
-        const season = database.season.find((s) => s.slug === seasonSlug);
+        const season = getSeasonBySlug(seasonSlug);
         if (season) {
           concerts = concerts.filter(
             (concert) => concert.frontmatter.season === season.title
@@ -52,9 +58,7 @@ export function useFilters({
     }
 
     if (params.get("conductor")) {
-      const conductor = database.conductor.find(
-        (c) => c.slug === params.get("conductor")
-      );
+      const conductor = getConductorBySlug(params.get("conductor")!);
       if (conductor) {
         concerts = concerts.filter((concert) => {
           const conductors = Array.isArray(concert.frontmatter.conductor)
@@ -66,7 +70,7 @@ export function useFilters({
     }
 
     if (params.get("venue")) {
-      const venue = database.venue.find((v) => v.slug === params.get("venue"));
+      const venue = getVenueBySlug(params.get("venue")!);
       if (venue) {
         concerts = concerts.filter(
           (concert) => concert.frontmatter.venue === venue.title
@@ -75,9 +79,7 @@ export function useFilters({
     }
 
     if (params.get("composer")) {
-      const composer = database.composer.find(
-        (c) => c.slug === params.get("composer")
-      );
+      const composer = getComposerBySlug(params.get("composer")!);
       if (composer) {
         concerts = concerts.filter((concert) => {
           const works = concert.frontmatter.works
@@ -87,9 +89,7 @@ export function useFilters({
             : [];
 
           // Find works by this composer
-          const composerWorks = database.work.filter(
-            (work) => work.frontmatter.composer === composer.title
-          );
+          const composerWorks = getWorksByComposer(composer.title);
 
           // Check if any of the composer's works are in this concert
           return composerWorks.some((work) => works.includes(work.title));
@@ -132,7 +132,7 @@ export function useFilters({
         id: "season",
         label: "Season",
         options: [
-          ...database.season
+          ...getSeasons()
             .filter((season) => {
               if (isSingleFacet && facets[0] === "season") return true;
               if (params.get("season") === season.slug) return true;
@@ -151,7 +151,7 @@ export function useFilters({
       {
         id: "group",
         label: "Group",
-        options: database.group
+        options: getGroups()
           .filter((group) => {
             if (isSingleFacet && facets[0] === "group") return true;
             if (params.get("group") === group.slug) return true;
@@ -168,7 +168,7 @@ export function useFilters({
       {
         id: "conductor",
         label: "Conductor",
-        options: database.conductor
+        options: getConductors()
           .filter((conductor) => {
             if (isSingleFacet && facets[0] === "conductor") return true;
             if (params.get("conductor") === conductor.slug) return true;
@@ -188,7 +188,7 @@ export function useFilters({
       {
         id: "venue",
         label: "Venue",
-        options: database.venue
+        options: getVenues()
           .filter((venue) => {
             if (isSingleFacet && facets[0] === "venue") return true;
             if (params.get("venue") === venue.slug) return true;
@@ -205,7 +205,7 @@ export function useFilters({
       {
         id: "composer",
         label: "Composer",
-        options: database.composer
+        options: getComposers()
           .filter((composer) => {
             if (isSingleFacet && facets[0] === "composer") return true;
             if (params.get("composer") === composer.slug) return true;
@@ -213,9 +213,7 @@ export function useFilters({
             // Only check for works if not in single facet mode
             if (!isSingleFacet) {
               // Find works by this composer
-              const composerWorks = database.work.filter(
-                (work) => work.frontmatter.composer === composer.title
-              );
+              const composerWorks = getWorksByComposer(composer.title);
 
               // Check if any of the composer's works are in the filtered concerts
               return composerWorks.some((work) =>
@@ -243,9 +241,7 @@ export function useFilters({
                 : [];
 
               // Find works by this composer
-              const composerWorks = database.work.filter(
-                (work) => work.frontmatter.composer === composer.title
-              );
+              const composerWorks = getWorksByComposer(composer.title);
 
               // Check if any of the composer's works are in this concert
               return composerWorks.some((work) => works.includes(work.title));

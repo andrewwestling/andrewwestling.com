@@ -1,4 +1,3 @@
-import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
@@ -6,6 +5,9 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
 import { getDateForSorting } from "../../lib/helpers";
 import { ExternalLink } from "../../components/ExternalLink";
+import { getVenueBySlug, getVenues } from "@music/data/queries/venues";
+import { getConcertsByVenue } from "@music/data/queries/concerts";
+import type { Venue } from "@music/lib/types";
 
 // Import the map component dynamically to avoid SSR issues
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
@@ -13,25 +15,23 @@ const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
 });
 
 export default async function VenuePage({ params }: PageProps) {
-  const venue = database.venue.find((v) => v.slug === params.slug);
+  const venue = getVenueBySlug(params.slug);
   if (!venue) notFound();
 
-  const locationMap = await getLocationsForVenues(database.venue);
+  const locationMap = await getLocationsForVenues([venue]);
   const location = locationMap[venue.slug];
 
   // Get all concerts at this venue, excluding didNotPlay ones
-  const concerts = database.concert
-    .filter(
-      (c) => !c.frontmatter.didNotPlay && c.frontmatter.venue === venue.title
-    )
+  const concerts = getConcertsByVenue(venue.title)
+    .filter((c) => !c.frontmatter.didNotPlay)
     .sort((a, b) => {
-      const dateA = getDateForSorting(a.frontmatter.date);
-      const dateB = getDateForSorting(b.frontmatter.date);
-      return dateB - dateA; // Sort descending (newest first)
+      const dateA = new Date(getDateForSorting(a.frontmatter.date));
+      const dateB = new Date(getDateForSorting(b.frontmatter.date));
+      return dateB.getTime() - dateA.getTime(); // Sort descending (newest first)
     });
 
   return (
-    <div className="flex flex-col gap-6">
+    <article className="flex flex-col gap-6">
       <div>
         <h1 className="text-2xl font-bold">{venue.title}</h1>
         <p>
@@ -39,8 +39,7 @@ export default async function VenuePage({ params }: PageProps) {
           {location && concerts.length > 0 && " • "}
           {concerts.length > 0 && (
             <>
-              {concerts.length} concert
-              {concerts.length !== 1 ? "s" : ""}
+              {concerts.length} concert{concerts.length !== 1 ? "s" : ""}
             </>
           )}
           {venue.frontmatter.url && (
@@ -52,35 +51,33 @@ export default async function VenuePage({ params }: PageProps) {
         </p>
       </div>
 
-      <div className="grid gap-8">
-        {/* Venue Details */}
-        <section>
-          {venue.frontmatter.coordinates && (
-            <VenueMap
-              coordinates={venue.frontmatter.coordinates}
-              venueName={venue.title}
-            />
-          )}
-        </section>
+      {location && venue.frontmatter.coordinates && (
+        <div>
+          <h2 className="text-lg font-semibold mb-4">Location</h2>
+          <VenueMap
+            coordinates={venue.frontmatter.coordinates}
+            venueName={venue.title}
+          />
+        </div>
+      )}
 
-        {/* Concerts */}
-        {concerts.length > 0 && (
-          <section>
-            <h2 className="text-lg font-semibold mb-4">Concerts</h2>
-            <div className="grid gap-4">
-              {concerts.map((concert) => (
-                <ConcertListItem key={concert.slug} concert={concert} />
-              ))}
-            </div>
-          </section>
-        )}
-      </div>
-    </div>
+      {concerts.length > 0 && (
+        <div>
+          <h2 className="text-lg font-semibold mb-4">Concerts</h2>
+          <div className="grid gap-4">
+            {concerts.map((concert) => (
+              <ConcertListItem key={concert.slug} concert={concert} />
+            ))}
+          </div>
+        </div>
+      )}
+    </article>
   );
 }
 
 export function generateStaticParams() {
-  return database.venue.map((venue) => ({
+  const venues = getVenues();
+  return venues.map((venue: Venue) => ({
     slug: venue.slug,
   }));
 }

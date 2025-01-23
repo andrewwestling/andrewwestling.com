@@ -1,18 +1,21 @@
-import database from "@music/data/database";
 import { getDateForSorting } from "@music/lib/helpers";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { Filters } from "@music/components/Filters";
+import { getConcerts } from "@music/data/queries/concerts";
+import { getGroupBySlug } from "@music/data/queries/groups";
+import { getSeasonBySlug, getCurrentSeason } from "@music/data/queries/seasons";
+import { getConductorBySlug } from "@music/data/queries/conductors";
 
 export default async function ConcertsPage({
   searchParams,
 }: {
   searchParams: { [key: string]: string | undefined };
 }) {
-  let concerts = [...database.concert];
+  let concerts = [...getConcerts()];
 
   // Apply filters from searchParams
   if (searchParams.group) {
-    const group = database.group.find((g) => g.slug === searchParams.group);
+    const group = getGroupBySlug(searchParams.group);
     if (group) {
       concerts = concerts.filter(
         (concert) => concert.frontmatter.group === group.title
@@ -24,19 +27,13 @@ export default async function ConcertsPage({
     let seasonSlug = searchParams.season;
     // Handle "current" season in the URL
     if (seasonSlug === "current") {
-      const currentYear = new Date().getFullYear();
-      const month = new Date().getMonth();
-      const year = month < 8 ? currentYear - 1 : currentYear;
-      const expectedSeasonTitle = `${year}-${year + 1}`;
-      const currentSeason = database.season.find(
-        (s) => s.title === expectedSeasonTitle
-      );
+      const currentSeason = getCurrentSeason();
       if (currentSeason) {
         seasonSlug = currentSeason.slug;
       }
     }
 
-    const season = database.season.find((s) => s.slug === seasonSlug);
+    const season = getSeasonBySlug(seasonSlug);
     if (season) {
       concerts = concerts.filter(
         (concert) => concert.frontmatter.season === season.title
@@ -45,66 +42,35 @@ export default async function ConcertsPage({
   }
 
   if (searchParams.conductor) {
-    const conductor = database.conductor.find(
-      (c) => c.slug === searchParams.conductor
-    );
+    const conductor = getConductorBySlug(searchParams.conductor);
     if (conductor) {
       concerts = concerts.filter((concert) => {
         const conductors = Array.isArray(concert.frontmatter.conductor)
           ? concert.frontmatter.conductor
-          : [concert.frontmatter.conductor];
-        return conductors.includes(conductor.title);
-      });
-    }
-  }
-
-  if (searchParams.venue) {
-    const venue = database.venue.find((v) => v.slug === searchParams.venue);
-    if (venue) {
-      concerts = concerts.filter(
-        (concert) => concert.frontmatter.venue === venue.title
-      );
-    }
-  }
-
-  // Add composer filtering
-  if (searchParams.composer) {
-    const composer = database.composer.find(
-      (c) => c.slug === searchParams.composer
-    );
-    if (composer) {
-      concerts = concerts.filter((concert) => {
-        const works = concert.frontmatter.works
-          ? Array.isArray(concert.frontmatter.works)
-            ? concert.frontmatter.works
-            : [concert.frontmatter.works]
+          : concert.frontmatter.conductor
+          ? [concert.frontmatter.conductor]
           : [];
-
-        // Find works by this composer in the concert
-        const composerWorks = database.work.filter(
-          (work) => work.frontmatter.composer === composer.title
-        );
-
-        // Check if any of the composer's works are in this concert
-        return composerWorks.some((work) => works.includes(work.title));
+        return conductors.includes(conductor.title);
       });
     }
   }
 
   // Sort concerts by date
   concerts.sort((a, b) => {
-    const dateA = getDateForSorting(a.frontmatter.date);
-    const dateB = getDateForSorting(b.frontmatter.date);
-    return dateB - dateA;
+    const dateA = new Date(getDateForSorting(a.frontmatter.date));
+    const dateB = new Date(getDateForSorting(b.frontmatter.date));
+    return dateB.getTime() - dateA.getTime();
   });
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-6">Concerts</h1>
+    <div className="flex flex-col gap-6">
+      <div>
+        <h1 className="text-2xl font-bold">Concerts</h1>
+      </div>
 
-      <Filters initialFilters={searchParams as Record<string, string>} />
+      <Filters />
 
-      <div className="grid gap-6">
+      <div className="grid gap-4">
         {concerts.map((concert) => (
           <ConcertListItem key={concert.slug} concert={concert} />
         ))}

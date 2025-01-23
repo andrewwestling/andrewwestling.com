@@ -1,13 +1,14 @@
-import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
+import { getGroups } from "@music/data/queries/groups";
+import { getConcertsByGroup } from "@music/data/queries/concerts";
 
 export default function GroupsPage() {
-  const items = database.group.map((group) => {
+  const groups = getGroups();
+
+  const items = groups.map((group) => {
     // Find all concerts for this group
-    const concerts = database.concert.filter(
-      (c) => c.frontmatter.group === group.title
-    );
+    const concerts = getConcertsByGroup(group.title);
 
     return {
       slug: group.slug,

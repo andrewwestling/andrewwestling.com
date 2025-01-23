@@ -1,25 +1,20 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { formatWorkTitle, formatComposerName } from "../../lib/helpers";
-import { BucketList } from "../../components/BucketList";
 import { ListItem } from "../../components/ListItem";
+import { getComposerBySlug } from "@music/data/queries/composers";
+import { getWorksByComposer } from "@music/data/queries/works";
 
 export default function ComposerPage({ params }: PageProps) {
-  const composer = database.composer.find(
-    (c) => c.slug === decodeURIComponent(params.slug)
-  );
+  const composer = getComposerBySlug(decodeURIComponent(params.slug));
 
   if (!composer) {
     notFound();
   }
 
   // Find all works by this composer
-  const works = database.work.filter(
-    (w) => w.frontmatter.composer === composer.title
-  );
+  const works = getWorksByComposer(composer.title);
 
   return (
     <article className="flex flex-col gap-6">

@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import database from "@music/data/database";
 import {
   formatDate,
   findConductorSlug,
@@ -11,26 +10,25 @@ import {
 } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { DidNotPlay } from "@music/components/DidNotPlay";
-import {
-  getLocationsForVenues,
-  findVenueFromFrontmatter,
-} from "@music/lib/location";
+import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/lib/types";
 import { ListItem } from "../../components/ListItem";
 import { ExternalLink } from "../../components/ExternalLink";
+import { getConcertBySlug } from "@music/data/queries/concerts";
+import { getGroupByTitle } from "@music/data/queries/groups";
+import { getWorkByTitle } from "@music/data/queries/works";
+import { getVenueByTitle } from "@music/data/queries/venues";
+import { Upcoming } from "../../components/Upcoming";
 
 export default async function ConcertPage({ params }: PageProps) {
-  // Find concert by matching the date portion of the slug
-  const concert = database.concert.find((c) => c.slug === params.slug);
+  const concert = getConcertBySlug(params.slug);
   if (!concert) {
     notFound();
   }
 
   // Find the referenced group
-  const group = database.group.find(
-    (g) => g.title === concert.frontmatter.group
-  );
+  const group = getGroupByTitle(concert.frontmatter.group);
 
   // Format the concert title
   const displayTitle = formatConcertTitle(concert.title, group);
@@ -44,22 +42,16 @@ export default async function ConcertPage({ params }: PageProps) {
 
   // Find the referenced works
   const works: string[] = concert.frontmatter.works || [];
-  const workObjects = works.map((workTitle: string) =>
-    database.work.find((w) => w.title === workTitle)
-  ) as Work[];
+  const workObjects = works
+    .map((workTitle: string) => getWorkByTitle(workTitle))
+    .filter((work): work is Work => work !== undefined);
 
-  // Get venue location if available
-  const locationMap = await getLocationsForVenues(database.venue);
-  const venue = findVenueFromFrontmatter(
-    concert.frontmatter.venue,
-    database.venue
-  );
-  let location = venue ? locationMap[venue.slug] : null;
-
-  // Fall back to group location if no venue location
-  if (!location && group?.frontmatter.location) {
-    location = group.frontmatter.location;
-  }
+  // Get venue and location if available
+  const venue = concert.frontmatter.venue
+    ? getVenueByTitle(concert.frontmatter.venue)
+    : undefined;
+  const locationMap = venue ? await getLocationsForVenues([venue]) : {};
+  const location = venue ? locationMap[venue.slug] : undefined;
 
   return (
     <article>

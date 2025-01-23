@@ -1,22 +1,22 @@
-import database from "@music/data/database";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
-import { formatComposerName } from "@music/lib/helpers";
+import { getComposers } from "@music/data/queries/composers";
+import { getWorksByComposer } from "@music/data/queries/works";
+import { getConcertsByWork } from "@music/data/queries/concerts";
 
 export default function ComposersPage() {
-  const items = database.composer.map((composer) => {
-    const works = database.work.filter(
-      (w) => w.frontmatter.composer === composer.title
-    );
+  const composers = getComposers();
 
-    // Find all concerts that include any of this composer's works
-    const concerts = database.concert.filter((concert) => {
-      const concertWorks = concert.frontmatter.works
-        ? Array.isArray(concert.frontmatter.works)
-          ? concert.frontmatter.works
-          : [concert.frontmatter.works]
-        : [];
-      return works.some((work) => concertWorks.includes(work.title));
+  const items = composers.map((composer) => {
+    // Get all works by this composer
+    const works = getWorksByComposer(composer.title);
+
+    // Get all concerts for each work and deduplicate
+    const concertSet = new Set<string>();
+    works.forEach((work) => {
+      getConcertsByWork(work.title).forEach((concert) => {
+        concertSet.add(concert.slug);
+      });
     });
 
     return {
@@ -25,11 +25,11 @@ export default function ComposersPage() {
       href: routes.composers.show(composer.slug),
       stats: [
         `${works.length} work${works.length !== 1 ? "s" : ""}`,
-        `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
+        `${concertSet.size} concert${concertSet.size !== 1 ? "s" : ""}`,
       ],
       sortableFields: {
         title: composer.title, // Not the formatted name, the actual title, which has last name first
-        concerts: concerts.length,
+        concerts: concertSet.size,
         works: works.length,
       },
     };

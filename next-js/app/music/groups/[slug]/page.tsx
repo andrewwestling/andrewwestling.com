@@ -1,25 +1,24 @@
 import { notFound } from "next/navigation";
-import database from "@music/data/database";
 import { getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { ExternalLink } from "@music/components/ExternalLink";
+import { getGroupBySlug } from "@music/data/queries/groups";
+import { getConcertsByGroup } from "@music/data/queries/concerts";
 
 export default function GroupPage({ params }: PageProps) {
-  const group = database.group.find((g) => g.slug === params.slug);
+  const group = getGroupBySlug(params.slug);
 
   if (!group) {
     notFound();
   }
 
   // Find all concerts for this group and sort by date
-  const concerts = [...database.concert]
-    .filter((c) => c.frontmatter.group === group.title)
-    .sort((a, b) => {
-      const dateA = getDateForSorting(a.frontmatter.date);
-      const dateB = getDateForSorting(b.frontmatter.date);
-      return dateB - dateA; // Sort descending (newest first)
-    });
+  const concerts = getConcertsByGroup(group.title).sort((a, b) => {
+    const dateA = new Date(getDateForSorting(a.frontmatter.date));
+    const dateB = new Date(getDateForSorting(b.frontmatter.date));
+    return dateB.getTime() - dateA.getTime(); // Sort descending (newest first)
+  });
 
   return (
     <article className="flex flex-col gap-6">

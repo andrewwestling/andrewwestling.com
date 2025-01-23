@@ -3,8 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { routes } from "@music/lib/routes";
-import database from "@music/data/database";
-import { formatConcertTitle, formatDate } from "../lib/helpers";
+import { formatDate } from "../lib/helpers";
+import { getConcertBySlug } from "@music/data/queries/concerts";
+import { getWorkBySlug } from "@music/data/queries/works";
+import { getComposerBySlug } from "@music/data/queries/composers";
+import { getConductorBySlug } from "@music/data/queries/conductors";
+import { getGroupBySlug } from "@music/data/queries/groups";
+import { getVenueBySlug } from "@music/data/queries/venues";
+import { getSeasonBySlug } from "@music/data/queries/seasons";
 
 interface BreadcrumbsProps {
   path?: string;
@@ -50,31 +56,31 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
     // Look up the proper title based on the section
     switch (parentSection) {
       case "concerts":
-        const concert = database.concert.find((c) => c.slug === slug);
+        const concert = getConcertBySlug(slug);
         if (concert) label = formatDate(concert.frontmatter.date);
         break;
       case "works":
-        const work = database.work.find((w) => w.slug === slug);
+        const work = getWorkBySlug(slug);
         if (work) label = work.title;
         break;
       case "composers":
-        const composer = database.composer.find((c) => c.slug === slug);
+        const composer = getComposerBySlug(slug);
         if (composer) label = composer.title;
         break;
       case "conductors":
-        const conductor = database.conductor.find((c) => c.slug === slug);
+        const conductor = getConductorBySlug(slug);
         if (conductor) label = conductor.title;
         break;
       case "groups":
-        const group = database.group.find((g) => g.slug === slug);
+        const group = getGroupBySlug(slug);
         if (group) label = group.title;
         break;
       case "venues":
-        const venue = database.venue.find((v) => v.slug === slug);
+        const venue = getVenueBySlug(slug);
         if (venue) label = venue.title;
         break;
       case "seasons":
-        const season = database.season.find((s) => s.slug === slug);
+        const season = getSeasonBySlug(slug);
         if (season) label = season.title;
         break;
     }

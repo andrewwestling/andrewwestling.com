@@ -4,14 +4,13 @@ import {
   formatConcertTitle,
   formatDate,
   findConductorSlug,
-  isUpcoming,
 } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
 import { Concert } from "@music/lib/types";
-import database from "@music/data/database";
-import { findVenueFromFrontmatter } from "@music/lib/location";
 import { getLocationFromCoordinates } from "@music/lib/location";
 import { ExternalLink } from "./ExternalLink";
+import { getGroupByTitle } from "@music/data/queries/groups";
+import { getVenueByTitle } from "@music/data/queries/venues";
 
 interface ConcertListItemProps {
   concert: Concert;
@@ -24,13 +23,10 @@ export async function ConcertListItem({
   expanded = false,
   showTickets = false,
 }: ConcertListItemProps) {
-  const group = database.group.find(
-    (g) => g.title === concert.frontmatter.group
-  );
-  const venue = findVenueFromFrontmatter(
-    concert.frontmatter.venue,
-    database.venue
-  );
+  const group = getGroupByTitle(concert.frontmatter.group);
+  const venue = concert.frontmatter.venue
+    ? getVenueByTitle(concert.frontmatter.venue)
+    : undefined;
   const displayTitle = formatConcertTitle(concert.title, group);
   const formattedDate = formatDate(concert.frontmatter.date);
 

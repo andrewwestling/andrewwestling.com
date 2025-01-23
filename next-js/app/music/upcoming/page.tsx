@@ -1,29 +1,11 @@
-import Link from "next/link";
-import database from "@music/data/database";
-import {
-  getDateFromFrontmatter,
-  isUpcoming,
-  getCurrentSeasonSlug,
-} from "@music/lib/helpers";
+import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 
-export default async function HomePage() {
-  // Get all concerts and sort them by date
-  let allConcerts = [...database.concert].filter(
-    (concert) => !concert.frontmatter.didNotPlay
-  );
-
-  const upcomingConcerts = allConcerts
-    .filter((concert) => isUpcoming(concert.frontmatter.date))
-    .sort((a, b) => {
-      const dateA = getDateFromFrontmatter(a);
-      const dateB = getDateFromFrontmatter(b);
-      if (!dateA || !dateB) return 0;
-      return dateA.getTime() - dateB.getTime(); // Ascending for upcoming
-    });
+export default async function UpcomingPage() {
+  const upcomingConcerts = getUpcomingConcerts();
 
   return (
-    <div className="grid gap-6">
+    <div className="flex flex-col gap-6">
       {/* Up Next */}
       {upcomingConcerts.length > 0 && (
         <section>
@@ -41,7 +23,7 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* This Season */}
+      {/* Later This Season */}
       {upcomingConcerts.length > 1 && (
         <section>
           <h1 className="text-2xl font-bold mb-4">Later This Season</h1>

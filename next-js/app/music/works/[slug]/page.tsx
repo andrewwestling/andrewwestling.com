@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
@@ -10,36 +9,28 @@ import {
   formatComposerName,
 } from "../../lib/helpers";
 import { BucketList } from "../../components/BucketList";
+import { getWorkBySlug } from "@music/data/queries/works";
+import { getComposerByTitle } from "@music/data/queries/composers";
+import { getConcertsByWork } from "@music/data/queries/concerts";
 
 export default function WorkPage({ params }: PageProps) {
-  const work = database.work.find(
-    (w) => w.slug === decodeURIComponent(params.slug)
-  );
+  const work = getWorkBySlug(decodeURIComponent(params.slug));
 
   if (!work) {
     notFound();
   }
 
   // Find the composer
-  const composer = database.composer.find(
-    (c) => c.title === work.frontmatter.composer
-  );
+  const composer = work.frontmatter.composer
+    ? getComposerByTitle(work.frontmatter.composer)
+    : undefined;
 
   // Find all concerts featuring this work
-  const concerts = database.concert
-    .filter((c) => {
-      const works = c.frontmatter.works
-        ? Array.isArray(c.frontmatter.works)
-          ? c.frontmatter.works
-          : [c.frontmatter.works]
-        : [];
-      return works.includes(work.title);
-    })
-    .sort((a, b) => {
-      const dateA = getDateForSorting(a.frontmatter.date);
-      const dateB = getDateForSorting(b.frontmatter.date);
-      return dateB - dateA; // Sort descending (newest first)
-    });
+  const concerts = getConcertsByWork(work.title).sort((a, b) => {
+    const dateA = new Date(getDateForSorting(a.frontmatter.date));
+    const dateB = new Date(getDateForSorting(b.frontmatter.date));
+    return dateB.getTime() - dateA.getTime(); // Sort descending (newest first)
+  });
 
   return (
     <article className="flex flex-col gap-6">

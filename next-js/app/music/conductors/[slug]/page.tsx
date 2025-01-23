@@ -1,33 +1,29 @@
 import { notFound } from "next/navigation";
-import database from "@music/data/database";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getDateForSorting } from "../../lib/helpers";
+import { getConductorBySlug } from "@music/data/queries/conductors";
+import { getConcertsByConductor } from "@music/data/queries/concerts";
 
 export default function ConductorPage({ params }: PageProps) {
-  const conductor = database.conductor.find((c) => c.slug === params.slug);
+  const conductor = getConductorBySlug(params.slug);
 
   if (!conductor) {
     notFound();
   }
 
   // Find all concerts for this conductor
-  const concerts = database.concert
-    .filter((c) => {
-      const conductors = Array.isArray(c.frontmatter.conductor)
-        ? c.frontmatter.conductor
-        : [c.frontmatter.conductor];
-      return conductors.includes(conductor.title);
-    })
-    .sort((a, b) => {
-      const dateA = getDateForSorting(a.frontmatter.date);
-      const dateB = getDateForSorting(b.frontmatter.date);
-      return dateB - dateA; // Sort descending (newest first)
-    });
+  const concerts = getConcertsByConductor(conductor.title).sort((a, b) => {
+    const dateA = new Date(getDateForSorting(a.frontmatter.date));
+    const dateB = new Date(getDateForSorting(b.frontmatter.date));
+    return dateB.getTime() - dateA.getTime(); // Sort descending (newest first)
+  });
 
   return (
-    <article>
-      <h1 className="text-2xl font-bold mb-6">{conductor.title}</h1>
+    <article className="flex flex-col gap-6">
+      <div>
+        <h1 className="text-2xl font-bold">{conductor.title}</h1>
+      </div>
 
       {concerts.length > 0 && (
         <div>

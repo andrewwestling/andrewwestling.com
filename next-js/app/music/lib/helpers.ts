@@ -1,5 +1,6 @@
-import database from "@music/data/database";
 import { Work } from "./types";
+import { getConductorByTitle } from "@music/data/queries/conductors";
+import { getSeasons } from "@music/data/queries/seasons";
 
 // Helper to extract date from frontmatter
 export function getDateFromFrontmatter(concert: {
@@ -94,7 +95,7 @@ export function getDateForSorting(dateStr: string | undefined): number {
 
 // Helper to find a conductor by their title and get their slug
 export function findConductorSlug(name: string): string | undefined {
-  const conductor = database.conductor.find((c) => c.title === name);
+  const conductor = getConductorByTitle(name);
   return conductor?.slug;
 }
 
@@ -138,19 +139,17 @@ export function formatWorkTitle(work: Work): string {
   }`;
 }
 
-export function getCurrentSeasonSlug(seasons: any[]): string | null {
+export function getCurrentSeasonSlug(): string | null {
   const currentYear = getCurrentSeasonYear();
   const expectedSeasonTitle = `${currentYear}-${currentYear + 1}`;
+  const seasons = getSeasons();
   const currentSeason = seasons.find((s) => s.title === expectedSeasonTitle);
   return currentSeason?.slug || null;
 }
 
-export function resolveSeasonSlug(
-  seasonSlug: string,
-  seasons: any[]
-): string | null {
+export function resolveSeasonSlug(seasonSlug: string): string | null {
   if (seasonSlug === "current") {
-    return getCurrentSeasonSlug(seasons);
+    return getCurrentSeasonSlug();
   }
   return seasonSlug;
 }
