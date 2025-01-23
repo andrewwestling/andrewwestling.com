@@ -5,6 +5,8 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
 import { getDateForSorting } from "../../lib/helpers";
 import { ExternalLink } from "../../components/ExternalLink";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
 import { getVenueBySlug, getVenues } from "@music/data/queries/venues";
 import { getConcertsByVenue } from "@music/data/queries/concerts";
 import type { Venue } from "@music/lib/types";
@@ -33,7 +35,7 @@ export default async function VenuePage({ params }: PageProps) {
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">{venue.title}</h1>
+        <PageTitle>{venue.title}</PageTitle>
         <p>
           {location && <>{location}</>}
           {location && concerts.length > 0 && " • "}
@@ -53,7 +55,7 @@ export default async function VenuePage({ params }: PageProps) {
 
       {location && venue.frontmatter.coordinates && (
         <div>
-          <h2 className="text-lg font-semibold mb-4">Location</h2>
+          <SectionHeading>Location</SectionHeading>
           <VenueMap
             coordinates={venue.frontmatter.coordinates}
             venueName={venue.title}
@@ -63,7 +65,7 @@ export default async function VenuePage({ params }: PageProps) {
 
       {concerts.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-4">Concerts</h2>
+          <SectionHeading>Concerts</SectionHeading>
           <div className="grid gap-4">
             {concerts.map((concert) => (
               <ConcertListItem key={concert.slug} concert={concert} />

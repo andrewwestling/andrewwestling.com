@@ -1,5 +1,6 @@
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { PageTitle } from "@music/components/PageTitle";
 
 export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();
@@ -9,7 +10,7 @@ export default async function UpcomingPage() {
       {/* Up Next */}
       {upcomingConcerts.length > 0 && (
         <section>
-          <h1 className="text-2xl font-bold mb-4">Up Next</h1>
+          <PageTitle className="mb-4">Up Next</PageTitle>
           <div className="grid gap-4">
             {upcomingConcerts.slice(0, 1).map((concert) => (
               <ConcertListItem
@@ -26,7 +27,7 @@ export default async function UpcomingPage() {
       {/* Later This Season */}
       {upcomingConcerts.length > 1 && (
         <section>
-          <h1 className="text-2xl font-bold mb-4">Later This Season</h1>
+          <PageTitle className="mb-4">Later This Season</PageTitle>
           {upcomingConcerts.length > 0 && (
             <div className="grid gap-4">
               {upcomingConcerts.slice(1).map((concert) => (

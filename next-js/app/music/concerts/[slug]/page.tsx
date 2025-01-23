@@ -13,13 +13,16 @@ import { DidNotPlay } from "@music/components/DidNotPlay";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/lib/types";
-import { ListItem } from "../../components/ListItem";
-import { ExternalLink } from "../../components/ExternalLink";
+import { ListItem } from "@music/components/ListItem";
+import { ExternalLink } from "@music/components/ExternalLink";
 import { getConcertBySlug } from "@music/data/queries/concerts";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getWorkByTitle } from "@music/data/queries/works";
 import { getVenueByTitle } from "@music/data/queries/venues";
 import { Upcoming } from "../../components/Upcoming";
+import { ConcertBadges } from "@music/components/ConcertBadges";
+import { SectionHeading } from "@music/components/SectionHeading";
+import { PageTitle } from "@music/components/PageTitle";
 
 export default async function ConcertPage({ params }: PageProps) {
   const concert = getConcertBySlug(params.slug);
@@ -54,14 +57,14 @@ export default async function ConcertPage({ params }: PageProps) {
   const location = venue ? locationMap[venue.slug] : undefined;
 
   return (
-    <article>
-      <h1 className="text-2xl font-bold mb-4 flex items-center gap-2 flex-wrap">
-        {displayTitle}
-        {concert.frontmatter.didNotPlay && <DidNotPlay />}
-      </h1>
+    <article className="flex flex-col gap-6">
+      <div className="flex items-center gap-2">
+        <PageTitle>{displayTitle}</PageTitle>
+        <ConcertBadges concert={concert} />
+      </div>
 
       <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Details</h2>
+        <SectionHeading className="mb-2">Details</SectionHeading>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-medium">Date</dt>
           <dd>{formatDate(concert.frontmatter.date)}</dd>
@@ -126,7 +129,7 @@ export default async function ConcertPage({ params }: PageProps) {
 
       {workObjects.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-2">Program</h2>
+          <SectionHeading className="mb-2">Program</SectionHeading>
           <ul className="list-disc list-inside">
             {workObjects.map((work) => (
               <li key={work.slug}>
@@ -147,7 +150,7 @@ export default async function ConcertPage({ params }: PageProps) {
 
       {concert.frontmatter.spotifyPlaylistUrl && (
         <div className="mt-6">
-          <h2 className="text-lg font-semibold mb-2">Listen</h2>
+          <SectionHeading className="mb-2">Listen</SectionHeading>
           <iframe
             src={concert.frontmatter.spotifyPlaylistUrl.replace(
               "spotify.com/playlist",

@@ -11,6 +11,7 @@ import { getLocationFromCoordinates } from "@music/lib/location";
 import { ExternalLink } from "./ExternalLink";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getVenueByTitle } from "@music/data/queries/venues";
+import { SectionHeading } from "./SectionHeading";
 
 interface ConcertListItemProps {
   concert: Concert;
@@ -64,10 +65,10 @@ export async function ConcertListItem({
 
   return (
     <article className="pb-6">
-      <h2 className="text-lg font-semibold mb-2 flex items-center gap-2">
+      <SectionHeading className="mb-2 flex items-center gap-2">
         <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
         <ConcertBadges concert={concert} />
-      </h2>
+      </SectionHeading>
 
       <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
         <dt className="font-medium">Date</dt>

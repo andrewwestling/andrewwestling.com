@@ -3,6 +3,8 @@ import { getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { ExternalLink } from "@music/components/ExternalLink";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
 import { getGroupBySlug } from "@music/data/queries/groups";
 import { getConcertsByGroup } from "@music/data/queries/concerts";
 
@@ -23,7 +25,7 @@ export default function GroupPage({ params }: PageProps) {
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">{group.title}</h1>
+        <PageTitle>{group.title}</PageTitle>
         <p>
           {group.frontmatter.location}
           {group.frontmatter.url && " • "}
@@ -37,7 +39,7 @@ export default function GroupPage({ params }: PageProps) {
 
       {concerts.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-4">Concerts</h2>
+          <SectionHeading>Concerts</SectionHeading>
           <div className="grid gap-4">
             {concerts.map((concert) => (
               <ConcertListItem key={concert.slug} concert={concert} />

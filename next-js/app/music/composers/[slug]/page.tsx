@@ -3,6 +3,8 @@ import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { formatWorkTitle, formatComposerName } from "../../lib/helpers";
 import { ListItem } from "../../components/ListItem";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
 import { getComposerBySlug } from "@music/data/queries/composers";
 import { getWorksByComposer } from "@music/data/queries/works";
 
@@ -19,13 +21,11 @@ export default function ComposerPage({ params }: PageProps) {
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">
-          {formatComposerName(composer.title)}
-        </h1>
+        <PageTitle>{formatComposerName(composer.title)}</PageTitle>
       </div>
       {works.length > 0 && (
         <div className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Works</h2>
+          <SectionHeading>Works</SectionHeading>
           <div className="grid gap-4">
             {works.map((work) => (
               <ListItem

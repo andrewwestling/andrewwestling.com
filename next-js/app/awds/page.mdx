@@ -27,6 +27,8 @@ import { Breadcrumbs } from "@music/components/Breadcrumbs";
 import { Suspense } from "react";
 import { IndexPage } from "@music/components/IndexPage";
 import { BucketList } from "@music/components/BucketList";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
 
 export const metadata = { title: "AWDS" };
 
@@ -162,6 +164,28 @@ This is the datestamp at the bottom of project pages.
 # Music Components
 
 These components are specific to the music section of the website.
+
+## Page Headings
+
+### PageTitle
+
+This component is used for page-level headings (h1). It provides consistent styling for the main title of each page.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <PageTitle>Example Page Title</PageTitle>
+  </div>
+</ComponentWrapper>
+
+### SectionHeading
+
+This component is used for section-level headings (h2) within a page. It provides consistent styling for major sections.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <SectionHeading>Example Section Heading</SectionHeading>
+  </div>
+</ComponentWrapper>
 
 ## List Items
 

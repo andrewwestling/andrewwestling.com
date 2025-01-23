@@ -5,6 +5,7 @@ import { getConcerts } from "@music/data/queries/concerts";
 import { getGroupBySlug } from "@music/data/queries/groups";
 import { getSeasonBySlug, getCurrentSeason } from "@music/data/queries/seasons";
 import { getConductorBySlug } from "@music/data/queries/conductors";
+import { PageTitle } from "@music/components/PageTitle";
 
 export default async function ConcertsPage({
   searchParams,
@@ -65,7 +66,7 @@ export default async function ConcertsPage({
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">Concerts</h1>
+        <PageTitle>Concerts</PageTitle>
       </div>
 
       <Filters />

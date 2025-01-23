@@ -4,6 +4,7 @@ import { ListItem } from "@music/components/ListItem";
 import { Sort } from "./Sort";
 import { useSorting, SortType } from "@music/hooks/useSorting";
 import { Filters, FilterFacetId } from "./Filters";
+import { PageTitle } from "./PageTitle";
 
 interface IndexPageProps {
   title: string;
@@ -43,7 +44,7 @@ export function IndexPage({
   return (
     <div>
       <div className="flex flex-col gap-1 mb-6">
-        {title && <h1 className="text-2xl font-bold">{title}</h1>}
+        {title && <PageTitle>{title}</PageTitle>}
         {sortOptions.length > 1 && (
           <Sort
             options={sortOptions}

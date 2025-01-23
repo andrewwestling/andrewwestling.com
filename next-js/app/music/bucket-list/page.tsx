@@ -1,5 +1,6 @@
 import { routes } from "@music/lib/routes";
 import { ListItem } from "@music/components/ListItem";
+import { PageTitle } from "@music/components/PageTitle";
 import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 import {
   getOrderedBucketList,
@@ -18,7 +19,7 @@ export default function BucketListPage() {
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">Bucket List</h1>
+        <PageTitle>Bucket List</PageTitle>
       </div>
 
       <div className="grid gap-4">

@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getDateForSorting } from "../../lib/helpers";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
 import { getConductorBySlug } from "@music/data/queries/conductors";
 import { getConcertsByConductor } from "@music/data/queries/concerts";
 
@@ -22,12 +24,12 @@ export default function ConductorPage({ params }: PageProps) {
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">{conductor.title}</h1>
+        <PageTitle>{conductor.title}</PageTitle>
       </div>
 
       {concerts.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-4">Concerts</h2>
+          <SectionHeading>Concerts</SectionHeading>
           <div className="grid gap-4">
             {concerts.map((concert) => (
               <ConcertListItem key={concert.slug} concert={concert} />

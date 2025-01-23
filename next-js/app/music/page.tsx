@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { routes } from "./lib/routes";
+import { PageTitle } from "./components/PageTitle";
 
 export default async function HomePage() {
   const linkClasses = [
@@ -27,7 +28,7 @@ export default async function HomePage() {
   return (
     <div className="grid gap-6">
       <section className="my-6 flex flex-col gap-2">
-        <h1 className="text-2xl md:text-4xl font-semibold">{`Andrew's Music Archive`}</h1>
+        <PageTitle className="md:text-4xl font-semibold">{`Andrew's Music Archive`}</PageTitle>
         <p className="text-sm md:text-base text-muted italic">
           {`"Probably every concert and work I've ever performed"`}
         </p>

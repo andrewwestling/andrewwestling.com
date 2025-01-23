@@ -3,6 +3,8 @@ import Link from "next/link";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
 import {
   getDateForSorting,
   formatWorkTitle,
@@ -35,10 +37,10 @@ export default function WorkPage({ params }: PageProps) {
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold flex gap-2 items-center">
+        <PageTitle className="flex gap-2 items-center">
           {formatWorkTitle(work)}
           {work.bucketList && <BucketList />}
-        </h1>
+        </PageTitle>
 
         {composer && (
           <p>
@@ -52,7 +54,7 @@ export default function WorkPage({ params }: PageProps) {
 
       {concerts.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-4">Concerts</h2>
+          <SectionHeading>Concerts</SectionHeading>
           <div className="grid gap-4">
             {concerts.map((concert) => (
               <ConcertListItem key={concert.slug} concert={concert} />
