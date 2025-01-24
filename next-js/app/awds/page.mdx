@@ -29,6 +29,7 @@ import { IndexPage } from "@music/components/IndexPage";
 import { BucketList } from "@music/components/BucketList";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
+import { CalendarSubscribePopover } from "@music/components/CalendarSubscribePopover";
 
 export const metadata = { title: "AWDS" };
 
@@ -386,6 +387,16 @@ This badge is used to show if a work is on my musical Bucket List.
 It also links to the Bucket List page so you will know to go there and check it out.
 <ComponentWrapper>
   <BucketList />
+</ComponentWrapper>
+
+---
+
+## CalendarSubscribePopover
+
+This component provides a modal interface for subscribing to my concert calendar in various calendar apps.
+
+<ComponentWrapper>
+  <CalendarSubscribePopover calendarUrl={'https://andrewwestling.com/music/upcoming.ics'} />
 </ComponentWrapper>
 
 ---

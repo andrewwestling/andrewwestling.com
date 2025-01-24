@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
+import { CalendarSubscribePopover } from "@music/components/CalendarSubscribePopover";
 
 export const metadata: Metadata = {
   title: "Upcoming Concerts",
@@ -10,13 +11,19 @@ export const metadata: Metadata = {
 
 export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();
+  const calendarUrl = `${
+    process.env.NEXT_PUBLIC_SITE_URL || "https://andrewwestling.com"
+  }/music/upcoming.ics`;
 
   return (
     <div className="flex flex-col gap-6">
       {/* Up Next */}
       {upcomingConcerts.length > 0 && (
         <section>
-          <PageTitle className="mb-4">Up Next</PageTitle>
+          <div className="flex items-start justify-between">
+            <PageTitle className="mb-4">Up Next</PageTitle>
+            <CalendarSubscribePopover calendarUrl={calendarUrl} />
+          </div>
           <div className="grid gap-4">
             {upcomingConcerts.slice(0, 1).map((concert) => (
               <ConcertListItem
