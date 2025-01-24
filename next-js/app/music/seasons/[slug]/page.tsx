@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
@@ -9,6 +10,18 @@ import { SectionHeading } from "@music/components/SectionHeading";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getConcertsBySeason } from "@music/data/queries/concerts";
 import { getWorksBySeason } from "@music/data/queries/works";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const season = getSeasonBySlug(decodeURIComponent(params.slug));
+  if (!season) return { title: "Not Found" };
+
+  return {
+    title: season.title,
+    description: `Concerts I performed in ${season.title}`,
+  };
+}
 
 export default function SeasonPage({ params }: PageProps) {
   const season = getSeasonBySlug(params.slug);

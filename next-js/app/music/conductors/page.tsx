@@ -1,6 +1,12 @@
+import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
 import { getConductors } from "@music/data/queries/conductors";
+
+export const metadata: Metadata = {
+  title: "Conductors",
+  description: "Conductors I've worked with",
+};
 
 export default function ConductorsPage() {
   const conductors = getConductors();

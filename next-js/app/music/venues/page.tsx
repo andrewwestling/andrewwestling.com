@@ -1,7 +1,13 @@
+import { Metadata } from "next";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
 import { getVenues } from "@music/data/queries/venues";
+
+export const metadata: Metadata = {
+  title: "Venues",
+  description: "Venues I've performed at",
+};
 
 export default async function VenuesPage() {
   const venues = getVenues();

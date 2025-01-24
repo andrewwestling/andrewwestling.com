@@ -1,7 +1,13 @@
+import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
 import { getGroups } from "@music/data/queries/groups";
 import { getConcertsByGroup } from "@music/data/queries/concerts";
+
+export const metadata: Metadata = {
+  title: "Groups",
+  description: "Groups I've performed with",
+};
 
 export default function GroupsPage() {
   const groups = getGroups();

@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
@@ -7,6 +8,18 @@ import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getComposerBySlug } from "@music/data/queries/composers";
 import { getWorksByComposer } from "@music/data/queries/works";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const composer = getComposerBySlug(decodeURIComponent(params.slug));
+  if (!composer) return { title: "Not Found" };
+
+  return {
+    title: formatComposerName(composer.title),
+    description: `Works I've performedby ${composer.title}`,
+  };
+}
 
 export default function ComposerPage({ params }: PageProps) {
   const composer = getComposerBySlug(decodeURIComponent(params.slug));

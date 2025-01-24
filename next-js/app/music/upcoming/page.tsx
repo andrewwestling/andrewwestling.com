@@ -1,6 +1,12 @@
+import { Metadata } from "next";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
+
+export const metadata: Metadata = {
+  title: "Upcoming Concerts",
+  description: "Upcoming concerts I'm performing in",
+};
 
 export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();

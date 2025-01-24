@@ -1,8 +1,14 @@
+import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
 import { getComposers } from "@music/data/queries/composers";
 import { getWorksByComposer } from "@music/data/queries/works";
 import { getConcertsByWork } from "@music/data/queries/concerts";
+
+export const metadata: Metadata = {
+  title: "Composers",
+  description: "Composers whose works I've performed",
+};
 
 export default function ComposersPage() {
   const composers = getComposers();

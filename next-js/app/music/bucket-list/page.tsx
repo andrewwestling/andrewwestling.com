@@ -1,3 +1,4 @@
+import { Metadata } from "next/types";
 import { routes } from "@music/lib/routes";
 import { ListItem } from "@music/components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
@@ -9,6 +10,11 @@ import {
 import { getComposerByTitle } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";
 import { Work } from "../lib/types";
+
+export const metadata: Metadata = {
+  title: "Bucket List",
+  description: "Musical works I want to perform",
+};
 
 export default function BucketListPage() {
   // Get works in the order they appear in the bucket list

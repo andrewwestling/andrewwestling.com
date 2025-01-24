@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { getDateForSorting } from "@music/lib/helpers";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { Filters } from "@music/components/Filters";
@@ -6,6 +7,11 @@ import { getGroupBySlug } from "@music/data/queries/groups";
 import { getSeasonBySlug, getCurrentSeason } from "@music/data/queries/seasons";
 import { getConductorBySlug } from "@music/data/queries/conductors";
 import { PageTitle } from "@music/components/PageTitle";
+
+export const metadata: Metadata = {
+  title: "Concerts",
+  description: "Concerts I've performed in",
+};
 
 export default async function ConcertsPage({
   searchParams,

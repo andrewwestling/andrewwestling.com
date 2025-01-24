@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { PageProps } from "@music/lib/types";
@@ -14,6 +15,18 @@ import { BucketList } from "../../components/BucketList";
 import { getWorkBySlug } from "@music/data/queries/works";
 import { getComposerByTitle } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const work = getWorkBySlug(decodeURIComponent(params.slug));
+  if (!work) return { title: "Not Found" };
+
+  return {
+    title: work.title,
+    description: `Performances of ${work.title}`,
+  };
+}
 
 export default function WorkPage({ params }: PageProps) {
   const work = getWorkBySlug(decodeURIComponent(params.slug));

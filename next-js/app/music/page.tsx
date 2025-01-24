@@ -1,6 +1,12 @@
 import Link from "next/link";
+import { Metadata } from "next";
 import { routes } from "./lib/routes";
 import { PageTitle } from "./components/PageTitle";
+
+export const metadata: Metadata = {
+  title: "Music Archive",
+  description: "Andrew's archive of concerts and musical works performed",
+};
 
 export default async function HomePage() {
   const linkClasses = [

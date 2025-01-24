@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
@@ -9,7 +10,6 @@ import {
   isUpcoming,
 } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
-import { DidNotPlay } from "@music/components/DidNotPlay";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/lib/types";
@@ -19,10 +19,26 @@ import { getConcertBySlug } from "@music/data/queries/concerts";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getWorkByTitle } from "@music/data/queries/works";
 import { getVenueByTitle } from "@music/data/queries/venues";
-import { Upcoming } from "../../components/Upcoming";
 import { ConcertBadges } from "@music/components/ConcertBadges";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { PageTitle } from "@music/components/PageTitle";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const concert = getConcertBySlug(decodeURIComponent(params.slug));
+  if (!concert) return { title: "Not Found" };
+
+  const group = getGroupByTitle(concert.frontmatter.group);
+
+  return {
+    title: formatConcertTitle(concert.title, group),
+    description: `Concert details for ${formatConcertTitle(
+      concert.title,
+      group
+    )} on ${formatDate(concert.frontmatter.date)}`,
+  };
+}
 
 export default async function ConcertPage({ params }: PageProps) {
   const concert = getConcertBySlug(params.slug);

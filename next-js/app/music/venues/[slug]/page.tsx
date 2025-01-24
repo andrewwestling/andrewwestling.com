@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { PageProps } from "@music/lib/types";
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
@@ -15,6 +16,18 @@ import type { Venue } from "@music/lib/types";
 const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
 });
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const venue = getVenueBySlug(decodeURIComponent(params.slug));
+  if (!venue) return { title: "Not Found" };
+
+  return {
+    title: venue.title,
+    description: `Concerts I've performed at ${venue.title}`,
+  };
+}
 
 export default async function VenuePage({ params }: PageProps) {
   const venue = getVenueBySlug(params.slug);

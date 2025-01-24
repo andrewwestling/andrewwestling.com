@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
@@ -7,6 +8,18 @@ import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getGroupBySlug } from "@music/data/queries/groups";
 import { getConcertsByGroup } from "@music/data/queries/concerts";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const group = getGroupBySlug(decodeURIComponent(params.slug));
+  if (!group) return { title: "Not Found" };
+
+  return {
+    title: group.title,
+    description: `Concerts I've performed with ${group.title}`,
+  };
+}
 
 export default function GroupPage({ params }: PageProps) {
   const group = getGroupBySlug(params.slug);

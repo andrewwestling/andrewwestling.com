@@ -1,11 +1,24 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { getDateForSorting } from "../../lib/helpers";
+import { getDateForSorting } from "@music/lib/helpers";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getConductorBySlug } from "@music/data/queries/conductors";
 import { getConcertsByConductor } from "@music/data/queries/concerts";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const conductor = getConductorBySlug(decodeURIComponent(params.slug));
+  if (!conductor) return { title: "Not Found" };
+
+  return {
+    title: conductor.title,
+    description: `Concerts I've performed with ${conductor.title}`,
+  };
+}
 
 export default function ConductorPage({ params }: PageProps) {
   const conductor = getConductorBySlug(params.slug);
