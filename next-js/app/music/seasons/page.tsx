@@ -25,6 +25,7 @@ export default function SeasonsPage() {
         `${works.length} work${works.length !== 1 ? "s" : ""}`,
       ],
       sortableFields: {
+        alphabetical: false,
         concerts: concerts.length,
         works: works.length,
         year: parseInt(season.title.split("-")[1] || season.title),

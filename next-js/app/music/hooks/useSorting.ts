@@ -47,6 +47,10 @@ export function useSorting({
       });
     }
 
+    if (items.some((item) => item.sortableFields?.alphabetical === false)) {
+      sortTypes.delete("alphabetical");
+    }
+
     return Array.from(sortTypes).map((value) => ({
       value,
       label: SORT_LABELS[value],
