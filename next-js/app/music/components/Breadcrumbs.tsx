@@ -92,7 +92,7 @@ export function Breadcrumbs({ path }: BreadcrumbsProps) {
   }
 
   return (
-    <nav className="py-4 text-sm">
+    <nav className="py-4">
       {crumbs.map((crumb, i) => (
         <span key={crumb.href}>
           {i > 0 && <span className="mx-2 text-muted">›</span>}

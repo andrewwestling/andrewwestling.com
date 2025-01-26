@@ -81,7 +81,7 @@ export default async function ConcertPage({ params }: PageProps) {
       </div>
 
       <div className="mb-6">
-        <SectionHeading className="mb-2">Details</SectionHeading>
+        <SectionHeading>Details</SectionHeading>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-medium">Date</dt>
           <dd>{formatDate(concert.frontmatter.date)}</dd>
@@ -146,7 +146,7 @@ export default async function ConcertPage({ params }: PageProps) {
 
       {workObjects.length > 0 && (
         <div>
-          <SectionHeading className="mb-2">Program</SectionHeading>
+          <SectionHeading>Program</SectionHeading>
           <ul className="list-disc list-inside">
             {workObjects.map((work) => (
               <li key={work.slug}>
@@ -167,7 +167,7 @@ export default async function ConcertPage({ params }: PageProps) {
 
       {concert.frontmatter.spotifyPlaylistUrl && (
         <div className="mt-6">
-          <SectionHeading className="mb-2">Listen</SectionHeading>
+          <SectionHeading>Listen</SectionHeading>
           <iframe
             src={concert.frontmatter.spotifyPlaylistUrl.replace(
               "spotify.com/playlist",

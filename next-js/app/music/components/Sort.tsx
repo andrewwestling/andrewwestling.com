@@ -11,8 +11,8 @@ interface SortProps {
 
 export function Sort({ options, value, onChange }: SortProps) {
   return (
-    <div className={`flex items-center gap-1 text-muted text-xs`}>
-      <span className="text-xs text-muted">Sorted</span>
+    <div className={`flex items-center gap-1 text-muted`}>
+      <span className="text-muted">Sorted</span>
       <select
         value={value}
         title="Change sorting"
