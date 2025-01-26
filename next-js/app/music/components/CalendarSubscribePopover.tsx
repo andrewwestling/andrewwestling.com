@@ -90,8 +90,8 @@ export function CalendarSubscribePopover({
           />
 
           {/* Modal */}
-          <div className="fixed inset-x-0 top-4 z-50 mx-4 overflow-hidden rounded-lg sm:absolute sm:right-0 sm:left-auto sm:mx-0 sm:w-[min(50rem,calc(100vw-4rem))]">
-            <div className="flex flex-col overflow-hidden rounded-lg bg-background dark:bg-surface-dark shadow-lg ring-1 ring-border dark:ring-border-dark">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+            <div className="w-full max-w-2xl overflow-hidden rounded-lg bg-background dark:bg-surface-dark shadow-lg ring-1 ring-border dark:ring-border-dark">
               {/* Header - Fixed */}
               <div className="flex shrink-0 items-center justify-between border-b border-highlight dark:border-highlight-dark px-4 py-3">
                 <SectionHeading>Subscribe to Calendar</SectionHeading>
