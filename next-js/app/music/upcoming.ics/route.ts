@@ -1,22 +1,45 @@
+import tzlookup from "tz-lookup";
+import { DateTime } from "luxon";
 import { createEvents, DateArray } from "ics";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { getVenueByTitle } from "@music/data/queries/venues";
 import { formatConcertTitle } from "@music/lib/helpers";
 import { getGroupByTitle } from "@music/data/queries/groups";
+import { Venue } from "@music/lib/types";
 import { awdsColors } from "@/tailwind.config";
 
 const PRIMARY_COLOR = awdsColors.primary.DEFAULT;
+const DEFAULT_TIMEZONE = "America/New_York";
 
 export async function GET() {
   const concerts = getUpcomingConcerts();
 
   const events = concerts.map((concert) => {
-    const date = new Date(concert.frontmatter.date);
-    const group = getGroupByTitle(concert.frontmatter.group);
     const venue = concert.frontmatter.venue
       ? getVenueByTitle(concert.frontmatter.venue)
       : undefined;
+    const group = getGroupByTitle(concert.frontmatter.group);
     const displayTitle = formatConcertTitle(concert.title, group);
+
+    // Get timezone from venue coordinates if available
+    const getTimeZone = (venue?: Venue) => {
+      if (venue?.frontmatter.coordinates) {
+        const [lat, lon] = venue.frontmatter.coordinates
+          .split(",")
+          .map((c) => parseFloat(c.trim()));
+        return tzlookup(lat, lon);
+      }
+      return DEFAULT_TIMEZONE;
+    };
+
+    // Parse the date as local time in the venue's timezone
+    const localDate = DateTime.fromISO(
+      concert.frontmatter.date.replace("Z", ""),
+      { zone: getTimeZone(venue) }
+    );
+
+    // Convert to UTC for the calendar
+    const utcDate = localDate.toUTC();
 
     // Create description with program and ticket link if available
     const description = [
@@ -35,11 +58,11 @@ export async function GET() {
       .join("\n\n");
 
     const start: DateArray = [
-      date.getUTCFullYear(),
-      date.getUTCMonth() + 1,
-      date.getUTCDate(),
-      date.getUTCHours(),
-      date.getUTCMinutes(),
+      utcDate.year,
+      utcDate.month,
+      utcDate.day,
+      utcDate.hour,
+      utcDate.minute,
     ];
 
     return {
@@ -49,6 +72,8 @@ export async function GET() {
       description,
       location: venue?.title,
       url: `https://andrewwestling.com/music/concerts/${concert.slug}`,
+      startInputType: "utc" as const,
+      startOutputType: "utc" as const,
     };
   });
 
@@ -57,6 +82,7 @@ export async function GET() {
   });
 
   if (error) {
+    console.error(error);
     return new Response("Error generating calendar", { status: 500 });
   }
 
