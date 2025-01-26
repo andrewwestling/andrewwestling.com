@@ -1,3 +1,5 @@
+const upcomingDate = new Date(Date.now() + 60 * 1000).toISOString();
+
 export const sampleConcertWithTitle = {
   slug: "200001011200",
   type: "concert",
@@ -29,6 +31,32 @@ export const sampleConcertWithoutTitle = {
     spotifyPlaylistUrl: null,
     venue: "All Saints Church",
     ticketUrl: "https://gvo.org",
+  },
+};
+
+export const sampleConcertWithUpcomingDate = {
+  ...sampleConcertWithTitle,
+  frontmatter: {
+    ...sampleConcertWithTitle.frontmatter,
+    date: upcomingDate,
+  },
+};
+
+export const sampleConcertWithTicketUrl = {
+  ...sampleConcertWithTitle,
+  frontmatter: {
+    ...sampleConcertWithTitle.frontmatter,
+    date: upcomingDate,
+    ticketUrl: "/awds",
+  },
+};
+
+export const sampleConcertWithoutTicketUrl = {
+  ...sampleConcertWithTitle,
+  frontmatter: {
+    ...sampleConcertWithTitle.frontmatter,
+    date: upcomingDate,
+    ticketUrl: undefined,
   },
 };
 

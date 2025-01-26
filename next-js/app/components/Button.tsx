@@ -1,18 +1,76 @@
+export const buttonClasses = [
+  "bg-surface",
+  "dark:bg-surface-dark",
+  "py-2", // Keeping the original button padding-y
+  "px-4", // Keeping the original button padding-x
+  "rounded-md",
+  "cursor-pointer",
+  "flex",
+  "flex-row",
+  "items-center",
+  "justify-center",
+  "shadow-sm",
+  "hover:shadow-md",
+  "dark:hover:border-muted",
+  "border",
+  "border-solid",
+  "border-border",
+  "dark:border-border-dark",
+  "transition-all",
+  "duration-300",
+  "ease-in-out",
+  "text-sm",
+].join(" ");
+
 export const Button = ({
   className,
+  icon,
+  children,
   ...props
-}: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
-  <button
-    className={`m-0 min-w-0 inline-block text-center leading-inherit no-underline rounded text-sm py-2 px-4 text-muted dark:text-muted-dark bg-highlight dark:bg-highlight-dark hover:bg-muted hover:text-highlight hover:dark:bg-muted-dark hover:dark:text-highlight-dark border border-muted border-solid ${className}`}
-    {...props}
-  />
+}: React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  icon?: React.ReactNode;
+}) => (
+  <button className={`${buttonClasses} ${className ?? ""}`} {...props}>
+    {icon && <span className="mr-1 no-underline">{icon}</span>}
+    {children}
+  </button>
 );
 
-export const ButtonLink = (
-  props: React.AnchorHTMLAttributes<HTMLAnchorElement>
-) => (
+interface ButtonLinkProps
+  extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+  external?: boolean;
+  icon?: React.ReactNode;
+}
+
+export const ButtonLink = ({
+  external,
+  className,
+  icon,
+  children,
+  ...props
+}: ButtonLinkProps) => (
   <a
-    className={`m-0 min-w-0 inline-block text-center leading-inherit no-underline rounded text-sm py-2 px-4 text-muted dark:text-muted-dark bg-highlight dark:bg-highlight-dark hover:bg-muted hover:text-highlight hover:dark:bg-muted-dark hover:dark:text-highlight-dark border border-muted border-solid ${props.className}`}
+    className={`no-underline ${buttonClasses} ${className ?? ""}`}
     {...props}
-  />
+    {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+  >
+    {icon && <span className="mr-1 no-underline">{icon}</span>}
+    <span className="underline">{children}</span>
+    {external && (
+      <svg
+        className="w-4 h-4 ml-1 shrink-0"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+        />
+      </svg>
+    )}
+  </a>
 );

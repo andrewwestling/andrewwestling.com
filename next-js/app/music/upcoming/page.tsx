@@ -29,7 +29,7 @@ export default async function UpcomingPage() {
                 key={concert.slug}
                 concert={concert}
                 expanded
-                showTickets={true}
+                showAttendActions
               />
             ))}
           </div>

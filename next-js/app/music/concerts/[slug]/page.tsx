@@ -23,6 +23,7 @@ import { ConcertBadges } from "@music/components/ConcertBadges";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { PageTitle } from "@music/components/PageTitle";
 import { BucketList } from "../../components/BucketList";
+import { AttendActions } from "@music/components/AttendActions";
 
 export async function generateMetadata({
   params,
@@ -77,6 +78,13 @@ export default async function ConcertPage({ params }: PageProps) {
     <article className="flex flex-col gap-6">
       <PageTitle>{displayTitle}</PageTitle>
 
+      {isUpcoming(concert.frontmatter.date) && (
+        <div className="mb-6">
+          <SectionHeading>Attend</SectionHeading>
+          <AttendActions concert={concert} />
+        </div>
+      )}
+
       <div className="mb-6">
         <SectionHeading>Details</SectionHeading>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
@@ -126,34 +134,6 @@ export default async function ConcertPage({ params }: PageProps) {
               </dd>
             </>
           )}
-
-          {isUpcoming(concert.frontmatter.date) && (
-            <>
-              <dt className="font-medium">Calendar</dt>
-              <dd>
-                <ExternalLink
-                  href={`/music/concerts/${concert.slug}/event.ics`}
-                >
-                  Add to Calendar
-                </ExternalLink>
-              </dd>
-            </>
-          )}
-
-          {concert.frontmatter.ticketUrl &&
-            isUpcoming(concert.frontmatter.date) && (
-              <>
-                <dt className="font-medium">Tickets</dt>
-                <dd>
-                  <ExternalLink
-                    href={concert.frontmatter.ticketUrl}
-                    className="text-primary"
-                  >
-                    Buy Tickets
-                  </ExternalLink>
-                </dd>
-              </>
-            )}
         </dl>
       </div>
 

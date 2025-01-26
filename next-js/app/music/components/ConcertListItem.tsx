@@ -4,26 +4,27 @@ import {
   formatConcertTitle,
   formatDate,
   findConductorSlug,
+  isUpcoming,
 } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
 import { Concert } from "@music/lib/types";
 import { getLocationFromCoordinates } from "@music/lib/location";
-import { ExternalLink } from "./ExternalLink";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getVenueByTitle } from "@music/data/queries/venues";
 import { SectionHeading } from "./SectionHeading";
 import { ListItem } from "./ListItem";
+import { AttendActions } from "./AttendActions";
 
 interface ConcertListItemProps {
   concert: Concert;
   expanded?: boolean;
-  showTickets?: boolean;
+  showAttendActions?: boolean;
 }
 
 export async function ConcertListItem({
   concert,
   expanded = false,
-  showTickets = false,
+  showAttendActions = false,
 }: ConcertListItemProps) {
   const group = getGroupByTitle(concert.frontmatter.group);
   const venue = concert.frontmatter.venue
@@ -51,76 +52,68 @@ export async function ConcertListItem({
   }
 
   return (
-    <article className="pb-6">
-      <SectionHeading className="mb-2 flex items-center gap-2">
-        <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
-        <ConcertBadges concert={concert} />
-      </SectionHeading>
+    <article className="flex flex-col gap-6 pb-6">
+      <div>
+        <SectionHeading className="mb-2 flex items-center gap-2">
+          <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
+          <ConcertBadges concert={concert} />
+        </SectionHeading>
+        <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
+          <dt className="font-medium">Date</dt>
+          <dd>{formattedDate}</dd>
 
-      <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
-        <dt className="font-medium">Date</dt>
-        <dd>{formattedDate}</dd>
+          <dt className="font-medium">Group</dt>
+          <dd>
+            {group && (
+              <Link href={routes.groups.show(group.slug)}>{group.title}</Link>
+            )}
+          </dd>
 
-        <dt className="font-medium">Group</dt>
-        <dd>
-          {group && (
-            <Link href={routes.groups.show(group.slug)}>{group.title}</Link>
-          )}
-        </dd>
-
-        {venue && (
-          <>
-            <dt className="font-medium">Venue</dt>
-            <dd>
-              <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
-              {venue.frontmatter.coordinates && (
-                <span className="text-muted text-sm ml-2">
-                  (
-                  {await getLocationFromCoordinates(
-                    venue.frontmatter.coordinates
-                  )}
-                  )
-                </span>
-              )}
-            </dd>
-          </>
-        )}
-
-        {conductors.length > 0 && (
-          <>
-            <dt className="font-medium">
-              Conductor{conductors.length > 1 ? "s" : ""}
-            </dt>
-            <dd>
-              {conductors.map((conductorName, i) => (
-                <span key={conductorName}>
-                  {i > 0 && ", "}
-                  <Link
-                    href={routes.conductors.show(
-                      findConductorSlug(conductorName) || ""
+          {venue && (
+            <>
+              <dt className="font-medium">Venue</dt>
+              <dd>
+                <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
+                {venue.frontmatter.coordinates && (
+                  <span className="text-muted text-sm ml-2">
+                    (
+                    {await getLocationFromCoordinates(
+                      venue.frontmatter.coordinates
                     )}
-                  >
-                    {conductorName}
-                  </Link>
-                </span>
-              ))}
-            </dd>
-          </>
-        )}
-        {showTickets && concert.frontmatter.ticketUrl && (
-          <>
-            <dt className="font-medium">Tickets</dt>
-            <dd>
-              <ExternalLink
-                className="text-primary"
-                href={concert.frontmatter.ticketUrl}
-              >
-                Buy Tickets
-              </ExternalLink>
-            </dd>
-          </>
-        )}
-      </dl>
+                    )
+                  </span>
+                )}
+              </dd>
+            </>
+          )}
+
+          {conductors.length > 0 && (
+            <>
+              <dt className="font-medium">
+                Conductor{conductors.length > 1 ? "s" : ""}
+              </dt>
+              <dd>
+                {conductors.map((conductorName, i) => (
+                  <span key={conductorName}>
+                    {i > 0 && ", "}
+                    <Link
+                      href={routes.conductors.show(
+                        findConductorSlug(conductorName) || ""
+                      )}
+                    >
+                      {conductorName}
+                    </Link>
+                  </span>
+                ))}
+              </dd>
+            </>
+          )}
+        </dl>
+      </div>
+
+      {showAttendActions && isUpcoming(concert.frontmatter.date) && (
+        <AttendActions concert={concert} />
+      )}
     </article>
   );
 }

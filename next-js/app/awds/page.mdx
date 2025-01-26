@@ -6,7 +6,7 @@ import { Header } from "@components/Header";
 import { Greeting } from "@components/Greeting";
 import { Message } from "@components/Message";
 import { PhotoOfMe } from "@components/PhotoOfMe";
-import { Button } from "@components/Button";
+import { Button, ButtonLink } from "@components/Button";
 import { TidbytGif } from "@/app/projects/tidbyt/components/TidbytGif";
 import { PostedModified } from "@components/PostedModified";
 import NextLink from "next/link";
@@ -19,9 +19,12 @@ import { FilterExamples } from "./components/FilterExamples";
 import {
   sampleConcertWithTitle,
   sampleConcertWithoutTitle,
+  sampleConcertWithUpcomingDate,
   sampleGroup,
   sampleSeason,
   sampleSeasonNoConcerts,
+  sampleConcertWithTicketUrl,
+  sampleConcertWithoutTicketUrl,
 } from "./components/sampleData.ts";
 import { Breadcrumbs } from "@music/components/Breadcrumbs";
 import { Suspense } from "react";
@@ -30,6 +33,7 @@ import { BucketList } from "@music/components/BucketList";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { CalendarSubscribePopover } from "@music/components/CalendarSubscribePopover";
+import { AttendActions } from "@music/components/AttendActions";
 
 export const metadata = { title: "AWDS" };
 
@@ -137,6 +141,10 @@ These are buttons, for use wherever a button is needed.
 <ComponentWrapper>
   <div className="grid gap-1">
     <Button>Primary button</Button>
+    <Button icon="🚀">Button with icon</Button>
+    <ButtonLink href="/awds">ButtonLink</ButtonLink>
+    <ButtonLink external href="/awds">ButtonLink external</ButtonLink>
+    <ButtonLink external href="/awds" icon="🚀">ButtonLink external with icon</ButtonLink>
   </div>
 </ComponentWrapper>
 
@@ -225,6 +233,14 @@ It extends the ListItem component, adding badges and a few other things that are
     </div>
 
     <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">With Upcoming Date</label>
+      <ConcertListItem
+        concert={sampleConcertWithUpcomingDate}
+        group={sampleGroup}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
       <label className="text-xs text-muted">With Tickets</label>
       <ConcertListItem
         concert={sampleConcertWithTitle}
@@ -289,6 +305,36 @@ This is a generic list item component used throughout the music section to displ
         title="New York Philharmonic"
         href="/music/groups/ny-phil"
         stats={["New York, NY", "8 concerts"]}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Work Example</label>
+      <ListItem
+        title="Symphony No. 1 in E Minor"
+        href="/music/works/sibelius-symphony-no-1-in-e-minor"
+        stats={["by Jean Sibelius"]}
+      />
+    </div>
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Work Example, Bucket List</label>
+      <ListItem
+        title="Symphony No. 1 in E Minor"
+        href="/music/works/sibelius-symphony-no-1-in-e-minor"
+        stats={["by Jean Sibelius"]}
+        badges={[<BucketList />]}
+      />
+    </div>
+
+
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">Work Example, Bucket List, Played</label>
+      <ListItem
+        title="Symphony No. 1 in E Minor"
+        href="/music/works/sibelius-symphony-no-1-in-e-minor"
+        stats={["by Jean Sibelius"]}
+        badges={[<BucketList played />]}
       />
     </div>
   </div>
@@ -388,7 +434,16 @@ This badge is used to show if a work is on my musical Bucket List.
 
 It also links to the Bucket List page so you will know to go there and check it out.
 <ComponentWrapper>
-  <BucketList />
+  <div className="grid gap-4">
+    <div className="flex flex-col gap-2 w-fit">
+      <label className="text-xs text-muted">Not played</label>
+      <BucketList />
+    </div>
+    <div className="flex flex-col gap-2 w-fit">
+      <label className="text-xs text-muted">Played</label>
+      <BucketList played />
+    </div>
+  </div>
 </ComponentWrapper>
 
 ---
@@ -399,6 +454,27 @@ This component provides a modal interface for subscribing to my concert calendar
 
 <ComponentWrapper>
   <CalendarSubscribePopover calendarUrl={'https://andrewwestling.com/music/upcoming.ics'} />
+</ComponentWrapper>
+
+---
+
+## AttendActions
+
+This component is used to display actions for attending a concert.
+
+It will not render if the concert date is in the past.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">With upcoming date; without ticket URL</label>
+      <AttendActions concert={sampleConcertWithoutTicketUrl} />
+    </div>
+    <div className="flex flex-col gap-2">
+      <label className="text-xs text-muted">With upcoming date; with ticket URL</label>
+      <AttendActions concert={sampleConcertWithTicketUrl} />
+    </div>
+  </div>
 </ComponentWrapper>
 
 ---

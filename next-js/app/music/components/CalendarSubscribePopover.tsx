@@ -77,8 +77,8 @@ export function CalendarSubscribePopover({
 
   return (
     <div className="relative" ref={popoverRef}>
-      <Button onClick={() => setIsOpen(!isOpen)}>
-        📆 Subscribe in Calendar App
+      <Button icon={"📆"} onClick={() => setIsOpen(!isOpen)}>
+        Subscribe in Calendar App
       </Button>
 
       {isOpen && (
