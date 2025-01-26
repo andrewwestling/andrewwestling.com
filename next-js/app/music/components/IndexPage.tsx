@@ -45,7 +45,7 @@ export function IndexPage({
     <div>
       <div className="flex flex-col gap-1 mb-6">
         {title && <PageTitle>{title}</PageTitle>}
-        {sortOptions.length > 1 && (
+        {sortOptions.length >= 1 && (
           <Sort
             options={sortOptions}
             value={currentSort}

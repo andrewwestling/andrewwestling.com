@@ -3,6 +3,7 @@ import { useMemo } from "react";
 
 export type SortType =
   | "alphabetical"
+  | "date"
   | "composer"
   | "concerts"
   | "works"
@@ -15,6 +16,7 @@ export interface SortOption {
 
 const SORT_LABELS: Record<SortType, string> = {
   alphabetical: "alphabetically",
+  date: "by date",
   composer: "by composer name",
   concerts: "by concert count",
   works: "by work count",

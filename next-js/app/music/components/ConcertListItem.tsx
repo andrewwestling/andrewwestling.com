@@ -12,6 +12,7 @@ import { ExternalLink } from "./ExternalLink";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getVenueByTitle } from "@music/data/queries/venues";
 import { SectionHeading } from "./SectionHeading";
+import { ListItem } from "./ListItem";
 
 interface ConcertListItemProps {
   concert: Concert;
@@ -40,26 +41,12 @@ export async function ConcertListItem({
 
   if (!expanded) {
     return (
-      <div>
-        <h3 className="font-medium flex items-center gap-2">
-          <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
-          <ConcertBadges concert={concert} />
-        </h3>
-        <div className="flex items-center gap-1 text-muted text-sm">
-          <p>{formattedDate}</p>
-          {showTickets && concert.frontmatter.ticketUrl && (
-            <>
-              {" • "}
-              <ExternalLink
-                className="text-primary"
-                href={concert.frontmatter.ticketUrl}
-              >
-                Buy Tickets
-              </ExternalLink>
-            </>
-          )}
-        </div>
-      </div>
+      <ListItem
+        title={displayTitle}
+        href={routes.concerts.show(concert.slug)}
+        stats={[formattedDate]}
+        badges={[<ConcertBadges key={concert.slug} concert={concert} />]}
+      />
     );
   }
 

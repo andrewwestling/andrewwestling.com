@@ -1,12 +1,18 @@
 import { Metadata } from "next";
-import { getDateForSorting } from "@music/lib/helpers";
-import { ConcertListItem } from "@music/components/ConcertListItem";
-import { Filters } from "@music/components/Filters";
+import {
+  formatConcertTitle,
+  formatDate,
+  getDateForSorting,
+  isUpcoming,
+} from "@music/lib/helpers";
 import { getConcerts } from "@music/data/queries/concerts";
-import { getGroupBySlug } from "@music/data/queries/groups";
+import { getGroupBySlug, getGroupByTitle } from "@music/data/queries/groups";
 import { getSeasonBySlug, getCurrentSeason } from "@music/data/queries/seasons";
 import { getConductorBySlug } from "@music/data/queries/conductors";
-import { PageTitle } from "@music/components/PageTitle";
+import { IndexPage } from "../components/IndexPage";
+import { routes } from "../lib/routes";
+import { Upcoming } from "../components/Upcoming";
+import { ConcertListItem } from "../components/ConcertListItem";
 
 export const metadata: Metadata = {
   title: "Concerts",
@@ -62,26 +68,42 @@ export default async function ConcertsPage({
     }
   }
 
-  // Sort concerts by date
-  concerts.sort((a, b) => {
-    const dateA = new Date(getDateForSorting(a.frontmatter.date));
-    const dateB = new Date(getDateForSorting(b.frontmatter.date));
+  const items = concerts.map((concert) => {
+    const stats = [formatDate(concert.frontmatter.date)].filter(
+      (stat): stat is string => stat !== undefined
+    );
+
+    return {
+      slug: concert.slug,
+      title: formatConcertTitle(
+        concert.title,
+        getGroupByTitle(concert.frontmatter.group)
+      ),
+      href: routes.concerts.show(concert.slug),
+      stats,
+      sortableFields: {
+        alphabetical: false,
+        date: concert.frontmatter.date,
+      },
+      badges: [isUpcoming(concert.frontmatter.date) ? <Upcoming /> : null],
+    };
+  });
+
+  // Sort by date, most recent first
+  items.sort((a, b) => {
+    const dateA = new Date(getDateForSorting(a.sortableFields.date));
+    const dateB = new Date(getDateForSorting(b.sortableFields.date));
     return dateB.getTime() - dateA.getTime();
   });
 
   return (
-    <div className="flex flex-col gap-6">
-      <div>
-        <PageTitle>Concerts</PageTitle>
-      </div>
-
-      <Filters />
-
-      <div className="grid gap-4">
-        {concerts.map((concert) => (
-          <ConcertListItem key={concert.slug} concert={concert} />
-        ))}
-      </div>
-    </div>
+    <IndexPage
+      title="Concerts"
+      items={items}
+      defaultSort="date"
+      showFilters={true}
+      facets={["group", "season", "conductor"]}
+      initialFilters={searchParams as Record<string, string>}
+    />
   );
 }

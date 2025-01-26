@@ -75,16 +75,16 @@ export default async function ConcertPage({ params }: PageProps) {
 
   return (
     <article className="flex flex-col gap-6">
-      <div className="flex items-center gap-2">
-        <PageTitle>{displayTitle}</PageTitle>
-        <ConcertBadges concert={concert} />
-      </div>
+      <PageTitle>{displayTitle}</PageTitle>
 
       <div className="mb-6">
         <SectionHeading>Details</SectionHeading>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-medium">Date</dt>
-          <dd>{formatDate(concert.frontmatter.date)}</dd>
+          <dd className="flex items-center gap-2">
+            {formatDate(concert.frontmatter.date)}{" "}
+            <ConcertBadges concert={concert} />
+          </dd>
 
           <dt className="font-medium">Group</dt>
           <dd>
@@ -147,21 +147,24 @@ export default async function ConcertPage({ params }: PageProps) {
       {workObjects.length > 0 && (
         <div>
           <SectionHeading>Program</SectionHeading>
-          <ul className="list-disc list-inside">
+          <div className="flex flex-col gap-2">
             {workObjects.map((work) => (
-              <li key={work.slug}>
-                <ListItem
-                  title={formatWorkTitle(work)}
-                  href={routes.works.show(work.slug)}
-                  stats={[
-                    work.frontmatter.composer &&
-                      `by ${formatComposerName(work.frontmatter.composer)}`,
-                  ]}
-                  bucketList={work.bucketList && <BucketList played />}
-                />
-              </li>
+              <ListItem
+                key={work.slug}
+                title={formatWorkTitle(work)}
+                href={routes.works.show(work.slug)}
+                stats={[
+                  work.frontmatter.composer &&
+                    `by ${formatComposerName(work.frontmatter.composer)}`,
+                ]}
+                badges={[
+                  work.bucketList ? (
+                    <BucketList played={work.concertCount > 0} />
+                  ) : null,
+                ]}
+              />
             ))}
-          </ul>
+          </div>
         </div>
       )}
 

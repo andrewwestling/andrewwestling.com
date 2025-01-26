@@ -65,7 +65,7 @@ export default function SeasonPage({ params }: PageProps) {
                 href={routes.works.show(work.slug)}
                 stats={[
                   work.frontmatter.composer &&
-                    formatComposerName(work.frontmatter.composer),
+                    `by ${formatComposerName(work.frontmatter.composer)}`,
                 ].filter(Boolean)}
                 badges={[
                   work.bucketList ? (
