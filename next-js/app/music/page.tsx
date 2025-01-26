@@ -4,8 +4,8 @@ import { routes } from "./lib/routes";
 import { PageTitle } from "./components/PageTitle";
 
 export const metadata: Metadata = {
-  title: "Music Archive",
-  description: "Andrew's archive of concerts and musical works performed",
+  title: "Music Library",
+  description: "Andrew's archive of concerts and works performed",
 };
 
 export default async function HomePage() {
@@ -34,7 +34,7 @@ export default async function HomePage() {
   return (
     <div className="grid gap-6">
       <section className="my-6 flex flex-col gap-2">
-        <PageTitle className="md:text-4xl font-semibold">{`Andrew's Music Archive`}</PageTitle>
+        <PageTitle className="md:text-4xl font-semibold">{`Andrew's Music Library`}</PageTitle>
         <p className="text-sm md:text-base text-muted italic">
           {`"Probably every concert and work I've ever performed"`}
         </p>
