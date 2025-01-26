@@ -7314,6 +7314,32 @@
       "bucketList": true
     },
     {
+      "slug": "ravel-daphnis-et-chloe-suite-no-2",
+      "type": "work",
+      "path": "Works/Ravel - Daphnis et Chloe Suite No. 2.md",
+      "title": "Ravel - Daphnis et Chloe Suite No. 2",
+      "content": "",
+      "frontmatter": {
+        "composer": "Ravel, Maurice",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
+      "slug": "ravel-mother-goose-suite",
+      "type": "work",
+      "path": "Works/Ravel - Mother Goose Suite.md",
+      "title": "Ravel - Mother Goose Suite",
+      "content": "Ma mère l'Oye",
+      "frontmatter": {
+        "composer": "Ravel, Maurice",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
       "slug": "ravel-string-quartet-in-f-major",
       "type": "work",
       "path": "Works/Ravel - String Quartet in F Major.md",
@@ -7774,6 +7800,19 @@
       },
       "concertCount": 3,
       "bucketList": false
+    },
+    {
+      "slug": "sibelius-pohjola-s-daughter",
+      "type": "work",
+      "path": "Works/Sibelius - Pohjola's Daughter.md",
+      "title": "Sibelius - Pohjola's Daughter",
+      "content": "",
+      "frontmatter": {
+        "composer": "Sibelius, Jean",
+        "opus": "49"
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "sibelius-spring-song-v-rs-ng",
@@ -9396,7 +9435,10 @@
   ],
   "orderedBucketList": [
     "Rachmaninoff - Symphonic Dances",
+    "Sibelius - Pohjola's Daughter",
     "Rachmaninoff - Isle of the Dead",
+    "Ravel - Daphnis et Chloe Suite No. 2",
+    "Ravel - Mother Goose Suite",
     "Sibelius - Suite for Violin and String Orchestra",
     "Tchaikovsky - Symphony No. 6 in B Minor",
     "Prokofiev - Symphony No. 7 in C-Sharp Minor",

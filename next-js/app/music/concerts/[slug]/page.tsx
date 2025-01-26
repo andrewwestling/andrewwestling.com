@@ -22,6 +22,7 @@ import { getVenueByTitle } from "@music/data/queries/venues";
 import { ConcertBadges } from "@music/components/ConcertBadges";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { PageTitle } from "@music/components/PageTitle";
+import { BucketList } from "../../components/BucketList";
 
 export async function generateMetadata({
   params,
@@ -156,7 +157,7 @@ export default async function ConcertPage({ params }: PageProps) {
                     work.frontmatter.composer &&
                       `by ${formatComposerName(work.frontmatter.composer)}`,
                   ]}
-                  bucketList={work.bucketList}
+                  bucketList={work.bucketList && <BucketList played />}
                 />
               </li>
             ))}

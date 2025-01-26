@@ -5,7 +5,7 @@ interface ListItemProps {
   title: string;
   href: string;
   stats: (string | undefined | null)[];
-  bucketList?: boolean;
+  bucketList?: React.ReactNode;
   className?: string;
 }
 
@@ -22,11 +22,7 @@ export function ListItem({
         {title}
       </Link>
       <span className="text-muted text-sm ml-2">{stats.join(" • ")}</span>
-      {bucketList && (
-        <span className="ml-2">
-          <BucketList />
-        </span>
-      )}
+      {bucketList && <span className="ml-2">{bucketList}</span>}
     </div>
   );
 }

@@ -6,6 +6,7 @@ import { getWorks } from "@music/data/queries/works";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getComposerBySlug } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";
+import { BucketList } from "@music/components/BucketList";
 
 export const metadata: Metadata = {
   title: "Works",
@@ -62,7 +63,9 @@ export default function WorksPage({
         composer: work.frontmatter.composer,
         concerts: work.concertCount,
       },
-      bucketList: work.bucketList,
+      bucketList: work.bucketList ? (
+        <BucketList played={work.concertCount > 0} />
+      ) : undefined,
     };
   });
 

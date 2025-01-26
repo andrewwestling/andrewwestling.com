@@ -16,7 +16,7 @@ interface IndexPageProps {
     sortableFields?: {
       [key in SortType]?: any;
     };
-    bucketList?: boolean;
+    bucketList?: React.ReactNode;
   }>;
   defaultSort?: SortType;
   showFilters?: boolean;

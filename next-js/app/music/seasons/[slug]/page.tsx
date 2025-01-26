@@ -10,6 +10,7 @@ import { SectionHeading } from "@music/components/SectionHeading";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getConcertsBySeason } from "@music/data/queries/concerts";
 import { getWorksBySeason } from "@music/data/queries/works";
+import { BucketList } from "../../components/BucketList";
 
 export async function generateMetadata({
   params,
@@ -66,7 +67,11 @@ export default function SeasonPage({ params }: PageProps) {
                   work.frontmatter.composer &&
                     formatComposerName(work.frontmatter.composer),
                 ].filter(Boolean)}
-                bucketList={work.bucketList}
+                bucketList={
+                  work.bucketList ? (
+                    <BucketList played={work.concertCount > 0} />
+                  ) : null
+                }
               />
             ))}
           </div>

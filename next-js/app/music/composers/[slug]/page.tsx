@@ -8,6 +8,7 @@ import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getComposerBySlug } from "@music/data/queries/composers";
 import { getWorksByComposer } from "@music/data/queries/works";
+import { BucketList } from "../../components/BucketList";
 
 export async function generateMetadata({
   params,
@@ -46,7 +47,11 @@ export default function ComposerPage({ params }: PageProps) {
                 title={formatWorkTitle(work)}
                 href={routes.works.show(work.slug)}
                 stats={[]}
-                bucketList={work.bucketList}
+                bucketList={
+                  work.bucketList ? (
+                    <BucketList played={work.concertCount > 0} />
+                  ) : null
+                }
               />
             ))}
           </div>

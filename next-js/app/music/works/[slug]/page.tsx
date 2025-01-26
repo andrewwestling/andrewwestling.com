@@ -52,7 +52,9 @@ export default function WorkPage({ params }: PageProps) {
       <div>
         <PageTitle className="flex gap-2 items-center">
           {formatWorkTitle(work)}
-          {work.bucketList && <BucketList />}
+          {work.bucketList && (
+            <BucketList played={concerts.length > 0 ? true : false} />
+          )}
         </PageTitle>
 
         {composer && (
