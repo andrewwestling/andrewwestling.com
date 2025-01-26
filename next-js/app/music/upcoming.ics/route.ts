@@ -3,7 +3,7 @@ import { DateTime } from "luxon";
 import { createEvents, DateArray } from "ics";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { getVenueByTitle } from "@music/data/queries/venues";
-import { formatConcertTitle } from "@music/lib/helpers";
+import { formatConcertTitle, getSiteUrl } from "@music/lib/helpers";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { Venue } from "@music/lib/types";
 import { awdsColors } from "@/tailwind.config";
@@ -71,7 +71,7 @@ export async function GET() {
       title: displayTitle,
       description,
       location: venue?.title,
-      url: `https://andrewwestling.com/music/concerts/${concert.slug}`,
+      url: `${getSiteUrl()}/music/concerts/${concert.slug}`,
       startInputType: "utc" as const,
       startOutputType: "utc" as const,
     };

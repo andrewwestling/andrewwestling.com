@@ -3,6 +3,7 @@ import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { CalendarSubscribePopover } from "@music/components/CalendarSubscribePopover";
+import { getSiteUrl } from "@music/lib/helpers";
 
 export const metadata: Metadata = {
   title: "Upcoming Concerts",
@@ -11,9 +12,7 @@ export const metadata: Metadata = {
 
 export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();
-  const calendarUrl = `${
-    process.env.NEXT_PUBLIC_SITE_URL || "https://andrewwestling.com"
-  }/music/upcoming.ics`;
+  const calendarUrl = `${getSiteUrl()}/music/upcoming.ics`;
 
   return (
     <div className="flex flex-col gap-6">
