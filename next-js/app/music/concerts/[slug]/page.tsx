@@ -127,6 +127,19 @@ export default async function ConcertPage({ params }: PageProps) {
             </>
           )}
 
+          {isUpcoming(concert.frontmatter.date) && (
+            <>
+              <dt className="font-medium">Calendar</dt>
+              <dd>
+                <ExternalLink
+                  href={`/music/concerts/${concert.slug}/event.ics`}
+                >
+                  Add to Calendar
+                </ExternalLink>
+              </dd>
+            </>
+          )}
+
           {concert.frontmatter.ticketUrl &&
             isUpcoming(concert.frontmatter.date) && (
               <>
