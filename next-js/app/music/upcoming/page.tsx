@@ -19,10 +19,7 @@ export default async function UpcomingPage() {
       {/* Up Next */}
       {upcomingConcerts.length > 0 && (
         <section>
-          <div className="flex items-start justify-between">
-            <PageTitle className="mb-4">Up Next</PageTitle>
-            <CalendarSubscribePopover calendarUrl={calendarUrl} />
-          </div>
+          <PageTitle className="mb-4">Up Next</PageTitle>
           <div className="grid gap-4">
             {upcomingConcerts.slice(0, 1).map((concert) => (
               <ConcertListItem
@@ -49,6 +46,8 @@ export default async function UpcomingPage() {
           )}
         </section>
       )}
+
+      <CalendarSubscribePopover calendarUrl={calendarUrl} />
 
       {/* If no more concerts, show a message */}
       {upcomingConcerts.length === 0 && (
