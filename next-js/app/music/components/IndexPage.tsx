@@ -70,7 +70,7 @@ export function IndexPage({
             title={item.title}
             href={item.href}
             stats={item.stats}
-            bucketList={item.bucketList}
+            badges={item.badges}
           />
         ))}
       </div>

@@ -67,11 +67,11 @@ export default function SeasonPage({ params }: PageProps) {
                   work.frontmatter.composer &&
                     formatComposerName(work.frontmatter.composer),
                 ].filter(Boolean)}
-                bucketList={
+                badges={[
                   work.bucketList ? (
                     <BucketList played={work.concertCount > 0} />
-                  ) : null
-                }
+                  ) : null,
+                ]}
               />
             ))}
           </div>

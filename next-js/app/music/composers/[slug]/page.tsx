@@ -47,11 +47,11 @@ export default function ComposerPage({ params }: PageProps) {
                 title={formatWorkTitle(work)}
                 href={routes.works.show(work.slug)}
                 stats={[]}
-                bucketList={
+                badges={[
                   work.bucketList ? (
                     <BucketList played={work.concertCount > 0} />
-                  ) : null
-                }
+                  ) : null,
+                ]}
               />
             ))}
           </div>

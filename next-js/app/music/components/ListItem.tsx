@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { BucketList } from "@music/components/BucketList";
 
 interface ListItemProps {
   title: string;
   href: string;
   stats: (string | undefined | null)[];
-  bucketList?: React.ReactNode;
+  badges?: React.ReactNode[];
   className?: string;
 }
 
@@ -13,7 +12,7 @@ export function ListItem({
   title,
   href,
   stats,
-  bucketList,
+  badges = [],
   className = "",
 }: ListItemProps) {
   return (
@@ -21,8 +20,16 @@ export function ListItem({
       <Link href={href} className="font-semibold">
         {title}
       </Link>
-      <span className="text-muted text-sm ml-2">{stats.join(" • ")}</span>
-      {bucketList && <span className="ml-2">{bucketList}</span>}
+      <span>
+        {badges.map((badge, index) => (
+          <span key={index} className="ml-2">
+            {badge}
+          </span>
+        ))}
+      </span>
+      <p className="text-muted text-sm flex flex-row gap-1">
+        <span>{stats.join(" • ")}</span>
+      </p>
     </div>
   );
 }

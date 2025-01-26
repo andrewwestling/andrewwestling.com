@@ -63,9 +63,9 @@ export default function WorksPage({
         composer: work.frontmatter.composer,
         concerts: work.concertCount,
       },
-      bucketList: work.bucketList ? (
-        <BucketList played={work.concertCount > 0} />
-      ) : undefined,
+      badges: [
+        work.bucketList ? <BucketList played={work.concertCount > 0} /> : null,
+      ],
     };
   });
 
