@@ -58,7 +58,8 @@ export default function WorksPage({
       href: routes.works.show(work.slug),
       stats,
       sortableFields: {
-        title: work.title,
+        title: formatWorkTitle(work),
+        composer: work.frontmatter.composer,
         concerts: work.concertCount,
       },
       bucketList: work.bucketList,
@@ -70,7 +71,7 @@ export default function WorksPage({
       <IndexPage
         title="Works"
         items={items}
-        defaultSort="concerts"
+        defaultSort="alphabetical"
         showFilters={true}
         facets={["composer"]}
         initialFilters={searchParams as Record<string, string>}
