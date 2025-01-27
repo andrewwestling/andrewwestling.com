@@ -46,6 +46,41 @@
       },
       "group": "none",
       "problemMatcher": []
+    },
+    {
+      "label": "Music: Generate Database",
+      "detail": "Generate the database for music content from Obsidian vault",
+      "type": "shell",
+      "command": "npm run generate-music-db ${input:vaultPath}",
+      "options": {
+        "cwd": "${workspaceFolder}/next-js"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Music: Generate Location Data",
+      "detail": "Generate location data for venues from coordinates",
+      "type": "shell",
+      "command": "npm run generate-location-data ${input:vaultPath}",
+      "options": {
+        "cwd": "${workspaceFolder}/next-js"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Music: Create Vault Symlink",
+      "detail": "Create symlink to Obsidian vault in music data directory",
+      "type": "shell",
+      "command": "ln -sfn ${input:vaultPath} ${workspaceFolder}/next-js/app/music/data/vault",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "vaultPath",
+      "type": "promptString",
+      "description": "Path to the Obsidian vault",
+      "default": "./app/music/data/vault"
     }
   ]
 }

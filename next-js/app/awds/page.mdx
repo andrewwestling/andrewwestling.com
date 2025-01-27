@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import { ComponentWrapper } from "./components/ComponentWrapper";
 import { Colors } from "./components/Colors";
 import { Footer } from "@components/Footer";
@@ -5,10 +6,35 @@ import { Header } from "@components/Header";
 import { Greeting } from "@components/Greeting";
 import { Message } from "@components/Message";
 import { PhotoOfMe } from "@components/PhotoOfMe";
-import { Button } from "@components/Button";
+import { Button, ButtonLink } from "@components/Button";
 import { TidbytGif } from "@/app/projects/tidbyt/components/TidbytGif";
 import { PostedModified } from "@components/PostedModified";
 import NextLink from "next/link";
+import { ConcertListItem } from "@music/components/ConcertListItem";
+import { ListItem } from "@music/components/ListItem";
+import { DidNotPlay } from "@music/components/DidNotPlay";
+import { Upcoming } from "@music/components/Upcoming";
+import { Filters } from "@music/components/Filters";
+import { FilterExamples } from "./components/FilterExamples";
+import { VariantWrapper as Variant } from "./components/VariantWrapper";
+import {
+  sampleConcertWithTitle,
+  sampleConcertWithoutTitle,
+  sampleConcertWithUpcomingDate,
+  sampleGroup,
+  sampleSeason,
+  sampleSeasonNoConcerts,
+  sampleConcertWithTicketUrl,
+  sampleConcertWithoutTicketUrl,
+} from "./components/sampleData.ts";
+import { Breadcrumbs } from "@music/components/Breadcrumbs";
+import { Suspense } from "react";
+import { IndexPage } from "@music/components/IndexPage";
+import { BucketList } from "@music/components/BucketList";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
+import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
+import { AttendActions } from "@music/components/AttendActions";
 
 export const metadata = { title: "AWDS" };
 
@@ -47,22 +73,17 @@ export const demoMessageContent = (
 
 ---
 
+# Table of Contents
+
+---
+
 # Colors
 
 <Colors />
 
 ---
 
-# Components
-
-- [Footer](#footer)
-- [Greeting](#greeting)
-- [Header](#header)
-- [Message](#message)
-- [PhotoOfMe](#photoofme)
-- [Buttons](#buttons)
-- [TidbytGif](#tidbytgif)
-- [PostedModified](#postedmodified)
+# Core Components
 
 ## Footer
 
@@ -119,8 +140,22 @@ This is the photo of me on the index page, and the caption/attribution.
 These are buttons, for use wherever a button is needed.
 
 <ComponentWrapper>
-  <div className="grid gap-1">
-    <Button>Primary button</Button>
+  <div className="grid gap-4">
+    <Variant label="Primary button">
+      <Button>Primary button</Button>
+    </Variant>
+    <Variant label="Button with icon">
+      <Button icon="🚀">Button with icon</Button>
+    </Variant>
+    <Variant label="ButtonLink">
+      <ButtonLink href="/awds">ButtonLink</ButtonLink>
+    </Variant>
+    <Variant label="ButtonLink external">
+      <ButtonLink external href="/awds">ButtonLink external</ButtonLink>
+    </Variant>
+    <Variant label="ButtonLink external with icon">
+      <ButtonLink external href="/awds" icon="🚀">ButtonLink external with icon</ButtonLink>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -142,4 +177,352 @@ This is the datestamp at the bottom of project pages.
 
 <ComponentWrapper>
   <PostedModified posted="2021-01-23" modified="2024-02-26" />
+</ComponentWrapper>
+
+---
+
+# Music Components
+
+These components are specific to the music section of the website.
+
+## Page Headings
+
+### PageTitle
+
+This component is used for page-level headings (h1). It provides consistent styling for the main title of each page.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <PageTitle>Example Page Title</PageTitle>
+  </div>
+</ComponentWrapper>
+
+### SectionHeading
+
+This component is used for section-level headings (h2) within a page. It provides consistent styling for major sections.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <SectionHeading>Example Section Heading</SectionHeading>
+  </div>
+</ComponentWrapper>
+
+## List Items
+
+### ConcertListItem
+
+This is used when listing concerts on a page.
+
+It extends the ListItem component, adding badges and a few other things that are specific to concerts.
+
+- Shows the concert title, the group name, and the date
+- Falls back to the group name if a concert title isn't available
+- Has an optional `expanded` prop that shows the group name and the date
+
+<ComponentWrapper>
+  <div className="grid gap-6">
+    <Variant label="With Title">
+      <ConcertListItem concert={sampleConcertWithTitle} group={sampleGroup} />
+    </Variant>
+
+    <Variant label="Without Title">
+      <ConcertListItem
+        concert={sampleConcertWithoutTitle}
+        group={sampleGroup}
+      />
+    </Variant>
+
+    <Variant label="Without Title, Expanded">
+      <ConcertListItem
+        concert={sampleConcertWithoutTitle}
+        group={sampleGroup}
+        expanded
+      />
+    </Variant>
+
+    <Variant label="With Upcoming Date">
+      <ConcertListItem
+        concert={sampleConcertWithUpcomingDate}
+        group={sampleGroup}
+      />
+    </Variant>
+
+    <Variant label="With Tickets">
+      <ConcertListItem
+        concert={sampleConcertWithTitle}
+        group={sampleGroup}
+        showTickets
+      />
+    </Variant>
+
+    <Variant label="With Tickets, Expanded">
+      <ConcertListItem
+        concert={sampleConcertWithTitle}
+        group={sampleGroup}
+        expanded
+        showTickets
+      />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
+### ListItem
+
+This is a generic list item component used throughout the music section to display various types of data in a consistent format. It shows a title as a link with optional statistics.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="Season Example">
+      <ListItem
+        title={sampleSeason.title}
+        href={`/music/seasons/${sampleSeason.slug}`}
+        stats={[
+          `${sampleSeason.concertSlugs.length} concerts`,
+          `${sampleSeason.workSlugs.length} works`
+        ]}
+      />
+    </Variant>
+
+    <Variant label="Venue Example">
+      <ListItem
+        title="Carnegie Hall"
+        href="/music/venues/carnegie-hall"
+        stats={["New York, NY", "15 concerts"]}
+      />
+    </Variant>
+
+    <Variant label="Composer Example">
+      <ListItem
+        title="Gustav Mahler"
+        href="/music/composers/mahler-gustav"
+        stats={["12 works"]}
+      />
+    </Variant>
+
+    <Variant label="Group Example">
+      <ListItem
+        title="New York Philharmonic"
+        href="/music/groups/ny-phil"
+        stats={["New York, NY", "8 concerts"]}
+      />
+    </Variant>
+
+    <Variant label="Work Example">
+      <ListItem
+        title="Symphony No. 1 in E Minor"
+        href="/music/works/sibelius-symphony-no-1-in-e-minor"
+        stats={["by Jean Sibelius"]}
+      />
+    </Variant>
+
+    <Variant label="Work Example, Bucket List">
+      <ListItem
+        title="Symphony No. 1 in E Minor"
+        href="/music/works/sibelius-symphony-no-1-in-e-minor"
+        stats={["by Jean Sibelius"]}
+        badges={[<BucketList />]}
+      />
+    </Variant>
+
+    <Variant label="Work Example, Bucket List, Played">
+      <ListItem
+        title="Symphony No. 1 in E Minor"
+        href="/music/works/sibelius-symphony-no-1-in-e-minor"
+        stats={["by Jean Sibelius"]}
+        badges={[<BucketList played />]}
+      />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
+### IndexPage
+
+This is a layout component used for index/listing pages throughout the music section. It displays a title and a list of items using the ListItem component.
+
+If the items have sortable fields, it will display a sort dropdown.
+
+<ComponentWrapper>
+  <div className="flex flex-col gap-12">
+    <Variant label="Example (no sortable fields)">
+      <Suspense>
+        <IndexPage
+          title="Groups"
+          items={[
+            {
+              slug: "bso",
+              title: "Brooklyn Symphony Orchestra",
+              href: "/music/groups/bso",
+              stats: ["Brooklyn, New York", "12 concerts"],
+            },
+            {
+              slug: "gvo",
+              title: "Greenwich Village Orchestra",
+              href: "/music/groups/gvo",
+              stats: ["Manhattan, New York", "10 concerts"],
+            },
+          ]}
+        />
+      </Suspense>
+    </Variant>
+
+    <Variant label="Example (with sortable fields)">
+      <Suspense>
+        <IndexPage
+          title="Groups"
+          items={[
+            {
+              slug: "bso",
+              title: "Brooklyn Symphony Orchestra",
+              href: "/music/groups/bso",
+              stats: ["Brooklyn, New York", "12 concerts"],
+              sortableFields: {
+                concerts: 12,
+              },
+            },
+            {
+              slug: "gvo",
+              title: "Greenwich Village Orchestra",
+              href: "/music/groups/gvo",
+              stats: ["Manhattan, New York", "10 concerts"],
+              sortableFields: {
+                concerts: 10,
+              },
+            },
+          ]}
+        />
+      </Suspense>
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
+## Badges
+
+### DidNotPlay
+
+This badge is used to indicate when I didn't play in a particular concert, or it didn't take place as planned.
+
+<ComponentWrapper>
+  <DidNotPlay />
+</ComponentWrapper>
+
+---
+
+### Upcoming
+
+This badge is used to indicate upcoming concerts.
+
+<ComponentWrapper>
+  <Upcoming />
+</ComponentWrapper>
+
+---
+
+### BucketList
+
+This badge is used to show if a work is on my musical Bucket List.
+
+It also links to the Bucket List page so you will know to go there and check it out.
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="Not played">
+      <BucketList />
+    </Variant>
+    <Variant label="Played">
+      <BucketList played />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
+## CalendarUrlCopy
+
+This component shows and provides a button to copy the URL of my concert calendar to the clipboard.
+
+<ComponentWrapper>
+  <CalendarUrlCopy calendarUrl={'https://andrewwestling.com/music/upcoming.ics'} />
+</ComponentWrapper>
+
+---
+
+## AttendActions
+
+This component is used to display actions for attending a concert.
+
+It will not render if the concert date is in the past.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="With upcoming date; without ticket URL">
+      <AttendActions concert={sampleConcertWithoutTicketUrl} />
+    </Variant>
+    <Variant label="With upcoming date; with ticket URL">
+      <AttendActions concert={sampleConcertWithTicketUrl} />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
+## VenueMap
+
+export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
+  ssr: false,
+});
+
+The VenueMap component displays an interactive map centered on a venue's location. It's used on venue pages to show where venues are located.
+
+<ComponentWrapper>
+  <ClientVenueMap
+    coordinates="40.765263912243164, -73.97990214578063"
+    name="Carnegie Hall"
+  />
+</ComponentWrapper>
+
+---
+
+## Filters
+
+The Filters component provides a multi-select dropdown for filtering concerts by various criteria.
+
+<ComponentWrapper>
+  <Suspense>
+    <FilterExamples />
+  </Suspense>
+</ComponentWrapper>
+
+---
+
+## Breadcrumbs
+
+This component provides navigation breadcrumbs showing the current location in the music section.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="&quot;Index&quot; page examples">
+      <Breadcrumbs path="/music/concerts" />
+      <Breadcrumbs path="/music/works" />
+      <Breadcrumbs path="/music/venues" />
+      <Breadcrumbs path="/music/conductors" />
+      <Breadcrumbs path="/music/composers" />
+      <Breadcrumbs path="/music/groups" />
+      <Breadcrumbs path="/music/seasons" />
+    </Variant>
+
+    <Variant label="&quot;Detail&quot; page examples">
+      <Breadcrumbs path="/music/concerts/202411171500" />
+      <Breadcrumbs path="/music/works/debussy-la-mer" />
+      <Breadcrumbs path="/music/venues/brooklyn-museum" />
+      <Breadcrumbs path="/music/conductors/barbara-yahr" />
+      <Breadcrumbs path="/music/composers/mahler-gustav" />
+      <Breadcrumbs path="/music/groups/gvo" />
+      <Breadcrumbs path="/music/seasons/2024-2025" />
+    </Variant>
+  </div>
 </ComponentWrapper>

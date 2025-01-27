@@ -13,10 +13,18 @@ export const Colors = () => {
         "bg-background",
         "bg-highlight",
         "bg-muted",
+        "bg-surface",
+        "bg-border",
+        "bg-active",
+        "bg-selected",
         "dark:bg-text-dark",
         "dark:bg-background-dark",
         "dark:bg-highlight-dark",
         "dark:bg-muted-dark",
+        "dark:bg-surface-dark",
+        "dark:bg-border-dark",
+        "dark:bg-active-dark",
+        "dark:bg-selected-dark",
       ].join(" ")}
     ></div>
   );
