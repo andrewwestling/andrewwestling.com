@@ -1,7 +1,6 @@
-import { Metadata } from "next/types";
+import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
-import { ListItem } from "@music/components/ListItem";
-import { PageTitle } from "@music/components/PageTitle";
+import { IndexPage } from "@music/components/IndexPage";
 import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 import {
   getOrderedBucketList,
@@ -22,37 +21,39 @@ export default function BucketListPage() {
     .map((title) => getWorkByTitle(title))
     .filter((work): work is Work => work !== undefined);
 
+  const items = bucketListWorks.map((work, index) => {
+    const composer = work.frontmatter.composer
+      ? getComposerByTitle(work.frontmatter.composer)
+      : undefined;
+
+    const concerts = getConcertsByWork(work.title);
+    const hasBeenPlayed = concerts.length > 0;
+
+    const stats = [
+      composer && `by ${formatComposerName(composer.title)}`,
+      `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
+    ].filter((stat): stat is string => stat !== undefined);
+
+    return {
+      slug: work.slug,
+      title: formatWorkTitle(work),
+      href: routes.works.show(work.slug),
+      stats,
+      sortableFields: {
+        title: formatWorkTitle(work),
+        composer: work.frontmatter.composer,
+        desire: -index, // Original bucket list order
+      },
+      className: hasBeenPlayed ? "line-through text-muted" : "",
+    };
+  });
+
   return (
-    <article className="flex flex-col gap-6">
-      <div>
-        <PageTitle>Bucket List</PageTitle>
-      </div>
-
-      <div className="grid gap-4">
-        {bucketListWorks.map((work) => {
-          // Find the composer
-          const composer = work.frontmatter.composer
-            ? getComposerByTitle(work.frontmatter.composer)
-            : undefined;
-
-          // Find all concerts featuring this work
-          const concerts = getConcertsByWork(work.title);
-          const hasBeenPlayed = concerts.length > 0;
-
-          return (
-            <ListItem
-              key={work.slug}
-              title={formatWorkTitle(work)}
-              href={routes.works.show(work.slug)}
-              stats={[
-                composer && `by ${formatComposerName(composer.title)}`,
-                `${concerts.length} concert${concerts.length !== 1 ? "s" : ""}`,
-              ]}
-              className={hasBeenPlayed ? "line-through text-muted" : ""}
-            />
-          );
-        })}
-      </div>
-    </article>
+    <IndexPage
+      title="Bucket List"
+      items={items}
+      defaultSort="desire"
+      showFilters={false}
+    />
   );
 }

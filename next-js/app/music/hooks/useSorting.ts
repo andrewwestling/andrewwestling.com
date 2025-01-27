@@ -4,6 +4,7 @@ import { useMemo } from "react";
 export type SortType =
   | "alphabetical"
   | "date"
+  | "desire"
   | "composer"
   | "concerts"
   | "works"
@@ -17,6 +18,7 @@ export interface SortOption {
 const SORT_LABELS: Record<SortType, string> = {
   alphabetical: "alphabetically",
   date: "by date",
+  desire: "by what I want to perform the most",
   composer: "by composer name",
   concerts: "by concert count",
   works: "by work count",
@@ -75,7 +77,16 @@ export function useSorting({
             return a.sortableFields.title.localeCompare(b.sortableFields.title);
           }
           return a.title.localeCompare(b.title);
+        case "composer":
+          // If we specify composer in the sortableFields, use that
+          if (a.sortableFields?.composer && b.sortableFields?.composer) {
+            return a.sortableFields.composer.localeCompare(
+              b.sortableFields.composer
+            );
+          }
+          return a.composer.localeCompare(b.composer.composer);
         default:
+          // For most sorts, will be a number, so show highest number first
           return (
             (b.sortableFields?.[currentSortOption.value] ?? 0) -
             (a.sortableFields?.[currentSortOption.value] ?? 0)

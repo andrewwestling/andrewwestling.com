@@ -16,7 +16,8 @@ interface IndexPageProps {
     sortableFields?: {
       [key in SortType]?: any;
     };
-    bucketList?: React.ReactNode;
+    className?: string;
+    badges?: React.ReactNode[];
   }>;
   defaultSort?: SortType;
   showFilters?: boolean;
@@ -71,6 +72,7 @@ export function IndexPage({
             href={item.href}
             stats={item.stats}
             badges={item.badges}
+            className={item.className}
           />
         ))}
       </div>
