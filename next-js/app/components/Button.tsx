@@ -20,6 +20,7 @@ export const buttonClasses = [
   "duration-300",
   "ease-in-out",
   "text-sm",
+  "select-none",
 ].join(" ");
 
 export const Button = ({
