@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Filters } from "@music/components/Filters";
+import { VariantWrapper as Variant } from "./VariantWrapper";
 
 const DEFAULT_FILTERS: Record<string, string> = {
   group: "gvo",
@@ -27,53 +28,52 @@ export function FilterExamples() {
   return (
     <>
       <div className="grid gap-4">
-        <div>
-          <div className="flex justify-between items-center mb-2">
-            <label className="text-xs text-muted">All facets (default)</label>
-          </div>
-          <div className="text-xs text-muted mb-2">
-            Selected: <code>{JSON.stringify(defaultFilters)}</code>
-          </div>
+        <Variant
+          label="All facets (default)"
+          meta={
+            <>
+              Selected: <code>{JSON.stringify(defaultFilters)}</code>
+            </>
+          }
+        >
           <Filters
             updateUrl={false}
             initialFilters={defaultFilters}
             onFiltersChange={setDefaultFilters}
           />
-        </div>
+        </Variant>
 
-        <div>
-          <div className="flex justify-between items-center mb-2">
-            <label className="text-xs text-muted">
-              Limited facets: Group and Season Only
-            </label>
-          </div>
-          <div className="text-xs text-muted mb-2">
-            Selected: <code>{JSON.stringify(limitedFilters)}</code>
-          </div>
+        <Variant
+          label="Limited facets: Group and Season Only"
+          meta={
+            <>
+              Selected: <code>{JSON.stringify(limitedFilters)}</code>
+            </>
+          }
+        >
           <Filters
             facets={["group", "season"]}
             updateUrl={false}
             initialFilters={limitedFilters}
             onFiltersChange={setLimitedFilters}
           />
-        </div>
+        </Variant>
 
-        <div>
-          <div className="flex justify-between items-center mb-2">
-            <label className="text-xs text-muted">
-              Single facet: Composer Only (shows all options)
-            </label>
-          </div>
-          <div className="text-xs text-muted mb-2">
-            Selected: <code>{JSON.stringify(singleFacetFilters)}</code>
-          </div>
+        <Variant
+          label="Single facet: Composer Only (shows all options)"
+          meta={
+            <>
+              Selected: <code>{JSON.stringify(singleFacetFilters)}</code>
+            </>
+          }
+        >
           <Filters
             facets={["composer"]}
             updateUrl={false}
             initialFilters={singleFacetFilters}
             onFiltersChange={setSingleFacetFilters}
           />
-        </div>
+        </Variant>
       </div>
     </>
   );

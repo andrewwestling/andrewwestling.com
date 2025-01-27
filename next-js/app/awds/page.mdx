@@ -16,6 +16,7 @@ import { DidNotPlay } from "@music/components/DidNotPlay";
 import { Upcoming } from "@music/components/Upcoming";
 import { Filters } from "@music/components/Filters";
 import { FilterExamples } from "./components/FilterExamples";
+import { VariantWrapper as Variant } from "./components/VariantWrapper";
 import {
   sampleConcertWithTitle,
   sampleConcertWithoutTitle,
@@ -139,12 +140,22 @@ This is the photo of me on the index page, and the caption/attribution.
 These are buttons, for use wherever a button is needed.
 
 <ComponentWrapper>
-  <div className="grid gap-1">
-    <Button>Primary button</Button>
-    <Button icon="🚀">Button with icon</Button>
-    <ButtonLink href="/awds">ButtonLink</ButtonLink>
-    <ButtonLink external href="/awds">ButtonLink external</ButtonLink>
-    <ButtonLink external href="/awds" icon="🚀">ButtonLink external with icon</ButtonLink>
+  <div className="grid gap-4">
+    <Variant label="Primary button">
+      <Button>Primary button</Button>
+    </Variant>
+    <Variant label="Button with icon">
+      <Button icon="🚀">Button with icon</Button>
+    </Variant>
+    <Variant label="ButtonLink">
+      <ButtonLink href="/awds">ButtonLink</ButtonLink>
+    </Variant>
+    <Variant label="ButtonLink external">
+      <ButtonLink external href="/awds">ButtonLink external</ButtonLink>
+    </Variant>
+    <Variant label="ButtonLink external with icon">
+      <ButtonLink external href="/awds" icon="🚀">ButtonLink external with icon</ButtonLink>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -210,54 +221,48 @@ It extends the ListItem component, adding badges and a few other things that are
 
 <ComponentWrapper>
   <div className="grid gap-6">
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">With Title</label>
+    <Variant label="With Title">
       <ConcertListItem concert={sampleConcertWithTitle} group={sampleGroup} />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Without Title</label>
+    <Variant label="Without Title">
       <ConcertListItem
         concert={sampleConcertWithoutTitle}
         group={sampleGroup}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Without Title, Expanded</label>
+    <Variant label="Without Title, Expanded">
       <ConcertListItem
         concert={sampleConcertWithoutTitle}
         group={sampleGroup}
         expanded
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">With Upcoming Date</label>
+    <Variant label="With Upcoming Date">
       <ConcertListItem
         concert={sampleConcertWithUpcomingDate}
         group={sampleGroup}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">With Tickets</label>
+    <Variant label="With Tickets">
       <ConcertListItem
         concert={sampleConcertWithTitle}
         group={sampleGroup}
         showTickets
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">With Tickets, Expanded</label>
+    <Variant label="With Tickets, Expanded">
       <ConcertListItem
         concert={sampleConcertWithTitle}
         group={sampleGroup}
         expanded
         showTickets
       />
-    </div>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -269,8 +274,7 @@ This is a generic list item component used throughout the music section to displ
 
 <ComponentWrapper>
   <div className="grid gap-4">
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Season Example</label>
+    <Variant label="Season Example">
       <ListItem
         title={sampleSeason.title}
         href={`/music/seasons/${sampleSeason.slug}`}
@@ -279,64 +283,57 @@ This is a generic list item component used throughout the music section to displ
           `${sampleSeason.workSlugs.length} works`
         ]}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Venue Example</label>
+    <Variant label="Venue Example">
       <ListItem
         title="Carnegie Hall"
         href="/music/venues/carnegie-hall"
         stats={["New York, NY", "15 concerts"]}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Composer Example</label>
+    <Variant label="Composer Example">
       <ListItem
         title="Gustav Mahler"
         href="/music/composers/mahler-gustav"
         stats={["12 works"]}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Group Example</label>
+    <Variant label="Group Example">
       <ListItem
         title="New York Philharmonic"
         href="/music/groups/ny-phil"
         stats={["New York, NY", "8 concerts"]}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Work Example</label>
+    <Variant label="Work Example">
       <ListItem
         title="Symphony No. 1 in E Minor"
         href="/music/works/sibelius-symphony-no-1-in-e-minor"
         stats={["by Jean Sibelius"]}
       />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Work Example, Bucket List</label>
+    <Variant label="Work Example, Bucket List">
       <ListItem
         title="Symphony No. 1 in E Minor"
         href="/music/works/sibelius-symphony-no-1-in-e-minor"
         stats={["by Jean Sibelius"]}
         badges={[<BucketList />]}
       />
-    </div>
+    </Variant>
 
-
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Work Example, Bucket List, Played</label>
+    <Variant label="Work Example, Bucket List, Played">
       <ListItem
         title="Symphony No. 1 in E Minor"
         href="/music/works/sibelius-symphony-no-1-in-e-minor"
         stats={["by Jean Sibelius"]}
         badges={[<BucketList played />]}
       />
-    </div>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -350,31 +347,29 @@ If the items have sortable fields, it will display a sort dropdown.
 
 <ComponentWrapper>
   <div className="flex flex-col gap-12">
-  <div className="flex flex-col gap-2">
-    <label className="text-xs text-muted">Example (no sortable fields)</label>
-    <Suspense>
-      <IndexPage
-        title="Groups"
-        items={[
-          {
-            slug: "bso",
-            title: "Brooklyn Symphony Orchestra",
-            href: "/music/groups/bso",
-            stats: ["Brooklyn, New York", "12 concerts"],
-          },
-          {
-            slug: "gvo",
-            title: "Greenwich Village Orchestra",
-            href: "/music/groups/gvo",
-            stats: ["Manhattan, New York", "10 concerts"],
-          },
-        ]}
-      />
-    </Suspense>
-    </div>
+    <Variant label="Example (no sortable fields)">
+      <Suspense>
+        <IndexPage
+          title="Groups"
+          items={[
+            {
+              slug: "bso",
+              title: "Brooklyn Symphony Orchestra",
+              href: "/music/groups/bso",
+              stats: ["Brooklyn, New York", "12 concerts"],
+            },
+            {
+              slug: "gvo",
+              title: "Greenwich Village Orchestra",
+              href: "/music/groups/gvo",
+              stats: ["Manhattan, New York", "10 concerts"],
+            },
+          ]}
+        />
+      </Suspense>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">Example (with sortable fields)</label>
+    <Variant label="Example (with sortable fields)">
       <Suspense>
         <IndexPage
           title="Groups"
@@ -400,7 +395,7 @@ If the items have sortable fields, it will display a sort dropdown.
           ]}
         />
       </Suspense>
-    </div>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -435,14 +430,12 @@ This badge is used to show if a work is on my musical Bucket List.
 It also links to the Bucket List page so you will know to go there and check it out.
 <ComponentWrapper>
   <div className="grid gap-4">
-    <div className="flex flex-col gap-2 w-fit">
-      <label className="text-xs text-muted">Not played</label>
+    <Variant label="Not played">
       <BucketList />
-    </div>
-    <div className="flex flex-col gap-2 w-fit">
-      <label className="text-xs text-muted">Played</label>
+    </Variant>
+    <Variant label="Played">
       <BucketList played />
-    </div>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -466,14 +459,12 @@ It will not render if the concert date is in the past.
 
 <ComponentWrapper>
   <div className="grid gap-4">
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">With upcoming date; without ticket URL</label>
+    <Variant label="With upcoming date; without ticket URL">
       <AttendActions concert={sampleConcertWithoutTicketUrl} />
-    </div>
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">With upcoming date; with ticket URL</label>
+    </Variant>
+    <Variant label="With upcoming date; with ticket URL">
       <AttendActions concert={sampleConcertWithTicketUrl} />
-    </div>
+    </Variant>
   </div>
 </ComponentWrapper>
 
@@ -514,8 +505,7 @@ This component provides navigation breadcrumbs showing the current location in t
 
 <ComponentWrapper>
   <div className="grid gap-4">
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">"Index" page examples</label>
+    <Variant label="&quot;Index&quot; page examples">
       <Breadcrumbs path="/music/concerts" />
       <Breadcrumbs path="/music/works" />
       <Breadcrumbs path="/music/venues" />
@@ -523,10 +513,9 @@ This component provides navigation breadcrumbs showing the current location in t
       <Breadcrumbs path="/music/composers" />
       <Breadcrumbs path="/music/groups" />
       <Breadcrumbs path="/music/seasons" />
-    </div>
+    </Variant>
 
-    <div className="flex flex-col gap-2">
-      <label className="text-xs text-muted">"Detail" page examples</label>
+    <Variant label="&quot;Detail&quot; page examples">
       <Breadcrumbs path="/music/concerts/202411171500" />
       <Breadcrumbs path="/music/works/debussy-la-mer" />
       <Breadcrumbs path="/music/venues/brooklyn-museum" />
@@ -534,6 +523,6 @@ This component provides navigation breadcrumbs showing the current location in t
       <Breadcrumbs path="/music/composers/mahler-gustav" />
       <Breadcrumbs path="/music/groups/gvo" />
       <Breadcrumbs path="/music/seasons/2024-2025" />
-    </div>
+    </Variant>
   </div>
 </ComponentWrapper>
