@@ -33,7 +33,7 @@ import { IndexPage } from "@music/components/IndexPage";
 import { BucketList } from "@music/components/BucketList";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { CalendarSubscribePopover } from "@music/components/CalendarSubscribePopover";
+import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
 
 export const metadata = { title: "AWDS" };
@@ -441,12 +441,12 @@ It also links to the Bucket List page so you will know to go there and check it 
 
 ---
 
-## CalendarSubscribePopover
+## CalendarUrlCopy
 
-This component provides a modal interface for subscribing to my concert calendar in various calendar apps.
+This component shows and provides a button to copy the URL of my concert calendar to the clipboard.
 
 <ComponentWrapper>
-  <CalendarSubscribePopover calendarUrl={'https://andrewwestling.com/music/upcoming.ics'} />
+  <CalendarUrlCopy calendarUrl={'https://andrewwestling.com/music/upcoming.ics'} />
 </ComponentWrapper>
 
 ---

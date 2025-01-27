@@ -52,7 +52,7 @@ export async function ConcertListItem({
   }
 
   return (
-    <article className="flex flex-col gap-6 pb-6">
+    <article className="flex flex-col gap-6">
       <div>
         <SectionHeading className="mb-2 flex items-center gap-2">
           <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>

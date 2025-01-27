@@ -1,9 +1,10 @@
 import { Metadata } from "next";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { PageTitle } from "@music/components/PageTitle";
-import { CalendarSubscribePopover } from "@music/components/CalendarSubscribePopover";
 import { getSiteUrl } from "@music/lib/helpers";
+import { SectionHeading } from "../components/SectionHeading";
+import { CalendarUrlCopy } from "../components/CalendarUrlCopy";
+import { PageTitle } from "../components/PageTitle";
 
 export const metadata: Metadata = {
   title: "Upcoming Concerts",
@@ -16,45 +17,56 @@ export default async function UpcomingPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      {/* Up Next */}
-      {upcomingConcerts.length > 0 && (
-        <section>
-          <PageTitle className="mb-4">Up Next</PageTitle>
-          <div className="grid gap-4">
-            {upcomingConcerts.slice(0, 1).map((concert) => (
-              <ConcertListItem
-                key={concert.slug}
-                concert={concert}
-                expanded
-                showAttendActions
-              />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Later This Season */}
-      {upcomingConcerts.length > 1 && (
-        <section>
-          <PageTitle className="mb-4">Later This Season</PageTitle>
-          {upcomingConcerts.length > 0 && (
+      <PageTitle>Upcoming Concerts</PageTitle>
+      <div className="flex flex-col gap-12">
+        {/* Up Next */}
+        {upcomingConcerts.length > 0 && (
+          <section>
+            <SectionHeading>Up Next</SectionHeading>
             <div className="grid gap-4">
-              {upcomingConcerts.slice(1).map((concert) => (
-                <ConcertListItem key={concert.slug} concert={concert} />
+              {upcomingConcerts.slice(0, 1).map((concert) => (
+                <ConcertListItem
+                  key={concert.slug}
+                  concert={concert}
+                  expanded
+                  showAttendActions
+                />
               ))}
             </div>
-          )}
-        </section>
-      )}
+          </section>
+        )}
 
-      <CalendarSubscribePopover calendarUrl={calendarUrl} />
+        {/* Later This Season */}
+        {upcomingConcerts.length > 1 && (
+          <section>
+            <SectionHeading>Later This Season</SectionHeading>
+            {upcomingConcerts.length > 0 && (
+              <div className="grid gap-4">
+                {upcomingConcerts.slice(1).map((concert) => (
+                  <ConcertListItem key={concert.slug} concert={concert} />
+                ))}
+              </div>
+            )}
+          </section>
+        )}
 
-      {/* If no more concerts, show a message */}
-      {upcomingConcerts.length === 0 && (
+        {/* If no more concerts, show a message */}
+        {upcomingConcerts.length === 0 && (
+          <section>
+            <p>No more concerts scheduled for this season. Check back soon!</p>
+          </section>
+        )}
+
+        {/* Subscribe in Calendar App */}
         <section>
-          <p>No more concerts scheduled for this season. Check back soon!</p>
+          <SectionHeading>Subscribe in Calendar App</SectionHeading>
+          <p className="mb-4">
+            Subscribe to this URL in your calendar app to see my upcoming
+            concerts on your calendar:
+          </p>
+          <CalendarUrlCopy calendarUrl={calendarUrl} />
         </section>
-      )}
+      </div>
     </div>
   );
 }
