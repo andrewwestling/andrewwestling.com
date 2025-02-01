@@ -25,6 +25,7 @@ interface IndexPageProps {
   initialFilters?: Record<string, string>;
   onFiltersChange?: (filters: Record<string, string>) => void;
   updateUrl?: boolean;
+  customCounts?: Record<string, Record<string, number>>;
 }
 
 export function IndexPage({
@@ -36,6 +37,7 @@ export function IndexPage({
   initialFilters = {},
   onFiltersChange,
   updateUrl = true,
+  customCounts,
 }: IndexPageProps) {
   const { sortedItems, currentSort, handleSort, sortOptions } = useSorting({
     items,
@@ -61,6 +63,7 @@ export function IndexPage({
           initialFilters={initialFilters}
           onFiltersChange={onFiltersChange}
           updateUrl={updateUrl}
+          customCounts={customCounts}
         />
       )}
 

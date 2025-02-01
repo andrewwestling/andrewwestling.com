@@ -4,7 +4,7 @@ import { IndexPage } from "@music/components/IndexPage";
 import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 import { getWorks } from "@music/data/queries/works";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
-import { getComposerBySlug } from "@music/data/queries/composers";
+import { getComposerBySlug, getComposers } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";
 import { BucketList } from "@music/components/BucketList";
 
@@ -69,6 +69,18 @@ export default function WorksPage({
     };
   });
 
+  // Pre-calculate work counts for each composer
+  const allWorks = getWorks();
+  const customCounts = {
+    composer: Object.fromEntries(
+      getComposers().map((composer) => [
+        composer.title,
+        allWorks.filter((work) => work.frontmatter.composer === composer.title)
+          .length,
+      ])
+    ),
+  };
+
   return (
     <div>
       <IndexPage
@@ -78,6 +90,7 @@ export default function WorksPage({
         showFilters={true}
         facets={["composer"]}
         initialFilters={searchParams as Record<string, string>}
+        customCounts={customCounts}
       />
     </div>
   );

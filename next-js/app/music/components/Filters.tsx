@@ -40,6 +40,7 @@ export interface FiltersProps {
   updateUrl?: boolean;
   initialFilters?: Record<string, string>;
   onFiltersChange?: (filters: Record<string, string>) => void;
+  customCounts?: Record<string, Record<string, number>>;
 }
 
 const selectStyles: StylesConfig<SelectOption, boolean> = {
@@ -126,21 +127,30 @@ export function Filters({
   updateUrl = true,
   initialFilters = {},
   onFiltersChange,
+  customCounts,
 }: FiltersProps) {
   const { availableFacets, handleChange } = useFilters({
     facets,
     updateUrl,
     initialFilters,
     onFiltersChange,
+    customCounts,
   });
 
   const activeFacets = availableFacets.filter((facet) =>
     facets.includes(facet.id as FilterFacetId)
   );
 
-  const formatOptionLabel = ({ label, count, type }: SelectOption) => (
+  const formatOptionLabel = (
+    { label, count, type }: SelectOption,
+    { context }: { context: string }
+  ) => (
     <div className="flex justify-between gap-2">
-      <span>{label}</span>
+      <span>
+        {context === "value" && facets.length > 1
+          ? `${activeFacets.find((f) => f.id === type)?.label}: ${label}`
+          : label}
+      </span>
       {count !== undefined && <span>({count})</span>}
     </div>
   );
