@@ -40,6 +40,7 @@ export interface FiltersProps {
   updateUrl?: boolean;
   initialFilters?: Record<string, string>;
   onFiltersChange?: (filters: Record<string, string>) => void;
+  customCounts?: Record<string, Record<string, number>>;
 }
 
 const selectStyles: StylesConfig<SelectOption, boolean> = {
@@ -126,12 +127,14 @@ export function Filters({
   updateUrl = true,
   initialFilters = {},
   onFiltersChange,
+  customCounts,
 }: FiltersProps) {
   const { availableFacets, handleChange } = useFilters({
     facets,
     updateUrl,
     initialFilters,
     onFiltersChange,
+    customCounts,
   });
 
   const activeFacets = availableFacets.filter((facet) =>

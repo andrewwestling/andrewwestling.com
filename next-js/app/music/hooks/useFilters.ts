@@ -18,11 +18,13 @@ export function useFilters({
   updateUrl = true,
   initialFilters = {},
   onFiltersChange,
+  customCounts,
 }: {
   facets?: FilterFacetId[];
   updateUrl?: boolean;
   initialFilters?: Record<string, string>;
   onFiltersChange?: (filters: Record<string, string>) => void;
+  customCounts?: Record<string, Record<string, number>>;
 } = {}) {
   const router = useRouter();
   const pathname = usePathname();
@@ -127,6 +129,50 @@ export function useFilters({
     // Check if we're using only a single facet
     const isSingleFacet = facets.length === 1;
 
+    const getDefaultCount = (facetId: FilterFacetId, value: string) => {
+      switch (facetId) {
+        case "season":
+          return filteredConcerts.filter((c) => c.frontmatter.season === value)
+            .length;
+        case "group":
+          return filteredConcerts.filter((c) => c.frontmatter.group === value)
+            .length;
+        case "conductor":
+          return filteredConcerts.filter((c) => {
+            const conductors = Array.isArray(c.frontmatter.conductor)
+              ? c.frontmatter.conductor
+              : [c.frontmatter.conductor];
+            return conductors.includes(value);
+          }).length;
+        case "venue":
+          return filteredConcerts.filter((c) => c.frontmatter.venue === value)
+            .length;
+        case "composer":
+          return filteredConcerts.filter((concert) => {
+            const works = concert.frontmatter.works
+              ? Array.isArray(concert.frontmatter.works)
+                ? concert.frontmatter.works
+                : [concert.frontmatter.works]
+              : [];
+
+            // Find works by this composer
+            const composerWorks = getWorksByComposer(value);
+
+            // Check if any of the composer's works are in this concert
+            return composerWorks.some((work) => works.includes(work.title));
+          }).length;
+        default:
+          return 0;
+      }
+    };
+
+    const getCount = (facetId: FilterFacetId, value: string) => {
+      if (customCounts?.[facetId]?.[value] !== undefined) {
+        return customCounts[facetId][value];
+      }
+      return getDefaultCount(facetId, value);
+    };
+
     return [
       {
         id: "season",
@@ -142,9 +188,7 @@ export function useFilters({
             .map((season) => ({
               label: season.title,
               value: season.slug,
-              count: filteredConcerts.filter(
-                (c) => c.frontmatter.season === season.title
-              ).length,
+              count: getCount("season", season.title),
             })),
         ],
       },
@@ -160,9 +204,7 @@ export function useFilters({
           .map((group) => ({
             label: group.title,
             value: group.slug,
-            count: filteredConcerts.filter(
-              (c) => c.frontmatter.group === group.title
-            ).length,
+            count: getCount("group", group.title),
           })),
       },
       {
@@ -177,12 +219,7 @@ export function useFilters({
           .map((conductor) => ({
             label: conductor.title,
             value: conductor.slug,
-            count: filteredConcerts.filter((c) => {
-              const conductors = Array.isArray(c.frontmatter.conductor)
-                ? c.frontmatter.conductor
-                : [c.frontmatter.conductor];
-              return conductors.includes(conductor.title);
-            }).length,
+            count: getCount("conductor", conductor.title),
           })),
       },
       {
@@ -197,9 +234,7 @@ export function useFilters({
           .map((venue) => ({
             label: venue.title,
             value: venue.slug,
-            count: filteredConcerts.filter(
-              (c) => c.frontmatter.venue === venue.title
-            ).length,
+            count: getCount("venue", venue.title),
           })),
       },
       {
@@ -233,23 +268,18 @@ export function useFilters({
           .map((composer) => ({
             label: composer.title,
             value: composer.slug,
-            count: filteredConcerts.filter((concert) => {
-              const works = concert.frontmatter.works
-                ? Array.isArray(concert.frontmatter.works)
-                  ? concert.frontmatter.works
-                  : [concert.frontmatter.works]
-                : [];
-
-              // Find works by this composer
-              const composerWorks = getWorksByComposer(composer.title);
-
-              // Check if any of the composer's works are in this concert
-              return composerWorks.some((work) => works.includes(work.title));
-            }).length,
+            count: getCount("composer", composer.title),
           })),
       },
     ];
-  }, [filteredConcerts, searchParams, updateUrl, initialFilters, facets]);
+  }, [
+    filteredConcerts,
+    facets,
+    searchParams,
+    updateUrl,
+    initialFilters,
+    customCounts,
+  ]);
 
   const handleChange = (newValue: readonly any[] | any) => {
     const params = new URLSearchParams(
