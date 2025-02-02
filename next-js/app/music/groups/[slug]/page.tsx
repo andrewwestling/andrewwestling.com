@@ -9,9 +9,8 @@ import { SectionHeading } from "@music/components/SectionHeading";
 import { getGroupBySlug } from "@music/data/queries/groups";
 import { getConcertsByGroup } from "@music/data/queries/concerts";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const group = getGroupBySlug(decodeURIComponent(params.slug));
   if (!group) return { title: "Not Found" };
 
@@ -21,7 +20,8 @@ export async function generateMetadata({
   };
 }
 
-export default function GroupPage({ params }: PageProps) {
+export default async function GroupPage(props: PageProps) {
+  const params = await props.params;
   const group = getGroupBySlug(params.slug);
 
   if (!group) {

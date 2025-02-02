@@ -16,9 +16,8 @@ import { getWorkBySlug } from "@music/data/queries/works";
 import { getComposerByTitle } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const work = getWorkBySlug(decodeURIComponent(params.slug));
   if (!work) return { title: "Not Found" };
 
@@ -28,7 +27,8 @@ export async function generateMetadata({
   };
 }
 
-export default function WorkPage({ params }: PageProps) {
+export default async function WorkPage(props: PageProps) {
+  const params = await props.params;
   const work = getWorkBySlug(decodeURIComponent(params.slug));
 
   if (!work) {

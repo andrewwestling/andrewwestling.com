@@ -17,9 +17,8 @@ const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
   ssr: false,
 });
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const venue = getVenueBySlug(decodeURIComponent(params.slug));
   if (!venue) return { title: "Not Found" };
 
@@ -29,7 +28,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function VenuePage({ params }: PageProps) {
+export default async function VenuePage(props: PageProps) {
+  const params = await props.params;
   const venue = getVenueBySlug(params.slug);
   if (!venue) notFound();
 

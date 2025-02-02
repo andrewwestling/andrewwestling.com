@@ -25,9 +25,8 @@ import { PageTitle } from "@music/components/PageTitle";
 import { BucketList } from "../../components/BucketList";
 import { AttendActions } from "@music/components/AttendActions";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const concert = getConcertBySlug(decodeURIComponent(params.slug));
   if (!concert) return { title: "Not Found" };
 
@@ -42,7 +41,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function ConcertPage({ params }: PageProps) {
+export default async function ConcertPage(props: PageProps) {
+  const params = await props.params;
   const concert = getConcertBySlug(params.slug);
   if (!concert) {
     notFound();
