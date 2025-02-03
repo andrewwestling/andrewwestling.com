@@ -10,10 +10,12 @@ export function HomeIcon({ noHover }: HomeIconProps) {
       <NextImage
         src="/assets/a.png"
         alt="Andrew Westling 'A' logo"
-        width={32}
-        height={32}
-        className={`rounded-full inline-block ${
-          noHover ? "" : "group-hover:shadow-lg"
+        width={36}
+        height={36}
+        className={`rounded-full inline-block p-[2px] ${
+          noHover
+            ? ""
+            : "group-hover:shadow-lg border border-solid border-text dark:border-text-dark group-hover:border-primary"
         }`}
       />
       <span className="sr-only">Home</span>
