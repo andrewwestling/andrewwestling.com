@@ -106,6 +106,19 @@ const config: Config = {
         },
       });
     },
+    function ({ addUtilities }: PluginAPI) {
+      addUtilities({
+        ".scrollbar-hide": {
+          /* Firefox */
+          "scrollbar-width": "none",
+          /* Safari and Chrome */
+          "&::-webkit-scrollbar": {
+            display: "none",
+          },
+          "-ms-overflow-style": "none",
+        },
+      });
+    },
   ],
 };
 export default config;

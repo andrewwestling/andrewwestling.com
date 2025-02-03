@@ -12,9 +12,8 @@ import { getConcertsBySeason } from "@music/data/queries/concerts";
 import { getWorksBySeason } from "@music/data/queries/works";
 import { BucketList } from "../../components/BucketList";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const season = getSeasonBySlug(decodeURIComponent(params.slug));
   if (!season) return { title: "Not Found" };
 
@@ -24,7 +23,8 @@ export async function generateMetadata({
   };
 }
 
-export default function SeasonPage({ params }: PageProps) {
+export default async function SeasonPage(props: PageProps) {
+  const params = await props.params;
   const season = getSeasonBySlug(params.slug);
 
   if (!season) {

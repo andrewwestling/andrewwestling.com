@@ -20,8 +20,11 @@
     "paths": {
       "@/*": ["./*"],
       "@components/*": ["./app/components/*"],
-      "@music/*": ["./app/music/*"]
-    }
+      "@music/*": ["./app/music/*"],
+      "@projects/*": ["./app/projects/*"],
+      "@breadcrumbs/*": ["./app/@breadcrumbs/*"]
+    },
+    "target": "ES2017"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

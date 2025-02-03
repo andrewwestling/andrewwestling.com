@@ -13,11 +13,12 @@ export const metadata: Metadata = {
   description: "Musical works I've performed",
 };
 
-export default function WorksPage({
-  searchParams,
-}: {
-  searchParams: { [key: string]: string | undefined };
-}) {
+export default async function WorksPage(
+  props: {
+    searchParams: Promise<{ [key: string]: string | undefined }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   let works = getWorks();
 
   // Apply filters from searchParams

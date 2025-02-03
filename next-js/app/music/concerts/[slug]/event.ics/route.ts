@@ -2,10 +2,8 @@ import { notFound } from "next/navigation";
 import { getConcertBySlug } from "@music/data/queries/concerts";
 import { concertToEvent, generateCalendarResponse } from "@music/lib/calendar";
 
-export async function GET(
-  request: Request,
-  { params }: { params: { slug: string } }
-) {
+export async function GET(request: Request, props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const concert = getConcertBySlug(params.slug);
   if (!concert) {
     notFound();

@@ -19,11 +19,12 @@ export const metadata: Metadata = {
   description: "Concerts I've performed in",
 };
 
-export default async function ConcertsPage({
-  searchParams,
-}: {
-  searchParams: { [key: string]: string | undefined };
-}) {
+export default async function ConcertsPage(
+  props: {
+    searchParams: Promise<{ [key: string]: string | undefined }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   let concerts = [...getConcerts()];
 
   // Apply filters from searchParams

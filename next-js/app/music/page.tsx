@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default async function MusicPage() {
   return (
     <div className="grid gap-6">
-      <section className="my-6 flex flex-col gap-2">
+      <section className="mb-6 flex flex-col gap-2">
         <PageTitle>{`Andrew's Music Library`}</PageTitle>
         <p className="text-sm md:text-base text-muted italic">
           {`"Probably every concert and work I've ever performed"`}

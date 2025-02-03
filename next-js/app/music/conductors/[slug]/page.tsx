@@ -8,9 +8,8 @@ import { SectionHeading } from "@music/components/SectionHeading";
 import { getConductorBySlug } from "@music/data/queries/conductors";
 import { getConcertsByConductor } from "@music/data/queries/concerts";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const conductor = getConductorBySlug(decodeURIComponent(params.slug));
   if (!conductor) return { title: "Not Found" };
 
@@ -20,7 +19,8 @@ export async function generateMetadata({
   };
 }
 
-export default function ConductorPage({ params }: PageProps) {
+export default async function ConductorPage(props: PageProps) {
+  const params = await props.params;
   const conductor = getConductorBySlug(params.slug);
 
   if (!conductor) {

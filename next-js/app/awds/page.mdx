@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import { Suspense } from "react";
 import { ComponentWrapper } from "./components/ComponentWrapper";
 import { Colors } from "./components/Colors";
 import { Footer } from "@components/Footer";
@@ -7,6 +8,7 @@ import { Greeting } from "@components/Greeting";
 import { Message } from "@components/Message";
 import { PhotoOfMe } from "@components/PhotoOfMe";
 import { Button, ButtonLink } from "@components/Button";
+import { ExternalLink } from "@components/ExternalLink";
 import { TidbytGif } from "@/app/projects/tidbyt/components/TidbytGif";
 import { PostedModified } from "@components/PostedModified";
 import NextLink from "next/link";
@@ -27,14 +29,15 @@ import {
   sampleConcertWithTicketUrl,
   sampleConcertWithoutTicketUrl,
 } from "./components/sampleData.ts";
-import { Breadcrumbs } from "@music/components/Breadcrumbs";
-import { Suspense } from "react";
+import { Breadcrumbs } from "@components/Breadcrumbs";
+import BreadcrumbsSlot from "@breadcrumbs/default";
 import { IndexPage } from "@music/components/IndexPage";
 import { BucketList } from "@music/components/BucketList";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
+import VenueMap from "@music/components/VenueMap";
 
 export const metadata = { title: "AWDS" };
 
@@ -109,8 +112,75 @@ This is the banner at the top of my index page.
 
 Global header on this website.
 
+The breadcrumbs slot is passed to this component as a child.
+
+It falls back to a generic "andrewwestling.com" link if the breadcrumbs slot is not passed.
+
 <ComponentWrapper>
-  <Header />
+  <Variant label="Fallback">
+    <Header/>
+  </Variant>
+  <Variant label="Normal mode, with breadcrumbs manually passed in">
+    <Header>
+      <Breadcrumbs path="/awds" crumbs={[{ label: "Home", href: "/", isHome: true }, { label: "A custom breadcrumb", href: "/awds" }]} />
+    </Header>
+  </Variant>
+</ComponentWrapper>
+
+---
+
+## Breadcrumbs
+
+This component provides navigation breadcrumbs showing the current location on the site.
+
+When we're on the home page, it shows a menu instead of breadcrumbs.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="Home page">
+      <BreadcrumbsSlot path="/" />
+    </Variant>
+
+    <Variant label="Top-level examples">
+      <BreadcrumbsSlot path="/projects" />
+      <BreadcrumbsSlot path="/projects/media-cube" />
+      <BreadcrumbsSlot path="/projects/tidbyt" />
+      <BreadcrumbsSlot path="/projects/another-project-without-a-hardcoded-name" />
+      <BreadcrumbsSlot path="/resume" />
+      <BreadcrumbsSlot path="/music" />
+      <BreadcrumbsSlot path="/awds" />
+    </Variant>
+
+    <Variant label="Music Library &quot;Index&quot; page examples">
+      <BreadcrumbsSlot path="/music/concerts" />
+      <BreadcrumbsSlot path="/music/works" />
+      <BreadcrumbsSlot path="/music/venues" />
+      <BreadcrumbsSlot path="/music/conductors" />
+      <BreadcrumbsSlot path="/music/composers" />
+      <BreadcrumbsSlot path="/music/groups" />
+      <BreadcrumbsSlot path="/music/seasons" />
+    </Variant>
+
+    <Variant label="Music Library &quot;Detail&quot; page examples">
+      <BreadcrumbsSlot path="/music/concerts/202411171500" />
+      <BreadcrumbsSlot path="/music/works/debussy-la-mer" />
+      <BreadcrumbsSlot path="/music/venues/brooklyn-museum" />
+      <BreadcrumbsSlot path="/music/conductors/barbara-yahr" />
+      <BreadcrumbsSlot path="/music/composers/mahler-gustav" />
+      <BreadcrumbsSlot path="/music/groups/gvo" />
+      <BreadcrumbsSlot path="/music/seasons/2024-2025" />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
+## ExternalLink
+
+This component is used to display an external link with an icon.
+
+<ComponentWrapper>
+  <ExternalLink href="https://www.google.com">Google</ExternalLink>
 </ComponentWrapper>
 
 ---
@@ -472,14 +542,10 @@ It will not render if the concert date is in the past.
 
 ## VenueMap
 
-export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
-  ssr: false,
-});
-
 The VenueMap component displays an interactive map centered on a venue's location. It's used on venue pages to show where venues are located.
 
 <ComponentWrapper>
-  <ClientVenueMap
+  <VenueMap
     coordinates="40.765263912243164, -73.97990214578063"
     name="Carnegie Hall"
   />
@@ -495,34 +561,4 @@ The Filters component provides a multi-select dropdown for filtering concerts by
   <Suspense>
     <FilterExamples />
   </Suspense>
-</ComponentWrapper>
-
----
-
-## Breadcrumbs
-
-This component provides navigation breadcrumbs showing the current location in the music section.
-
-<ComponentWrapper>
-  <div className="grid gap-4">
-    <Variant label="&quot;Index&quot; page examples">
-      <Breadcrumbs path="/music/concerts" />
-      <Breadcrumbs path="/music/works" />
-      <Breadcrumbs path="/music/venues" />
-      <Breadcrumbs path="/music/conductors" />
-      <Breadcrumbs path="/music/composers" />
-      <Breadcrumbs path="/music/groups" />
-      <Breadcrumbs path="/music/seasons" />
-    </Variant>
-
-    <Variant label="&quot;Detail&quot; page examples">
-      <Breadcrumbs path="/music/concerts/202411171500" />
-      <Breadcrumbs path="/music/works/debussy-la-mer" />
-      <Breadcrumbs path="/music/venues/brooklyn-museum" />
-      <Breadcrumbs path="/music/conductors/barbara-yahr" />
-      <Breadcrumbs path="/music/composers/mahler-gustav" />
-      <Breadcrumbs path="/music/groups/gvo" />
-      <Breadcrumbs path="/music/seasons/2024-2025" />
-    </Variant>
-  </div>
 </ComponentWrapper>

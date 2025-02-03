@@ -10,9 +10,8 @@ import { getComposerBySlug } from "@music/data/queries/composers";
 import { getWorksByComposer } from "@music/data/queries/works";
 import { BucketList } from "../../components/BucketList";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const composer = getComposerBySlug(decodeURIComponent(params.slug));
   if (!composer) return { title: "Not Found" };
 
@@ -22,7 +21,8 @@ export async function generateMetadata({
   };
 }
 
-export default function ComposerPage({ params }: PageProps) {
+export default async function ComposerPage(props: PageProps) {
+  const params = await props.params;
   const composer = getComposerBySlug(decodeURIComponent(params.slug));
 
   if (!composer) {

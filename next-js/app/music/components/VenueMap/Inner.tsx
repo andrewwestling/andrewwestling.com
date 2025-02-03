@@ -10,7 +10,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import "./VenueMap.css";
+import "./styles.css";
 
 // Fix for default marker icons in react-leaflet
 const icon = L.icon({
@@ -45,7 +45,7 @@ interface VenueMapProps {
   venueName: string;
 }
 
-export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
+export function VenueMap({ coordinates, venueName }: VenueMapProps) {
   const [lat, lng] = coordinates
     .split(",")
     .map((coord) => parseFloat(coord.trim()));

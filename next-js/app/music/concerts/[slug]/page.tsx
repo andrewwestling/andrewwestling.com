@@ -14,7 +14,6 @@ import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/lib/types";
 import { ListItem } from "@music/components/ListItem";
-import { ExternalLink } from "@music/components/ExternalLink";
 import { getConcertBySlug } from "@music/data/queries/concerts";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getWorkByTitle } from "@music/data/queries/works";
@@ -25,9 +24,8 @@ import { PageTitle } from "@music/components/PageTitle";
 import { BucketList } from "../../components/BucketList";
 import { AttendActions } from "@music/components/AttendActions";
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
   const concert = getConcertBySlug(decodeURIComponent(params.slug));
   if (!concert) return { title: "Not Found" };
 
@@ -42,7 +40,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function ConcertPage({ params }: PageProps) {
+export default async function ConcertPage(props: PageProps) {
+  const params = await props.params;
   const concert = getConcertBySlug(params.slug);
   if (!concert) {
     notFound();

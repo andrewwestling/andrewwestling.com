@@ -40,8 +40,14 @@ const socialAccounts = [
 ];
 
 export const Footer = () => {
+  const footerLinkClasses =
+    "flex gap-2 text-muted dark:text-muted-dark w-fit hover:text-primary";
+
+  const awdsLinkClasses =
+    "flex gap-2 text-highlight dark:text-highlight-dark no-underline w-fit hover:text-primary group select-none";
+
   return (
-    <footer className="no-print flex-0 leading-loose text-sm block bg-highlight dark:bg-highlight-dark py-8 mt-12">
+    <footer className="print:hidden flex-0 leading-loose text-sm block bg-highlight dark:bg-highlight-dark py-8 mt-12">
       <div className="max-w-container mx-auto w-full px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <div className="mb-3">
@@ -57,40 +63,25 @@ export const Footer = () => {
 
             <a
               href="mailto:hi@andrewwestling.com"
-              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
+              className={["no-underline", footerLinkClasses].join(" ")}
             >
               <span className="no-underline">✉️</span>
               <span className="underline">hi@andrewwestling.com</span>
             </a>
 
-            <NextLink
-              href="/projects"
-              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
-            >
-              <span className="no-underline">🏄‍♂️</span>
+            <NextLink href="/projects" className={footerLinkClasses}>
               <span className="underline">Projects</span>
             </NextLink>
 
-            <NextLink
-              href="/resume"
-              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
-            >
-              <span className="no-underline">📄</span>
+            <NextLink href="/resume" className={footerLinkClasses}>
               <span className="underline">Resume</span>
             </NextLink>
 
-            <NextLink
-              href="/music"
-              className="flex gap-2 text-muted dark:text-muted-dark no-underline w-fit hover:text-primary"
-            >
-              <span className="no-underline">🎻</span>
-              <span className="underline">Music Library</span>
+            <NextLink href="/music" className={footerLinkClasses}>
+              Music Library
             </NextLink>
 
-            <NextLink
-              href="/awds"
-              className="flex gap-2 text-highlight dark:text-highlight-dark no-underline w-fit hover:text-primary group"
-            >
+            <NextLink href="/awds" className={awdsLinkClasses}>
               <span className="no-underline opacity-0 group-hover:opacity-100">
                 📐
               </span>
