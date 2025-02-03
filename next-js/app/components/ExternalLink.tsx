@@ -14,11 +14,12 @@ export function ExternalLink({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center max-w-full ${className}`}
+      className={`inline ${className}`}
     >
-      <span className="truncate max-w-full">{children}</span>
+      {children}
       <svg
-        className="w-4 h-4 ml-1 shrink-0"
+        // Use 1em width/height to match the height of the text; use top -0.125em to roughly center it
+        className="inline-block w-[1em] h-[1em] ml-0.5 relative -top-[0.125em]"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
