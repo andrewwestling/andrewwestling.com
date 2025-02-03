@@ -1,5 +1,7 @@
 export const Greeting = () => (
-  <h1 className="text-xl leading-tight font-semibold sm:text-2xl my-6 sm:my-8">
-    {"👋 Hi, I'm Andrew M Westling, a software person in Brooklyn, NY."}
+  // Non-breaking spaces to prevent my name or location from being split across lines
+  <h1 className="text-preset-6 my-6 sm:my-8">
+    👋 Hi, I&apos;m Andrew&nbsp;M&nbsp;Westling, a&nbsp;software&nbsp;person
+    in&nbsp;Brooklyn,&nbsp;NY.
   </h1>
 );

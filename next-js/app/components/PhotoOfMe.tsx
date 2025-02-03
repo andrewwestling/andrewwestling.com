@@ -12,8 +12,8 @@ export const PhotoOfMe = () => {
           alt="Photo of Andrew at Fort Greene Park"
         />
       </div>
-      <figcaption className="text-xs text-muted dark:text-muted-dark">
-        At Fort Greene Park in Brooklyn, June 2022. Photo by Candice McCardle
+      <figcaption className="text-preset-1 text-muted dark:text-muted-dark">
+        At Fort Greene Park in Brooklyn, June 2022. Photo by Candice McCardle.
       </figcaption>
     </figure>
   );

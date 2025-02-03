@@ -17,7 +17,7 @@ export function ListItem({
 }: ListItemProps) {
   return (
     <div className={className}>
-      <Link href={href} className="font-semibold">
+      <Link href={href} className="text-preset-3-bold">
         {title}
       </Link>
       <span>
@@ -27,7 +27,7 @@ export function ListItem({
           </span>
         ))}
       </span>
-      <p className="text-muted text-sm flex flex-row gap-1">
+      <p className="text-preset-2 text-muted flex flex-row gap-1">
         <span>{stats.join(" • ")}</span>
       </p>
     </div>

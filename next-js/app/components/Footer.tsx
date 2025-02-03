@@ -47,7 +47,7 @@ export const Footer = () => {
     "flex gap-2 text-highlight dark:text-highlight-dark no-underline w-fit hover:text-primary group select-none";
 
   return (
-    <footer className="print:hidden flex-0 leading-loose text-sm block bg-highlight dark:bg-highlight-dark py-8 mt-12">
+    <footer className="print:hidden flex-0 text-preset-2 leading-loose bg-highlight dark:bg-highlight-dark py-8 mt-12">
       <div className="max-w-container mx-auto w-full px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <div className="mb-3">

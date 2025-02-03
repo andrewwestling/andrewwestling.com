@@ -86,6 +86,52 @@ export const demoMessageContent = (
 
 ---
 
+# Typography
+
+I use "presets" to avoid needing to think about what combination of font-size, font-weight, line-height, and letter-spacing to use.
+
+I got this idea from <ExternalLink href="https://danmall.com/posts/typography-in-design-systems">Dan Mall</ExternalLink>, and I use 7 because of <ExternalLink href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">The magical number seven, plus or minus two</ExternalLink>.
+
+There's a `-bold` variant for each preset, which boldens it correctly according to the existing font-weight.
+
+export const SAMPLE_TEXT = "The quick brown fox jumps over the lazy dog.";
+export const SAMPLE_TEXT_BOLD = "Bold, quick wafting zephyrs vex and jump.";
+
+<ComponentWrapper>
+  <div className="flex flex-col gap-6">
+    <Variant label=".text-preset-1(-bold)" meta="(Used for really small labels)">
+      <p className="text-preset-1">{SAMPLE_TEXT}</p>
+      <p className="text-preset-1-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+    <Variant label=".text-preset-2(-bold)" meta="(Used for small labels)">
+      <p className="text-preset-2">{SAMPLE_TEXT}</p>
+      <p className="text-preset-2-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+    <Variant label=".text-preset-3(-bold)" meta="(The default body text)">
+      <p className="text-preset-3">{SAMPLE_TEXT}</p>
+      <p className="text-preset-3-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+    <Variant label=".text-preset-4(-bold)" meta="(Used for heading levels 4, 5, and 6)">
+      <p className="text-preset-4">{SAMPLE_TEXT}</p>
+      <p className="text-preset-4-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+    <Variant label=".text-preset-5(-bold)" meta="(Used for heading level 3)">
+      <p className="text-preset-5">{SAMPLE_TEXT}</p>
+      <p className="text-preset-5-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+    <Variant label=".text-preset-6(-bold)" meta="(Used for heading level 2)">
+      <p className="text-preset-6">{SAMPLE_TEXT}</p>
+      <p className="text-preset-6-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+    <Variant label=".text-preset-7(-bold)" meta="(Used for heading level 1)">
+      <p className="text-preset-7">{SAMPLE_TEXT}</p>
+      <p className="text-preset-7-bold">{SAMPLE_TEXT_BOLD}</p>
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
+
 # Core Components
 
 ## Footer
@@ -265,23 +311,14 @@ These components are specific to the music section of the website.
 
 ## Page Headings
 
-### PageTitle
-
-This component is used for page-level headings (h1). It provides consistent styling for the main title of each page.
-
 <ComponentWrapper>
   <div className="grid gap-4">
-    <PageTitle>Example Page Title</PageTitle>
-  </div>
-</ComponentWrapper>
-
-### SectionHeading
-
-This component is used for section-level headings (h2) within a page. It provides consistent styling for major sections.
-
-<ComponentWrapper>
-  <div className="grid gap-4">
-    <SectionHeading>Example Section Heading</SectionHeading>
+    <Variant label="PageTitle">
+      <PageTitle>Example Page Title</PageTitle>
+    </Variant>
+    <Variant label="SectionHeading">
+      <SectionHeading>Example Section Heading</SectionHeading>
+    </Variant>
   </div>
 </ComponentWrapper>
 
