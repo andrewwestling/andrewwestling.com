@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
 import { getDateForSorting } from "../../lib/helpers";
-import { ExternalLink } from "../../components/ExternalLink";
+import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getVenueBySlug, getVenues } from "@music/data/queries/venues";

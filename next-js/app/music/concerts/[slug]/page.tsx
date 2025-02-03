@@ -14,7 +14,6 @@ import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/lib/types";
 import { ListItem } from "@music/components/ListItem";
-import { ExternalLink } from "@music/components/ExternalLink";
 import { getConcertBySlug } from "@music/data/queries/concerts";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getWorkByTitle } from "@music/data/queries/works";

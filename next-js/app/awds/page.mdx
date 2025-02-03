@@ -8,6 +8,7 @@ import { Greeting } from "@components/Greeting";
 import { Message } from "@components/Message";
 import { PhotoOfMe } from "@components/PhotoOfMe";
 import { Button, ButtonLink } from "@components/Button";
+import { ExternalLink } from "@components/ExternalLink";
 import { TidbytGif } from "@/app/projects/tidbyt/components/TidbytGif";
 import { PostedModified } from "@components/PostedModified";
 import NextLink from "next/link";
@@ -36,7 +37,6 @@ import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
-import { ExternalLink } from "@music/components/ExternalLink";
 
 export const metadata = { title: "AWDS" };
 
@@ -170,6 +170,16 @@ When we're on the home page, it shows a menu instead of breadcrumbs.
       <BreadcrumbsSlot path="/music/seasons/2024-2025" />
     </Variant>
   </div>
+</ComponentWrapper>
+
+---
+
+## ExternalLink
+
+This component is used to display an external link with an icon.
+
+<ComponentWrapper>
+  <ExternalLink href="https://www.google.com">Google</ExternalLink>
 </ComponentWrapper>
 
 ---
@@ -554,14 +564,4 @@ The Filters component provides a multi-select dropdown for filtering concerts by
   <Suspense>
     <FilterExamples />
   </Suspense>
-</ComponentWrapper>
-
----
-
-## ExternalLink
-
-This component is used to display an external link with an icon.
-
-<ComponentWrapper>
-  <ExternalLink href="https://www.google.com">Google</ExternalLink>
 </ComponentWrapper>

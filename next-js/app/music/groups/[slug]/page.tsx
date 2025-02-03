@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getDateForSorting } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { ExternalLink } from "@music/components/ExternalLink";
+import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getGroupBySlug } from "@music/data/queries/groups";
