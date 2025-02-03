@@ -7,7 +7,7 @@ import { getDateForSorting } from "../../lib/helpers";
 import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { VenueMap } from "@music/components/VenueMap";
+import VenueMap from "@music/components/VenueMap";
 import { getVenueBySlug, getVenues } from "@music/data/queries/venues";
 import { getConcertsByVenue } from "@music/data/queries/concerts";
 import type { Venue } from "@music/lib/types";

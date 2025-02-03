@@ -10,7 +10,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import "./VenueMap.css";
+import "./styles.css";
 
 // Fix for default marker icons in react-leaflet
 const icon = L.icon({
