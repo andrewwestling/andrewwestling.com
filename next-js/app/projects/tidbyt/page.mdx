@@ -5,7 +5,7 @@ import { PostedModified } from "@components/PostedModified";
 import { TidbytGif } from "./components/TidbytGif";
 
 export const posted = "2023-08-07";
-export const modified = "2023-08-07";
+export const modified = "2025-02-03";
 
 export const metadata = {
   title: "Tidbyt Apps",
@@ -46,13 +46,11 @@ _(because I find it's kind of tricky to talk about these projects without first 
   height={512}
 />
 
-[Tidbyt](https://tidbyt.com/) is a "retro-style display" that shows information about weather, transit, finance, sports, and [all sorts of other things](https://tidbyt.com/pages/apps). It kind of looks like a [Lite-Brite](https://en.wikipedia.org/wiki/Lite-Brite), but way better. It's basically an expensive tech toy. [David Pierce explains it](https://www.theverge.com/23303371/tidbyt-review-desk-accessory-screen) way better than I can.
+[Tidbyt](https://tidbyt.com/) is a "retro-style display" that shows information about weather, transit, finance, sports, and [all sorts of other things](https://tidbyt.com/pages/apps). It's a 64x32 pixel internet-connected screen, and it kind of looks like a [Lite-Brite](https://en.wikipedia.org/wiki/Lite-Brite). It's basically an expensive tech toy. [David Pierce explains it](https://www.theverge.com/23303371/tidbyt-review-desk-accessory-screen) way better than I can.
 
 The key thing is, you can write apps for it.
 
-It's a 64x32 color pixel display, connected to the internet. It's got a good little [developer community](https://tidbyt.dev) forming around it. It's also just satisfying to write code and cause something across the room to light up.
-
-In any case, I'd been thinking I should try and build something for it ever since I got one. Now and then, my partner and I will say to each other, "wouldn't it be cool if we could see _(thing)_ on the Tidbyt?"
+I'd been thinking I should try and build something for it ever since I got one. Now and then, my partner and I will say to each other, "wouldn't it be cool if we could see _(thing)_ on the Tidbyt?"
 
 I do computers, let's do this.
 
@@ -101,7 +99,7 @@ When the app got published to Tidbyt's Community Apps, I commemorated it with an
 
 ### KQAC
 
-This shows what's currently playing on [All Classical Portland](https://allclassical.org) on the Tidbyt.
+This shows what's currently playing on [All Classical Radio](https://allclassical.org) on the Tidbyt.
 
 <MdxImage
   src={"/assets/projects/tidbyt/tidbyt-kqac.png"}
@@ -109,9 +107,9 @@ This shows what's currently playing on [All Classical Portland](https://allclass
   height={512}
 />
 
-It's basically the same as the WQXR app, except it uses data from All Classical Portland's website.
+It's basically the same as the WQXR app, except it uses data from All Classical Radio's website.
 
-All Classical Portland was my local classical music radio station when I was growing up, and I still turn it on with the [web stream](https://player.allclassical.org/) from time to time. I thought it would be a fun nod to my hometown, and a useful exercise to see how reusable my WQXR app's structure could be.
+All Classical Radio (previously All Classical _Portland_) was my local classical music radio station when I was growing up, and I still turn it on with the [web stream](https://player.allclassical.org/) from time to time. I thought it would be a fun nod to my hometown, and a useful exercise to see how reusable my WQXR app's structure could be.
 
 KQAC has some minor internal differences from WQXR. If you're curious, they are here:
 
