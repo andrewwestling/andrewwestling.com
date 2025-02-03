@@ -1,21 +1,16 @@
 import { Metadata } from "next";
 import { PageProps } from "@music/lib/types";
 import { notFound } from "next/navigation";
-import dynamic from "next/dynamic";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "../../lib/location";
 import { getDateForSorting } from "../../lib/helpers";
 import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
+import { VenueMap } from "@music/components/VenueMap";
 import { getVenueBySlug, getVenues } from "@music/data/queries/venues";
 import { getConcertsByVenue } from "@music/data/queries/concerts";
 import type { Venue } from "@music/lib/types";
-
-// Import the map component dynamically to avoid SSR issues
-const VenueMap = dynamic(() => import("@music/components/VenueMap"), {
-  ssr: false,
-});
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

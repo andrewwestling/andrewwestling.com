@@ -45,7 +45,7 @@ interface VenueMapProps {
   venueName: string;
 }
 
-export default function VenueMap({ coordinates, venueName }: VenueMapProps) {
+export function VenueMap({ coordinates, venueName }: VenueMapProps) {
   const [lat, lng] = coordinates
     .split(",")
     .map((coord) => parseFloat(coord.trim()));

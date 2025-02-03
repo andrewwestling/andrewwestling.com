@@ -37,6 +37,7 @@ import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
+import { VenueMap } from "@music/components/VenueMap";
 
 export const metadata = { title: "AWDS" };
 
@@ -541,14 +542,10 @@ It will not render if the concert date is in the past.
 
 ## VenueMap
 
-export const ClientVenueMap = dynamic(() => import("@music/components/VenueMap"), {
-  ssr: false,
-});
-
 The VenueMap component displays an interactive map centered on a venue's location. It's used on venue pages to show where venues are located.
 
 <ComponentWrapper>
-  <ClientVenueMap
+  <VenueMap
     coordinates="40.765263912243164, -73.97990214578063"
     name="Carnegie Hall"
   />
