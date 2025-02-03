@@ -135,8 +135,12 @@ This component provides navigation breadcrumbs showing the current location on t
 
 When we're on the home page, it shows a menu instead of breadcrumbs.
 
+When used within a container (like the header), the breadcrumbs will scroll horizontally when the container overflows.
+
+export const ENABLE_OVERFLOW = 'max-w-container mx-auto px-4';
+
 <ComponentWrapper>
-  <div className="grid gap-4">
+  <div className={`grid gap-4 ${ENABLE_OVERFLOW}`}>
     <Variant label="Home page">
       <BreadcrumbsSlot path="/" />
     </Variant>
@@ -169,6 +173,10 @@ When we're on the home page, it shows a menu instead of breadcrumbs.
       <BreadcrumbsSlot path="/music/composers/mahler-gustav" />
       <BreadcrumbsSlot path="/music/groups/gvo" />
       <BreadcrumbsSlot path="/music/seasons/2024-2025" />
+    </Variant>
+
+    <Variant label="Overflow" className="max-w-[500px] rounded-t border-t border-r border-fuchsia-500 border-dashed">
+      <BreadcrumbsSlot path="/music/concerts/202411171500" />
     </Variant>
   </div>
 </ComponentWrapper>
