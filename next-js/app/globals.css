@@ -76,7 +76,7 @@ ol.list-revert {
   }
 
   /* All other breadcrumbs: use > to indicate hierarchy */
-  .breadcrumb-item:not(:last-of-type)::after {
+  .breadcrumb-item::before {
     @apply mx-2 text-muted pointer-events-none select-none;
     content: "›";
   }
