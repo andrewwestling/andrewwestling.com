@@ -62,4 +62,22 @@ ol.list-revert {
   .awds-music-badge {
     @apply w-fit rounded text-xs px-1 py-0.5 whitespace-nowrap !font-medium;
   }
+
+  /* Homepage "home" crumb */
+  .homepage-home-crumb::after {
+    @apply mx-2 text-muted pointer-events-none select-none;
+    content: "›";
+  }
+
+  /* Homepage "menu" crumbs */
+  .homepage-menu-crumb:not(:last-of-type)::after {
+    @apply mx-2 text-muted pointer-events-none select-none;
+    content: "·";
+  }
+
+  /* All other breadcrumbs: use > to indicate hierarchy */
+  .breadcrumb-item:not(:last-of-type)::after {
+    @apply mx-2 text-muted pointer-events-none select-none;
+    content: "›";
+  }
 }

@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import { Footer } from "@components/Footer";
 import { Header } from "@components/Header";
 import { GoatCounter } from "@components/GoatCounter";
-import "./print.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,7 +19,13 @@ export const metadata: Metadata = {
   manifest: "/assets/favicon/site.webmanifest",
 };
 
-export default function App({ children }: { children: React.ReactNode }) {
+export default function App({
+  children,
+  breadcrumbs,
+}: {
+  children: React.ReactNode;
+  breadcrumbs: React.ReactNode;
+}) {
   return (
     <html>
       <Suspense>
@@ -28,7 +33,7 @@ export default function App({ children }: { children: React.ReactNode }) {
       </Suspense>
       <body className="bg-background dark:bg-background-dark text-text dark:text-text-dark">
         <div className="flex flex-col min-h-screen">
-          <Header />
+          <Header>{breadcrumbs}</Header>
           <main className="flex-1">
             <div className="max-w-container mx-auto w-full px-4">
               {children}

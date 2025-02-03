@@ -20,7 +20,9 @@
     "paths": {
       "@/*": ["./*"],
       "@components/*": ["./app/components/*"],
-      "@music/*": ["./app/music/*"]
+      "@music/*": ["./app/music/*"],
+      "@projects/*": ["./app/projects/*"],
+      "@breadcrumbs/*": ["./app/@breadcrumbs/*"]
     },
     "target": "ES2017"
   },
