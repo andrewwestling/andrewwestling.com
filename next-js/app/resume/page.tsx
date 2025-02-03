@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const Resume = () => (
   <>
-    <div className="no-print w-fit my-8">
+    <div className="print:hidden w-fit my-8">
       <ButtonLink icon={"📃"} href="/assets/Andrew Westling Resume.pdf">
         Download as PDF
       </ButtonLink>

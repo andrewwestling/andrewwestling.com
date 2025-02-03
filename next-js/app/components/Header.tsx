@@ -10,7 +10,7 @@ export const Header = ({ children }: { children: React.ReactNode }) => {
   return (
     <header
       role="banner"
-      className="flex items-center border-solid border-t-4 border-t-primary border-b border-b-highlight dark:border-b-highlight-dark min-h-[56px]"
+      className="print:hidden flex items-center border-solid border-t-4 border-t-primary border-b border-b-highlight dark:border-b-highlight-dark min-h-[56px]"
     >
       <div className="max-w-container mx-auto w-full px-4">
         <div className="flex items-center">{toRender}</div>

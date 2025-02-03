@@ -41,7 +41,7 @@ const socialAccounts = [
 
 export const Footer = () => {
   return (
-    <footer className="no-print flex-0 leading-loose text-sm block bg-highlight dark:bg-highlight-dark py-8 mt-12">
+    <footer className="print:hidden flex-0 leading-loose text-sm block bg-highlight dark:bg-highlight-dark py-8 mt-12">
       <div className="max-w-container mx-auto w-full px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <div className="mb-3">
