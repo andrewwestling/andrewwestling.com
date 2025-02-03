@@ -1,7 +1,7 @@
 export interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export interface BaseItem {
