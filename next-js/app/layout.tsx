@@ -1,9 +1,17 @@
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 import { Footer } from "@components/Footer";
 import { Header } from "@components/Header";
 import { GoatCounter } from "@components/GoatCounter";
 import "./globals.css";
+import { awdsColors } from "@/tailwind.config";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: awdsColors.primary.DEFAULT,
+};
 
 export const metadata: Metadata = {
   title: {
