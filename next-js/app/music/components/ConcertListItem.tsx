@@ -54,10 +54,10 @@ export async function ConcertListItem({
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <SectionHeading className="mb-2 flex items-center gap-2">
+        <span className="text-preset-3-bold mb-2 flex items-center gap-2">
           <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
           <ConcertBadges concert={concert} />
-        </SectionHeading>
+        </span>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-medium">Date</dt>
           <dd>{formattedDate}</dd>

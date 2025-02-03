@@ -5,6 +5,47 @@ import { HomeIcon } from "./HomeIcon";
 import { Crumb } from "../@breadcrumbs/default";
 import { Fragment, useRef, useEffect, useState } from "react";
 
+const NavigationContainer = ({ children }: { children: React.ReactNode }) => (
+  <nav className="flex items-center w-full relative">{children}</nav>
+);
+
+const FixedSection = ({
+  children,
+  showLeftGradient,
+}: {
+  children: React.ReactNode;
+  showLeftGradient: boolean;
+}) => (
+  <div className="flex-none z-10 bg-background dark:bg-background-dark relative">
+    {children}
+    {showLeftGradient && (
+      <div className="absolute right-[-32px] top-0 bottom-0 w-8 bg-opacity-80 bg-gradient-to-r from-background dark:from-background-dark to-transparent z-10" />
+    )}
+  </div>
+);
+
+const ScrollSection = ({
+  children,
+  scrollContainerRef,
+  showRightGradient,
+}: {
+  children: React.ReactNode;
+  scrollContainerRef: React.MutableRefObject<HTMLDivElement | null>;
+  showRightGradient: boolean;
+}) => (
+  <div className="flex-1 relative min-w-0">
+    <div
+      className="overflow-x-auto w-full scrollbar-hide"
+      ref={scrollContainerRef}
+    >
+      <div className="flex items-center mb-1">{children}</div>
+    </div>
+    {showRightGradient && (
+      <div className="absolute right-0 top-0 bottom-0 w-8 bg-opacity-10 bg-gradient-to-l from-background dark:from-background-dark to-transparent z-10" />
+    )}
+  </div>
+);
+
 export const Breadcrumbs = ({
   path,
   crumbs = [],
@@ -55,26 +96,33 @@ export const Breadcrumbs = ({
 
   if (isHomePath) {
     return (
-      <nav>
-        <span className="homepage-home-crumb font-medium">
-          <HomeIcon noHover />
-        </span>
-        <span className="homepage-menu-crumb">
-          <Link href="/projects">Projects</Link>
-        </span>
-        <span className="homepage-menu-crumb">
-          <Link href="/resume">Resume</Link>
-        </span>
-        <span className="homepage-menu-crumb">
-          <Link href="/music">Music Library</Link>
-        </span>
-      </nav>
+      <NavigationContainer>
+        <FixedSection showLeftGradient={showLeftGradient}>
+          <span className="homepage-home-crumb font-medium">
+            <HomeIcon noHover />
+          </span>
+        </FixedSection>
+        <ScrollSection
+          scrollContainerRef={scrollContainerRef}
+          showRightGradient={showRightGradient}
+        >
+          <span className="homepage-menu-crumb whitespace-nowrap">
+            <Link href="/projects">Projects</Link>
+          </span>
+          <span className="homepage-menu-crumb whitespace-nowrap">
+            <Link href="/resume">Resume</Link>
+          </span>
+          <span className="homepage-menu-crumb whitespace-nowrap">
+            <Link href="/music">Music Library</Link>
+          </span>
+        </ScrollSection>
+      </NavigationContainer>
     );
   }
 
   return (
-    <nav className="flex items-center w-full relative">
-      <div className="flex-none z-10 bg-background dark:bg-background-dark relative">
+    <NavigationContainer>
+      <FixedSection showLeftGradient={showLeftGradient}>
         {crumbs[0]?.isHome && (
           <span>
             <Link href={crumbs[0].href}>
@@ -82,38 +130,25 @@ export const Breadcrumbs = ({
             </Link>
           </span>
         )}
-        {showLeftGradient && (
-          <div className="absolute right-[-32px] top-0 bottom-0 w-8 bg-opacity-80 bg-gradient-to-r from-background dark:from-background-dark to-transparent z-10" />
-        )}
-      </div>
-      <div className="flex-1 relative min-w-0">
-        <div
-          className="overflow-x-auto w-full scrollbar-hide"
-          ref={scrollContainerRef}
-        >
-          <div
-            // Note here: `mb-1` fixes the weird baseline misalignment between the HomeIcon text and the breadcrumbs text
-            className="flex items-center mb-1"
-          >
-            {crumbs.slice(1).map((crumb) => (
-              <Fragment key={crumb.href}>
-                {crumb === crumbs.at(-1) ? (
-                  <span className="breadcrumb-item font-medium whitespace-nowrap">
-                    {crumb.label}
-                  </span>
-                ) : (
-                  <span className="breadcrumb-item whitespace-nowrap">
-                    <Link href={crumb.href}>{crumb.label}</Link>
-                  </span>
-                )}
-              </Fragment>
-            ))}
-          </div>
-        </div>
-        {showRightGradient && (
-          <div className="absolute right-0 top-0 bottom-0 w-8 bg-opacity-10 bg-gradient-to-l from-background dark:from-background-dark to-transparent z-10" />
-        )}
-      </div>
-    </nav>
+      </FixedSection>
+      <ScrollSection
+        scrollContainerRef={scrollContainerRef}
+        showRightGradient={showRightGradient}
+      >
+        {crumbs.slice(1).map((crumb) => (
+          <Fragment key={crumb.href}>
+            {crumb === crumbs.at(-1) ? (
+              <span className="breadcrumb-item font-medium whitespace-nowrap">
+                {crumb.label}
+              </span>
+            ) : (
+              <span className="breadcrumb-item whitespace-nowrap">
+                <Link href={crumb.href}>{crumb.label}</Link>
+              </span>
+            )}
+          </Fragment>
+        ))}
+      </ScrollSection>
+    </NavigationContainer>
   );
 };

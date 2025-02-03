@@ -3,32 +3,32 @@ import type { MDXComponents } from "mdx/types";
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     h1: ({ children, ...props }) => (
-      <h1 {...props} className="font-semibold text-4xl my-6">
+      <h1 {...props} className="text-preset-7 my-6">
         {children}
       </h1>
     ),
     h2: ({ children, ...props }) => (
-      <h2 {...props} className="font-semibold text-3xl my-6">
+      <h2 {...props} className="text-preset-6 my-6">
         {children}
       </h2>
     ),
     h3: ({ children, ...props }) => (
-      <h3 {...props} className="font-semibold text-2xl my-6">
+      <h3 {...props} className="text-preset-5 my-6">
         {children}
       </h3>
     ),
     h4: ({ children, ...props }) => (
-      <h4 {...props} className="font-semibold text-xl my-6">
+      <h4 {...props} className="text-preset-4 my-6">
         {children}
       </h4>
     ),
     h5: ({ children, ...props }) => (
-      <h5 {...props} className="font-semibold text-lg my-6">
+      <h5 {...props} className="text-preset-4 my-6">
         {children}
       </h5>
     ),
     h6: ({ children, ...props }) => (
-      <h6 {...props} className="font-semibold text-lg my-6">
+      <h6 {...props} className="text-preset-4 my-6">
         {children}
       </h6>
     ),
@@ -43,7 +43,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       </ol>
     ),
     p: ({ children, ...props }) => (
-      <p {...props} className="my-4">
+      <p {...props} className="text-preset-3 my-4">
         {children}
       </p>
     ),
