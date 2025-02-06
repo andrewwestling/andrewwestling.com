@@ -10,7 +10,7 @@
       "options": {
         "cwd": "next-js/"
       },
-      "dependsOn": ["Install"],
+      "dependsOn": ["Install", "Install (Tailwind Config)"],
       "problemMatcher": ["$tsc-watch"]
     },
     {
@@ -21,6 +21,17 @@
       "type": "shell",
       "options": {
         "cwd": "next-js/"
+      },
+      "problemMatcher": ["$tsc-watch"]
+    },
+    {
+      "command": "npm install",
+      "detail": "Install dependencies (Tailwind Config)",
+      "group": "build",
+      "label": "Install (Tailwind Config)",
+      "type": "shell",
+      "options": {
+        "cwd": "tailwind/"
       },
       "problemMatcher": ["$tsc-watch"]
     },

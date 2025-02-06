@@ -1,0 +1,20 @@
+{
+  "name": "@andrewwestling/tailwind-config",
+  "version": "1.0.0",
+  "description": "Shared Tailwind configuration for andrewwestling.com",
+  "main": "src/config.ts",
+  "types": "src/config.ts",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
