@@ -1,0 +1,30 @@
+@import "@andrewwestling/tailwind-config/src/globals.css";
+
+/* Additional Markdown-specific dark mode styles */
+.markdown {
+  @apply text-text dark:text-text-dark;
+}
+
+.markdown > p {
+  @apply text-preset-2 text-text dark:text-text-dark;
+}
+
+.markdown > strong {
+  @apply text-preset-2-bold text-text dark:text-text-dark;
+}
+
+.markdown & a {
+  @apply hover:text-primary;
+}
+
+.markdown & ul {
+  @apply ps-10 list-revert space-y-1;
+}
+
+.markdown & li {
+  @apply text-text dark:text-text-dark;
+}
+
+.markdown & li p {
+  @apply inline text-text dark:text-text-dark;
+}

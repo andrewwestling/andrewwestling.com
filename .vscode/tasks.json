@@ -36,7 +36,7 @@
       "problemMatcher": ["$tsc-watch"]
     },
     {
-      "command": "resume export --theme ./jsonresume-theme-andrewwestling ../next-js/app/resume/components/resume.html && resume export --theme ./jsonresume-theme-andrewwestling ../next-js/public/assets/'Andrew Westling Resume'.pdf",
+      "command": "resume export --theme ./jsonresume-theme-andrewwestling-tw ../next-js/app/resume/components/resume.html && resume export --theme ./jsonresume-theme-andrewwestling-tw ../next-js/public/assets/'Andrew Westling Resume'.pdf",
       "detail": "Generate HTML resume and put it in public folder",
       "label": "Resume: Regenerate HTML and PDF",
       "type": "shell",
@@ -44,16 +44,16 @@
         "cwd": "resume/"
       },
       "group": "none",
-      "dependsOn": ["Resume: Regenerate CSS"],
+      "dependsOn": ["Resume: Build"],
       "problemMatcher": []
     },
     {
-      "label": "Resume: Regenerate CSS",
-      "detail": "Generate resume CSS from SCSS files",
+      "label": "Resume: Build",
+      "detail": "Generate resume HTML and CSS from template files",
       "type": "npm",
-      "script": "gulp:css",
+      "script": "build",
       "options": {
-        "cwd": "resume/jsonresume-theme-andrewwestling"
+        "cwd": "resume/jsonresume-theme-andrewwestling-tw"
       },
       "group": "none",
       "problemMatcher": []
