@@ -1,4 +1,4 @@
-import { awdsColors } from "../../../tailwind.config";
+import { awdsColors } from "@andrewwestling/tailwind-config";
 
 export const Colors = () => {
   /** This is a hack because Tailwind won't generate styles for dynamically-specified classes; I'm over it, this is fine  */

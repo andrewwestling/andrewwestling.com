@@ -4,7 +4,7 @@ import { Footer } from "@components/Footer";
 import { Header } from "@components/Header";
 import { GoatCounter } from "@components/GoatCounter";
 import "./globals.css";
-import { awdsColors } from "@/tailwind.config";
+import { awdsColors } from "@andrewwestling/tailwind-config";
 
 export const viewport: Viewport = {
   width: "device-width",

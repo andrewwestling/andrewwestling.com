@@ -151,19 +151,15 @@
       "name": "General",
       "keywords": [
         "TypeScript",
-        "JavaScript",
-        "Rails",
-        "Django",
         "Vercel",
-        "Heroku",
-        "AWS",
         "CircleCI",
+        "AWS",
         "GitHub",
         "Docker",
-        "Segment",
         "Linear",
-        "Figma",
-        "Visual Studio Code"
+        "Cursor",
+        "Visual\u00A0Studio\u00A0Code",
+        "Figma"
       ]
     },
     {
@@ -173,10 +169,11 @@
         "React",
         "JSX/TSX",
         "Next.js",
+        "Vite",
         "GraphQL",
         "Apollo",
         "Prisma",
-        "Jest",
+        "Jest/Vitest",
         "Node.js"
       ]
     },
@@ -184,17 +181,14 @@
       "name": "UI",
       "level": "",
       "keywords": [
+        "Storybook",
+        "styled-components",
+        "SCSS",
         "Tailwind",
         "Flowbite",
         "Ladle",
-        "Storybook",
-        "Stitches",
         "Radix",
-        "styled-components",
-        "Theme UI",
         "MDX",
-        "SCSS",
-        "Tachyons",
         "HTML/CSS"
       ]
     }
@@ -202,6 +196,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.1.0",
-    "lastModified": "2024-09-14"
+    "lastModified": "2025-02-06"
   }
 }

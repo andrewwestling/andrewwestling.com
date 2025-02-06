@@ -1,472 +1,1073 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><style>/* Workaround for 'break-before:avoid' */
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrew Westling</title>
+    <style>*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
 
-* {
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
 }
 
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
 
-p {
-  margin: 0;
-}
-
-@page {
-  size: A4;
-  margin: 15mm 0 20mm 0;
-}
-
-@page :first {
-  margin-top: 10mm;
-}
-
-p,
-q {
-  line-height: 1.25em;
-}
-
-li {
-  line-height: 1.35em;
-  list-style: disc;
-}
-
-li:first-child {
-  margin-top: 0;
-}
-
-.aw-resume-content {
-  padding: 0;
-  max-width: 850px;
-  height: auto;
-  margin: 0 auto;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.aw-resume-content a[href] {
-  text-decoration: underline;
+hr {
+  height: 0;
+  /* 1 */
   color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
   font-weight: inherit;
 }
 
-.aw-resume-table {
-  width: 100%;
-  display: table;
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-.aw-resume-table .aw-resume-main {
-  display: table-cell;
-  width: 70%;
-  padding-right: 50px;
-}
+/*
+Add the correct font weight in Edge and Safari.
+*/
 
-.aw-resume-table .aw-resume-side {
-  display: table-cell;
-  width: 30%;
-  padding-left: 50px;
-}
-
-.aw-resume-flex {
-  display: flex;
-  gap: 32px;
-  flex-direction: column;
-}
-
-@media (min-width: 640px) {
-  .aw-resume-flex {
-    flex-direction: row;
-  }
-}
-
-.aw-resume-flex .aw-resume-main {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 70%;
-}
-
-@media (min-width: 640px) {
-  .aw-resume-flex .aw-resume-main {
-    width: 70%;
-  }
-}
-
-.aw-resume-flex .aw-resume-side {
-  display: flex;
-  flex-basis: 30%;
-  flex-direction: column;
-  border-left: none;
-  padding-left: 0;
-}
-
-@media (min-width: 640px) {
-  .aw-resume-flex .aw-resume-side {
-    border-left: 1px solid #ddd;
-    padding-left: 12px;
-    width: 30%;
-  }
-}
-
-.aw-resume-summary {
-  font-size: 14px;
-}
-
-.aw-resume-summary:empty {
-  display: none;
-}
-
-.aw-resume-section-title {
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0 0 20px 0;
-}
-
-.aw-resume-margin-container-2:not(:first-child) {
-  margin-top: 20px;
-}
-
-.aw-resume-margin-container-3:not(:first-child) {
-  margin-top: 32px;
-}
-
-.aw-resume-margin-container-4:not(:first-child) {
-  margin-top: 50px;
-}
-
-.aw-resume-padding-container-2 {
-  padding: 20px 0;
-}
-
-.aw-resume-padding-container-3 {
-  padding: 32px 0;
-}
-
-.aw-resume-margin-text-1 {
-  margin-top: 2px;
-}
-
-.aw-resume-margin-text-1:empty {
-  display: none;
-}
-
-.aw-resume-margin-text-2 {
-  margin-top: 4px;
-}
-
-.aw-resume-margin-text-2:empty {
-  display: none;
-}
-
-.aw-resume-margin-text-3 {
-  margin-top: 6px;
-}
-
-.aw-resume-margin-text-3:empty {
-  display: none;
-}
-
-.aw-resume-margin-text-4 {
-  margin-top: 8px;
-}
-
-.aw-resume-margin-text-4:empty {
-  display: none;
-}
-
-.aw-resume-margin-text-5 {
-  margin-top: 14px;
-}
-
-.aw-resume-margin-text-5:empty {
-  display: none;
-}
-
-.aw-resume-no-break {
-  break-inside: avoid;
-}
-
-.aw-resume-no-alone-1 {
-  break-inside: avoid;
-}
-
-.aw-resume-no-alone-1::after {
-  content: "";
-  display: block;
-  height: 75px;
-  margin-bottom: -75px;
-}
-
-.aw-resume-no-alone-2 {
-  break-inside: avoid;
-}
-
-.aw-resume-no-alone-2::after {
-  content: "";
-  display: block;
-  height: 150px;
-  margin-bottom: -150px;
-}
-
-.aw-resume-markdown h1 {
-  font-size: 160%;
+b,
+strong {
   font-weight: bolder;
 }
 
-.aw-resume-markdown h2 {
-  font-size: 150%;
-  font-weight: bolder;
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
 }
 
-.aw-resume-markdown h3 {
-  font-size: 140%;
-  font-weight: bolder;
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
 }
 
-.aw-resume-markdown h4 {
-  font-size: 130%;
-  font-weight: bold;
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
-.aw-resume-markdown h5 {
-  font-size: 120%;
-  font-weight: bold;
+sub {
+  bottom: -0.25em;
 }
 
-.aw-resume-markdown h6 {
-  font-size: 110%;
-  font-weight: bold;
+sup {
+  top: -0.5em;
 }
 
-.aw-resume-markdown ul,
-.aw-resume-markdown ol {
-  margin-left: 20px;
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
 }
 
-.aw-resume-markdown img {
-  display: block;
-  margin: 20px auto;
-  max-width: 1000px;
-  text-align: center;
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
 }
 
-.aw-resume-markdown blockquote {
-  margin: 20px 0;
-  padding: 15px 20px;
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
 }
 
-.aw-resume-markdown blockquote p {
-  display: inline;
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
 }
 
-.aw-resume-markdown code {
-  font-family: monospace;
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
 }
 
-.aw-resume-main .aw-resume-highlights {
-  width: auto;
-  display: block;
-  padding: 0 10px;
-  margin-bottom: 0;
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
 }
 
-.aw-resume-main .aw-resume-highlights li {
-  font-size: 14px;
-  margin-left: 10px;
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
 }
 
-.aw-resume-main .aw-resume-left {
-  display: table-cell;
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
 }
 
-.aw-resume-main .aw-resume-left .aw-resume-title {
-  font-size: 18px;
-  font-weight: bold;
-  display: block;
-  line-height: 1.25em;
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
-.aw-resume-main .aw-resume-left .aw-resume-subtitle {
-  font-size: 14px;
-  font-weight: normal;
-  display: block;
-  line-height: 1.25em;
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
 
-.aw-resume-main .aw-resume-right {
-  text-align: right;
-  display: table-cell;
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
-.aw-resume-main .aw-resume-right .aw-resume-date {
-  font-size: 12px;
-  font-weight: normal;
-  white-space: nowrap;
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
 }
 
-.aw-resume-basics .aw-resume-main {
-  vertical-align: middle;
-}
+/*
+Removes the default spacing and border for appropriate elements.
+*/
 
-.aw-resume-basics .aw-resume-main .aw-resume-name {
-  font-size: 36px;
-  line-height: 1em;
-  display: block;
-  margin-left: -2.52px;
-}
-
-.aw-resume-basics .aw-resume-main .aw-resume-label {
-  font-size: 26px;
-  line-height: 1em;
-  font-weight: normal;
-  display: block;
-  margin-left: -1.04px;
-}
-
-.aw-resume-basics .aw-resume-side {
-  vertical-align: middle;
-  padding-top: 15px;
-}
-
-.aw-resume-basics .aw-resume-side .aw-resume-contact {
-  list-style-type: none;
-}
-
-.aw-resume-basics .aw-resume-side .aw-resume-contact li {
-  overflow: auto;
-  font-size: 14px;
-  line-height: 1.6em;
-}
-
-.aw-resume-basics .aw-resume-side .aw-resume-contact li > * {
-  float: left;
-  margin-right: 3px;
-}
-
-.aw-resume-links ul li {
-  list-style-type: none;
-  font-size: 14px;
-}
-
-.aw-resume-education .aw-resume-title {
-  font-size: 14px;
-}
-
-.aw-resume-education .aw-resume-institution {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.aw-resume-awards .aw-resume-header .aw-resume-title {
-  font-size: 14px;
-}
-
-.aw-resume-awards .aw-resume-header .aw-resume-awarder {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.aw-resume-awards .aw-resume-summary {
-  font-size: 12px;
-}
-
-.aw-resume-certificates .aw-resume-name {
-  font-size: 14px;
-}
-
-.aw-resume-certificates .aw-resume-issuer {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.aw-resume-skills .aw-resume-section-title {
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
   margin: 0;
 }
 
-.aw-resume-skills .aw-resume-container {
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
   display: block;
-  columns: 1;
-  column-gap: 20px;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
 }
 
-.aw-resume-skills .aw-resume-container .aw-resume-article {
-  break-inside: avoid-column;
-  min-width: 100%;
-  padding-top: 20px;
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
-@media (min-width: 640px) {
-  .aw-resume-skills .aw-resume-container .aw-resume-article {
-    min-width: 97.5px;
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+:root {
+  --color-text: #050708;
+  --color-background: #ffffff;
+  --color-muted: #666666;
+  --color-highlight: #efefef;
+  --color-primary: #f1553a;
+  --color-secondary: #1d93b2;
+  --color-tertiary: #b8c05d;
+  --color-accent: #fcbb1a;
+  --color-surface: #efefef;
+  --color-border: #666666;
+  --color-active: #050708;
+  --color-selected: #f1553a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #dddddd;
+    --color-background: #050708;
+    --color-muted: #898989;
+    --color-highlight: #333333;
+    --color-surface: #333333;
+    --color-border: #898989;
+    --color-active: #dddddd;
+    --color-selected: #f1553a;
   }
 }
 
-.aw-resume-skills .aw-resume-container .aw-resume-article label {
-  display: block;
-  font-size: 16px;
-  font-weight: bold;
+a {
+  text-decoration-line: underline;
 }
 
-.aw-resume-skills .aw-resume-container .aw-resume-article span {
-  font-size: 14px;
-  list-style: none;
+a:hover:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 85 58 / var(--tw-text-opacity, 1));
 }
 
-.aw-resume-languages ul {
-  list-style: none;
+/* To use with MDX components to revert list styles back to normal (Tailwind resets it) */
+
+ul.list-revert,
+  ol.list-revert {
+  list-style: revert;
 }
 
-.aw-resume-languages ul li {
-  font-size: 12px;
+/* Typography Presets */
+
+/* Really small labels labels etc */
+
+.text-preset-1 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.aw-resume-interests ul {
-  list-style: none;
+/* Semibold text in the context of a paragraph */
+
+/* Small labels etc */
+
+.text-preset-2 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.aw-resume-interests ul li {
-  font-size: 12px;
+/* Semibold text in the context of a paragraph */
+
+/* Normal text  */
+
+.text-preset-3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.aw-resume-references .aw-resume-name {
-  font-size: 14px;
+/* Semibold text in the context of a paragraph */
+
+.text-preset-3-bold {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
-.aw-resume-references q {
-  font-size: 13px;
-  font-weight: normal;
-  font-style: italic;
+/* MDX <h4>, <h5>, <h6> */
+
+.text-preset-4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.025em;
 }
 
-.aw-resume-meta span {
-  font-size: 12px;
-  font-weight: normal;
+@media (min-width: 640px) {
+  .text-preset-4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbXcvQ29kZS9hbmRyZXd3ZXN0bGluZy5jb20vcmVzdW1lL2pzb25yZXN1bWUtdGhlbWUtYW5kcmV3d2VzdGxpbmcvYXNzZXRzL3N0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0FBQ0E7RUFDRTtFQUNBO0VBQ0E7RUFDQTs7O0FBR0Y7O0VBQ0U7RUFDQTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTtFQUNBOzs7QUFFRjtFQUNFOzs7QUFFRjs7RUFFRTs7O0FBR0Y7RUFDRTtFQUNBOzs7QUFFRjtFQUNFOzs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTtFQUNBOzs7QUFHRjtFQUNFO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7RUFDQTs7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7OztBQUVGO0FBQ0U7SUFDRTs7OztBQUdKO0VBQ0U7RUFDQTtFQUNBOzs7QUFFRjtBQUNFO0lBQ0U7Ozs7QUFHSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7OztBQUVGO0FBQ0U7SUFDRTtJQUNBO0lBQ0E7Ozs7QUFJSjtFQUNFOzs7QUFFRjtFQUNFOzs7QUFHRjtFQUNFO0VBQ0E7RUFDQTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTtFQUNBO0VBQ0E7RUFDQTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTtFQUNBO0VBQ0E7RUFDQTs7O0FBR0Y7RUFDRTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTs7O0FBRUY7RUFDRTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTs7O0FBRUY7O0VBQ0U7OztBQUVGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTs7O0FBRUY7RUFDRTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTs7O0FBRUY7RUFDRTtFQUNBOzs7QUFFRjtFQUNFOzs7QUFFRjtFQUNFO0VBQ0E7RUFDQTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7RUFDQTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTtFQUNBOzs7QUFHRjtFQUNFOzs7QUFFRjtFQUNFO0VBQ0E7RUFDQTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTs7O0FBRUY7RUFDRTs7O0FBRUY7RUFDRTtFQUNBO0VBQ0E7OztBQUVGO0VBQ0U7RUFDQTs7O0FBR0Y7RUFDRTtFQUNBOzs7QUFHRjtFQUNFOzs7QUFFRjtFQUNFO0VBQ0E7OztBQUdGO0VBQ0U7OztBQUVGO0VBQ0U7RUFDQTs7O0FBRUY7RUFDRTs7O0FBR0Y7RUFDRTs7O0FBRUY7RUFDRTtFQUNBOzs7QUFHRjtFQUNFOzs7QUFFRjtFQUNFO0VBQ0E7RUFDQTs7O0FBRUY7RUFDRTtFQUNBO0VBQ0E7OztBQUVGO0FBQ0U7SUFDRTs7OztBQUdKO0VBQ0U7RUFDQTtFQUNBOzs7QUFFRjtFQUNFO0VBQ0E7OztBQUdGO0VBQ0U7OztBQUVGO0VBQ0U7OztBQUdGO0VBQ0U7OztBQUVGO0VBQ0U7OztBQUdGO0VBQ0U7OztBQUVGO0VBQ0U7RUFDQTtFQUNBOzs7QUFHRjtFQUNFO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBXb3JrYXJvdW5kIGZvciAnYnJlYWstYmVmb3JlOmF2b2lkJyAqL1xuKiB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgYm9yZGVyOiAwO1xuICBmb250LXNpemU6IDEwMCU7XG59XG5cbnVsLCBsaSB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbn1cblxucCB7XG4gIG1hcmdpbjogMDtcbn1cblxuQHBhZ2Uge1xuICBzaXplOiBBNDtcbiAgbWFyZ2luOiAxNW1tIDAgMjBtbSAwO1xufVxuQHBhZ2UgOmZpcnN0IHtcbiAgbWFyZ2luLXRvcDogMTBtbTtcbn1cbnAsXG5xIHtcbiAgbGluZS1oZWlnaHQ6IDEuMjVlbTtcbn1cblxubGkge1xuICBsaW5lLWhlaWdodDogMS4zNWVtO1xuICBsaXN0LXN0eWxlOiBkaXNjO1xufVxubGk6Zmlyc3QtY2hpbGQge1xuICBtYXJnaW4tdG9wOiAwO1xufVxuXG4uY29udGVudCB7XG4gIHBhZGRpbmc6IDA7XG4gIG1heC13aWR0aDogODUwcHg7XG4gIGhlaWdodDogYXV0bztcbiAgbWFyZ2luOiAwIGF1dG87XG4gIGZvbnQtZmFtaWx5OiBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgXCJTZWdvZSBVSVwiLCBSb2JvdG8sIE94eWdlbiwgVWJ1bnR1LCBDYW50YXJlbGwsIFwiT3BlbiBTYW5zXCIsIFwiSGVsdmV0aWNhIE5ldWVcIiwgc2Fucy1zZXJpZjtcbn1cbi5jb250ZW50IGFbaHJlZl0ge1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbiAgY29sb3I6IGluaGVyaXQ7XG4gIGZvbnQtd2VpZ2h0OiBpbmhlcml0O1xufVxuXG4udGFibGUge1xuICB3aWR0aDogMTAwJTtcbiAgZGlzcGxheTogdGFibGU7XG59XG4udGFibGUgLm1haW4ge1xuICBkaXNwbGF5OiB0YWJsZS1jZWxsO1xuICB3aWR0aDogNzAlO1xuICBwYWRkaW5nLXJpZ2h0OiA1MHB4O1xufVxuLnRhYmxlIC5zaWRlIHtcbiAgZGlzcGxheTogdGFibGUtY2VsbDtcbiAgd2lkdGg6IDMwJTtcbiAgcGFkZGluZy1sZWZ0OiA1MHB4O1xufVxuXG4uZmxleCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGdhcDogMzJweDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbn1cbkBtZWRpYSAobWluLXdpZHRoOiA2NDBweCkge1xuICAuZmxleCB7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgfVxufVxuLmZsZXggLm1haW4ge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBmbGV4LWJhc2lzOiA3MCU7XG59XG5AbWVkaWEgKG1pbi13aWR0aDogNjQwcHgpIHtcbiAgLmZsZXggLm1haW4ge1xuICAgIHdpZHRoOiA3MCU7XG4gIH1cbn1cbi5mbGV4IC5zaWRlIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1iYXNpczogMzAlO1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBib3JkZXItbGVmdDogbm9uZTtcbiAgcGFkZGluZy1sZWZ0OiAwO1xufVxuQG1lZGlhIChtaW4td2lkdGg6IDY0MHB4KSB7XG4gIC5mbGV4IC5zaWRlIHtcbiAgICBib3JkZXItbGVmdDogMXB4IHNvbGlkICNkZGQ7XG4gICAgcGFkZGluZy1sZWZ0OiAxMnB4O1xuICAgIHdpZHRoOiAzMCU7XG4gIH1cbn1cblxuLnN1bW1hcnkge1xuICBmb250LXNpemU6IDE0cHg7XG59XG4uc3VtbWFyeTplbXB0eSB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG5cbi5zZWN0aW9uLXRpdGxlIHtcbiAgZm9udC1zaXplOiAxOHB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBtYXJnaW46IDAgMCAyMHB4IDA7XG59XG5cbi5tYXJnaW4tY29udGFpbmVyLTI6bm90KDpmaXJzdC1jaGlsZCkge1xuICBtYXJnaW4tdG9wOiAyMHB4O1xufVxuXG4ubWFyZ2luLWNvbnRhaW5lci0zOm5vdCg6Zmlyc3QtY2hpbGQpIHtcbiAgbWFyZ2luLXRvcDogMzJweDtcbn1cblxuLm1hcmdpbi1jb250YWluZXItNDpub3QoOmZpcnN0LWNoaWxkKSB7XG4gIG1hcmdpbi10b3A6IDUwcHg7XG59XG5cbi5wYWRkaW5nLWNvbnRhaW5lci0yIHtcbiAgcGFkZGluZzogMjBweCAwO1xufVxuXG4ucGFkZGluZy1jb250YWluZXItMyB7XG4gIHBhZGRpbmc6IDMycHggMDtcbn1cblxuLm1hcmdpbi10ZXh0LTEge1xuICBtYXJnaW4tdG9wOiAycHg7XG59XG4ubWFyZ2luLXRleHQtMTplbXB0eSB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG5cbi5tYXJnaW4tdGV4dC0yIHtcbiAgbWFyZ2luLXRvcDogNHB4O1xufVxuLm1hcmdpbi10ZXh0LTI6ZW1wdHkge1xuICBkaXNwbGF5OiBub25lO1xufVxuXG4ubWFyZ2luLXRleHQtMyB7XG4gIG1hcmdpbi10b3A6IDZweDtcbn1cbi5tYXJnaW4tdGV4dC0zOmVtcHR5IHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLm1hcmdpbi10ZXh0LTQge1xuICBtYXJnaW4tdG9wOiA4cHg7XG59XG4ubWFyZ2luLXRleHQtNDplbXB0eSB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG5cbi5tYXJnaW4tdGV4dC01IHtcbiAgbWFyZ2luLXRvcDogMTRweDtcbn1cbi5tYXJnaW4tdGV4dC01OmVtcHR5IHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLm5vLWJyZWFrIHtcbiAgYnJlYWstaW5zaWRlOiBhdm9pZDtcbn1cblxuLm5vLWFsb25lLTEge1xuICBicmVhay1pbnNpZGU6IGF2b2lkO1xufVxuLm5vLWFsb25lLTE6OmFmdGVyIHtcbiAgY29udGVudDogXCJcIjtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGhlaWdodDogNzVweDtcbiAgbWFyZ2luLWJvdHRvbTogLTc1cHg7XG59XG5cbi5uby1hbG9uZS0yIHtcbiAgYnJlYWstaW5zaWRlOiBhdm9pZDtcbn1cbi5uby1hbG9uZS0yOjphZnRlciB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBoZWlnaHQ6IDE1MHB4O1xuICBtYXJnaW4tYm90dG9tOiAtMTUwcHg7XG59XG5cbi5tYXJrZG93biBoMSB7XG4gIGZvbnQtc2l6ZTogMTYwJTtcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcbn1cbi5tYXJrZG93biBoMiB7XG4gIGZvbnQtc2l6ZTogMTUwJTtcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcbn1cbi5tYXJrZG93biBoMyB7XG4gIGZvbnQtc2l6ZTogMTQwJTtcbiAgZm9udC13ZWlnaHQ6IGJvbGRlcjtcbn1cbi5tYXJrZG93biBoNCB7XG4gIGZvbnQtc2l6ZTogMTMwJTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG4ubWFya2Rvd24gaDUge1xuICBmb250LXNpemU6IDEyMCU7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuLm1hcmtkb3duIGg2IHtcbiAgZm9udC1zaXplOiAxMTAlO1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cbi5tYXJrZG93biB1bCwgLm1hcmtkb3duIG9sIHtcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG59XG4ubWFya2Rvd24gaW1nIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG1hcmdpbjogMjBweCBhdXRvO1xuICBtYXgtd2lkdGg6IDEwMDBweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLm1hcmtkb3duIGJsb2NrcXVvdGUge1xuICBtYXJnaW46IDIwcHggMDtcbiAgcGFkZGluZzogMTVweCAyMHB4O1xufVxuLm1hcmtkb3duIGJsb2NrcXVvdGUgcCB7XG4gIGRpc3BsYXk6IGlubGluZTtcbn1cbi5tYXJrZG93biBjb2RlIHtcbiAgZm9udC1mYW1pbHk6IG1vbm9zcGFjZTtcbn1cblxuLm1haW4gLmhpZ2hsaWdodHMge1xuICB3aWR0aDogYXV0bztcbiAgZGlzcGxheTogYmxvY2s7XG4gIHBhZGRpbmc6IDAgMTBweDtcbiAgbWFyZ2luLWJvdHRvbTogMDtcbn1cbi5tYWluIC5oaWdobGlnaHRzIGxpIHtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW4tbGVmdDogMTBweDtcbn1cbi5tYWluIC5sZWZ0IHtcbiAgZGlzcGxheTogdGFibGUtY2VsbDtcbn1cbi5tYWluIC5sZWZ0IC50aXRsZSB7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBsaW5lLWhlaWdodDogMS4yNWVtO1xufVxuLm1haW4gLmxlZnQgLnN1YnRpdGxlIHtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBkaXNwbGF5OiBibG9jaztcbiAgbGluZS1oZWlnaHQ6IDEuMjVlbTtcbn1cbi5tYWluIC5yaWdodCB7XG4gIHRleHQtYWxpZ246IHJpZ2h0O1xuICBkaXNwbGF5OiB0YWJsZS1jZWxsO1xufVxuLm1haW4gLnJpZ2h0IC5kYXRlIHtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xufVxuXG4uYmFzaWNzIC5tYWluIHtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbn1cbi5iYXNpY3MgLm1haW4gLm5hbWUge1xuICBmb250LXNpemU6IDM2cHg7XG4gIGxpbmUtaGVpZ2h0OiAxZW07XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBtYXJnaW4tbGVmdDogLTIuNTJweDtcbn1cbi5iYXNpY3MgLm1haW4gLmxhYmVsIHtcbiAgZm9udC1zaXplOiAyNnB4O1xuICBsaW5lLWhlaWdodDogMWVtO1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBkaXNwbGF5OiBibG9jaztcbiAgbWFyZ2luLWxlZnQ6IC0xLjA0cHg7XG59XG4uYmFzaWNzIC5zaWRlIHtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgcGFkZGluZy10b3A6IDE1cHg7XG59XG4uYmFzaWNzIC5zaWRlIC5jb250YWN0IHtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xufVxuLmJhc2ljcyAuc2lkZSAuY29udGFjdCBsaSB7XG4gIG92ZXJmbG93OiBhdXRvO1xuICBmb250LXNpemU6IDE0cHg7XG4gIGxpbmUtaGVpZ2h0OiAxLjZlbTtcbn1cbi5iYXNpY3MgLnNpZGUgLmNvbnRhY3QgbGkgPiAqIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIG1hcmdpbi1yaWdodDogM3B4O1xufVxuXG4ubGlua3MgdWwgbGkge1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cblxuLmVkdWNhdGlvbiAudGl0bGUge1xuICBmb250LXNpemU6IDE0cHg7XG59XG4uZWR1Y2F0aW9uIC5pbnN0aXR1dGlvbiB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cblxuLmF3YXJkcyAuaGVhZGVyIC50aXRsZSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cbi5hd2FyZHMgLmhlYWRlciAuYXdhcmRlciB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cbi5hd2FyZHMgLnN1bW1hcnkge1xuICBmb250LXNpemU6IDEycHg7XG59XG5cbi5jZXJ0aWZpY2F0ZXMgLm5hbWUge1xuICBmb250LXNpemU6IDE0cHg7XG59XG4uY2VydGlmaWNhdGVzIC5pc3N1ZXIge1xuICBmb250LXNpemU6IDE0cHg7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG59XG5cbi5za2lsbHMgLnNlY3Rpb24tdGl0bGUge1xuICBtYXJnaW46IDA7XG59XG4uc2tpbGxzIC5jb250YWluZXIge1xuICBkaXNwbGF5OiBibG9jaztcbiAgY29sdW1uczogMTtcbiAgY29sdW1uLWdhcDogMjBweDtcbn1cbi5za2lsbHMgLmNvbnRhaW5lciAuYXJ0aWNsZSB7XG4gIGJyZWFrLWluc2lkZTogYXZvaWQtY29sdW1uO1xuICBtaW4td2lkdGg6IDEwMCU7XG4gIHBhZGRpbmctdG9wOiAyMHB4O1xufVxuQG1lZGlhIChtaW4td2lkdGg6IDY0MHB4KSB7XG4gIC5za2lsbHMgLmNvbnRhaW5lciAuYXJ0aWNsZSB7XG4gICAgbWluLXdpZHRoOiA5Ny41cHg7XG4gIH1cbn1cbi5za2lsbHMgLmNvbnRhaW5lciAuYXJ0aWNsZSBsYWJlbCB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBmb250LXNpemU6IDE2cHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuLnNraWxscyAuY29udGFpbmVyIC5hcnRpY2xlIHNwYW4ge1xuICBmb250LXNpemU6IDE0cHg7XG4gIGxpc3Qtc3R5bGU6IG5vbmU7XG59XG5cbi5sYW5ndWFnZXMgdWwge1xuICBsaXN0LXN0eWxlOiBub25lO1xufVxuLmxhbmd1YWdlcyB1bCBsaSB7XG4gIGZvbnQtc2l6ZTogMTJweDtcbn1cblxuLmludGVyZXN0cyB1bCB7XG4gIGxpc3Qtc3R5bGU6IG5vbmU7XG59XG4uaW50ZXJlc3RzIHVsIGxpIHtcbiAgZm9udC1zaXplOiAxMnB4O1xufVxuXG4ucmVmZXJlbmNlcyAubmFtZSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cbi5yZWZlcmVuY2VzIHEge1xuICBmb250LXNpemU6IDEzcHg7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbn1cblxuLm1ldGEgc3BhbiB7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn0iXX0= */</style><title>Resume Andrew Westling – Software Engineer</title></head><body><div class="aw-resume-content"><div class="aw-resume-basics"><div class="aw-resume-flex"><div class="aw-resume-main"><span class="aw-resume-name">Andrew Westling</span><span class="aw-resume-label">Software Engineer</span></div><div class="aw-resume-side"><ul class="aw-resume-contact"><li><span>✉️</span><a href="mailto:hi@andrewwestling.com">hi@andrewwestling.com</a></li><li><span>📍</span><span>Brooklyn, NY</span></li></ul></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-padding-container-3"><p>Seasoned web engineer, with a background in design and architecture. Specialty in crafting resilient web applications, with a particular emphasis on design systems and both front-end and full-stack features. Skilled with <strong>TypeScript</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind</strong>, and more. Dedicated to optimizing processes for scalability and fostering effective teamwork and communication.</p>
-</div></div><div class="aw-resume-flex"><div class="aw-resume-main"><div class="aw-resume-work aw-resume-margin-container-4"><p class="aw-resume-section-title aw-resume-no-alone-2">👔 Experience</p><div class="aw-resume-container"><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Senior Design Engineer</span><span class="aw-resume-subtitle"><a href="https://alloy.com">Alloy</a> · New York City</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="September 2024 – Present">2024–Present</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity risk management platform for companies that offer financial products.</p>
-</div></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Senior UI Engineer</span><span class="aw-resume-subtitle"><a href="https://droit.tech">Droit</a> · New York City</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="October 2023 – August 2024">2023–2024</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Front-end application development. Droit builds tools for decision-making and global regulatory compliance for financial institutions.</p>
-</div><ul class="aw-resume-highlights aw-resume-margin-text-4 aw-resume-no-break"><li><span><p><strong>Applications</strong>: productionized and delivered the first version of a new application to help analysts validate transaction reports before they are sent to regulators</p>
-</span></li><li><span><p><strong>Design systems</strong>: improved build performance and developer experience of Droit's component library</p>
-</span></li></ul></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Senior Software Engineer</span><span class="aw-resume-subtitle"><a href="https://fortelessons.com">Forte</a> · remote (New York City)</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="July 2022 – March 2023">2022–2023</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Feature development. Setting up tools and culture. First engineering hire. Forte is a purpose-built music education platform for teachers and students.</p>
-</div><ul class="aw-resume-highlights aw-resume-margin-text-4 aw-resume-no-break"><li><span><p><strong>From scratch</strong>: set up Forte's Next.js application from the ground up; chose tools and workflows to enable quick iteration; established a component library for consistent user experience</p>
-</span></li><li><span><p><strong>Built features</strong>: built the first iteration of various customer-facing features for Forte's marketplace: Teacher Profiles; Certified Institutions; Invitations and Sign Up; Teacher Ratings and Reviews; &quot;Switch Role&quot; functionality; etc.</p>
-</span></li><li><span><p><strong>UX/Product Architecture</strong>: informed the UX, product flow, and overall architecture of a multi-role marketplace application</p>
-</span></li></ul></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Senior Front End Engineer</span><span class="aw-resume-subtitle"><a href="https://monograph.com">Monograph</a> · remote (New York City)</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="April 2021 – June 2022">2021–2022</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Design system and feature development for Monograph's applications. Monograph makes tools to help architecture firms manage their projects, budgets, and tasks.</p>
-</div><ul class="aw-resume-highlights aw-resume-margin-text-4 aw-resume-no-break"><li><span><p><strong>Design systems</strong>: built components for Monograph's component library; wrote documentation and set up workflows between Figma and the codebase</p>
-</span></li><li><span><p><strong>Features</strong>: built customer-facing features: Team Directory; filter functionality for Monograph Resource; Settings UI; &quot;Consultants&quot; feature; etc.</p>
-</span></li><li><span><p><strong><a href="https://noidea.dog/glue">&quot;Glue&quot; work</a></strong>; a lot of hard-to-quantify things like process documentation, choosing tools, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging, etc.</p>
-</span></li></ul></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Software Engineer</span><span class="aw-resume-subtitle"><a href="https://better.com">Better.com</a> · New York City</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="July 2018 – March 2021">2018–2021</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Design system and feature development for Better's loan origination platform. Better.com is a mortgage lender.</p>
-</div><ul class="aw-resume-highlights aw-resume-margin-text-4 aw-resume-no-break"><li><span><p><strong>Design systems</strong>: established Better's Design Systems team; built libraries to empower engineering teams to build consistent and clean UIs</p>
-</span></li><li><span><p><strong>Features</strong>: built assorted borrower-facing features: Redisclosure Service; &quot;Required Assets and Buffer&quot; logic; Authentication/Session Expiration; UX for uploading a competitor's Loan Estimate; Loan Overview page; etc.</p>
-</span></li><li><span><p><strong>Integrations</strong>: extended integrations with sales and marketing tools (call scheduling, A/B testing, etc.)</p>
-</span></li></ul></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Software Engineer</span><span class="aw-resume-subtitle"><a href="https://architizer.com">Architizer</a> · New York City</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="September 2015 – June 2018">2015–2018</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Full-stack and front-end feature development and infrastructure maintenance. Architizer is a platform to help architects find products for buildings.</p>
-</div><ul class="aw-resume-highlights aw-resume-margin-text-4 aw-resume-no-break"><li><span><p><strong>Component libraries</strong>: established and maintained a UI component system to speed up feature development, and improve collaboration with designers</p>
-</span></li><li><span><p><strong>Features</strong>: built internal- and external-facing features: a private messaging interface; directory interfaces to Solr search indexes; etc.</p>
-</span></li><li><span><p><strong>Integrations</strong>: extended integrations with external tools for analytics, error logging, marketing, and customer support</p>
-</span></li></ul></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">Software Engineer</span><span class="aw-resume-subtitle"><a href="https://eyecuelab.com">EyeCue Lab</a> · Portland, Oregon</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="September 2014 – August 2015">2014–2015</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Internship-to-hire. Consultancy/agency setting. Built marketing pages and full-stack features for web applications and client projects.</p>
-</div></div><div class="aw-resume-article aw-resume-margin-container-3 aw-resume-no-alone-1"><div class="aw-resume-header"><div class="aw-resume-table"><div class="aw-resume-left"><span class="aw-resume-title">AppleCare Advisor</span><span class="aw-resume-subtitle"><a href="https://apple.com">Apple</a> · remote (Eugene, Oregon)</span></div><div class="aw-resume-right"><span class="aw-resume-date" title="June 2013 – May 2014">2013–2014</span></div></div></div><div class="aw-resume-summary aw-resume-markdown aw-resume-margin-text-4"><p>Technical phone support and customer service for macOS products while completing degree.</p>
-</div></div></div></div></div><div class="aw-resume-side"><div class="aw-resume-skills aw-resume-margin-container-4"><p class="aw-resume-section-title aw-resume-no-alone-1">🔧 Tools</p><div class="aw-resume-container"><div class="aw-resume-article aw-resume-no-break"><label>General</label><span class="aw-resume-margin-text-2"><p>TypeScript, JavaScript, Rails, Django, Vercel, Heroku, AWS, CircleCI, GitHub, Docker, Segment, Linear, Figma, Visual Studio Code</p></span></div><div class="aw-resume-article aw-resume-no-break"><label>Front End</label><span class="aw-resume-margin-text-2"><p>React, JSX/TSX, Next.js, GraphQL, Apollo, Prisma, Jest, Node.js</p></span></div><div class="aw-resume-article aw-resume-no-break"><label>UI</label><span class="aw-resume-margin-text-2"><p>Tailwind, Flowbite, Ladle, Storybook, Stitches, Radix, styled-components, Theme UI, MDX, SCSS, Tachyons, HTML/CSS</p></span></div></div></div><div class="aw-resume-education aw-resume-margin-container-4"><p class="aw-resume-section-title aw-resume-no-alone-1">🎓 Education</p><div class="aw-resume-container"><div class="aw-resume-article aw-resume-margin-container-2 aw-resume-no-break"><div class="aw-resume-title aw-resume-markdown"><p>B.Arch, Architecture</p>
-</div><span class="aw-resume-institution aw-resume-margin-text-2"><a href="https://www.uoregon.edu/">University of Oregon</a></span></div></div></div><div class="aw-resume-links aw-resume-margin-container-4 aw-resume-no-break"><p class="aw-resume-section-title aw-resume-no-alone-1">🔗 Links</p><div class="aw-resume-container"><ul><li class="aw-resume-article"><a href="https://andrewwestling.com"><strong>andrewwestling.com</strong></a></li><li class="aw-resume-article aw-resume-margin-text-4"><a href="https://linkedin.com/in/andrewwestling"><strong>linkedin.com</strong>/in/andrewwestling</a></li><li class="aw-resume-article aw-resume-margin-text-4"><a href="https://github.com/andrewwestling"><strong>github.com</strong>/andrewwestling</a></li></ul></div></div><div class="aw-resume-meta aw-resume-margin-container-4 aw-resume-no-break"><span class="aw-resume-last-modified">Updated September 2024</span></div></div></div></div></body></html>
+
+/* Semibold text in the context of a paragraph */
+
+/* MDX <h3> */
+
+/* Semibold text in the context of a paragraph */
+
+/* MDX <h2>, Music Library SectionHeading */
+
+/* Semibold text in the context of a paragraph */
+
+/* MDX <h1>, Music Library PageTitle */
+
+.text-preset-7 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+@media (min-width: 640px) {
+  .text-preset-7 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+/* Semibold text in the context of a paragraph */
+
+/* Markdown styles */
+
+.markdown {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.markdown p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.markdown strong {
+  font-weight: 600;
+}
+
+.markdown a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 85 58 / var(--tw-text-opacity, 1));
+}
+
+.markdown ul {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.markdown ul > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.markdown li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.markdown li p {
+  display: inline;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mb-12 {
+  margin-bottom: 3rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-24 {
+  margin-bottom: 6rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 2rem !important;
+}
+
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-4 {
+  margin-top: 1rem !important;
+}
+
+.mt-6 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-8 {
+  margin-top: 2rem !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.h-fit {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+
+.max-w-container {
+  max-width: 50rem !important;
+}
+
+.list-inside {
+  list-style-position: inside !important;
+}
+
+.list-disc {
+  list-style-type: disc !important;
+}
+
+.items-baseline {
+  align-items: baseline !important;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse)) !important;
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse)) !important;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse)) !important;
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)) !important;
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse)) !important;
+}
+
+.bg-background {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1)) !important;
+}
+
+.px-2 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.ps-10 {
+  padding-inline-start: 2.5rem !important;
+}
+
+.text-muted {
+  --tw-text-opacity: 1 !important;
+  color: rgb(102 102 102 / var(--tw-text-opacity, 1)) !important;
+}
+
+.text-text {
+  --tw-text-opacity: 1 !important;
+  color: rgb(5 7 8 / var(--tw-text-opacity, 1)) !important;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+}
+
+/* Additional Markdown-specific dark mode styles */
+
+.markdown {
+  --tw-text-opacity: 1;
+  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown {
+    --tw-text-opacity: 1;
+    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+  }
+}
+
+.markdown > p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown > p {
+    --tw-text-opacity: 1;
+    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+  }
+}
+
+.markdown > strong {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown > strong {
+    --tw-text-opacity: 1;
+    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+  }
+}
+
+.markdown & a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 85 58 / var(--tw-text-opacity, 1));
+}
+
+ul.markdown & ul,
+  ol.markdown & ul {
+  list-style: revert;
+}
+
+.markdown & ul > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.markdown & ul {
+  padding-inline-start: 2.5rem;
+}
+
+.markdown & li {
+  --tw-text-opacity: 1;
+  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown & li {
+    --tw-text-opacity: 1;
+    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+  }
+}
+
+.markdown & li p {
+  display: inline;
+  --tw-text-opacity: 1;
+  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown & li p {
+    --tw-text-opacity: 1;
+    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+  }
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1 !important;
+  color: rgb(241 85 58 / var(--tw-text-opacity, 1)) !important;
+}
+
+@media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1 !important;
+  }
+
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2 !important;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px !important;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px !important;
+  }
+
+  .sm\:grid {
+    display: grid !important;
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .sm\:gap-8 {
+    gap: 2rem !important;
+  }
+
+  .sm\:border-l {
+    border-left-width: 1px !important;
+  }
+
+  .sm\:border-highlight {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(239 239 239 / var(--tw-border-opacity, 1)) !important;
+  }
+
+  .sm\:pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-background-dark {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(5 7 8 / var(--tw-bg-opacity, 1)) !important;
+  }
+
+  .dark\:text-muted-dark {
+    --tw-text-opacity: 1 !important;
+    color: rgb(137 137 137 / var(--tw-text-opacity, 1)) !important;
+  }
+
+  .dark\:text-text-dark {
+    --tw-text-opacity: 1 !important;
+    color: rgb(221 221 221 / var(--tw-text-opacity, 1)) !important;
+  }
+
+  .dark\:hover\:text-primary:hover {
+    --tw-text-opacity: 1 !important;
+    color: rgb(241 85 58 / var(--tw-text-opacity, 1)) !important;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="max-w-container mx-auto px-2 mb-24 text-text bg-background dark:text-text-dark dark:bg-background-dark"><div class="mb-12 sm:mb-0"><header class="mb-8"><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2"><h1 class="text-preset-7 mb-2">Andrew Westling</h1><div class="text-preset-4">Software Engineer</div></div><div class="mt-4 sm:mt-0 space-y-1 sm:border-l sm:border-highlight sm:pl-4 sm:col-span-1 h-fit"><div class="text-preset-2"><span class="mr-2">✉️</span><a href="mailto:hi@andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">hi@andrewwestling.com</a></div><div class="text-preset-2"><span class="mr-2">📍</span>Brooklyn, NY</div></div></div><div class="mt-6"><span class="markdown "><p>Seasoned web engineer, with a background in design and architecture. Specialty in crafting resilient web applications, with a particular emphasis on design systems and both front-end and full-stack features. Skilled with <strong>TypeScript</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind</strong>, and more. Dedicated to optimizing processes for scalability and fostering effective teamwork and communication.</p>
+</span></div></header></div><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2 space-y-8 mb-12 sm:mb-0"><section><h2 class="text-preset-4 mb-4">👔 Experience</h2><div class="space-y-12"><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Senior Design Engineer</div><div class="text-preset-2"><a href="https://alloy.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Alloy</a> · <!-- -->New York City</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="September 2024 - Present">2024–Present</div></div><div class="mt-2"><span class="markdown "><p>Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity risk management platform for companies that offer financial products.</p>
+</span></div></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Senior UI Engineer</div><div class="text-preset-2"><a href="https://droit.tech" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Droit</a> · <!-- -->New York City</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="October 2023 - August 2024">2023–2024</div></div><div class="mt-2"><span class="markdown "><p>Front-end application development. Droit builds tools for decision-making and global regulatory compliance for financial institutions.</p>
+</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Applications</strong>: productionized and delivered the first version of a new application to help analysts validate transaction reports before they are sent to regulators</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: improved build performance and developer experience of Droit&#39;s component library</p>
+</span></li></ul></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Senior Software Engineer</div><div class="text-preset-2"><a href="https://fortelessons.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Forte</a> · <!-- -->remote (New York City)</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="July 2022 - March 2023">2022–2023</div></div><div class="mt-2"><span class="markdown "><p>Feature development. Setting up tools and culture. First engineering hire. Forte is a purpose-built music education platform for teachers and students.</p>
+</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>From scratch</strong>: set up Forte&#39;s Next.js application from the ground up; chose tools and workflows to enable quick iteration; established a component library for consistent user experience</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Built features</strong>: built the first iteration of various customer-facing features for Forte&#39;s marketplace: Teacher Profiles; Certified Institutions; Invitations and Sign Up; Teacher Ratings and Reviews; &quot;Switch Role&quot; functionality; etc.</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>UX/Product Architecture</strong>: informed the UX, product flow, and overall architecture of a multi-role marketplace application</p>
+</span></li></ul></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Senior Front End Engineer</div><div class="text-preset-2"><a href="https://monograph.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Monograph</a> · <!-- -->remote (New York City)</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="April 2021 - June 2022">2021–2022</div></div><div class="mt-2"><span class="markdown "><p>Design system and feature development for Monograph&#39;s applications. Monograph makes tools to help architecture firms manage their projects, budgets, and tasks.</p>
+</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: built components for Monograph&#39;s component library; wrote documentation and set up workflows between Figma and the codebase</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Features</strong>: built customer-facing features: Team Directory; filter functionality for Monograph Resource; Settings UI; &quot;Consultants&quot; feature; etc.</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong><a href="https://noidea.dog/glue">&quot;Glue&quot; work</a></strong>; a lot of hard-to-quantify things like process documentation, choosing tools, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging, etc.</p>
+</span></li></ul></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Software Engineer</div><div class="text-preset-2"><a href="https://better.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Better.com</a> · <!-- -->New York City</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="June 2018 - March 2021">2018–2021</div></div><div class="mt-2"><span class="markdown "><p>Design system and feature development for Better&#39;s loan origination platform. Better.com is a mortgage lender.</p>
+</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: established Better&#39;s Design Systems team; built libraries to empower engineering teams to build consistent and clean UIs</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Features</strong>: built assorted borrower-facing features: Redisclosure Service; &quot;Required Assets and Buffer&quot; logic; Authentication/Session Expiration; UX for uploading a competitor&#39;s Loan Estimate; Loan Overview page; etc.</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Integrations</strong>: extended integrations with sales and marketing tools (call scheduling, A/B testing, etc.)</p>
+</span></li></ul></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Software Engineer</div><div class="text-preset-2"><a href="https://architizer.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Architizer</a> · <!-- -->New York City</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="September 2015 - June 2018">2015–2018</div></div><div class="mt-2"><span class="markdown "><p>Full-stack and front-end feature development and infrastructure maintenance. Architizer is a platform to help architects find products for buildings.</p>
+</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Component libraries</strong>: established and maintained a UI component system to speed up feature development, and improve collaboration with designers</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Features</strong>: built internal- and external-facing features: a private messaging interface; directory interfaces to Solr search indexes; etc.</p>
+</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Integrations</strong>: extended integrations with external tools for analytics, error logging, marketing, and customer support</p>
+</span></li></ul></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">Software Engineer</div><div class="text-preset-2"><a href="https://eyecuelab.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">EyeCue Lab</a> · <!-- -->Portland, Oregon</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="August 2014 - August 2015">2014–2015</div></div><div class="mt-2"><span class="markdown "><p>Internship-to-hire. Consultancy/agency setting. Built marketing pages and full-stack features for web applications and client projects.</p>
+</span></div></div><div class="no-break"><div class="flex justify-between items-baseline mb-2"><div><div class="text-preset-3-bold">AppleCare Advisor</div><div class="text-preset-2"><a href="https://apple.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Apple</a> · <!-- -->remote (Eugene, Oregon)</div></div><div class="text-preset-1 text-muted dark:text-muted-dark" title="May 2013 - May 2014">2013–2014</div></div><div class="mt-2"><span class="markdown "><p>Technical phone support and customer service for macOS products while completing degree.</p>
+</span></div></div></div></section></div><div class="sm:col-span-1 space-y-12 sm:border-l sm:border-highlight sm:pl-4"><section><h2 class="text-preset-4 mb-4">🔧 Tools</h2><div class="space-y-4"><div class="no-break"><div class="text-preset-3-bold">General</div><div class="text-preset-2 mt-1">TypeScript, Vercel, CircleCI, AWS, GitHub, Docker, Linear, Cursor, Visual Studio Code, Figma</div></div><div class="no-break"><div class="text-preset-3-bold">Front End</div><div class="text-preset-2 mt-1">React, JSX/TSX, Next.js, Vite, GraphQL, Apollo, Prisma, Jest/Vitest, Node.js</div></div><div class="no-break"><div class="text-preset-3-bold">UI</div><div class="text-preset-2 mt-1">Storybook, styled-components, SCSS, Tailwind, Flowbite, Ladle, Radix, MDX, HTML/CSS</div></div></div></section><section><h2 class="text-preset-4 mb-4">🎓 Education</h2><div class="space-y-6"><div class="no-break"><div class="markdown"><span class="markdown "><p>B.Arch, Architecture</p>
+</span></div><div class="text-preset-2 mt-1"><a href="https://www.uoregon.edu/" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">University of Oregon</a></div></div></div></section><section><h2 class="text-preset-4 mb-4">🔗 Links</h2><div class="space-y-2 text-preset-2"><div><a href="https://andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>andrewwestling.com</strong></a></div><div><a href="https://linkedin.com/in/andrewwestling" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>linkedin.com</strong>/in/andrewwestling</a></div><div><a href="https://github.com/andrewwestling" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>github.com</strong>/andrewwestling</a></div></div></section><div class="text-preset-1 text-muted dark:text-muted-dark mt-8">Updated <!-- -->February 2025</div></div></div></div>
+</body>
+</html>
