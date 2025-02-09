@@ -14,15 +14,15 @@ export function WorkSection({ work }: { work?: Work[] }) {
           <div key={index} className="no-break">
             <div className="flex justify-between items-baseline mb-2">
               <div>
-                <div className="text-preset-3-bold">{item.position}</div>
-                <div className="text-preset-2">
+                <div className="text-preset-4-bold">{item.position}</div>
+                <div className="text-preset-3">
                   <ExternalLink href={item.url}>{item.name}</ExternalLink>
                   {item.name && item.location && " · "}
                   {item.location}
                 </div>
               </div>
               <div
-                className="text-preset-1 text-muted dark:text-muted-dark"
+                className="text-preset-2 text-muted dark:text-muted-dark"
                 title={formatDateRange(item.startDate, item.endDate)}
               >
                 {formatYearRange(item.startDate, item.endDate)}

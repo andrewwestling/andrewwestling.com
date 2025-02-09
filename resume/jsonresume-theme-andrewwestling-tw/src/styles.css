@@ -6,11 +6,11 @@
 }
 
 .markdown > p {
-  @apply text-preset-2 text-text dark:text-text-dark;
+  @apply text-preset-3 text-text dark:text-text-dark;
 }
 
 .markdown > strong {
-  @apply text-preset-2-bold text-text dark:text-text-dark;
+  @apply text-preset-3-bold text-text dark:text-text-dark;
 }
 
 .markdown & a {

@@ -25,19 +25,19 @@ export function BasicsSection({ basics }: { basics?: Basics }) {
         {/* Right column - Contact info */}
         <div className="mt-4 sm:mt-0 space-y-1 sm:border-l sm:border-highlight sm:pl-4 sm:col-span-1 h-fit">
           {phone && (
-            <div className="text-preset-2">
+            <div className="text-preset-3">
               <span className="mr-2">📞</span>
               <ExternalLink href={`tel:${phone}`}>{phone}</ExternalLink>
             </div>
           )}
           {email && (
-            <div className="text-preset-2">
+            <div className="text-preset-3">
               <span className="mr-2">✉️</span>
               <ExternalLink href={`mailto:${email}`}>{email}</ExternalLink>
             </div>
           )}
           {formattedLocation && (
-            <div className="text-preset-2">
+            <div className="text-preset-3">
               <span className="mr-2">📍</span>
               {formattedLocation}
             </div>

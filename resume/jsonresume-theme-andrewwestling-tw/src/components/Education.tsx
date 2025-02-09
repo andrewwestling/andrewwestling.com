@@ -17,7 +17,7 @@ export function EducationSection({ education }: { education?: Education[] }) {
                 {[item.studyType, item.area].filter(Boolean).join(", ")}
               </Markdown>
             </div>
-            <div className="text-preset-2 mt-1">
+            <div className="text-preset-3 mt-1">
               <ExternalLink href={item.url}>{item.institution}</ExternalLink>
             </div>
           </div>

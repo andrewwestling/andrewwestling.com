@@ -13,7 +13,7 @@ export function LinksSection({ profiles, personalUrl }: LinksSectionProps) {
 
   return (
     <Section title="🔗 Links">
-      <div className="space-y-2 text-preset-2">
+      <div className="space-y-2 text-preset-3">
         {personalUrl && (
           <div>
             <ExternalLink href={personalUrl}>
