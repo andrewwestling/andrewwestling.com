@@ -60,6 +60,11 @@ ol.list-revert {
 }
 
 @layer components {
+  /* For AWDS music badges: base styles; extend with bg- and text- */
+  .awds-music-badge {
+    @apply w-fit rounded text-xs px-1 py-0.5 whitespace-nowrap !font-medium;
+  }
+
   /* Homepage "home" crumb */
   .homepage-home-crumb::after {
     @apply mx-2 text-muted pointer-events-none select-none;
