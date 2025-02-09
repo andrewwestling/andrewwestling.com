@@ -288,9 +288,9 @@
         "date": "2006-12-01T19:30:00.000Z",
         "group": "Metropolitan Youth Symphony",
         "works": [
-          "Copland - The Tender Land",
-          "Glazunov - Scenes de Ballet",
-          "Hanson - Song of Democracy"
+          "Hanson - Song of Democracy",
+          "Copland - The Promise of Living from The Tender Land",
+          "Glazunov - Scenes de Ballet"
         ],
         "conductor": [
           "Lajos Balogh"
@@ -869,7 +869,7 @@
           "Beethoven - Overture to Fidelio",
           "Grieg - Peer Gynt Suite No. 2",
           "Lutoslawski - Concerto for Orchestra",
-          "Elgar - Enigma Variations"
+          "Elgar - Nimrod from Enigma Variations"
         ],
         "conductor": [
           "David Hattner"
@@ -895,7 +895,7 @@
           "Beethoven - Overture to Fidelio",
           "Grieg - Peer Gynt Suite No. 2",
           "Lutoslawski - Concerto for Orchestra",
-          "Elgar - Enigma Variations"
+          "Elgar - Nimrod from Enigma Variations"
         ],
         "conductor": [
           "David Hattner"
@@ -1748,7 +1748,7 @@
         "works": [
           "Haydn - Symphony No. 104 in D Major, \"London\"",
           "Mozart - Sinfonia Concertante for Violin and Viola",
-          "Elgar - Enigma Variations"
+          "Elgar - Nimrod from Enigma Variations"
         ],
         "conductor": [
           "Scott Jackson Wiley"
@@ -1841,7 +1841,7 @@
           "Copland - Fanfare for the Common Man",
           "Copland - Appalachian Spring",
           "Elgar - Cello Concerto in E Minor",
-          "Elgar - Enigma Variations"
+          "Elgar - Nimrod from Enigma Variations"
         ],
         "conductor": [
           "Scott Jackson Wiley"
@@ -2552,12 +2552,14 @@
         "date": "2025-02-09T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
         "works": [
+          "Elgar - Nimrod from Enigma Variations",
           "Higdon - Blue Cathedral",
           "Mozart - Sinfonia Concertante for Violin and Viola",
           "Vaughan Williams - Symphony No. 5"
         ],
         "conductor": [
-          "Barbara Yahr"
+          "Barbara Yahr",
+          "Christian Olson"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4njcQ8BHPKkyOtoJ18AKzX?si=03e39cfdf8be4b2d",
         "venue": "High School of Fashion Industries",
@@ -2578,6 +2580,7 @@
           "Chevalier de Saint-Georges - Overture to L'Amant Anonyme",
           "Faure - Pavane",
           "Sankey - Carmen Fantasy (after Bizet)",
+          "Bloch - Prayer (From Jewish Life)",
           "Dvorak - Symphony No. 7 in D Minor"
         ],
         "conductor": [
@@ -2605,7 +2608,7 @@
         "conductor": [
           "Barbara Yahr"
         ],
-        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/4njcQ8BHPKkyOtoJ18AKzX?si=9844ca842e00432f",
+        "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7pQcuC9KwIi1KMGfGUMvj8?si=e17a6ef1d0f04717",
         "venue": "High School of Fashion Industries",
         "season": "2024-2025",
         "ticketUrl": "https://greenwich-village-orchestra.square.site/product/the-unanswered-question/77"
@@ -2834,6 +2837,15 @@
       "concertCount": 6
     },
     {
+      "slug": "bloch-ernest",
+      "type": "composer",
+      "path": "Composers/Bloch, Ernest.md",
+      "title": "Bloch, Ernest",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
       "slug": "bock-jerry",
       "type": "composer",
       "path": "Composers/Bock, Jerry.md",
@@ -3011,7 +3023,7 @@
       "title": "Elgar, Edward",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 8
+      "concertCount": 9
     },
     {
       "slug": "ellington-duke",
@@ -3707,6 +3719,15 @@
       "concertCount": 0
     },
     {
+      "slug": "stravinsky-igor",
+      "type": "composer",
+      "path": "Composers/Stravinsky, Igor.md",
+      "title": "Stravinsky, Igor",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 0
+    },
+    {
       "slug": "tchaikovsky-piotr-ilyich",
       "type": "composer",
       "path": "Composers/Tchaikovsky, Piotr Ilyich.md",
@@ -3920,6 +3941,15 @@
       "type": "conductor",
       "path": "Conductors/Bryant Denmark.md",
       "title": "Bryant Denmark",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
+      "slug": "christian-olson",
+      "type": "conductor",
+      "path": "Conductors/Christian Olson.md",
+      "title": "Christian Olson",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 1
@@ -5354,6 +5384,19 @@
       "bucketList": true
     },
     {
+      "slug": "bloch-prayer-from-jewish-life",
+      "type": "work",
+      "path": "Works/Bloch - Prayer (From Jewish Life).md",
+      "title": "Bloch - Prayer (From Jewish Life)",
+      "content": "",
+      "frontmatter": {
+        "composer": "Bloch, Ernest",
+        "opus": "B. 54"
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
       "slug": "bock-fiddler-on-the-roof",
       "type": "work",
       "path": "Works/Bock - Fiddler on the Roof.md",
@@ -5617,7 +5660,7 @@
         "displayName": ""
       },
       "concertCount": 1,
-      "bucketList": false
+      "bucketList": true
     },
     {
       "slug": "chevalier-de-saint-georges-overture-to-l-amant-anonyme",
@@ -5746,17 +5789,43 @@
       "bucketList": false
     },
     {
-      "slug": "copland-the-tender-land",
+      "slug": "copland-the-promise-of-living-from-the-tender-land",
       "type": "work",
-      "path": "Works/Copland - The Tender Land.md",
-      "title": "Copland - The Tender Land",
+      "path": "Works/Copland - The Promise of Living from The Tender Land.md",
+      "title": "Copland - The Promise of Living from The Tender Land",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron",
+        "opus": ""
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "copland-the-red-pony-suite",
+      "type": "work",
+      "path": "Works/Copland - The Red Pony Suite.md",
+      "title": "Copland - The Red Pony Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Copland, Aaron",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
+      "slug": "copland-the-tender-land-suite",
+      "type": "work",
+      "path": "Works/Copland - The Tender Land Suite.md",
+      "title": "Copland - The Tender Land Suite",
       "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
         "catalogue": "",
         "displayName": ""
       },
-      "concertCount": 1,
+      "concertCount": 0,
       "bucketList": true
     },
     {
@@ -5984,20 +6053,6 @@
       "bucketList": false
     },
     {
-      "slug": "elgar-enigma-variations",
-      "type": "work",
-      "path": "Works/Elgar - Enigma Variations.md",
-      "title": "Elgar - Enigma Variations",
-      "content": "",
-      "frontmatter": {
-        "composer": "Elgar, Edward",
-        "catalogue": "",
-        "displayName": ""
-      },
-      "concertCount": 4,
-      "bucketList": false
-    },
-    {
       "slug": "elgar-in-the-south-alassio-concert-overture",
       "type": "work",
       "path": "Works/Elgar - In The South (Alassio) - Concert Overture.md",
@@ -6009,6 +6064,20 @@
         "displayName": ""
       },
       "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "elgar-nimrod-from-enigma-variations",
+      "type": "work",
+      "path": "Works/Elgar - Nimrod from Enigma Variations.md",
+      "title": "Elgar - Nimrod from Enigma Variations",
+      "content": "",
+      "frontmatter": {
+        "composer": "Elgar, Edward",
+        "catalogue": "",
+        "displayName": ""
+      },
+      "concertCount": 5,
       "bucketList": false
     },
     {
@@ -6262,6 +6331,19 @@
       },
       "concertCount": 1,
       "bucketList": false
+    },
+    {
+      "slug": "grieg-holberg-suite",
+      "type": "work",
+      "path": "Works/Grieg - Holberg Suite.md",
+      "title": "Grieg - Holberg Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Grieg, Edvard",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
     },
     {
       "slug": "grieg-peer-gynt-suite-no-1",
@@ -7327,6 +7409,19 @@
       "bucketList": true
     },
     {
+      "slug": "ravel-le-tombeau-de-couperin",
+      "type": "work",
+      "path": "Works/Ravel - Le Tombeau de Couperin.md",
+      "title": "Ravel - Le Tombeau de Couperin",
+      "content": "",
+      "frontmatter": {
+        "composer": "Ravel, Maurice",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
       "slug": "ravel-mother-goose-suite",
       "type": "work",
       "path": "Works/Ravel - Mother Goose Suite.md",
@@ -8179,6 +8274,19 @@
       "bucketList": false
     },
     {
+      "slug": "stravinsky-pulcinella-suite",
+      "type": "work",
+      "path": "Works/Stravinsky - Pulcinella Suite.md",
+      "title": "Stravinsky - Pulcinella Suite",
+      "content": "",
+      "frontmatter": {
+        "composer": "Stravinsky, Igor",
+        "opus": ""
+      },
+      "concertCount": 0,
+      "bucketList": true
+    },
+    {
       "slug": "tchaikovsky-capriccio-italien",
       "type": "work",
       "path": "Works/Tchaikovsky - Capriccio Italien.md",
@@ -8873,9 +8981,9 @@
         "vivaldi-concerto-for-four-violins-in-b-minor",
         "nielsen-little-suite",
         "mozart-symphony-no-39-in-e-flat-major",
-        "copland-the-tender-land",
-        "glazunov-scenes-de-ballet",
         "hanson-song-of-democracy",
+        "copland-the-promise-of-living-from-the-tender-land",
+        "glazunov-scenes-de-ballet",
         "sibelius-symphony-no-1-in-e-minor",
         "mozart-eine-kleine-nachtmusik",
         "corelli-violin-sonata-in-d-minor-op-5-no-7",
@@ -8974,7 +9082,7 @@
         "beethoven-overture-to-fidelio",
         "grieg-peer-gynt-suite-no-2",
         "lutoslawski-concerto-for-orchestra",
-        "elgar-enigma-variations",
+        "elgar-nimrod-from-enigma-variations",
         "brahms-academic-festival-overture",
         "anderson-plink-plank-plunk"
       ]
@@ -9233,7 +9341,7 @@
         "glinka-ruslan-and-ludmila-overture",
         "haydn-symphony-no-104-in-d-major-london",
         "mozart-sinfonia-concertante-for-violin-and-viola",
-        "elgar-enigma-variations",
+        "elgar-nimrod-from-enigma-variations",
         "prokofiev-overture-on-hebrew-themes",
         "prokofiev-violin-concerto-no-2-in-g-minor",
         "tchaikovsky-symphony-no-4-in-f-minor",
@@ -9414,12 +9522,14 @@
         "mendelssohn-hebrides-overture-fingal-s-cave",
         "elgar-in-the-south-alassio-concert-overture",
         "anderson-sleigh-ride",
+        "elgar-nimrod-from-enigma-variations",
         "higdon-blue-cathedral",
         "mozart-sinfonia-concertante-for-violin-and-viola",
         "vaughan-williams-symphony-no-5",
         "chevalier-de-saint-georges-overture-to-l-amant-anonyme",
         "faure-pavane",
         "sankey-carmen-fantasy-after-bizet",
+        "bloch-prayer-from-jewish-life",
         "dvorak-symphony-no-7-in-d-minor",
         "ives-the-unanswered-question",
         "mahler-symphony-no-4",
@@ -9434,30 +9544,35 @@
     }
   ],
   "orderedBucketList": [
-    "Rachmaninoff - Symphonic Dances",
     "Sibelius - Pohjola's Daughter",
+    "Stravinsky - Pulcinella Suite",
+    "Copland - The Tender Land Suite",
+    "Grieg - Holberg Suite",
+    "Rachmaninoff - Symphonic Dances",
     "Rachmaninoff - Isle of the Dead",
+    "de Falla - The Three-Cornered Hat Suite",
     "Ravel - Daphnis et Chloe Suite No. 2",
     "Ravel - Mother Goose Suite",
+    "Ravel - Le Tombeau de Couperin",
     "Sibelius - Suite for Violin and String Orchestra",
     "Tchaikovsky - Symphony No. 6 in B Minor",
     "Prokofiev - Symphony No. 7 in C-Sharp Minor",
     "Bizet - Symphony in C",
     "Copland - Appalachian Spring",
+    "Copland - The Red Pony Suite",
     "Debussy - La Mer",
+    "Chavez - Sinfonia India (\"Symphony No. 2\")",
     "Berlioz - Symphonie Fantastique",
     "Brahms - Symphony No. 2 in D Major",
     "Sibelius - Symphony No. 6 in D Minor",
     "Britten - Simple Symphony",
     "Janacek - Sinfonietta",
-    "Mahler - Symphony No. 5",
     "Mahler - Symphony No. 1",
+    "Mahler - Symphony No. 5",
     "Beethoven - Symphony No. 3 in E-Flat Major",
-    "Copland - The Tender Land",
     "Respighi - The Pines of Rome",
     "Respighi - The Fountains of Rome",
     "Theofanidis - Rainbow Body",
-    "de Falla - The Three-Cornered Hat Suite",
     "Rimsky-Korsakov - Scheherazade",
     "Khachaturian - Violin Concerto"
   ]

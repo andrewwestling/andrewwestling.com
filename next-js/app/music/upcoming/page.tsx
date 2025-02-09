@@ -18,7 +18,7 @@ export default async function UpcomingPage() {
   return (
     <div className="flex flex-col gap-6">
       <PageTitle>Upcoming Concerts</PageTitle>
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-16">
         {/* Up Next */}
         {upcomingConcerts.length > 0 && (
           <section>
