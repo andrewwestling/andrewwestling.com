@@ -12,20 +12,20 @@ export function WorkSection({ work }: { work?: Work[] }) {
       <div className="space-y-12">
         {work.map((item, index) => (
           <div key={index} className="no-break">
-            <div className="flex justify-between items-baseline mb-2">
-              <div>
-                <div className="text-preset-4-bold">{item.position}</div>
-                <div className="text-preset-3">
-                  <ExternalLink href={item.url}>{item.name}</ExternalLink>
-                  {item.name && item.location && " · "}
-                  {item.location}
-                </div>
+            <div className="mb-2">
+              <div className="flex justify-between">
+                <span className="text-preset-4-bold">{item.position}</span>
+                <span
+                  className="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                  title={formatDateRange(item.startDate, item.endDate)}
+                >
+                  {formatYearRange(item.startDate, item.endDate)}
+                </span>
               </div>
-              <div
-                className="text-preset-2 text-muted dark:text-muted-dark"
-                title={formatDateRange(item.startDate, item.endDate)}
-              >
-                {formatYearRange(item.startDate, item.endDate)}
+              <div className="text-preset-3">
+                <ExternalLink href={item.url}>{item.name}</ExternalLink>
+                {item.name && item.location && " · "}
+                {item.location}
               </div>
             </div>
             {item.summary && (
