@@ -10,6 +10,16 @@ export function formatDate(dateString: string | undefined): string {
   }).format(date);
 }
 
+export function formatDateLong(dateString: string | undefined): string {
+  if (!dateString) return "Present";
+
+  const date = new Date(dateString + "T12:00:00");
+  return new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    year: "numeric",
+  }).format(date);
+}
+
 export function formatYearRange(startDate: string, endDate?: string): string {
   if (!startDate) return "";
 

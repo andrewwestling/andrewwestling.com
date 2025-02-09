@@ -1,5 +1,5 @@
 import React from "react";
-import { formatDate } from "../utils";
+import { formatDateLong } from "../utils";
 
 interface MetaProps {
   lastModified?: string;
@@ -10,7 +10,7 @@ export function MetaSection({ lastModified }: MetaProps) {
 
   return (
     <div className="text-preset-1 text-muted dark:text-muted-dark mt-8">
-      Updated {formatDate(lastModified)}
+      Updated {formatDateLong(lastModified)}
     </div>
   );
 }
