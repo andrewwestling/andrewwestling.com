@@ -3,9 +3,9 @@ import React from "react";
 export function formatDate(dateString: string | undefined): string {
   if (!dateString) return "Present";
 
-  const date = new Date(dateString);
+  const date = new Date(dateString + "T12:00:00");
   return new Intl.DateTimeFormat("en-US", {
-    month: "long",
+    month: "numeric",
     year: "numeric",
   }).format(date);
 }
@@ -22,7 +22,7 @@ export function formatYearRange(startDate: string, endDate?: string): string {
 export function formatDateRange(startDate: string, endDate?: string): string {
   const start = formatDate(startDate);
   const end = formatDate(endDate);
-  return `${start} - ${end}`;
+  return `${start}–${end}`;
 }
 
 export function formatLocation(

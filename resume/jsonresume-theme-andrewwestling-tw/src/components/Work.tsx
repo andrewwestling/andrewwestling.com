@@ -15,11 +15,8 @@ export function WorkSection({ work }: { work?: Work[] }) {
             <div className="mb-2">
               <div className="flex justify-between">
                 <span className="text-preset-4-bold">{item.position}</span>
-                <span
-                  className="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
-                  title={formatDateRange(item.startDate, item.endDate)}
-                >
-                  {formatYearRange(item.startDate, item.endDate)}
+                <span className="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">
+                  {formatDateRange(item.startDate, item.endDate)}
                 </span>
               </div>
               <div className="text-preset-3">
