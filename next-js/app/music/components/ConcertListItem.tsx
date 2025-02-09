@@ -54,9 +54,11 @@ export async function ConcertListItem({
   return (
     <article className="flex flex-col gap-6">
       <div>
-        <span className="text-preset-3-bold mb-2 flex items-center gap-2">
+        <span className="text-preset-3-bold mb-2 block gap-2">
           <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
-          <ConcertBadges concert={concert} />
+          <span className="ml-2">
+            <ConcertBadges concert={concert} />
+          </span>
         </span>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-medium">Date</dt>
