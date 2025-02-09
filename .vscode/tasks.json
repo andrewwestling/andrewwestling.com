@@ -76,7 +76,7 @@
       "type": "npm",
       "script": "build",
       "options": {
-        "cwd": "resume/jsonresume-theme-andrewwestling-tw"
+        "cwd": "resume/jsonresume-theme-andrewwestling"
       },
       "group": "none",
       "problemMatcher": []

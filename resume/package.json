@@ -5,14 +5,14 @@
   "private": true,
   "scripts": {
     "build": "resumed render resume.json",
-    "build:html": "resumed render resume.json -t jsonresume-theme-andrewwestling-tw -o",
+    "build:html": "resumed render resume.json -t jsonresume-theme-andrewwestling -o",
     "build:pdf": "node generate-pdf.js",
     "build:all": "npm run build:html && npm run build:pdf",
     "serve": "resumed serve resume.json"
   },
   "dependencies": {
     "resumed": "^3.0.0",
-    "jsonresume-theme-andrewwestling-tw": "file:./jsonresume-theme-andrewwestling-tw",
+    "jsonresume-theme-andrewwestling": "file:./jsonresume-theme-andrewwestling",
     "puppeteer": "^22.8.2"
   }
 }
