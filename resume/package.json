@@ -1,5 +1,18 @@
 {
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume generation tools using JSON Resume format",
+  "private": true,
+  "scripts": {
+    "build": "resumed render resume.json",
+    "build:html": "resumed render resume.json -t jsonresume-theme-andrewwestling-tw -o",
+    "build:pdf": "node generate-pdf.js",
+    "build:all": "npm run build:html && npm run build:pdf",
+    "serve": "resumed serve resume.json"
+  },
   "dependencies": {
-    "resume-cli": "^3.0.8"
+    "resumed": "^3.0.0",
+    "jsonresume-theme-andrewwestling-tw": "file:./jsonresume-theme-andrewwestling-tw",
+    "puppeteer": "^22.8.2"
   }
 }
