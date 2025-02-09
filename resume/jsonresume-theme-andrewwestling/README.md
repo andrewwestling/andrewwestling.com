@@ -1,18 +1,15 @@
 # jsonresume-theme-andrewwestling
 
-(My fork of the Actual theme for JSON Resume)
-
-Below is just the regular README content with some stuff changed and removed as it makes sense
-
----
-
-Minimalist and modern theme for [JSON Resume](https://jsonresume.org/) standard, designed for
+A modern Tailwind/JSX theme for [JSON Resume](https://jsonresume.org/) standard, designed for
 the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json).
 
-- Only meaningful information
-- Single color
-- Single font-family
-- Single page? Up to you!
+Features:
+
+- Modern, clean design using Tailwind CSS
+- Built with TypeScript and React/JSX
+- Markdown support for text fields
+- Responsive layout
+- Print-friendly styling
 
 ## Table of contents
 
@@ -27,27 +24,40 @@ the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/
 
 ## Prerequisites
 
-- [node.js](https://nodejs.org/en/) runtime with [resume-cli](https://github.com/jsonresume/resume-cli/)
+- [node.js](https://nodejs.org/en/) runtime with [resumed](https://github.com/rbardini/resumed)
 
 ```bash
-npm install -g resume-cli
+npm install -g resumed
 ```
 
 ## Export resume
 
 - Create your [resume.json](https://jsonresume.org/schema/) file
+- Install and use the theme:
 
 ```bash
-resume export resume.pdf --format pdf --theme ./jsonresume-theme-andrewwestling
-resume export resume.html --format html --theme ./jsonresume-theme-andrewwestling
+npm install jsonresume-theme-andrewwestling
+resumed render resume.json -t jsonresume-theme-andrewwestling -o resume.html
+```
+
+You can also use the included development scripts to generate HTML and PDF versions:
+
+```bash
+npm run create-html
+npm run create-pdf
 ```
 
 ## Development
 
 ```bash
+# Install dependencies
 npm install
 
-gulp
+# Build the theme
+npm run build
+
+# Development with watch mode
+npm run dev
 ```
 
-You can live edit any .scss or .pug file
+The development server will watch for changes in the TypeScript/JSX files and Tailwind CSS styles.

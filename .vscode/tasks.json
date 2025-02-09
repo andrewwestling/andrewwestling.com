@@ -10,7 +10,7 @@
       "options": {
         "cwd": "next-js/"
       },
-      "dependsOn": ["Install"],
+      "dependsOn": ["Install", "Install (Tailwind Config)"],
       "problemMatcher": ["$tsc-watch"]
     },
     {
@@ -25,7 +25,18 @@
       "problemMatcher": ["$tsc-watch"]
     },
     {
-      "command": "resume export --theme ./jsonresume-theme-andrewwestling ../next-js/app/resume/components/resume.html && resume export --theme ./jsonresume-theme-andrewwestling ../next-js/public/assets/'Andrew Westling Resume'.pdf",
+      "command": "npm install",
+      "detail": "Install dependencies (Tailwind Config)",
+      "group": "build",
+      "label": "Install (Tailwind Config)",
+      "type": "shell",
+      "options": {
+        "cwd": "tailwind/"
+      },
+      "problemMatcher": ["$tsc-watch"]
+    },
+    {
+      "command": "npm run build:html \"${input:resumeHtmlPath}\" && npm run build:pdf \"${input:resumeHtmlPath}\" \"${input:resumePdfPath}\"",
       "detail": "Generate HTML resume and put it in public folder",
       "label": "Resume: Regenerate HTML and PDF",
       "type": "shell",
@@ -33,14 +44,37 @@
         "cwd": "resume/"
       },
       "group": "none",
-      "dependsOn": ["Resume: Regenerate CSS"],
+      "problemMatcher": [],
+      "dependsOn": ["Resume: Generate HTML", "Resume: Generate PDF"]
+    },
+    {
+      "command": "npm run build:html \"${input:resumeHtmlPath}\"",
+      "detail": "Generate HTML resume from JSON",
+      "label": "Resume: Generate HTML",
+      "type": "shell",
+      "options": {
+        "cwd": "resume/"
+      },
+      "group": "none",
+      "dependsOn": ["Resume: Build Theme"],
       "problemMatcher": []
     },
     {
-      "label": "Resume: Regenerate CSS",
-      "detail": "Generate resume CSS from SCSS files",
+      "command": "npm run build:pdf \"${input:resumeHtmlPath}\" \"${input:resumePdfPath}\"",
+      "detail": "Generate PDF resume from HTML",
+      "label": "Resume: Generate PDF",
+      "type": "shell",
+      "options": {
+        "cwd": "resume/"
+      },
+      "group": "none",
+      "problemMatcher": []
+    },
+    {
+      "label": "Resume: Build Theme",
+      "detail": "Build resume theme from source",
       "type": "npm",
-      "script": "gulp:css",
+      "script": "build",
       "options": {
         "cwd": "resume/jsonresume-theme-andrewwestling"
       },
@@ -81,6 +115,18 @@
       "type": "promptString",
       "description": "Path to the Obsidian vault",
       "default": "./app/music/data/vault"
+    },
+    {
+      "id": "resumeHtmlPath",
+      "type": "promptString",
+      "description": "Path where the HTML resume should be generated",
+      "default": "../next-js/app/resume/components/resume.html"
+    },
+    {
+      "id": "resumePdfPath",
+      "type": "promptString",
+      "description": "Path where the PDF resume should be generated",
+      "default": "../next-js/public/assets/Andrew Westling Resume.pdf"
     }
   ]
 }

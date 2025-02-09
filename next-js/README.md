@@ -15,7 +15,7 @@ I also have [VS Code Tasks](https://code.visualstudio.com/docs/editor/tasks) set
 
 ## Theme
 
-The "theme" is available in [`tailwind.config.ts`](tailwind.config.ts). It's not precious, and I change my mind sometimes.
+The theme configuration is imported from `@andrewwestling/tailwind-config` and used in [`tailwind.config.ts`](tailwind.config.ts). It's not precious, and I change my mind sometimes.
 
 ## Deployment
 

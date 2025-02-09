@@ -5,7 +5,7 @@ import { Concert, Venue } from "@music/lib/types";
 import { formatConcertTitle, getSiteUrl } from "@music/lib/helpers";
 import { getVenueByTitle } from "@music/data/queries/venues";
 import { getGroupByTitle } from "@music/data/queries/groups";
-import { awdsColors } from "@/tailwind.config";
+import { awdsColors } from "@andrewwestling/tailwind-config";
 
 const PRIMARY_COLOR = awdsColors.primary.DEFAULT;
 const DEFAULT_TIMEZONE = "America/New_York";
