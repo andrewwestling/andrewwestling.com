@@ -1,6 +1,24 @@
-import { Work } from "./types";
+import { Concert, Work } from "./types";
 import { getConductorByTitle } from "@music/data/queries/conductors";
 import { getSeasons } from "@music/data/queries/seasons";
+import { getVenueByTitle } from "@music/data/queries/venues";
+import { DateTime } from "luxon";
+import tzlookup from "tz-lookup";
+
+// Get timezone from venue coordinates if available, otherwise use New York
+export function getVenueTimeZone(venue?: {
+  frontmatter: { coordinates?: string };
+}) {
+  const DEFAULT_TIMEZONE = "America/New_York";
+
+  if (venue?.frontmatter.coordinates) {
+    const [lat, lon] = venue.frontmatter.coordinates
+      .split(",")
+      .map((c) => parseFloat(c.trim()));
+    return tzlookup(lat, lon);
+  }
+  return DEFAULT_TIMEZONE;
+}
 
 // Helper to extract date from frontmatter
 export function getDateFromFrontmatter(concert: {
@@ -99,8 +117,39 @@ export function findConductorSlug(name: string): string | undefined {
   return conductor?.slug;
 }
 
-export function isUpcoming(date: string): boolean {
-  return new Date(date) >= new Date();
+export function isUpcoming(concert: Concert): boolean {
+  const venueObj = concert.frontmatter.venue
+    ? getVenueByTitle(concert.frontmatter.venue)
+    : undefined;
+  const now = DateTime.now();
+
+  // Parse the concert date in its local timezone
+  const concertDate = DateTime.fromISO(
+    concert.frontmatter.date.replace("Z", ""),
+    { zone: getVenueTimeZone(venueObj) }
+  );
+
+  // Compare with current time
+  return now < concertDate;
+}
+
+export function isHappeningNow(concert: Concert): boolean {
+  const venueObj = concert.frontmatter.venue
+    ? getVenueByTitle(concert.frontmatter.venue)
+    : undefined;
+  const now = DateTime.now();
+
+  // Parse the concert date in its local timezone
+  const concertDate = DateTime.fromISO(
+    concert.frontmatter.date.replace("Z", ""),
+    { zone: getVenueTimeZone(venueObj) }
+  );
+
+  // Add 2 hours to the concert date
+  const concertEndDate = concertDate.plus({ hours: 2 });
+
+  // Concert is happening now if current time is between start and end
+  return now >= concertDate && now <= concertEndDate;
 }
 
 export function getCurrentSeasonYear(): number {

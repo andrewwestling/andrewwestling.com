@@ -113,7 +113,7 @@ export async function ConcertListItem({
         </dl>
       </div>
 
-      {showAttendActions && isUpcoming(concert.frontmatter.date) && (
+      {showAttendActions && isUpcoming(concert) && (
         <AttendActions concert={concert} />
       )}
     </article>

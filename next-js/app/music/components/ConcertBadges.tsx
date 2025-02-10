@@ -1,6 +1,7 @@
 import { DidNotPlay } from "./DidNotPlay";
 import { Upcoming } from "./Upcoming";
-import { isUpcoming } from "@music/lib/helpers";
+import { HappeningNow } from "./HappeningNow";
+import { isUpcoming, isHappeningNow } from "@music/lib/helpers";
 import { Concert } from "@music/lib/types";
 
 interface ConcertBadgesProps {
@@ -9,9 +10,10 @@ interface ConcertBadgesProps {
 
 export const ConcertBadges = ({ concert }: ConcertBadgesProps) => {
   return (
-    <>
+    <span className="inline-flex gap-2">
       {concert.frontmatter.didNotPlay && <DidNotPlay />}
-      {isUpcoming(concert.frontmatter.date) && <Upcoming />}
-    </>
+      {isHappeningNow(concert) && <HappeningNow />}
+      {isUpcoming(concert) && !isHappeningNow(concert) && <Upcoming />}
+    </span>
   );
 };

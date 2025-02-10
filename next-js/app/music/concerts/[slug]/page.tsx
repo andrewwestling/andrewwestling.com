@@ -77,7 +77,7 @@ export default async function ConcertPage(props: PageProps) {
     <article className="flex flex-col gap-6">
       <PageTitle>{displayTitle}</PageTitle>
 
-      {isUpcoming(concert.frontmatter.date) && (
+      {isUpcoming(concert) && (
         <div className="mb-6">
           <SectionHeading>Attend</SectionHeading>
           <AttendActions concert={concert} />
