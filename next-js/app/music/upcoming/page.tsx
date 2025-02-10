@@ -1,15 +1,13 @@
 import { Metadata } from "next";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { getSiteUrl } from "@music/lib/helpers";
+import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";
 import { SectionHeading } from "../components/SectionHeading";
 import { CalendarUrlCopy } from "../components/CalendarUrlCopy";
 import { PageTitle } from "../components/PageTitle";
 
-/**
- * Revalidate every hour so the "up next" concert will be correct after the concert happens
- */
-export const revalidate = 3600;
+// Make this page dynamic so it will stay up-to-date as concerts happen
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Upcoming Concerts",
@@ -20,38 +18,37 @@ export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();
   const calendarUrl = `${getSiteUrl()}/music/upcoming.ics`;
 
+  // Find the first happening now or upcoming concert
+  const upNext =
+    upcomingConcerts.find((concert) => isHappeningNow(concert)) ||
+    upcomingConcerts[0];
+  const laterConcerts = upcomingConcerts.filter(
+    (concert) => concert !== upNext
+  );
+
   return (
     <div className="flex flex-col gap-6">
       <PageTitle>Upcoming Concerts</PageTitle>
       <div className="flex flex-col gap-16">
         {/* Up Next */}
-        {upcomingConcerts.length > 0 && (
+        {upNext && (
           <section>
             <SectionHeading>Up Next</SectionHeading>
             <div className="grid gap-4">
-              {upcomingConcerts.slice(0, 1).map((concert) => (
-                <ConcertListItem
-                  key={concert.slug}
-                  concert={concert}
-                  expanded
-                  showAttendActions
-                />
-              ))}
+              <ConcertListItem concert={upNext} expanded showAttendActions />
             </div>
           </section>
         )}
 
         {/* Later This Season */}
-        {upcomingConcerts.length > 1 && (
+        {laterConcerts.length > 0 && (
           <section>
             <SectionHeading>Later This Season</SectionHeading>
-            {upcomingConcerts.length > 0 && (
-              <div className="grid gap-4">
-                {upcomingConcerts.slice(1).map((concert) => (
-                  <ConcertListItem key={concert.slug} concert={concert} />
-                ))}
-              </div>
-            )}
+            <div className="grid gap-4">
+              {laterConcerts.map((concert) => (
+                <ConcertListItem key={concert.slug} concert={concert} />
+              ))}
+            </div>
           </section>
         )}
 

@@ -38,6 +38,7 @@ import { SectionHeading } from "@music/components/SectionHeading";
 import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
 import VenueMap from "@music/components/VenueMap";
+import { HappeningNow } from "@music/components/HappeningNow";
 
 export const metadata = { title: "AWDS" };
 
@@ -507,6 +508,16 @@ This badge is used to indicate when I didn't play in a particular concert, or it
 
 <ComponentWrapper>
   <DidNotPlay />
+</ComponentWrapper>
+
+---
+
+### HappeningNow
+
+This badge is used to indicate concerts that are currently in progress (within 2 hours of start time).
+
+<ComponentWrapper>
+  <HappeningNow />
 </ComponentWrapper>
 
 ---

@@ -1,6 +1,10 @@
 import database from "../database";
 import { Concert } from "@music/lib/types";
-import { getDateFromFrontmatter, isUpcoming } from "@music/lib/helpers";
+import {
+  getDateFromFrontmatter,
+  isUpcoming,
+  isHappeningNow,
+} from "@music/lib/helpers";
 
 export function getConcerts() {
   return database.concert;
@@ -52,7 +56,7 @@ export function getUpcomingConcerts() {
   return database.concert
     .filter((concert) => {
       const date = getDateFromFrontmatter(concert);
-      return date ? isUpcoming(date.toISOString()) : false;
+      return date ? isUpcoming(concert) || isHappeningNow(concert) : false;
     })
     .sort((a, b) => {
       const dateA = getDateFromFrontmatter(a);

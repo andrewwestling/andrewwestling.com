@@ -13,17 +13,16 @@ import { IndexPage } from "../components/IndexPage";
 import { routes } from "../lib/routes";
 import { Upcoming } from "../components/Upcoming";
 import { ConcertListItem } from "../components/ConcertListItem";
+import { ConcertBadges } from "../components/ConcertBadges";
 
 export const metadata: Metadata = {
   title: "Concerts",
   description: "Concerts I've performed in",
 };
 
-export default async function ConcertsPage(
-  props: {
-    searchParams: Promise<{ [key: string]: string | undefined }>;
-  }
-) {
+export default async function ConcertsPage(props: {
+  searchParams: Promise<{ [key: string]: string | undefined }>;
+}) {
   const searchParams = await props.searchParams;
   let concerts = [...getConcerts()];
 
@@ -86,7 +85,7 @@ export default async function ConcertsPage(
         alphabetical: false,
         date: concert.frontmatter.date,
       },
-      badges: [isUpcoming(concert.frontmatter.date) ? <Upcoming /> : null],
+      badges: [<ConcertBadges key={concert.slug} concert={concert} />],
     };
   });
 

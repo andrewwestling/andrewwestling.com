@@ -7,7 +7,7 @@ interface AttendActionsProps {
 }
 
 export const AttendActions = ({ concert }: AttendActionsProps) => {
-  if (!isUpcoming(concert.frontmatter.date)) {
+  if (!isUpcoming(concert)) {
     return null;
   }
 

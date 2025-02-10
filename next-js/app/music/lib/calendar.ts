@@ -1,25 +1,16 @@
-import tzlookup from "tz-lookup";
 import { DateTime } from "luxon";
 import { createEvents, DateArray, EventAttributes } from "ics";
-import { Concert, Venue } from "@music/lib/types";
-import { formatConcertTitle, getSiteUrl } from "@music/lib/helpers";
+import { Concert } from "@music/lib/types";
+import {
+  formatConcertTitle,
+  getSiteUrl,
+  getVenueTimeZone,
+} from "@music/lib/helpers";
 import { getVenueByTitle } from "@music/data/queries/venues";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { awdsColors } from "@andrewwestling/tailwind-config";
 
 const PRIMARY_COLOR = awdsColors.primary.DEFAULT;
-const DEFAULT_TIMEZONE = "America/New_York";
-
-// Get timezone from venue coordinates if available
-function getTimeZone(venue?: Venue) {
-  if (venue?.frontmatter.coordinates) {
-    const [lat, lon] = venue.frontmatter.coordinates
-      .split(",")
-      .map((c) => parseFloat(c.trim()));
-    return tzlookup(lat, lon);
-  }
-  return DEFAULT_TIMEZONE;
-}
 
 // Convert a concert into an ICS event object
 export function concertToEvent(concert: Concert): EventAttributes {
@@ -32,9 +23,7 @@ export function concertToEvent(concert: Concert): EventAttributes {
   // Parse the date as local time in the venue's timezone
   const localDate = DateTime.fromISO(
     concert.frontmatter.date.replace("Z", ""),
-    {
-      zone: getTimeZone(venue),
-    }
+    { zone: getVenueTimeZone(venue) }
   );
 
   // Convert to UTC for the calendar
