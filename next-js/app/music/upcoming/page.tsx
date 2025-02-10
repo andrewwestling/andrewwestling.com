@@ -6,6 +6,11 @@ import { SectionHeading } from "../components/SectionHeading";
 import { CalendarUrlCopy } from "../components/CalendarUrlCopy";
 import { PageTitle } from "../components/PageTitle";
 
+/**
+ * Revalidate every hour so the "up next" concert will be correct after the concert happens
+ */
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: "Upcoming Concerts",
   description: "Upcoming concerts I'm performing in",
