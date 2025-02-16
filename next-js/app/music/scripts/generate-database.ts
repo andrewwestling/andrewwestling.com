@@ -2,7 +2,14 @@ import * as fs from "fs/promises";
 import * as fsSync from "fs";
 import * as path from "path";
 import matter from "gray-matter";
-import { Database, VaultObject, Work, Concert, Season } from "../lib/types";
+import {
+  Database,
+  VaultObject,
+  Work,
+  Concert,
+  Season,
+  ConcertWork,
+} from "../lib/types";
 
 // Helper to convert strings to URL-friendly slugs
 function slugify(text: string): string {
@@ -85,10 +92,168 @@ function generateSlug(
   return slugify(title);
 }
 
+// Helper to convert numbers to roman numerals
+function toRomanNumeral(num: number): string {
+  const romanNumerals = [
+    { value: 10, numeral: "X" },
+    { value: 9, numeral: "IX" },
+    { value: 5, numeral: "V" },
+    { value: 4, numeral: "IV" },
+    { value: 1, numeral: "I" },
+  ];
+
+  let result = "";
+  let remaining = num;
+
+  for (const { value, numeral } of romanNumerals) {
+    while (remaining >= value) {
+      result += numeral;
+      remaining -= value;
+    }
+  }
+
+  return result;
+}
+
+// Helper to parse movements from a work's content
+function parseWorkMovements(content: string): string[] | undefined {
+  const movementsMatch = content.match(/## Movements\n([\s\S]*?)(?=\n##|$)/);
+  if (!movementsMatch) return undefined;
+
+  const movementsContent = movementsMatch[1].trim();
+  const movements: string[] = [];
+  let currentMovementNumber = 1;
+
+  // Split into lines and process each one
+  const lines = movementsContent.split("\n");
+  for (const line of lines) {
+    const trimmedLine = line.trim();
+    if (!trimmedLine) continue;
+
+    // Look for ordered list items (1., 2., etc) or unordered list items (-, *)
+    const listItemMatch = trimmedLine.match(/^(?:\d+\.|-|\*)\s*(.+)$/);
+    if (listItemMatch) {
+      // Format with roman numerals
+      movements.push(
+        `${toRomanNumeral(currentMovementNumber)}. ${listItemMatch[1]}`
+      );
+      currentMovementNumber++;
+    }
+  }
+
+  return movements.length > 0 ? movements : undefined;
+}
+
+// Helper to parse Program Details blocks from concert content
+function parseProgramDetails(
+  content: string,
+  works: Work[]
+): ConcertWork[] | undefined {
+  // Look for the Program Details section
+  const programDetailsMatch = content.match(
+    /## Program Details\n([\s\S]*?)(?=\n##|$)/
+  );
+  if (!programDetailsMatch) return undefined;
+
+  const programDetailsContent = programDetailsMatch[1].trim();
+  const programWorks: ConcertWork[] = [];
+  let currentWork: Partial<ConcertWork> | null = null;
+
+  // Split into lines and process each one
+  const lines = programDetailsContent.split("\n");
+  for (const line of lines) {
+    const trimmedLine = line.trim();
+    if (!trimmedLine) continue;
+
+    // Check if this is a work line (starts with - or * and contains [[]])
+    const workMatch = trimmedLine.match(/^[-*]\s*\[\[(.*?)\]\]/);
+    if (workMatch) {
+      // If we have a current work, push it to the array
+      if (currentWork?.work) {
+        programWorks.push(currentWork as ConcertWork);
+      }
+
+      // Look up the work in the works array
+      const workTitle = extractTitleFromWikiLink(workMatch[0]);
+      const workObject = works.find((w) => w.title === workTitle);
+
+      // Only create a new work entry if we found the work
+      if (workObject) {
+        // Get default movements from the work if they exist
+        const defaultMovements = parseWorkMovements(workObject.content);
+
+        currentWork = {
+          work: workObject,
+          // Only set default movements if they exist
+          ...(defaultMovements && { movements: defaultMovements }),
+        };
+      } else {
+        console.warn(
+          `Warning: Work "${workTitle}" not found in works database`
+        );
+        currentWork = null;
+      }
+      continue;
+    }
+
+    // Only process other lines if we have a current work
+    if (!currentWork) continue;
+
+    // Check for conductor
+    if (trimmedLine.startsWith("- Conductor:")) {
+      const conductorMatch = trimmedLine.match(/\[\[(.*?)\]\]/);
+      if (conductorMatch) {
+        currentWork.conductor = extractTitleFromWikiLink(conductorMatch[0]);
+      }
+      continue;
+    }
+
+    // Check for soloists section
+    if (trimmedLine === "- Soloists:") {
+      currentWork.soloists = [];
+      continue;
+    }
+
+    // Add soloist entries
+    if (currentWork.soloists !== undefined && trimmedLine.match(/^[-*]\s/)) {
+      currentWork.soloists.push(trimmedLine.replace(/^[-*]\s*/, "").trim());
+      continue;
+    }
+
+    // Check for movements section
+    if (trimmedLine === "- Movements:") {
+      // Clear any default movements when explicitly specifying movements
+      currentWork.movements = [];
+      continue;
+    }
+
+    // Add movement entries
+    if (currentWork.movements !== undefined && trimmedLine.match(/^[-*]\s/)) {
+      const movementText = trimmedLine.replace(/^[-*]\s*/, "").trim();
+      // If the movement doesn't already start with a roman numeral, add one
+      if (!movementText.match(/^[IVX]+\./)) {
+        currentWork.movements.push(
+          `${toRomanNumeral(currentWork.movements.length + 1)}. ${movementText}`
+        );
+      } else {
+        currentWork.movements.push(movementText);
+      }
+    }
+  }
+
+  // Don't forget to add the last work if there is one
+  if (currentWork?.work) {
+    programWorks.push(currentWork as ConcertWork);
+  }
+
+  return programWorks.length > 0 ? programWorks : undefined;
+}
+
 async function readVaultDirectory(
   dirPath: string,
   type: VaultObject["type"],
-  vaultPath: string
+  vaultPath: string,
+  works?: Work[]
 ): Promise<VaultObject[]> {
   const objects: VaultObject[] = [];
 
@@ -106,7 +271,8 @@ async function readVaultDirectory(
         const subObjects = await readVaultDirectory(
           path.join(dirPath, entry.name),
           type,
-          vaultPath
+          vaultPath,
+          works
         );
         objects.push(...subObjects);
       } else if (entry.isFile() && entry.name.endsWith(".md")) {
@@ -145,6 +311,14 @@ async function readVaultDirectory(
             processedFrontmatter.date = concertDate;
           } else {
             delete processedFrontmatter.date;
+          }
+
+          // Parse program details if they exist and we have works available
+          if (works) {
+            const programDetails = parseProgramDetails(content, works);
+            if (programDetails) {
+              processedFrontmatter.programDetails = programDetails;
+            }
           }
         }
 
@@ -324,6 +498,16 @@ async function generateDatabase({
 }) {
   const database: Record<string, VaultObject[]> = {};
 
+  // Process works first
+  const worksPath = path.join(vaultPath, "Works");
+  const works = (await readVaultDirectory(
+    worksPath,
+    "work",
+    vaultPath
+  )) as Work[];
+  database.work = works;
+
+  // Then process all other directories
   const directories = [
     { path: "Concerts", type: "concert" },
     { path: "Composers", type: "composer" },
@@ -332,13 +516,18 @@ async function generateDatabase({
     { path: "Rehearsals", type: "rehearsal" },
     { path: "Sheet Music", type: "sheet-music" },
     { path: "Venues", type: "venue" },
-    { path: "Works", type: "work" },
     { path: "Seasons", type: "season" },
   ] as const;
 
   for (const dir of directories) {
     const dirPath = path.join(vaultPath, dir.path);
-    const objects = await readVaultDirectory(dirPath, dir.type, vaultPath);
+    // Pass the works array when processing concerts
+    const objects = await readVaultDirectory(
+      dirPath,
+      dir.type,
+      vaultPath,
+      dir.type === "concert" ? works : undefined
+    );
 
     // Filter out didNotPlay concerts if includeDidNotPlay is false
     if (dir.type === "concert" && !includeDidNotPlay) {
@@ -349,8 +538,8 @@ async function generateDatabase({
   }
 
   // After loading all the files, calculate counts and process seasons
-  calculateConcertCounts(database as unknown as Database); // TODO: Fix types here
-  processSeasons(database as unknown as Database); // TODO: Fix types here
+  calculateConcertCounts(database as unknown as Database);
+  processSeasons(database as unknown as Database);
   processBucketList(database as unknown as Database, vaultPath);
 
   const outputPath = path.resolve(__dirname, "../data/vault-data.json");

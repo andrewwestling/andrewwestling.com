@@ -140,22 +140,72 @@ export default async function ConcertPage(props: PageProps) {
         <div>
           <SectionHeading>Program</SectionHeading>
           <div className="flex flex-col gap-2">
-            {workObjects.map((work) => (
-              <ListItem
-                key={work.slug}
-                title={formatWorkTitle(work)}
-                href={routes.works.show(work.slug)}
-                stats={[
-                  work.frontmatter.composer &&
-                    `by ${formatComposerName(work.frontmatter.composer)}`,
-                ]}
-                badges={[
-                  work.bucketList ? (
-                    <BucketList played={work.concertCount > 0} />
-                  ) : null,
-                ]}
-              />
-            ))}
+            {workObjects.map((work) => {
+              // Find program details for this work if they exist
+              const programDetails = concert.frontmatter.programDetails?.find(
+                (details) => details.work.slug === work.slug
+              );
+
+              return (
+                <div key={work.slug} className="flex flex-col gap-1">
+                  <ListItem
+                    title={formatWorkTitle(work)}
+                    href={routes.works.show(work.slug)}
+                    stats={[
+                      work.frontmatter.composer &&
+                        `by ${formatComposerName(work.frontmatter.composer)}`,
+                    ]}
+                    badges={[
+                      work.bucketList ? (
+                        <BucketList played={work.concertCount > 0} />
+                      ) : null,
+                    ]}
+                  />
+
+                  {/* Show program details if they exist */}
+                  {programDetails && (
+                    <div className="ml-4 text-sm text-muted gap-2 flex flex-col">
+                      {/* Show movements if any */}
+                      {programDetails.movements &&
+                        programDetails.movements.length > 0 && (
+                          <div>
+                            <ul className="list-inside">
+                              {programDetails.movements.map((movement) => (
+                                <li key={movement}>{movement}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      {/* Show work-specific conductor if different from concert conductor */}
+                      {programDetails.conductor && (
+                        <div>
+                          <Link
+                            href={routes.conductors.show(
+                              findConductorSlug(programDetails.conductor) || ""
+                            )}
+                          >
+                            {programDetails.conductor}
+                          </Link>
+                          , conductor
+                        </div>
+                      )}
+
+                      {/* Show soloists if any */}
+                      {programDetails.soloists &&
+                        programDetails.soloists.length > 0 && (
+                          <div>
+                            <ul className="list-inside">
+                              {programDetails.soloists.map((soloist) => (
+                                <li key={soloist}>{soloist}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
