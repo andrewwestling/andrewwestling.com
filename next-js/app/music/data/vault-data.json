@@ -243,10 +243,10 @@
       "type": "work",
       "path": "Works/Bartok - Concerto for Orchestra.md",
       "title": "Bartok - Concerto for Orchestra",
-      "content": "",
+      "content": "## Movements\n1. Introduzione: Andante non troppo – Allegro vivace\n2. Giuoco delle coppie: Allegretto scherzando\n3. Elegia: Andante non troppo\n4. Intermezzo interrotto: Allegretto\n5. Finale: Presto",
       "frontmatter": {
         "composer": "Bartok, Bela",
-        "catalogue": "",
+        "catalogue": "Sz. 116",
         "displayName": ""
       },
       "concertCount": 1,
@@ -509,7 +509,7 @@
       "type": "work",
       "path": "Works/Bizet - L'Arlesienne Suite No. 1.md",
       "title": "Bizet - L'Arlesienne Suite No. 1",
-      "content": "I. Prelude\nII. Minuetto\nIII. Adagietto\nIV. Carillon",
+      "content": "## Movements\n1. Prélude\n2. Minuetto\n3. Adagietto\n4. Carillon",
       "frontmatter": {
         "composer": "Bizet, Georges",
         "catalogue": "",
@@ -719,10 +719,10 @@
       "type": "work",
       "path": "Works/Brahms - Variations on a Theme by Haydn.md",
       "title": "Brahms - Variations on a Theme by Haydn",
-      "content": "",
+      "content": "## Movements\n- Chorale St. Antoni: Andante\n- Variation I: Poco più animato\n- Variation II: Più vivace\n- Variation III: Con moto\n- Variation IV: Andante con moto\n- Variation V: Vivace\n- Variation VI: Vivace\n- Variation VII: Grazioso\n- Variation VIII: Presto non troppo\n- Finale: Andante",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": "",
+        "catalogue": "Op. 56a",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1067,10 +1067,10 @@
       "type": "work",
       "path": "Works/Debussy - Petite Suite.md",
       "title": "Debussy - Petite Suite",
-      "content": "",
+      "content": "## Movements\n1. En bateau (In a boat)\n2. Cortège (Retinue)\n3. Menuet\n4. Ballet",
       "frontmatter": {
         "composer": "Debussy, Claude",
-        "catalogue": "",
+        "catalogue": "L. 65",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1137,10 +1137,10 @@
       "type": "work",
       "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
       "title": "Dvorak - Symphony No. 6 in D Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": "",
+        "catalogue": "Op. 60",
         "displayName": ""
       },
       "concertCount": 5,
@@ -1528,10 +1528,10 @@
       "type": "work",
       "path": "Works/Grieg - Peer Gynt Suite No. 2.md",
       "title": "Grieg - Peer Gynt Suite No. 2",
-      "content": "",
+      "content": "## Movements\n1. The Abduction of the Bride (Bruderovet) – Ingrid's Lament\n2. Arabian Dance (Arabisk dans)\n3. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)\n4. Solveig's Song (Solveigs sang)",
       "frontmatter": {
         "composer": "Grieg, Edvard",
-        "catalogue": "",
+        "catalogue": "Op. 55",
         "displayName": ""
       },
       "concertCount": 3,
@@ -1612,10 +1612,10 @@
       "type": "work",
       "path": "Works/Haydn - Symphony No. 60 in C Major, \"Il Distratto\".md",
       "title": "Haydn - Symphony No. 60 in C Major, \"Il Distratto\"",
-      "content": "",
+      "content": "## Movements\n1. Adagio – Allegro di molto\n2. Andante\n3. Menuetto\n4. Presto\n5. Adagio (di Lamentatione)\n6. Finale: Prestissimo",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "catalogue": "",
+        "catalogue": "Hob. I:60",
         "displayName": ""
       },
       "concertCount": 2,
@@ -1724,7 +1724,7 @@
       "type": "work",
       "path": "Works/Ibert - Concertino da Camera.md",
       "title": "Ibert - Concertino da Camera",
-      "content": "",
+      "content": "## Movements\n1. Allegro con moto\n2. Larghetto – Animato molto",
       "frontmatter": {
         "composer": "Ibert, Jacques",
         "catalogue": "",
@@ -1808,7 +1808,7 @@
       "type": "work",
       "path": "Works/Kodaly - Hary Janos Suite.md",
       "title": "Kodaly - Hary Janos Suite",
-      "content": "",
+      "content": "## Movements\n1. Prelude: The Fairy Tale Begins\n2. Viennese Musical Clock\n3. Song\n4. The Battle and Defeat of Napoleon\n5. Intermezzo\n6. Entrance of the Emperor and His Court",
       "frontmatter": {
         "composer": "Kodaly, Zoltan",
         "catalogue": "",
@@ -1909,7 +1909,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Liszt, Franz",
-        "catalogue": "",
+        "catalogue": "S.100",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1920,7 +1920,7 @@
       "type": "work",
       "path": "Works/Lutoslawski - Concerto for Orchestra.md",
       "title": "Lutoslawski - Concerto for Orchestra",
-      "content": "",
+      "content": "## Movements\n1. Intrada (Allegro maestoso)\n2. Capriccio notturno e Arioso (Vivace)\n3. Passacaglia, Toccata e Corale (Andante con moto – Allegro giusto)",
       "frontmatter": {
         "composer": "Lutoslawski, Witold",
         "catalogue": "",
@@ -2298,10 +2298,10 @@
       "type": "work",
       "path": "Works/Mozart - Symphony No. 41, \"Jupiter\".md",
       "title": "Mozart - Symphony No. 41, \"Jupiter\"",
-      "content": "",
+      "content": "## Movements\n1. Allegro vivace\n2. Andante cantabile\n3. Menuetto: Allegretto\n4. Molto allegro",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": "",
+        "catalogue": "K. 551",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2354,10 +2354,10 @@
       "type": "work",
       "path": "Works/Nielsen - Flute Concerto.md",
       "title": "Nielsen - Flute Concerto",
-      "content": "",
+      "content": "## Movements\n1. Allegro moderato\n2. Allegretto",
       "frontmatter": {
         "composer": "Nielsen, Carl",
-        "catalogue": "",
+        "catalogue": "FS 119",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2617,7 +2617,7 @@
       "type": "work",
       "path": "Works/Ravel - String Quartet in F Major.md",
       "title": "Ravel - String Quartet in F Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro moderato – très doux\n2. Assez vif – très rythmé\n3. Très lent\n4. Vif et agité",
       "frontmatter": {
         "composer": "Ravel, Maurice",
         "catalogue": "",
@@ -2883,10 +2883,10 @@
       "type": "work",
       "path": "Works/Saint-Saens - Symphony No. 3 in C Minor, \"Organ\".md",
       "title": "Saint-Saens - Symphony No. 3 in C Minor, \"Organ\"",
-      "content": "",
+      "content": "## Movements\n1. Adagio – Allegro moderato – Poco adagio\n2. Allegro moderato – Presto – Maestoso – Allegro",
       "frontmatter": {
         "composer": "Saint-Saens, Camille",
-        "catalogue": "78",
+        "catalogue": "Op. 78",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3051,10 +3051,10 @@
       "type": "work",
       "path": "Works/Sibelius - Karelia Suite.md",
       "title": "Sibelius - Karelia Suite",
-      "content": "",
+      "content": "## Movements\n1. Intermezzo (Allegro)\n2. Ballade (Tempo di menuetto)\n3. Alla marcia (Moderato)",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "catalogue": "",
+        "catalogue": "Op. 11",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3221,8 +3221,8 @@
       "content": "Ma Vlast",
       "frontmatter": {
         "composer": "Smetana, Bedrich",
-        "catalogue": "",
-        "displayName": ""
+        "catalogue": "JB 1:112/2",
+        "displayName": "The Moldau from Ma Vlast"
       },
       "concertCount": 1,
       "bucketList": false
@@ -3553,10 +3553,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Swan Lake Suite.md",
       "title": "Tchaikovsky - Swan Lake Suite",
-      "content": "",
+      "content": "## Movements\n1. Scene\n2. Valse\n3. Danse des cygnes\n4. Scene\n5. Czardas: Danse hongroise\n6. Scene finale",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "catalogue": "Op. 20a",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3595,10 +3595,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Symphony No. 5 in E Minor.md",
       "title": "Tchaikovsky - Symphony No. 5 in E Minor",
-      "content": "",
+      "content": "## Movements\n1. Andante – Allegro con anima\n2. Andante cantabile, con alcuna licenza\n3. Valse: Allegro moderato\n4. Finale: Andante maestoso – Allegro vivace",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "catalogue": "Op. 64",
         "displayName": ""
       },
       "concertCount": 1,
@@ -6557,15 +6557,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
               "title": "Dvorak - Symphony No. 6 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 60",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non tanto",
+              "II. Adagio",
+              "III. Scherzo (Furiant): Presto",
+              "IV. Finale: Allegro con spirito"
+            ]
           }
         ]
       }
@@ -6647,15 +6653,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
               "title": "Dvorak - Symphony No. 6 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 60",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non tanto",
+              "II. Adagio",
+              "III. Scherzo (Furiant): Presto",
+              "IV. Finale: Allegro con spirito"
+            ]
           }
         ]
       }
@@ -6737,15 +6749,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
               "title": "Dvorak - Symphony No. 6 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 60",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non tanto",
+              "II. Adagio",
+              "III. Scherzo (Furiant): Presto",
+              "IV. Finale: Allegro con spirito"
+            ]
           }
         ]
       }
@@ -6827,15 +6845,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
               "title": "Dvorak - Symphony No. 6 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 60",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non tanto",
+              "II. Adagio",
+              "III. Scherzo (Furiant): Presto",
+              "IV. Finale: Allegro con spirito"
+            ]
           }
         ]
       }
@@ -7348,15 +7372,23 @@
               "type": "work",
               "path": "Works/Haydn - Symphony No. 60 in C Major, \"Il Distratto\".md",
               "title": "Haydn - Symphony No. 60 in C Major, \"Il Distratto\"",
-              "content": "",
+              "content": "## Movements\n1. Adagio – Allegro di molto\n2. Andante\n3. Menuetto\n4. Presto\n5. Adagio (di Lamentatione)\n6. Finale: Prestissimo",
               "frontmatter": {
                 "composer": "Haydn, Joseph",
-                "catalogue": "",
+                "catalogue": "Hob. I:60",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Adagio – Allegro di molto",
+              "II. Andante",
+              "III. Menuetto",
+              "IV. Presto",
+              "V. Adagio (di Lamentatione)",
+              "VI. Finale: Prestissimo"
+            ]
           },
           {
             "work": {
@@ -7380,15 +7412,21 @@
               "type": "work",
               "path": "Works/Grieg - Peer Gynt Suite No. 2.md",
               "title": "Grieg - Peer Gynt Suite No. 2",
-              "content": "",
+              "content": "## Movements\n1. The Abduction of the Bride (Bruderovet) – Ingrid's Lament\n2. Arabian Dance (Arabisk dans)\n3. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)\n4. Solveig's Song (Solveigs sang)",
               "frontmatter": {
                 "composer": "Grieg, Edvard",
-                "catalogue": "",
+                "catalogue": "Op. 55",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. The Abduction of the Bride (Bruderovet) – Ingrid's Lament",
+              "II. Arabian Dance (Arabisk dans)",
+              "III. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)",
+              "IV. Solveig's Song (Solveigs sang)"
+            ]
           },
           {
             "work": {
@@ -7396,7 +7434,7 @@
               "type": "work",
               "path": "Works/Lutoslawski - Concerto for Orchestra.md",
               "title": "Lutoslawski - Concerto for Orchestra",
-              "content": "",
+              "content": "## Movements\n1. Intrada (Allegro maestoso)\n2. Capriccio notturno e Arioso (Vivace)\n3. Passacaglia, Toccata e Corale (Andante con moto – Allegro giusto)",
               "frontmatter": {
                 "composer": "Lutoslawski, Witold",
                 "catalogue": "",
@@ -7404,7 +7442,12 @@
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Intrada (Allegro maestoso)",
+              "II. Capriccio notturno e Arioso (Vivace)",
+              "III. Passacaglia, Toccata e Corale (Andante con moto – Allegro giusto)"
+            ]
           },
           {
             "work": {
@@ -7475,15 +7518,23 @@
               "type": "work",
               "path": "Works/Haydn - Symphony No. 60 in C Major, \"Il Distratto\".md",
               "title": "Haydn - Symphony No. 60 in C Major, \"Il Distratto\"",
-              "content": "",
+              "content": "## Movements\n1. Adagio – Allegro di molto\n2. Andante\n3. Menuetto\n4. Presto\n5. Adagio (di Lamentatione)\n6. Finale: Prestissimo",
               "frontmatter": {
                 "composer": "Haydn, Joseph",
-                "catalogue": "",
+                "catalogue": "Hob. I:60",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Adagio – Allegro di molto",
+              "II. Andante",
+              "III. Menuetto",
+              "IV. Presto",
+              "V. Adagio (di Lamentatione)",
+              "VI. Finale: Prestissimo"
+            ]
           },
           {
             "work": {
@@ -7507,15 +7558,21 @@
               "type": "work",
               "path": "Works/Grieg - Peer Gynt Suite No. 2.md",
               "title": "Grieg - Peer Gynt Suite No. 2",
-              "content": "",
+              "content": "## Movements\n1. The Abduction of the Bride (Bruderovet) – Ingrid's Lament\n2. Arabian Dance (Arabisk dans)\n3. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)\n4. Solveig's Song (Solveigs sang)",
               "frontmatter": {
                 "composer": "Grieg, Edvard",
-                "catalogue": "",
+                "catalogue": "Op. 55",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. The Abduction of the Bride (Bruderovet) – Ingrid's Lament",
+              "II. Arabian Dance (Arabisk dans)",
+              "III. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)",
+              "IV. Solveig's Song (Solveigs sang)"
+            ]
           },
           {
             "work": {
@@ -7523,7 +7580,7 @@
               "type": "work",
               "path": "Works/Lutoslawski - Concerto for Orchestra.md",
               "title": "Lutoslawski - Concerto for Orchestra",
-              "content": "",
+              "content": "## Movements\n1. Intrada (Allegro maestoso)\n2. Capriccio notturno e Arioso (Vivace)\n3. Passacaglia, Toccata e Corale (Andante con moto – Allegro giusto)",
               "frontmatter": {
                 "composer": "Lutoslawski, Witold",
                 "catalogue": "",
@@ -7531,7 +7588,12 @@
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Intrada (Allegro maestoso)",
+              "II. Capriccio notturno e Arioso (Vivace)",
+              "III. Passacaglia, Toccata e Corale (Andante con moto – Allegro giusto)"
+            ]
           },
           {
             "work": {
@@ -7604,15 +7666,21 @@
               "type": "work",
               "path": "Works/Grieg - Peer Gynt Suite No. 2.md",
               "title": "Grieg - Peer Gynt Suite No. 2",
-              "content": "",
+              "content": "## Movements\n1. The Abduction of the Bride (Bruderovet) – Ingrid's Lament\n2. Arabian Dance (Arabisk dans)\n3. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)\n4. Solveig's Song (Solveigs sang)",
               "frontmatter": {
                 "composer": "Grieg, Edvard",
-                "catalogue": "",
+                "catalogue": "Op. 55",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. The Abduction of the Bride (Bruderovet) – Ingrid's Lament",
+              "II. Arabian Dance (Arabisk dans)",
+              "III. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)",
+              "IV. Solveig's Song (Solveigs sang)"
+            ]
           },
           {
             "work": {
@@ -7620,15 +7688,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 6 in D Major.md",
               "title": "Dvorak - Symphony No. 6 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 60",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non tanto",
+              "II. Adagio",
+              "III. Scherzo (Furiant): Presto",
+              "IV. Finale: Allegro con spirito"
+            ]
           },
           {
             "work": {
@@ -7763,15 +7837,20 @@
               "type": "work",
               "path": "Works/Sibelius - Karelia Suite.md",
               "title": "Sibelius - Karelia Suite",
-              "content": "",
+              "content": "## Movements\n1. Intermezzo (Allegro)\n2. Ballade (Tempo di menuetto)\n3. Alla marcia (Moderato)",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": "",
+                "catalogue": "Op. 11",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Intermezzo (Allegro)",
+              "II. Ballade (Tempo di menuetto)",
+              "III. Alla marcia (Moderato)"
+            ]
           },
           {
             "work": {
@@ -7821,15 +7900,21 @@
               "type": "work",
               "path": "Works/Debussy - Petite Suite.md",
               "title": "Debussy - Petite Suite",
-              "content": "",
+              "content": "## Movements\n1. En bateau (In a boat)\n2. Cortège (Retinue)\n3. Menuet\n4. Ballet",
               "frontmatter": {
                 "composer": "Debussy, Claude",
-                "catalogue": "",
+                "catalogue": "L. 65",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. En bateau (In a boat)",
+              "II. Cortège (Retinue)",
+              "III. Menuet",
+              "IV. Ballet"
+            ]
           },
           {
             "work": {
@@ -7996,15 +8081,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 5 in E Minor.md",
               "title": "Tchaikovsky - Symphony No. 5 in E Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante – Allegro con anima\n2. Andante cantabile, con alcuna licenza\n3. Valse: Allegro moderato\n4. Finale: Andante maestoso – Allegro vivace",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 64",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante – Allegro con anima",
+              "II. Andante cantabile, con alcuna licenza",
+              "III. Valse: Allegro moderato",
+              "IV. Finale: Andante maestoso – Allegro vivace"
+            ]
           }
         ]
       }
@@ -8053,15 +8144,21 @@
               "type": "work",
               "path": "Works/Mozart - Symphony No. 41, \"Jupiter\".md",
               "title": "Mozart - Symphony No. 41, \"Jupiter\"",
-              "content": "",
+              "content": "## Movements\n1. Allegro vivace\n2. Andante cantabile\n3. Menuetto: Allegretto\n4. Molto allegro",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": "",
+                "catalogue": "K. 551",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro vivace",
+              "II. Andante cantabile",
+              "III. Menuetto: Allegretto",
+              "IV. Molto allegro"
+            ]
           },
           {
             "work": {
@@ -8165,7 +8262,7 @@
               "type": "work",
               "path": "Works/Ibert - Concertino da Camera.md",
               "title": "Ibert - Concertino da Camera",
-              "content": "",
+              "content": "## Movements\n1. Allegro con moto\n2. Larghetto – Animato molto",
               "frontmatter": {
                 "composer": "Ibert, Jacques",
                 "catalogue": "",
@@ -8173,7 +8270,11 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con moto",
+              "II. Larghetto – Animato molto"
+            ]
           },
           {
             "work": {
@@ -8267,7 +8368,7 @@
               "type": "work",
               "path": "Works/Bizet - L'Arlesienne Suite No. 1.md",
               "title": "Bizet - L'Arlesienne Suite No. 1",
-              "content": "I. Prelude\nII. Minuetto\nIII. Adagietto\nIV. Carillon",
+              "content": "## Movements\n1. Prélude\n2. Minuetto\n3. Adagietto\n4. Carillon",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -8275,7 +8376,13 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Prélude",
+              "II. Minuetto",
+              "III. Adagietto",
+              "IV. Carillon"
+            ]
           },
           {
             "work": {
@@ -8299,15 +8406,19 @@
               "type": "work",
               "path": "Works/Saint-Saens - Symphony No. 3 in C Minor, \"Organ\".md",
               "title": "Saint-Saens - Symphony No. 3 in C Minor, \"Organ\"",
-              "content": "",
+              "content": "## Movements\n1. Adagio – Allegro moderato – Poco adagio\n2. Allegro moderato – Presto – Maestoso – Allegro",
               "frontmatter": {
                 "composer": "Saint-Saens, Camille",
-                "catalogue": "78",
+                "catalogue": "Op. 78",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Adagio – Allegro moderato – Poco adagio",
+              "II. Allegro moderato – Presto – Maestoso – Allegro"
+            ]
           }
         ]
       }
@@ -8550,7 +8661,7 @@
               "type": "work",
               "path": "Works/Kodaly - Hary Janos Suite.md",
               "title": "Kodaly - Hary Janos Suite",
-              "content": "",
+              "content": "## Movements\n1. Prelude: The Fairy Tale Begins\n2. Viennese Musical Clock\n3. Song\n4. The Battle and Defeat of Napoleon\n5. Intermezzo\n6. Entrance of the Emperor and His Court",
               "frontmatter": {
                 "composer": "Kodaly, Zoltan",
                 "catalogue": "",
@@ -8558,7 +8669,15 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Prelude: The Fairy Tale Begins",
+              "II. Viennese Musical Clock",
+              "III. Song",
+              "IV. The Battle and Defeat of Napoleon",
+              "V. Intermezzo",
+              "VI. Entrance of the Emperor and His Court"
+            ]
           },
           {
             "work": {
@@ -8601,8 +8720,8 @@
               "content": "Ma Vlast",
               "frontmatter": {
                 "composer": "Smetana, Bedrich",
-                "catalogue": "",
-                "displayName": ""
+                "catalogue": "JB 1:112/2",
+                "displayName": "The Moldau from Ma Vlast"
               },
               "concertCount": 1,
               "bucketList": false
@@ -8617,7 +8736,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Liszt, Franz",
-                "catalogue": "",
+                "catalogue": "S.100",
                 "displayName": ""
               },
               "concertCount": 1,
@@ -8690,7 +8809,7 @@
               "type": "work",
               "path": "Works/Ravel - String Quartet in F Major.md",
               "title": "Ravel - String Quartet in F Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro moderato – très doux\n2. Assez vif – très rythmé\n3. Très lent\n4. Vif et agité",
               "frontmatter": {
                 "composer": "Ravel, Maurice",
                 "catalogue": "",
@@ -8698,7 +8817,13 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro moderato – très doux",
+              "II. Assez vif – très rythmé",
+              "III. Très lent",
+              "IV. Vif et agité"
+            ]
           }
         ]
       }
@@ -8871,15 +8996,27 @@
               "type": "work",
               "path": "Works/Brahms - Variations on a Theme by Haydn.md",
               "title": "Brahms - Variations on a Theme by Haydn",
-              "content": "",
+              "content": "## Movements\n- Chorale St. Antoni: Andante\n- Variation I: Poco più animato\n- Variation II: Più vivace\n- Variation III: Con moto\n- Variation IV: Andante con moto\n- Variation V: Vivace\n- Variation VI: Vivace\n- Variation VII: Grazioso\n- Variation VIII: Presto non troppo\n- Finale: Andante",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 56a",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Chorale St. Antoni: Andante",
+              "Variation I: Poco più animato",
+              "Variation II: Più vivace",
+              "Variation III: Con moto",
+              "Variation IV: Andante con moto",
+              "Variation V: Vivace",
+              "Variation VI: Vivace",
+              "Variation VII: Grazioso",
+              "Variation VIII: Presto non troppo",
+              "Finale: Andante"
+            ]
           },
           {
             "work": {
@@ -8933,15 +9070,19 @@
               "type": "work",
               "path": "Works/Nielsen - Flute Concerto.md",
               "title": "Nielsen - Flute Concerto",
-              "content": "",
+              "content": "## Movements\n1. Allegro moderato\n2. Allegretto",
               "frontmatter": {
                 "composer": "Nielsen, Carl",
-                "catalogue": "",
+                "catalogue": "FS 119",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro moderato",
+              "II. Allegretto"
+            ]
           },
           {
             "work": {
@@ -8949,15 +9090,23 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Swan Lake Suite.md",
               "title": "Tchaikovsky - Swan Lake Suite",
-              "content": "",
+              "content": "## Movements\n1. Scene\n2. Valse\n3. Danse des cygnes\n4. Scene\n5. Czardas: Danse hongroise\n6. Scene finale",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 20a",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Scene",
+              "II. Valse",
+              "III. Danse des cygnes",
+              "IV. Scene",
+              "V. Czardas: Danse hongroise",
+              "VI. Scene finale"
+            ]
           }
         ]
       }
@@ -9155,15 +9304,22 @@
               "type": "work",
               "path": "Works/Bartok - Concerto for Orchestra.md",
               "title": "Bartok - Concerto for Orchestra",
-              "content": "",
+              "content": "## Movements\n1. Introduzione: Andante non troppo – Allegro vivace\n2. Giuoco delle coppie: Allegretto scherzando\n3. Elegia: Andante non troppo\n4. Intermezzo interrotto: Allegretto\n5. Finale: Presto",
               "frontmatter": {
                 "composer": "Bartok, Bela",
-                "catalogue": "",
+                "catalogue": "Sz. 116",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Introduzione: Andante non troppo – Allegro vivace",
+              "II. Giuoco delle coppie: Allegretto scherzando",
+              "III. Elegia: Andante non troppo",
+              "IV. Intermezzo interrotto: Allegretto",
+              "V. Finale: Presto"
+            ]
           }
         ]
       }
