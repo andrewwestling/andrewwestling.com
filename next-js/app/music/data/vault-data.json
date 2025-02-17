@@ -201,10 +201,10 @@
       "type": "work",
       "path": "Works/Barber - Souvenirs.md",
       "title": "Barber - Souvenirs",
-      "content": "",
+      "content": "## Movements\n1. Waltz\n2. Schottische\n3. Pas de deux\n4. Two-Step\n5. Hesitation-Tango\n6. Galop",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "catalogue": "",
+        "catalogue": "Op. 28",
         "displayName": ""
       },
       "concertCount": 1,
@@ -649,10 +649,10 @@
       "type": "work",
       "path": "Works/Brahms - Symphony No. 1 in C Minor.md",
       "title": "Brahms - Symphony No. 1 in C Minor",
-      "content": "",
+      "content": "## Movements\n1. Un poco sostenuto – Allegro – Meno allegro\n2. Andante sostenuto\n3. Un poco allegretto e grazioso\n4. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": "",
+        "catalogue": "Op. 68",
         "displayName": ""
       },
       "concertCount": 2,
@@ -663,10 +663,10 @@
       "type": "work",
       "path": "Works/Brahms - Symphony No. 2 in D Major.md",
       "title": "Brahms - Symphony No. 2 in D Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro non troppo\n2. Adagio non troppo\n3. Allegretto grazioso (quasi andantino)\n4. Allegro con spirito",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": "",
+        "catalogue": "Op. 73",
         "displayName": ""
       },
       "concertCount": 1,
@@ -691,10 +691,10 @@
       "type": "work",
       "path": "Works/Brahms - Symphony No. 4 in E Minor.md",
       "title": "Brahms - Symphony No. 4 in E Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro non troppo\n2. Andante moderato\n3. Allegro giocoso\n4. Allegro energico e passionato",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": "",
+        "catalogue": "Op. 98",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1179,13 +1179,27 @@
       "type": "work",
       "path": "Works/Dvorak - Symphony No. 9 in E Minor.md",
       "title": "Dvorak - Symphony No. 9 in E Minor",
-      "content": "",
+      "content": "## Movements\n1. Adagio – Allegro molto\n2. Largo\n3. Scherzo: Molto vivace\n4. Allegro con fuoco",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": "",
-        "displayName": ""
+        "catalogue": "Op. 95",
+        "displayName": "From the New World"
       },
       "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "dvorak-violin-concerto-in-a-minor",
+      "type": "work",
+      "path": "Works/Dvorak - Violin Concerto in A Minor.md",
+      "title": "Dvorak - Violin Concerto in A Minor",
+      "content": "## Movements\n1. Allegro ma non troppo\n2. Adagio ma non troppo\n3. Finale: Allegro giocoso, ma non troppo",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin",
+        "catalogue": "Op. 53",
+        "displayName": ""
+      },
+      "concertCount": 0,
       "bucketList": false
     },
     {
@@ -1294,7 +1308,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Enescu, George",
-        "catalogue": "",
+        "catalogue": "Op. 11",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1500,10 +1514,10 @@
       "type": "work",
       "path": "Works/Grieg - Peer Gynt Suite No. 1.md",
       "title": "Grieg - Peer Gynt Suite No. 1",
-      "content": "",
+      "content": "## Movements\n1. Morning Mood (Morgenstemning)\n2. The Death of Åse (Åses død)\n3. Anitra's Dance (Anitras dans)\n4. In the Hall of the Mountain King (I Dovregubbens hall)",
       "frontmatter": {
         "composer": "Grieg, Edvard",
-        "catalogue": "",
+        "catalogue": "Op. 46",
         "displayName": ""
       },
       "concertCount": 2,
@@ -1654,7 +1668,7 @@
       "type": "work",
       "path": "Works/Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber.md",
       "title": "Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Scherzo (Turandot)\n3. Andantino\n4. Marsch",
       "frontmatter": {
         "composer": "Hindemith, Paul",
         "catalogue": "",
@@ -1948,7 +1962,7 @@
       "type": "work",
       "path": "Works/Mahler - Symphony No. 5.md",
       "title": "Mahler - Symphony No. 5",
-      "content": "",
+      "content": "## Movements\n1. Trauermarsch (Funeral March)\n2. Stürmisch bewegt, mit größter Vehemenz\n3. Scherzo\n4. Adagietto\n5. Rondo-Finale",
       "frontmatter": {
         "composer": "Mahler, Gustav",
         "catalogue": "",
@@ -2228,10 +2242,10 @@
       "type": "work",
       "path": "Works/Mozart - Piano Concerto No. 20 in D Minor.md",
       "title": "Mozart - Piano Concerto No. 20 in D Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Romance\n3. Rondo: Allegro assai",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": "",
+        "catalogue": "K. 466",
         "displayName": ""
       },
       "concertCount": 2,
@@ -2382,10 +2396,10 @@
       "type": "work",
       "path": "Works/Paganini - Violin Concerto No. 1 in D Major.md",
       "title": "Paganini - Violin Concerto No. 1 in D Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro maestoso\n2. Adagio\n3. Rondo: Allegro spirituoso",
       "frontmatter": {
-        "composer": "Paganini, Niccolo",
-        "catalogue": "",
+        "composer": "Paganini, Niccolò",
+        "catalogue": "Op. 6",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2452,11 +2466,11 @@
       "type": "work",
       "path": "Works/Prokofiev - Romeo and Juliet.md",
       "title": "Prokofiev - Romeo and Juliet",
-      "content": "",
+      "content": "## Movements\n1. Montagues and Capulets (Dance of the Knights)\n2. The Young Juliet\n3. Friar Laurence\n4. Dance\n5. Romeo and Juliet Before Parting\n6. Dance of the Antilles Girls\n7. Romeo at Juliet's Tomb",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "catalogue": "",
-        "displayName": ""
+        "catalogue": "Op. 64",
+        "displayName": "Suite No. 2"
       },
       "concertCount": 1,
       "bucketList": false
@@ -2617,10 +2631,10 @@
       "type": "work",
       "path": "Works/Reinecke - Flute Concerto in D Major.md",
       "title": "Reinecke - Flute Concerto in D Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro molto moderato\n2. Lento e mesto\n3. Finale: Moderato",
       "frontmatter": {
         "composer": "Reinecke, Carl",
-        "catalogue": "",
+        "catalogue": "Op. 283",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2939,10 +2953,10 @@
       "type": "work",
       "path": "Works/Schumann - Symphony No. 4 in D Minor.md",
       "title": "Schumann - Symphony No. 4 in D Minor",
-      "content": "",
+      "content": "## Movements\n1. Ziemlich langsam – Lebhaft\n2. Romanze: Ziemlich langsam\n3. Scherzo: Lebhaft\n4. Langsam – Lebhaft",
       "frontmatter": {
         "composer": "Schumann, Robert",
-        "catalogue": "",
+        "catalogue": "Op. 120",
         "displayName": ""
       },
       "concertCount": 2,
@@ -3120,10 +3134,10 @@
       "type": "work",
       "path": "Works/Sibelius - Symphony No. 2 in D Major.md",
       "title": "Sibelius - Symphony No. 2 in D Major",
-      "content": "",
+      "content": "## Movements\n1. Allegretto\n2. Tempo andante, ma rubato\n3. Vivacissimo\n4. Finale: Allegro moderato",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "catalogue": "",
+        "catalogue": "Op. 43",
         "displayName": ""
       },
       "concertCount": 2,
@@ -3162,10 +3176,10 @@
       "type": "work",
       "path": "Works/Sibelius - Violin Concerto.md",
       "title": "Sibelius - Violin Concerto",
-      "content": "",
+      "content": "## Movements\n1. Allegro moderato\n2. Adagio di molto\n3. Allegro, ma non tanto",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "catalogue": "",
+        "catalogue": "Op. 47",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3609,10 +3623,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
       "title": "Tchaikovsky - The Nutcracker Suite",
-      "content": "",
+      "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
       "frontmatter": {
-        "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "catalogue": "Op. 71a",
         "displayName": ""
       },
       "concertCount": 5,
@@ -6072,15 +6086,26 @@
               "type": "work",
               "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
               "title": "Tchaikovsky - The Nutcracker Suite",
-              "content": "",
+              "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 71a",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Miniature Overture",
+              "Characteristic Dances",
+              "a. March",
+              "b. Dance of the Sugar-Plum Fairy",
+              "c. Russian Dance (Trepak)",
+              "d. Arabian Dance",
+              "e. Chinese Dance",
+              "f. Dance of the Reed Flutes",
+              "Waltz of the Flowers"
+            ]
           },
           {
             "work": {
@@ -8144,15 +8169,21 @@
               "type": "work",
               "path": "Works/Brahms - Symphony No. 1 in C Minor.md",
               "title": "Brahms - Symphony No. 1 in C Minor",
-              "content": "",
+              "content": "## Movements\n1. Un poco sostenuto – Allegro – Meno allegro\n2. Andante sostenuto\n3. Un poco allegretto e grazioso\n4. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 68",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Un poco sostenuto – Allegro – Meno allegro",
+              "II. Andante sostenuto",
+              "III. Un poco allegretto e grazioso",
+              "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro"
+            ]
           }
         ]
       }
@@ -8398,15 +8429,26 @@
               "type": "work",
               "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
               "title": "Tchaikovsky - The Nutcracker Suite",
-              "content": "",
+              "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 71a",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Miniature Overture",
+              "Characteristic Dances",
+              "a. March",
+              "b. Dance of the Sugar-Plum Fairy",
+              "c. Russian Dance (Trepak)",
+              "d. Arabian Dance",
+              "e. Chinese Dance",
+              "f. Dance of the Reed Flutes",
+              "Waltz of the Flowers"
+            ]
           },
           {
             "work": {
@@ -9022,15 +9064,21 @@
               "type": "work",
               "path": "Works/Schumann - Symphony No. 4 in D Minor.md",
               "title": "Schumann - Symphony No. 4 in D Minor",
-              "content": "",
+              "content": "## Movements\n1. Ziemlich langsam – Lebhaft\n2. Romanze: Ziemlich langsam\n3. Scherzo: Lebhaft\n4. Langsam – Lebhaft",
               "frontmatter": {
                 "composer": "Schumann, Robert",
-                "catalogue": "",
+                "catalogue": "Op. 120",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Ziemlich langsam – Lebhaft",
+              "II. Romanze: Ziemlich langsam",
+              "III. Scherzo: Lebhaft",
+              "IV. Langsam – Lebhaft"
+            ]
           }
         ]
       }
@@ -9421,15 +9469,26 @@
               "type": "work",
               "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
               "title": "Tchaikovsky - The Nutcracker Suite",
-              "content": "",
+              "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 71a",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Miniature Overture",
+              "Characteristic Dances",
+              "a. March",
+              "b. Dance of the Sugar-Plum Fairy",
+              "c. Russian Dance (Trepak)",
+              "d. Arabian Dance",
+              "e. Chinese Dance",
+              "f. Dance of the Reed Flutes",
+              "Waltz of the Flowers"
+            ]
           },
           {
             "work": {
@@ -10275,15 +10334,21 @@
               "type": "work",
               "path": "Works/Brahms - Symphony No. 4 in E Minor.md",
               "title": "Brahms - Symphony No. 4 in E Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro non troppo\n2. Andante moderato\n3. Allegro giocoso\n4. Allegro energico e passionato",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 98",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non troppo",
+              "II. Andante moderato",
+              "III. Allegro giocoso",
+              "IV. Allegro energico e passionato"
+            ]
           },
           {
             "work": {
@@ -10546,15 +10611,21 @@
               "type": "work",
               "path": "Works/Sibelius - Symphony No. 2 in D Major.md",
               "title": "Sibelius - Symphony No. 2 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegretto\n2. Tempo andante, ma rubato\n3. Vivacissimo\n4. Finale: Allegro moderato",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": "",
+                "catalogue": "Op. 43",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegretto",
+              "II. Tempo andante, ma rubato",
+              "III. Vivacissimo",
+              "IV. Finale: Allegro moderato"
+            ]
           }
         ]
       }
@@ -11363,15 +11434,21 @@
               "type": "work",
               "path": "Works/Grieg - Peer Gynt Suite No. 1.md",
               "title": "Grieg - Peer Gynt Suite No. 1",
-              "content": "",
+              "content": "## Movements\n1. Morning Mood (Morgenstemning)\n2. The Death of Åse (Åses død)\n3. Anitra's Dance (Anitras dans)\n4. In the Hall of the Mountain King (I Dovregubbens hall)",
               "frontmatter": {
                 "composer": "Grieg, Edvard",
-                "catalogue": "",
+                "catalogue": "Op. 46",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Morning Mood (Morgenstemning)",
+              "II. The Death of Åse (Åses død)",
+              "III. Anitra's Dance (Anitras dans)",
+              "IV. In the Hall of the Mountain King (I Dovregubbens hall)"
+            ]
           },
           {
             "work": {
@@ -11379,15 +11456,26 @@
               "type": "work",
               "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
               "title": "Tchaikovsky - The Nutcracker Suite",
-              "content": "",
+              "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 71a",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Miniature Overture",
+              "Characteristic Dances",
+              "a. March",
+              "b. Dance of the Sugar-Plum Fairy",
+              "c. Russian Dance (Trepak)",
+              "d. Arabian Dance",
+              "e. Chinese Dance",
+              "f. Dance of the Reed Flutes",
+              "Waltz of the Flowers"
+            ]
           },
           {
             "work": {
@@ -11627,15 +11715,23 @@
               "type": "work",
               "path": "Works/Barber - Souvenirs.md",
               "title": "Barber - Souvenirs",
-              "content": "",
+              "content": "## Movements\n1. Waltz\n2. Schottische\n3. Pas de deux\n4. Two-Step\n5. Hesitation-Tango\n6. Galop",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": "",
+                "catalogue": "Op. 28",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Waltz",
+              "II. Schottische",
+              "III. Pas de deux",
+              "IV. Two-Step",
+              "V. Hesitation-Tango",
+              "VI. Galop"
+            ]
           },
           {
             "work": {
@@ -11643,15 +11739,21 @@
               "type": "work",
               "path": "Works/Schumann - Symphony No. 4 in D Minor.md",
               "title": "Schumann - Symphony No. 4 in D Minor",
-              "content": "",
+              "content": "## Movements\n1. Ziemlich langsam – Lebhaft\n2. Romanze: Ziemlich langsam\n3. Scherzo: Lebhaft\n4. Langsam – Lebhaft",
               "frontmatter": {
                 "composer": "Schumann, Robert",
-                "catalogue": "",
+                "catalogue": "Op. 120",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Ziemlich langsam – Lebhaft",
+              "II. Romanze: Ziemlich langsam",
+              "III. Scherzo: Lebhaft",
+              "IV. Langsam – Lebhaft"
+            ]
           }
         ]
       }
@@ -11685,15 +11787,20 @@
               "type": "work",
               "path": "Works/Mozart - Piano Concerto No. 20 in D Minor.md",
               "title": "Mozart - Piano Concerto No. 20 in D Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Romance\n3. Rondo: Allegro assai",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": "",
+                "catalogue": "K. 466",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Romance",
+              "III. Rondo: Allegro assai"
+            ]
           },
           {
             "work": {
@@ -11720,7 +11827,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Enescu, George",
-                "catalogue": "",
+                "catalogue": "Op. 11",
                 "displayName": ""
               },
               "concertCount": 1,
@@ -11758,15 +11865,21 @@
               "type": "work",
               "path": "Works/Grieg - Peer Gynt Suite No. 1.md",
               "title": "Grieg - Peer Gynt Suite No. 1",
-              "content": "",
+              "content": "## Movements\n1. Morning Mood (Morgenstemning)\n2. The Death of Åse (Åses død)\n3. Anitra's Dance (Anitras dans)\n4. In the Hall of the Mountain King (I Dovregubbens hall)",
               "frontmatter": {
                 "composer": "Grieg, Edvard",
-                "catalogue": "",
+                "catalogue": "Op. 46",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Morning Mood (Morgenstemning)",
+              "II. The Death of Åse (Åses død)",
+              "III. Anitra's Dance (Anitras dans)",
+              "IV. In the Hall of the Mountain King (I Dovregubbens hall)"
+            ]
           },
           {
             "work": {
@@ -11774,15 +11887,20 @@
               "type": "work",
               "path": "Works/Sibelius - Violin Concerto.md",
               "title": "Sibelius - Violin Concerto",
-              "content": "",
+              "content": "## Movements\n1. Allegro moderato\n2. Adagio di molto\n3. Allegro, ma non tanto",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": "",
+                "catalogue": "Op. 47",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro moderato",
+              "II. Adagio di molto",
+              "III. Allegro, ma non tanto"
+            ]
           },
           {
             "work": {
@@ -11790,15 +11908,21 @@
               "type": "work",
               "path": "Works/Sibelius - Symphony No. 2 in D Major.md",
               "title": "Sibelius - Symphony No. 2 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegretto\n2. Tempo andante, ma rubato\n3. Vivacissimo\n4. Finale: Allegro moderato",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": "",
+                "catalogue": "Op. 43",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegretto",
+              "II. Tempo andante, ma rubato",
+              "III. Vivacissimo",
+              "IV. Finale: Allegro moderato"
+            ]
           }
         ]
       }
@@ -11830,15 +11954,20 @@
               "type": "work",
               "path": "Works/Paganini - Violin Concerto No. 1 in D Major.md",
               "title": "Paganini - Violin Concerto No. 1 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro maestoso\n2. Adagio\n3. Rondo: Allegro spirituoso",
               "frontmatter": {
-                "composer": "Paganini, Niccolo",
-                "catalogue": "",
+                "composer": "Paganini, Niccolò",
+                "catalogue": "Op. 6",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro maestoso",
+              "II. Adagio",
+              "III. Rondo: Allegro spirituoso"
+            ]
           },
           {
             "work": {
@@ -11846,15 +11975,21 @@
               "type": "work",
               "path": "Works/Brahms - Symphony No. 2 in D Major.md",
               "title": "Brahms - Symphony No. 2 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro non troppo\n2. Adagio non troppo\n3. Allegretto grazioso (quasi andantino)\n4. Allegro con spirito",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 73",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. Allegro non troppo",
+              "II. Adagio non troppo",
+              "III. Allegretto grazioso (quasi andantino)",
+              "IV. Allegro con spirito"
+            ]
           }
         ]
       }
@@ -11904,15 +12039,20 @@
               "type": "work",
               "path": "Works/Mozart - Piano Concerto No. 20 in D Minor.md",
               "title": "Mozart - Piano Concerto No. 20 in D Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Romance\n3. Rondo: Allegro assai",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": "",
+                "catalogue": "K. 466",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Romance",
+              "III. Rondo: Allegro assai"
+            ]
           },
           {
             "work": {
@@ -12072,7 +12212,7 @@
               "type": "work",
               "path": "Works/Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber.md",
               "title": "Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Scherzo (Turandot)\n3. Andantino\n4. Marsch",
               "frontmatter": {
                 "composer": "Hindemith, Paul",
                 "catalogue": "",
@@ -12080,7 +12220,13 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Scherzo (Turandot)",
+              "III. Andantino",
+              "IV. Marsch"
+            ]
           },
           {
             "work": {
@@ -12088,15 +12234,21 @@
               "type": "work",
               "path": "Works/Brahms - Symphony No. 1 in C Minor.md",
               "title": "Brahms - Symphony No. 1 in C Minor",
-              "content": "",
+              "content": "## Movements\n1. Un poco sostenuto – Allegro – Meno allegro\n2. Andante sostenuto\n3. Un poco allegretto e grazioso\n4. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 68",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Un poco sostenuto – Allegro – Meno allegro",
+              "II. Andante sostenuto",
+              "III. Un poco allegretto e grazioso",
+              "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro"
+            ]
           }
         ]
       }
@@ -12128,15 +12280,24 @@
               "type": "work",
               "path": "Works/Prokofiev - Romeo and Juliet.md",
               "title": "Prokofiev - Romeo and Juliet",
-              "content": "",
+              "content": "## Movements\n1. Montagues and Capulets (Dance of the Knights)\n2. The Young Juliet\n3. Friar Laurence\n4. Dance\n5. Romeo and Juliet Before Parting\n6. Dance of the Antilles Girls\n7. Romeo at Juliet's Tomb",
               "frontmatter": {
                 "composer": "Prokofiev, Sergei",
-                "catalogue": "",
-                "displayName": ""
+                "catalogue": "Op. 64",
+                "displayName": "Suite No. 2"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Montagues and Capulets (Dance of the Knights)",
+              "II. The Young Juliet",
+              "III. Friar Laurence",
+              "IV. Dance",
+              "V. Romeo and Juliet Before Parting",
+              "VI. Dance of the Antilles Girls",
+              "VII. Romeo at Juliet's Tomb"
+            ]
           },
           {
             "work": {
@@ -12224,15 +12385,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 9 in E Minor.md",
               "title": "Dvorak - Symphony No. 9 in E Minor",
-              "content": "",
+              "content": "## Movements\n1. Adagio – Allegro molto\n2. Largo\n3. Scherzo: Molto vivace\n4. Allegro con fuoco",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
-                "displayName": ""
+                "catalogue": "Op. 95",
+                "displayName": "From the New World"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Adagio – Allegro molto",
+              "II. Largo",
+              "III. Scherzo: Molto vivace",
+              "IV. Allegro con fuoco"
+            ]
           },
           {
             "work": {
@@ -12298,15 +12465,20 @@
               "type": "work",
               "path": "Works/Reinecke - Flute Concerto in D Major.md",
               "title": "Reinecke - Flute Concerto in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro molto moderato\n2. Lento e mesto\n3. Finale: Moderato",
               "frontmatter": {
                 "composer": "Reinecke, Carl",
-                "catalogue": "",
+                "catalogue": "Op. 283",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro molto moderato",
+              "II. Lento e mesto",
+              "III. Finale: Moderato"
+            ]
           },
           {
             "work": {
@@ -12314,15 +12486,26 @@
               "type": "work",
               "path": "Works/Tchaikovsky - The Nutcracker Suite.md",
               "title": "Tchaikovsky - The Nutcracker Suite",
-              "content": "",
+              "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 71a",
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Miniature Overture",
+              "Characteristic Dances",
+              "a. March",
+              "b. Dance of the Sugar-Plum Fairy",
+              "c. Russian Dance (Trepak)",
+              "d. Arabian Dance",
+              "e. Chinese Dance",
+              "f. Dance of the Reed Flutes",
+              "Waltz of the Flowers"
+            ]
           },
           {
             "work": {
@@ -14538,7 +14721,7 @@
       "title": "Paganini, Niccolo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 0
     },
     {
       "slug": "pergolesi-giovanni-battista",
@@ -14826,7 +15009,7 @@
       "title": "Tchaikovsky, Piotr Ilyich",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 18
+      "concertCount": 13
     },
     {
       "slug": "theofanidis-christopher",
