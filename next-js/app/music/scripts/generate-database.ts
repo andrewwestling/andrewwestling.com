@@ -266,7 +266,7 @@ function parseProgramDetails(
     // Only process other lines if we have a current work
     if (!currentWork) continue;
 
-    // Check for conductor (at first indent level)
+    // Check for conductor (at first indent level) (Note: this should always be on the same line, like `- Conductor: [[Their Name]]`)
     if (indentLevel > 0 && trimmedLine.startsWith("- Conductor:")) {
       const conductorMatch = trimmedLine.match(/\[\[(.*?)\]\]/);
       if (conductorMatch) {
@@ -276,14 +276,14 @@ function parseProgramDetails(
     }
 
     // Check for soloists section (at first indent level)
-    if (indentLevel > 0 && trimmedLine === "- Soloists:") {
+    if (indentLevel > 0 && trimmedLine.startsWith("- Soloist")) {
       currentWork.soloists = [];
       parsingState = "soloists";
       continue;
     }
 
     // Check for movements section (at first indent level)
-    if (indentLevel > 0 && trimmedLine === "- Movements:") {
+    if (indentLevel > 0 && trimmedLine.startsWith("- Movement")) {
       currentWork.movements = [];
       parsingState = "movements";
       continue;
