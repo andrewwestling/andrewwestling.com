@@ -13073,9 +13073,9 @@
         "date": "2024-11-17T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
         "works": [
+          "Coleman - Seven O'Clock Shout",
           "Mozart - Clarinet Concerto in A Major",
-          "Sibelius - Symphony No. 1 in E Minor",
-          "Coleman - Seven O'Clock Shout"
+          "Sibelius - Symphony No. 1 in E Minor"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -13085,6 +13085,22 @@
         "season": "2024-2025",
         "ticketUrl": "",
         "programDetails": [
+          {
+            "work": {
+              "slug": "coleman-seven-o-clock-shout",
+              "type": "work",
+              "path": "Works/Coleman - Seven O'Clock Shout.md",
+              "title": "Coleman - Seven O'Clock Shout",
+              "content": "",
+              "frontmatter": {
+                "composer": "Coleman, Valerie",
+                "catalogue": "",
+                "displayName": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            }
+          },
           {
             "work": {
               "slug": "mozart-clarinet-concerto-in-a-major",
@@ -13104,6 +13120,9 @@
               "I. Allegro",
               "II. Adagio",
               "III. Rondo: Allegro"
+            ],
+            "soloists": [
+              "Michael Rusinek, clarinet"
             ]
           },
           {
@@ -13127,22 +13146,6 @@
               "III. Scherzo: Allegro",
               "IV. Finale (Quasi una Fantasia): Andante – Allegro molto"
             ]
-          },
-          {
-            "work": {
-              "slug": "coleman-seven-o-clock-shout",
-              "type": "work",
-              "path": "Works/Coleman - Seven O'Clock Shout.md",
-              "title": "Coleman - Seven O'Clock Shout",
-              "content": "",
-              "frontmatter": {
-                "composer": "Coleman, Valerie",
-                "catalogue": "",
-                "displayName": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
           }
         ]
       }
@@ -16564,9 +16567,9 @@
         "beethoven-symphony-no-8-in-f-major",
         "shostakovich-symphony-no-5",
         "price-andante-cantabile-from-string-quartet-no-2",
+        "coleman-seven-o-clock-shout",
         "mozart-clarinet-concerto-in-a-major",
         "sibelius-symphony-no-1-in-e-minor",
-        "coleman-seven-o-clock-shout",
         "berko-condense-eternity",
         "mendelssohn-violin-concerto-in-e-minor",
         "mendelssohn-hebrides-overture-fingal-s-cave",

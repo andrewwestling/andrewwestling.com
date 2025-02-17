@@ -219,6 +219,9 @@ function parseProgramDetails(
 
   if (programDetailsLines.length === 0) return undefined;
 
+  // Create a map of work titles to Work objects for faster lookup
+  const workMap = new Map(works.map((work) => [work.title, work]));
+
   const programWorks: ConcertWork[] = [];
   let currentWork: Partial<ConcertWork> | null = null;
   let parsingState: "none" | "soloists" | "movements" = "none";
@@ -241,7 +244,7 @@ function parseProgramDetails(
 
       // Look up the work in the works array
       const workTitle = extractTitleFromWikiLink(workMatch[0]);
-      const workObject = works.find((w) => w.title === workTitle);
+      const workObject = workMap.get(workTitle);
 
       // Only create a new work entry if we found the work
       if (workObject) {
@@ -323,9 +326,13 @@ function createDefaultProgramDetails(
   works: Work[],
   workTitles: string[]
 ): ConcertWork[] {
+  // Create a map of work titles to Work objects for faster lookup
+  const workMap = new Map(works.map((work) => [work.title, work]));
+
+  // Process works in the order they appear in workTitles
   return workTitles
     .map((workTitle) => {
-      const workObject = works.find((w) => w.title === workTitle);
+      const workObject = workMap.get(workTitle);
       if (!workObject) {
         console.warn(
           `Warning: Work "${workTitle}" not found in works database`
@@ -414,7 +421,12 @@ async function readVaultDirectory(
             const explicitProgramDetails = parseProgramDetails(content, works);
 
             if (explicitProgramDetails) {
+              // Use the explicit program details order
               processedFrontmatter.programDetails = explicitProgramDetails;
+              // Update the works array to match the program details order
+              processedFrontmatter.works = explicitProgramDetails.map(
+                (details) => details.work.title
+              );
             } else {
               // If no explicit program details, create default ones from the works list
               processedFrontmatter.programDetails = createDefaultProgramDetails(
