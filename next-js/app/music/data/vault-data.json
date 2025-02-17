@@ -369,10 +369,10 @@
       "type": "work",
       "path": "Works/Beethoven - Symphony No. 7 in A Major.md",
       "title": "Beethoven - Symphony No. 7 in A Major",
-      "content": "",
+      "content": "## Movements\n1. Poco sostenuto – Vivace\n2. Allegretto\n3. Presto – Assai meno presto\n4. Allegro con brio",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "catalogue": "",
+        "catalogue": "Op. 92",
         "displayName": ""
       },
       "concertCount": 2,
@@ -540,7 +540,8 @@
       "content": "",
       "frontmatter": {
         "composer": "Bloch, Ernest",
-        "catalogue": "B. 54"
+        "catalogue": "",
+        "displayName": "Prayer (From Jewish Life)"
       },
       "concertCount": 1,
       "bucketList": false
@@ -676,10 +677,10 @@
       "type": "work",
       "path": "Works/Brahms - Symphony No. 3 in F Major.md",
       "title": "Brahms - Symphony No. 3 in F Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro con brio\n2. Andante\n3. Poco allegretto\n4. Allegro",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": "",
+        "catalogue": "Op. 90",
         "displayName": ""
       },
       "concertCount": 2,
@@ -872,7 +873,7 @@
       "type": "work",
       "path": "Works/Copland - Appalachian Spring.md",
       "title": "Copland - Appalachian Spring",
-      "content": "",
+      "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
       "frontmatter": {
         "composer": "Copland, Aaron",
         "catalogue": "",
@@ -1150,10 +1151,10 @@
       "type": "work",
       "path": "Works/Dvorak - Symphony No. 7 in D Minor.md",
       "title": "Dvorak - Symphony No. 7 in D Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro maestoso\n2. Poco adagio\n3. Scherzo. Vivace\n4. Finale. Allegro",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": "",
+        "catalogue": "70",
         "displayName": ""
       },
       "concertCount": 2,
@@ -1555,10 +1556,10 @@
       "type": "work",
       "path": "Works/Haydn - Cello Concerto No. 1.md",
       "title": "Haydn - Cello Concerto No. 1",
-      "content": "",
+      "content": "## Movements\n1. Moderato\n2. Adagio\n3. Finale. Allegro molto",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "catalogue": "",
+        "catalogue": "Hob. VIIb/1",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1933,7 +1934,7 @@
       "type": "work",
       "path": "Works/Mahler - Symphony No. 4.md",
       "title": "Mahler - Symphony No. 4",
-      "content": "",
+      "content": "## Movements\n1. Bedächtig, nicht eilen\n2. In gemächlicher Bewegung, ohne Hast\n3. Ruhevoll, poco adagio\n4. Sehr behaglich",
       "frontmatter": {
         "composer": "Mahler, Gustav",
         "catalogue": "",
@@ -2658,10 +2659,10 @@
       "type": "work",
       "path": "Works/Rimsky-Korsakov - Capriccio Espagnol.md",
       "title": "Rimsky-Korsakov - Capriccio Espagnol",
-      "content": "",
+      "content": "## Movements\n1. Alborada\n2. Variazioni\n3. Alborada\n4. Scena e canto gitano\n5. Fandango asturiano",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai",
-        "catalogue": "34",
+        "catalogue": "Op. 34",
         "displayName": ""
       },
       "concertCount": 2,
@@ -3552,10 +3553,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
       "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-      "content": "",
+      "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
       "frontmatter": {
-        "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "catalogue": "Op. 36",
         "displayName": ""
       },
       "concertCount": 6,
@@ -6305,15 +6306,22 @@
               "type": "work",
               "path": "Works/Rimsky-Korsakov - Capriccio Espagnol.md",
               "title": "Rimsky-Korsakov - Capriccio Espagnol",
-              "content": "",
+              "content": "## Movements\n1. Alborada\n2. Variazioni\n3. Alborada\n4. Scena e canto gitano\n5. Fandango asturiano",
               "frontmatter": {
                 "composer": "Rimsky-Korsakov, Nikolai",
-                "catalogue": "34",
+                "catalogue": "Op. 34",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Alborada",
+              "II. Variazioni",
+              "III. Alborada",
+              "IV. Scena e canto gitano",
+              "V. Fandango asturiano"
+            ]
           }
         ]
       }
@@ -7014,15 +7022,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 36",
                 "displayName": ""
               },
               "concertCount": 6,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante sostenuto – Moderato con anima",
+              "II. Andantino in modo di canzona",
+              "III. Scherzo: Pizzicato ostinato – Allegro",
+              "IV. Finale: Allegro con fuoco"
+            ]
           }
         ]
       }
@@ -7104,15 +7118,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 36",
                 "displayName": ""
               },
               "concertCount": 6,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante sostenuto – Moderato con anima",
+              "II. Andantino in modo di canzona",
+              "III. Scherzo: Pizzicato ostinato – Allegro",
+              "IV. Finale: Allegro con fuoco"
+            ]
           }
         ]
       }
@@ -7589,15 +7609,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 36",
                 "displayName": ""
               },
               "concertCount": 6,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante sostenuto – Moderato con anima",
+              "II. Andantino in modo di canzona",
+              "III. Scherzo: Pizzicato ostinato – Allegro",
+              "IV. Finale: Allegro con fuoco"
+            ]
           }
         ]
       }
@@ -9177,15 +9203,21 @@
               "type": "work",
               "path": "Works/Brahms - Symphony No. 3 in F Major.md",
               "title": "Brahms - Symphony No. 3 in F Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Andante\n3. Poco allegretto\n4. Allegro",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 90",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Andante",
+              "III. Poco allegretto",
+              "IV. Allegro"
+            ]
           }
         ]
       }
@@ -10122,15 +10154,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 7 in D Minor.md",
               "title": "Dvorak - Symphony No. 7 in D Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro maestoso\n2. Poco adagio\n3. Scherzo. Vivace\n4. Finale. Allegro",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "70",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro maestoso",
+              "II. Poco adagio",
+              "III. Scherzo. Vivace",
+              "IV. Finale. Allegro"
+            ]
           }
         ]
       }
@@ -10336,15 +10374,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 36",
                 "displayName": ""
               },
               "concertCount": 6,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante sostenuto – Moderato con anima",
+              "II. Andantino in modo di canzona",
+              "III. Scherzo: Pizzicato ostinato – Allegro",
+              "IV. Finale: Allegro con fuoco"
+            ]
           }
         ]
       }
@@ -10524,7 +10568,7 @@
               "type": "work",
               "path": "Works/Copland - Appalachian Spring.md",
               "title": "Copland - Appalachian Spring",
-              "content": "",
+              "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": "",
@@ -10532,7 +10576,18 @@
               },
               "concertCount": 3,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. Very slowly",
+              "II. Fast",
+              "III. Moderate",
+              "IV. Quite fast",
+              "V. Still faster",
+              "VI. Very slowly (as at first)",
+              "VII. Calm and flowing",
+              "VIII. Moderate. Coda",
+              "IX. Moderate - Like a prayer"
+            ]
           },
           {
             "work": {
@@ -10745,15 +10800,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 36",
                 "displayName": ""
               },
               "concertCount": 6,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante sostenuto – Moderato con anima",
+              "II. Andantino in modo di canzona",
+              "III. Scherzo: Pizzicato ostinato – Allegro",
+              "IV. Finale: Allegro con fuoco"
+            ]
           },
           {
             "work": {
@@ -10925,7 +10986,7 @@
               "type": "work",
               "path": "Works/Copland - Appalachian Spring.md",
               "title": "Copland - Appalachian Spring",
-              "content": "",
+              "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": "",
@@ -10933,7 +10994,18 @@
               },
               "concertCount": 3,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. Very slowly",
+              "II. Fast",
+              "III. Moderate",
+              "IV. Quite fast",
+              "V. Still faster",
+              "VI. Very slowly (as at first)",
+              "VII. Calm and flowing",
+              "VIII. Moderate. Coda",
+              "IX. Moderate - Like a prayer"
+            ]
           },
           {
             "work": {
@@ -11991,15 +12063,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 7 in A Major.md",
               "title": "Beethoven - Symphony No. 7 in A Major",
-              "content": "",
+              "content": "## Movements\n1. Poco sostenuto – Vivace\n2. Allegretto\n3. Presto – Assai meno presto\n4. Allegro con brio",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 92",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Poco sostenuto – Vivace",
+              "II. Allegretto",
+              "III. Presto – Assai meno presto",
+              "IV. Allegro con brio"
+            ]
           }
         ]
       }
@@ -13226,7 +13304,8 @@
               "content": "",
               "frontmatter": {
                 "composer": "Bloch, Ernest",
-                "catalogue": "B. 54"
+                "catalogue": "",
+                "displayName": "Prayer (From Jewish Life)"
               },
               "concertCount": 1,
               "bucketList": false
@@ -13238,15 +13317,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 7 in D Minor.md",
               "title": "Dvorak - Symphony No. 7 in D Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro maestoso\n2. Poco adagio\n3. Scherzo. Vivace\n4. Finale. Allegro",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "70",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro maestoso",
+              "II. Poco adagio",
+              "III. Scherzo. Vivace",
+              "IV. Finale. Allegro"
+            ]
           }
         ]
       }
@@ -13294,7 +13379,7 @@
               "type": "work",
               "path": "Works/Mahler - Symphony No. 4.md",
               "title": "Mahler - Symphony No. 4",
-              "content": "",
+              "content": "## Movements\n1. Bedächtig, nicht eilen\n2. In gemächlicher Bewegung, ohne Hast\n3. Ruhevoll, poco adagio\n4. Sehr behaglich",
               "frontmatter": {
                 "composer": "Mahler, Gustav",
                 "catalogue": "",
@@ -13302,7 +13387,13 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Bedächtig, nicht eilen",
+              "II. In gemächlicher Bewegung, ohne Hast",
+              "III. Ruhevoll, poco adagio",
+              "IV. Sehr behaglich"
+            ]
           }
         ]
       }
@@ -13335,15 +13426,22 @@
               "type": "work",
               "path": "Works/Rimsky-Korsakov - Capriccio Espagnol.md",
               "title": "Rimsky-Korsakov - Capriccio Espagnol",
-              "content": "",
+              "content": "## Movements\n1. Alborada\n2. Variazioni\n3. Alborada\n4. Scena e canto gitano\n5. Fandango asturiano",
               "frontmatter": {
                 "composer": "Rimsky-Korsakov, Nikolai",
-                "catalogue": "34",
+                "catalogue": "Op. 34",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Alborada",
+              "II. Variazioni",
+              "III. Alborada",
+              "IV. Scena e canto gitano",
+              "V. Fandango asturiano"
+            ]
           },
           {
             "work": {
@@ -13351,7 +13449,7 @@
               "type": "work",
               "path": "Works/Copland - Appalachian Spring.md",
               "title": "Copland - Appalachian Spring",
-              "content": "",
+              "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": "",
@@ -13359,7 +13457,18 @@
               },
               "concertCount": 3,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. Very slowly",
+              "II. Fast",
+              "III. Moderate",
+              "IV. Quite fast",
+              "V. Still faster",
+              "VI. Very slowly (as at first)",
+              "VII. Calm and flowing",
+              "VIII. Moderate. Coda",
+              "IX. Moderate - Like a prayer"
+            ]
           },
           {
             "work": {
@@ -13367,15 +13476,21 @@
               "type": "work",
               "path": "Works/Brahms - Symphony No. 3 in F Major.md",
               "title": "Brahms - Symphony No. 3 in F Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Andante\n3. Poco allegretto\n4. Allegro",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": "",
+                "catalogue": "Op. 90",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Andante",
+              "III. Poco allegretto",
+              "IV. Allegro"
+            ]
           }
         ]
       }
@@ -13407,15 +13522,20 @@
               "type": "work",
               "path": "Works/Haydn - Cello Concerto No. 1.md",
               "title": "Haydn - Cello Concerto No. 1",
-              "content": "",
+              "content": "## Movements\n1. Moderato\n2. Adagio\n3. Finale. Allegro molto",
               "frontmatter": {
                 "composer": "Haydn, Joseph",
-                "catalogue": "",
+                "catalogue": "Hob. VIIb/1",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Moderato",
+              "II. Adagio",
+              "III. Finale. Allegro molto"
+            ]
           },
           {
             "work": {
@@ -13423,15 +13543,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 7 in A Major.md",
               "title": "Beethoven - Symphony No. 7 in A Major",
-              "content": "",
+              "content": "## Movements\n1. Poco sostenuto – Vivace\n2. Allegretto\n3. Presto – Assai meno presto\n4. Allegro con brio",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 92",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Poco sostenuto – Vivace",
+              "II. Allegretto",
+              "III. Presto – Assai meno presto",
+              "IV. Allegro con brio"
+            ]
           }
         ]
       }
@@ -13479,15 +13605,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 4 in F Minor.md",
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 36",
                 "displayName": ""
               },
               "concertCount": 6,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante sostenuto – Moderato con anima",
+              "II. Andantino in modo di canzona",
+              "III. Scherzo: Pizzicato ostinato – Allegro",
+              "IV. Finale: Allegro con fuoco"
+            ]
           }
         ]
       }
@@ -14545,7 +14677,7 @@
       "title": "Tchaikovsky, Piotr Ilyich",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 24
+      "concertCount": 18
     },
     {
       "slug": "theofanidis-christopher",
