@@ -117,10 +117,10 @@
       "type": "work",
       "path": "Works/Bach - Flute Concerto in A Major.md",
       "title": "Bach - Flute Concerto in A Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro ma non tanto",
       "frontmatter": {
-        "composer": "Bach, Carl Philipp Emanuel",
-        "catalogue": "",
+        "composer": "Bach, Johann Sebastian",
+        "catalogue": "BWV 1055",
         "displayName": ""
       },
       "concertCount": 1,
@@ -383,10 +383,10 @@
       "type": "work",
       "path": "Works/Beethoven - Symphony No. 8 in F Major.md",
       "title": "Beethoven - Symphony No. 8 in F Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro vivace e con brio\n2. Allegretto scherzando\n3. Tempo di Menuetto\n4. Allegro vivace",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "catalogue": "",
+        "catalogue": "Op. 93",
         "displayName": ""
       },
       "concertCount": 3,
@@ -1183,7 +1183,7 @@
       "frontmatter": {
         "composer": "Dvorak, Antonin",
         "catalogue": "Op. 95",
-        "displayName": "From the New World"
+        "displayName": ""
       },
       "concertCount": 1,
       "bucketList": false
@@ -1934,11 +1934,11 @@
       "type": "work",
       "path": "Works/Mahler - Symphony No. 1.md",
       "title": "Mahler - Symphony No. 1",
-      "content": "",
+      "content": "## Movements\n1. Langsam, schleppend – Immer sehr gemächlich\n2. Kräftig bewegt, doch nicht zu schnell – Recht gemächlich\n3. Feierlich und gemessen, ohne zu schleppen\n4. Stürmisch bewegt – Energisch",
       "frontmatter": {
         "composer": "Mahler, Gustav",
         "catalogue": "",
-        "displayName": ""
+        "displayName": null
       },
       "concertCount": 1,
       "bucketList": true
@@ -2088,27 +2088,13 @@
       "type": "work",
       "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md",
       "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\"",
-      "content": "",
-      "frontmatter": {
-        "composer": "Mendelssohn, Felix",
-        "catalogue": "",
-        "displayName": ""
-      },
-      "concertCount": 1,
-      "bucketList": false
-    },
-    {
-      "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
-      "type": "work",
-      "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \\\"Scottish\\\".md",
-      "title": "Mendelssohn - Symphony No. 3 in A Minor, \\\"Scottish\\\"",
       "content": "## Movements\n1. Andante con moto – Allegro un poco agitato\n2. Vivace non troppo\n3. Adagio\n4. Allegro vivacissimo – Allegro maestoso assai",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
         "catalogue": "Op. 56",
-        "displayName": "Scottish"
+        "displayName": null
       },
-      "concertCount": 0,
+      "concertCount": 1,
       "bucketList": false
     },
     {
@@ -2322,6 +2308,20 @@
       "bucketList": false
     },
     {
+      "slug": "mozart-violin-concerto-no-3-in-g-major",
+      "type": "work",
+      "path": "Works/Mozart - Violin Concerto No. 3 in G Major.md",
+      "title": "Mozart - Violin Concerto No. 3 in G Major",
+      "content": "## Movements\n1. Allegro\n2. Adagio\n3. Rondeau: Allegro",
+      "frontmatter": {
+        "composer": "Mozart, Wolfgang Amadeus",
+        "catalogue": "K. 216",
+        "displayName": ""
+      },
+      "concertCount": 0,
+      "bucketList": false
+    },
+    {
       "slug": "mussorgsky-night-on-bald-mountain",
       "type": "work",
       "path": "Works/Mussorgsky - Night on Bald Mountain.md",
@@ -2470,7 +2470,7 @@
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
         "catalogue": "Op. 64",
-        "displayName": "Suite No. 2"
+        "displayName": null
       },
       "concertCount": 1,
       "bucketList": false
@@ -2508,10 +2508,10 @@
       "type": "work",
       "path": "Works/Prokofiev - Violin Concerto No. 2 in G Minor.md",
       "title": "Prokofiev - Violin Concerto No. 2 in G Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro moderato\n2. Andante assai\n3. Allegro, ben marcato",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "catalogue": "",
+        "catalogue": "Op. 63",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3009,10 +3009,10 @@
       "type": "work",
       "path": "Works/Shostakovich - Symphony No. 5.md",
       "title": "Shostakovich - Symphony No. 5",
-      "content": "",
+      "content": "## Movements\n1. Moderato – Allegro non troppo\n2. Allegretto\n3. Largo\n4. Allegro non troppo",
       "frontmatter": {
         "composer": "Shostakovich, Dmitri",
-        "catalogue": "",
+        "catalogue": "Op. 47",
         "displayName": ""
       },
       "concertCount": 2,
@@ -3567,11 +3567,11 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Symphony No. 1 in G Minor.md",
       "title": "Tchaikovsky - Symphony No. 1 in G Minor",
-      "content": "",
+      "content": "## Movements\n1. Dreams of a Winter Journey: Allegro tranquillo\n2. Land of Desolation, Land of Mists: Adagio cantabile ma non tanto\n3. Scherzo: Allegro scherzando giocoso\n4. Finale: Andante lugubre – Allegro moderato – Allegro maestoso",
       "frontmatter": {
-        "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
-        "displayName": ""
+        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "catalogue": "Op. 13",
+        "displayName": null
       },
       "concertCount": 1,
       "bucketList": false
@@ -3609,10 +3609,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Symphony No. 6 in B Minor.md",
       "title": "Tchaikovsky - Symphony No. 6 in B Minor",
-      "content": "",
+      "content": "## Movements\n1. Adagio – Allegro non troppo\n2. Allegro con grazia\n3. Allegro molto vivace\n4. Finale: Adagio lamentoso – Andante",
       "frontmatter": {
-        "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "catalogue": "Op. 74",
         "displayName": ""
       },
       "concertCount": 0,
@@ -10498,15 +10498,20 @@
               "type": "work",
               "path": "Works/Prokofiev - Violin Concerto No. 2 in G Minor.md",
               "title": "Prokofiev - Violin Concerto No. 2 in G Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro moderato\n2. Andante assai\n3. Allegro, ben marcato",
               "frontmatter": {
                 "composer": "Prokofiev, Sergei",
-                "catalogue": "",
+                "catalogue": "Op. 63",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro moderato",
+              "II. Andante assai",
+              "III. Allegro, ben marcato"
+            ]
           },
           {
             "work": {
@@ -10579,15 +10584,20 @@
               "type": "work",
               "path": "Works/Bach - Flute Concerto in A Major.md",
               "title": "Bach - Flute Concerto in A Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro ma non tanto",
               "frontmatter": {
-                "composer": "Bach, Carl Philipp Emanuel",
-                "catalogue": "",
+                "composer": "Bach, Johann Sebastian",
+                "catalogue": "BWV 1055",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Larghetto",
+              "III. Allegro ma non tanto"
+            ]
           },
           {
             "work": {
@@ -10820,15 +10830,21 @@
               "type": "work",
               "path": "Works/Mahler - Symphony No. 1.md",
               "title": "Mahler - Symphony No. 1",
-              "content": "",
+              "content": "## Movements\n1. Langsam, schleppend – Immer sehr gemächlich\n2. Kräftig bewegt, doch nicht zu schnell – Recht gemächlich\n3. Feierlich und gemessen, ohne zu schleppen\n4. Stürmisch bewegt – Energisch",
               "frontmatter": {
                 "composer": "Mahler, Gustav",
                 "catalogue": "",
-                "displayName": ""
+                "displayName": null
               },
               "concertCount": 1,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. Langsam, schleppend – Immer sehr gemächlich",
+              "II. Kräftig bewegt, doch nicht zu schnell – Recht gemächlich",
+              "III. Feierlich und gemessen, ohne zu schleppen",
+              "IV. Stürmisch bewegt – Energisch"
+            ]
           }
         ]
       }
@@ -11074,15 +11090,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Symphony No. 1 in G Minor.md",
               "title": "Tchaikovsky - Symphony No. 1 in G Minor",
-              "content": "",
+              "content": "## Movements\n1. Dreams of a Winter Journey: Allegro tranquillo\n2. Land of Desolation, Land of Mists: Adagio cantabile ma non tanto\n3. Scherzo: Allegro scherzando giocoso\n4. Finale: Andante lugubre – Allegro moderato – Allegro maestoso",
               "frontmatter": {
-                "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
-                "displayName": ""
+                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "catalogue": "Op. 13",
+                "displayName": null
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Dreams of a Winter Journey: Allegro tranquillo",
+              "II. Land of Desolation, Land of Mists: Adagio cantabile ma non tanto",
+              "III. Scherzo: Allegro scherzando giocoso",
+              "IV. Finale: Andante lugubre – Allegro moderato – Allegro maestoso"
+            ]
           }
         ]
       }
@@ -11248,15 +11270,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 8 in F Major.md",
               "title": "Beethoven - Symphony No. 8 in F Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro vivace e con brio\n2. Allegretto scherzando\n3. Tempo di Menuetto\n4. Allegro vivace",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 93",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro vivace e con brio",
+              "II. Allegretto scherzando",
+              "III. Tempo di Menuetto",
+              "IV. Allegro vivace"
+            ]
           }
         ]
       }
@@ -11341,15 +11369,21 @@
               "type": "work",
               "path": "Works/Shostakovich - Symphony No. 5.md",
               "title": "Shostakovich - Symphony No. 5",
-              "content": "",
+              "content": "## Movements\n1. Moderato – Allegro non troppo\n2. Allegretto\n3. Largo\n4. Allegro non troppo",
               "frontmatter": {
                 "composer": "Shostakovich, Dmitri",
-                "catalogue": "",
+                "catalogue": "Op. 47",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Moderato – Allegro non troppo",
+              "II. Allegretto",
+              "III. Largo",
+              "IV. Allegro non troppo"
+            ]
           }
         ]
       }
@@ -11418,15 +11452,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 8 in F Major.md",
               "title": "Beethoven - Symphony No. 8 in F Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro vivace e con brio\n2. Allegretto scherzando\n3. Tempo di Menuetto\n4. Allegro vivace",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 93",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro vivace e con brio",
+              "II. Allegretto scherzando",
+              "III. Tempo di Menuetto",
+              "IV. Allegro vivace"
+            ]
           },
           {
             "work": {
@@ -12284,7 +12324,7 @@
               "frontmatter": {
                 "composer": "Prokofiev, Sergei",
                 "catalogue": "Op. 64",
-                "displayName": "Suite No. 2"
+                "displayName": null
               },
               "concertCount": 1,
               "bucketList": false
@@ -12389,7 +12429,7 @@
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
                 "catalogue": "Op. 95",
-                "displayName": "From the New World"
+                "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
@@ -13076,15 +13116,21 @@
               "type": "work",
               "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md",
               "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\"",
-              "content": "",
+              "content": "## Movements\n1. Andante con moto – Allegro un poco agitato\n2. Vivace non troppo\n3. Adagio\n4. Allegro vivacissimo – Allegro maestoso assai",
               "frontmatter": {
                 "composer": "Mendelssohn, Felix",
-                "catalogue": "",
-                "displayName": ""
+                "catalogue": "Op. 56",
+                "displayName": null
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante con moto – Allegro un poco agitato",
+              "II. Vivace non troppo",
+              "III. Adagio",
+              "IV. Allegro vivacissimo – Allegro maestoso assai"
+            ]
           }
         ]
       }
@@ -13201,15 +13247,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 8 in F Major.md",
               "title": "Beethoven - Symphony No. 8 in F Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro vivace e con brio\n2. Allegretto scherzando\n3. Tempo di Menuetto\n4. Allegro vivace",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 93",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro vivace e con brio",
+              "II. Allegretto scherzando",
+              "III. Tempo di Menuetto",
+              "IV. Allegro vivace"
+            ]
           },
           {
             "work": {
@@ -13217,15 +13269,21 @@
               "type": "work",
               "path": "Works/Shostakovich - Symphony No. 5.md",
               "title": "Shostakovich - Symphony No. 5",
-              "content": "",
+              "content": "## Movements\n1. Moderato – Allegro non troppo\n2. Allegretto\n3. Largo\n4. Allegro non troppo",
               "frontmatter": {
                 "composer": "Shostakovich, Dmitri",
-                "catalogue": "",
+                "catalogue": "Op. 47",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Moderato – Allegro non troppo",
+              "II. Allegretto",
+              "III. Largo",
+              "IV. Allegro non troppo"
+            ]
           },
           {
             "work": {
@@ -13992,7 +14050,7 @@
       "title": "Bach, Carl Philipp Emanuel",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 0
     },
     {
       "slug": "bach-johann-sebastian",
@@ -14001,7 +14059,7 @@
       "title": "Bach, Johann Sebastian",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 5
+      "concertCount": 6
     },
     {
       "slug": "badelt-klaus",
@@ -15009,7 +15067,7 @@
       "title": "Tchaikovsky, Piotr Ilyich",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 13
+      "concertCount": 12
     },
     {
       "slug": "theofanidis-christopher",
