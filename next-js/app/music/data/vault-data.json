@@ -341,10 +341,10 @@
       "type": "work",
       "path": "Works/Beethoven - Symphony No. 5 in C Minor.md",
       "title": "Beethoven - Symphony No. 5 in C Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro con brio\n2. Andante con moto\n3. Scherzo: Allegro\n4. Allegro – Presto",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "catalogue": "",
+        "catalogue": "Op. 67",
         "displayName": ""
       },
       "concertCount": 3,
@@ -1598,10 +1598,10 @@
       "type": "work",
       "path": "Works/Haydn - Symphony No. 31 in D Major.md",
       "title": "Haydn - Symphony No. 31 in D Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Adagio\n3. Menuetto e Trio\n4. Finale: Moderato molto – Presto",
       "frontmatter": {
         "composer": "Haydn, Joseph",
-        "catalogue": "",
+        "catalogue": "Hob. I:31",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2242,11 +2242,11 @@
       "type": "work",
       "path": "Works/Mozart - Serenade No. 10 in B-Flat Major.md",
       "title": "Mozart - Serenade No. 10 in B-Flat Major",
-      "content": "",
+      "content": "## Movements\n1. Largo – Molto allegro\n2. Menuetto – Trio I & II\n3. Adagio\n4. Menuetto (Allegretto) – Trio I & II\n5. Romance (Adagio – Allegretto – Adagio)\n6. Tema con variazioni\n7. Finale: Molto allegro",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": "",
-        "displayName": ""
+        "catalogue": "K. 361/370a",
+        "displayName": "Gran Partita"
       },
       "concertCount": 1,
       "bucketList": false
@@ -2270,10 +2270,10 @@
       "type": "work",
       "path": "Works/Mozart - Symphony No. 31.md",
       "title": "Mozart - Symphony No. 31",
-      "content": "",
+      "content": "## Movements\n1. Allegro assai\n2. Andante\n3. Allegro",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": "",
+        "catalogue": "K. 297/300a",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2939,10 +2939,10 @@
       "type": "work",
       "path": "Works/Schumann - Overture, Scherzo, and Finale.md",
       "title": "Schumann - Overture, Scherzo, and Finale",
-      "content": "Op. 52",
+      "content": "## Movements\n1. Overture: Andante con moto – Allegro\n2. Scherzo: Vivo\n3. Finale: Allegro molto vivace",
       "frontmatter": {
         "composer": "Schumann, Robert",
-        "catalogue": "",
+        "catalogue": "Op. 52",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3497,10 +3497,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Serenade for Strings.md",
       "title": "Tchaikovsky - Serenade for Strings",
-      "content": "",
+      "content": "## Movements\n1. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato\n2. Valse: Moderato – Tempo di valse\n3. Élégie: Larghetto elegiaco\n4. Finale (Tema russo): Andante – Allegro con spirito",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "catalogue": "Op. 48",
         "displayName": ""
       },
       "concertCount": 2,
@@ -3525,10 +3525,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - String Quartet No. 1 in D Major.md",
       "title": "Tchaikovsky - String Quartet No. 1 in D Major",
-      "content": "",
+      "content": "## Movements\n1. Moderato e semplice\n2. Andante cantabile\n3. Scherzo: Allegro non tanto e con fuoco\n4. Finale: Allegro giusto",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "catalogue": "Op. 11",
         "displayName": ""
       },
       "concertCount": 1,
@@ -3539,10 +3539,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\".md",
       "title": "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
-      "content": "",
+      "content": "## Movements\n1. Gigue (Allegro)\n2. Menuet (Moderato)\n3. Preghiera (Andante non tanto)\n4. Theme and Variations (Allegro giusto)",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "catalogue": "Op. 61",
         "displayName": ""
       },
       "concertCount": 3,
@@ -3569,7 +3569,7 @@
       "title": "Tchaikovsky - Symphony No. 1 in G Minor",
       "content": "## Movements\n1. Dreams of a Winter Journey: Allegro tranquillo\n2. Land of Desolation, Land of Mists: Adagio cantabile ma non tanto\n3. Scherzo: Allegro scherzando giocoso\n4. Finale: Andante lugubre – Allegro moderato – Allegro maestoso",
       "frontmatter": {
-        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "composer": "Tchaikovsky, Piotr Ilyich",
         "catalogue": "Op. 13",
         "displayName": null
       },
@@ -3583,7 +3583,7 @@
       "title": "Tchaikovsky - Symphony No. 4 in F Minor",
       "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
       "frontmatter": {
-        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "composer": "Tchaikovsky, Piotr Ilyich",
         "catalogue": "Op. 36",
         "displayName": ""
       },
@@ -3611,7 +3611,7 @@
       "title": "Tchaikovsky - Symphony No. 6 in B Minor",
       "content": "## Movements\n1. Adagio – Allegro non troppo\n2. Allegro con grazia\n3. Allegro molto vivace\n4. Finale: Adagio lamentoso – Andante",
       "frontmatter": {
-        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "composer": "Tchaikovsky, Piotr Ilyich",
         "catalogue": "Op. 74",
         "displayName": ""
       },
@@ -3625,7 +3625,7 @@
       "title": "Tchaikovsky - The Nutcracker Suite",
       "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
       "frontmatter": {
-        "composer": "Tchaikovsky, Pyotr Ilyich",
+        "composer": "Tchaikovsky, Piotr Ilyich",
         "catalogue": "Op. 71a",
         "displayName": ""
       },
@@ -3637,10 +3637,10 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Variations on a Rococo Theme.md",
       "title": "Tchaikovsky - Variations on a Rococo Theme",
-      "content": "",
+      "content": "## Movements\n1. Moderato assai quasi Andante – Thema: Moderato semplice\n2. Var. I: Tempo della Thema\n3. Var. II: Tempo della Thema\n4. Var. III: Andante sostenuto\n5. Var. IV: Andante grazioso\n6. Var. V: Allegro moderato\n7. Var. VI: Andante\n8. Var. VII e Coda: Allegro vivo",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
-        "catalogue": "",
+        "catalogue": "Op. 33",
         "displayName": ""
       },
       "concertCount": 1,
@@ -4057,10 +4057,10 @@
       "type": "work",
       "path": "Works/von Weber - Clarinet Concerto No. 1.md",
       "title": "von Weber - Clarinet Concerto No. 1",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Adagio ma non troppo\n3. Rondo: Allegretto",
       "frontmatter": {
         "composer": "von Weber, Carl Maria",
-        "catalogue": "",
+        "catalogue": "Op. 73",
         "displayName": ""
       },
       "concertCount": 1,
@@ -4096,15 +4096,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 5 in C Minor.md",
               "title": "Beethoven - Symphony No. 5 in C Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Andante con moto\n3. Scherzo: Allegro\n4. Allegro – Presto",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 67",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Andante con moto",
+              "III. Scherzo: Allegro",
+              "IV. Allegro – Presto"
+            ]
           },
           {
             "work": {
@@ -4412,15 +4418,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 5 in C Minor.md",
               "title": "Beethoven - Symphony No. 5 in C Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Andante con moto\n3. Scherzo: Allegro\n4. Allegro – Presto",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 67",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Andante con moto",
+              "III. Scherzo: Allegro",
+              "IV. Allegro – Presto"
+            ]
           }
         ]
       }
@@ -6088,7 +6100,7 @@
               "title": "Tchaikovsky - The Nutcracker Suite",
               "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 71a",
                 "displayName": ""
               },
@@ -7098,7 +7110,7 @@
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
               "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 36",
                 "displayName": ""
               },
@@ -7199,7 +7211,7 @@
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
               "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 36",
                 "displayName": ""
               },
@@ -7690,7 +7702,7 @@
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
               "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 36",
                 "displayName": ""
               },
@@ -8431,7 +8443,7 @@
               "title": "Tchaikovsky - The Nutcracker Suite",
               "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 71a",
                 "displayName": ""
               },
@@ -9393,15 +9405,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Serenade for Strings.md",
               "title": "Tchaikovsky - Serenade for Strings",
-              "content": "",
+              "content": "## Movements\n1. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato\n2. Valse: Moderato – Tempo di valse\n3. Élégie: Larghetto elegiaco\n4. Finale (Tema russo): Andante – Allegro con spirito",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 48",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato",
+              "II. Valse: Moderato – Tempo di valse",
+              "III. Élégie: Larghetto elegiaco",
+              "IV. Finale (Tema russo): Andante – Allegro con spirito"
+            ]
           }
         ]
       }
@@ -9471,7 +9489,7 @@
               "title": "Tchaikovsky - The Nutcracker Suite",
               "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 71a",
                 "displayName": ""
               },
@@ -9641,15 +9659,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\".md",
               "title": "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
-              "content": "",
+              "content": "## Movements\n1. Gigue (Allegro)\n2. Menuet (Moderato)\n3. Preghiera (Andante non tanto)\n4. Theme and Variations (Allegro giusto)",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 61",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Gigue (Allegro)",
+              "II. Menuet (Moderato)",
+              "III. Preghiera (Andante non tanto)",
+              "IV. Theme and Variations (Allegro giusto)"
+            ]
           },
           {
             "work": {
@@ -9715,15 +9739,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\".md",
               "title": "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
-              "content": "",
+              "content": "## Movements\n1. Gigue (Allegro)\n2. Menuet (Moderato)\n3. Preghiera (Andante non tanto)\n4. Theme and Variations (Allegro giusto)",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 61",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Gigue (Allegro)",
+              "II. Menuet (Moderato)",
+              "III. Preghiera (Andante non tanto)",
+              "IV. Theme and Variations (Allegro giusto)"
+            ]
           },
           {
             "work": {
@@ -9805,15 +9835,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\".md",
               "title": "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
-              "content": "",
+              "content": "## Movements\n1. Gigue (Allegro)\n2. Menuet (Moderato)\n3. Preghiera (Andante non tanto)\n4. Theme and Variations (Allegro giusto)",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 61",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Gigue (Allegro)",
+              "II. Menuet (Moderato)",
+              "III. Preghiera (Andante non tanto)",
+              "IV. Theme and Variations (Allegro giusto)"
+            ]
           },
           {
             "work": {
@@ -9878,15 +9914,21 @@
               "type": "work",
               "path": "Works/Haydn - Symphony No. 31 in D Major.md",
               "title": "Haydn - Symphony No. 31 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Adagio\n3. Menuetto e Trio\n4. Finale: Moderato molto – Presto",
               "frontmatter": {
                 "composer": "Haydn, Joseph",
-                "catalogue": "",
+                "catalogue": "Hob. I:31",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Adagio",
+              "III. Menuetto e Trio",
+              "IV. Finale: Moderato molto – Presto"
+            ]
           },
           {
             "work": {
@@ -9894,15 +9936,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - String Quartet No. 1 in D Major.md",
               "title": "Tchaikovsky - String Quartet No. 1 in D Major",
-              "content": "",
+              "content": "## Movements\n1. Moderato e semplice\n2. Andante cantabile\n3. Scherzo: Allegro non tanto e con fuoco\n4. Finale: Allegro giusto",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 11",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Moderato e semplice",
+              "II. Andante cantabile",
+              "III. Scherzo: Allegro non tanto e con fuoco",
+              "IV. Finale: Allegro giusto"
+            ]
           },
           {
             "work": {
@@ -9910,15 +9958,24 @@
               "type": "work",
               "path": "Works/Mozart - Serenade No. 10 in B-Flat Major.md",
               "title": "Mozart - Serenade No. 10 in B-Flat Major",
-              "content": "",
+              "content": "## Movements\n1. Largo – Molto allegro\n2. Menuetto – Trio I & II\n3. Adagio\n4. Menuetto (Allegretto) – Trio I & II\n5. Romance (Adagio – Allegretto – Adagio)\n6. Tema con variazioni\n7. Finale: Molto allegro",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": "",
-                "displayName": ""
+                "catalogue": "K. 361/370a",
+                "displayName": "Gran Partita"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Largo – Molto allegro",
+              "II. Menuetto – Trio I & II",
+              "III. Adagio",
+              "IV. Menuetto (Allegretto) – Trio I & II",
+              "V. Romance (Adagio – Allegretto – Adagio)",
+              "VI. Tema con variazioni",
+              "VII. Finale: Molto allegro"
+            ]
           }
         ]
       }
@@ -9970,15 +10027,21 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Serenade for Strings.md",
               "title": "Tchaikovsky - Serenade for Strings",
-              "content": "",
+              "content": "## Movements\n1. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato\n2. Valse: Moderato – Tempo di valse\n3. Élégie: Larghetto elegiaco\n4. Finale (Tema russo): Andante – Allegro con spirito",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 48",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato",
+              "II. Valse: Moderato – Tempo di valse",
+              "III. Élégie: Larghetto elegiaco",
+              "IV. Finale (Tema russo): Andante – Allegro con spirito"
+            ]
           },
           {
             "work": {
@@ -10077,15 +10140,20 @@
               "type": "work",
               "path": "Works/von Weber - Clarinet Concerto No. 1.md",
               "title": "von Weber - Clarinet Concerto No. 1",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Adagio ma non troppo\n3. Rondo: Allegretto",
               "frontmatter": {
                 "composer": "von Weber, Carl Maria",
-                "catalogue": "",
+                "catalogue": "Op. 73",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Adagio ma non troppo",
+              "III. Rondo: Allegretto"
+            ]
           },
           {
             "work": {
@@ -10125,15 +10193,20 @@
               "type": "work",
               "path": "Works/Schumann - Overture, Scherzo, and Finale.md",
               "title": "Schumann - Overture, Scherzo, and Finale",
-              "content": "Op. 52",
+              "content": "## Movements\n1. Overture: Andante con moto – Allegro\n2. Scherzo: Vivo\n3. Finale: Allegro molto vivace",
               "frontmatter": {
                 "composer": "Schumann, Robert",
-                "catalogue": "",
+                "catalogue": "Op. 52",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Overture: Andante con moto – Allegro",
+              "II. Scherzo: Vivo",
+              "III. Finale: Allegro molto vivace"
+            ]
           }
         ]
       }
@@ -10199,15 +10272,25 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Variations on a Rococo Theme.md",
               "title": "Tchaikovsky - Variations on a Rococo Theme",
-              "content": "",
+              "content": "## Movements\n1. Moderato assai quasi Andante – Thema: Moderato semplice\n2. Var. I: Tempo della Thema\n3. Var. II: Tempo della Thema\n4. Var. III: Andante sostenuto\n5. Var. IV: Andante grazioso\n6. Var. V: Allegro moderato\n7. Var. VI: Andante\n8. Var. VII e Coda: Allegro vivo",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
-                "catalogue": "",
+                "catalogue": "Op. 33",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Moderato assai quasi Andante – Thema: Moderato semplice",
+              "II. Var. I: Tempo della Thema",
+              "III. Var. II: Tempo della Thema",
+              "IV. Var. III: Andante sostenuto",
+              "V. Var. IV: Andante grazioso",
+              "VI. Var. V: Allegro moderato",
+              "VII. Var. VI: Andante",
+              "VIII. Var. VII e Coda: Allegro vivo"
+            ]
           },
           {
             "work": {
@@ -10215,15 +10298,21 @@
               "type": "work",
               "path": "Works/Beethoven - Symphony No. 5 in C Minor.md",
               "title": "Beethoven - Symphony No. 5 in C Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Andante con moto\n3. Scherzo: Allegro\n4. Allegro – Presto",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": "",
+                "catalogue": "Op. 67",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Andante con moto",
+              "III. Scherzo: Allegro",
+              "IV. Allegro – Presto"
+            ]
           }
         ]
       }
@@ -10272,15 +10361,20 @@
               "type": "work",
               "path": "Works/Mozart - Symphony No. 31.md",
               "title": "Mozart - Symphony No. 31",
-              "content": "",
+              "content": "## Movements\n1. Allegro assai\n2. Andante\n3. Allegro",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": "",
+                "catalogue": "K. 297/300a",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro assai",
+              "II. Andante",
+              "III. Allegro"
+            ]
           },
           {
             "work": {
@@ -10521,7 +10615,7 @@
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
               "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 36",
                 "displayName": ""
               },
@@ -10964,7 +11058,7 @@
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
               "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 36",
                 "displayName": ""
               },
@@ -11092,7 +11186,7 @@
               "title": "Tchaikovsky - Symphony No. 1 in G Minor",
               "content": "## Movements\n1. Dreams of a Winter Journey: Allegro tranquillo\n2. Land of Desolation, Land of Mists: Adagio cantabile ma non tanto\n3. Scherzo: Allegro scherzando giocoso\n4. Finale: Andante lugubre – Allegro moderato – Allegro maestoso",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 13",
                 "displayName": null
               },
@@ -11498,7 +11592,7 @@
               "title": "Tchaikovsky - The Nutcracker Suite",
               "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 71a",
                 "displayName": ""
               },
@@ -12528,7 +12622,7 @@
               "title": "Tchaikovsky - The Nutcracker Suite",
               "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 71a",
                 "displayName": ""
               },
@@ -13997,7 +14091,7 @@
               "title": "Tchaikovsky - Symphony No. 4 in F Minor",
               "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
               "frontmatter": {
-                "composer": "Tchaikovsky, Pyotr Ilyich",
+                "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 36",
                 "displayName": ""
               },
@@ -15067,7 +15161,7 @@
       "title": "Tchaikovsky, Piotr Ilyich",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 12
+      "concertCount": 24
     },
     {
       "slug": "theofanidis-christopher",
