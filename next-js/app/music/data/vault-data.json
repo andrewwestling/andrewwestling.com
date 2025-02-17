@@ -215,10 +215,10 @@
       "type": "work",
       "path": "Works/Barber - Violin Concerto.md",
       "title": "Barber - Violin Concerto",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Andante\n3. Presto in moto perpetuo",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "catalogue": "",
+        "catalogue": "Op. 14",
         "displayName": ""
       },
       "concertCount": 4,
@@ -467,7 +467,7 @@
       "type": "work",
       "path": "Works/Bizet - Carmen Suite No. 1.md",
       "title": "Bizet - Carmen Suite No. 1",
-      "content": "",
+      "content": "## Movements\n1. Prélude (Aragonaise)\n2. Intermezzo (Entr'acte to Act III)\n3. Séguedille\n4. Les Dragons d'Alcala\n5. Les Toréadors",
       "frontmatter": {
         "composer": "Bizet, Georges",
         "catalogue": "",
@@ -481,7 +481,7 @@
       "type": "work",
       "path": "Works/Bizet - Carmen Suite No. 2.md",
       "title": "Bizet - Carmen Suite No. 2",
-      "content": "",
+      "content": "## Movements\n1. Marche des Contrebandiers\n2. Habanera\n3. Nocturne\n4. Chanson du Toréador\n5. La Garde Montante\n6. Danse Bohème",
       "frontmatter": {
         "composer": "Bizet, Georges",
         "catalogue": "",
@@ -1053,10 +1053,10 @@
       "type": "work",
       "path": "Works/Debussy - La Mer.md",
       "title": "Debussy - La Mer",
-      "content": "",
+      "content": "## Movements\n1. De l'aube à midi sur la mer\n2. Jeux de vagues\n3. Dialogue du vent et de la mer",
       "frontmatter": {
         "composer": "Debussy, Claude",
-        "catalogue": "",
+        "catalogue": "L.109",
         "displayName": ""
       },
       "concertCount": 1,
@@ -1165,10 +1165,10 @@
       "type": "work",
       "path": "Works/Dvorak - Symphony No. 8 in G Major.md",
       "title": "Dvorak - Symphony No. 8 in G Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro con brio\n2. Adagio\n3. Allegretto grazioso\n4. Allegro ma non troppo",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": "",
+        "catalogue": "Op. 88",
         "displayName": ""
       },
       "concertCount": 3,
@@ -1752,7 +1752,7 @@
       "type": "work",
       "path": "Works/Khachaturian - Maskerade Suite.md",
       "title": "Khachaturian - Maskerade Suite",
-      "content": "",
+      "content": "## Movements\n1. Waltz\n2. Nocturne\n3. Mazurka\n4. Romance\n5. Galop",
       "frontmatter": {
         "composer": "Khachaturian, Aram",
         "catalogue": "",
@@ -2084,14 +2084,28 @@
       "bucketList": false
     },
     {
+      "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
+      "type": "work",
+      "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \\\"Scottish\\\".md",
+      "title": "Mendelssohn - Symphony No. 3 in A Minor, \\\"Scottish\\\"",
+      "content": "## Movements\n1. Andante con moto – Allegro un poco agitato\n2. Vivace non troppo\n3. Adagio\n4. Allegro vivacissimo – Allegro maestoso assai",
+      "frontmatter": {
+        "composer": "Mendelssohn, Felix",
+        "catalogue": "Op. 56",
+        "displayName": "Scottish"
+      },
+      "concertCount": 0,
+      "bucketList": false
+    },
+    {
       "slug": "mendelssohn-violin-concerto-in-e-minor",
       "type": "work",
       "path": "Works/Mendelssohn - Violin Concerto in E Minor.md",
       "title": "Mendelssohn - Violin Concerto in E Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro molto appassionato\n2. Andante\n3. Allegretto non troppo – Allegro molto vivace",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "catalogue": "",
+        "catalogue": "Op. 64",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2130,10 +2144,10 @@
       "type": "work",
       "path": "Works/Mozart - Clarinet Concerto in A Major.md",
       "title": "Mozart - Clarinet Concerto in A Major",
-      "content": "K. 622",
+      "content": "## Movements\n1. Allegro\n2. Adagio\n3. Rondo: Allegro",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": "",
+        "catalogue": "K. 622",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2452,10 +2466,10 @@
       "type": "work",
       "path": "Works/Prokofiev - Symphony No. 5 in B-Flat Major.md",
       "title": "Prokofiev - Symphony No. 5 in B-Flat Major",
-      "content": "",
+      "content": "## Movements\n1. Andante\n2. Allegro marcato\n3. Adagio\n4. Allegro giocoso",
       "frontmatter": {
         "composer": "Prokofiev, Sergei",
-        "catalogue": "",
+        "catalogue": "Op. 100",
         "displayName": ""
       },
       "concertCount": 1,
@@ -2869,10 +2883,10 @@
       "type": "work",
       "path": "Works/Saint-Saens - Violin Concerto No. 3 in B Minor.md",
       "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
-      "content": "",
+      "content": "## Movements\n1. Allegro non troppo\n2. Andantino quasi allegretto\n3. Molto moderato e maestoso – Allegro non troppo",
       "frontmatter": {
         "composer": "Saint-Saens, Camille",
-        "catalogue": "",
+        "catalogue": "Op. 61",
         "displayName": ""
       },
       "concertCount": 2,
@@ -3092,10 +3106,10 @@
       "type": "work",
       "path": "Works/Sibelius - Symphony No. 1 in E Minor.md",
       "title": "Sibelius - Symphony No. 1 in E Minor",
-      "content": "",
+      "content": "## Movements\n1. Andante, ma non troppo – Allegro energico\n2. Andante (ma non troppo lento)\n3. Scherzo: Allegro\n4. Finale (Quasi una Fantasia): Andante – Allegro molto",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "catalogue": "",
+        "catalogue": "Op. 39",
         "displayName": ""
       },
       "concertCount": 2,
@@ -4298,7 +4312,7 @@
               "type": "work",
               "path": "Works/Bizet - Carmen Suite No. 1.md",
               "title": "Bizet - Carmen Suite No. 1",
-              "content": "",
+              "content": "## Movements\n1. Prélude (Aragonaise)\n2. Intermezzo (Entr'acte to Act III)\n3. Séguedille\n4. Les Dragons d'Alcala\n5. Les Toréadors",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -4306,7 +4320,14 @@
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Prélude (Aragonaise)",
+              "II. Intermezzo (Entr'acte to Act III)",
+              "III. Séguedille",
+              "IV. Les Dragons d'Alcala",
+              "V. Les Toréadors"
+            ]
           },
           {
             "work": {
@@ -4354,7 +4375,7 @@
               "type": "work",
               "path": "Works/Bizet - Carmen Suite No. 1.md",
               "title": "Bizet - Carmen Suite No. 1",
-              "content": "",
+              "content": "## Movements\n1. Prélude (Aragonaise)\n2. Intermezzo (Entr'acte to Act III)\n3. Séguedille\n4. Les Dragons d'Alcala\n5. Les Toréadors",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -4362,7 +4383,14 @@
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Prélude (Aragonaise)",
+              "II. Intermezzo (Entr'acte to Act III)",
+              "III. Séguedille",
+              "IV. Les Dragons d'Alcala",
+              "V. Les Toréadors"
+            ]
           },
           {
             "work": {
@@ -5126,15 +5154,21 @@
               "type": "work",
               "path": "Works/Sibelius - Symphony No. 1 in E Minor.md",
               "title": "Sibelius - Symphony No. 1 in E Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante, ma non troppo – Allegro energico\n2. Andante (ma non troppo lento)\n3. Scherzo: Allegro\n4. Finale (Quasi una Fantasia): Andante – Allegro molto",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": "",
+                "catalogue": "Op. 39",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante, ma non troppo – Allegro energico",
+              "II. Andante (ma non troppo lento)",
+              "III. Scherzo: Allegro",
+              "IV. Finale (Quasi una Fantasia): Andante – Allegro molto"
+            ]
           }
         ]
       }
@@ -6234,15 +6268,20 @@
               "type": "work",
               "path": "Works/Saint-Saens - Violin Concerto No. 3 in B Minor.md",
               "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro non troppo\n2. Andantino quasi allegretto\n3. Molto moderato e maestoso – Allegro non troppo",
               "frontmatter": {
                 "composer": "Saint-Saens, Camille",
-                "catalogue": "",
+                "catalogue": "Op. 61",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non troppo",
+              "II. Andantino quasi allegretto",
+              "III. Molto moderato e maestoso – Allegro non troppo"
+            ]
           },
           {
             "work": {
@@ -6370,15 +6409,20 @@
               "type": "work",
               "path": "Works/Barber - Violin Concerto.md",
               "title": "Barber - Violin Concerto",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Andante\n3. Presto in moto perpetuo",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": "",
+                "catalogue": "Op. 14",
                 "displayName": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Andante",
+              "III. Presto in moto perpetuo"
+            ]
           },
           {
             "work": {
@@ -6990,15 +7034,20 @@
               "type": "work",
               "path": "Works/Barber - Violin Concerto.md",
               "title": "Barber - Violin Concerto",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Andante\n3. Presto in moto perpetuo",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": "",
+                "catalogue": "Op. 14",
                 "displayName": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Andante",
+              "III. Presto in moto perpetuo"
+            ]
           },
           {
             "work": {
@@ -7086,15 +7135,20 @@
               "type": "work",
               "path": "Works/Barber - Violin Concerto.md",
               "title": "Barber - Violin Concerto",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Andante\n3. Presto in moto perpetuo",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": "",
+                "catalogue": "Op. 14",
                 "displayName": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Andante",
+              "III. Presto in moto perpetuo"
+            ]
           },
           {
             "work": {
@@ -7762,7 +7816,7 @@
               "type": "work",
               "path": "Works/Bizet - Carmen Suite No. 1.md",
               "title": "Bizet - Carmen Suite No. 1",
-              "content": "",
+              "content": "## Movements\n1. Prélude (Aragonaise)\n2. Intermezzo (Entr'acte to Act III)\n3. Séguedille\n4. Les Dragons d'Alcala\n5. Les Toréadors",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -7770,7 +7824,14 @@
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Prélude (Aragonaise)",
+              "II. Intermezzo (Entr'acte to Act III)",
+              "III. Séguedille",
+              "IV. Les Dragons d'Alcala",
+              "V. Les Toréadors"
+            ]
           },
           {
             "work": {
@@ -7778,7 +7839,7 @@
               "type": "work",
               "path": "Works/Bizet - Carmen Suite No. 2.md",
               "title": "Bizet - Carmen Suite No. 2",
-              "content": "",
+              "content": "## Movements\n1. Marche des Contrebandiers\n2. Habanera\n3. Nocturne\n4. Chanson du Toréador\n5. La Garde Montante\n6. Danse Bohème",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -7786,7 +7847,15 @@
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Marche des Contrebandiers",
+              "II. Habanera",
+              "III. Nocturne",
+              "IV. Chanson du Toréador",
+              "V. La Garde Montante",
+              "VI. Danse Bohème"
+            ]
           }
         ]
       }
@@ -8764,15 +8833,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 8 in G Major.md",
               "title": "Dvorak - Symphony No. 8 in G Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Adagio\n3. Allegretto grazioso\n4. Allegro ma non troppo",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 88",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Adagio",
+              "III. Allegretto grazioso",
+              "IV. Allegro ma non troppo"
+            ]
           }
         ]
       }
@@ -11845,15 +11920,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 8 in G Major.md",
               "title": "Dvorak - Symphony No. 8 in G Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Adagio\n3. Allegretto grazioso\n4. Allegro ma non troppo",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 88",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Adagio",
+              "III. Allegretto grazioso",
+              "IV. Allegro ma non troppo"
+            ]
           },
           {
             "work": {
@@ -12362,15 +12443,21 @@
               "type": "work",
               "path": "Works/Prokofiev - Symphony No. 5 in B-Flat Major.md",
               "title": "Prokofiev - Symphony No. 5 in B-Flat Major",
-              "content": "",
+              "content": "## Movements\n1. Andante\n2. Allegro marcato\n3. Adagio\n4. Allegro giocoso",
               "frontmatter": {
                 "composer": "Prokofiev, Sergei",
-                "catalogue": "",
+                "catalogue": "Op. 100",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante",
+              "II. Allegro marcato",
+              "III. Adagio",
+              "IV. Allegro giocoso"
+            ]
           }
         ]
       }
@@ -12406,7 +12493,7 @@
               "type": "work",
               "path": "Works/Khachaturian - Maskerade Suite.md",
               "title": "Khachaturian - Maskerade Suite",
-              "content": "",
+              "content": "## Movements\n1. Waltz\n2. Nocturne\n3. Mazurka\n4. Romance\n5. Galop",
               "frontmatter": {
                 "composer": "Khachaturian, Aram",
                 "catalogue": "",
@@ -12414,7 +12501,14 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Waltz",
+              "II. Nocturne",
+              "III. Mazurka",
+              "IV. Romance",
+              "V. Galop"
+            ]
           },
           {
             "work": {
@@ -12438,7 +12532,7 @@
               "type": "work",
               "path": "Works/Bizet - Carmen Suite No. 1.md",
               "title": "Bizet - Carmen Suite No. 1",
-              "content": "",
+              "content": "## Movements\n1. Prélude (Aragonaise)\n2. Intermezzo (Entr'acte to Act III)\n3. Séguedille\n4. Les Dragons d'Alcala\n5. Les Toréadors",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -12446,7 +12540,14 @@
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Prélude (Aragonaise)",
+              "II. Intermezzo (Entr'acte to Act III)",
+              "III. Séguedille",
+              "IV. Les Dragons d'Alcala",
+              "V. Les Toréadors"
+            ]
           },
           {
             "work": {
@@ -12454,7 +12555,7 @@
               "type": "work",
               "path": "Works/Bizet - Carmen Suite No. 2.md",
               "title": "Bizet - Carmen Suite No. 2",
-              "content": "",
+              "content": "## Movements\n1. Marche des Contrebandiers\n2. Habanera\n3. Nocturne\n4. Chanson du Toréador\n5. La Garde Montante\n6. Danse Bohème",
               "frontmatter": {
                 "composer": "Bizet, Georges",
                 "catalogue": "",
@@ -12462,7 +12563,15 @@
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Marche des Contrebandiers",
+              "II. Habanera",
+              "III. Nocturne",
+              "IV. Chanson du Toréador",
+              "V. La Garde Montante",
+              "VI. Danse Bohème"
+            ]
           },
           {
             "work": {
@@ -12560,15 +12669,20 @@
               "type": "work",
               "path": "Works/Debussy - La Mer.md",
               "title": "Debussy - La Mer",
-              "content": "",
+              "content": "## Movements\n1. De l'aube à midi sur la mer\n2. Jeux de vagues\n3. Dialogue du vent et de la mer",
               "frontmatter": {
                 "composer": "Debussy, Claude",
-                "catalogue": "",
+                "catalogue": "L.109",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. De l'aube à midi sur la mer",
+              "II. Jeux de vagues",
+              "III. Dialogue du vent et de la mer"
+            ]
           }
         ]
       }
@@ -12758,15 +12872,20 @@
               "type": "work",
               "path": "Works/Barber - Violin Concerto.md",
               "title": "Barber - Violin Concerto",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Andante\n3. Presto in moto perpetuo",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": "",
+                "catalogue": "Op. 14",
                 "displayName": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Andante",
+              "III. Presto in moto perpetuo"
+            ]
           },
           {
             "work": {
@@ -12831,15 +12950,21 @@
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 8 in G Major.md",
               "title": "Dvorak - Symphony No. 8 in G Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro con brio\n2. Adagio\n3. Allegretto grazioso\n4. Allegro ma non troppo",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": "",
+                "catalogue": "Op. 88",
                 "displayName": ""
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro con brio",
+              "II. Adagio",
+              "III. Allegretto grazioso",
+              "IV. Allegro ma non troppo"
+            ]
           },
           {
             "work": {
@@ -12847,15 +12972,20 @@
               "type": "work",
               "path": "Works/Saint-Saens - Violin Concerto No. 3 in B Minor.md",
               "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro non troppo\n2. Andantino quasi allegretto\n3. Molto moderato e maestoso – Allegro non troppo",
               "frontmatter": {
                 "composer": "Saint-Saens, Camille",
-                "catalogue": "",
+                "catalogue": "Op. 61",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro non troppo",
+              "II. Andantino quasi allegretto",
+              "III. Molto moderato e maestoso – Allegro non troppo"
+            ]
           }
         ]
       }
@@ -12961,15 +13091,20 @@
               "type": "work",
               "path": "Works/Mozart - Clarinet Concerto in A Major.md",
               "title": "Mozart - Clarinet Concerto in A Major",
-              "content": "K. 622",
+              "content": "## Movements\n1. Allegro\n2. Adagio\n3. Rondo: Allegro",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": "",
+                "catalogue": "K. 622",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Adagio",
+              "III. Rondo: Allegro"
+            ]
           },
           {
             "work": {
@@ -12977,15 +13112,21 @@
               "type": "work",
               "path": "Works/Sibelius - Symphony No. 1 in E Minor.md",
               "title": "Sibelius - Symphony No. 1 in E Minor",
-              "content": "",
+              "content": "## Movements\n1. Andante, ma non troppo – Allegro energico\n2. Andante (ma non troppo lento)\n3. Scherzo: Allegro\n4. Finale (Quasi una Fantasia): Andante – Allegro molto",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": "",
+                "catalogue": "Op. 39",
                 "displayName": ""
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Andante, ma non troppo – Allegro energico",
+              "II. Andante (ma non troppo lento)",
+              "III. Scherzo: Allegro",
+              "IV. Finale (Quasi una Fantasia): Andante – Allegro molto"
+            ]
           },
           {
             "work": {
@@ -13052,15 +13193,20 @@
               "type": "work",
               "path": "Works/Mendelssohn - Violin Concerto in E Minor.md",
               "title": "Mendelssohn - Violin Concerto in E Minor",
-              "content": "",
+              "content": "## Movements\n1. Allegro molto appassionato\n2. Andante\n3. Allegretto non troppo – Allegro molto vivace",
               "frontmatter": {
                 "composer": "Mendelssohn, Felix",
-                "catalogue": "",
+                "catalogue": "Op. 64",
                 "displayName": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro molto appassionato",
+              "II. Andante",
+              "III. Allegretto non troppo – Allegro molto vivace"
+            ]
           },
           {
             "work": {
