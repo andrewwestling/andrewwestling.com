@@ -95,6 +95,8 @@ function generateSlug(
 // Helper to convert numbers to roman numerals
 function toRomanNumeral(num: number): string {
   const romanNumerals = [
+    { value: 50, numeral: "L" },
+    { value: 40, numeral: "XL" },
     { value: 10, numeral: "X" },
     { value: 9, numeral: "IX" },
     { value: 5, numeral: "V" },
@@ -115,6 +117,24 @@ function toRomanNumeral(num: number): string {
   return result;
 }
 
+// Helper to parse a movement line and convert its number to roman numerals
+function parseMovementLine(line: string): string {
+  // Check if the line already starts with a roman numeral
+  if (line.match(/^[IVXL]+\./)) {
+    return line;
+  }
+
+  // Check if the line starts with an arabic number
+  const arabicMatch = line.match(/^(\d+)\.(.*)/);
+  if (arabicMatch) {
+    const [, number, rest] = arabicMatch;
+    return `${toRomanNumeral(parseInt(number, 10))}.${rest}`;
+  }
+
+  // If no number found, return the line as is
+  return line;
+}
+
 // Helper to parse movements from a work's content
 function parseWorkMovements(content: string): string[] | undefined {
   const movementsMatch = content.match(/## Movements\n([\s\S]*?)(?=\n##|$)/);
@@ -122,23 +142,49 @@ function parseWorkMovements(content: string): string[] | undefined {
 
   const movementsContent = movementsMatch[1].trim();
   const movements: string[] = [];
-  let currentMovementNumber = 1;
 
   // Split into lines and process each one
   const lines = movementsContent.split("\n");
+
+  // First, analyze the list to determine if it's a simple numbered list
+  // that should be converted to roman numerals
+  const isSimpleNumberedList = lines.every((line) => {
+    const trimmedLine = line.trim();
+    if (!trimmedLine) return true; // Skip empty lines
+    return !!trimmedLine.match(/^\d+\.\s*[^IVX\d].*$/); // Matches "1. Something" but not "1. IX. Something" or "1. 1812"
+  });
+
+  let currentMovementNumber = 1;
+
   for (const line of lines) {
     const trimmedLine = line.trim();
     if (!trimmedLine) continue;
 
-    // Look for ordered list items (1., 2., etc) or unordered list items (-, *)
-    const listItemMatch = trimmedLine.match(/^(?:\d+\.|-|\*)\s*(.+)$/);
-    if (listItemMatch) {
-      // Format with roman numerals
-      movements.push(
-        `${toRomanNumeral(currentMovementNumber)}. ${listItemMatch[1]}`
-      );
-      currentMovementNumber++;
+    // Handle unordered list items (-, *)
+    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
+      // Just remove the bullet and trim
+      movements.push(trimmedLine.replace(/^[-*]\s*/, "").trim());
+      continue;
     }
+
+    // Handle ordered list items (1., 2., etc)
+    const orderedListMatch = trimmedLine.match(/^\d+\.\s*(.+)$/);
+    if (orderedListMatch) {
+      if (isSimpleNumberedList) {
+        // For simple numbered lists, convert to roman numerals
+        movements.push(
+          `${toRomanNumeral(currentMovementNumber)}. ${orderedListMatch[1]}`
+        );
+      } else {
+        // For complex lists, preserve the original text
+        movements.push(orderedListMatch[1]);
+      }
+      currentMovementNumber++;
+      continue;
+    }
+
+    // If it's not a list item but not empty, include it as is
+    movements.push(trimmedLine);
   }
 
   return movements.length > 0 ? movements : undefined;
@@ -230,14 +276,8 @@ function parseProgramDetails(
     // Add movement entries
     if (currentWork.movements !== undefined && trimmedLine.match(/^[-*]\s/)) {
       const movementText = trimmedLine.replace(/^[-*]\s*/, "").trim();
-      // If the movement doesn't already start with a roman numeral, add one
-      if (!movementText.match(/^[IVX]+\./)) {
-        currentWork.movements.push(
-          `${toRomanNumeral(currentWork.movements.length + 1)}. ${movementText}`
-        );
-      } else {
-        currentWork.movements.push(movementText);
-      }
+      // Parse the movement line and convert numbers if needed
+      currentWork.movements.push(parseMovementLine(movementText));
     }
   }
 

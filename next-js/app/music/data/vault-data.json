@@ -1202,6 +1202,20 @@
       "bucketList": false
     },
     {
+      "slug": "elgar-enigma-variations",
+      "type": "work",
+      "path": "Works/Elgar - Enigma Variations.md",
+      "title": "Elgar - Enigma Variations",
+      "content": "## Movements\n- Theme (Andante)\n- Variation I. L'istesso tempo \"C.A.E.\"\n- Variation II. Allegro \"H.D.S-P.\"\n- Variation III. Allegretto \"R.B.T.\"\n- Variation IV. Allegro di molto \"W.M.B.\"\n- Variation V. Moderato \"R.P.A.\"\n- Variation VI. Andantino \"Ysobel\"\n- Variation VII. Presto \"Troyte\"\n- Variation VIII. Allegretto \"W.N.\"\n- Variation IX. Adagio \"Nimrod\"\n- Variation X. Intermezzo: Allegretto \"Dorabella\"\n- Variation XI. Allegro di molto \"G.R.S.\"\n- Variation XII. Andante \"B.G.N.\"\n- Variation XIII. Romanza: Moderato \"* * *\"\n- Variation XIV. Finale: Allegro Presto \"E.D.U.\"",
+      "frontmatter": {
+        "composer": "Elgar, Edward",
+        "catalogue": null,
+        "displayName": ""
+      },
+      "concertCount": 5,
+      "bucketList": false
+    },
+    {
       "slug": "elgar-in-the-south-alassio-concert-overture",
       "type": "work",
       "path": "Works/Elgar - In The South (Alassio) - Concert Overture.md",
@@ -1213,20 +1227,6 @@
         "displayName": ""
       },
       "concertCount": 1,
-      "bucketList": false
-    },
-    {
-      "slug": "elgar-nimrod-from-enigma-variations",
-      "type": "work",
-      "path": "Works/Elgar - Nimrod from Enigma Variations.md",
-      "title": "Elgar - Nimrod from Enigma Variations",
-      "content": "",
-      "frontmatter": {
-        "composer": "Elgar, Edward",
-        "catalogue": "",
-        "displayName": ""
-      },
-      "concertCount": 5,
       "bucketList": false
     },
     {
@@ -4908,7 +4908,7 @@
           "Beethoven - Overture to Fidelio",
           "Grieg - Peer Gynt Suite No. 2",
           "Lutoslawski - Concerto for Orchestra",
-          "Elgar - Nimrod from Enigma Variations"
+          "Elgar - Enigma Variations"
         ],
         "conductor": [
           "David Hattner"
@@ -4934,7 +4934,7 @@
           "Beethoven - Overture to Fidelio",
           "Grieg - Peer Gynt Suite No. 2",
           "Lutoslawski - Concerto for Orchestra",
-          "Elgar - Nimrod from Enigma Variations"
+          "Elgar - Enigma Variations"
         ],
         "conductor": [
           "David Hattner"
@@ -5787,7 +5787,7 @@
         "works": [
           "Haydn - Symphony No. 104 in D Major, \"London\"",
           "Mozart - Sinfonia Concertante for Violin and Viola",
-          "Elgar - Nimrod from Enigma Variations"
+          "Elgar - Enigma Variations"
         ],
         "conductor": [
           "Scott Jackson Wiley"
@@ -5880,7 +5880,7 @@
           "Copland - Fanfare for the Common Man",
           "Copland - Appalachian Spring",
           "Elgar - Cello Concerto in E Minor",
-          "Elgar - Nimrod from Enigma Variations"
+          "Elgar - Enigma Variations"
         ],
         "conductor": [
           "Scott Jackson Wiley"
@@ -6591,7 +6591,7 @@
         "date": "2025-02-09T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
         "works": [
-          "Elgar - Nimrod from Enigma Variations",
+          "Elgar - Enigma Variations",
           "Higdon - Blue Cathedral",
           "Mozart - Sinfonia Concertante for Violin and Viola",
           "Vaughan Williams - Symphony No. 5"
@@ -6607,19 +6607,22 @@
         "programDetails": [
           {
             "work": {
-              "slug": "elgar-nimrod-from-enigma-variations",
+              "slug": "elgar-enigma-variations",
               "type": "work",
-              "path": "Works/Elgar - Nimrod from Enigma Variations.md",
-              "title": "Elgar - Nimrod from Enigma Variations",
-              "content": "",
+              "path": "Works/Elgar - Enigma Variations.md",
+              "title": "Elgar - Enigma Variations",
+              "content": "## Movements\n- Theme (Andante)\n- Variation I. L'istesso tempo \"C.A.E.\"\n- Variation II. Allegro \"H.D.S-P.\"\n- Variation III. Allegretto \"R.B.T.\"\n- Variation IV. Allegro di molto \"W.M.B.\"\n- Variation V. Moderato \"R.P.A.\"\n- Variation VI. Andantino \"Ysobel\"\n- Variation VII. Presto \"Troyte\"\n- Variation VIII. Allegretto \"W.N.\"\n- Variation IX. Adagio \"Nimrod\"\n- Variation X. Intermezzo: Allegretto \"Dorabella\"\n- Variation XI. Allegro di molto \"G.R.S.\"\n- Variation XII. Andante \"B.G.N.\"\n- Variation XIII. Romanza: Moderato \"* * *\"\n- Variation XIV. Finale: Allegro Presto \"E.D.U.\"",
               "frontmatter": {
                 "composer": "Elgar, Edward",
-                "catalogue": "",
+                "catalogue": null,
                 "displayName": ""
               },
               "concertCount": 5,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Variation IX. Adagio \"Nimrod\""
+            ]
           },
           {
             "work": {
@@ -9164,7 +9167,7 @@
         "beethoven-overture-to-fidelio",
         "grieg-peer-gynt-suite-no-2",
         "lutoslawski-concerto-for-orchestra",
-        "elgar-nimrod-from-enigma-variations",
+        "elgar-enigma-variations",
         "brahms-academic-festival-overture",
         "anderson-plink-plank-plunk"
       ]
@@ -9423,7 +9426,7 @@
         "glinka-ruslan-and-ludmila-overture",
         "haydn-symphony-no-104-in-d-major-london",
         "mozart-sinfonia-concertante-for-violin-and-viola",
-        "elgar-nimrod-from-enigma-variations",
+        "elgar-enigma-variations",
         "prokofiev-overture-on-hebrew-themes",
         "prokofiev-violin-concerto-no-2-in-g-minor",
         "tchaikovsky-symphony-no-4-in-f-minor",
@@ -9604,7 +9607,7 @@
         "mendelssohn-hebrides-overture-fingal-s-cave",
         "elgar-in-the-south-alassio-concert-overture",
         "anderson-sleigh-ride",
-        "elgar-nimrod-from-enigma-variations",
+        "elgar-enigma-variations",
         "higdon-blue-cathedral",
         "mozart-sinfonia-concertante-for-violin-and-viola",
         "vaughan-williams-symphony-no-5",
