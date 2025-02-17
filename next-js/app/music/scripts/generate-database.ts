@@ -196,24 +196,44 @@ function parseProgramDetails(
   works: Work[]
 ): ConcertWork[] | undefined {
   // Look for the Program Details section
-  const programDetailsMatch = content.match(
-    /## Program Details\n([\s\S]*?)(?=\n##|$)/
+  const lines = content.split("\n");
+  const programDetailsIndex = lines.findIndex(
+    (line) => line.trim() === "## Program Details"
   );
-  if (!programDetailsMatch) return undefined;
+  if (programDetailsIndex === -1) return undefined;
 
-  const programDetailsContent = programDetailsMatch[1].trim();
+  const programDetailsLines: string[] = [];
+
+  // Start from the line after "## Program Details"
+  for (let i = programDetailsIndex + 1; i < lines.length; i++) {
+    const line = lines[i];
+
+    // Stop if we hit another heading or horizontal rule
+    if (line.trim().startsWith("##") || line.trim() === "---") break;
+
+    // Add non-empty lines
+    if (line.trim()) {
+      programDetailsLines.push(line);
+    }
+  }
+
+  if (programDetailsLines.length === 0) return undefined;
+
   const programWorks: ConcertWork[] = [];
   let currentWork: Partial<ConcertWork> | null = null;
+  let parsingState: "none" | "soloists" | "movements" = "none";
 
-  // Split into lines and process each one
-  const lines = programDetailsContent.split("\n");
-  for (const line of lines) {
+  // Process each line
+  for (const line of programDetailsLines) {
     const trimmedLine = line.trim();
     if (!trimmedLine) continue;
 
+    // Get the indentation level (number of leading tabs/spaces)
+    const indentLevel = line.search(/\S|$/);
+
     // Check if this is a work line (starts with - or * and contains [[]])
     const workMatch = trimmedLine.match(/^[-*]\s*\[\[(.*?)\]\]/);
-    if (workMatch) {
+    if (workMatch && indentLevel === 0) {
       // If we have a current work, push it to the array
       if (currentWork?.work) {
         programWorks.push(currentWork as ConcertWork);
@@ -233,6 +253,7 @@ function parseProgramDetails(
           // Only set default movements if they exist
           ...(defaultMovements && { movements: defaultMovements }),
         };
+        parsingState = "none";
       } else {
         console.warn(
           `Warning: Work "${workTitle}" not found in works database`
@@ -245,8 +266,8 @@ function parseProgramDetails(
     // Only process other lines if we have a current work
     if (!currentWork) continue;
 
-    // Check for conductor
-    if (trimmedLine.startsWith("- Conductor:")) {
+    // Check for conductor (at first indent level)
+    if (indentLevel > 0 && trimmedLine.startsWith("- Conductor:")) {
       const conductorMatch = trimmedLine.match(/\[\[(.*?)\]\]/);
       if (conductorMatch) {
         currentWork.conductor = extractTitleFromWikiLink(conductorMatch[0]);
@@ -254,30 +275,38 @@ function parseProgramDetails(
       continue;
     }
 
-    // Check for soloists section
-    if (trimmedLine === "- Soloists:") {
+    // Check for soloists section (at first indent level)
+    if (indentLevel > 0 && trimmedLine === "- Soloists:") {
       currentWork.soloists = [];
+      parsingState = "soloists";
       continue;
     }
 
-    // Add soloist entries
-    if (currentWork.soloists !== undefined && trimmedLine.match(/^[-*]\s/)) {
-      currentWork.soloists.push(trimmedLine.replace(/^[-*]\s*/, "").trim());
-      continue;
-    }
-
-    // Check for movements section
-    if (trimmedLine === "- Movements:") {
-      // Clear any default movements when explicitly specifying movements
+    // Check for movements section (at first indent level)
+    if (indentLevel > 0 && trimmedLine === "- Movements:") {
       currentWork.movements = [];
+      parsingState = "movements";
       continue;
     }
 
-    // Add movement entries
-    if (currentWork.movements !== undefined && trimmedLine.match(/^[-*]\s/)) {
+    // Add soloist entries (at second indent level)
+    if (
+      parsingState === "soloists" &&
+      indentLevel > 1 &&
+      trimmedLine.match(/^[-*]\s/)
+    ) {
+      currentWork.soloists?.push(trimmedLine.replace(/^[-*]\s*/, "").trim());
+      continue;
+    }
+
+    // Add movement entries (at second indent level)
+    if (
+      parsingState === "movements" &&
+      indentLevel > 1 &&
+      trimmedLine.match(/^[-*]\s/)
+    ) {
       const movementText = trimmedLine.replace(/^[-*]\s*/, "").trim();
-      // Parse the movement line and convert numbers if needed
-      currentWork.movements.push(parseMovementLine(movementText));
+      currentWork.movements?.push(parseMovementLine(movementText));
     }
   }
 
@@ -287,6 +316,32 @@ function parseProgramDetails(
   }
 
   return programWorks.length > 0 ? programWorks : undefined;
+}
+
+// Helper to create default program details from works list
+function createDefaultProgramDetails(
+  works: Work[],
+  workTitles: string[]
+): ConcertWork[] {
+  return workTitles
+    .map((workTitle) => {
+      const workObject = works.find((w) => w.title === workTitle);
+      if (!workObject) {
+        console.warn(
+          `Warning: Work "${workTitle}" not found in works database`
+        );
+        return null;
+      }
+
+      // Get default movements from the work if they exist
+      const defaultMovements = parseWorkMovements(workObject.content);
+
+      return {
+        work: workObject,
+        ...(defaultMovements && { movements: defaultMovements }),
+      } as ConcertWork;
+    })
+    .filter((work): work is ConcertWork => work !== null);
 }
 
 async function readVaultDirectory(
@@ -354,10 +409,20 @@ async function readVaultDirectory(
           }
 
           // Parse program details if they exist and we have works available
-          if (works) {
-            const programDetails = parseProgramDetails(content, works);
-            if (programDetails) {
-              processedFrontmatter.programDetails = programDetails;
+          if (works && processedFrontmatter.works) {
+            // First try to parse explicit program details
+            const explicitProgramDetails = parseProgramDetails(content, works);
+
+            if (explicitProgramDetails) {
+              processedFrontmatter.programDetails = explicitProgramDetails;
+            } else {
+              // If no explicit program details, create default ones from the works list
+              processedFrontmatter.programDetails = createDefaultProgramDetails(
+                works,
+                Array.isArray(processedFrontmatter.works)
+                  ? processedFrontmatter.works
+                  : [processedFrontmatter.works]
+              );
             }
           }
         }
