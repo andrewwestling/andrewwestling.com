@@ -1957,17 +1957,17 @@
       "bucketList": false
     },
     {
-      "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish-md",
+      "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
       "type": "work",
-      "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md.md",
-      "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md",
+      "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md",
+      "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\"",
       "content": "## Movements\n1. Andante con moto – Allegro un poco agitato\n2. Vivace non troppo\n3. Adagio\n4. Allegro vivacissimo – Allegro maestoso assai",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
         "catalogue": "Op. 56",
         "displayName": null
       },
-      "concertCount": 0,
+      "concertCount": 1,
       "bucketList": false
     },
     {
@@ -12942,6 +12942,28 @@
               "II. Andante",
               "III. Presto in moto perpetuo"
             ]
+          },
+          {
+            "work": {
+              "slug": "mendelssohn-symphony-no-3-in-a-minor-scottish",
+              "type": "work",
+              "path": "Works/Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\".md",
+              "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\"",
+              "content": "## Movements\n1. Andante con moto – Allegro un poco agitato\n2. Vivace non troppo\n3. Adagio\n4. Allegro vivacissimo – Allegro maestoso assai",
+              "frontmatter": {
+                "composer": "Mendelssohn, Felix",
+                "catalogue": "Op. 56",
+                "displayName": null
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "I. Andante con moto – Allegro un poco agitato",
+              "II. Vivace non troppo",
+              "III. Adagio",
+              "IV. Allegro vivacissimo – Allegro maestoso assai"
+            ]
           }
         ]
       }
@@ -14497,7 +14519,7 @@
       "title": "Mendelssohn, Felix",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 3
+      "concertCount": 4
     },
     {
       "slug": "moncayo-jose-pablo",
@@ -16569,7 +16591,8 @@
         "mancini-the-pink-panther",
         "debussy-clair-de-lune",
         "sibelius-andante-festivo",
-        "barber-violin-concerto"
+        "barber-violin-concerto",
+        "mendelssohn-symphony-no-3-in-a-minor-scottish"
       ]
     },
     {
