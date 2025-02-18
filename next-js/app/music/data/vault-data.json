@@ -177,7 +177,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Barber, Samuel",
-        "catalogue": ""
+        "catalogue": "7"
       },
       "concertCount": 4,
       "bucketList": false
@@ -268,7 +268,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "catalogue": ""
+        "catalogue": "Op. 72b"
       },
       "concertCount": 5,
       "bucketList": false
@@ -659,7 +659,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": ""
+        "catalogue": "81"
       },
       "concertCount": 1,
       "bucketList": false
@@ -825,7 +825,7 @@
       "type": "work",
       "path": "Works/Copland - Billy the Kid.md",
       "title": "Copland - Billy the Kid",
-      "content": "",
+      "content": "## Movements\n1. Introduction: The Open Prairie\n2. Street in a Frontier Town\n3. Mexican Dance and Finale\n4. Prairie Night (Card Game at Night)\n5. Gun Battle\n6. Celebration (After Billy's Capture)\n7. Billy's Death\n8. The Open Prairie Again",
       "frontmatter": {
         "composer": "Copland, Aaron",
         "catalogue": ""
@@ -1025,7 +1025,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": ""
+        "catalogue": "92"
       },
       "concertCount": 1,
       "bucketList": false
@@ -6334,7 +6334,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": ""
+                "catalogue": "7"
               },
               "concertCount": 4,
               "bucketList": false
@@ -6361,14 +6361,24 @@
               "type": "work",
               "path": "Works/Copland - Billy the Kid.md",
               "title": "Copland - Billy the Kid",
-              "content": "",
+              "content": "## Movements\n1. Introduction: The Open Prairie\n2. Street in a Frontier Town\n3. Mexican Dance and Finale\n4. Prairie Night (Card Game at Night)\n5. Gun Battle\n6. Celebration (After Billy's Capture)\n7. Billy's Death\n8. The Open Prairie Again",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Introduction: The Open Prairie",
+              "II. Street in a Frontier Town",
+              "III. Mexican Dance and Finale",
+              "IV. Prairie Night (Card Game at Night)",
+              "V. Gun Battle",
+              "VI. Celebration (After Billy's Capture)",
+              "VII. Billy's Death",
+              "VIII. The Open Prairie Again"
+            ]
           },
           {
             "work": {
@@ -6426,7 +6436,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": ""
+                "catalogue": "7"
               },
               "concertCount": 4,
               "bucketList": false
@@ -6453,14 +6463,24 @@
               "type": "work",
               "path": "Works/Copland - Billy the Kid.md",
               "title": "Copland - Billy the Kid",
-              "content": "",
+              "content": "## Movements\n1. Introduction: The Open Prairie\n2. Street in a Frontier Town\n3. Mexican Dance and Finale\n4. Prairie Night (Card Game at Night)\n5. Gun Battle\n6. Celebration (After Billy's Capture)\n7. Billy's Death\n8. The Open Prairie Again",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Introduction: The Open Prairie",
+              "II. Street in a Frontier Town",
+              "III. Mexican Dance and Finale",
+              "IV. Prairie Night (Card Game at Night)",
+              "V. Gun Battle",
+              "VI. Celebration (After Billy's Capture)",
+              "VII. Billy's Death",
+              "VIII. The Open Prairie Again"
+            ]
           },
           {
             "work": {
@@ -6518,7 +6538,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": ""
+                "catalogue": "7"
               },
               "concertCount": 4,
               "bucketList": false
@@ -6545,14 +6565,24 @@
               "type": "work",
               "path": "Works/Copland - Billy the Kid.md",
               "title": "Copland - Billy the Kid",
-              "content": "",
+              "content": "## Movements\n1. Introduction: The Open Prairie\n2. Street in a Frontier Town\n3. Mexican Dance and Finale\n4. Prairie Night (Card Game at Night)\n5. Gun Battle\n6. Celebration (After Billy's Capture)\n7. Billy's Death\n8. The Open Prairie Again",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Introduction: The Open Prairie",
+              "II. Street in a Frontier Town",
+              "III. Mexican Dance and Finale",
+              "IV. Prairie Night (Card Game at Night)",
+              "V. Gun Battle",
+              "VI. Celebration (After Billy's Capture)",
+              "VII. Billy's Death",
+              "VIII. The Open Prairie Again"
+            ]
           },
           {
             "work": {
@@ -6610,7 +6640,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Barber, Samuel",
-                "catalogue": ""
+                "catalogue": "7"
               },
               "concertCount": 4,
               "bucketList": false
@@ -6637,14 +6667,24 @@
               "type": "work",
               "path": "Works/Copland - Billy the Kid.md",
               "title": "Copland - Billy the Kid",
-              "content": "",
+              "content": "## Movements\n1. Introduction: The Open Prairie\n2. Street in a Frontier Town\n3. Mexican Dance and Finale\n4. Prairie Night (Card Game at Night)\n5. Gun Battle\n6. Celebration (After Billy's Capture)\n7. Billy's Death\n8. The Open Prairie Again",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 4,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Introduction: The Open Prairie",
+              "II. Street in a Frontier Town",
+              "III. Mexican Dance and Finale",
+              "IV. Prairie Night (Card Game at Night)",
+              "V. Gun Battle",
+              "VI. Celebration (After Billy's Capture)",
+              "VII. Billy's Death",
+              "VIII. The Open Prairie Again"
+            ]
           },
           {
             "work": {
@@ -6911,6 +6951,9 @@
               "I. Allegro",
               "II. Andante",
               "III. Presto in moto perpetuo"
+            ],
+            "soloists": [
+              "Brandon Garbot, violin"
             ]
           },
           {
@@ -7008,6 +7051,9 @@
               "I. Allegro",
               "II. Andante",
               "III. Presto in moto perpetuo"
+            ],
+            "soloists": [
+              "Brandon Garbot, violin"
             ]
           },
           {
@@ -7456,10 +7502,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. The Abduction of the Bride (Bruderovet) – Ingrid's Lament",
-              "II. Arabian Dance (Arabisk dans)",
-              "III. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)",
-              "IV. Solveig's Song (Solveigs sang)"
+              "II. Arabian Dance"
             ]
           },
           {
@@ -7477,10 +7520,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. Allegro non tanto",
-              "II. Adagio",
-              "III. Scherzo (Furiant): Presto",
-              "IV. Finale: Allegro con spirito"
+              "III. Scherzo (Furiant)"
             ]
           },
           {
@@ -7511,7 +7551,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "with members of PYP Young String Ensemble side-by-side"
+            ]
           },
           {
             "work": {
@@ -7558,9 +7601,6 @@
               "bucketList": false
             },
             "movements": [
-              "I. Andante sostenuto – Moderato con anima",
-              "II. Andantino in modo di canzona",
-              "III. Scherzo: Pizzicato ostinato – Allegro",
               "IV. Finale: Allegro con fuoco"
             ]
           }
@@ -7620,7 +7660,6 @@
             },
             "movements": [
               "I. Intermezzo (Allegro)",
-              "II. Ballade (Tempo di menuetto)",
               "III. Alla marcia (Moderato)"
             ]
           },
@@ -7637,7 +7676,25 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "<strong>Prologue and Act I: The Sorcery</strong>",
+              "Introduction: Prologue and Christening",
+              "Entrance of Carabosse",
+              "Garland Waltz",
+              "Rose Adagio",
+              "Dance of the Maids of Honor",
+              "Aurora’s Act I Variation",
+              "<strong>Act II: The Vision and Aurora’s Awakening</strong>",
+              "Overture",
+              "Aurora and Désiré",
+              "Niads’ Coda",
+              "<strong>Act III: The Wedding</strong>",
+              "Polacca",
+              "Bluebird Variation",
+              "Aurora’s Act III Variation",
+              "Finale and Apotheosis"
+            ]
           }
         ]
       }
@@ -7818,7 +7875,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": ""
+                "catalogue": "92"
               },
               "concertCount": 1,
               "bucketList": false
@@ -7894,7 +7951,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": ""
+                "catalogue": "81"
               },
               "concertCount": 1,
               "bucketList": false
@@ -8008,7 +8065,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": ""
+                "catalogue": "Op. 72b"
               },
               "concertCount": 5,
               "bucketList": false
@@ -9500,7 +9557,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": ""
+                "catalogue": "Op. 72b"
               },
               "concertCount": 5,
               "bucketList": false
@@ -9592,7 +9649,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": ""
+                "catalogue": "Op. 72b"
               },
               "concertCount": 5,
               "bucketList": false
@@ -9684,7 +9741,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": ""
+                "catalogue": "Op. 72b"
               },
               "concertCount": 5,
               "bucketList": false
@@ -12106,7 +12163,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Beethoven, Ludwig van",
-                "catalogue": ""
+                "catalogue": "Op. 72b"
               },
               "concertCount": 5,
               "bucketList": false
