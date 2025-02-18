@@ -171,7 +171,10 @@ export default async function ConcertPage(props: PageProps) {
                           <div>
                             <ul className="list-inside">
                               {programDetails.movements.map((movement) => (
-                                <li key={movement}>{movement}</li>
+                                <li
+                                  key={movement}
+                                  dangerouslySetInnerHTML={{ __html: movement }}
+                                />
                               ))}
                             </ul>
                           </div>

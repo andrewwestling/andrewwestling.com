@@ -117,22 +117,37 @@ function toRomanNumeral(num: number): string {
   return result;
 }
 
+// Helper to parse basic Markdown formatting (bold and italics)
+function parseBasicMarkdown(text: string): string {
+  // Handle bold (both ** and __ syntax)
+  text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  text = text.replace(/__(.*?)__/g, "<strong>$1</strong>");
+
+  // Handle italics (both * and _ syntax)
+  text = text.replace(/\*(.*?)\*/g, "<em>$1</em>");
+  text = text.replace(/_(.*?)_/g, "<em>$1</em>");
+
+  return text;
+}
+
 // Helper to parse a movement line and convert its number to roman numerals
 function parseMovementLine(line: string): string {
   // Check if the line already starts with a roman numeral
   if (line.match(/^[IVXL]+\./)) {
-    return line;
+    return parseBasicMarkdown(line);
   }
 
   // Check if the line starts with an arabic number
   const arabicMatch = line.match(/^(\d+)\.(.*)/);
   if (arabicMatch) {
     const [, number, rest] = arabicMatch;
-    return `${toRomanNumeral(parseInt(number, 10))}.${rest}`;
+    return parseBasicMarkdown(
+      `${toRomanNumeral(parseInt(number, 10))}.${rest}`
+    );
   }
 
-  // If no number found, return the line as is
-  return line;
+  // If no number found, return the line as is with markdown parsing
+  return parseBasicMarkdown(line);
 }
 
 // Helper to parse movements from a work's content
