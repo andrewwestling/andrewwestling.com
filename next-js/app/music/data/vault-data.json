@@ -542,7 +542,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Brahms, Johannes",
-        "catalogue": ""
+        "catalogue": "80"
       },
       "concertCount": 3,
       "bucketList": false
@@ -864,7 +864,7 @@
       "type": "work",
       "path": "Works/Copland - Rodeo.md",
       "title": "Copland - Rodeo",
-      "content": "",
+      "content": "## Movements\n1. Buckaroo Holiday\n2. Corral Nocturne\n3. Ranch House Party\n4. Saturday Night Waltz\n5. Hoe-Down",
       "frontmatter": {
         "composer": "Copland, Aaron",
         "catalogue": ""
@@ -1035,10 +1035,10 @@
       "type": "work",
       "path": "Works/Dvorak - Nocturne in B Major.md",
       "title": "Dvorak - Nocturne in B Major",
-      "content": "Op. 40",
+      "content": "",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": ""
+        "catalogue": "40"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1191,10 +1191,10 @@
       "type": "work",
       "path": "Works/Elgar - Serenade for Strings.md",
       "title": "Elgar - Serenade for Strings",
-      "content": "",
+      "content": "## Movements\n1. Allegro piacevole\n2. Larghetto\n3. Allegretto",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "catalogue": ""
+        "catalogue": "20"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1477,7 +1477,7 @@
       "type": "work",
       "path": "Works/Haydn - Symphony No. 104 in D Major, \"London\".md",
       "title": "Haydn - Symphony No. 104 in D Major, \"London\"",
-      "content": "",
+      "content": "## Movements\n1. Adagio - Allegro\n2. Andante\n3. Menuetto and Trio: Allegro\n4. Finale: Spiritoso",
       "frontmatter": {
         "composer": "Haydn, Joseph",
         "catalogue": "Hob. I:104"
@@ -1569,10 +1569,10 @@
       "type": "work",
       "path": "Works/Holst - St. Paul's Suite.md",
       "title": "Holst - St. Paul's Suite",
-      "content": "",
+      "content": "## Movements\n1. Jig (Vivace)\n2. Ostinato (Presto)\n3. Intermezzo (Andante con moto)\n4. Finale (The Dargason) (Allegro)",
       "frontmatter": {
         "composer": "Holst, Gustav",
-        "catalogue": ""
+        "catalogue": "Op. 29, No. 2"
       },
       "concertCount": 1,
       "bucketList": false
@@ -2027,10 +2027,10 @@
       "type": "work",
       "path": "Works/Mozart - Divertimento in F Major.md",
       "title": "Mozart - Divertimento in F Major",
-      "content": "K. 138",
+      "content": "K. 138\n\n## Movements\n1. Allegro\n2. Andante\n3. Presto",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": ""
+        "catalogue": "K. 138"
       },
       "concertCount": 1,
       "bucketList": false
@@ -2747,7 +2747,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Schumann, Robert",
-        "catalogue": ""
+        "catalogue": "48"
       },
       "concertCount": 1,
       "bucketList": false
@@ -3020,8 +3020,8 @@
       "content": "Ma Vlast",
       "frontmatter": {
         "composer": "Smetana, Bedrich",
-        "catalogue": "JB 1:112/2",
-        "displayName": "The Moldau from Ma Vlast"
+        "catalogue": null,
+        "displayName": "The Moldau from Má Vlast"
       },
       "concertCount": 1,
       "bucketList": false
@@ -3057,7 +3057,7 @@
       "type": "work",
       "path": "Works/Still - Danzas de Panama.md",
       "title": "Still - Danzas de Panama",
-      "content": "",
+      "content": "## Movements\n1. Tamborito\n2. Mejorana\n3. Punto\n4. Cumbia y Congo",
       "frontmatter": {
         "composer": "Still, William Grant",
         "catalogue": ""
@@ -3409,7 +3409,7 @@
       "type": "work",
       "path": "Works/Tchaikovsky - Variations on a Rococo Theme.md",
       "title": "Tchaikovsky - Variations on a Rococo Theme",
-      "content": "## Movements\n1. Moderato assai quasi Andante – Thema: Moderato semplice\n2. Var. I: Tempo della Thema\n3. Var. II: Tempo della Thema\n4. Var. III: Andante sostenuto\n5. Var. IV: Andante grazioso\n6. Var. V: Allegro moderato\n7. Var. VI: Andante\n8. Var. VII e Coda: Allegro vivo",
+      "content": "## Movements\n- Moderato assai quasi Andante – Thema: Moderato semplice\n- Var. I: Tempo della Thema\n- Var. II: Tempo della Thema\n- Var. III: Andante sostenuto\n- Var. IV: Andante grazioso\n- Var. V: Allegro moderato\n- Var. VI: Andante\n- Var. VII e Coda: Allegro vivo\n-",
       "frontmatter": {
         "composer": "Tchaikovsky, Piotr Ilyich",
         "catalogue": "Op. 33"
@@ -3578,10 +3578,10 @@
       "type": "work",
       "path": "Works/Vivaldi - Concerto for Strings in G Minor.md",
       "title": "Vivaldi - Concerto for Strings in G Minor",
-      "content": "RV 157",
+      "content": "## Movements\n1. Allegro\n2. Largo\n3. Allegro",
       "frontmatter": {
         "composer": "Vivaldi, Antonio",
-        "catalogue": ""
+        "catalogue": "RV 157"
       },
       "concertCount": 1,
       "bucketList": false
@@ -7532,7 +7532,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": ""
+                "catalogue": "80"
               },
               "concertCount": 3,
               "bucketList": false
@@ -7756,7 +7756,19 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Laura Zaerr, harp"
+            ],
+            "movements": [
+              "Bonny Portmore",
+              "Oro se do Bheatha Bhaile",
+              "The Blazing Turf Fire",
+              "The Kid on the Mountain",
+              "Oro se Jig and Transition",
+              "My Lagan Love and College Grove",
+              "Music in the Glen and Finale"
+            ]
           },
           {
             "work": {
@@ -7772,13 +7784,7 @@
               "concertCount": 4,
               "bucketList": false
             },
-            "movements": [
-              "I. Prélude (Aragonaise)",
-              "II. Intermezzo (Entr'acte to Act III)",
-              "III. Séguedille",
-              "IV. Les Dragons d'Alcala",
-              "V. Les Toréadors"
-            ]
+            "movements": []
           },
           {
             "work": {
@@ -7795,12 +7801,20 @@
               "bucketList": false
             },
             "movements": [
-              "I. Marche des Contrebandiers",
-              "II. Habanera",
-              "III. Nocturne",
-              "IV. Chanson du Toréador",
-              "V. La Garde Montante",
-              "VI. Danse Bohème"
+              "<strong>From Suites No. 1 and No. 2:</strong>",
+              "Les Toréadors",
+              "Prélude",
+              "La garde montante",
+              "Habanera",
+              "Seguedille",
+              "Les dragons d’Alcala",
+              "Danse Bohéme",
+              "Chanson du Toréador",
+              "Intermezzo",
+              "Marche des contrebandiers",
+              "Nocturne",
+              "Aragonaise",
+              "Finale"
             ]
           }
         ]
@@ -8088,6 +8102,9 @@
             "movements": [
               "I. Allegro con moto",
               "II. Larghetto – Animato molto"
+            ],
+            "soloists": [
+              "Sean Fredenburg, alto saxophone"
             ]
           },
           {
@@ -8470,12 +8487,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. Prelude: The Fairy Tale Begins",
-              "II. Viennese Musical Clock",
-              "III. Song",
-              "IV. The Battle and Defeat of Napoleon",
-              "V. Intermezzo",
-              "VI. Entrance of the Emperor and His Court"
+              "V. Intermezzo"
             ]
           },
           {
@@ -8517,8 +8529,8 @@
               "content": "Ma Vlast",
               "frontmatter": {
                 "composer": "Smetana, Bedrich",
-                "catalogue": "JB 1:112/2",
-                "displayName": "The Moldau from Ma Vlast"
+                "catalogue": null,
+                "displayName": "The Moldau from Má Vlast"
               },
               "concertCount": 1,
               "bucketList": false
@@ -8614,9 +8626,12 @@
             },
             "movements": [
               "I. Allegro moderato – très doux",
-              "II. Assez vif – très rythmé",
-              "III. Très lent",
-              "IV. Vif et agité"
+              "II. Assez vif – très rythmé"
+            ],
+            "soloists": [
+              "Jenny Asparro and Andrew Westling, violin",
+              "Julie Asparro, viola",
+              "Julian Kosanovic, cello"
             ]
           }
         ]
@@ -8866,6 +8881,9 @@
             "movements": [
               "I. Allegro moderato",
               "II. Allegretto"
+            ],
+            "soloists": [
+              "(ENTER SOLOIST), flute"
             ]
           },
           {
@@ -8886,9 +8904,8 @@
               "I. Scene",
               "II. Valse",
               "III. Danse des cygnes",
-              "IV. Scene",
-              "V. Czardas: Danse hongroise",
-              "VI. Scene finale"
+              "V. Czardas. Danse hongroise",
+              "Finale"
             ]
           }
         ]
@@ -8919,14 +8936,17 @@
               "type": "work",
               "path": "Works/Elgar - Serenade for Strings.md",
               "title": "Elgar - Serenade for Strings",
-              "content": "",
+              "content": "## Movements\n1. Allegro piacevole\n2. Larghetto\n3. Allegretto",
               "frontmatter": {
                 "composer": "Elgar, Edward",
-                "catalogue": ""
+                "catalogue": "20"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro piacevole"
+            ]
           },
           {
             "work": {
@@ -8934,14 +8954,17 @@
               "type": "work",
               "path": "Works/Holst - St. Paul's Suite.md",
               "title": "Holst - St. Paul's Suite",
-              "content": "",
+              "content": "## Movements\n1. Jig (Vivace)\n2. Ostinato (Presto)\n3. Intermezzo (Andante con moto)\n4. Finale (The Dargason) (Allegro)",
               "frontmatter": {
                 "composer": "Holst, Gustav",
-                "catalogue": ""
+                "catalogue": "Op. 29, No. 2"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "IV. Finale (The Dargason) (Allegro)"
+            ]
           }
         ]
       }
@@ -9149,7 +9172,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "(ENTER SOLOIST), violin"
+            ]
           },
           {
             "work": {
@@ -9157,14 +9183,20 @@
               "type": "work",
               "path": "Works/Haydn - Symphony No. 104 in D Major, \"London\".md",
               "title": "Haydn - Symphony No. 104 in D Major, \"London\"",
-              "content": "",
+              "content": "## Movements\n1. Adagio - Allegro\n2. Andante\n3. Menuetto and Trio: Allegro\n4. Finale: Spiritoso",
               "frontmatter": {
                 "composer": "Haydn, Joseph",
                 "catalogue": "Hob. I:104"
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Adagio - Allegro",
+              "II. Andante",
+              "III. Menuetto and Trio: Allegro",
+              "IV. Finale: Spiritoso"
+            ]
           }
         ]
       }
@@ -9206,13 +9238,13 @@
       }
     },
     {
-      "slug": "201910271500",
+      "slug": "201910271400",
       "type": "concert",
-      "path": "Concerts/2019/201910271500 Concert - Brooklyn Symphony Orchestra.md",
-      "title": "201910271500 Concert - Brooklyn Symphony Orchestra",
+      "path": "Concerts/2019/201910271400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "201910271400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
-        "date": "2019-10-27T15:00:00.000Z",
+        "date": "2019-10-27T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
           "Wagner - Tristan und Isolde",
@@ -9224,7 +9256,7 @@
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/59mLCiomqFgvLnEhvZ7zJl?si=ea634d56722d46d0",
         "venue": "Brooklyn Museum",
-        "season": "",
+        "season": "2019-2020",
         "ticketUrl": "",
         "programDetails": [
           {
@@ -9240,7 +9272,11 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Prelude to Act I",
+              "Act III: \"Mild und leise wie er lächelt\" (Isoldes Liebestod)"
+            ]
           },
           {
             "work": {
@@ -9255,7 +9291,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "(ENTER SOLOIST), violin"
+            ]
           },
           {
             "work": {
@@ -9317,9 +9356,11 @@
               "bucketList": false
             },
             "movements": [
-              "I. Allegro maestoso",
-              "II. Andante",
-              "III. Presto"
+              "I. Allegro maestoso"
+            ],
+            "soloists": [
+              "Andrew Westling, violin",
+              "Rachel Schachtman, viola"
             ]
           },
           {
@@ -9337,23 +9378,20 @@
               "bucketList": false
             },
             "movements": [
-              "I. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato",
-              "II. Valse: Moderato – Tempo di valse",
-              "III. Élégie: Larghetto elegiaco",
-              "IV. Finale (Tema russo): Andante – Allegro con spirito"
+              "II. Valse: Moderato – Tempo di valse"
             ]
           }
         ]
       }
     },
     {
-      "slug": "201912151500",
+      "slug": "201912151400",
       "type": "concert",
-      "path": "Concerts/2019/201912151500 Concert - Brooklyn Symphony Orchestra.md",
-      "title": "201912151500 Concert - Brooklyn Symphony Orchestra",
+      "path": "Concerts/2019/201912151400 Concert - Brooklyn Symphony Orchestra.md",
+      "title": "201912151400 Concert - Brooklyn Symphony Orchestra",
       "content": "",
       "frontmatter": {
-        "date": "2019-12-15T15:00:00.000Z",
+        "date": "2019-12-15T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
           "Prokofiev - Peter and the Wolf",
@@ -9838,10 +9876,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. Allegro",
-              "II. Adagio",
-              "III. Menuetto e Trio",
-              "IV. Finale: Moderato molto – Presto"
+              "I. Allegro"
             ]
           },
           {
@@ -9859,10 +9894,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. Moderato e semplice",
-              "II. Andante cantabile",
-              "III. Scherzo: Allegro non tanto e con fuoco",
-              "IV. Finale: Allegro giusto"
+              "II. Andante cantabile"
             ]
           },
           {
@@ -9882,11 +9914,7 @@
             },
             "movements": [
               "I. Largo – Molto allegro",
-              "II. Menuetto – Trio I & II",
               "III. Adagio",
-              "IV. Menuetto (Allegretto) – Trio I & II",
-              "V. Romance (Adagio – Allegretto – Adagio)",
-              "VI. Tema con variazioni",
               "VII. Finale: Molto allegro"
             ]
           }
@@ -9924,14 +9952,19 @@
               "type": "work",
               "path": "Works/Vivaldi - Concerto for Strings in G Minor.md",
               "title": "Vivaldi - Concerto for Strings in G Minor",
-              "content": "RV 157",
+              "content": "## Movements\n1. Allegro\n2. Largo\n3. Allegro",
               "frontmatter": {
                 "composer": "Vivaldi, Antonio",
-                "catalogue": ""
+                "catalogue": "RV 157"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Largo",
+              "III. Allegro"
+            ]
           },
           {
             "work": {
@@ -9948,10 +9981,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato",
-              "II. Valse: Moderato – Tempo di valse",
-              "III. Élégie: Larghetto elegiaco",
-              "IV. Finale (Tema russo): Andante – Allegro con spirito"
+              "I. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato"
             ]
           },
           {
@@ -9960,14 +9990,19 @@
               "type": "work",
               "path": "Works/Mozart - Divertimento in F Major.md",
               "title": "Mozart - Divertimento in F Major",
-              "content": "K. 138",
+              "content": "K. 138\n\n## Movements\n1. Allegro\n2. Andante\n3. Presto",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": ""
+                "catalogue": "K. 138"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro",
+              "II. Andante",
+              "III. Presto"
+            ]
           },
           {
             "work": {
@@ -9975,14 +10010,21 @@
               "type": "work",
               "path": "Works/Still - Danzas de Panama.md",
               "title": "Still - Danzas de Panama",
-              "content": "",
+              "content": "## Movements\n1. Tamborito\n2. Mejorana\n3. Punto\n4. Cumbia y Congo",
               "frontmatter": {
                 "composer": "Still, William Grant",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Tamborito",
+              "II. Mejorana",
+              "III. Punto",
+              "IV. Cumbia y Congo"
+            ],
+            "conductor": "Andy Bhasin"
           },
           {
             "work": {
@@ -9990,14 +10032,18 @@
               "type": "work",
               "path": "Works/Copland - Rodeo.md",
               "title": "Copland - Rodeo",
-              "content": "",
+              "content": "## Movements\n1. Buckaroo Holiday\n2. Corral Nocturne\n3. Ranch House Party\n4. Saturday Night Waltz\n5. Hoe-Down",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "IV. Saturday Night Waltz",
+              "V. Hoe-Down"
+            ]
           }
         ]
       }
@@ -10059,6 +10105,9 @@
               "I. Allegro",
               "II. Adagio ma non troppo",
               "III. Rondo: Allegretto"
+            ],
+            "soloists": [
+              "(ENTER SOLOIST), clarinet"
             ]
           },
           {
@@ -10067,10 +10116,10 @@
               "type": "work",
               "path": "Works/Dvorak - Nocturne in B Major.md",
               "title": "Dvorak - Nocturne in B Major",
-              "content": "Op. 40",
+              "content": "",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": ""
+                "catalogue": "40"
               },
               "concertCount": 1,
               "bucketList": false
@@ -10085,7 +10134,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Schumann, Robert",
-                "catalogue": ""
+                "catalogue": "48"
               },
               "concertCount": 1,
               "bucketList": false
@@ -10146,7 +10195,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": ""
+                "catalogue": "80"
               },
               "concertCount": 3,
               "bucketList": false
@@ -10173,7 +10222,7 @@
               "type": "work",
               "path": "Works/Tchaikovsky - Variations on a Rococo Theme.md",
               "title": "Tchaikovsky - Variations on a Rococo Theme",
-              "content": "## Movements\n1. Moderato assai quasi Andante – Thema: Moderato semplice\n2. Var. I: Tempo della Thema\n3. Var. II: Tempo della Thema\n4. Var. III: Andante sostenuto\n5. Var. IV: Andante grazioso\n6. Var. V: Allegro moderato\n7. Var. VI: Andante\n8. Var. VII e Coda: Allegro vivo",
+              "content": "## Movements\n- Moderato assai quasi Andante – Thema: Moderato semplice\n- Var. I: Tempo della Thema\n- Var. II: Tempo della Thema\n- Var. III: Andante sostenuto\n- Var. IV: Andante grazioso\n- Var. V: Allegro moderato\n- Var. VI: Andante\n- Var. VII e Coda: Allegro vivo\n-",
               "frontmatter": {
                 "composer": "Tchaikovsky, Piotr Ilyich",
                 "catalogue": "Op. 33"
@@ -10182,14 +10231,18 @@
               "bucketList": false
             },
             "movements": [
-              "I. Moderato assai quasi Andante – Thema: Moderato semplice",
-              "II. Var. I: Tempo della Thema",
-              "III. Var. II: Tempo della Thema",
-              "IV. Var. III: Andante sostenuto",
-              "V. Var. IV: Andante grazioso",
-              "VI. Var. V: Allegro moderato",
-              "VII. Var. VI: Andante",
-              "VIII. Var. VII e Coda: Allegro vivo"
+              "Moderato assai quasi Andante – Thema: Moderato semplice",
+              "Var. I: Tempo della Thema",
+              "Var. II: Tempo della Thema",
+              "Var. III: Andante sostenuto",
+              "Var. IV: Andante grazioso",
+              "Var. V: Allegro moderato",
+              "Var. VI: Andante",
+              "Var. VII e Coda: Allegro vivo",
+              ""
+            ],
+            "soloists": [
+              "John-Henry Crawford, cello"
             ]
           },
           {
@@ -10247,7 +10300,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Brahms, Johannes",
-                "catalogue": ""
+                "catalogue": "80"
               },
               "concertCount": 3,
               "bucketList": false
@@ -10385,14 +10438,20 @@
               "type": "work",
               "path": "Works/Haydn - Symphony No. 104 in D Major, \"London\".md",
               "title": "Haydn - Symphony No. 104 in D Major, \"London\"",
-              "content": "",
+              "content": "## Movements\n1. Adagio - Allegro\n2. Andante\n3. Menuetto and Trio: Allegro\n4. Finale: Spiritoso",
               "frontmatter": {
                 "composer": "Haydn, Joseph",
                 "catalogue": "Hob. I:104"
               },
               "concertCount": 2,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Adagio - Allegro",
+              "II. Andante",
+              "III. Menuetto and Trio: Allegro",
+              "IV. Finale: Spiritoso"
+            ]
           },
           {
             "work": {
@@ -16421,14 +16480,18 @@
       "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
       "frontmatter": {},
       "concertSlugs": [
+        "201910271400",
         "201911241500",
-        "201912151500",
+        "201912151400",
         "201912261930",
         "202002231500",
         "202002291900",
         "202003011300"
       ],
       "workSlugs": [
+        "wagner-tristan-und-isolde",
+        "vaughan-williams-the-lark-ascending",
+        "brahms-symphony-no-3-in-f-major",
         "mozart-sinfonia-concertante-for-violin-and-viola",
         "tchaikovsky-serenade-for-strings",
         "prokofiev-peter-and-the-wolf",
