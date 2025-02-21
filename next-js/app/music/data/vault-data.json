@@ -114,7 +114,7 @@
         "composer": "Bach, Johann Sebastian",
         "catalogue": "BWV 1055"
       },
-      "concertCount": 1,
+      "concertCount": 0,
       "bucketList": false
     },
     {
@@ -330,10 +330,10 @@
       "type": "work",
       "path": "Works/Beethoven - Symphony No. 6 in F Major.md",
       "title": "Beethoven - Symphony No. 6 in F Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro ma non troppo (Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande)\n2. Andante molto mosso (Szene am Bach)\n3. Allegro (Lustiges Zusammensein der Landleute)\n4. Allegro (Gewitter, Sturm)\n5. Allegretto (Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm)",
       "frontmatter": {
         "composer": "Beethoven, Ludwig van",
-        "catalogue": ""
+        "catalogue": "68"
       },
       "concertCount": 1,
       "bucketList": false
@@ -737,7 +737,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Chausson, Ernest",
-        "catalogue": ""
+        "catalogue": "25"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1048,10 +1048,10 @@
       "type": "work",
       "path": "Works/Dvorak - String Quartet No. 12 in F Major, \"American\".md",
       "title": "Dvorak - String Quartet No. 12 in F Major, \"American\"",
-      "content": "",
+      "content": "## Movements\n1. Allegro ma non troppo\n2. Lento\n3. Molto vivace\n4. Finale: Vivace ma non troppo",
       "frontmatter": {
         "composer": "Dvorak, Antonin",
-        "catalogue": ""
+        "catalogue": "96"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1155,7 +1155,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Elgar, Edward",
-        "catalogue": ""
+        "catalogue": "50"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1713,7 +1713,7 @@
       "type": "work",
       "path": "Works/Lecuona - Andalucia Suite.md",
       "title": "Lecuona - Andalucia Suite",
-      "content": "",
+      "content": "## Movements\n1. Córdoba\n2. Andalucía\n3. Alhambra\n4. Gitanerías\n5. Guadalquivir\n6. Malagueña",
       "frontmatter": {
         "composer": "Lecuona, Ernesto",
         "catalogue": ""
@@ -1931,14 +1931,14 @@
       "bucketList": false
     },
     {
-      "slug": "mendelssohn-hebrides-overture-fingal-s-cave",
+      "slug": "mendelssohn-hebrides-overture",
       "type": "work",
-      "path": "Works/Mendelssohn - Hebrides Overture \"Fingal's Cave\".md",
-      "title": "Mendelssohn - Hebrides Overture \"Fingal's Cave\"",
+      "path": "Works/Mendelssohn - Hebrides Overture.md",
+      "title": "Mendelssohn - Hebrides Overture",
       "content": "",
       "frontmatter": {
         "composer": "Mendelssohn, Felix",
-        "catalogue": ""
+        "catalogue": "26"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1993,7 +1993,7 @@
         "composer": "Moncayo, Jose Pablo",
         "catalogue": ""
       },
-      "concertCount": 4,
+      "concertCount": 3,
       "bucketList": false
     },
     {
@@ -2053,10 +2053,10 @@
       "type": "work",
       "path": "Works/Mozart - Horn Concerto No. 3 in E-Flat Major.md",
       "title": "Mozart - Horn Concerto No. 3 in E-Flat Major",
-      "content": "",
+      "content": "## Movements\n1. Allegro\n2. Romance (Larghetto)\n3. Allegro",
       "frontmatter": {
         "composer": "Mozart, Wolfgang Amadeus",
-        "catalogue": ""
+        "catalogue": "K. 447"
       },
       "concertCount": 1,
       "bucketList": false
@@ -2484,10 +2484,10 @@
       "type": "work",
       "path": "Works/Respighi - The Fountains of Rome.md",
       "title": "Respighi - The Fountains of Rome",
-      "content": "",
+      "content": "## Movements\n1. La fontana di Valle Giulia all'alba (The Fountain of Valle Giulia at Dawn)\n2. La fontana del Tritone al mattino (The Triton Fountain at Morning)\n3. La fontana di Trevi al meriggio (The Trevi Fountain at Noon)\n4. La fontana di Villa Medici al tramonto (The Villa Medici Fountain at Sunset)",
       "frontmatter": {
         "composer": "Respighi, Ottorino",
-        "catalogue": ""
+        "catalogue": "P. 106"
       },
       "concertCount": 0,
       "bucketList": true
@@ -2497,10 +2497,10 @@
       "type": "work",
       "path": "Works/Respighi - The Pines of Rome.md",
       "title": "Respighi - The Pines of Rome",
-      "content": "",
+      "content": "## Movements\n1. I pini di Villa Borghese (The Pines of the Villa Borghese) - Allegretto vivace\n2. Pini presso una catacomba (Pines Near a Catacomb) - Lento\n3. I pini del Gianicolo (The Pines of the Janiculum) - Lento\n4. I pini della Via Appia (The Pines of the Appian Way) - Tempo di marcia",
       "frontmatter": {
         "composer": "Respighi, Ottorino",
-        "catalogue": ""
+        "catalogue": "P. 141"
       },
       "concertCount": 1,
       "bucketList": true
@@ -2562,10 +2562,10 @@
       "type": "work",
       "path": "Works/Rimsky-Korsakov - Snow Maiden Suite.md",
       "title": "Rimsky-Korsakov - Snow Maiden Suite",
-      "content": "",
+      "content": "## Movements\n1. Introduction\n2. Dance of the Birds\n3. Procession of Tsar Berendey\n4. Dance of the Skomorokhi (Tumblers)",
       "frontmatter": {
         "composer": "Rimsky-Korsakov, Nikolai",
-        "catalogue": ""
+        "catalogue": "12"
       },
       "concertCount": 1,
       "bucketList": false
@@ -2601,7 +2601,7 @@
       "type": "work",
       "path": "Works/Rosauro - Concerto No. 1 for Marimba & String Orchestra.md",
       "title": "Rosauro - Concerto No. 1 for Marimba & String Orchestra",
-      "content": "",
+      "content": "## Movements\n1. Saudação (Greetings)\n2. Lamento (Lament)\n3. Dança (Dance)\n4. Despedida (Farewell)",
       "frontmatter": {
         "composer": "Rosauro, Ney",
         "catalogue": ""
@@ -2679,7 +2679,7 @@
       "type": "work",
       "path": "Works/Rubenstein - Cello Concerto No. 2.md",
       "title": "Rubenstein - Cello Concerto No. 2",
-      "content": "",
+      "content": "## Movements\n- I. Allegro moderato\n- II. Andante\n- Cadenza (Allegro)\n- III. Moderato",
       "frontmatter": {
         "composer": "Rubenstein, Anton",
         "catalogue": ""
@@ -2697,7 +2697,20 @@
         "composer": "Saint-Saens, Camille",
         "catalogue": ""
       },
-      "concertCount": 2,
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "saint-saens-samson-and-delilah",
+      "type": "work",
+      "path": "Works/Saint-Saens - Samson and Delilah.md",
+      "title": "Saint-Saens - Samson and Delilah",
+      "content": "",
+      "frontmatter": {
+        "composer": "Saint-Saens, Camille",
+        "catalogue": ""
+      },
+      "concertCount": 1,
       "bucketList": false
     },
     {
@@ -2744,7 +2757,7 @@
       "type": "work",
       "path": "Works/Schumann - Dichterliebe.md",
       "title": "Schumann - Dichterliebe",
-      "content": "",
+      "content": "## Movements\n- \"Im wunderschönen Monat Mai\"\n- \"Aus meinen Tränen sprießen\"\n- \"Die Rose, die Lilie, die Taube, die Sonne\"\n- \"Wenn ich in deine Augen seh\"\n- \"Ich will meine Seele tauchen\"\n- \"Im Rhein, im heiligen Strome\"\n- \"Ich grolle nicht\"\n- \"Und wüßten's die Blumen, die kleinen\"\n- \"Das ist ein Flöten und Geigen\"\n- \"Hör' ich das Liedchen klingen\"\n- \"Ein Jüngling liebt ein Mädchen\"\n- \"Am leuchtenden Sommermorgen\"\n- \"Ich hab' im Traum geweinet\"\n- \"Allnächtlich im Traume\"\n- \"Aus alten Märchen winkt es\"\n- \"Die alten, bösen Lieder\"",
       "frontmatter": {
         "composer": "Schumann, Robert",
         "catalogue": "48"
@@ -2903,7 +2916,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Sibelius, Jean",
-        "catalogue": ""
+        "catalogue": "16"
       },
       "concertCount": 1,
       "bucketList": false
@@ -3044,7 +3057,7 @@
       "type": "work",
       "path": "Works/Still - Afro-American Symphony.md",
       "title": "Still - Afro-American Symphony",
-      "content": "",
+      "content": "## Movements\n1. Longing (Moderato assai)\n2. Sorrow (Adagio)\n3. Humor (Animato)\n4. Aspiration (Lento, con risoluzione)",
       "frontmatter": {
         "composer": "Still, William Grant",
         "catalogue": ""
@@ -3633,7 +3646,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Waldteufel, Emile",
-        "catalogue": ""
+        "catalogue": "183"
       },
       "concertCount": 1,
       "bucketList": false
@@ -3700,7 +3713,7 @@
         "composer": "Williams, John",
         "catalogue": ""
       },
-      "concertCount": 3,
+      "concertCount": 4,
       "bucketList": false
     },
     {
@@ -3830,6 +3843,7 @@
         "venue": "Newmark Theater",
         "season": "2004-2005",
         "ticketUrl": "",
+        "programScanPdf": "200503191300.pdf",
         "programDetails": [
           {
             "work": {
@@ -3911,6 +3925,7 @@
         "venue": "Thomas Jefferson Middle School",
         "season": "2004-2005",
         "ticketUrl": "",
+        "programScanPdf": "200504161900.pdf",
         "programDetails": [
           {
             "work": {
@@ -4055,6 +4070,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2004-2005",
         "ticketUrl": "",
+        "programScanPdf": "200506121500.pdf",
         "programDetails": [
           {
             "work": {
@@ -4119,6 +4135,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2005-2006",
         "ticketUrl": "",
+        "programScanPdf": "200511181930.pdf",
         "programDetails": [
           {
             "work": {
@@ -4187,6 +4204,7 @@
         "venue": "Skyview High School",
         "season": "2005-2006",
         "ticketUrl": "",
+        "programScanPdf": "200512111500.pdf",
         "programDetails": [
           {
             "work": {
@@ -4259,7 +4277,8 @@
         "spotifyPlaylistUrl": null,
         "venue": null,
         "season": "2005-2006",
-        "ticketUrl": ""
+        "ticketUrl": "",
+        "programScanPdf": "200601281900.pdf"
       }
     },
     {
@@ -4289,6 +4308,7 @@
         "venue": "Thomas Jefferson Middle School",
         "season": "2005-2006",
         "ticketUrl": "",
+        "programScanPdf": "200604081900.pdf",
         "programDetails": [
           {
             "work": {
@@ -4449,6 +4469,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2005-2006",
         "ticketUrl": "",
+        "programScanPdf": "200604111900.pdf",
         "programDetails": [
           {
             "work": {
@@ -4525,6 +4546,7 @@
         "venue": "Jackson Middle School",
         "season": "2005-2006",
         "ticketUrl": "",
+        "programScanPdf": "200605211800.pdf",
         "programDetails": [
           {
             "work": {
@@ -4602,6 +4624,7 @@
         "venue": "Clark Commons, Marylhurst University",
         "season": "2005-2006",
         "ticketUrl": "",
+        "programScanPdf": "200608201600.pdf",
         "programDetails": [
           {
             "work": {
@@ -4644,7 +4667,7 @@
                 "composer": "Williams, John",
                 "catalogue": ""
               },
-              "concertCount": 3,
+              "concertCount": 4,
               "bucketList": false
             }
           },
@@ -4713,6 +4736,7 @@
         "venue": null,
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200609101930.pdf",
         "programDetails": [
           {
             "work": {
@@ -4753,6 +4777,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200611171930.pdf",
         "programDetails": [
           {
             "work": {
@@ -4843,6 +4868,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200612011930.pdf",
         "programDetails": [
           {
             "work": {
@@ -4926,6 +4952,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200703021930.pdf",
         "programDetails": [
           {
             "work": {
@@ -4972,6 +4999,7 @@
         "venue": "Southridge High School",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200705301900.pdf",
         "programDetails": [
           {
             "work": {
@@ -5044,6 +5072,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200706101500.pdf",
         "programDetails": [
           {
             "work": {
@@ -5130,6 +5159,7 @@
         "venue": "Beijing Theater (北京剧院)",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200707101900.pdf",
         "programDetails": [
           {
             "work": {
@@ -5293,6 +5323,7 @@
         "venue": "Xincheng Theatre (西安新城剧场)",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200707101900.pdf",
         "programDetails": [
           {
             "work": {
@@ -5456,6 +5487,7 @@
         "venue": "Red Star Theater (杭州紅星刷院)",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200707101900.pdf",
         "programDetails": [
           {
             "work": {
@@ -5619,6 +5651,7 @@
         "venue": "Shanghai Conservatory of Music (上海⾳乐学院)",
         "season": "2006-2007",
         "ticketUrl": "",
+        "programScanPdf": "200707101900.pdf",
         "programDetails": [
           {
             "work": {
@@ -5777,6 +5810,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2007-2008",
         "ticketUrl": "",
+        "programScanPdf": "200711161930.pdf",
         "programDetails": [
           {
             "work": {
@@ -5865,6 +5899,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2007-2008",
         "ticketUrl": "",
+        "programScanPdf": "200711301930.pdf",
         "programDetails": [
           {
             "work": {
@@ -5956,6 +5991,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2007-2008",
         "ticketUrl": "",
+        "programScanPdf": "200802191930.pdf",
         "programDetails": [
           {
             "work": {
@@ -6067,6 +6103,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2007-2008",
         "ticketUrl": "",
+        "programScanPdf": "200803071500.pdf",
         "programDetails": [
           {
             "work": {
@@ -6156,6 +6193,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2007-2008",
         "ticketUrl": "",
+        "programScanPdf": "200804081930.pdf",
         "programDetails": [
           {
             "work": {
@@ -6224,6 +6262,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2007-2008",
         "ticketUrl": "",
+        "programScanPdf": "200806081500.pdf",
         "programDetails": [
           {
             "work": {
@@ -6324,6 +6363,7 @@
         "venue": "McKenzie Theatre, Eastern Oregon University",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200810181930.pdf",
         "programDetails": [
           {
             "work": {
@@ -6426,6 +6466,7 @@
         "venue": "Walla Walla University Church",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200810181930.pdf",
         "programDetails": [
           {
             "work": {
@@ -6528,6 +6569,7 @@
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200811031900.pdf",
         "programDetails": [
           {
             "work": {
@@ -6630,6 +6672,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200811081930.pdf",
         "programDetails": [
           {
             "work": {
@@ -6731,6 +6774,7 @@
         "venue": "Southridge High School",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200812121900.pdf",
         "programDetails": [
           {
             "work": {
@@ -6792,6 +6836,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200812261930.pdf",
         "programDetails": [
           {
             "work": {
@@ -6861,6 +6906,7 @@
         "venue": "Silva Concert Hall, Hult Center",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200901181300.pdf",
         "programDetails": [
           {
             "work": {
@@ -6916,7 +6962,8 @@
         "spotifyPlaylistUrl": null,
         "venue": "Bauman Auditorium, George Fox University",
         "season": "2008-2009",
-        "ticketUrl": "",
+        "ticketUrl": null,
+        "programScanPdf": "200903021900.pdf",
         "programDetails": [
           {
             "work": {
@@ -7017,6 +7064,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200903071930.pdf",
         "programDetails": [
           {
             "work": {
@@ -7116,6 +7164,7 @@
         "venue": "Southridge High School",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200903121900.pdf",
         "programDetails": [
           {
             "work": {
@@ -7189,6 +7238,7 @@
         "venue": "Taylor-Meade Performing Arts Center, Pacific University",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200904271900.pdf",
         "programDetails": [
           {
             "work": {
@@ -7329,6 +7379,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200905021930.pdf",
         "programDetails": [
           {
             "work": {
@@ -7471,6 +7522,7 @@
         "venue": "Evans Music Center, Lewis & Clark College",
         "season": "2008-2009",
         "ticketUrl": "",
+        "programScanPdf": "200905171600.pdf",
         "programDetails": [
           {
             "work": {
@@ -7628,6 +7680,7 @@
         "venue": "Beall Concert Hall, University of Oregon",
         "season": "2009-2010",
         "ticketUrl": "",
+        "programScanPdf": "200910251500.pdf",
         "programDetails": [
           {
             "work": {
@@ -7684,15 +7737,15 @@
               "Garland Waltz",
               "Rose Adagio",
               "Dance of the Maids of Honor",
-              "Aurora’s Act I Variation",
-              "<strong>Act II: The Vision and Aurora’s Awakening</strong>",
+              "Aurora's Act I Variation",
+              "<strong>Act II: The Vision and Aurora's Awakening</strong>",
               "Overture",
               "Aurora and Désiré",
-              "Niads’ Coda",
+              "Niads' Coda",
               "<strong>Act III: The Wedding</strong>",
               "Polacca",
               "Bluebird Variation",
-              "Aurora’s Act III Variation",
+              "Aurora's Act III Variation",
               "Finale and Apotheosis"
             ]
           }
@@ -7721,6 +7774,7 @@
         "venue": "Beall Concert Hall, University of Oregon",
         "season": "2009-2010",
         "ticketUrl": "",
+        "programScanPdf": "200911221500.pdf",
         "programDetails": [
           {
             "work": {
@@ -7807,7 +7861,7 @@
               "La garde montante",
               "Habanera",
               "Seguedille",
-              "Les dragons d’Alcala",
+              "Les dragons d'Alcala",
               "Danse Bohéme",
               "Chanson du Toréador",
               "Intermezzo",
@@ -7839,6 +7893,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2009-2010",
         "ticketUrl": "",
+        "programScanPdf": "200912261930.pdf",
         "programDetails": [
           {
             "work": {
@@ -7879,6 +7934,7 @@
         "venue": "Beall Concert Hall, University of Oregon",
         "season": "2012-2013",
         "ticketUrl": "",
+        "programScanPdf": "201210281500.pdf",
         "programDetails": [
           {
             "work": {
@@ -7955,6 +8011,7 @@
         "venue": "Beall Concert Hall, University of Oregon",
         "season": "2012-2013",
         "ticketUrl": "",
+        "programScanPdf": "201211192000.pdf",
         "programDetails": [
           {
             "work": {
@@ -8029,6 +8086,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2012-2013",
         "ticketUrl": "",
+        "programScanPdf": null,
         "programDetails": [
           {
             "work": {
@@ -8069,6 +8127,7 @@
         "venue": "Beall Concert Hall, University of Oregon",
         "season": "2012-2013",
         "ticketUrl": "",
+        "programScanPdf": "201303101500.pdf",
         "programDetails": [
           {
             "work": {
@@ -8150,6 +8209,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2013-2014",
         "ticketUrl": "",
+        "programScanPdf": "201312261930.pdf",
         "programDetails": [
           {
             "work": {
@@ -8190,6 +8250,7 @@
         "venue": "St. Anne's Chapel, Marylhurst University",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201411021600.pdf",
         "programDetails": [
           {
             "work": {
@@ -8275,6 +8336,7 @@
         "venue": "Clark Commons, Marylhurst University",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201412141800.pdf",
         "programDetails": [
           {
             "work": {
@@ -8429,6 +8491,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201412261930.pdf",
         "programDetails": [
           {
             "work": {
@@ -8471,6 +8534,7 @@
         "venue": "St. Anne's Chapel, Marylhurst University",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201503081600.pdf",
         "programDetails": [
           {
             "work": {
@@ -8573,6 +8637,7 @@
         "venue": "St. Anne's Chapel, Marylhurst University",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201504191600.pdf",
         "programDetails": [
           {
             "work": {
@@ -8609,6 +8674,7 @@
         "venue": "Saint David of Wales Episcopal Church",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201505231930.pdf",
         "programDetails": [
           {
             "work": {
@@ -8662,6 +8728,7 @@
         "venue": "Clark Commons, Marylhurst University",
         "season": "2014-2015",
         "ticketUrl": "",
+        "programScanPdf": "201506131800.pdf",
         "programDetails": [
           {
             "work": {
@@ -8772,13 +8839,13 @@
       }
     },
     {
-      "slug": "201812121900",
+      "slug": "201812122000",
       "type": "concert",
-      "path": "Concerts/2018/201812121900 Concert - New School Community Orchestra.md",
-      "title": "201812121900 Concert - New School Community Orchestra",
+      "path": "Concerts/2018/201812122000 Concert - New School Community Orchestra.md",
+      "title": "201812122000 Concert - New School Community Orchestra",
       "content": "",
       "frontmatter": {
-        "date": "2018-12-12T19:00:00.000Z",
+        "date": "2018-12-12T20:00:00.000Z",
         "group": "New School Community Orchestra",
         "works": [
           "Brahms - Variations on a Theme by Haydn",
@@ -8791,6 +8858,7 @@
         "venue": "Tishman Auditorium, The New School",
         "season": "2018-2019",
         "ticketUrl": "",
+        "programScanPdf": "201812182000.pdf",
         "programDetails": [
           {
             "work": {
@@ -8844,13 +8912,13 @@
       }
     },
     {
-      "slug": "201902201900",
+      "slug": "201902202000",
       "type": "concert",
-      "path": "Concerts/2019/201902201900 Concert - New School Community Orchestra.md",
-      "title": "201902201900 Concert - New School Community Orchestra",
+      "path": "Concerts/2019/201902202000 Concert - New School Community Orchestra.md",
+      "title": "201902202000 Concert - New School Community Orchestra",
       "content": "",
       "frontmatter": {
-        "date": "2019-02-20T19:00:00.000Z",
+        "date": "2019-02-20T20:00:00.000Z",
         "group": "New School Community Orchestra",
         "works": [
           "Nielsen - Flute Concerto",
@@ -8862,7 +8930,8 @@
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/5kHRIfrMlX6tSdOo5jhFk7?si=0eefe4fb113d4e23",
         "venue": "Tishman Auditorium, The New School",
         "season": "2018-2019",
-        "ticketUrl": "",
+        "ticketUrl": null,
+        "programScanPdf": "201902202000.pdf",
         "programDetails": [
           {
             "work": {
@@ -8883,7 +8952,7 @@
               "II. Allegretto"
             ],
             "soloists": [
-              "(ENTER SOLOIST), flute"
+              "Kat Lopes, flute"
             ]
           },
           {
@@ -8929,6 +8998,7 @@
         "venue": "Littlefield",
         "season": "2018-2019",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -8970,13 +9040,13 @@
       }
     },
     {
-      "slug": "201904031900",
+      "slug": "201904032000",
       "type": "concert",
-      "path": "Concerts/2019/201904031900 Concert - New School Community Orchestra.md",
-      "title": "201904031900 Concert - New School Community Orchestra",
+      "path": "Concerts/2019/201904032000 Concert - New School Community Orchestra.md",
+      "title": "201904032000 Concert - New School Community Orchestra",
       "content": "",
       "frontmatter": {
-        "date": "2019-04-03T19:00:00.000Z",
+        "date": "2019-04-03T20:00:00.000Z",
         "group": "New School Community Orchestra",
         "works": [
           "Elgar - Pomp and Circumstance March No. 3 in C Minor",
@@ -8990,6 +9060,7 @@
         "venue": "Tishman Auditorium, The New School",
         "season": "2018-2019",
         "ticketUrl": "",
+        "programScanPdf": "201904032000.pdf",
         "programDetails": [
           {
             "work": {
@@ -9066,6 +9137,7 @@
         "venue": "Morrison Center",
         "season": "2018-2019",
         "ticketUrl": "",
+        "programScanPdf": "201904261900.pdf",
         "programDetails": [
           {
             "work": {
@@ -9123,13 +9195,13 @@
       }
     },
     {
-      "slug": "201905081900",
+      "slug": "201905082000",
       "type": "concert",
-      "path": "Concerts/2019/201905081900 Concert - New School Community Orchestra.md",
-      "title": "201905081900 Concert - New School Community Orchestra",
+      "path": "Concerts/2019/201905082000 Concert - New School Community Orchestra.md",
+      "title": "201905082000 Concert - New School Community Orchestra",
       "content": "",
       "frontmatter": {
-        "date": "2019-05-08T19:00:00.000Z",
+        "date": "2019-05-08T20:00:00.000Z",
         "group": "New School Community Orchestra",
         "works": [
           "Ives - The Unanswered Question",
@@ -9143,6 +9215,7 @@
         "venue": "Tishman Auditorium, The New School",
         "season": "2018-2019",
         "ticketUrl": "",
+        "programScanPdf": "201905082000.pdf",
         "programDetails": [
           {
             "work": {
@@ -9168,13 +9241,13 @@
               "content": "",
               "frontmatter": {
                 "composer": "Chausson, Ernest",
-                "catalogue": ""
+                "catalogue": "25"
               },
               "concertCount": 1,
               "bucketList": false
             },
             "soloists": [
-              "(ENTER SOLOIST), violin"
+              "Katherine Gilger, violin"
             ]
           },
           {
@@ -9218,6 +9291,7 @@
         "venue": "Littlefield",
         "season": "2018-2019",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -9258,6 +9332,7 @@
         "venue": "Brooklyn Museum",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "201910271400.pdf",
         "programDetails": [
           {
             "work": {
@@ -9293,7 +9368,7 @@
               "bucketList": false
             },
             "soloists": [
-              "(ENTER SOLOIST), violin"
+              "Russell Kotcher, violin"
             ]
           },
           {
@@ -9340,6 +9415,7 @@
         "venue": "Roulette",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "201911241500.pdf",
         "programDetails": [
           {
             "work": {
@@ -9394,12 +9470,12 @@
         "date": "2019-12-15T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
-          "Prokofiev - Peter and the Wolf",
-          "Ellington - Nutcracker Suite",
+          "White - Childhood Scenes",
           "Tchaikovsky - The Nutcracker Suite",
-          "Strauss - Perpetuum Mobile",
+          "Ellington - Nutcracker Suite",
+          "Prokofiev - Peter and the Wolf",
           "Anderson - Sleigh Ride",
-          "White - Childhood Scenes"
+          "Strauss - Perpetuum Mobile"
         ],
         "conductor": [
           "Nick Armstrong"
@@ -9408,43 +9484,17 @@
         "venue": "Brooklyn Museum",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "201912151400.pdf",
         "programDetails": [
           {
             "work": {
-              "slug": "prokofiev-peter-and-the-wolf",
+              "slug": "white-childhood-scenes",
               "type": "work",
-              "path": "Works/Prokofiev - Peter and the Wolf.md",
-              "title": "Prokofiev - Peter and the Wolf",
-              "content": "## Movements\n1. Introduction\n2. The Story Begins\n3. The Bird\n4. The Duck\n5. The Cat\n6. Grandfather\n7. The Wolf\n8. Peter's Capture of the Wolf\n9. The Hunters\n10. The Triumphant Procession",
-              "frontmatter": {
-                "composer": "Prokofiev, Sergei",
-                "catalogue": "67"
-              },
-              "concertCount": 2,
-              "bucketList": false
-            },
-            "movements": [
-              "I. Introduction",
-              "II. The Story Begins",
-              "III. The Bird",
-              "IV. The Duck",
-              "V. The Cat",
-              "VI. Grandfather",
-              "VII. The Wolf",
-              "VIII. Peter's Capture of the Wolf",
-              "IX. The Hunters",
-              "X. The Triumphant Procession"
-            ]
-          },
-          {
-            "work": {
-              "slug": "ellington-nutcracker-suite",
-              "type": "work",
-              "path": "Works/Ellington - Nutcracker Suite.md",
-              "title": "Ellington - Nutcracker Suite",
+              "path": "Works/White - Childhood Scenes.md",
+              "title": "White - Childhood Scenes",
               "content": "",
               "frontmatter": {
-                "composer": "Ellington, Duke",
+                "composer": "White, Richard",
                 "catalogue": ""
               },
               "concertCount": 1,
@@ -9479,18 +9529,45 @@
           },
           {
             "work": {
-              "slug": "strauss-perpetuum-mobile",
+              "slug": "ellington-nutcracker-suite",
               "type": "work",
-              "path": "Works/Strauss - Perpetuum Mobile.md",
-              "title": "Strauss - Perpetuum Mobile",
+              "path": "Works/Ellington - Nutcracker Suite.md",
+              "title": "Ellington - Nutcracker Suite",
               "content": "",
               "frontmatter": {
-                "composer": "Strauss, Johann",
+                "composer": "Ellington, Duke",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
             }
+          },
+          {
+            "work": {
+              "slug": "prokofiev-peter-and-the-wolf",
+              "type": "work",
+              "path": "Works/Prokofiev - Peter and the Wolf.md",
+              "title": "Prokofiev - Peter and the Wolf",
+              "content": "## Movements\n1. Introduction\n2. The Story Begins\n3. The Bird\n4. The Duck\n5. The Cat\n6. Grandfather\n7. The Wolf\n8. Peter's Capture of the Wolf\n9. The Hunters\n10. The Triumphant Procession",
+              "frontmatter": {
+                "composer": "Prokofiev, Sergei",
+                "catalogue": "67"
+              },
+              "concertCount": 2,
+              "bucketList": false
+            },
+            "movements": [
+              "I. Introduction",
+              "II. The Story Begins",
+              "III. The Bird",
+              "IV. The Duck",
+              "V. The Cat",
+              "VI. Grandfather",
+              "VII. The Wolf",
+              "VIII. Peter's Capture of the Wolf",
+              "IX. The Hunters",
+              "X. The Triumphant Procession"
+            ]
           },
           {
             "work": {
@@ -9509,13 +9586,13 @@
           },
           {
             "work": {
-              "slug": "white-childhood-scenes",
+              "slug": "strauss-perpetuum-mobile",
               "type": "work",
-              "path": "Works/White - Childhood Scenes.md",
-              "title": "White - Childhood Scenes",
+              "path": "Works/Strauss - Perpetuum Mobile.md",
+              "title": "Strauss - Perpetuum Mobile",
               "content": "",
               "frontmatter": {
-                "composer": "White, Richard",
+                "composer": "Strauss, Johann",
                 "catalogue": ""
               },
               "concertCount": 1,
@@ -9544,6 +9621,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -9556,7 +9634,7 @@
                 "composer": "Saint-Saens, Camille",
                 "catalogue": ""
               },
-              "concertCount": 2,
+              "concertCount": 1,
               "bucketList": false
             }
           }
@@ -9585,6 +9663,7 @@
         "venue": "Brooklyn Museum",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -9677,6 +9756,7 @@
         "venue": "Auditorio Silvestre Revueltas, Conservatorio Nacional de Musica",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "202002291900.pdf",
         "programDetails": [
           {
             "work": {
@@ -9725,7 +9805,7 @@
                 "composer": "Moncayo, Jose Pablo",
                 "catalogue": ""
               },
-              "concertCount": 4,
+              "concertCount": 3,
               "bucketList": false
             }
           },
@@ -9769,6 +9849,7 @@
         "venue": "Castillo de Chapultepec",
         "season": "2019-2020",
         "ticketUrl": "",
+        "programScanPdf": "202002291900.pdf",
         "programDetails": [
           {
             "work": {
@@ -9817,7 +9898,7 @@
                 "composer": "Moncayo, Jose Pablo",
                 "catalogue": ""
               },
-              "concertCount": 4,
+              "concertCount": 3,
               "bucketList": false
             }
           },
@@ -9860,6 +9941,7 @@
         "venue": "Saint John's in the Village",
         "season": "2020-2021",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -9945,6 +10027,7 @@
         "venue": "Brooklyn Museum",
         "season": "2020-2021",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -10049,13 +10132,13 @@
       }
     },
     {
-      "slug": "202107311500",
+      "slug": "202107311900",
       "type": "concert",
-      "path": "Concerts/2021/202107311500 Concert - Litha Symphony (Bohemian Nights).md",
-      "title": "202107311500 Concert - Litha Symphony (Bohemian Nights)",
+      "path": "Concerts/2021/202107311900 Concert - Litha Symphony (Bohemian Nights).md",
+      "title": "202107311900 Concert - Litha Symphony (Bohemian Nights)",
       "content": "",
       "frontmatter": {
-        "date": "2021-07-31T15:00:00.000Z",
+        "date": "2021-07-31T19:00:00.000Z",
         "group": "Litha Symphony",
         "works": [
           "Rossini - Overture to The Barber of Seville",
@@ -10065,12 +10148,15 @@
           "Schumann - Overture, Scherzo, and Finale"
         ],
         "conductor": [
-          "Eric Hayslett"
+          "Eric Hayslett",
+          "Conrad Chu",
+          "Zach Nicely"
         ],
         "spotifyPlaylistUrl": null,
         "venue": "Church of the Holy Apostles",
         "season": "2020-2021",
         "ticketUrl": "",
+        "programScanPdf": "202107311900.pdf",
         "programDetails": [
           {
             "work": {
@@ -10107,7 +10193,7 @@
               "III. Rondo: Allegretto"
             ],
             "soloists": [
-              "(ENTER SOLOIST), clarinet"
+              "Brian Schatz, clarinet"
             ]
           },
           {
@@ -10123,7 +10209,8 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Conrad Chu"
           },
           {
             "work": {
@@ -10131,14 +10218,24 @@
               "type": "work",
               "path": "Works/Schumann - Dichterliebe.md",
               "title": "Schumann - Dichterliebe",
-              "content": "",
+              "content": "## Movements\n- \"Im wunderschönen Monat Mai\"\n- \"Aus meinen Tränen sprießen\"\n- \"Die Rose, die Lilie, die Taube, die Sonne\"\n- \"Wenn ich in deine Augen seh\"\n- \"Ich will meine Seele tauchen\"\n- \"Im Rhein, im heiligen Strome\"\n- \"Ich grolle nicht\"\n- \"Und wüßten's die Blumen, die kleinen\"\n- \"Das ist ein Flöten und Geigen\"\n- \"Hör' ich das Liedchen klingen\"\n- \"Ein Jüngling liebt ein Mädchen\"\n- \"Am leuchtenden Sommermorgen\"\n- \"Ich hab' im Traum geweinet\"\n- \"Allnächtlich im Traume\"\n- \"Aus alten Märchen winkt es\"\n- \"Die alten, bösen Lieder\"",
               "frontmatter": {
                 "composer": "Schumann, Robert",
                 "catalogue": "48"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. \"Im wunderschönen Monat Mai\"",
+              "II. \"Aus meinen Tränen sprießen\"",
+              "III. \"Die Rose, die Lilie, die Taube, die Sonne\"",
+              "IV. \"Wenn ich in deine Augen seh\"",
+              "V. \"Ich will meine Seele tauchen\"",
+              "VI. \"Im Rhein, im heiligen Strome\"",
+              "VII. \"Ich grolle nicht\""
+            ],
+            "conductor": "Zach Nicely"
           },
           {
             "work": {
@@ -10185,6 +10282,7 @@
         "venue": "Washington Irving High School",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202110241500.pdf",
         "programDetails": [
           {
             "work": {
@@ -10290,6 +10388,7 @@
         "venue": "Morrison Center",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202111061900.pdf",
         "programDetails": [
           {
             "work": {
@@ -10360,8 +10459,8 @@
         "date": "2022-02-20T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
-          "Brahms - Symphony No. 4 in E Minor",
-          "Glinka - Ruslan and Ludmila Overture"
+          "Glinka - Ruslan and Ludmila Overture",
+          "Brahms - Symphony No. 4 in E Minor"
         ],
         "conductor": [
           "Felipe Tristan"
@@ -10370,7 +10469,23 @@
         "venue": "Brooklyn Museum",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
+          {
+            "work": {
+              "slug": "glinka-ruslan-and-ludmila-overture",
+              "type": "work",
+              "path": "Works/Glinka - Ruslan and Ludmila Overture.md",
+              "title": "Glinka - Ruslan and Ludmila Overture",
+              "content": "",
+              "frontmatter": {
+                "composer": "Glinka, Mikhail",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            }
+          },
           {
             "work": {
               "slug": "brahms-symphony-no-4-in-e-minor",
@@ -10391,21 +10506,6 @@
               "III. Allegro giocoso",
               "IV. Allegro energico e passionato"
             ]
-          },
-          {
-            "work": {
-              "slug": "glinka-ruslan-and-ludmila-overture",
-              "type": "work",
-              "path": "Works/Glinka - Ruslan and Ludmila Overture.md",
-              "title": "Glinka - Ruslan and Ludmila Overture",
-              "content": "",
-              "frontmatter": {
-                "composer": "Glinka, Mikhail",
-                "catalogue": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
           }
         ]
       }
@@ -10431,6 +10531,7 @@
         "venue": "Broadway Presbyterian Church",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202203171930.pdf",
         "programDetails": [
           {
             "work": {
@@ -10519,6 +10620,7 @@
         "venue": "Washington Irving High School",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202203201500.pdf",
         "programDetails": [
           {
             "work": {
@@ -10553,6 +10655,9 @@
               "I. Allegro moderato",
               "II. Andante assai",
               "III. Allegro, ben marcato"
+            ],
+            "soloists": [
+              "Ariel Horowitz, violin"
             ]
           },
           {
@@ -10590,7 +10695,6 @@
         "group": "Greenwich Village Orchestra",
         "works": [
           "Coleridge-Taylor - Scenes from The Song of Hiawatha",
-          "Bach - Flute Concerto in A Major",
           "Griffes - Poem for Flute and Orchestra",
           "Sibelius - Symphony No. 2 in D Major"
         ],
@@ -10602,6 +10706,7 @@
         "venue": "Washington Irving High School",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202205081500.pdf",
         "programDetails": [
           {
             "work": {
@@ -10616,27 +10721,8 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
-          },
-          {
-            "work": {
-              "slug": "bach-flute-concerto-in-a-major",
-              "type": "work",
-              "path": "Works/Bach - Flute Concerto in A Major.md",
-              "title": "Bach - Flute Concerto in A Major",
-              "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro ma non tanto",
-              "frontmatter": {
-                "composer": "Bach, Johann Sebastian",
-                "catalogue": "BWV 1055"
-              },
-              "concertCount": 1,
-              "bucketList": false
             },
-            "movements": [
-              "I. Allegro",
-              "II. Larghetto",
-              "III. Allegro ma non tanto"
-            ]
+            "conductor": "Eric Mahl"
           },
           {
             "work": {
@@ -10651,7 +10737,11 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Eric Mahl",
+            "soloists": [
+              "Simon Dratfield, flute"
+            ]
           },
           {
             "work": {
@@ -10696,6 +10786,7 @@
         "venue": "St. Ann and the Holy Trinity Church",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202205141900.pdf",
         "programDetails": [
           {
             "work": {
@@ -10737,6 +10828,7 @@
         "venue": "Broadway Presbyterian Church",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202205191930.pdf",
         "programDetails": [
           {
             "work": {
@@ -10845,6 +10937,7 @@
         "venue": "Brooklyn Museum",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": null,
         "programDetails": [
           {
             "work": {
@@ -10859,7 +10952,8 @@
               },
               "concertCount": 3,
               "bucketList": false
-            }
+            },
+            "conductor": "Andy Bhasin"
           },
           {
             "work": {
@@ -10912,6 +11006,7 @@
         "venue": "Concert Grove Pavilion, Prospect Park",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -10949,14 +11044,17 @@
               "type": "work",
               "path": "Works/Still - Afro-American Symphony.md",
               "title": "Still - Afro-American Symphony",
-              "content": "",
+              "content": "## Movements\n1. Longing (Moderato assai)\n2. Sorrow (Adagio)\n3. Humor (Animato)\n4. Aspiration (Lento, con risoluzione)",
               "frontmatter": {
                 "composer": "Still, William Grant",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "III. Humor (Animato)"
+            ]
           },
           {
             "work": {
@@ -11003,9 +11101,6 @@
               "bucketList": false
             },
             "movements": [
-              "I. Andante sostenuto – Moderato con anima",
-              "II. Andantino in modo di canzona",
-              "III. Scherzo: Pizzicato ostinato – Allegro",
               "IV. Finale: Allegro con fuoco"
             ]
           },
@@ -11020,7 +11115,7 @@
                 "composer": "Williams, John",
                 "catalogue": ""
               },
-              "concertCount": 3,
+              "concertCount": 4,
               "bucketList": false
             }
           },
@@ -11058,12 +11153,15 @@
           "Tchaikovsky - Symphony No. 1 in G Minor"
         ],
         "conductor": [
-          "Eric Hayslett"
+          "Eric Hayslett",
+          "Conrad Chu",
+          "Zach Nicely"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/19lylg066fWAYfxM47hx0i?si=b4fa461fd26748dc",
         "venue": "Church of the Holy Apostles",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202208061900.pdf",
         "programDetails": [
           {
             "work": {
@@ -11071,14 +11169,21 @@
               "type": "work",
               "path": "Works/Rimsky-Korsakov - Snow Maiden Suite.md",
               "title": "Rimsky-Korsakov - Snow Maiden Suite",
-              "content": "",
+              "content": "## Movements\n1. Introduction\n2. Dance of the Birds\n3. Procession of Tsar Berendey\n4. Dance of the Skomorokhi (Tumblers)",
               "frontmatter": {
                 "composer": "Rimsky-Korsakov, Nikolai",
-                "catalogue": ""
+                "catalogue": "12"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Introduction",
+              "II. Dance of the Birds",
+              "III. Procession of Tsar Berendey",
+              "IV. Dance of the Skomorokhi (Tumblers)"
+            ],
+            "conductor": "Conrad Chu"
           },
           {
             "work": {
@@ -11093,7 +11198,8 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Zach Nicely"
           },
           {
             "work": {
@@ -11104,7 +11210,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Waldteufel, Emile",
-                "catalogue": ""
+                "catalogue": "183"
               },
               "concertCount": 1,
               "bucketList": false
@@ -11151,12 +11257,14 @@
           "Respighi - The Pines of Rome"
         ],
         "conductor": [
-          "Eric Hayslett"
+          "Eric Hayslett",
+          "Conrad Chu"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/6aAH7o35AGFOO5thZ0vmDH?si=826ea61a079d40f6",
         "venue": "Church of the Holy Apostles",
         "season": "2021-2022",
         "ticketUrl": "",
+        "programScanPdf": "202208271900.pdf",
         "programDetails": [
           {
             "work": {
@@ -11167,11 +11275,12 @@
               "content": "",
               "frontmatter": {
                 "composer": "Sibelius, Jean",
-                "catalogue": ""
+                "catalogue": "16"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Conrad Chu"
           },
           {
             "work": {
@@ -11212,7 +11321,13 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Spring"
+            ],
+            "soloists": [
+              "Audrey Hayes, violin"
+            ]
           },
           {
             "work": {
@@ -11220,14 +11335,20 @@
               "type": "work",
               "path": "Works/Respighi - The Pines of Rome.md",
               "title": "Respighi - The Pines of Rome",
-              "content": "",
+              "content": "## Movements\n1. I pini di Villa Borghese (The Pines of the Villa Borghese) - Allegretto vivace\n2. Pini presso una catacomba (Pines Near a Catacomb) - Lento\n3. I pini del Gianicolo (The Pines of the Janiculum) - Lento\n4. I pini della Via Appia (The Pines of the Appian Way) - Tempo di marcia",
               "frontmatter": {
                 "composer": "Respighi, Ottorino",
-                "catalogue": ""
+                "catalogue": "P. 141"
               },
               "concertCount": 1,
               "bucketList": true
-            }
+            },
+            "movements": [
+              "I. I pini di Villa Borghese (The Pines of the Villa Borghese) - Allegretto vivace",
+              "II. Pini presso una catacomba (Pines Near a Catacomb) - Lento",
+              "III. I pini del Gianicolo (The Pines of the Janiculum) - Lento",
+              "IV. I pini della Via Appia (The Pines of the Appian Way) - Tempo di marcia"
+            ]
           }
         ]
       }
@@ -11253,6 +11374,7 @@
         "venue": "Good Shepherd-Faith Presbyterian Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202210161500.pdf",
         "programDetails": [
           {
             "work": {
@@ -11282,7 +11404,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Helen-Jean Arthur, speaker"
+            ]
           },
           {
             "work": {
@@ -11325,6 +11450,7 @@
         "venue": null,
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -11332,14 +11458,26 @@
               "type": "work",
               "path": "Works/Dvorak - String Quartet No. 12 in F Major, \"American\".md",
               "title": "Dvorak - String Quartet No. 12 in F Major, \"American\"",
-              "content": "",
+              "content": "## Movements\n1. Allegro ma non troppo\n2. Lento\n3. Molto vivace\n4. Finale: Vivace ma non troppo",
               "frontmatter": {
                 "composer": "Dvorak, Antonin",
-                "catalogue": ""
+                "catalogue": "96"
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro ma non troppo",
+              "II. Lento",
+              "III. Molto vivace",
+              "IV. Finale: Vivace ma non troppo"
+            ],
+            "soloists": [
+              "Candice McCardle, violin 1",
+              "Andrew Westling, violin 2",
+              "Bernie Marger, viola",
+              "Kyle Yee, cello"
+            ]
           }
         ]
       }
@@ -11364,6 +11502,7 @@
         "venue": "All Saints Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202211201500.pdf",
         "programDetails": [
           {
             "work": {
@@ -11378,7 +11517,12 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Michael Rusinek, clarinet",
+              "Nancy Goeres, bassoon",
+              "New York Premiere"
+            ]
           },
           {
             "work": {
@@ -11414,13 +11558,13 @@
         "date": "2022-12-18T15:00:00.000Z",
         "group": "Greenwich Village Orchestra",
         "works": [
-          "Moncayo - Huapango",
           "Rossini - Overture to William Tell",
           "Beethoven - Symphony No. 8 in F Major",
           "Grieg - Peer Gynt Suite No. 1",
+          "Moncayo - Huapango",
           "Tchaikovsky - The Nutcracker Suite",
-          "Anderson - Sleigh Ride",
-          "Williams - Star Wars"
+          "Williams - Star Wars",
+          "Anderson - Sleigh Ride"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -11429,22 +11573,8 @@
         "venue": "All Saints Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202212181500.pdf",
         "programDetails": [
-          {
-            "work": {
-              "slug": "moncayo-huapango",
-              "type": "work",
-              "path": "Works/Moncayo - Huapango.md",
-              "title": "Moncayo - Huapango",
-              "content": "",
-              "frontmatter": {
-                "composer": "Moncayo, Jose Pablo",
-                "catalogue": ""
-              },
-              "concertCount": 4,
-              "bucketList": false
-            }
-          },
           {
             "work": {
               "slug": "rossini-overture-to-william-tell",
@@ -11475,10 +11605,7 @@
               "bucketList": false
             },
             "movements": [
-              "I. Allegro vivace e con brio",
-              "II. Allegretto scherzando",
-              "III. Tempo di Menuetto",
-              "IV. Allegro vivace"
+              "II. Allegretto scherzando"
             ]
           },
           {
@@ -11496,11 +11623,23 @@
               "bucketList": false
             },
             "movements": [
-              "I. Morning Mood (Morgenstemning)",
-              "II. The Death of Åse (Åses død)",
-              "III. Anitra's Dance (Anitras dans)",
               "IV. In the Hall of the Mountain King (I Dovregubbens hall)"
             ]
+          },
+          {
+            "work": {
+              "slug": "moncayo-huapango",
+              "type": "work",
+              "path": "Works/Moncayo - Huapango.md",
+              "title": "Moncayo - Huapango",
+              "content": "",
+              "frontmatter": {
+                "composer": "Moncayo, Jose Pablo",
+                "catalogue": ""
+              },
+              "concertCount": 3,
+              "bucketList": false
+            }
           },
           {
             "work": {
@@ -11517,16 +11656,25 @@
               "bucketList": false
             },
             "movements": [
-              "Miniature Overture",
-              "Characteristic Dances",
-              "a. March",
-              "b. Dance of the Sugar-Plum Fairy",
-              "c. Russian Dance (Trepak)",
-              "d. Arabian Dance",
-              "e. Chinese Dance",
-              "f. Dance of the Reed Flutes",
+              "March",
+              "Russian Dance (Trepak)",
               "Waltz of the Flowers"
             ]
+          },
+          {
+            "work": {
+              "slug": "williams-star-wars",
+              "type": "work",
+              "path": "Works/Williams - Star Wars.md",
+              "title": "Williams - Star Wars",
+              "content": "",
+              "frontmatter": {
+                "composer": "Williams, John",
+                "catalogue": ""
+              },
+              "concertCount": 4,
+              "bucketList": false
+            }
           },
           {
             "work": {
@@ -11540,21 +11688,6 @@
                 "catalogue": ""
               },
               "concertCount": 5,
-              "bucketList": false
-            }
-          },
-          {
-            "work": {
-              "slug": "williams-star-wars",
-              "type": "work",
-              "path": "Works/Williams - Star Wars.md",
-              "title": "Williams - Star Wars",
-              "content": "",
-              "frontmatter": {
-                "composer": "Williams, John",
-                "catalogue": ""
-              },
-              "concertCount": 3,
               "bucketList": false
             }
           }
@@ -11573,12 +11706,12 @@
         "works": [
           "Berlioz - Roman Carnival Overture",
           "Bizet - Carmen",
-          "Saint-Saens - Bacchanale from Samson and Delilah",
+          "Saint-Saens - Samson and Delilah",
           "Verdi - Rigoletto",
           "Giordano - Andrea Chenier",
-          "Wagner - Die Walküre",
+          "Mascagni - Intermezzo from Cavalleria Rusticana",
           "Puccini - Tosca",
-          "Mascagni - Intermezzo from Cavalleria Rusticana"
+          "Wagner - Die Walküre"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -11587,6 +11720,7 @@
         "venue": "All Saints Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202302051500.pdf",
         "programDetails": [
           {
             "work": {
@@ -11616,22 +11750,35 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Mark S. Doss, bass-baritone"
+            ],
+            "movements": [
+              "Act II: <em>\"Votre toast, je peux vous le rendre\"</em> (Toreador Song)"
+            ]
           },
           {
             "work": {
-              "slug": "saint-saens-bacchanale-from-samson-and-delilah",
+              "slug": "saint-saens-samson-and-delilah",
               "type": "work",
-              "path": "Works/Saint-Saens - Bacchanale from Samson and Delilah.md",
-              "title": "Saint-Saens - Bacchanale from Samson and Delilah",
+              "path": "Works/Saint-Saens - Samson and Delilah.md",
+              "title": "Saint-Saens - Samson and Delilah",
               "content": "",
               "frontmatter": {
                 "composer": "Saint-Saens, Camille",
                 "catalogue": ""
               },
-              "concertCount": 2,
+              "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Mark S. Doss, bass-baritone"
+            ],
+            "movements": [
+              "Act I: <em>\"Maudite a jamais\"</em>",
+              "Act III: Bacchanale"
+            ]
           },
           {
             "work": {
@@ -11646,7 +11793,13 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Mark S. Doss, bass-baritone"
+            ],
+            "movements": [
+              "Act II: <em>\"Cortigiani, vil razza dannata\"</em>"
+            ]
           },
           {
             "work": {
@@ -11661,17 +11814,23 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Mark S. Doss, bass-baritone"
+            ],
+            "movements": [
+              "Act III: \"Nemico della patria\""
+            ]
           },
           {
             "work": {
-              "slug": "wagner-die-walk-re",
+              "slug": "mascagni-intermezzo-from-cavalleria-rusticana",
               "type": "work",
-              "path": "Works/Wagner - Die Walküre.md",
-              "title": "Wagner - Die Walküre",
+              "path": "Works/Mascagni - Intermezzo from Cavalleria Rusticana.md",
+              "title": "Mascagni - Intermezzo from Cavalleria Rusticana",
               "content": "",
               "frontmatter": {
-                "composer": "Wagner, Richard",
+                "composer": "Mascagni, Pietro",
                 "catalogue": ""
               },
               "concertCount": 1,
@@ -11691,22 +11850,34 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Mark S. Doss, bass-baritone"
+            ],
+            "movements": [
+              "Act I: <em>\"Va, Tosca\"</em>"
+            ]
           },
           {
             "work": {
-              "slug": "mascagni-intermezzo-from-cavalleria-rusticana",
+              "slug": "wagner-die-walk-re",
               "type": "work",
-              "path": "Works/Mascagni - Intermezzo from Cavalleria Rusticana.md",
-              "title": "Mascagni - Intermezzo from Cavalleria Rusticana",
+              "path": "Works/Wagner - Die Walküre.md",
+              "title": "Wagner - Die Walküre",
               "content": "",
               "frontmatter": {
-                "composer": "Mascagni, Pietro",
+                "composer": "Wagner, Richard",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Mark S. Doss, bass-baritone"
+            ],
+            "movements": [
+              "Act III: <em>\"Leb' wohl!\"</em> (Wotan's Farewell)"
+            ]
           }
         ]
       }
@@ -11726,13 +11897,13 @@
           "Schumann - Symphony No. 4 in D Minor"
         ],
         "conductor": [
-          "Nick Armstrong",
           "Andy Bhasin"
         ],
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3rPbKJaYEoayf7bRQs8Hmq?si=7adf8898554c48e7",
         "venue": "Brooklyn Museum",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -11747,7 +11918,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "Prelude to Act I"
+            ]
           },
           {
             "work": {
@@ -11818,6 +11992,7 @@
         "venue": "All Saints Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202303191500.pdf",
         "programDetails": [
           {
             "work": {
@@ -11837,6 +12012,9 @@
               "I. Allegro",
               "II. Romance",
               "III. Rondo: Allegro assai"
+            ],
+            "soloists": [
+              "Beth Levin, piano"
             ]
           },
           {
@@ -11852,7 +12030,8 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Eric Mahl"
           },
           {
             "work": {
@@ -11893,6 +12072,7 @@
         "venue": "Brooklyn Museum",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -11933,6 +12113,9 @@
               "I. Allegro moderato",
               "II. Adagio di molto",
               "III. Allegro, ma non tanto"
+            ],
+            "soloists": [
+              "Kento Hong, violin"
             ]
           },
           {
@@ -11979,6 +12162,7 @@
         "venue": "All Saints Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202305071500.pdf",
         "programDetails": [
           {
             "work": {
@@ -11998,6 +12182,9 @@
               "I. Allegro maestoso",
               "II. Adagio",
               "III. Rondo: Allegro spirituoso"
+            ],
+            "soloists": [
+              "Xiao Wang, violin"
             ]
           },
           {
@@ -12035,9 +12222,9 @@
         "group": "Brooklyn Symphony Orchestra",
         "works": [
           "Lecuona - Andalucia Suite",
+          "Borzoni - Antinous and Hadrian Suite",
           "Mozart - Piano Concerto No. 20 in D Minor",
-          "Dvorak - Symphony No. 8 in G Major",
-          "Borzoni - Antinous and Hadrian Suite"
+          "Dvorak - Symphony No. 8 in G Major"
         ],
         "conductor": [
           "Nick Armstrong"
@@ -12046,6 +12233,7 @@
         "venue": "Brooklyn Museum",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "202306111400.pdf",
         "programDetails": [
           {
             "work": {
@@ -12053,9 +12241,32 @@
               "type": "work",
               "path": "Works/Lecuona - Andalucia Suite.md",
               "title": "Lecuona - Andalucia Suite",
-              "content": "",
+              "content": "## Movements\n1. Córdoba\n2. Andalucía\n3. Alhambra\n4. Gitanerías\n5. Guadalquivir\n6. Malagueña",
               "frontmatter": {
                 "composer": "Lecuona, Ernesto",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "I. Córdoba",
+              "II. Andalucía",
+              "III. Alhambra",
+              "IV. Gitanerías",
+              "V. Guadalquivir",
+              "VI. Malagueña"
+            ]
+          },
+          {
+            "work": {
+              "slug": "borzoni-antinous-and-hadrian-suite",
+              "type": "work",
+              "path": "Works/Borzoni - Antinous and Hadrian Suite.md",
+              "title": "Borzoni - Antinous and Hadrian Suite",
+              "content": "",
+              "frontmatter": {
+                "composer": "Borzoni, Clint",
                 "catalogue": ""
               },
               "concertCount": 1,
@@ -12080,6 +12291,9 @@
               "I. Allegro",
               "II. Romance",
               "III. Rondo: Allegro assai"
+            ],
+            "soloists": [
+              "Huizi Zhang, piano"
             ]
           },
           {
@@ -12102,21 +12316,6 @@
               "III. Allegretto grazioso",
               "IV. Allegro ma non troppo"
             ]
-          },
-          {
-            "work": {
-              "slug": "borzoni-antinous-and-hadrian-suite",
-              "type": "work",
-              "path": "Works/Borzoni - Antinous and Hadrian Suite.md",
-              "title": "Borzoni - Antinous and Hadrian Suite",
-              "content": "",
-              "frontmatter": {
-                "composer": "Borzoni, Clint",
-                "catalogue": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
           }
         ]
       }
@@ -12131,9 +12330,10 @@
         "date": "2023-07-15T12:30:00.000Z",
         "group": "Greenwich Village Orchestra",
         "works": [
-          "Beethoven - Symphony No. 6 in F Major",
           "Rossini - Overture to The Barber of Seville",
-          "Mozart - Horn Concerto No. 3 in E-Flat Major"
+          "Mozart - Horn Concerto No. 3 in E-Flat Major",
+          "Beethoven - Symphony No. 6 in F Major",
+          "Williams - Star Wars"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -12142,22 +12342,8 @@
         "venue": "All Saints Church",
         "season": "2022-2023",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
-          {
-            "work": {
-              "slug": "beethoven-symphony-no-6-in-f-major",
-              "type": "work",
-              "path": "Works/Beethoven - Symphony No. 6 in F Major.md",
-              "title": "Beethoven - Symphony No. 6 in F Major",
-              "content": "",
-              "frontmatter": {
-                "composer": "Beethoven, Ludwig van",
-                "catalogue": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
-          },
           {
             "work": {
               "slug": "rossini-overture-to-the-barber-of-seville",
@@ -12179,12 +12365,53 @@
               "type": "work",
               "path": "Works/Mozart - Horn Concerto No. 3 in E-Flat Major.md",
               "title": "Mozart - Horn Concerto No. 3 in E-Flat Major",
-              "content": "",
+              "content": "## Movements\n1. Allegro\n2. Romance (Larghetto)\n3. Allegro",
               "frontmatter": {
                 "composer": "Mozart, Wolfgang Amadeus",
-                "catalogue": ""
+                "catalogue": "K. 447"
               },
               "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "III. Allegro"
+            ],
+            "soloists": [
+              "Erik Hyman, horn"
+            ]
+          },
+          {
+            "work": {
+              "slug": "beethoven-symphony-no-6-in-f-major",
+              "type": "work",
+              "path": "Works/Beethoven - Symphony No. 6 in F Major.md",
+              "title": "Beethoven - Symphony No. 6 in F Major",
+              "content": "## Movements\n1. Allegro ma non troppo (Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande)\n2. Andante molto mosso (Szene am Bach)\n3. Allegro (Lustiges Zusammensein der Landleute)\n4. Allegro (Gewitter, Sturm)\n5. Allegretto (Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm)",
+              "frontmatter": {
+                "composer": "Beethoven, Ludwig van",
+                "catalogue": "68"
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "III. Allegro (Lustiges Zusammensein der Landleute)",
+              "IV. Allegro (Gewitter, Sturm)",
+              "V. Allegretto (Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm)"
+            ]
+          },
+          {
+            "work": {
+              "slug": "williams-star-wars",
+              "type": "work",
+              "path": "Works/Williams - Star Wars.md",
+              "title": "Williams - Star Wars",
+              "content": "",
+              "frontmatter": {
+                "composer": "Williams, John",
+                "catalogue": ""
+              },
+              "concertCount": 4,
               "bucketList": false
             }
           }
@@ -12212,6 +12439,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202310151500.pdf",
         "programDetails": [
           {
             "work": {
@@ -12292,7 +12520,8 @@
         "spotifyPlaylistUrl": "https://open.spotify.com/playlist/3viNxTfNlWqcvCeM9RsJkJ?si=13d07dcbf46744c2",
         "venue": "Brooklyn Museum",
         "season": "2023-2024",
-        "ticketUrl": "",
+        "ticketUrl": null,
+        "programScanPdf": null,
         "programDetails": [
           {
             "work": {
@@ -12355,8 +12584,8 @@
         "works": [
           "Barber - Adagio for Strings",
           "Mazzoli - These Worlds in Us",
-          "Dvorak - Symphony No. 9 in E Minor",
-          "Frucht - A More Perfect Union"
+          "Frucht - A More Perfect Union",
+          "Dvorak - Symphony No. 9 in E Minor"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -12365,6 +12594,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202311191500.pdf",
         "programDetails": [
           {
             "work": {
@@ -12398,6 +12628,27 @@
           },
           {
             "work": {
+              "slug": "frucht-a-more-perfect-union",
+              "type": "work",
+              "path": "Works/Frucht - A More Perfect Union.md",
+              "title": "Frucht - A More Perfect Union",
+              "content": "Movement V. \"Address on the 50th Anniversary of the Selma, Alabama March Eulogy for Reverend Clementa C. Pinckney\"",
+              "frontmatter": {
+                "composer": "Frucht, Paul",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "V. Address on the 50th Anniversary of the Selma, Alabama March Eulogy for Reverend Clementa C. Pinckney"
+            ],
+            "soloists": [
+              "Eliam Ramos, bass-baritone"
+            ]
+          },
+          {
+            "work": {
               "slug": "dvorak-symphony-no-9-in-e-minor",
               "type": "work",
               "path": "Works/Dvorak - Symphony No. 9 in E Minor.md",
@@ -12416,21 +12667,6 @@
               "III. Scherzo: Molto vivace",
               "IV. Allegro con fuoco"
             ]
-          },
-          {
-            "work": {
-              "slug": "frucht-a-more-perfect-union",
-              "type": "work",
-              "path": "Works/Frucht - A More Perfect Union.md",
-              "title": "Frucht - A More Perfect Union",
-              "content": "Movement V. \"Address on the 50th Anniversary of the Selma, Alabama March Eulogy for Reverend Clementa C. Pinckney\"",
-              "frontmatter": {
-                "composer": "Frucht, Paul",
-                "catalogue": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
           }
         ]
       }
@@ -12457,6 +12693,7 @@
         "venue": "Brooklyn Museum",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202312101400.pdf",
         "programDetails": [
           {
             "work": {
@@ -12491,6 +12728,9 @@
               "I. Allegro molto moderato",
               "II. Lento e mesto",
               "III. Finale: Moderato"
+            ],
+            "soloists": [
+              "Krzysztof Kaczka, flute"
             ]
           },
           {
@@ -12556,6 +12796,7 @@
         "venue": "Arlene Schnitzer Concert Hall",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -12597,6 +12838,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202402041500.pdf",
         "programDetails": [
           {
             "work": {
@@ -12611,7 +12853,8 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Eric Mahl"
           },
           {
             "work": {
@@ -12619,14 +12862,23 @@
               "type": "work",
               "path": "Works/Rubenstein - Cello Concerto No. 2.md",
               "title": "Rubenstein - Cello Concerto No. 2",
-              "content": "",
+              "content": "## Movements\n- I. Allegro moderato\n- II. Andante\n- Cadenza (Allegro)\n- III. Moderato",
               "frontmatter": {
                 "composer": "Rubenstein, Anton",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Allegro moderato",
+              "II. Andante",
+              "Cadenza (Allegro)",
+              "III. Moderato"
+            ],
+            "soloists": [
+              "Samuel Magill, cello"
+            ]
           },
           {
             "work": {
@@ -12663,11 +12915,10 @@
         "group": "Brooklyn Symphony Orchestra",
         "works": [
           "Khachaturian - Maskerade Suite",
+          "Basulto - Habanera-Reggaeton",
           "Chavez - Sinfonia India (\"Symphony No. 2\")",
           "Bizet - Carmen Suite No. 1",
-          "Bizet - Carmen Suite No. 2",
-          "Moncayo - Huapango",
-          "Basulto - Habanera-Reggaeton"
+          "Bizet - Carmen Suite No. 2"
         ],
         "conductor": [
           "Felipe Tristan"
@@ -12676,6 +12927,7 @@
         "venue": "Brooklyn Museum",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202402181400.pdf",
         "programDetails": [
           {
             "work": {
@@ -12697,6 +12949,24 @@
               "III. Mazurka",
               "IV. Romance",
               "V. Galop"
+            ]
+          },
+          {
+            "work": {
+              "slug": "basulto-habanera-reggaeton",
+              "type": "work",
+              "path": "Works/Basulto - Habanera-Reggaeton.md",
+              "title": "Basulto - Habanera-Reggaeton",
+              "content": "",
+              "frontmatter": {
+                "composer": "Basulto, Alejandro",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "soloists": [
+              "(World Premiere)"
             ]
           },
           {
@@ -12758,36 +13028,6 @@
               "V. La Garde Montante",
               "VI. Danse Bohème"
             ]
-          },
-          {
-            "work": {
-              "slug": "moncayo-huapango",
-              "type": "work",
-              "path": "Works/Moncayo - Huapango.md",
-              "title": "Moncayo - Huapango",
-              "content": "",
-              "frontmatter": {
-                "composer": "Moncayo, Jose Pablo",
-                "catalogue": ""
-              },
-              "concertCount": 4,
-              "bucketList": false
-            }
-          },
-          {
-            "work": {
-              "slug": "basulto-habanera-reggaeton",
-              "type": "work",
-              "path": "Works/Basulto - Habanera-Reggaeton.md",
-              "title": "Basulto - Habanera-Reggaeton",
-              "content": "",
-              "frontmatter": {
-                "composer": "Basulto, Alejandro",
-                "catalogue": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
           }
         ]
       }
@@ -12814,6 +13054,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202403241500.pdf",
         "programDetails": [
           {
             "work": {
@@ -12828,7 +13069,8 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "conductor": "Eric Mahl"
           },
           {
             "work": {
@@ -12836,14 +13078,24 @@
               "type": "work",
               "path": "Works/Rosauro - Concerto No. 1 for Marimba & String Orchestra.md",
               "title": "Rosauro - Concerto No. 1 for Marimba & String Orchestra",
-              "content": "",
+              "content": "## Movements\n1. Saudação (Greetings)\n2. Lamento (Lament)\n3. Dança (Dance)\n4. Despedida (Farewell)",
               "frontmatter": {
                 "composer": "Rosauro, Ney",
                 "catalogue": ""
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "movements": [
+              "I. Saudação (Greetings)",
+              "II. Lamento (Lament)",
+              "III. Dança (Dance)",
+              "IV. Despedida (Farewell)"
+            ],
+            "conductor": "Eric Mahl",
+            "soloists": [
+              "Britton-René Collins, marimba"
+            ]
           },
           {
             "work": {
@@ -12893,6 +13145,7 @@
         "venue": "Brooklyn Museum",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202404211400.pdf",
         "programDetails": [
           {
             "work": {
@@ -13023,6 +13276,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2023-2024",
         "ticketUrl": "",
+        "programScanPdf": "202405051500.pdf",
         "programDetails": [
           {
             "work": {
@@ -13057,6 +13311,9 @@
               "I. Allegro",
               "II. Andante",
               "III. Presto in moto perpetuo"
+            ],
+            "soloists": [
+              "Itamar Zorman, violin"
             ]
           },
           {
@@ -13095,8 +13352,8 @@
         "group": "Greenwich Village Orchestra",
         "works": [
           "Verdi - Overture to Nabucco",
-          "Dvorak - Symphony No. 8 in G Major",
-          "Saint-Saens - Violin Concerto No. 3 in B Minor"
+          "Saint-Saens - Violin Concerto No. 3 in B Minor",
+          "Dvorak - Symphony No. 8 in G Major"
         ],
         "conductor": [
           "Barbara Yahr"
@@ -13105,6 +13362,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2024-2025",
         "ticketUrl": "",
+        "programScanPdf": "202410061500.pdf",
         "programDetails": [
           {
             "work": {
@@ -13120,6 +13378,29 @@
               "concertCount": 4,
               "bucketList": false
             }
+          },
+          {
+            "work": {
+              "slug": "saint-saens-violin-concerto-no-3-in-b-minor",
+              "type": "work",
+              "path": "Works/Saint-Saens - Violin Concerto No. 3 in B Minor.md",
+              "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
+              "content": "## Movements\n1. Allegro non troppo\n2. Andantino quasi allegretto\n3. Molto moderato e maestoso – Allegro non troppo",
+              "frontmatter": {
+                "composer": "Saint-Saens, Camille",
+                "catalogue": "Op. 61"
+              },
+              "concertCount": 2,
+              "bucketList": false
+            },
+            "movements": [
+              "I. Allegro non troppo",
+              "II. Andantino quasi allegretto",
+              "III. Molto moderato e maestoso – Allegro non troppo"
+            ],
+            "soloists": [
+              "Ming-Feng Hsin, violin"
+            ]
           },
           {
             "work": {
@@ -13141,26 +13422,6 @@
               "III. Allegretto grazioso",
               "IV. Allegro ma non troppo"
             ]
-          },
-          {
-            "work": {
-              "slug": "saint-saens-violin-concerto-no-3-in-b-minor",
-              "type": "work",
-              "path": "Works/Saint-Saens - Violin Concerto No. 3 in B Minor.md",
-              "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
-              "content": "## Movements\n1. Allegro non troppo\n2. Andantino quasi allegretto\n3. Molto moderato e maestoso – Allegro non troppo",
-              "frontmatter": {
-                "composer": "Saint-Saens, Camille",
-                "catalogue": "Op. 61"
-              },
-              "concertCount": 2,
-              "bucketList": false
-            },
-            "movements": [
-              "I. Allegro non troppo",
-              "II. Andantino quasi allegretto",
-              "III. Molto moderato e maestoso – Allegro non troppo"
-            ]
           }
         ]
       }
@@ -13175,9 +13436,9 @@
         "date": "2024-10-27T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
+          "Price - Andante Cantabile from String Quartet No. 2",
           "Beethoven - Symphony No. 8 in F Major",
-          "Shostakovich - Symphony No. 5",
-          "Price - Andante Cantabile from String Quartet No. 2"
+          "Shostakovich - Symphony No. 5"
         ],
         "conductor": [
           "David Hagy"
@@ -13186,7 +13447,23 @@
         "venue": "Brooklyn Museum",
         "season": "2024-2025",
         "ticketUrl": "",
+        "programScanPdf": "202410271400.pdf",
         "programDetails": [
+          {
+            "work": {
+              "slug": "price-andante-cantabile-from-string-quartet-no-2",
+              "type": "work",
+              "path": "Works/Price - Andante Cantabile from String Quartet No. 2.md",
+              "title": "Price - Andante Cantabile from String Quartet No. 2",
+              "content": "",
+              "frontmatter": {
+                "composer": "Price, Florence",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            }
+          },
           {
             "work": {
               "slug": "beethoven-symphony-no-8-in-f-major",
@@ -13228,21 +13505,6 @@
               "III. Largo",
               "IV. Allegro non troppo"
             ]
-          },
-          {
-            "work": {
-              "slug": "price-andante-cantabile-from-string-quartet-no-2",
-              "type": "work",
-              "path": "Works/Price - Andante Cantabile from String Quartet No. 2.md",
-              "title": "Price - Andante Cantabile from String Quartet No. 2",
-              "content": "",
-              "frontmatter": {
-                "composer": "Price, Florence",
-                "catalogue": ""
-              },
-              "concertCount": 1,
-              "bucketList": false
-            }
           }
         ]
       }
@@ -13268,6 +13530,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2024-2025",
         "ticketUrl": "",
+        "programScanPdf": "202411171500.pdf",
         "programDetails": [
           {
             "work": {
@@ -13343,7 +13606,7 @@
         "works": [
           "Berko - Condense Eternity",
           "Mendelssohn - Violin Concerto in E Minor",
-          "Mendelssohn - Hebrides Overture \"Fingal's Cave\"",
+          "Mendelssohn - Hebrides Overture",
           "Elgar - In The South (Alassio) - Concert Overture",
           "Anderson - Sleigh Ride"
         ],
@@ -13354,6 +13617,7 @@
         "venue": "Brooklyn Museum",
         "season": "2024-2025",
         "ticketUrl": "",
+        "programScanPdf": "202412151400.pdf",
         "programDetails": [
           {
             "work": {
@@ -13388,18 +13652,21 @@
               "I. Allegro molto appassionato",
               "II. Andante",
               "III. Allegretto non troppo – Allegro molto vivace"
+            ],
+            "soloists": [
+              "Ana Isabela España, violin"
             ]
           },
           {
             "work": {
-              "slug": "mendelssohn-hebrides-overture-fingal-s-cave",
+              "slug": "mendelssohn-hebrides-overture",
               "type": "work",
-              "path": "Works/Mendelssohn - Hebrides Overture \"Fingal's Cave\".md",
-              "title": "Mendelssohn - Hebrides Overture \"Fingal's Cave\"",
+              "path": "Works/Mendelssohn - Hebrides Overture.md",
+              "title": "Mendelssohn - Hebrides Overture",
               "content": "",
               "frontmatter": {
                 "composer": "Mendelssohn, Felix",
-                "catalogue": ""
+                "catalogue": "26"
               },
               "concertCount": 1,
               "bucketList": false
@@ -13414,7 +13681,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Elgar, Edward",
-                "catalogue": ""
+                "catalogue": "50"
               },
               "concertCount": 1,
               "bucketList": false
@@ -13461,6 +13728,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2024-2025",
         "ticketUrl": "https://greenwich-village-orchestra.square.site/product/peace/76",
+        "programScanPdf": "202502091500.pdf",
         "programDetails": [
           {
             "work": {
@@ -13568,6 +13836,7 @@
         "venue": "Brooklyn Museum",
         "season": "2024-2025",
         "ticketUrl": "https://www.eventbrite.com/e/dvorak-saint-georges-faure-sankey-brooklyn-symphony-orchestra-tickets-1141723027309",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -13674,6 +13943,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2024-2025",
         "ticketUrl": "https://greenwich-village-orchestra.square.site/product/the-unanswered-question/77",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -13735,6 +14005,7 @@
         "venue": "Brooklyn Museum",
         "season": "2024-2025",
         "ticketUrl": "https://www.brooklynsymphonyorchestra.org/events/2025/04/13",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -13828,6 +14099,7 @@
         "venue": "High School of Fashion Industries",
         "season": "2024-2025",
         "ticketUrl": "https://greenwich-village-orchestra.square.site/product/exuberance/78",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -13893,6 +14165,7 @@
         "venue": "Brooklyn Museum",
         "season": "2024-2025",
         "ticketUrl": "https://www.brooklynsymphonyorchestra.org/events/2025/06/15",
+        "programScanPdf": "",
         "programDetails": [
           {
             "work": {
@@ -13978,7 +14251,7 @@
       "title": "Bach, Johann Sebastian",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 6
+      "concertCount": 5
     },
     {
       "slug": "badelt-klaus",
@@ -14644,7 +14917,7 @@
       "title": "Moncayo, Jose Pablo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 4
+      "concertCount": 3
     },
     {
       "slug": "montgomery-jessie",
@@ -15094,7 +15367,7 @@
       "title": "Williams, John",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 4
+      "concertCount": 5
     },
     {
       "slug": "wolf-ferrari-ermanno",
@@ -15214,6 +15487,15 @@
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 1
+    },
+    {
+      "slug": "conrad-chu",
+      "type": "conductor",
+      "path": "Conductors/Conrad Chu.md",
+      "title": "Conrad Chu",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 3
     },
     {
       "slug": "daniel-velasquez",
@@ -15357,7 +15639,7 @@
       "title": "Nick Armstrong",
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 6
+      "concertCount": 5
     },
     {
       "slug": "nico-olarte-hayes",
@@ -15412,6 +15694,15 @@
       "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
       "frontmatter": {},
       "concertCount": 12
+    },
+    {
+      "slug": "zach-nicely",
+      "type": "conductor",
+      "path": "Conductors/Zach Nicely.md",
+      "title": "Zach Nicely",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 2
     }
   ],
   "group": [
@@ -16445,12 +16736,12 @@
       "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
       "frontmatter": {},
       "concertSlugs": [
-        "201812121900",
-        "201902201900",
+        "201812122000",
+        "201902202000",
         "201903241900",
-        "201904031900",
+        "201904032000",
         "201904261900",
-        "201905081900",
+        "201905082000",
         "201906291500"
       ],
       "workSlugs": [
@@ -16494,12 +16785,12 @@
         "brahms-symphony-no-3-in-f-major",
         "mozart-sinfonia-concertante-for-violin-and-viola",
         "tchaikovsky-serenade-for-strings",
-        "prokofiev-peter-and-the-wolf",
-        "ellington-nutcracker-suite",
-        "tchaikovsky-the-nutcracker-suite",
-        "strauss-perpetuum-mobile",
-        "anderson-sleigh-ride",
         "white-childhood-scenes",
+        "tchaikovsky-the-nutcracker-suite",
+        "ellington-nutcracker-suite",
+        "prokofiev-peter-and-the-wolf",
+        "anderson-sleigh-ride",
+        "strauss-perpetuum-mobile",
         "saint-saens-bacchanale-from-samson-and-delilah",
         "beethoven-leonore-overture-no-3",
         "marquez-danzon-no-4",
@@ -16518,7 +16809,7 @@
       "concertSlugs": [
         "202105151500",
         "202105161500",
-        "202107311500"
+        "202107311900"
       ],
       "workSlugs": [
         "haydn-symphony-no-31-in-d-major",
@@ -16564,8 +16855,8 @@
         "beethoven-symphony-no-5-in-c-minor",
         "mozart-symphony-no-31",
         "dvorak-symphony-no-7-in-d-minor",
-        "brahms-symphony-no-4-in-e-minor",
         "glinka-ruslan-and-ludmila-overture",
+        "brahms-symphony-no-4-in-e-minor",
         "haydn-symphony-no-104-in-d-major-london",
         "mozart-sinfonia-concertante-for-violin-and-viola",
         "elgar-enigma-variations",
@@ -16573,7 +16864,6 @@
         "prokofiev-violin-concerto-no-2-in-g-minor",
         "tchaikovsky-symphony-no-4-in-f-minor",
         "coleridge-taylor-scenes-from-the-song-of-hiawatha",
-        "bach-flute-concerto-in-a-major",
         "griffes-poem-for-flute-and-orchestra",
         "sibelius-symphony-no-2-in-d-major",
         "yarmolinsky-the-consitution-a-secular-oratorio",
@@ -16625,20 +16915,20 @@
         "dvorak-string-quartet-no-12-in-f-major-american",
         "leshnoff-double-concerto-for-clarinet-bassoon",
         "shostakovich-symphony-no-5",
-        "moncayo-huapango",
         "rossini-overture-to-william-tell",
         "grieg-peer-gynt-suite-no-1",
+        "moncayo-huapango",
         "tchaikovsky-the-nutcracker-suite",
-        "anderson-sleigh-ride",
         "williams-star-wars",
+        "anderson-sleigh-ride",
         "berlioz-roman-carnival-overture",
         "bizet-carmen",
-        "saint-saens-bacchanale-from-samson-and-delilah",
+        "saint-saens-samson-and-delilah",
         "verdi-rigoletto",
         "giordano-andrea-chenier",
-        "wagner-die-walk-re",
-        "puccini-tosca",
         "mascagni-intermezzo-from-cavalleria-rusticana",
+        "puccini-tosca",
+        "wagner-die-walk-re",
         "wagner-lohengrin",
         "barber-souvenirs",
         "schumann-symphony-no-4-in-d-minor",
@@ -16650,11 +16940,11 @@
         "paganini-violin-concerto-no-1-in-d-major",
         "brahms-symphony-no-2-in-d-major",
         "lecuona-andalucia-suite",
-        "dvorak-symphony-no-8-in-g-major",
         "borzoni-antinous-and-hadrian-suite",
-        "beethoven-symphony-no-6-in-f-major",
+        "dvorak-symphony-no-8-in-g-major",
         "rossini-overture-to-the-barber-of-seville",
-        "mozart-horn-concerto-no-3-in-e-flat-major"
+        "mozart-horn-concerto-no-3-in-e-flat-major",
+        "beethoven-symphony-no-6-in-f-major"
       ]
     },
     {
@@ -16684,8 +16974,8 @@
         "beethoven-symphony-no-7-in-a-major",
         "barber-adagio-for-strings",
         "mazzoli-these-worlds-in-us",
-        "dvorak-symphony-no-9-in-e-minor",
         "frucht-a-more-perfect-union",
+        "dvorak-symphony-no-9-in-e-minor",
         "rossini-overture-to-la-gazza-ladra",
         "reinecke-flute-concerto-in-d-major",
         "tchaikovsky-the-nutcracker-suite",
@@ -16695,11 +16985,10 @@
         "rubenstein-cello-concerto-no-2",
         "prokofiev-symphony-no-5-in-b-flat-major",
         "khachaturian-maskerade-suite",
+        "basulto-habanera-reggaeton",
         "chavez-sinfonia-india-symphony-no-2",
         "bizet-carmen-suite-no-1",
         "bizet-carmen-suite-no-2",
-        "moncayo-huapango",
-        "basulto-habanera-reggaeton",
         "vaughan-williams-norfolk-rhapsody-no-1-in-e-minor",
         "rosauro-concerto-no-1-for-marimba-string-orchestra",
         "debussy-la-mer",
@@ -16736,17 +17025,17 @@
       ],
       "workSlugs": [
         "verdi-overture-to-nabucco",
-        "dvorak-symphony-no-8-in-g-major",
         "saint-saens-violin-concerto-no-3-in-b-minor",
+        "dvorak-symphony-no-8-in-g-major",
+        "price-andante-cantabile-from-string-quartet-no-2",
         "beethoven-symphony-no-8-in-f-major",
         "shostakovich-symphony-no-5",
-        "price-andante-cantabile-from-string-quartet-no-2",
         "coleman-seven-o-clock-shout",
         "mozart-clarinet-concerto-in-a-major",
         "sibelius-symphony-no-1-in-e-minor",
         "berko-condense-eternity",
         "mendelssohn-violin-concerto-in-e-minor",
-        "mendelssohn-hebrides-overture-fingal-s-cave",
+        "mendelssohn-hebrides-overture",
         "elgar-in-the-south-alassio-concert-overture",
         "anderson-sleigh-ride",
         "elgar-enigma-variations",
