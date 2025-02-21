@@ -8,6 +8,8 @@ import {
   formatWorkTitle,
   formatComposerName,
   isUpcoming,
+  getNextConcert,
+  getPreviousConcert,
 } from "@music/lib/helpers";
 import { PageProps } from "@music/lib/types";
 import { getLocationsForVenues } from "@music/lib/location";
@@ -21,8 +23,9 @@ import { getVenueByTitle } from "@music/data/queries/venues";
 import { ConcertBadges } from "@music/components/ConcertBadges";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { PageTitle } from "@music/components/PageTitle";
-import { BucketList } from "../../components/BucketList";
+import { BucketList } from "@music/components/BucketList";
 import { AttendActions } from "@music/components/AttendActions";
+import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
@@ -53,6 +56,10 @@ export default async function ConcertPage(props: PageProps) {
   // Format the concert title
   const displayTitle = formatConcertTitle(concert.title, group);
 
+  // Get next/prev concerts
+  const prevConcert = getPreviousConcert(concert.slug);
+  const nextConcert = getNextConcert(concert.slug);
+
   // Find the referenced conductor(s)
   const conductors = Array.isArray(concert.frontmatter.conductor)
     ? concert.frontmatter.conductor
@@ -75,7 +82,20 @@ export default async function ConcertPage(props: PageProps) {
 
   return (
     <article className="flex flex-col gap-6">
-      <PageTitle>{displayTitle}</PageTitle>
+      <div className="flex items-start justify-between gap-4">
+        <PageTitle>{displayTitle}</PageTitle>
+        <BackForwardNavigation
+          prev={prevConcert}
+          next={nextConcert}
+          getHref={(concert) => routes.concerts.show(concert.slug)}
+          getTooltip={(concert) =>
+            formatConcertTitle(
+              concert.title,
+              getGroupByTitle(concert.frontmatter.group)
+            )
+          }
+        />
+      </div>
 
       {isUpcoming(concert) && (
         <div className="mb-6">

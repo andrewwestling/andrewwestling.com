@@ -28,6 +28,8 @@ import {
   sampleSeasonNoConcerts,
   sampleConcertWithTicketUrl,
   sampleConcertWithoutTicketUrl,
+  sampleConcertForNavPrev,
+  sampleConcertForNavNext,
 } from "./components/sampleData.ts";
 import { Breadcrumbs } from "@components/Breadcrumbs";
 import BreadcrumbsSlot from "@breadcrumbs/default";
@@ -39,6 +41,7 @@ import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
 import VenueMap from "@music/components/VenueMap";
 import { HappeningNow } from "@music/components/HappeningNow";
+import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 
 export const metadata = { title: "AWDS" };
 
@@ -600,4 +603,53 @@ The Filters component provides a multi-select dropdown for filtering concerts by
   <Suspense>
     <FilterExamples />
   </Suspense>
+</ComponentWrapper>
+
+---
+
+## BackForwardNavigation
+
+This component provides generic back/forward navigation arrows with tooltips. It's designed to work with any type of item and shows disabled states when there is no previous or next item available.
+
+The component is generic and accepts the following props:
+- `prev` and `next`: The items to navigate to (or null if at the beginning/end)
+- `getHref`: Function to generate the URL for an item
+- `getTooltip`: Function to generate the tooltip text for an item
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="With both prev and next">
+      <div className="flex items-start justify-between gap-4">
+        <div className="text-2xl">Page Title</div>
+        <BackForwardNavigation
+          prev={sampleConcertForNavPrev}
+          next={sampleConcertForNavNext}
+          getHref={(concert) => concert.slug}
+          getTooltip={(concert) => concert.title}
+        />
+      </div>
+    </Variant>
+    <Variant label="At the beginning (no prev)">
+      <div className="flex items-start justify-between gap-4">
+        <div className="text-2xl">Page Title</div>
+        <BackForwardNavigation
+          prev={null}
+          next={sampleConcertForNavNext}
+          getHref={(concert) => concert.slug}
+          getTooltip={(concert) => concert.title}
+        />
+      </div>
+    </Variant>
+    <Variant label="At the end (no next)">
+      <div className="flex items-start justify-between gap-4">
+        <div className="text-2xl">Page Title</div>
+        <BackForwardNavigation
+          prev={sampleConcertForNavPrev}
+          next={null}
+          getHref={(concert) => concert.slug}
+          getTooltip={(concert) => concert.title}
+        />
+      </div>
+    </Variant>
+  </div>
 </ComponentWrapper>
