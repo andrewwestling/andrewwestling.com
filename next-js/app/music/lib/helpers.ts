@@ -1,4 +1,4 @@
-import { Concert, Work } from "./types";
+import { Concert, Work, Season } from "./types";
 import { getConductorByTitle } from "@music/data/queries/conductors";
 import { getSeasons } from "@music/data/queries/seasons";
 import { getVenueByTitle } from "@music/data/queries/venues";
@@ -283,4 +283,55 @@ export function getPreviousConcert(currentConcertSlug: string): Concert | null {
 
   // Return the previous concert
   return sortedConcerts[currentIndex - 1];
+}
+
+/**
+ * Gets the next season chronologically after the given season
+ */
+export function getNextSeason(currentSeasonSlug: string): Season | null {
+  const seasons = getSeasons();
+  const currentSeason = seasons.find((s) => s.slug === currentSeasonSlug);
+  if (!currentSeason) return null;
+
+  // Sort seasons by year (they're in YYYY-YYYY format)
+  const sortedSeasons = seasons.sort((a, b) => {
+    const yearA = parseInt(a.title.split("-")[0]);
+    const yearB = parseInt(b.title.split("-")[0]);
+    return yearA - yearB;
+  });
+
+  // Find the index of the current season
+  const currentIndex = sortedSeasons.findIndex(
+    (s) => s.slug === currentSeasonSlug
+  );
+  if (currentIndex === -1 || currentIndex === sortedSeasons.length - 1)
+    return null;
+
+  // Return the next season
+  return sortedSeasons[currentIndex + 1];
+}
+
+/**
+ * Gets the previous season chronologically before the given season
+ */
+export function getPreviousSeason(currentSeasonSlug: string): Season | null {
+  const seasons = getSeasons();
+  const currentSeason = seasons.find((s) => s.slug === currentSeasonSlug);
+  if (!currentSeason) return null;
+
+  // Sort seasons by year (they're in YYYY-YYYY format)
+  const sortedSeasons = seasons.sort((a, b) => {
+    const yearA = parseInt(a.title.split("-")[0]);
+    const yearB = parseInt(b.title.split("-")[0]);
+    return yearA - yearB;
+  });
+
+  // Find the index of the current season
+  const currentIndex = sortedSeasons.findIndex(
+    (s) => s.slug === currentSeasonSlug
+  );
+  if (currentIndex === -1 || currentIndex === 0) return null;
+
+  // Return the previous season
+  return sortedSeasons[currentIndex - 1];
 }

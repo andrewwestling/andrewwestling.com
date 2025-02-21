@@ -3,7 +3,12 @@ import { notFound } from "next/navigation";
 import { PageProps } from "@music/lib/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { formatComposerName, formatWorkTitle } from "../../lib/helpers";
+import {
+  formatComposerName,
+  formatWorkTitle,
+  getNextSeason,
+  getPreviousSeason,
+} from "../../lib/helpers";
 import { ListItem } from "../../components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
@@ -11,6 +16,7 @@ import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getConcertsBySeason } from "@music/data/queries/concerts";
 import { getWorksBySeason } from "@music/data/queries/works";
 import { BucketList } from "../../components/BucketList";
+import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
@@ -37,10 +43,20 @@ export default async function SeasonPage(props: PageProps) {
   // Find works for this season
   const works = getWorksBySeason(season.slug);
 
+  // Get next/prev seasons
+  const prevSeason = getPreviousSeason(season.slug);
+  const nextSeason = getNextSeason(season.slug);
+
   return (
     <article className="flex flex-col gap-6">
-      <div>
+      <div className="flex items-start justify-between gap-4">
         <PageTitle>{season.title}</PageTitle>
+        <BackForwardNavigation
+          prev={prevSeason}
+          next={nextSeason}
+          getHref={(season) => routes.seasons.show(season.slug)}
+          getTooltip={(season) => season.title}
+        />
       </div>
 
       {concerts.length > 0 && (
