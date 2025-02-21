@@ -21,6 +21,10 @@ export const buttonClasses = [
   "ease-in-out",
   "text-sm",
   "select-none",
+  "disabled:hover:shadow-none",
+  "disabled:cursor-not-allowed",
+  "disabled:opacity-50",
+  "dark:disabled:hover:bg-surface-dark",
 ].join(" ");
 
 export const Button = ({
