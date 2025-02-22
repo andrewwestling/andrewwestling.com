@@ -82,20 +82,21 @@ export default async function ConcertPage(props: PageProps) {
 
   return (
     <article className="flex flex-col gap-6">
-      <div className="flex flex-col md:flex-row-reverse md:items-start md:justify-between gap-4">
-        <BackForwardNavigation
-          prev={prevConcert}
-          next={nextConcert}
-          getHref={(concert) => routes.concerts.show(concert.slug)}
-          getTooltip={(concert) =>
-            formatConcertTitle(
-              concert.title,
-              getGroupByTitle(concert.frontmatter.group)
-            )
-          }
-          labels={{ prev: "Previous concert", next: "Next concert" }}
-        />
+      <div className="flex flex-row items-start justify-between gap-4">
         <PageTitle>{displayTitle}</PageTitle>
+        <div className="hidden sm:block">
+          <BackForwardNavigation
+            prev={prevConcert}
+            next={nextConcert}
+            getHref={(concert) => routes.concerts.show(concert.slug)}
+            getTooltip={(concert) =>
+              formatConcertTitle(
+                concert.title,
+                getGroupByTitle(concert.frontmatter.group)
+              )
+            }
+          />
+        </div>
       </div>
 
       {isUpcoming(concert) && (
