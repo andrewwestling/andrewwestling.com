@@ -44,6 +44,7 @@ import { HappeningNow } from "@music/components/HappeningNow";
 import { ConcertBadges } from "@music/components/ConcertBadges";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 import { ConcertInfo } from "@music/components/ConcertInfo";
+import { EmptyState } from "@components/EmptyState";
 
 export const metadata = { title: "AWDS" };
 
@@ -139,6 +140,36 @@ export const SAMPLE_TEXT_BOLD = "This is an example of this preset, but bold.";
 ---
 
 # Core Components
+
+## EmptyState
+
+This component is used to display a consistent empty state message when there is no content to show. It supports a title and an optional description.
+
+<ComponentWrapper>
+  <div className="grid gap-4">
+    <Variant label="Basic">
+      <EmptyState title="No items yet" />
+    </Variant>
+    <Variant label="With description">
+      <EmptyState
+        title="No concerts yet"
+        description="There are no upcoming concerts scheduled at this time."
+      />
+    </Variant>
+    <Variant label="With React node description">
+      <EmptyState
+        title="No concerts yet"
+        description={
+          <span>
+            This work is on the <a href="#">Bucket List</a>, but I haven't performed it yet.
+          </span>
+        }
+      />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
+---
 
 ## Footer
 
