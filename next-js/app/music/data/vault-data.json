@@ -1233,7 +1233,7 @@
       "content": "",
       "frontmatter": {
         "composer": "Faure, Gabriel",
-        "catalogue": ""
+        "catalogue": "50"
       },
       "concertCount": 1,
       "bucketList": false
@@ -13862,7 +13862,7 @@
               "content": "",
               "frontmatter": {
                 "composer": "Faure, Gabriel",
-                "catalogue": ""
+                "catalogue": "50"
               },
               "concertCount": 1,
               "bucketList": false
@@ -13881,7 +13881,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Nina Bernat, double bass"
+            ]
           },
           {
             "work": {
@@ -13897,7 +13900,10 @@
               },
               "concertCount": 1,
               "bucketList": false
-            }
+            },
+            "soloists": [
+              "Nina Bernat, double bass"
+            ]
           },
           {
             "work": {
@@ -13979,6 +13985,9 @@
               "II. In gemächlicher Bewegung, ohne Hast",
               "III. Ruhevoll, poco adagio",
               "IV. Sehr behaglich"
+            ],
+            "soloists": [
+              "Kresley Figueroa, soprano"
             ]
           }
         ]
@@ -14119,6 +14128,9 @@
               "I. Moderato",
               "II. Adagio",
               "III. Finale. Allegro molto"
+            ],
+            "soloists": [
+              "Karen Ouzounian, cello"
             ]
           },
           {
