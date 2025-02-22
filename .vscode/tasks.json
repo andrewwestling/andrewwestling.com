@@ -14,6 +14,18 @@
       "problemMatcher": ["$tsc-watch"]
     },
     {
+      "command": "npm run build",
+      "detail": "Build the Next.js app",
+      "group": "build",
+      "label": "Build",
+      "type": "shell",
+      "options": {
+        "cwd": "next-js/"
+      },
+      "dependsOn": ["Install", "Install (Tailwind Config)"],
+      "problemMatcher": ["$tsc-watch"]
+    },
+    {
       "command": "npm install",
       "detail": "Install dependencies",
       "group": "build",
