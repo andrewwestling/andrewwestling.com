@@ -3,7 +3,6 @@ import {
   formatConcertTitle,
   formatDate,
   getDateForSorting,
-  isUpcoming,
 } from "@music/lib/helpers";
 import { getConcerts } from "@music/data/queries/concerts";
 import { getGroupBySlug, getGroupByTitle } from "@music/data/queries/groups";
@@ -11,8 +10,6 @@ import { getSeasonBySlug, getCurrentSeason } from "@music/data/queries/seasons";
 import { getConductorBySlug } from "@music/data/queries/conductors";
 import { IndexPage } from "../components/IndexPage";
 import { routes } from "../lib/routes";
-import { Upcoming } from "../components/Upcoming";
-import { ConcertListItem } from "../components/ConcertListItem";
 import { ConcertBadges } from "../components/ConcertBadges";
 
 export const metadata: Metadata = {
@@ -85,7 +82,7 @@ export default async function ConcertsPage(props: {
         alphabetical: false,
         date: concert.frontmatter.date,
       },
-      badges: [<ConcertBadges key={concert.slug} concert={concert} />],
+      statsBadges: [<ConcertBadges key={concert.slug} concert={concert} />],
     };
   });
 

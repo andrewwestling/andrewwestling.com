@@ -7,7 +7,6 @@ import {
   formatConcertTitle,
   formatWorkTitle,
   formatComposerName,
-  isUpcoming,
   getNextConcert,
   getPreviousConcert,
 } from "@music/lib/helpers";
@@ -20,13 +19,10 @@ import { getConcertBySlug } from "@music/data/queries/concerts";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getWorkByTitle } from "@music/data/queries/works";
 import { getVenueByTitle } from "@music/data/queries/venues";
-import { ConcertBadges } from "@music/components/ConcertBadges";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { PageTitle } from "@music/components/PageTitle";
 import { BucketList } from "@music/components/BucketList";
-import { AttendActions } from "@music/components/AttendActions";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
-import { ConcertListItem } from "@music/components/ConcertListItem";
+import { ConcertInfo } from "@music/components/ConcertInfo";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
@@ -84,7 +80,7 @@ export default async function ConcertPage(props: PageProps) {
   return (
     <article className="space-y-12">
       <div className="flex flex-row items-start justify-between gap-4">
-        <ConcertListItem concert={concert} expanded showAttendActions />
+        <ConcertInfo concert={concert} showAttendActions titleAsLink={false} />
         <div className="hidden sm:block">
           <BackForwardNavigation
             prev={prevConcert}
@@ -119,7 +115,7 @@ export default async function ConcertPage(props: PageProps) {
                       work.frontmatter.composer &&
                         `by ${formatComposerName(work.frontmatter.composer)}`,
                     ]}
-                    badges={[
+                    titleBadges={[
                       work.bucketList ? (
                         <BucketList played={work.concertCount > 0} />
                       ) : null,

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
+import { ConcertInfo } from "@music/components/ConcertInfo";
 import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";
 import { SectionHeading } from "../components/SectionHeading";
 import { CalendarUrlCopy } from "../components/CalendarUrlCopy";
@@ -34,7 +35,7 @@ export default async function UpcomingPage() {
           <section className="space-y-4">
             <PageTitle>Up Next</PageTitle>
             <div className="grid gap-4 p-4 bg-surface border border-border dark:bg-surface-dark dark:border-border-dark rounded-lg">
-              <ConcertListItem concert={upNext} expanded showAttendActions />
+              <ConcertInfo concert={upNext} showAttendActions />
             </div>
           </section>
         )}

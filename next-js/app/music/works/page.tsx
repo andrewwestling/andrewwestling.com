@@ -13,11 +13,9 @@ export const metadata: Metadata = {
   description: "Musical works I've performed",
 };
 
-export default async function WorksPage(
-  props: {
-    searchParams: Promise<{ [key: string]: string | undefined }>;
-  }
-) {
+export default async function WorksPage(props: {
+  searchParams: Promise<{ [key: string]: string | undefined }>;
+}) {
   const searchParams = await props.searchParams;
   let works = getWorks();
 
@@ -64,7 +62,7 @@ export default async function WorksPage(
         composer: work.frontmatter.composer,
         concerts: work.concertCount,
       },
-      badges: [
+      titleBadges: [
         work.bucketList ? <BucketList played={work.concertCount > 0} /> : null,
       ],
     };
