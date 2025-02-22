@@ -41,7 +41,9 @@ import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
 import VenueMap from "@music/components/VenueMap";
 import { HappeningNow } from "@music/components/HappeningNow";
+import { ConcertBadges } from "@music/components/ConcertBadges";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
+import { ConcertInfo } from "@music/components/ConcertInfo";
 
 export const metadata = { title: "AWDS" };
 
@@ -332,11 +334,9 @@ These components are specific to the music section of the website.
 
 This is used when listing concerts on a page.
 
-It extends the ListItem component, adding badges and a few other things that are specific to concerts.
-
-- Shows the concert title, the group name, and the date
+It shows the concert title, the group name, and the date in a compact format.
 - Falls back to the group name if a concert title isn't available
-- Has an optional `expanded` prop that shows the group name and the date
+- Shows badges for upcoming concerts and other statuses
 
 <ComponentWrapper>
   <div className="grid gap-6">
@@ -351,14 +351,6 @@ It extends the ListItem component, adding badges and a few other things that are
       />
     </Variant>
 
-    <Variant label="Without Title, Expanded">
-      <ConcertListItem
-        concert={sampleConcertWithoutTitle}
-        group={sampleGroup}
-        expanded
-      />
-    </Variant>
-
     <Variant label="With Upcoming Date">
       <ConcertListItem
         concert={sampleConcertWithUpcomingDate}
@@ -368,11 +360,43 @@ It extends the ListItem component, adding badges and a few other things that are
   </div>
 </ComponentWrapper>
 
+### ConcertInfo
+
+This is used to show detailed information about a concert.
+
+It shows:
+- The concert title and date
+- The venue and its location
+- The performing group
+- The conductor(s)
+
+Optional props:
+- `showAttendActions` - Show "AttendActions" buttons for upcoming concerts
+- `titleAsLink` - The defaults to being a hyperlink; we can set this to false for Concert Detail pages since we don't need a link to a page we're already on
+
+<ComponentWrapper>
+  <div className="grid gap-6">
+    <Variant label="Basic">
+      <ConcertInfo concert={sampleConcertWithTitle} />
+    </Variant>
+
+    <Variant label="With Attend Actions">
+      <ConcertInfo concert={sampleConcertWithUpcomingDate} showAttendActions />
+    </Variant>
+
+    <Variant label="With Unlinked Title (for Concert Detail pages)">
+      <ConcertInfo concert={sampleConcertWithTitle} titleAsLink={false} />
+    </Variant>
+  </div>
+</ComponentWrapper>
+
 ---
 
 ### ListItem
 
-This is a generic list item component used throughout the music section to display various types of data in a consistent format. It shows a title as a link with optional statistics.
+This is a generic list item component used throughout the music section to display various types of data in a consistent format. It shows a title as a link with optional statistics and badges. The component supports two types of badges:
+- `titleBadges` - badges that appear next to the title (example: Bucket List badge)
+- `statsBadges` - badges that appear next to the stats (example: Upcoming/Happening Now badges)
 
 <ComponentWrapper>
   <div className="grid gap-4">
@@ -419,21 +443,39 @@ This is a generic list item component used throughout the music section to displ
       />
     </Variant>
 
-    <Variant label="Work Example, Bucket List">
+    <Variant label="Work Example with titleBadges (Bucket List badge)">
       <ListItem
         title="Symphony No. 1 in E Minor"
         href="/music/works/sibelius-symphony-no-1-in-e-minor"
         stats={["by Jean Sibelius"]}
-        badges={[<BucketList />]}
+        titleBadges={[<BucketList />]}
       />
     </Variant>
 
-    <Variant label="Work Example, Bucket List, Played">
+    <Variant label="Work Example with titleBadges (Bucket List badge, played)">
       <ListItem
         title="Symphony No. 1 in E Minor"
         href="/music/works/sibelius-symphony-no-1-in-e-minor"
         stats={["by Jean Sibelius"]}
-        badges={[<BucketList played />]}
+        titleBadges={[<BucketList played />]}
+      />
+    </Variant>
+
+    <Variant label="Concert Example with statsBadges (Upcoming badge)">
+      <ListItem
+        title="Example Concert"
+        href="/music/concerts/example"
+        stats={["January 1, 2024"]}
+        statsBadges={[<ConcertBadges concert={sampleConcertWithUpcomingDate} />]}
+      />
+    </Variant>
+
+    <Variant label="Concert Example with statsBadges (Happening Now badge)">
+      <ListItem
+        title="Example Concert"
+        href="/music/concerts/example"
+        stats={["January 1, 2024"]}
+        statsBadges={[<HappeningNow />]}
       />
     </Variant>
   </div>

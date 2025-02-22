@@ -17,7 +17,8 @@ interface IndexPageProps {
       [key in SortType]?: any;
     };
     className?: string;
-    badges?: React.ReactNode[];
+    titleBadges?: React.ReactNode[];
+    statsBadges?: React.ReactNode[];
   }>;
   defaultSort?: SortType;
   showFilters?: boolean;
@@ -74,7 +75,8 @@ export function IndexPage({
             title={item.title}
             href={item.href}
             stats={item.stats}
-            badges={item.badges}
+            titleBadges={item.titleBadges}
+            statsBadges={item.statsBadges}
             className={item.className}
           />
         ))}

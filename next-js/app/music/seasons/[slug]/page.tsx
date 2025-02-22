@@ -12,6 +12,7 @@ import {
 import { ListItem } from "../../components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
+import { EmptyState } from "@/app/components/EmptyState";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getConcertsBySeason } from "@music/data/queries/concerts";
 import { getWorksBySeason } from "@music/data/queries/works";
@@ -61,20 +62,25 @@ export default async function SeasonPage(props: PageProps) {
         </div>
       </div>
 
-      {concerts.length > 0 && (
-        <section>
-          <SectionHeading>Concerts</SectionHeading>
+      <section>
+        <SectionHeading>Concerts</SectionHeading>
+        {concerts.length > 0 ? (
           <div className="grid gap-4">
             {concerts.map((concert) => (
               <ConcertListItem key={concert.slug} concert={concert} />
             ))}
           </div>
-        </section>
-      )}
+        ) : (
+          <EmptyState
+            title="No concerts yet"
+            description={`I haven't performed any concerts in ${season.title} yet.`}
+          />
+        )}
+      </section>
 
-      {works.length > 0 && (
-        <section>
-          <SectionHeading>Works</SectionHeading>
+      <section>
+        <SectionHeading>Works</SectionHeading>
+        {works.length > 0 ? (
           <div className="grid gap-4">
             {works.map((work) => (
               <ListItem
@@ -85,7 +91,7 @@ export default async function SeasonPage(props: PageProps) {
                   work.frontmatter.composer &&
                     `by ${formatComposerName(work.frontmatter.composer)}`,
                 ].filter(Boolean)}
-                badges={[
+                titleBadges={[
                   work.bucketList ? (
                     <BucketList played={work.concertCount > 0} />
                   ) : null,
@@ -93,8 +99,13 @@ export default async function SeasonPage(props: PageProps) {
               />
             ))}
           </div>
-        </section>
-      )}
+        ) : (
+          <EmptyState
+            title="No works yet"
+            description={`I haven't performed any works in ${season.title} yet.`}
+          />
+        )}
+      </section>
     </article>
   );
 }
