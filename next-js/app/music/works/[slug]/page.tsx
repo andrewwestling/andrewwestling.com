@@ -6,6 +6,7 @@ import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
+import { EmptyState } from "@/app/components/EmptyState";
 import {
   getDateForSorting,
   formatWorkTitle,
@@ -67,16 +68,31 @@ export default async function WorkPage(props: PageProps) {
         )}
       </div>
 
-      {concerts.length > 0 && (
-        <div>
-          <SectionHeading>Concerts</SectionHeading>
+      <div>
+        <SectionHeading>Concerts</SectionHeading>
+        {concerts.length > 0 ? (
           <div className="grid gap-4">
             {concerts.map((concert) => (
               <ConcertListItem key={concert.slug} concert={concert} />
             ))}
           </div>
-        </div>
-      )}
+        ) : (
+          <EmptyState
+            title="No concerts yet"
+            description={
+              work.bucketList ? (
+                <span>
+                  This work is on the{" "}
+                  <Link href={routes.bucketList()}>Bucket List</Link>, but I
+                  haven&apos;t performed it yet.
+                </span>
+              ) : (
+                "I haven't performed this work yet."
+              )
+            }
+          />
+        )}
+      </div>
     </article>
   );
 }

@@ -6,6 +6,7 @@ import { formatWorkTitle, formatComposerName } from "../../lib/helpers";
 import { ListItem } from "../../components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
+import { EmptyState } from "@/app/components/EmptyState";
 import { getComposerBySlug } from "@music/data/queries/composers";
 import { getWorksByComposer } from "@music/data/queries/works";
 import { BucketList } from "../../components/BucketList";
@@ -37,9 +38,9 @@ export default async function ComposerPage(props: PageProps) {
       <div>
         <PageTitle>{formatComposerName(composer.title)}</PageTitle>
       </div>
-      {works.length > 0 && (
-        <div className="mb-8">
-          <SectionHeading>Works</SectionHeading>
+      <div className="mb-8">
+        <SectionHeading>Works</SectionHeading>
+        {works.length > 0 ? (
           <div className="grid gap-4">
             {works.map((work) => (
               <ListItem
@@ -55,8 +56,15 @@ export default async function ComposerPage(props: PageProps) {
               />
             ))}
           </div>
-        </div>
-      )}
+        ) : (
+          <EmptyState
+            title="No works yet"
+            description={`I haven't performed any works by ${formatComposerName(
+              composer.title
+            )} yet.`}
+          />
+        )}
+      </div>
     </article>
   );
 }
