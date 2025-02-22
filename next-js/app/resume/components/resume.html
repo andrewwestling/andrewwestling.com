@@ -649,7 +649,7 @@ ul.list-revert,
 /* MDX <h4>, <h5>, <h6> */
 
 .text-preset-4 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 500;
   line-height: 1.375;
@@ -658,15 +658,15 @@ ul.list-revert,
 
 @media (min-width: 640px) {
   .text-preset-4 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
 /* Semibold text in the context of a paragraph */
 
 .text-preset-4-bold {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
   line-height: 1.375;
@@ -675,8 +675,8 @@ ul.list-revert,
 
 @media (min-width: 640px) {
   .text-preset-4-bold {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -691,8 +691,8 @@ ul.list-revert,
 /* MDX <h1>, Music Library PageTitle */
 
 .text-preset-7 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.025em;
@@ -700,8 +700,8 @@ ul.list-revert,
 
 @media (min-width: 640px) {
   .text-preset-7 {
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -759,8 +759,8 @@ ul.list-revert,
   margin-right: auto !important;
 }
 
-.mb-12 {
-  margin-bottom: 3rem !important;
+.mb-16 {
+  margin-bottom: 4rem !important;
 }
 
 .mb-2 {
@@ -840,6 +840,12 @@ ul.list-revert,
   margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
 }
 
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0 !important;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse))) !important;
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse)) !important;
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0 !important;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
@@ -856,12 +862,6 @@ ul.list-revert,
   --tw-space-y-reverse: 0 !important;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)) !important;
-}
-
-.space-y-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse)) !important;
 }
 
 .whitespace-nowrap {
@@ -1021,6 +1021,18 @@ ul.markdown & ul,
     gap: 2rem !important;
   }
 
+  .sm\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0 !important;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
+  }
+
+  .sm\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0 !important;
+    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(2rem * var(--tw-space-y-reverse)) !important;
+  }
+
   .sm\:border-l {
     border-left-width: 1px !important;
   }
@@ -1059,8 +1071,8 @@ ul.markdown & ul,
 </style>
 </head>
 <body>
-    <div class="max-w-container mx-auto px-2 mb-24 text-text bg-background dark:text-text-dark dark:bg-background-dark"><div class="mb-12 sm:mb-0"><header class="mb-8"><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2"><h1 class="text-preset-7 mb-2">Andrew Westling</h1><div class="text-preset-4">Software Engineer</div></div><div class="mt-4 sm:mt-0 space-y-1 sm:border-l sm:border-highlight sm:pl-4 sm:col-span-1 h-fit"><div class="text-preset-3"><span class="mr-2">✉️</span><a href="mailto:hi@andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">hi@andrewwestling.com</a></div><div class="text-preset-3"><span class="mr-2">📍</span>Brooklyn, NY</div></div></div><div class="mt-6"><span class="markdown "><p>Seasoned web engineer, with a background in design and architecture. Specialty in crafting resilient web applications, with a particular emphasis on design systems and both front-end and full-stack features. Skilled with <strong>TypeScript</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind</strong>, and more. Dedicated to optimizing processes for scalability and fostering effective teamwork and communication.</p>
-</span></div></header></div><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2 space-y-8 mb-12 sm:mb-0"><section><h2 class="text-preset-4 mb-4">👔 Experience</h2><div class="space-y-12"><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior Design Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">9/2024–Present</span></div><div class="text-preset-3"><a href="https://alloy.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Alloy</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity risk management platform for companies that offer financial products.</p>
+    <div class="max-w-container mx-auto px-2 mb-24 text-text bg-background dark:text-text-dark dark:bg-background-dark"><div class="mb-16 sm:mb-0"><header class="mb-8"><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2"><h1 class="text-preset-7 mb-2">Andrew Westling</h1><div class="text-preset-4">Software Engineer</div></div><div class="mt-4 sm:mt-0 space-y-1 sm:border-l sm:border-highlight sm:pl-4 sm:col-span-1 h-fit"><div class="text-preset-3"><span class="mr-2">✉️</span><a href="mailto:hi@andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">hi@andrewwestling.com</a></div><div class="text-preset-3"><span class="mr-2">📍</span>Brooklyn, NY</div></div></div><div class="mt-6"><span class="markdown "><p>Seasoned web engineer, with a background in design and architecture. Specialty in crafting resilient web applications, with a particular emphasis on design systems and both front-end and full-stack features. Skilled with <strong>TypeScript</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind</strong>, and more. Dedicated to optimizing processes for scalability and fostering effective teamwork and communication.</p>
+</span></div></header></div><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2 space-y-12 sm:space-y-8 mb-16 sm:mb-0"><section><h2 class="text-preset-4 mb-4">👔 Experience</h2><div class="space-y-12"><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior Design Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">9/2024–Present</span></div><div class="text-preset-3"><a href="https://alloy.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Alloy</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity risk management platform for companies that offer financial products.</p>
 </span></div></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior UI Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">10/2023–8/2024</span></div><div class="text-preset-3"><a href="https://droit.tech" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Droit</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Front-end application development. Droit builds tools for decision-making and global regulatory compliance for financial institutions.</p>
 </span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Applications</strong>: productionized and delivered the first version of a new application to help analysts validate transaction reports before they are sent to regulators</p>
 </span></li><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: improved build performance and developer experience of Droit&#39;s component library</p>
@@ -1082,7 +1094,7 @@ ul.markdown & ul,
 </span></li><li class="text-preset-3"><span class="markdown "><p><strong>Integrations</strong>: extended integrations with external tools for analytics, error logging, marketing, and customer support</p>
 </span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Software Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">9/2014–8/2015</span></div><div class="text-preset-3"><a href="https://eyecuelab.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">EyeCue Lab</a> · <!-- -->Portland, Oregon</div></div><div class="mt-2"><span class="markdown "><p>Internship-to-hire. Consultancy/agency setting. Built marketing pages and full-stack features for web applications and client projects.</p>
 </span></div></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">AppleCare Advisor</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">6/2013–5/2014</span></div><div class="text-preset-3"><a href="https://apple.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Apple</a> · <!-- -->remote (Eugene, Oregon)</div></div><div class="mt-2"><span class="markdown "><p>Technical phone support and customer service for macOS products while completing degree.</p>
-</span></div></div></div></section></div><div class="sm:col-span-1 space-y-12 sm:border-l sm:border-highlight sm:pl-4"><section><h2 class="text-preset-4 mb-4">🔧 Tools</h2><div class="space-y-4"><div class="no-break"><div class="text-preset-3-bold">General</div><div class="text-preset-2 mt-1">TypeScript, Vercel, CircleCI, AWS, GitHub, Docker, Linear, Cursor, Visual Studio Code, Figma</div></div><div class="no-break"><div class="text-preset-3-bold">Front End</div><div class="text-preset-2 mt-1">React, JSX/TSX, Next.js, Vite, GraphQL, Apollo, Prisma, Jest/Vitest, Node.js</div></div><div class="no-break"><div class="text-preset-3-bold">UI</div><div class="text-preset-2 mt-1">Storybook, styled-components, SCSS, Tailwind, Flowbite, Ladle, Radix, MDX, HTML/CSS</div></div></div></section><section><h2 class="text-preset-4 mb-4">🎓 Education</h2><div class="space-y-6"><div class="no-break"><div class="markdown"><span class="markdown "><p>B.Arch, Architecture</p>
+</span></div></div></div></section></div><div class="sm:col-span-1 space-y-16 sm:space-y-12 sm:border-l sm:border-highlight sm:pl-4"><section><h2 class="text-preset-4 mb-4">🔧 Tools</h2><div class="space-y-4"><div class="no-break"><div class="text-preset-3-bold">General</div><div class="text-preset-2 mt-1">TypeScript, Vercel, CircleCI, AWS, GitHub, Docker, Linear, Cursor, Visual Studio Code, Figma</div></div><div class="no-break"><div class="text-preset-3-bold">Front End</div><div class="text-preset-2 mt-1">React, JSX/TSX, Next.js, Vite, GraphQL, Apollo, Prisma, Jest/Vitest, Node.js</div></div><div class="no-break"><div class="text-preset-3-bold">UI</div><div class="text-preset-2 mt-1">Storybook, styled-components, SCSS, Tailwind, Flowbite, Ladle, Radix, MDX, HTML/CSS</div></div></div></section><section><h2 class="text-preset-4 mb-4">🎓 Education</h2><div class="space-y-6"><div class="no-break"><div class="markdown"><span class="markdown "><p>B.Arch, Architecture</p>
 </span></div><div class="text-preset-3 mt-1"><a href="https://www.uoregon.edu/" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">University of Oregon</a></div></div></div></section><section><h2 class="text-preset-4 mb-4">🔗 Links</h2><div class="space-y-2 text-preset-3"><div><a href="https://andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>andrewwestling.com</strong></a></div><div><a href="https://linkedin.com/in/andrewwestling" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>linkedin.com</strong>/in/andrewwestling</a></div><div><a href="https://github.com/andrewwestling" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>github.com</strong>/andrewwestling</a></div></div></section><div class="text-preset-1 text-muted dark:text-muted-dark mt-8">Updated <!-- -->February 2025</div></div></div></div>
 </body>
 </html>

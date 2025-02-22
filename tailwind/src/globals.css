@@ -52,42 +52,42 @@
 
   /* MDX <h4>, <h5>, <h6> */
   .text-preset-4 {
-    @apply text-xl sm:text-2xl font-medium leading-snug tracking-tight;
+    @apply text-lg sm:text-xl font-medium leading-snug tracking-tight;
   }
 
   /* Semibold text in the context of a paragraph */
   .text-preset-4-bold {
-    @apply text-xl sm:text-2xl font-semibold leading-snug tracking-tight;
+    @apply text-lg sm:text-xl font-semibold leading-snug tracking-tight;
   }
 
   /* MDX <h3> */
   .text-preset-5 {
-    @apply text-2xl sm:text-3xl font-semibold leading-snug tracking-tight;
+    @apply text-xl sm:text-2xl font-semibold leading-snug tracking-tight;
   }
 
   /* Semibold text in the context of a paragraph */
   .text-preset-5-bold {
-    @apply text-2xl sm:text-3xl font-bold leading-snug tracking-tight;
+    @apply text-xl sm:text-2xl font-bold leading-snug tracking-tight;
   }
 
   /* MDX <h2>, Music Library SectionHeading */
   .text-preset-6 {
-    @apply text-3xl sm:text-4xl font-semibold leading-none tracking-tight;
+    @apply text-2xl sm:text-3xl font-semibold leading-none tracking-tight;
   }
 
   /* Semibold text in the context of a paragraph */
   .text-preset-6-bold {
-    @apply text-3xl sm:text-4xl font-bold leading-none tracking-tight;
+    @apply text-2xl sm:text-3xl font-bold leading-none tracking-tight;
   }
 
   /* MDX <h1>, Music Library PageTitle */
   .text-preset-7 {
-    @apply text-4xl sm:text-5xl font-semibold leading-none tracking-tight;
+    @apply text-3xl sm:text-4xl font-semibold leading-none tracking-tight;
   }
 
   /* Semibold text in the context of a paragraph */
   .text-preset-7-bold {
-    @apply text-4xl sm:text-5xl font-bold leading-none tracking-tight;
+    @apply text-3xl sm:text-4xl font-bold leading-none tracking-tight;
   }
 
   /* Markdown styles */

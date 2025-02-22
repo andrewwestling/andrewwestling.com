@@ -81,3 +81,31 @@ export const sampleSeasonNoConcerts = {
   concertSlugs: [],
   workSlugs: [],
 };
+
+export const sampleConcertForNav = {
+  slug: "202411171500",
+  title: "202411171500 Concert - Sample Orchestra (Sample Concert)",
+  frontmatter: {
+    date: "2024-11-17T15:00:00.000Z",
+    group: "Sample Orchestra",
+  },
+};
+
+// Special version of the concert for navigation demo that uses # links
+export const sampleConcertForNavPrev = {
+  slug: "#prev",
+  title: "Previous Concert Example",
+  frontmatter: {
+    date: "2024-10-17T15:00:00.000Z",
+    group: "Sample Orchestra",
+  },
+};
+
+export const sampleConcertForNavNext = {
+  slug: "#next",
+  title: "Next Concert Example",
+  frontmatter: {
+    date: "2024-12-17T15:00:00.000Z",
+    group: "Sample Orchestra",
+  },
+};

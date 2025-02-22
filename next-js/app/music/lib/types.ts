@@ -23,6 +23,17 @@ export interface Venue extends BaseItem {
   concertCount: number;
 }
 
+export interface ConcertWork {
+  /** The work that was performed */
+  work: Work;
+  /** (optional) Conductor who conducted this work on the concert; if omitted, defaults to hidden */
+  conductor?: string;
+  /** (optional) Soloists who performed this work on the concert; if omitted, defaults to hidden */
+  soloists?: string[];
+  /** (optional) Movement titles performed on this concert; if omitted, defaults to showing all movements of the work as listed in the `## Movements` block on the Work page, if available */
+  movements?: string[];
+}
+
 export interface ConcertFrontmatter {
   date: string;
   group: string;
@@ -31,13 +42,15 @@ export interface ConcertFrontmatter {
   spotifyPlaylistUrl: string | null;
   venue?: string | null;
   didNotPlay?: boolean;
+  /** Optional program details for each work */
+  programDetails?: ConcertWork[];
   [key: string]: any;
 }
 
 export interface WorkFrontmatter {
-  composer?: string;
-  catalogue?: string;
-  displayName?: string;
+  composer?: string | null;
+  catalogue?: string | null;
+  displayName?: string | null;
   [key: string]: any;
 }
 

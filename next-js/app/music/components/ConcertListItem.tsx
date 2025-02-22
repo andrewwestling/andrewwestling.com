@@ -11,7 +11,6 @@ import { Concert } from "@music/lib/types";
 import { getLocationFromCoordinates } from "@music/lib/location";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getVenueByTitle } from "@music/data/queries/venues";
-import { SectionHeading } from "./SectionHeading";
 import { ListItem } from "./ListItem";
 import { AttendActions } from "./AttendActions";
 
@@ -52,65 +51,58 @@ export async function ConcertListItem({
   }
 
   return (
-    <article className="flex flex-col gap-6">
-      <div>
-        <span className="text-preset-3-bold mb-2 block gap-2">
-          <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
-          <span className="ml-2">
-            <ConcertBadges concert={concert} />
+    <article className="space-y-6">
+      <div className="space-y-4">
+        <div className="text-preset-3 flex items-center">
+          <span>
+            {formattedDate}
+            <span className="ml-2">
+              <ConcertBadges key={concert.slug} concert={concert} />
+            </span>
           </span>
-        </span>
-        <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
-          <dt className="font-medium">Date</dt>
-          <dd>{formattedDate}</dd>
+        </div>
+        <h3 className="text-preset-7">
+          <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
+        </h3>
+      </div>
 
-          <dt className="font-medium">Group</dt>
-          <dd>
-            {group && (
-              <Link href={routes.groups.show(group.slug)}>{group.title}</Link>
-            )}
-          </dd>
-
-          {venue && (
-            <>
-              <dt className="font-medium">Venue</dt>
-              <dd>
-                <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
-                {venue.frontmatter.coordinates && (
-                  <span className="text-muted text-sm ml-2">
-                    (
-                    {await getLocationFromCoordinates(
-                      venue.frontmatter.coordinates
-                    )}
-                    )
-                  </span>
+      <div className="space-y-4">
+        {venue && (
+          <>
+            <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
+            {venue.frontmatter.coordinates && (
+              <span className="text-preset-2 ml-2">
+                (
+                {await getLocationFromCoordinates(
+                  venue.frontmatter.coordinates
                 )}
-              </dd>
-            </>
-          )}
-
-          {conductors.length > 0 && (
-            <>
-              <dt className="font-medium">
-                Conductor{conductors.length > 1 ? "s" : ""}
-              </dt>
-              <dd>
-                {conductors.map((conductorName, i) => (
-                  <span key={conductorName}>
-                    {i > 0 && ", "}
-                    <Link
-                      href={routes.conductors.show(
-                        findConductorSlug(conductorName) || ""
-                      )}
-                    >
-                      {conductorName}
-                    </Link>
-                  </span>
-                ))}
-              </dd>
-            </>
-          )}
-        </dl>
+                )
+              </span>
+            )}
+          </>
+        )}
+        {group && (
+          <div>
+            <Link href={routes.groups.show(group.slug)}>{group.title}</Link>
+          </div>
+        )}
+        {conductors.length > 0 && (
+          <span>
+            {conductors.map((conductorName, i) => (
+              <span key={conductorName}>
+                {i > 0 && ", "}
+                <Link
+                  href={routes.conductors.show(
+                    findConductorSlug(conductorName) || ""
+                  )}
+                >
+                  {conductorName}
+                </Link>
+              </span>
+            ))}
+            <span>, conductor{conductors.length > 1 ? "s" : ""}</span>
+          </span>
+        )}
       </div>
 
       {showAttendActions && isUpcoming(concert) && (
