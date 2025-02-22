@@ -28,13 +28,12 @@ export default async function UpcomingPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <PageTitle>Upcoming Concerts</PageTitle>
       <div className="flex flex-col gap-16">
         {/* Up Next */}
         {upNext && (
-          <section>
-            <SectionHeading>Up Next</SectionHeading>
-            <div className="grid gap-4">
+          <section className="space-y-4">
+            <PageTitle>Up Next</PageTitle>
+            <div className="grid gap-4 p-4 bg-surface border border-border dark:bg-surface-dark dark:border-border-dark rounded-lg">
               <ConcertListItem concert={upNext} expanded showAttendActions />
             </div>
           </section>
