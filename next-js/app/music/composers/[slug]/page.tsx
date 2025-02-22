@@ -48,7 +48,7 @@ export default async function ComposerPage(props: PageProps) {
                 title={formatWorkTitle(work)}
                 href={routes.works.show(work.slug)}
                 stats={[]}
-                badges={[
+                titleBadges={[
                   work.bucketList ? (
                     <BucketList played={work.concertCount > 0} />
                   ) : null,

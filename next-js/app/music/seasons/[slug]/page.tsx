@@ -91,7 +91,7 @@ export default async function SeasonPage(props: PageProps) {
                   work.frontmatter.composer &&
                     `by ${formatComposerName(work.frontmatter.composer)}`,
                 ].filter(Boolean)}
-                badges={[
+                titleBadges={[
                   work.bucketList ? (
                     <BucketList played={work.concertCount > 0} />
                   ) : null,
