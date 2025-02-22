@@ -1,6 +1,6 @@
 export const HappeningNow = () => {
   return (
-    <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+    <span className="awds-music-badge bg-green-400 dark:bg-green-800 text-green-900 dark:text-green-200 ring-1 ring-inset ring-green-600/20">
       Happening now!
     </span>
   );
