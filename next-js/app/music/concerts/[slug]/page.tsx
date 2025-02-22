@@ -26,6 +26,7 @@ import { PageTitle } from "@music/components/PageTitle";
 import { BucketList } from "@music/components/BucketList";
 import { AttendActions } from "@music/components/AttendActions";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
+import { ConcertListItem } from "@music/components/ConcertListItem";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
@@ -81,9 +82,9 @@ export default async function ConcertPage(props: PageProps) {
   const location = venue ? locationMap[venue.slug] : undefined;
 
   return (
-    <article className="flex flex-col gap-6">
+    <article className="space-y-12">
       <div className="flex flex-row items-start justify-between gap-4">
-        <PageTitle>{displayTitle}</PageTitle>
+        <ConcertListItem concert={concert} expanded showAttendActions />
         <div className="hidden sm:block">
           <BackForwardNavigation
             prev={prevConcert}
@@ -97,65 +98,6 @@ export default async function ConcertPage(props: PageProps) {
             }
           />
         </div>
-      </div>
-
-      {isUpcoming(concert) && (
-        <div className="mb-6">
-          <SectionHeading>Attend</SectionHeading>
-          <AttendActions concert={concert} />
-        </div>
-      )}
-
-      <div className="mb-6">
-        <SectionHeading>Details</SectionHeading>
-        <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
-          <dt className="font-medium">Date</dt>
-          <dd className="flex items-center gap-2">
-            {formatDate(concert.frontmatter.date)}{" "}
-            <ConcertBadges concert={concert} />
-          </dd>
-
-          <dt className="font-medium">Group</dt>
-          <dd>
-            {group && (
-              <Link href={routes.groups.show(group.slug)}>{group.title}</Link>
-            )}
-          </dd>
-
-          {venue && (
-            <>
-              <dt className="font-medium">Venue</dt>
-              <dd>
-                <Link href={routes.venues.show(venue.slug)}>{venue.title}</Link>
-                {location && (
-                  <span className="text-muted text-sm ml-2">({location})</span>
-                )}
-              </dd>
-            </>
-          )}
-
-          {conductors.length > 0 && (
-            <>
-              <dt className="font-medium">
-                Conductor{conductors.length > 1 ? "s" : ""}
-              </dt>
-              <dd>
-                {conductors.map((conductorName, i) => (
-                  <span key={conductorName}>
-                    {i > 0 && ", "}
-                    <Link
-                      href={routes.conductors.show(
-                        findConductorSlug(conductorName) || ""
-                      )}
-                    >
-                      {conductorName}
-                    </Link>
-                  </span>
-                ))}
-              </dd>
-            </>
-          )}
-        </dl>
       </div>
 
       {workObjects.length > 0 && (
@@ -236,7 +178,7 @@ export default async function ConcertPage(props: PageProps) {
       )}
 
       {concert.frontmatter.spotifyPlaylistUrl && (
-        <div className="mt-6">
+        <div>
           <SectionHeading>Listen</SectionHeading>
           <iframe
             src={concert.frontmatter.spotifyPlaylistUrl.replace(

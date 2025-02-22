@@ -53,8 +53,13 @@ export async function ConcertListItem({
   return (
     <article className="space-y-6">
       <div className="space-y-4">
-        <div className="text-preset-3 flex items-center gap-2">
-          <span>{formattedDate}</span>
+        <div className="text-preset-3 flex items-center">
+          <span>
+            {formattedDate}
+            <span className="ml-2">
+              <ConcertBadges key={concert.slug} concert={concert} />
+            </span>
+          </span>
         </div>
         <h3 className="text-preset-7">
           <Link href={routes.concerts.show(concert.slug)}>{displayTitle}</Link>
