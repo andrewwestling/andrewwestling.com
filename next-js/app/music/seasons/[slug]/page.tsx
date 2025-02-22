@@ -49,14 +49,15 @@ export default async function SeasonPage(props: PageProps) {
 
   return (
     <article className="flex flex-col gap-6">
-      <div className="flex items-start justify-between gap-4">
-        <PageTitle>{season.title}</PageTitle>
+      <div className="flex flex-col md:flex-row-reverse md:items-start md:justify-between gap-4">
         <BackForwardNavigation
           prev={prevSeason}
           next={nextSeason}
           getHref={(season) => routes.seasons.show(season.slug)}
           getTooltip={(season) => season.title}
+          labels={{ prev: "Previous season", next: "Next season" }}
         />
+        <PageTitle>{season.title}</PageTitle>
       </div>
 
       {concerts.length > 0 && (

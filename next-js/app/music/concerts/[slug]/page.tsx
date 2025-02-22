@@ -82,8 +82,7 @@ export default async function ConcertPage(props: PageProps) {
 
   return (
     <article className="flex flex-col gap-6">
-      <div className="flex items-start justify-between gap-4">
-        <PageTitle>{displayTitle}</PageTitle>
+      <div className="flex flex-col md:flex-row-reverse md:items-start md:justify-between gap-4">
         <BackForwardNavigation
           prev={prevConcert}
           next={nextConcert}
@@ -94,7 +93,9 @@ export default async function ConcertPage(props: PageProps) {
               getGroupByTitle(concert.frontmatter.group)
             )
           }
+          labels={{ prev: "Previous concert", next: "Next concert" }}
         />
+        <PageTitle>{displayTitle}</PageTitle>
       </div>
 
       {isUpcoming(concert) && (

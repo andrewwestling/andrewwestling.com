@@ -17,6 +17,13 @@ interface BackForwardNavigationProps<T> {
    * Function to generate the tooltip text for an item
    */
   getTooltip: (item: T) => string;
+  /**
+   * Labels for the navigation buttons
+   */
+  labels?: {
+    prev: string;
+    next: string;
+  };
 }
 
 export function BackForwardNavigation<T>({
@@ -24,23 +31,46 @@ export function BackForwardNavigation<T>({
   next,
   getHref,
   getTooltip,
+  labels = { prev: "Previous", next: "Next" },
 }: BackForwardNavigationProps<T>) {
   return (
-    <div className="flex gap-2 text-2xl">
+    <div className="flex gap-2 text-2xl w-full md:w-auto">
       {prev ? (
-        <ButtonLink href={getHref(prev)} title={getTooltip(prev)}>
-          ←
+        <ButtonLink
+          href={getHref(prev)}
+          title={getTooltip(prev)}
+          className="flex-1 md:flex-initial flex items-center gap-2"
+        >
+          <span>←</span>
+          <span className="md:hidden">&nbsp;{labels.prev}</span>
         </ButtonLink>
       ) : (
-        <Button disabled>←</Button>
+        <Button
+          disabled
+          className="flex-1 md:flex-initial flex items-center gap-2"
+        >
+          <span>←</span>
+          <span className="md:hidden">&nbsp;{labels.prev}</span>
+        </Button>
       )}
 
       {next ? (
-        <ButtonLink href={getHref(next)} title={getTooltip(next)}>
-          →
+        <ButtonLink
+          href={getHref(next)}
+          title={getTooltip(next)}
+          className="flex-1 md:flex-initial flex items-center gap-2"
+        >
+          <span className="md:hidden">{labels.next}&nbsp;</span>
+          <span>→</span>
         </ButtonLink>
       ) : (
-        <Button disabled>→</Button>
+        <Button
+          disabled
+          className="flex-1 md:flex-initial flex items-center gap-2"
+        >
+          <span className="md:hidden">{labels.next}&nbsp;</span>
+          <span>→</span>
+        </Button>
       )}
     </div>
   );
