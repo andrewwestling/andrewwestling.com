@@ -812,7 +812,7 @@
       "type": "work",
       "path": "Works/Copland - Appalachian Spring.md",
       "title": "Copland - Appalachian Spring",
-      "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
+      "content": "",
       "frontmatter": {
         "composer": "Copland, Aaron",
         "catalogue": ""
@@ -1722,6 +1722,19 @@
       "bucketList": false
     },
     {
+      "slug": "leoncavallo-pagliacci",
+      "type": "work",
+      "path": "Works/Leoncavallo - Pagliacci.md",
+      "title": "Leoncavallo - Pagliacci",
+      "content": "",
+      "frontmatter": {
+        "composer": "Leoncavallo, Ruggero",
+        "catalogue": ""
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
       "slug": "leshnoff-double-concerto-for-clarinet-bassoon",
       "type": "work",
       "path": "Works/Leshnoff - Double Concerto for Clarinet & Bassoon.md",
@@ -2376,10 +2389,36 @@
       "bucketList": false
     },
     {
+      "slug": "puccini-la-boheme",
+      "type": "work",
+      "path": "Works/Puccini - La Boheme.md",
+      "title": "Puccini - La Boheme",
+      "content": "",
+      "frontmatter": {
+        "composer": "Puccini, Giacomo",
+        "catalogue": ""
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
       "slug": "puccini-tosca",
       "type": "work",
       "path": "Works/Puccini - Tosca.md",
       "title": "Puccini - Tosca",
+      "content": "",
+      "frontmatter": {
+        "composer": "Puccini, Giacomo",
+        "catalogue": ""
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "puccini-turandot",
+      "type": "work",
+      "path": "Works/Puccini - Turandot.md",
+      "title": "Puccini - Turandot",
       "content": "",
       "frontmatter": {
         "composer": "Puccini, Giacomo",
@@ -3516,6 +3555,19 @@
       "content": "",
       "frontmatter": {
         "composer": "Vaughan Williams, Ralph",
+        "catalogue": ""
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "verdi-la-forza-del-destino",
+      "type": "work",
+      "path": "Works/Verdi - La Forza del Destino.md",
+      "title": "Verdi - La Forza del Destino",
+      "content": "",
+      "frontmatter": {
+        "composer": "Verdi, Giuseppe",
         "catalogue": ""
       },
       "concertCount": 1,
@@ -10851,25 +10903,14 @@
               "type": "work",
               "path": "Works/Copland - Appalachian Spring.md",
               "title": "Copland - Appalachian Spring",
-              "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
+              "content": "",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 3,
               "bucketList": true
-            },
-            "movements": [
-              "I. Very slowly",
-              "II. Fast",
-              "III. Moderate",
-              "IV. Quite fast",
-              "V. Still faster",
-              "VI. Very slowly (as at first)",
-              "VII. Calm and flowing",
-              "VIII. Moderate. Coda",
-              "IX. Moderate - Like a prayer"
-            ]
+            }
           },
           {
             "work": {
@@ -11288,25 +11329,14 @@
               "type": "work",
               "path": "Works/Copland - Appalachian Spring.md",
               "title": "Copland - Appalachian Spring",
-              "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
+              "content": "",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 3,
               "bucketList": true
-            },
-            "movements": [
-              "I. Very slowly",
-              "II. Fast",
-              "III. Moderate",
-              "IV. Quite fast",
-              "V. Still faster",
-              "VI. Very slowly (as at first)",
-              "VII. Calm and flowing",
-              "VIII. Moderate. Coda",
-              "IX. Moderate - Like a prayer"
-            ]
+            }
           },
           {
             "work": {
@@ -11885,8 +11915,8 @@
     {
       "slug": "202302261400",
       "type": "concert",
-      "path": "Concerts/2023/202302261400 Concert - Brooklyn Symphony Orchestra.md",
-      "title": "202302261400 Concert - Brooklyn Symphony Orchestra",
+      "path": "Concerts/2023/202302261400 Concert - Brooklyn Symphony Orchestra (Wagner, Barber, Schumann).md",
+      "title": "202302261400 Concert - Brooklyn Symphony Orchestra (Wagner, Barber, Schumann)",
       "content": "",
       "frontmatter": {
         "date": "2023-02-26T14:00:00.000Z",
@@ -12054,8 +12084,8 @@
     {
       "slug": "202304161400",
       "type": "concert",
-      "path": "Concerts/2023/202304161400 Concert - Brooklyn Symphony Orchestra.md",
-      "title": "202304161400 Concert - Brooklyn Symphony Orchestra",
+      "path": "Concerts/2023/202304161400 Concert - Brooklyn Symphony Orchestra (Grieg, Sibelius).md",
+      "title": "202304161400 Concert - Brooklyn Symphony Orchestra (Grieg, Sibelius)",
       "content": "",
       "frontmatter": {
         "date": "2023-04-16T14:00:00.000Z",
@@ -13429,8 +13459,8 @@
     {
       "slug": "202410271400",
       "type": "concert",
-      "path": "Concerts/2024/202410271400 Concert - Brooklyn Symphony Orchestra (David Hagy).md",
-      "title": "202410271400 Concert - Brooklyn Symphony Orchestra (David Hagy)",
+      "path": "Concerts/2024/202410271400 Concert - Brooklyn Symphony Orchestra (Price, Beethoven, and Shostakovich).md",
+      "title": "202410271400 Concert - Brooklyn Symphony Orchestra (Price, Beethoven, and Shostakovich)",
       "content": "",
       "frontmatter": {
         "date": "2024-10-27T14:00:00.000Z",
@@ -13597,8 +13627,8 @@
     {
       "slug": "202412151400",
       "type": "concert",
-      "path": "Concerts/2024/202412151400 Concert - Brooklyn Symphony Orchestra (Andrew Kim).md",
-      "title": "202412151400 Concert - Brooklyn Symphony Orchestra (Andrew Kim)",
+      "path": "Concerts/2024/202412151400 Concert - Brooklyn Symphony Orchestra (Mendelssohn, Elgar, and Berko).md",
+      "title": "202412151400 Concert - Brooklyn Symphony Orchestra (Mendelssohn, Elgar, and Berko)",
       "content": "",
       "frontmatter": {
         "date": "2024-12-15T14:00:00.000Z",
@@ -13816,8 +13846,8 @@
     {
       "slug": "202502231400",
       "type": "concert",
-      "path": "Concerts/2025/202502231400 Concert - Brooklyn Symphony Orchestra (Nico Olarte-Hayes).md",
-      "title": "202502231400 Concert - Brooklyn Symphony Orchestra (Nico Olarte-Hayes)",
+      "path": "Concerts/2025/202502231400 Concert - Brooklyn Symphony Orchestra (Chevalier de Saint-Georges, Faure, Sankey, and Dvorak).md",
+      "title": "202502231400 Concert - Brooklyn Symphony Orchestra (Chevalier de Saint-Georges, Faure, Sankey, and Dvorak)",
       "content": "",
       "frontmatter": {
         "date": "2025-02-23T14:00:00.000Z",
@@ -13996,8 +14026,8 @@
     {
       "slug": "202504131400",
       "type": "concert",
-      "path": "Concerts/2025/202504131400 Concert - Brooklyn Symphony Orchestra (David Bernard).md",
-      "title": "202504131400 Concert - Brooklyn Symphony Orchestra (David Bernard)",
+      "path": "Concerts/2025/202504131400 Concert - Brooklyn Symphony Orchestra (Rimsky-Korsakov, Copland, and Brahms).md",
+      "title": "202504131400 Concert - Brooklyn Symphony Orchestra (Rimsky-Korsakov, Copland, and Brahms)",
       "content": "",
       "frontmatter": {
         "date": "2025-04-13T14:00:00.000Z",
@@ -14044,25 +14074,14 @@
               "type": "work",
               "path": "Works/Copland - Appalachian Spring.md",
               "title": "Copland - Appalachian Spring",
-              "content": "## Movements\n1. Very slowly\n2. Fast\n3. Moderate\n4. Quite fast\n5. Still faster\n6. Very slowly (as at first)\n7. Calm and flowing\n8. Moderate. Coda\n9. Moderate - Like a prayer",
+              "content": "",
               "frontmatter": {
                 "composer": "Copland, Aaron",
                 "catalogue": ""
               },
               "concertCount": 3,
               "bucketList": true
-            },
-            "movements": [
-              "I. Very slowly",
-              "II. Fast",
-              "III. Moderate",
-              "IV. Quite fast",
-              "V. Still faster",
-              "VI. Very slowly (as at first)",
-              "VII. Calm and flowing",
-              "VIII. Moderate. Coda",
-              "IX. Moderate - Like a prayer"
-            ]
+            }
           },
           {
             "work": {
@@ -14160,14 +14179,19 @@
     {
       "slug": "202506151400",
       "type": "concert",
-      "path": "Concerts/2025/202506151400 Concert - Brooklyn Symphony Orchestra (Felipe Tristan).md",
-      "title": "202506151400 Concert - Brooklyn Symphony Orchestra (Felipe Tristan)",
+      "path": "Concerts/2025/202506151400 Concert - Brooklyn Symphony Orchestra (Opera Selections and Tchaikovsky Symphony 4).md",
+      "title": "202506151400 Concert - Brooklyn Symphony Orchestra (Opera Selections and Tchaikovsky Symphony 4)",
       "content": "",
       "frontmatter": {
         "date": "2025-06-15T14:00:00.000Z",
         "group": "Brooklyn Symphony Orchestra",
         "works": [
           "Verdi - Overture to La Forza del Destino",
+          "Verdi - La Forza del Destino",
+          "Leoncavallo - Pagliacci",
+          "Puccini - La Boheme",
+          "Leoncavallo - Pagliacci",
+          "Puccini - Turandot",
           "Tchaikovsky - Symphony No. 4 in F Minor"
         ],
         "conductor": [
@@ -14193,6 +14217,112 @@
               "concertCount": 1,
               "bucketList": false
             }
+          },
+          {
+            "work": {
+              "slug": "verdi-la-forza-del-destino",
+              "type": "work",
+              "path": "Works/Verdi - La Forza del Destino.md",
+              "title": "Verdi - La Forza del Destino",
+              "content": "",
+              "frontmatter": {
+                "composer": "Verdi, Giuseppe",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "<em>“Pace pace, mio Dio”</em>"
+            ],
+            "soloists": [
+              "Maria Brea, soprano"
+            ]
+          },
+          {
+            "work": {
+              "slug": "leoncavallo-pagliacci",
+              "type": "work",
+              "path": "Works/Leoncavallo - Pagliacci.md",
+              "title": "Leoncavallo - Pagliacci",
+              "content": "",
+              "frontmatter": {
+                "composer": "Leoncavallo, Ruggero",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "<em>\"Recitar!... Vesti la giubba\"</em>"
+            ],
+            "soloists": [
+              "Dane Suarez, tenor"
+            ]
+          },
+          {
+            "work": {
+              "slug": "puccini-la-boheme",
+              "type": "work",
+              "path": "Works/Puccini - La Boheme.md",
+              "title": "Puccini - La Boheme",
+              "content": "",
+              "frontmatter": {
+                "composer": "Puccini, Giacomo",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "Duet: <em>\"O soave fanciulla\"</em>"
+            ],
+            "soloists": [
+              "Maria Brea, soprano",
+              "Dane Suarez, tenor"
+            ]
+          },
+          {
+            "work": {
+              "slug": "leoncavallo-pagliacci",
+              "type": "work",
+              "path": "Works/Leoncavallo - Pagliacci.md",
+              "title": "Leoncavallo - Pagliacci",
+              "content": "",
+              "frontmatter": {
+                "composer": "Leoncavallo, Ruggero",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "<em>\"Qual fiamma avea nel guardo!\"</em>"
+            ],
+            "soloists": [
+              "Maria Brea, soprano"
+            ]
+          },
+          {
+            "work": {
+              "slug": "puccini-turandot",
+              "type": "work",
+              "path": "Works/Puccini - Turandot.md",
+              "title": "Puccini - Turandot",
+              "content": "",
+              "frontmatter": {
+                "composer": "Puccini, Giacomo",
+                "catalogue": ""
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "<em>\"Nessun dorma\"</em>"
+            ],
+            "soloists": [
+              "Dane Suarez, tenor"
+            ]
           },
           {
             "work": {
@@ -14824,6 +14954,15 @@
       "concertCount": 1
     },
     {
+      "slug": "leoncavallo-ruggero",
+      "type": "composer",
+      "path": "Composers/Leoncavallo, Ruggero.md",
+      "title": "Leoncavallo, Ruggero",
+      "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 1
+    },
+    {
       "slug": "leshnoff-jonathan",
       "type": "composer",
       "path": "Composers/Leshnoff, Jonathan.md",
@@ -15028,7 +15167,7 @@
       "title": "Puccini, Giacomo",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 2
+      "concertCount": 3
     },
     {
       "slug": "rachmaninoff-sergei",
@@ -17047,6 +17186,10 @@
         "haydn-cello-concerto-no-1",
         "beethoven-symphony-no-7-in-a-major",
         "verdi-overture-to-la-forza-del-destino",
+        "verdi-la-forza-del-destino",
+        "leoncavallo-pagliacci",
+        "puccini-la-boheme",
+        "puccini-turandot",
         "tchaikovsky-symphony-no-4-in-f-minor"
       ]
     }
