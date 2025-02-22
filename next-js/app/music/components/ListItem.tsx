@@ -31,11 +31,12 @@ export function ListItem({
         </Link>
         {titleBadgeSlot && <span className="ml-2">{titleBadgeSlot}</span>}
       </div>
-
-      <p className="text-preset-2 text-muted">
-        <span>{stats.join(" • ")}</span>
-        <span className="ml-2">{statsBadgeSlot}</span>
-      </p>
+      {stats.length > 0 && (
+        <p className="text-preset-2 text-muted">
+          <span>{stats.join(" • ")}</span>
+          <span className="ml-2">{statsBadgeSlot}</span>
+        </p>
+      )}
     </div>
   );
 }
