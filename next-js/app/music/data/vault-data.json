@@ -600,6 +600,19 @@
       "bucketList": false
     },
     {
+      "slug": "brahms-string-quartet-no-2-in-a-minor",
+      "type": "work",
+      "path": "Works/Brahms - String Quartet No. 2 in A Minor.md",
+      "title": "Brahms - String Quartet No. 2 in A Minor",
+      "content": "",
+      "frontmatter": {
+        "composer": "Brahms, Johannes",
+        "catalogue": "51"
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
       "slug": "brahms-symphony-no-1-in-c-minor",
       "type": "work",
       "path": "Works/Brahms - Symphony No. 1 in C Minor.md",
@@ -1052,6 +1065,19 @@
       "frontmatter": {
         "composer": "Dvorak, Antonin",
         "catalogue": "96"
+      },
+      "concertCount": 1,
+      "bucketList": false
+    },
+    {
+      "slug": "dvorak-string-quintet-no-3-in-e-flat-major",
+      "type": "work",
+      "path": "Works/Dvorak - String Quintet No. 3 in E Flat Major.md",
+      "title": "Dvorak - String Quintet No. 3 in E Flat Major",
+      "content": "",
+      "frontmatter": {
+        "composer": "Dvorak, Antonin",
+        "catalogue": "97"
       },
       "concertCount": 1,
       "bucketList": false
@@ -1966,7 +1992,7 @@
         "composer": "Mendelssohn, Felix",
         "catalogue": ""
       },
-      "concertCount": 1,
+      "concertCount": 2,
       "bucketList": false
     },
     {
@@ -2502,7 +2528,7 @@
         "composer": "Ravel, Maurice",
         "catalogue": ""
       },
-      "concertCount": 1,
+      "concertCount": 2,
       "bucketList": false
     },
     {
@@ -6082,7 +6108,7 @@
                 "composer": "Mendelssohn, Felix",
                 "catalogue": ""
               },
-              "concertCount": 1,
+              "concertCount": 2,
               "bucketList": false
             }
           },
@@ -8739,7 +8765,7 @@
                 "composer": "Ravel, Maurice",
                 "catalogue": ""
               },
-              "concertCount": 1,
+              "concertCount": 2,
               "bucketList": false
             },
             "movements": [
@@ -8886,6 +8912,163 @@
               "concertCount": 1,
               "bucketList": false
             }
+          }
+        ]
+      }
+    },
+    {
+      "slug": "201803191900",
+      "type": "concert",
+      "path": "Concerts/2018/201803191900 Concert - Bantam Studios.md",
+      "title": "201803191900 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2018-03-19T19:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Brahms - String Quartet No. 2 in A Minor"
+        ],
+        "conductor": [
+          "Caleigh Drane"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "ShapeShifter Lab",
+        "season": "2018-2019",
+        "programDetails": [
+          {
+            "work": {
+              "slug": "brahms-string-quartet-no-2-in-a-minor",
+              "type": "work",
+              "path": "Works/Brahms - String Quartet No. 2 in A Minor.md",
+              "title": "Brahms - String Quartet No. 2 in A Minor",
+              "content": "",
+              "frontmatter": {
+                "composer": "Brahms, Johannes",
+                "catalogue": "51"
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "I. Allegro non troops"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "201806241500",
+      "type": "concert",
+      "path": "Concerts/2018/201806241500 Concert - Bantam Studios.md",
+      "title": "201806241500 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2018-06-24T15:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Mendelssohn - Sinfonia No. 10 in B Minor"
+        ],
+        "conductor": [
+          "Caleigh Drane"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Littlefield",
+        "season": "2018-2019",
+        "programDetails": [
+          {
+            "work": {
+              "slug": "mendelssohn-sinfonia-no-10-in-b-minor",
+              "type": "work",
+              "path": "Works/Mendelssohn - Sinfonia No. 10 in B Minor.md",
+              "title": "Mendelssohn - Sinfonia No. 10 in B Minor",
+              "content": "",
+              "frontmatter": {
+                "composer": "Mendelssohn, Felix",
+                "catalogue": ""
+              },
+              "concertCount": 2,
+              "bucketList": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slug": "201809201900",
+      "type": "concert",
+      "path": "Concerts/2018/201809201900 Concert - Bantam Studios.md",
+      "title": "201809201900 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2018-09-20T19:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Dvorak - String Quintet No. 3 in E Flat Major"
+        ],
+        "conductor": [
+          "Caleigh Drane"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Littlefield",
+        "season": "2018-2019",
+        "programDetails": [
+          {
+            "work": {
+              "slug": "dvorak-string-quintet-no-3-in-e-flat-major",
+              "type": "work",
+              "path": "Works/Dvorak - String Quintet No. 3 in E Flat Major.md",
+              "title": "Dvorak - String Quintet No. 3 in E Flat Major",
+              "content": "",
+              "frontmatter": {
+                "composer": "Dvorak, Antonin",
+                "catalogue": "97"
+              },
+              "concertCount": 1,
+              "bucketList": false
+            },
+            "movements": [
+              "I. Allegro non tanto"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "201812091500",
+      "type": "concert",
+      "path": "Concerts/2018/201812091500 Concert - Bantam Studios.md",
+      "title": "201812091500 Concert - Bantam Studios",
+      "content": "",
+      "frontmatter": {
+        "date": "2018-12-09T15:00:00.000Z",
+        "group": "Bantam Studios",
+        "works": [
+          "Ravel - String Quartet in F Major"
+        ],
+        "conductor": [
+          "Caleigh Drane"
+        ],
+        "spotifyPlaylistUrl": null,
+        "venue": "Littlefield",
+        "season": "2018-2019",
+        "programDetails": [
+          {
+            "work": {
+              "slug": "ravel-string-quartet-in-f-major",
+              "type": "work",
+              "path": "Works/Ravel - String Quartet in F Major.md",
+              "title": "Ravel - String Quartet in F Major",
+              "content": "## Movements\n1. Allegro moderato – très doux\n2. Assez vif – très rythmé\n3. Très lent\n4. Vif et agité",
+              "frontmatter": {
+                "composer": "Ravel, Maurice",
+                "catalogue": ""
+              },
+              "concertCount": 2,
+              "bucketList": false
+            },
+            "movements": [
+              "II. Assez vif – très rythmé"
+            ]
           }
         ]
       }
@@ -14537,7 +14720,7 @@
       "title": "Brahms, Johannes",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 17
+      "concertCount": 18
     },
     {
       "slug": "bridge-frank",
@@ -14681,7 +14864,7 @@
       "title": "Dvorak, Antonin",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 14
+      "concertCount": 15
     },
     {
       "slug": "elgar-edward",
@@ -15059,7 +15242,7 @@
       "title": "Mendelssohn, Felix",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 4
+      "concertCount": 5
     },
     {
       "slug": "moncayo-jose-pablo",
@@ -15185,7 +15368,7 @@
       "title": "Ravel, Maurice",
       "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
       "frontmatter": {},
-      "concertCount": 1
+      "concertCount": 2
     },
     {
       "slug": "reinecke-carl",
@@ -15631,6 +15814,15 @@
       "concertCount": 1
     },
     {
+      "slug": "caleigh-drane",
+      "type": "conductor",
+      "path": "Conductors/Caleigh Drane.md",
+      "title": "Caleigh Drane",
+      "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+      "frontmatter": {},
+      "concertCount": 4
+    },
+    {
       "slug": "christian-olson",
       "type": "conductor",
       "path": "Conductors/Christian Olson.md",
@@ -15881,7 +16073,7 @@
         "slug": "bantam",
         "url": "https://www.bantam-studios.com"
       },
-      "concertCount": 3
+      "concertCount": 7
     },
     {
       "slug": "boise-phil",
@@ -16310,7 +16502,7 @@
         "coordinates": "40.67872855633899, -73.9831076571556",
         "url": "https://littlefieldnyc.com"
       },
-      "concertCount": 2
+      "concertCount": 5
     },
     {
       "slug": "mckenzie-theatre-eastern-oregon-university",
@@ -16405,6 +16597,17 @@
       "frontmatter": {
         "coordinates": "31.21349732388623, 121.45416340720176",
         "url": ""
+      },
+      "concertCount": 1
+    },
+    {
+      "slug": "shapeshifter-lab",
+      "type": "venue",
+      "path": "Venues/ShapeShifter Lab.md",
+      "title": "ShapeShifter Lab",
+      "content": "",
+      "frontmatter": {
+        "coordinates": "40.67509718942131, -73.97601842879419"
       },
       "concertCount": 1
     },
@@ -16867,6 +17070,10 @@
       "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
       "frontmatter": {},
       "concertSlugs": [
+        "201803191900",
+        "201806241500",
+        "201809201900",
+        "201812091500",
         "201812122000",
         "201902202000",
         "201903241900",
@@ -16876,6 +17083,10 @@
         "201906291500"
       ],
       "workSlugs": [
+        "brahms-string-quartet-no-2-in-a-minor",
+        "mendelssohn-sinfonia-no-10-in-b-minor",
+        "dvorak-string-quintet-no-3-in-e-flat-major",
+        "ravel-string-quartet-in-f-major",
         "brahms-variations-on-a-theme-by-haydn",
         "dvorak-symphony-no-8-in-g-major",
         "nielsen-flute-concerto",
