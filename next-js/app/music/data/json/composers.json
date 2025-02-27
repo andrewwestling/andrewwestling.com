@@ -1,0 +1,1235 @@
+[
+  {
+    "slug": "adams-john",
+    "type": "composer",
+    "path": "Composers/Adams, John.md",
+    "title": "Adams, John",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "anderson-leroy",
+    "type": "composer",
+    "path": "Composers/Anderson, Leroy.md",
+    "title": "Anderson, Leroy",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 8
+  },
+  {
+    "slug": "avshalomov-jacob",
+    "type": "composer",
+    "path": "Composers/Avshalomov, Jacob.md",
+    "title": "Avshalomov, Jacob",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "bach-carl-philipp-emanuel",
+    "type": "composer",
+    "path": "Composers/Bach, Carl Philipp Emanuel.md",
+    "title": "Bach, Carl Philipp Emanuel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "bach-johann-sebastian",
+    "type": "composer",
+    "path": "Composers/Bach, Johann Sebastian.md",
+    "title": "Bach, Johann Sebastian",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "badelt-klaus",
+    "type": "composer",
+    "path": "Composers/Badelt, Klaus.md",
+    "title": "Badelt, Klaus",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "barber-samuel",
+    "type": "composer",
+    "path": "Composers/Barber, Samuel.md",
+    "title": "Barber, Samuel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 10
+  },
+  {
+    "slug": "barry-john",
+    "type": "composer",
+    "path": "Composers/Barry, John.md",
+    "title": "Barry, John",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "bartok-bela",
+    "type": "composer",
+    "path": "Composers/Bartok, Bela.md",
+    "title": "Bartok, Bela",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "basulto-alejandro",
+    "type": "composer",
+    "path": "Composers/Basulto, Alejandro.md",
+    "title": "Basulto, Alejandro",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "beach-amy",
+    "type": "composer",
+    "path": "Composers/Beach, Amy.md",
+    "title": "Beach, Amy",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "beethoven-ludwig-van",
+    "type": "composer",
+    "path": "Composers/Beethoven, Ludwig van.md",
+    "title": "Beethoven, Ludwig van",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 19
+  },
+  {
+    "slug": "berko-alex",
+    "type": "composer",
+    "path": "Composers/Berko, Alex.md",
+    "title": "Berko, Alex",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "berlin-irving",
+    "type": "composer",
+    "path": "Composers/Berlin, Irving.md",
+    "title": "Berlin, Irving",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "berlioz-hector",
+    "type": "composer",
+    "path": "Composers/Berlioz, Hector.md",
+    "title": "Berlioz, Hector",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "bernstein-leonard",
+    "type": "composer",
+    "path": "Composers/Bernstein, Leonard.md",
+    "title": "Bernstein, Leonard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "bizet-georges",
+    "type": "composer",
+    "path": "Composers/Bizet, Georges.md",
+    "title": "Bizet, Georges",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 6
+  },
+  {
+    "slug": "bloch-ernest",
+    "type": "composer",
+    "path": "Composers/Bloch, Ernest.md",
+    "title": "Bloch, Ernest",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "bock-jerry",
+    "type": "composer",
+    "path": "Composers/Bock, Jerry.md",
+    "title": "Bock, Jerry",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "borzoni-clint",
+    "type": "composer",
+    "path": "Composers/Borzoni, Clint.md",
+    "title": "Borzoni, Clint",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "brahms-johannes",
+    "type": "composer",
+    "path": "Composers/Brahms, Johannes.md",
+    "title": "Brahms, Johannes",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 18
+  },
+  {
+    "slug": "bridge-frank",
+    "type": "composer",
+    "path": "Composers/Bridge, Frank.md",
+    "title": "Bridge, Frank",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "britten-benjamin",
+    "type": "composer",
+    "path": "Composers/Britten, Benjamin.md",
+    "title": "Britten, Benjamin",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "bruch-max",
+    "type": "composer",
+    "path": "Composers/Bruch, Max.md",
+    "title": "Bruch, Max",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "chabrier-emmanuel",
+    "type": "composer",
+    "path": "Composers/Chabrier, Emmanuel.md",
+    "title": "Chabrier, Emmanuel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "chausson-ernest",
+    "type": "composer",
+    "path": "Composers/Chausson, Ernest.md",
+    "title": "Chausson, Ernest",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "chavez-carlos",
+    "type": "composer",
+    "path": "Composers/Chavez, Carlos.md",
+    "title": "Chavez, Carlos",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "chevalier-de-saint-georges-joseph-bologne",
+    "type": "composer",
+    "path": "Composers/Chevalier de Saint-Georges, Joseph Bologne.md",
+    "title": "Chevalier de Saint-Georges, Joseph Bologne",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "coates-eric",
+    "type": "composer",
+    "path": "Composers/Coates, Eric.md",
+    "title": "Coates, Eric",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "coleman-valerie",
+    "type": "composer",
+    "path": "Composers/Coleman, Valerie.md",
+    "title": "Coleman, Valerie",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "coleridge-taylor-samuel",
+    "type": "composer",
+    "path": "Composers/Coleridge-Taylor, Samuel.md",
+    "title": "Coleridge-Taylor, Samuel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "copland-aaron",
+    "type": "composer",
+    "path": "Composers/Copland, Aaron.md",
+    "title": "Copland, Aaron",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 10
+  },
+  {
+    "slug": "corelli-arcangelo",
+    "type": "composer",
+    "path": "Composers/Corelli, Arcangelo.md",
+    "title": "Corelli, Arcangelo",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "cowell-henry",
+    "type": "composer",
+    "path": "Composers/Cowell, Henry.md",
+    "title": "Cowell, Henry",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 4
+  },
+  {
+    "slug": "debussy-claude",
+    "type": "composer",
+    "path": "Composers/Debussy, Claude.md",
+    "title": "Debussy, Claude",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "delius-frederick",
+    "type": "composer",
+    "path": "Composers/Delius, Frederick.md",
+    "title": "Delius, Frederick",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "dvorak-antonin",
+    "type": "composer",
+    "path": "Composers/Dvorak, Antonin.md",
+    "title": "Dvorak, Antonin",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 15
+  },
+  {
+    "slug": "elgar-edward",
+    "type": "composer",
+    "path": "Composers/Elgar, Edward.md",
+    "title": "Elgar, Edward",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 9
+  },
+  {
+    "slug": "ellington-duke",
+    "type": "composer",
+    "path": "Composers/Ellington, Duke.md",
+    "title": "Ellington, Duke",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "enescu-george",
+    "type": "composer",
+    "path": "Composers/Enescu, George.md",
+    "title": "Enescu, George",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "faure-gabriel",
+    "type": "composer",
+    "path": "Composers/Faure, Gabriel.md",
+    "title": "Faure, Gabriel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "frucht-paul",
+    "type": "composer",
+    "path": "Composers/Frucht, Paul.md",
+    "title": "Frucht, Paul",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "fucik-julius",
+    "type": "composer",
+    "path": "Composers/Fucik, Julius.md",
+    "title": "Fucik, Julius",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "gershwin-george",
+    "type": "composer",
+    "path": "Composers/Gershwin, George.md",
+    "title": "Gershwin, George",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "ginastera-alberto",
+    "type": "composer",
+    "path": "Composers/Ginastera, Alberto.md",
+    "title": "Ginastera, Alberto",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "giordano-umberto",
+    "type": "composer",
+    "path": "Composers/Giordano, Umberto.md",
+    "title": "Giordano, Umberto",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "glass-philip",
+    "type": "composer",
+    "path": "Composers/Glass, Philip.md",
+    "title": "Glass, Philip",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "glazunov-alexander",
+    "type": "composer",
+    "path": "Composers/Glazunov, Alexander.md",
+    "title": "Glazunov, Alexander",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "gliere-reinhold",
+    "type": "composer",
+    "path": "Composers/Gliere, Reinhold.md",
+    "title": "Gliere, Reinhold",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "glinka-mikhail",
+    "type": "composer",
+    "path": "Composers/Glinka, Mikhail.md",
+    "title": "Glinka, Mikhail",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "grainger-percy",
+    "type": "composer",
+    "path": "Composers/Grainger, Percy.md",
+    "title": "Grainger, Percy",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "grieg-edvard",
+    "type": "composer",
+    "path": "Composers/Grieg, Edvard.md",
+    "title": "Grieg, Edvard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "griffes-charles",
+    "type": "composer",
+    "path": "Composers/Griffes, Charles.md",
+    "title": "Griffes, Charles",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "hanson-howard",
+    "type": "composer",
+    "path": "Composers/Hanson, Howard.md",
+    "title": "Hanson, Howard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "haydn-joseph",
+    "type": "composer",
+    "path": "Composers/Haydn, Joseph.md",
+    "title": "Haydn, Joseph",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 7
+  },
+  {
+    "slug": "herrmann-bernard",
+    "type": "composer",
+    "path": "Composers/Herrmann, Bernard.md",
+    "title": "Herrmann, Bernard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "higdon-jennifer",
+    "type": "composer",
+    "path": "Composers/Higdon, Jennifer.md",
+    "title": "Higdon, Jennifer",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "hindemith-paul",
+    "type": "composer",
+    "path": "Composers/Hindemith, Paul.md",
+    "title": "Hindemith, Paul",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "holst-gustav",
+    "type": "composer",
+    "path": "Composers/Holst, Gustav.md",
+    "title": "Holst, Gustav",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "humperdinck-engelbert",
+    "type": "composer",
+    "path": "Composers/Humperdinck, Engelbert.md",
+    "title": "Humperdinck, Engelbert",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "ibert-jacques",
+    "type": "composer",
+    "path": "Composers/Ibert, Jacques.md",
+    "title": "Ibert, Jacques",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "ives-charles",
+    "type": "composer",
+    "path": "Composers/Ives, Charles.md",
+    "title": "Ives, Charles",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "janacek-leos",
+    "type": "composer",
+    "path": "Composers/Janacek, Leos.md",
+    "title": "Janacek, Leos",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "khachaturian-aram",
+    "type": "composer",
+    "path": "Composers/Khachaturian, Aram.md",
+    "title": "Khachaturian, Aram",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "kodaly-zoltan",
+    "type": "composer",
+    "path": "Composers/Kodaly, Zoltan.md",
+    "title": "Kodaly, Zoltan",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "krommer-franz",
+    "type": "composer",
+    "path": "Composers/Krommer, Franz.md",
+    "title": "Krommer, Franz",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "lecuona-ernesto",
+    "type": "composer",
+    "path": "Composers/Lecuona, Ernesto.md",
+    "title": "Lecuona, Ernesto",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "leoncavallo-ruggero",
+    "type": "composer",
+    "path": "Composers/Leoncavallo, Ruggero.md",
+    "title": "Leoncavallo, Ruggero",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "leshnoff-jonathan",
+    "type": "composer",
+    "path": "Composers/Leshnoff, Jonathan.md",
+    "title": "Leshnoff, Jonathan",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "leyden-norman",
+    "type": "composer",
+    "path": "Composers/Leyden, Norman.md",
+    "title": "Leyden, Norman",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "liszt-franz",
+    "type": "composer",
+    "path": "Composers/Liszt, Franz.md",
+    "title": "Liszt, Franz",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "lully-jean-baptiste",
+    "type": "composer",
+    "path": "Composers/Lully, Jean-Baptiste.md",
+    "title": "Lully, Jean-Baptiste",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "lutoslawski-witold",
+    "type": "composer",
+    "path": "Composers/Lutoslawski, Witold.md",
+    "title": "Lutoslawski, Witold",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "mahler-gustav",
+    "type": "composer",
+    "path": "Composers/Mahler, Gustav.md",
+    "title": "Mahler, Gustav",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "mancini-henry",
+    "type": "composer",
+    "path": "Composers/Mancini, Henry.md",
+    "title": "Mancini, Henry",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "marquez-arturo",
+    "type": "composer",
+    "path": "Composers/Marquez, Arturo.md",
+    "title": "Marquez, Arturo",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "mascagni-pietro",
+    "type": "composer",
+    "path": "Composers/Mascagni, Pietro.md",
+    "title": "Mascagni, Pietro",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "mazzoli-missy",
+    "type": "composer",
+    "path": "Composers/Mazzoli, Missy.md",
+    "title": "Mazzoli, Missy",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "mendelssohn-felix",
+    "type": "composer",
+    "path": "Composers/Mendelssohn, Felix.md",
+    "title": "Mendelssohn, Felix",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "moncayo-jose-pablo",
+    "type": "composer",
+    "path": "Composers/Moncayo, Jose Pablo.md",
+    "title": "Moncayo, Jose Pablo",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "montgomery-jessie",
+    "type": "composer",
+    "path": "Composers/Montgomery, Jessie.md",
+    "title": "Montgomery, Jessie",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "mozart-leopold",
+    "type": "composer",
+    "path": "Composers/Mozart, Leopold.md",
+    "title": "Mozart, Leopold",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "mozart-wolfgang-amadeus",
+    "type": "composer",
+    "path": "Composers/Mozart, Wolfgang Amadeus.md",
+    "title": "Mozart, Wolfgang Amadeus",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 19
+  },
+  {
+    "slug": "mussorgsky-modest",
+    "type": "composer",
+    "path": "Composers/Mussorgsky, Modest.md",
+    "title": "Mussorgsky, Modest",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "nielsen-carl",
+    "type": "composer",
+    "path": "Composers/Nielsen, Carl.md",
+    "title": "Nielsen, Carl",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "offenbach-jacques",
+    "type": "composer",
+    "path": "Composers/Offenbach, Jacques.md",
+    "title": "Offenbach, Jacques",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "paganini-niccolo",
+    "type": "composer",
+    "path": "Composers/Paganini, Niccolo.md",
+    "title": "Paganini, Niccolo",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "pergolesi-giovanni-battista",
+    "type": "composer",
+    "path": "Composers/Pergolesi, Giovanni Battista.md",
+    "title": "Pergolesi, Giovanni Battista",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "price-florence",
+    "type": "composer",
+    "path": "Composers/Price, Florence.md",
+    "title": "Price, Florence",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "prokofiev-sergei",
+    "type": "composer",
+    "path": "Composers/Prokofiev, Sergei.md",
+    "title": "Prokofiev, Sergei",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "puccini-giacomo",
+    "type": "composer",
+    "path": "Composers/Puccini, Giacomo.md",
+    "title": "Puccini, Giacomo",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "rachmaninoff-sergei",
+    "type": "composer",
+    "path": "Composers/Rachmaninoff, Sergei.md",
+    "title": "Rachmaninoff, Sergei",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "ravel-maurice",
+    "type": "composer",
+    "path": "Composers/Ravel, Maurice.md",
+    "title": "Ravel, Maurice",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "reinecke-carl",
+    "type": "composer",
+    "path": "Composers/Reinecke, Carl.md",
+    "title": "Reinecke, Carl",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "respighi-ottorino",
+    "type": "composer",
+    "path": "Composers/Respighi, Ottorino.md",
+    "title": "Respighi, Ottorino",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "richter-max",
+    "type": "composer",
+    "path": "Composers/Richter, Max.md",
+    "title": "Richter, Max",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "rimsky-korsakov-nikolai",
+    "type": "composer",
+    "path": "Composers/Rimsky-Korsakov, Nikolai.md",
+    "title": "Rimsky-Korsakov, Nikolai",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 4
+  },
+  {
+    "slug": "rogers-richard",
+    "type": "composer",
+    "path": "Composers/Rogers, Richard.md",
+    "title": "Rogers, Richard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "rogerson-chris",
+    "type": "composer",
+    "path": "Composers/Rogerson, Chris.md",
+    "title": "Rogerson, Chris",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "rosauro-ney",
+    "type": "composer",
+    "path": "Composers/Rosauro, Ney.md",
+    "title": "Rosauro, Ney",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "rossini-gioachino",
+    "type": "composer",
+    "path": "Composers/Rossini, Gioachino.md",
+    "title": "Rossini, Gioachino",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 10
+  },
+  {
+    "slug": "roussel-albert",
+    "type": "composer",
+    "path": "Composers/Roussel, Albert.md",
+    "title": "Roussel, Albert",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "rubenstein-anton",
+    "type": "composer",
+    "path": "Composers/Rubenstein, Anton.md",
+    "title": "Rubenstein, Anton",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "saint-saens-camille",
+    "type": "composer",
+    "path": "Composers/Saint-Saens, Camille.md",
+    "title": "Saint-Saens, Camille",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "sankey-stuart",
+    "type": "composer",
+    "path": "Composers/Sankey, Stuart.md",
+    "title": "Sankey, Stuart",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "schumann-robert",
+    "type": "composer",
+    "path": "Composers/Schumann, Robert.md",
+    "title": "Schumann, Robert",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "shchedrin-rodion",
+    "type": "composer",
+    "path": "Composers/Shchedrin, Rodion.md",
+    "title": "Shchedrin, Rodion",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "shepherd-sean",
+    "type": "composer",
+    "path": "Composers/Shepherd, Sean.md",
+    "title": "Shepherd, Sean",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "shostakovich-dmitri",
+    "type": "composer",
+    "path": "Composers/Shostakovich, Dmitri.md",
+    "title": "Shostakovich, Dmitri",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 4
+  },
+  {
+    "slug": "sibelius-jean",
+    "type": "composer",
+    "path": "Composers/Sibelius, Jean.md",
+    "title": "Sibelius, Jean",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 16
+  },
+  {
+    "slug": "silvestri-alan",
+    "type": "composer",
+    "path": "Composers/Silvestri, Alan.md",
+    "title": "Silvestri, Alan",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "smetana-bedrich",
+    "type": "composer",
+    "path": "Composers/Smetana, Bedrich.md",
+    "title": "Smetana, Bedrich",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "sousa-john-philip",
+    "type": "composer",
+    "path": "Composers/Sousa, John Philip.md",
+    "title": "Sousa, John Philip",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "still-william-grant",
+    "type": "composer",
+    "path": "Composers/Still, William Grant.md",
+    "title": "Still, William Grant",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "strauss-johann",
+    "type": "composer",
+    "path": "Composers/Strauss, Johann.md",
+    "title": "Strauss, Johann",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 7
+  },
+  {
+    "slug": "strauss-josef",
+    "type": "composer",
+    "path": "Composers/Strauss, Josef.md",
+    "title": "Strauss, Josef",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "strauss-richard",
+    "type": "composer",
+    "path": "Composers/Strauss, Richard.md",
+    "title": "Strauss, Richard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "stravinsky-igor",
+    "type": "composer",
+    "path": "Composers/Stravinsky, Igor.md",
+    "title": "Stravinsky, Igor",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "tchaikovsky-piotr-ilyich",
+    "type": "composer",
+    "path": "Composers/Tchaikovsky, Piotr Ilyich.md",
+    "title": "Tchaikovsky, Piotr Ilyich",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 24
+  },
+  {
+    "slug": "theofanidis-christopher",
+    "type": "composer",
+    "path": "Composers/Theofanidis, Christopher.md",
+    "title": "Theofanidis, Christopher",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "vaughan-williams-ralph",
+    "type": "composer",
+    "path": "Composers/Vaughan Williams, Ralph.md",
+    "title": "Vaughan Williams, Ralph",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 6
+  },
+  {
+    "slug": "verdi-giuseppe",
+    "type": "composer",
+    "path": "Composers/Verdi, Giuseppe.md",
+    "title": "Verdi, Giuseppe",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 6
+  },
+  {
+    "slug": "villoldo-angel",
+    "type": "composer",
+    "path": "Composers/Villoldo, Angel.md",
+    "title": "Villoldo, Angel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "vivaldi-antonio",
+    "type": "composer",
+    "path": "Composers/Vivaldi, Antonio.md",
+    "title": "Vivaldi, Antonio",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 2
+  },
+  {
+    "slug": "wagner-richard",
+    "type": "composer",
+    "path": "Composers/Wagner, Richard.md",
+    "title": "Wagner, Richard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 3
+  },
+  {
+    "slug": "waldteufel-emile",
+    "type": "composer",
+    "path": "Composers/Waldteufel, Emile.md",
+    "title": "Waldteufel, Emile",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "weber-andrew-lloyd",
+    "type": "composer",
+    "path": "Composers/Weber, Andrew Lloyd.md",
+    "title": "Weber, Andrew Lloyd",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "webern-anton",
+    "type": "composer",
+    "path": "Composers/Webern, Anton.md",
+    "title": "Webern, Anton",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "white-richard",
+    "type": "composer",
+    "path": "Composers/White, Richard.md",
+    "title": "White, Richard",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "williams-john",
+    "type": "composer",
+    "path": "Composers/Williams, John.md",
+    "title": "Williams, John",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 5
+  },
+  {
+    "slug": "wolf-ferrari-ermanno",
+    "type": "composer",
+    "path": "Composers/Wolf-Ferrari, Ermanno.md",
+    "title": "Wolf-Ferrari, Ermanno",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "yarmolinsky-benjamin",
+    "type": "composer",
+    "path": "Composers/Yarmolinsky, Benjamin.md",
+    "title": "Yarmolinsky, Benjamin",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "zaerr-laura",
+    "type": "composer",
+    "path": "Composers/Zaerr, Laura.md",
+    "title": "Zaerr, Laura",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "zimmer-hans",
+    "type": "composer",
+    "path": "Composers/Zimmer, Hans.md",
+    "title": "Zimmer, Hans",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "de-falla-manuel",
+    "type": "composer",
+    "path": "Composers/de Falla, Manuel.md",
+    "title": "de Falla, Manuel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
+  },
+  {
+    "slug": "von-suppe-franz",
+    "type": "composer",
+    "path": "Composers/von Suppe, Franz.md",
+    "title": "von Suppe, Franz",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "von-weber-carl-maria",
+    "type": "composer",
+    "path": "Composers/von Weber, Carl Maria.md",
+    "title": "von Weber, Carl Maria",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  }
+]
