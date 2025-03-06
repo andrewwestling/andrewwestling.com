@@ -1,6 +1,6 @@
 import * as fs from "fs/promises";
 import * as path from "path";
-import { Venue, LocationData } from "@music/data/types";
+import type { Venue, LocationData } from "@music/data/types";
 import database from "@music/data/database";
 
 // NYC County to Borough mapping

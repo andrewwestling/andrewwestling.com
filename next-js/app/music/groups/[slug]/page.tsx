@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDateForSorting } from "@music/lib/helpers";
-import { PageProps } from "@music/data/types";
+import type { PageProps } from "@music/data/types";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";

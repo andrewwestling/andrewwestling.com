@@ -1,5 +1,5 @@
 import database from "@music/data/database";
-import { Work } from "@music/data/types";
+import type { Work } from "@music/data/types";
 
 export function getWorks() {
   return database.work;

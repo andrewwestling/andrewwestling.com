@@ -1,4 +1,4 @@
-import { Concert, Work, Season } from "@music/data/types";
+import type { Concert, Work, Season } from "@music/data/types";
 import { getConductorByTitle } from "@music/data/queries/conductors";
 import { getSeasons } from "@music/data/queries/seasons";
 import { getVenueByTitle } from "@music/data/queries/venues";

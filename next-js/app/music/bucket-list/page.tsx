@@ -8,7 +8,7 @@ import {
 } from "@music/data/queries/works";
 import { getComposerByTitle } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";
-import { Work } from "@music/data/types";
+import type { Work } from "@music/data/types";
 
 export const metadata: Metadata = {
   title: "Bucket List",

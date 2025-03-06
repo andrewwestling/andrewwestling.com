@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { PageProps } from "@music/data/types";
+import type { PageProps } from "@music/data/types";
 import { notFound } from "next/navigation";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getLocationsForVenues } from "@music/lib/location";

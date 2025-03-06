@@ -7,7 +7,7 @@ import {
   isUpcoming,
 } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
-import { Concert } from "@music/data/types";
+import type { Concert } from "@music/data/types";
 import { getLocationFromCoordinates } from "@music/lib/location";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { getVenueByTitle } from "@music/data/queries/venues";

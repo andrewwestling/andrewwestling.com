@@ -1,5 +1,5 @@
 import database from "@music/data/database";
-import { Group } from "@music/data/types";
+import type { Group } from "@music/data/types";
 
 export function getGroups() {
   return database.group;

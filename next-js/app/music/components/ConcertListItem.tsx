@@ -1,7 +1,7 @@
 import { ConcertBadges } from "./ConcertBadges";
 import { formatConcertTitle, formatDate } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
-import { Concert } from "@music/data/types";
+import type { Concert } from "@music/data/types";
 import { getGroupByTitle } from "@music/data/queries/groups";
 import { ListItem } from "@music/components/ListItem";
 
