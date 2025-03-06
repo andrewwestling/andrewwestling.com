@@ -10,10 +10,10 @@ import {
   getNextConcert,
   getPreviousConcert,
 } from "@music/lib/helpers";
-import { PageProps } from "@music/lib/types";
+import { PageProps } from "@music/data/types";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
-import type { Work } from "@music/lib/types";
+import type { Work } from "@music/data/types";
 import { ListItem } from "@music/components/ListItem";
 import { getConcertBySlug } from "@music/data/queries/concerts";
 import { getGroupByTitle } from "@music/data/queries/groups";

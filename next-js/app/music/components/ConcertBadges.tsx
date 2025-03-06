@@ -1,8 +1,8 @@
-import { DidNotPlay } from "./DidNotPlay";
-import { Upcoming } from "./Upcoming";
-import { HappeningNow } from "./HappeningNow";
+import { DidNotPlay } from "@music/components/DidNotPlay";
+import { Upcoming } from "@music/components/Upcoming";
+import { HappeningNow } from "@music/components/HappeningNow";
 import { isUpcoming, isHappeningNow } from "@music/lib/helpers";
-import { Concert } from "@music/lib/types";
+import { Concert } from "@music/data/types";
 
 interface ConcertBadgesProps {
   concert: Concert;

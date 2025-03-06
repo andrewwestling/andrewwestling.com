@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
-import { formatWorkTitle, formatComposerName } from "../lib/helpers";
+import { formatWorkTitle, formatComposerName } from "@music/lib/helpers";
 import { getWorks } from "@music/data/queries/works";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getComposerBySlug, getComposers } from "@music/data/queries/composers";

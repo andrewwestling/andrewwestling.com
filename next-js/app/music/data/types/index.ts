@@ -111,8 +111,19 @@ export interface Database {
   orderedBucketList: string[];
 }
 
-export type VaultObject = BaseItem;
-
 export interface LocationData {
   [coordinates: string]: string | null;
 }
+
+export type VaultObject = BaseItem;
+
+export type VaultObjectType =
+  | "concert"
+  | "composer"
+  | "conductor"
+  | "group"
+  | "rehearsal"
+  | "sheet-music"
+  | "venue"
+  | "work"
+  | "season";

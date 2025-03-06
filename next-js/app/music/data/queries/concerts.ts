@@ -1,5 +1,4 @@
-import database from "../database";
-import { Concert } from "@music/lib/types";
+import database from "@music/data/database";
 import {
   getDateFromFrontmatter,
   isUpcoming,

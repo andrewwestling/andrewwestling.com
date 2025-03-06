@@ -1,4 +1,5 @@
-import {
+import type {
+  BaseItem,
   Concert,
   Work,
   Group,
@@ -6,9 +7,8 @@ import {
   Composer,
   Venue,
   Season,
-  BaseItem,
   LocationData,
-} from "@music/lib/types";
+} from "./index";
 
 export interface Database {
   concert: Concert[];

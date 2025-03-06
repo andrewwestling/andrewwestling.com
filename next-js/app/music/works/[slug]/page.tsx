@@ -1,18 +1,18 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { PageProps } from "@music/lib/types";
+import { PageProps } from "@music/data/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { EmptyState } from "@/app/components/EmptyState";
+import { EmptyState } from "@components/EmptyState";
 import {
   getDateForSorting,
   formatWorkTitle,
   formatComposerName,
-} from "../../lib/helpers";
-import { BucketList } from "../../components/BucketList";
+} from "@music/lib/helpers";
+import { BucketList } from "@music/components/BucketList";
 import { getWorkBySlug } from "@music/data/queries/works";
 import { getComposerByTitle } from "@music/data/queries/composers";
 import { getConcertsByWork } from "@music/data/queries/concerts";

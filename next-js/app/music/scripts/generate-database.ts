@@ -9,7 +9,7 @@ import {
   Concert,
   Season,
   ConcertWork,
-} from "../lib/types";
+} from "@music/data/types";
 
 // Helper to convert strings to URL-friendly slugs
 function slugify(text: string): string {

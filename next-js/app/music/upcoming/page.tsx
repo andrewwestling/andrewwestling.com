@@ -3,9 +3,9 @@ import { getUpcomingConcerts } from "@music/data/queries/concerts";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { ConcertInfo } from "@music/components/ConcertInfo";
 import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";
-import { SectionHeading } from "../components/SectionHeading";
-import { CalendarUrlCopy } from "../components/CalendarUrlCopy";
-import { PageTitle } from "../components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
+import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
+import { PageTitle } from "@music/components/PageTitle";
 
 // Make this page dynamic so it will stay up-to-date as concerts happen
 export const dynamic = "force-dynamic";

@@ -1,5 +1,5 @@
-import database from "../database";
-import { Conductor } from "@music/lib/types";
+import database from "@music/data/database";
+import { Conductor } from "@music/data/types";
 
 export function getConductors() {
   return database.conductor;

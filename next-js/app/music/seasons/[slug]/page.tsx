@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { PageProps } from "@music/lib/types";
+import { PageProps } from "@music/data/types";
 import { routes } from "@music/lib/routes";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import {
@@ -8,15 +8,15 @@ import {
   formatWorkTitle,
   getNextSeason,
   getPreviousSeason,
-} from "../../lib/helpers";
-import { ListItem } from "../../components/ListItem";
+} from "@music/lib/helpers";
+import { ListItem } from "@music/components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { EmptyState } from "@/app/components/EmptyState";
+import { EmptyState } from "@components/EmptyState";
 import { getSeasonBySlug } from "@music/data/queries/seasons";
 import { getConcertsBySeason } from "@music/data/queries/concerts";
 import { getWorksBySeason } from "@music/data/queries/works";
-import { BucketList } from "../../components/BucketList";
+import { BucketList } from "@music/components/BucketList";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {

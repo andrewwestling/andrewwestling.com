@@ -1,5 +1,5 @@
-import { ButtonLink } from "@/app/components/Button";
-import { Concert } from "@music/lib/types";
+import { ButtonLink } from "@components/Button";
+import { Concert } from "@music/data/types";
 import { isUpcoming } from "@music/lib/helpers";
 
 interface AttendActionsProps {

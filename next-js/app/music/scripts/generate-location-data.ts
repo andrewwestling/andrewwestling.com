@@ -5,8 +5,8 @@ import {
   getLocationFromCoordinates,
   readLocationCache,
   writeLocationCache,
-} from "../lib/location";
-import { LocationData } from "../lib/types";
+} from "@music/lib/location";
+import { LocationData } from "@music/data/types";
 
 async function generateLocationData({ vaultPath }: { vaultPath: string }) {
   console.log("Generating location data...");

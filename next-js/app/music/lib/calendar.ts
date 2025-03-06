@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 import { createEvents, DateArray, EventAttributes } from "ics";
-import { Concert } from "@music/lib/types";
+import { Concert } from "@music/data/types";
 import {
   formatConcertTitle,
   getSiteUrl,
