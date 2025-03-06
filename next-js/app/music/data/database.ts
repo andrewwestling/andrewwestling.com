@@ -1,4 +1,4 @@
-import { Database } from "./types/database";
+import { Database } from "@music/data/types";
 
 // Import all JSON files
 import composer from "./json/composers.json";

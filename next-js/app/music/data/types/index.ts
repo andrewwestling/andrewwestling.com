@@ -106,9 +106,10 @@ export interface Database {
   composer: Composer[];
   venue: Venue[];
   rehearsal: BaseItem[];
-  "sheet-music": BaseItem[];
+  sheetMusic: BaseItem[];
   season: Season[];
   orderedBucketList: string[];
+  locations: LocationData;
 }
 
 export interface LocationData {
