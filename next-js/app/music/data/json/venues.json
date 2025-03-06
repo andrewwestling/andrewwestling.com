@@ -1,0 +1,457 @@
+[
+  {
+    "slug": "all-saints-church",
+    "type": "venue",
+    "path": "Venues/All Saints Church.md",
+    "title": "All Saints Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.761709219548486, -73.96460402266095",
+      "url": "https://www.allsaintsnyc.org"
+    },
+    "concertCount": 6
+  },
+  {
+    "slug": "arlene-schnitzer-concert-hall",
+    "type": "venue",
+    "path": "Venues/Arlene Schnitzer Concert Hall.md",
+    "title": "Arlene Schnitzer Concert Hall",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.517072894870246, -122.68115749999998",
+      "url": "https://www.portland5.com/arlene-schnitzer-concert-hall"
+    },
+    "concertCount": 17
+  },
+  {
+    "slug": "auditorio-silvestre-revueltas-conservatorio-nacional-de-musica",
+    "type": "venue",
+    "path": "Venues/Auditorio Silvestre Revueltas, Conservatorio Nacional de Musica.md",
+    "title": "Auditorio Silvestre Revueltas, Conservatorio Nacional de Musica",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "19.432525565278027, -99.20735398458842",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=auditorio&table_id=937"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "bauman-auditorium-george-fox-university",
+    "type": "venue",
+    "path": "Venues/Bauman Auditorium, George Fox University.md",
+    "title": "Bauman Auditorium, George Fox University",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.30462166655435, -122.96811926242968",
+      "url": "https://www.georgefox.edu/maps_locations/bauman.html"
+    },
+    "concertCount": 8
+  },
+  {
+    "slug": "beall-concert-hall-university-of-oregon",
+    "type": "venue",
+    "path": "Venues/Beall Concert Hall, University of Oregon.md",
+    "title": "Beall Concert Hall, University of Oregon",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "44.04060627229427, -123.07840933069025",
+      "url": "https://musicanddance.uoregon.edu/about/facilities"
+    },
+    "concertCount": 5
+  },
+  {
+    "slug": "beijing-theater",
+    "type": "venue",
+    "path": "Venues/Beijing Theater (北京剧院).md",
+    "title": "Beijing Theater (北京剧院)",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "39.991084718726924, 116.40858158067547",
+      "url": ""
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "broadway-presbyterian-church",
+    "type": "venue",
+    "path": "Venues/Broadway Presbyterian Church.md",
+    "title": "Broadway Presbyterian Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.80704919393662, -73.96516734879553",
+      "url": "https://www.bpcnyc.org"
+    },
+    "concertCount": 2
+  },
+  {
+    "slug": "brooklyn-museum",
+    "type": "venue",
+    "path": "Venues/Brooklyn Museum.md",
+    "title": "Brooklyn Museum",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.671303786389714, -73.96339456115611",
+      "url": "https://www.brooklynmuseum.org"
+    },
+    "concertCount": 18
+  },
+  {
+    "slug": "castillo-de-chapultepec",
+    "type": "venue",
+    "path": "Venues/Castillo de Chapultepec.md",
+    "title": "Castillo de Chapultepec",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "19.420571204225357, -99.18201010038972",
+      "url": "https://mnh.inah.gob.mx"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "church-of-the-holy-apostles",
+    "type": "venue",
+    "path": "Venues/Church of the Holy Apostles.md",
+    "title": "Church of the Holy Apostles",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.74940177287778, -73.99852036440322",
+      "url": "https://holyapostlesnyc.org"
+    },
+    "concertCount": 3
+  },
+  {
+    "slug": "clark-commons-marylhurst-university",
+    "type": "venue",
+    "path": "Venues/Clark Commons, Marylhurst University.md",
+    "title": "Clark Commons, Marylhurst University",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.39835683034107, -122.64673799078516",
+      "url": "https://en.wikipedia.org/wiki/Marylhurst_University"
+    },
+    "concertCount": 3
+  },
+  {
+    "slug": "concert-grove-pavilion-prospect-park",
+    "type": "venue",
+    "path": "Venues/Concert Grove Pavilion, Prospect Park.md",
+    "title": "Concert Grove Pavilion, Prospect Park",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.659367878012375, -73.96422698510285",
+      "url": "https://en.wikipedia.org/wiki/Concert_Grove"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "evans-music-center-lewis-clark-college",
+    "type": "venue",
+    "path": "Venues/Evans Music Center, Lewis & Clark College.md",
+    "title": "Evans Music Center, Lewis & Clark College",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.45248411008053, -122.66864477897795",
+      "url": "https://college.lclark.edu/departments/music/facilities/"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "good-shepherd-faith-presbyterian-church",
+    "type": "venue",
+    "path": "Venues/Good Shepherd-Faith Presbyterian Church.md",
+    "title": "Good Shepherd-Faith Presbyterian Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.77445657027036, -73.98372227861884",
+      "url": "https://www.goodshepherdfaith.com/"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "high-school-of-fashion-industries",
+    "type": "venue",
+    "path": "Venues/High School of Fashion Industries.md",
+    "title": "High School of Fashion Industries",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.74559725687072, -73.99604441594519",
+      "url": "https://www.hsfi.nyc"
+    },
+    "concertCount": 10
+  },
+  {
+    "slug": "jackson-middle-school",
+    "type": "venue",
+    "path": "Venues/Jackson Middle School.md",
+    "title": "Jackson Middle School",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.448689955180505, -122.71360324942084",
+      "url": "https://www.pps.net/jackson"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "littlefield",
+    "type": "venue",
+    "path": "Venues/Littlefield.md",
+    "title": "Littlefield",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.67872855633899, -73.9831076571556",
+      "url": "https://littlefieldnyc.com"
+    },
+    "concertCount": 5
+  },
+  {
+    "slug": "mckenzie-theatre-eastern-oregon-university",
+    "type": "venue",
+    "path": "Venues/McKenzie Theatre, Eastern Oregon University.md",
+    "title": "McKenzie Theatre, Eastern Oregon University",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.32051556483223, -118.09320710230182",
+      "url": "https://www.eou.edu/events/mckenzie-theater/"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "morrison-center",
+    "type": "venue",
+    "path": "Venues/Morrison Center.md",
+    "title": "Morrison Center",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "43.60691693461088, -116.20706762492217",
+      "url": "https://www.morrisoncenter.com"
+    },
+    "concertCount": 2
+  },
+  {
+    "slug": "newmark-theater",
+    "type": "venue",
+    "path": "Venues/Newmark Theater.md",
+    "title": "Newmark Theater",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.516857648496625, -122.68150947113757",
+      "url": "https://www.portland5.com/newmark-theatre"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "red-star-theater",
+    "type": "venue",
+    "path": "Venues/Red Star Theater (杭州紅星刷院).md",
+    "title": "Red Star Theater (杭州紅星刷院)",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "30.243735445014266, 120.17894065111561",
+      "url": ""
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "roulette",
+    "type": "venue",
+    "path": "Venues/Roulette.md",
+    "title": "Roulette",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.68569005483316, -73.98039798665222",
+      "url": "https://roulette.org"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "saint-david-of-wales-episcopal-church",
+    "type": "venue",
+    "path": "Venues/Saint David of Wales Episcopal Church.md",
+    "title": "Saint David of Wales Episcopal Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.50846606803152, -122.63764701336046",
+      "url": "https://www.saintdavidpdx.org"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "saint-john-s-in-the-village",
+    "type": "venue",
+    "path": "Venues/Saint John's in the Village.md",
+    "title": "Saint John's in the Village",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.7364142786547, -74.00207533777161",
+      "url": "https://www.stjvny.org"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "shanghai-conservatory-of-music",
+    "type": "venue",
+    "path": "Venues/Shanghai Conservatory of Music (上海⾳乐学院).md",
+    "title": "Shanghai Conservatory of Music (上海⾳乐学院)",
+    "content": "He Luting Concert Hall (贺绿汀音乐厅)",
+    "frontmatter": {
+      "coordinates": "31.21349732388623, 121.45416340720176",
+      "url": ""
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "shapeshifter-lab",
+    "type": "venue",
+    "path": "Venues/ShapeShifter Lab.md",
+    "title": "ShapeShifter Lab",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.67509718942131, -73.97601842879419"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "silva-concert-hall-hult-center",
+    "type": "venue",
+    "path": "Venues/Silva Concert Hall, Hult Center.md",
+    "title": "Silva Concert Hall, Hult Center",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "44.05285480588158, -123.09271755915717",
+      "url": "https://hultcenter.org/plan-your-visit/our-facilities/"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "skyview-high-school",
+    "type": "venue",
+    "path": "Venues/Skyview High School.md",
+    "title": "Skyview High School",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.722832119149544, -122.68392150958293",
+      "url": "https://skyview.vansd.org"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "southridge-high-school",
+    "type": "venue",
+    "path": "Venues/Southridge High School.md",
+    "title": "Southridge High School",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.450139669019684, -122.80699579999842",
+      "url": "https://southridge.beaverton.k12.or.us"
+    },
+    "concertCount": 3
+  },
+  {
+    "slug": "st-ann-and-the-holy-trinity-church",
+    "type": "venue",
+    "path": "Venues/St. Ann and the Holy Trinity Church.md",
+    "title": "St. Ann and the Holy Trinity Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.69792476267189, -73.98781909687445",
+      "url": "https://www.stannholytrinity.org"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "st-anne-s-chapel-marylhurst-university",
+    "type": "venue",
+    "path": "Venues/St. Anne's Chapel, Marylhurst University.md",
+    "title": "St. Anne's Chapel, Marylhurst University",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.397953754252335, -122.64965667390351",
+      "url": "https://en.wikipedia.org/wiki/Marylhurst_University"
+    },
+    "concertCount": 3
+  },
+  {
+    "slug": "taylor-meade-performing-arts-center-pacific-university",
+    "type": "venue",
+    "path": "Venues/Taylor-Meade Performing Arts Center, Pacific University.md",
+    "title": "Taylor-Meade Performing Arts Center, Pacific University",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.52051710358494, -123.1076340082254",
+      "url": "https://www.pacificu.edu/music-department/facilities"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "the-dimenna-center-for-classical-music",
+    "type": "venue",
+    "path": "Venues/The DiMenna Center for Classical Music.md",
+    "title": "The DiMenna Center for Classical Music",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.756322473257136, -73.99656469813138",
+      "url": "https://dimennacenter.org"
+    },
+    "concertCount": 0
+  },
+  {
+    "slug": "thomas-jefferson-middle-school",
+    "type": "venue",
+    "path": "Venues/Thomas Jefferson Middle School.md",
+    "title": "Thomas Jefferson Middle School",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "45.708004809619325, -122.70189573900964",
+      "url": "https://jefferson.vansd.org"
+    },
+    "concertCount": 2
+  },
+  {
+    "slug": "tishman-auditorium-the-new-school",
+    "type": "venue",
+    "path": "Venues/Tishman Auditorium, The New School.md",
+    "title": "Tishman Auditorium, The New School",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.73555460149865, -73.99321600608772",
+      "url": "https://www.newschool.edu/buildings/venue-descriptions/"
+    },
+    "concertCount": 4
+  },
+  {
+    "slug": "walla-walla-university-church",
+    "type": "venue",
+    "path": "Venues/Walla Walla University Church.md",
+    "title": "Walla Walla University Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "46.04636312959967, -118.39156213795651",
+      "url": "https://www.wwuchurch.com"
+    },
+    "concertCount": 1
+  },
+  {
+    "slug": "washington-irving-high-school",
+    "type": "venue",
+    "path": "Venues/Washington Irving High School.md",
+    "title": "Washington Irving High School",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.73562193587602, -73.98689945662588",
+      "url": "https://en.wikipedia.org/wiki/Washington_Irving_Campus"
+    },
+    "concertCount": 3
+  },
+  {
+    "slug": "xincheng-theatre",
+    "type": "venue",
+    "path": "Venues/Xincheng Theatre (西安新城剧场).md",
+    "title": "Xincheng Theatre (西安新城剧场)",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "34.26364694250108, 108.9531390282412",
+      "url": ""
+    },
+    "concertCount": 1
+  }
+]

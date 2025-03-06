@@ -1,12 +1,8 @@
 import * as fs from "fs/promises";
 import * as path from "path";
-import { Venue, LocationData } from "./types";
 
-// Location cache file path
-const LOCATION_CACHE_PATH = path.join(
-  process.cwd(),
-  "app/music/data/location-data.json"
-);
+import database from "@music/data/database";
+import type { Venue, LocationData } from "@music/data/types";
 
 // NYC County to Borough mapping
 const NYC_COUNTIES: Record<string, string> = {
@@ -22,15 +18,10 @@ let lastCallTime = 0;
 const RATE_LIMIT_MS = 1000; // 1 second
 
 /**
- * Read the location cache from file
+ * Read the location cache from the database
  */
 export async function readLocationCache(): Promise<LocationData> {
-  try {
-    const data = await fs.readFile(LOCATION_CACHE_PATH, "utf-8");
-    return JSON.parse(data);
-  } catch (error) {
-    return {};
-  }
+  return database.locations;
 }
 
 /**
@@ -45,8 +36,12 @@ export async function writeLocationCache(
   // Merge new cache with existing cache
   const mergedCache = { ...existingCache, ...newCache };
 
-  // Write the merged cache
-  await fs.writeFile(LOCATION_CACHE_PATH, JSON.stringify(mergedCache, null, 2));
+  // Write the merged cache to the json directory
+  const outputPath = path.resolve(
+    process.cwd(),
+    "app/music/data/json/locations.json"
+  );
+  await fs.writeFile(outputPath, JSON.stringify(mergedCache, null, 2));
 }
 
 /**

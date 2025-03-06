@@ -1,8 +1,9 @@
 import { Metadata } from "next";
+
+import { IndexPage } from "@music/components/IndexPage";
+import { getVenues } from "@music/data/queries";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
-import { IndexPage } from "@music/components/IndexPage";
-import { getVenues } from "@music/data/queries/venues";
 
 export const metadata: Metadata = {
   title: "Venues",

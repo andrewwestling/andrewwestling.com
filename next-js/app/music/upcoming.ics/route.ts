@@ -1,6 +1,6 @@
-import { getConcertsBySeason } from "@music/data/queries/concerts";
+import { getConcertsBySeason } from "@music/data/queries";
 import { concertToEvent, generateCalendarResponse } from "@music/lib/calendar";
-import { getCurrentSeasonSlug } from "../lib/helpers";
+import { getCurrentSeasonSlug } from "@music/lib/helpers";
 
 export async function GET() {
   const currentSeasonSlug = getCurrentSeasonSlug();

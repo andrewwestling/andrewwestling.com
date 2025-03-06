@@ -1,15 +1,15 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { PageProps } from "@music/lib/types";
-import { routes } from "@music/lib/routes";
-import { formatWorkTitle, formatComposerName } from "../../lib/helpers";
-import { ListItem } from "../../components/ListItem";
+
+import { EmptyState } from "@components/EmptyState";
+import { BucketList } from "@music/components/BucketList";
+import { ListItem } from "@music/components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { EmptyState } from "@/app/components/EmptyState";
-import { getComposerBySlug } from "@music/data/queries/composers";
-import { getWorksByComposer } from "@music/data/queries/works";
-import { BucketList } from "../../components/BucketList";
+import { getComposerBySlug, getWorksByComposer } from "@music/data/queries";
+import type { PageProps } from "@music/data/types";
+import { formatWorkTitle, formatComposerName } from "@music/lib/helpers";
+import { routes } from "@music/lib/routes";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

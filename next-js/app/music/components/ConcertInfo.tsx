@@ -1,17 +1,19 @@
 import Link from "next/link";
-import { ConcertBadges } from "./ConcertBadges";
+
+import { AttendActions } from "@music/components/AttendActions";
+import { getGroupByTitle, getVenueByTitle } from "@music/data/queries";
+import type { Concert } from "@music/data/types";
 import {
   formatConcertTitle,
   formatDate,
   findConductorSlug,
   isUpcoming,
 } from "@music/lib/helpers";
-import { routes } from "@music/lib/routes";
-import { Concert } from "@music/lib/types";
 import { getLocationFromCoordinates } from "@music/lib/location";
-import { getGroupByTitle } from "@music/data/queries/groups";
-import { getVenueByTitle } from "@music/data/queries/venues";
-import { AttendActions } from "./AttendActions";
+import { routes } from "@music/lib/routes";
+
+import { ConcertBadges } from "./ConcertBadges";
+
 
 interface ConcertInfoProps {
   concert: Concert;

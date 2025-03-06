@@ -1,5 +1,6 @@
 "use client";
 
+import L from "leaflet";
 import { useEffect, useState } from "react";
 import {
   MapContainer,
@@ -9,7 +10,6 @@ import {
   ZoomControl,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import L from "leaflet";
 import "./styles.css";
 
 // Fix for default marker icons in react-leaflet

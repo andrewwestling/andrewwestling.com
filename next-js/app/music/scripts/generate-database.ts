@@ -1,15 +1,17 @@
-import * as fs from "fs/promises";
 import * as fsSync from "fs";
+import * as fs from "fs/promises";
 import * as path from "path";
+
 import matter from "gray-matter";
-import {
+
+import type {
   Database,
   VaultObject,
   Work,
   Concert,
   Season,
   ConcertWork,
-} from "../lib/types";
+} from "@music/data/types";
 
 // Helper to convert strings to URL-friendly slugs
 function slugify(text: string): string {
@@ -674,11 +676,55 @@ async function generateDatabase({
   processSeasons(database as unknown as Database);
   processBucketList(database as unknown as Database, vaultPath);
 
-  const outputPath = path.resolve(__dirname, "../data/vault-data.json");
-  await fs.mkdir(path.dirname(outputPath), { recursive: true });
-  await fs.writeFile(outputPath, JSON.stringify(database, null, 2));
+  // Create the output directory
+  const outputDir = path.resolve(__dirname, "../data/json");
+  await fs.mkdir(outputDir, { recursive: true });
 
-  console.log(`Database generated at ${outputPath}`);
+  // Write individual JSON files
+  const fileMap = {
+    concerts: database.concert,
+    works: database.work,
+    composers: database.composer,
+    conductors: database.conductor,
+    groups: database.group,
+    venues: database.venue,
+    rehearsals: database.rehearsal,
+    "sheet-music": database["sheet-music"],
+    seasons: database.season,
+    "bucket-list": database.orderedBucketList,
+  };
+
+  // Write each file
+  for (const [filename, data] of Object.entries(fileMap)) {
+    const filePath = path.join(outputDir, `${filename}.json`);
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2));
+  }
+
+  // Read and write location data
+  try {
+    const locationDataPath = path.resolve(
+      __dirname,
+      "../data/json/locations.json"
+    );
+    const locationData = await fs
+      .readFile(locationDataPath, "utf-8")
+      .catch(() => "{}");
+    const locations = JSON.parse(locationData);
+
+    // Write locations to the json directory
+    await fs.writeFile(
+      path.join(outputDir, "locations.json"),
+      JSON.stringify(locations, null, 2)
+    );
+  } catch (error) {
+    console.warn("Error processing locations, creating empty locations.json");
+    await fs.writeFile(
+      path.join(outputDir, "locations.json"),
+      JSON.stringify({}, null, 2)
+    );
+  }
+
+  console.log(`Database files generated in ${outputDir}`);
 }
 
 // Allow running from command line

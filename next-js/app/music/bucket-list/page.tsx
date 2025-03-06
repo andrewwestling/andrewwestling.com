@@ -1,14 +1,15 @@
 import { Metadata } from "next";
-import { routes } from "@music/lib/routes";
+
 import { IndexPage } from "@music/components/IndexPage";
-import { formatWorkTitle, formatComposerName } from "../lib/helpers";
 import {
   getOrderedBucketList,
   getWorkByTitle,
-} from "@music/data/queries/works";
-import { getComposerByTitle } from "@music/data/queries/composers";
-import { getConcertsByWork } from "@music/data/queries/concerts";
-import { Work } from "../lib/types";
+  getComposerByTitle,
+  getConcertsByWork,
+} from "@music/data/queries";
+import type { Work } from "@music/data/types";
+import { formatWorkTitle, formatComposerName } from "@music/lib/helpers";
+import { routes } from "@music/lib/routes";
 
 export const metadata: Metadata = {
   title: "Bucket List",

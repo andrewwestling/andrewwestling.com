@@ -1,5 +1,5 @@
-import database from "../database";
-import { Composer } from "@music/lib/types";
+import database from "@music/data/database";
+import type { Composer } from "@music/data/types";
 
 export function getComposers() {
   return database.composer;

@@ -1,13 +1,16 @@
-import { routes } from "./routes";
-import { formatDate } from "./helpers";
-import { getConcertBySlug } from "@music/data/queries/concerts";
-import { getWorkBySlug } from "@music/data/queries/works";
-import { getComposerBySlug } from "@music/data/queries/composers";
-import { getConductorBySlug } from "@music/data/queries/conductors";
-import { getGroupBySlug } from "@music/data/queries/groups";
-import { getVenueBySlug } from "@music/data/queries/venues";
-import { getSeasonBySlug } from "@music/data/queries/seasons";
 import type { Crumb } from "@breadcrumbs/default";
+import {
+  getConcertBySlug,
+  getWorkBySlug,
+  getComposerBySlug,
+  getConductorBySlug,
+  getGroupBySlug,
+  getVenueBySlug,
+  getSeasonBySlug,
+} from "@music/data/queries";
+
+import { formatDate } from "./helpers";
+import { routes } from "./routes";
 
 export function getMusicBreadcrumbs(segments: string[]): Crumb[] {
   const crumbs: Crumb[] = [{ label: "Music Library", href: routes.home() }];

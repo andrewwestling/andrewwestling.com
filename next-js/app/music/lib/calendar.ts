@@ -1,14 +1,15 @@
-import { DateTime } from "luxon";
+import { awdsColors } from "@andrewwestling/tailwind-config";
 import { createEvents, DateArray, EventAttributes } from "ics";
-import { Concert } from "@music/lib/types";
+import { DateTime } from "luxon";
+
+import { getVenueByTitle, getGroupByTitle } from "@music/data/queries";
+import type { Concert } from "@music/data/types";
 import {
   formatConcertTitle,
   getSiteUrl,
   getVenueTimeZone,
 } from "@music/lib/helpers";
-import { getVenueByTitle } from "@music/data/queries/venues";
-import { getGroupByTitle } from "@music/data/queries/groups";
-import { awdsColors } from "@andrewwestling/tailwind-config";
+
 
 const PRIMARY_COLOR = awdsColors.primary.DEFAULT;
 

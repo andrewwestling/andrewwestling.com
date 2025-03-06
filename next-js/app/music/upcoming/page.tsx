@@ -1,11 +1,12 @@
 import { Metadata } from "next";
-import { getUpcomingConcerts } from "@music/data/queries/concerts";
-import { ConcertListItem } from "@music/components/ConcertListItem";
+
+import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { ConcertInfo } from "@music/components/ConcertInfo";
+import { ConcertListItem } from "@music/components/ConcertListItem";
+import { PageTitle } from "@music/components/PageTitle";
+import { SectionHeading } from "@music/components/SectionHeading";
+import { getUpcomingConcerts } from "@music/data/queries";
 import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";
-import { SectionHeading } from "../components/SectionHeading";
-import { CalendarUrlCopy } from "../components/CalendarUrlCopy";
-import { PageTitle } from "../components/PageTitle";
 
 // Make this page dynamic so it will stay up-to-date as concerts happen
 export const dynamic = "force-dynamic";

@@ -1,5 +1,5 @@
-import database from "../database";
-import { Season } from "@music/lib/types";
+import database from "@music/data/database";
+import type { Season } from "@music/data/types";
 import { getCurrentSeasonYear } from "@music/lib/helpers";
 
 export function getSeasons() {

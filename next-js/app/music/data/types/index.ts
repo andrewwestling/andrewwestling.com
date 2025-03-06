@@ -106,13 +106,25 @@ export interface Database {
   composer: Composer[];
   venue: Venue[];
   rehearsal: BaseItem[];
-  "sheet-music": BaseItem[];
+  sheetMusic: BaseItem[];
   season: Season[];
   orderedBucketList: string[];
+  locations: LocationData;
 }
-
-export type VaultObject = BaseItem;
 
 export interface LocationData {
   [coordinates: string]: string | null;
 }
+
+export type VaultObject = BaseItem;
+
+export type VaultObjectType =
+  | "concert"
+  | "composer"
+  | "conductor"
+  | "group"
+  | "rehearsal"
+  | "sheet-music"
+  | "venue"
+  | "work"
+  | "season";

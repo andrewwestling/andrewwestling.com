@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { HomeIcon } from "./HomeIcon";
-import { Crumb } from "../@breadcrumbs/default";
 import { Fragment, useRef, useEffect, useState } from "react";
+
+import { Crumb } from "../@breadcrumbs/default";
+
+import { HomeIcon } from "./HomeIcon";
 
 const NavigationContainer = ({ children }: { children: React.ReactNode }) => (
   <nav className="flex items-center w-full relative">{children}</nav>

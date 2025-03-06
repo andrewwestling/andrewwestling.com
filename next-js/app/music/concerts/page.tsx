@@ -1,16 +1,21 @@
 import { Metadata } from "next";
+
+import { ConcertBadges } from "@music/components/ConcertBadges";
+import { IndexPage } from "@music/components/IndexPage";
+import {
+  getConcerts,
+  getGroupBySlug,
+  getGroupByTitle,
+  getSeasonBySlug,
+  getCurrentSeason,
+  getConductorBySlug,
+} from "@music/data/queries";
 import {
   formatConcertTitle,
   formatDate,
   getDateForSorting,
 } from "@music/lib/helpers";
-import { getConcerts } from "@music/data/queries/concerts";
-import { getGroupBySlug, getGroupByTitle } from "@music/data/queries/groups";
-import { getSeasonBySlug, getCurrentSeason } from "@music/data/queries/seasons";
-import { getConductorBySlug } from "@music/data/queries/conductors";
-import { IndexPage } from "../components/IndexPage";
-import { routes } from "../lib/routes";
-import { ConcertBadges } from "../components/ConcertBadges";
+import { routes } from "@music/lib/routes";
 
 export const metadata: Metadata = {
   title: "Concerts",

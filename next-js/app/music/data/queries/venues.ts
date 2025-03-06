@@ -1,5 +1,5 @@
-import database from "../database";
-import { Venue } from "@music/lib/types";
+import database from "@music/data/database";
+import type { Venue } from "@music/data/types";
 
 export function getVenues() {
   return database.venue;

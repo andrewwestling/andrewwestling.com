@@ -1,7 +1,8 @@
 import { Metadata } from "next";
-import { routes } from "./lib/routes";
-import { PageTitle } from "./components/PageTitle";
-import { ButtonLink } from "../components/Button";
+
+import { ButtonLink } from "@components/Button";
+import { PageTitle } from "@music/components/PageTitle";
+import { routes } from "@music/lib/routes";
 
 export const metadata: Metadata = {
   title: "Music Library",

@@ -1,16 +1,20 @@
 import { Metadata } from "next";
-import { PageProps } from "@music/lib/types";
 import { notFound } from "next/navigation";
-import { ConcertListItem } from "@music/components/ConcertListItem";
-import { getLocationsForVenues } from "../../lib/location";
-import { getDateForSorting } from "../../lib/helpers";
+
 import { ExternalLink } from "@components/ExternalLink";
+import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import VenueMap from "@music/components/VenueMap";
-import { getVenueBySlug, getVenues } from "@music/data/queries/venues";
-import { getConcertsByVenue } from "@music/data/queries/concerts";
-import type { Venue } from "@music/lib/types";
+import {
+  getVenueBySlug,
+  getVenues,
+  getConcertsByVenue,
+} from "@music/data/queries";
+import type { PageProps } from "@music/data/types";
+import type { Venue } from "@music/data/types";
+import { getDateForSorting } from "@music/lib/helpers";
+import { getLocationsForVenues } from "@music/lib/location";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

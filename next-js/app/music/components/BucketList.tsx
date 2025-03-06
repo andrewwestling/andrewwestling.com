@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { routes } from "../lib/routes";
+
+import { routes } from "@music/lib/routes";
 
 export const BucketList = ({ played }: { played?: boolean }) => {
   return (

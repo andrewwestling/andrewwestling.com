@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getDateForSorting } from "@music/lib/helpers";
-import { PageProps } from "@music/lib/types";
-import { ConcertListItem } from "@music/components/ConcertListItem";
+
 import { ExternalLink } from "@components/ExternalLink";
+import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { getGroupBySlug } from "@music/data/queries/groups";
-import { getConcertsByGroup } from "@music/data/queries/concerts";
+import { getGroupBySlug, getConcertsByGroup } from "@music/data/queries";
+import type { PageProps } from "@music/data/types";
+import { getDateForSorting } from "@music/lib/helpers";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
