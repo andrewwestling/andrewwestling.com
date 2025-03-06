@@ -8,8 +8,11 @@ import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import VenueMap from "@music/components/VenueMap";
-import { getVenueBySlug, getVenues } from "@music/data/queries/venues";
-import { getConcertsByVenue } from "@music/data/queries/concerts";
+import {
+  getVenueBySlug,
+  getVenues,
+  getConcertsByVenue,
+} from "@music/data/queries";
 import type { Venue } from "@music/data/types";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {

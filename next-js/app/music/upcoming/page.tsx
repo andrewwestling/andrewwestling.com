@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { getUpcomingConcerts } from "@music/data/queries/concerts";
+import { getUpcomingConcerts } from "@music/data/queries";
 import { ConcertListItem } from "@music/components/ConcertListItem";
 import { ConcertInfo } from "@music/components/ConcertInfo";
 import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";

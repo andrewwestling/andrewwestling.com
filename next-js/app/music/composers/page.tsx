@@ -1,9 +1,11 @@
 import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
-import { getComposers } from "@music/data/queries/composers";
-import { getWorksByComposer } from "@music/data/queries/works";
-import { getConcertsByWork } from "@music/data/queries/concerts";
+import {
+  getComposers,
+  getWorksByComposer,
+  getConcertsByWork,
+} from "@music/data/queries";
 
 export const metadata: Metadata = {
   title: "Composers",

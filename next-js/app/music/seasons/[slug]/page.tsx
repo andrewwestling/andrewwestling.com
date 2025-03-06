@@ -13,9 +13,11 @@ import { ListItem } from "@music/components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { EmptyState } from "@components/EmptyState";
-import { getSeasonBySlug } from "@music/data/queries/seasons";
-import { getConcertsBySeason } from "@music/data/queries/concerts";
-import { getWorksBySeason } from "@music/data/queries/works";
+import {
+  getSeasonBySlug,
+  getConcertsBySeason,
+  getWorksBySeason,
+} from "@music/data/queries";
 import { BucketList } from "@music/components/BucketList";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 

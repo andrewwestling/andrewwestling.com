@@ -6,8 +6,7 @@ import {
   getSiteUrl,
   getVenueTimeZone,
 } from "@music/lib/helpers";
-import { getVenueByTitle } from "@music/data/queries/venues";
-import { getGroupByTitle } from "@music/data/queries/groups";
+import { getVenueByTitle, getGroupByTitle } from "@music/data/queries";
 import { awdsColors } from "@andrewwestling/tailwind-config";
 
 const PRIMARY_COLOR = awdsColors.primary.DEFAULT;

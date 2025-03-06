@@ -1,4 +1,4 @@
-import { getConcertsBySeason } from "@music/data/queries/concerts";
+import { getConcertsBySeason } from "@music/data/queries";
 import { concertToEvent, generateCalendarResponse } from "@music/lib/calendar";
 import { getCurrentSeasonSlug } from "@music/lib/helpers";
 

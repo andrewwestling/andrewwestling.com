@@ -2,16 +2,21 @@ import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
 import type { FilterFacetId } from "@music/components/Filters";
-import { getConcerts } from "@music/data/queries/concerts";
-import { getGroups, getGroupBySlug } from "@music/data/queries/groups";
-import { getSeasons, getSeasonBySlug } from "@music/data/queries/seasons";
 import {
+  getConcerts,
+  getGroups,
+  getGroupBySlug,
+  getSeasons,
+  getSeasonBySlug,
   getConductors,
   getConductorBySlug,
-} from "@music/data/queries/conductors";
-import { getVenues, getVenueBySlug } from "@music/data/queries/venues";
-import { getComposers, getComposerBySlug } from "@music/data/queries/composers";
-import { getWorks, getWorksByComposer } from "@music/data/queries/works";
+  getVenues,
+  getVenueBySlug,
+  getComposers,
+  getComposerBySlug,
+  getWorks,
+  getWorksByComposer,
+} from "@music/data/queries";
 
 export function useFilters({
   facets = ["group", "season", "conductor", "venue", "composer"],

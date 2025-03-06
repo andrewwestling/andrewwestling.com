@@ -5,9 +5,9 @@ import { formatWorkTitle, formatComposerName } from "@music/lib/helpers";
 import {
   getOrderedBucketList,
   getWorkByTitle,
-} from "@music/data/queries/works";
-import { getComposerByTitle } from "@music/data/queries/composers";
-import { getConcertsByWork } from "@music/data/queries/concerts";
+  getComposerByTitle,
+  getConcertsByWork,
+} from "@music/data/queries";
 import type { Work } from "@music/data/types";
 
 export const metadata: Metadata = {

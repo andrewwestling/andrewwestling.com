@@ -1,8 +1,10 @@
 import type { Concert, Work, Season } from "@music/data/types";
-import { getConductorByTitle } from "@music/data/queries/conductors";
-import { getSeasons } from "@music/data/queries/seasons";
-import { getVenueByTitle } from "@music/data/queries/venues";
-import { getConcerts } from "@music/data/queries/concerts";
+import {
+  getConductorByTitle,
+  getSeasons,
+  getVenueByTitle,
+  getConcerts,
+} from "@music/data/queries";
 import { DateTime } from "luxon";
 import tzlookup from "tz-lookup";
 

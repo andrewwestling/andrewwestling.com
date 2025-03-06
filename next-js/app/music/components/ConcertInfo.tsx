@@ -9,8 +9,7 @@ import {
 import { routes } from "@music/lib/routes";
 import type { Concert } from "@music/data/types";
 import { getLocationFromCoordinates } from "@music/lib/location";
-import { getGroupByTitle } from "@music/data/queries/groups";
-import { getVenueByTitle } from "@music/data/queries/venues";
+import { getGroupByTitle, getVenueByTitle } from "@music/data/queries";
 import { AttendActions } from "@music/components/AttendActions";
 
 interface ConcertInfoProps {

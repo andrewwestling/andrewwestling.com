@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { routes } from "@music/lib/routes";
 import { IndexPage } from "@music/components/IndexPage";
-import { getConductors } from "@music/data/queries/conductors";
+import { getConductors } from "@music/data/queries";
 
 export const metadata: Metadata = {
   title: "Conductors",

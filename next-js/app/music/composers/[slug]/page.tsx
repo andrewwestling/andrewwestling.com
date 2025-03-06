@@ -7,8 +7,7 @@ import { ListItem } from "@music/components/ListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { EmptyState } from "@components/EmptyState";
-import { getComposerBySlug } from "@music/data/queries/composers";
-import { getWorksByComposer } from "@music/data/queries/works";
+import { getComposerBySlug, getWorksByComposer } from "@music/data/queries";
 import { BucketList } from "@music/components/BucketList";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {

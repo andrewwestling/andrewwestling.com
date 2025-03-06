@@ -15,10 +15,12 @@ import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 import type { Work } from "@music/data/types";
 import { ListItem } from "@music/components/ListItem";
-import { getConcertBySlug } from "@music/data/queries/concerts";
-import { getGroupByTitle } from "@music/data/queries/groups";
-import { getWorkByTitle } from "@music/data/queries/works";
-import { getVenueByTitle } from "@music/data/queries/venues";
+import {
+  getConcertBySlug,
+  getGroupByTitle,
+  getWorkByTitle,
+  getVenueByTitle,
+} from "@music/data/queries";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { BucketList } from "@music/components/BucketList";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";

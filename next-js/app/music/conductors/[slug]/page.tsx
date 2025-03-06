@@ -5,8 +5,10 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import { getDateForSorting } from "@music/lib/helpers";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { getConductorBySlug } from "@music/data/queries/conductors";
-import { getConcertsByConductor } from "@music/data/queries/concerts";
+import {
+  getConductorBySlug,
+  getConcertsByConductor,
+} from "@music/data/queries";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

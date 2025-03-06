@@ -13,9 +13,11 @@ import {
   formatComposerName,
 } from "@music/lib/helpers";
 import { BucketList } from "@music/components/BucketList";
-import { getWorkBySlug } from "@music/data/queries/works";
-import { getComposerByTitle } from "@music/data/queries/composers";
-import { getConcertsByWork } from "@music/data/queries/concerts";
+import {
+  getWorkBySlug,
+  getComposerByTitle,
+  getConcertsByWork,
+} from "@music/data/queries";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

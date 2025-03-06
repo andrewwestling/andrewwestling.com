@@ -6,8 +6,7 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import { ExternalLink } from "@components/ExternalLink";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
-import { getGroupBySlug } from "@music/data/queries/groups";
-import { getConcertsByGroup } from "@music/data/queries/concerts";
+import { getGroupBySlug, getConcertsByGroup } from "@music/data/queries";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
