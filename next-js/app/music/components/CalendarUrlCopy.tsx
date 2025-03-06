@@ -1,7 +1,8 @@
 "use client";
 
-import { Button } from "@components/Button";
 import { useState, useEffect, useRef } from "react";
+
+import { Button } from "@components/Button";
 
 export function CalendarUrlCopy({ calendarUrl }: { calendarUrl: string }) {
   const [copied, setCopied] = useState(false);

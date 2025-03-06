@@ -1,7 +1,9 @@
-import * as fs from "fs/promises";
 import * as fsSync from "fs";
+import * as fs from "fs/promises";
 import * as path from "path";
+
 import matter from "gray-matter";
+
 import type {
   Database,
   VaultObject,

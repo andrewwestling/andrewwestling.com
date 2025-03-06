@@ -1,9 +1,7 @@
 import { Metadata } from "next";
-import {
-  formatConcertTitle,
-  formatDate,
-  getDateForSorting,
-} from "@music/lib/helpers";
+
+import { ConcertBadges } from "@music/components/ConcertBadges";
+import { IndexPage } from "@music/components/IndexPage";
 import {
   getConcerts,
   getGroupBySlug,
@@ -12,9 +10,12 @@ import {
   getCurrentSeason,
   getConductorBySlug,
 } from "@music/data/queries";
-import { IndexPage } from "@music/components/IndexPage";
+import {
+  formatConcertTitle,
+  formatDate,
+  getDateForSorting,
+} from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
-import { ConcertBadges } from "@music/components/ConcertBadges";
 
 export const metadata: Metadata = {
   title: "Concerts",

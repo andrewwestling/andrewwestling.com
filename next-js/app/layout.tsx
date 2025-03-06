@@ -1,10 +1,12 @@
+import { awdsColors } from "@andrewwestling/tailwind-config";
 import { Metadata, Viewport } from "next";
 import { Suspense } from "react";
+
 import { Footer } from "@components/Footer";
-import { Header } from "@components/Header";
 import { GoatCounter } from "@components/GoatCounter";
+import { Header } from "@components/Header";
+
 import "./globals.css";
-import { awdsColors } from "@andrewwestling/tailwind-config";
 
 export const viewport: Viewport = {
   width: "device-width",

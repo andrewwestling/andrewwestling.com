@@ -1,7 +1,7 @@
 import { Metadata } from "next";
-import { routes } from "@music/lib/routes";
+
+import { BucketList } from "@music/components/BucketList";
 import { IndexPage } from "@music/components/IndexPage";
-import { formatWorkTitle, formatComposerName } from "@music/lib/helpers";
 import {
   getWorks,
   getSeasonBySlug,
@@ -9,7 +9,8 @@ import {
   getComposers,
   getConcertsByWork,
 } from "@music/data/queries";
-import { BucketList } from "@music/components/BucketList";
+import { formatWorkTitle, formatComposerName } from "@music/lib/helpers";
+import { routes } from "@music/lib/routes";
 
 export const metadata: Metadata = {
   title: "Works",

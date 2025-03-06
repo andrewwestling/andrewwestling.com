@@ -1,10 +1,11 @@
 "use client";
 
 import { ListItem } from "@music/components/ListItem";
-import { Sort } from "./Sort";
 import { useSorting, SortType } from "@music/hooks/useSorting";
+
 import { Filters, FilterFacetId } from "./Filters";
 import { PageTitle } from "./PageTitle";
+import { Sort } from "./Sort";
 
 interface IndexPageProps {
   title: string;

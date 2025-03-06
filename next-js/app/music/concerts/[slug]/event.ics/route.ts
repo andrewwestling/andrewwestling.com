@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+
 import { getConcertBySlug } from "@music/data/queries";
 import { concertToEvent, generateCalendarResponse } from "@music/lib/calendar";
 

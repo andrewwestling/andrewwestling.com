@@ -1,6 +1,20 @@
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+
+import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
+import { BucketList } from "@music/components/BucketList";
+import { ConcertInfo } from "@music/components/ConcertInfo";
+import { ListItem } from "@music/components/ListItem";
+import { SectionHeading } from "@music/components/SectionHeading";
+import {
+  getConcertBySlug,
+  getGroupByTitle,
+  getWorkByTitle,
+  getVenueByTitle,
+} from "@music/data/queries";
+import type { PageProps } from "@music/data/types";
+import type { Work } from "@music/data/types";
 import {
   formatDate,
   findConductorSlug,
@@ -10,21 +24,8 @@ import {
   getNextConcert,
   getPreviousConcert,
 } from "@music/lib/helpers";
-import type { PageProps } from "@music/data/types";
 import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
-import type { Work } from "@music/data/types";
-import { ListItem } from "@music/components/ListItem";
-import {
-  getConcertBySlug,
-  getGroupByTitle,
-  getWorkByTitle,
-  getVenueByTitle,
-} from "@music/data/queries";
-import { SectionHeading } from "@music/components/SectionHeading";
-import { BucketList } from "@music/components/BucketList";
-import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
-import { ConcertInfo } from "@music/components/ConcertInfo";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

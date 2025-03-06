@@ -1,12 +1,14 @@
 import * as fs from "fs/promises";
 import * as path from "path";
+
 import matter from "gray-matter";
+
+import type { LocationData } from "@music/data/types";
 import {
   getLocationFromCoordinates,
   readLocationCache,
   writeLocationCache,
 } from "@music/lib/location";
-import type { LocationData } from "@music/data/types";
 
 async function generateLocationData({ vaultPath }: { vaultPath: string }) {
   console.log("Generating location data...");

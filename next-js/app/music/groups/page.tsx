@@ -1,7 +1,8 @@
 import { Metadata } from "next";
-import { routes } from "@music/lib/routes";
+
 import { IndexPage } from "@music/components/IndexPage";
 import { getGroups, getConcertsByGroup } from "@music/data/queries";
+import { routes } from "@music/lib/routes";
 
 export const metadata: Metadata = {
   title: "Groups",

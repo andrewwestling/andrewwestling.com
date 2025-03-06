@@ -1,5 +1,4 @@
-import { routes } from "./routes";
-import { formatDate } from "./helpers";
+import type { Crumb } from "@breadcrumbs/default";
 import {
   getConcertBySlug,
   getWorkBySlug,
@@ -9,7 +8,9 @@ import {
   getVenueBySlug,
   getSeasonBySlug,
 } from "@music/data/queries";
-import type { Crumb } from "@breadcrumbs/default";
+
+import { formatDate } from "./helpers";
+import { routes } from "./routes";
 
 export function getMusicBreadcrumbs(segments: string[]): Crumb[] {
   const crumbs: Crumb[] = [{ label: "Music Library", href: routes.home() }];

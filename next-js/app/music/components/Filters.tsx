@@ -2,6 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import Select, { StylesConfig } from "react-select";
+
 import { useFilters } from "@music/hooks/useFilters";
 
 export type FilterFacetId =

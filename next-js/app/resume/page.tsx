@@ -1,7 +1,10 @@
 import { Metadata } from "next";
-import { ResumeHtml } from "./components/ResumeHtml";
+
 import { ButtonLink } from "@components/Button";
+
 import resumeJson from "../../../resume/resume.json";
+
+import { ResumeHtml } from "./components/ResumeHtml";
 
 export const metadata: Metadata = {
   title: "Resume",

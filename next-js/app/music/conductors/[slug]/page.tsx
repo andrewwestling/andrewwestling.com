@@ -1,14 +1,15 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import type { PageProps } from "@music/data/types";
+
 import { ConcertListItem } from "@music/components/ConcertListItem";
-import { getDateForSorting } from "@music/lib/helpers";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import {
   getConductorBySlug,
   getConcertsByConductor,
 } from "@music/data/queries";
+import type { PageProps } from "@music/data/types";
+import { getDateForSorting } from "@music/lib/helpers";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;

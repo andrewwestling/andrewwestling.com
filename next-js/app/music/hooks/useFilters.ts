@@ -1,6 +1,6 @@
-import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
+import { useMemo } from "react";
+
 import type { FilterFacetId } from "@music/components/Filters";
 import {
   getConcerts,
@@ -17,6 +17,7 @@ import {
   getWorks,
   getWorksByComposer,
 } from "@music/data/queries";
+import { getCurrentSeasonSlug, resolveSeasonSlug } from "@music/lib/helpers";
 
 export function useFilters({
   facets = ["group", "season", "conductor", "venue", "composer"],

@@ -1,7 +1,8 @@
 import * as fs from "fs/promises";
 import * as path from "path";
-import type { Venue, LocationData } from "@music/data/types";
+
 import database from "@music/data/database";
+import type { Venue, LocationData } from "@music/data/types";
 
 // NYC County to Borough mapping
 const NYC_COUNTIES: Record<string, string> = {

@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+
 import { Filters } from "@music/components/Filters";
+
 import { VariantWrapper as Variant } from "./VariantWrapper";
 
 const DEFAULT_FILTERS: Record<string, string> = {

@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+
 import { Breadcrumbs } from "@components/Breadcrumbs";
 import { getMusicBreadcrumbs } from "@music/lib/breadcrumbs";
 import { getProjectsBreadcrumbs } from "@projects/breadcrumbs";

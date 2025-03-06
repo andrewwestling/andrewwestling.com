@@ -1,9 +1,10 @@
-import { ConcertBadges } from "./ConcertBadges";
+import { ListItem } from "@music/components/ListItem";
+import { getGroupByTitle } from "@music/data/queries";
+import type { Concert } from "@music/data/types";
 import { formatConcertTitle, formatDate } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
-import type { Concert } from "@music/data/types";
-import { getGroupByTitle } from "@music/data/queries";
-import { ListItem } from "@music/components/ListItem";
+
+import { ConcertBadges } from "./ConcertBadges";
 
 interface ConcertListItemProps {
   concert: Concert;
