@@ -27,6 +27,19 @@ export const metadata: Metadata = {
     apple: "/assets/favicon/apple-touch-icon.png",
   },
   manifest: "/assets/favicon/site.webmanifest",
+  openGraph: {
+    title: "andrewwestling.com",
+    description: "Andrew M Westling is a software engineer in New York City.",
+    type: "website",
+    siteName: "andrewwestling.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://andrewwestling.com",
+  },
 };
 
 export default function App({
