@@ -234,6 +234,19 @@
     "bucketList": false
   },
   {
+    "slug": "bartok-romanian-folk-dances",
+    "type": "work",
+    "path": "Works/Bartok - Romanian Folk Dances.md",
+    "title": "Bartok - Romanian Folk Dances",
+    "content": "",
+    "frontmatter": {
+      "composer": "Bartok, Bela",
+      "catalogue": "Sz. 56"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "basulto-habanera-reggaeton",
     "type": "work",
     "path": "Works/Basulto - Habanera-Reggaeton.md",
@@ -844,6 +857,19 @@
     },
     "concertCount": 4,
     "bucketList": false
+  },
+  {
+    "slug": "copland-el-sal-n-m-xico",
+    "type": "work",
+    "path": "Works/Copland - El Salón México.md",
+    "title": "Copland - El Salón México",
+    "content": "",
+    "frontmatter": {
+      "composer": "Copland, Aaron",
+      "catalogue": ""
+    },
+    "concertCount": 0,
+    "bucketList": true
   },
   {
     "slug": "copland-fanfare-for-the-common-man",
@@ -2283,6 +2309,19 @@
     "bucketList": false
   },
   {
+    "slug": "ouzounian-imagined-anatolian-dance",
+    "type": "work",
+    "path": "Works/Ouzounian - Imagined Anatolian Dance.md",
+    "title": "Ouzounian - Imagined Anatolian Dance",
+    "content": "",
+    "frontmatter": {
+      "composer": "Ouzounian, Karen",
+      "catalogue": ""
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "paganini-violin-concerto-no-1-in-d-major",
     "type": "work",
     "path": "Works/Paganini - Violin Concerto No. 1 in D Major.md",
@@ -2360,6 +2399,19 @@
     },
     "concertCount": 1,
     "bucketList": false
+  },
+  {
+    "slug": "prokofiev-string-quartet-no-2",
+    "type": "work",
+    "path": "Works/Prokofiev - String Quartet No. 2.md",
+    "title": "Prokofiev - String Quartet No. 2",
+    "content": "",
+    "frontmatter": {
+      "composer": "Prokofiev, Sergei",
+      "catalogue": "92"
+    },
+    "concertCount": 0,
+    "bucketList": true
   },
   {
     "slug": "prokofiev-symphony-no-5-in-b-flat-major",

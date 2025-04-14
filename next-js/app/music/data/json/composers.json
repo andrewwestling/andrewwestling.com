@@ -78,7 +78,7 @@
     "title": "Bartok, Bela",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "basulto-alejandro",
@@ -772,6 +772,15 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
+  },
+  {
+    "slug": "ouzounian-karen",
+    "type": "composer",
+    "path": "Composers/Ouzounian, Karen.md",
+    "title": "Ouzounian, Karen",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
   },
   {
     "slug": "paganini-niccolo",
