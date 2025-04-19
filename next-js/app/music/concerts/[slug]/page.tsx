@@ -24,7 +24,6 @@ import {
   getNextConcert,
   getPreviousConcert,
 } from "@music/lib/helpers";
-import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
@@ -53,19 +52,9 @@ export default async function ConcertPage(props: PageProps) {
   // Find the referenced group
   const group = getGroupByTitle(concert.frontmatter.group);
 
-  // Format the concert title
-  const displayTitle = formatConcertTitle(concert.title, group);
-
   // Get next/prev concerts
   const prevConcert = getPreviousConcert(concert.slug);
   const nextConcert = getNextConcert(concert.slug);
-
-  // Find the referenced conductor(s)
-  const conductors = Array.isArray(concert.frontmatter.conductor)
-    ? concert.frontmatter.conductor
-    : concert.frontmatter.conductor
-    ? [concert.frontmatter.conductor]
-    : [];
 
   // Find the referenced works
   const works: string[] = concert.frontmatter.works || [];
@@ -73,12 +62,10 @@ export default async function ConcertPage(props: PageProps) {
     .map((workTitle: string) => getWorkByTitle(workTitle))
     .filter((work): work is Work => work !== undefined);
 
-  // Get venue and location if available
+  // Get venue if available
   const venue = concert.frontmatter.venue
     ? getVenueByTitle(concert.frontmatter.venue)
     : undefined;
-  const locationMap = venue ? await getLocationsForVenues([venue]) : {};
-  const location = venue ? locationMap[venue.slug] : undefined;
 
   return (
     <article className="space-y-12">
@@ -103,14 +90,13 @@ export default async function ConcertPage(props: PageProps) {
         <div>
           <SectionHeading>Program</SectionHeading>
           <div className="flex flex-col gap-2">
-            {workObjects.map((work) => {
-              // Find program details for this work if they exist
-              const programDetails = concert.frontmatter.programDetails?.find(
-                (details) => details.work.slug === work.slug
-              );
-
+            {concert.frontmatter.programDetails?.map((programDetails) => {
+              const work = programDetails.work;
               return (
-                <div key={work.slug} className="flex flex-col gap-1">
+                <div
+                  key={`${work.slug}-${programDetails.movements?.[0]}`}
+                  className="flex flex-col gap-1"
+                >
                   <ListItem
                     title={formatWorkTitle(work)}
                     href={routes.works.show(work.slug)}
@@ -126,49 +112,47 @@ export default async function ConcertPage(props: PageProps) {
                   />
 
                   {/* Show program details if they exist */}
-                  {programDetails && (
-                    <div className="ml-4 text-sm text-muted gap-2 flex flex-col">
-                      {/* Show movements if any */}
-                      {programDetails.movements &&
-                        programDetails.movements.length > 0 && (
-                          <div>
-                            <ul className="list-inside">
-                              {programDetails.movements.map((movement) => (
-                                <li
-                                  key={movement}
-                                  dangerouslySetInnerHTML={{ __html: movement }}
-                                />
-                              ))}
-                            </ul>
-                          </div>
-                        )}
-                      {/* Show work-specific conductor if different from concert conductor */}
-                      {programDetails.conductor && (
+                  <div className="ml-4 text-sm text-muted gap-2 flex flex-col">
+                    {/* Show movements if any */}
+                    {programDetails.movements &&
+                      programDetails.movements.length > 0 && (
                         <div>
-                          <Link
-                            href={routes.conductors.show(
-                              findConductorSlug(programDetails.conductor) || ""
-                            )}
-                          >
-                            {programDetails.conductor}
-                          </Link>
-                          , conductor
+                          <ul className="list-inside">
+                            {programDetails.movements.map((movement) => (
+                              <li
+                                key={movement}
+                                dangerouslySetInnerHTML={{ __html: movement }}
+                              />
+                            ))}
+                          </ul>
                         </div>
                       )}
+                    {/* Show work-specific conductor if different from concert conductor */}
+                    {programDetails.conductor && (
+                      <div>
+                        <Link
+                          href={routes.conductors.show(
+                            findConductorSlug(programDetails.conductor) || ""
+                          )}
+                        >
+                          {programDetails.conductor}
+                        </Link>
+                        , conductor
+                      </div>
+                    )}
 
-                      {/* Show soloists if any */}
-                      {programDetails.soloists &&
-                        programDetails.soloists.length > 0 && (
-                          <div>
-                            <ul className="list-inside">
-                              {programDetails.soloists.map((soloist) => (
-                                <li key={soloist}>{soloist}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        )}
-                    </div>
-                  )}
+                    {/* Show soloists if any */}
+                    {programDetails.soloists &&
+                      programDetails.soloists.length > 0 && (
+                        <div>
+                          <ul className="list-inside">
+                            {programDetails.soloists.map((soloist) => (
+                              <li key={soloist}>{soloist}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                  </div>
                 </div>
               );
             })}
