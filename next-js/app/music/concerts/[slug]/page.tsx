@@ -24,7 +24,6 @@ import {
   getNextConcert,
   getPreviousConcert,
 } from "@music/lib/helpers";
-import { getLocationsForVenues } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
@@ -53,19 +52,9 @@ export default async function ConcertPage(props: PageProps) {
   // Find the referenced group
   const group = getGroupByTitle(concert.frontmatter.group);
 
-  // Format the concert title
-  const displayTitle = formatConcertTitle(concert.title, group);
-
   // Get next/prev concerts
   const prevConcert = getPreviousConcert(concert.slug);
   const nextConcert = getNextConcert(concert.slug);
-
-  // Find the referenced conductor(s)
-  const conductors = Array.isArray(concert.frontmatter.conductor)
-    ? concert.frontmatter.conductor
-    : concert.frontmatter.conductor
-    ? [concert.frontmatter.conductor]
-    : [];
 
   // Find the referenced works
   const works: string[] = concert.frontmatter.works || [];
@@ -73,12 +62,10 @@ export default async function ConcertPage(props: PageProps) {
     .map((workTitle: string) => getWorkByTitle(workTitle))
     .filter((work): work is Work => work !== undefined);
 
-  // Get venue and location if available
+  // Get venue if available
   const venue = concert.frontmatter.venue
     ? getVenueByTitle(concert.frontmatter.venue)
     : undefined;
-  const locationMap = venue ? await getLocationsForVenues([venue]) : {};
-  const location = venue ? locationMap[venue.slug] : undefined;
 
   return (
     <article className="space-y-12">
