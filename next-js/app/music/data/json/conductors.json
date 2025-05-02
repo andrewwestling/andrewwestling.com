@@ -24,7 +24,7 @@
     "title": "Barbara Yahr",
     "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 21
+    "concertCount": 20
   },
   {
     "slug": "bryan-dunnewald",
@@ -60,7 +60,7 @@
     "title": "Christian Olson",
     "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "conrad-chu",
