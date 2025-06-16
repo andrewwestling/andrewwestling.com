@@ -58,7 +58,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     blockquote: ({ children, ...props }) => (
       <blockquote
         {...props}
-        className="border-l-4 border-primary pl-4 my-6 italic"
+        className="border-l-4 border-primary pl-4 my-6 italic break-words"
       >
         {children}
       </blockquote>

@@ -102,6 +102,7 @@ When the app got published to Tidbyt's Community Apps, I commemorated it with an
 This shows what's currently playing on [All Classical Radio](https://allclassical.org) on the Tidbyt.
 
 <MdxImage
+  alt="Tidbyt KQAC App"
   src={"/assets/projects/tidbyt/tidbyt-kqac.png"}
   width={512}
   height={512}
@@ -127,6 +128,7 @@ My developer brain wants everything to be completely consistent, but the reality
 This shows what's currently playing on [WNYC](https://wnyc.org) on the Tidbyt.
 
 <MdxImage
+  alt="Tidbyt WNYC App"
   src={"/assets/projects/tidbyt/tidbyt-wnyc.png"}
   width={512}
   height={512}
@@ -139,7 +141,7 @@ Key points about this app:
 - **Stream**: I added an option to choose between the FM or AM stream of WNYC. This was a simple substitution and a new setting, so I thought it was easy enough to add. In the future, I could see supporting more streams if it makes sense (maybe NJPR, idk).
 - **Layout Settings**: In this app, I decided to be a little more opinionated about the layout settings. In previous apps, I let the user choose their own scroll direction, scroll speed, and amount of information. On the WNYC app, I decided to constrain these choices by letting the user instead change the "layout", which was just a combination of the other three settings in a thoughtful way. I settled on the following layouts:
 
-|                                                                                                                                                                                                                                                                        | <div style={{width: "256px"}}></div>                                                  |
+|                                                                                                                                                                                                                                                                        | <div className="w-[128px] md:w-[256px]"></div>                                                  |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
 | **Name and Image**: The show's title, and the show's image. Title scrolls horizontally next to the image.                                                                                                                                                              | <TidbytGif width={256} src="/assets/projects/tidbyt/wnyc-name-and-image.gif" />       |
 | **Name and Description**: The show's title, and the "description" of the show. Scrolls vertically, but slower. (For some shows, the "description" is used for information about the particular episode; for other shows, it's just generic information about the show) | <TidbytGif width={256} src="/assets/projects/tidbyt/wnyc-name-and-description.gif" /> |
@@ -152,6 +154,7 @@ Key points about this app:
 This shows what's currently playing on various stations on [BBC Sounds](https://www.bbc.co.uk/sounds/stations) on the Tidbyt.
 
 <MdxImage
+  alt="Tidbyt BBC Sounds App"
   src={"/assets/projects/tidbyt/tidbyt-bbc-sounds.png"}
   width={512}
   height={512}
@@ -167,7 +170,7 @@ Key points about this app:
 - **Station-Branded Colors**: Each station displays with its official BBC brand colors
 - **Two Display Modes**: Because the BBC's API returns different data for the "current track" and "programme" endpoints, I added a setting to choose between the two, with an intelligent fallback to the other mode when the current track data isn't available:
 
-|                                                                                                                                                     | <div style={{width: "256px"}}></div>                                                               |
+|                                                                                                                                                     | <div className="w-[128px] md:w-[256px]"></div>                                                               |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
 | **Current Track**: Shows details of the currently playing music/content (default)                                                                   | <TidbytGif width={256} src="/assets/projects/tidbyt/bbc-sounds-radio-3-segments-vertical.gif" />   |
 | **Programme**: Shows current programme information. When track details aren't available, the app automatically falls back to programme information. | <TidbytGif width={256} src="/assets/projects/tidbyt/bbc-sounds-radio-3-broadcasts-vertical.gif" /> |
@@ -256,8 +259,6 @@ I configured my repo's tasks to use an [input variable](https://code.visualstudi
 - **Stale Data**: When building this, I ran into some questions/issues with how to make sure the device would update its data at the right time. I was expecting to have to manage a cache entry with a time-to-live that corresponded to the current song's length, but I learned that Tidbyt's cloud is simultaneously simpler and dumber than I expected, so trying to exert that kind of control over cache entries wasn't that important. Instead, just using a regular interval (like, once a minute) worked better and was more predictable. The device sends a heartbeat every minute, at least, and as long as I tell my app to refetch the data and re-render at least once a minute, the device should pick up the new changes and be out-of-date for no longer than 60 seconds at a time. Keep it simple.
 - **"Ambient Information"**: As with other Tidbyt apps, it's fun to have this kind of information just _around and available_ without having to go seeking it 🤗
 
----
-
 ## Addendum: BBC Sounds App
 
 _(Added 2025-06-15)_
@@ -265,12 +266,14 @@ _(Added 2025-06-15)_
 I recently started listening to BBC Radio 3 more for classical music, after coming across [this Reddit thread](https://www.reddit.com/r/classicalmusic/comments/1l800af/is_everyone_else_sick_of_classical_radio/) and [this comment](https://www.reddit.com/r/classicalmusic/comments/1l800af/comment/mx0z05f/) that resonated with me.
 
 <MdxImage
+  alt="Reddit post about classical radio fatigue"
   src={"/assets/projects/tidbyt/bbc-sounds-reddit-1.png"}
   width={512}
   height={512}
 />
 
 <MdxImage
+  alt="Reddit comment about BBC Radio 3"
   src={"/assets/projects/tidbyt/bbc-sounds-reddit-2.png"}
   width={512}
   height={512}
@@ -308,6 +311,7 @@ This gave me a crystal clear, correct answer in less than a minute. Great.
 For the next task, I opened my [andrewwestling/tidbyt](https://github.com/andrewwestling/tidbyt) repo in Cursor, then started prompting like I usually do, adding context where appropriate:
 
 <MdxImage
+  alt="Cursor prompt to make a BBC Radio 3 app"
   src={"/assets/projects/tidbyt/bbc-sounds-prompt-1.png"}
   width={512}
   height={512}
@@ -334,6 +338,7 @@ Perplexity nailed it again, and got me another correct answer, with information 
 I copied the endpoint it found, then went back to Cursor and asked it to extend the app to show the current show's name:
 
 <MdxImage
+  alt="Cursor prompt to extend the BBC Radio 3 app"
   src={"/assets/projects/tidbyt/bbc-sounds-prompt-2.png"}
   width={512}
   height={512}
@@ -363,6 +368,7 @@ It felt shallow to just support BBC Radio 3, when all of BBC's radio stations we
 I prompted a little more to rework the app to support all of BBC's streams available on BBC Sounds, with a configuration option to choose which stream to display:
 
 <MdxImage
+  alt="Cursor prompt to make a BBC Sounds app"
   src={"/assets/projects/tidbyt/bbc-sounds-prompt-3.png"}
   width={512}
   height={512}
@@ -399,5 +405,7 @@ Really impressed with how fast this came together. I went from "I want to try a 
 Having structured apps for Cursor to copy was key in this situation. Knowing what context to give to the model, and knowing what I wanted to change about it, were both things I still feel are "software engineering skills" in the sense that expertise is still required for doing this effectively.
 
 Overall, a fun little afternoon project 😎
+
+---
 
 <PostedModified posted={posted} modified={modified} />
