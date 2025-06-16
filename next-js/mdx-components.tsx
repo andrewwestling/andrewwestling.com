@@ -47,14 +47,38 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         {children}
       </p>
     ),
-    code: ({ children, ...props }) => (
-      <code
+    pre: ({ children, ...props }) => (
+      <pre
         {...props}
-        className="bg-highlight dark:bg-highlight-dark text-primary rounded p-1"
+        className="bg-highlight dark:bg-highlight-dark rounded-lg p-4 my-6 overflow-x-auto"
       >
         {children}
-      </code>
+      </pre>
     ),
+    blockquote: ({ children, ...props }) => (
+      <blockquote
+        {...props}
+        className="border-l-4 border-primary pl-4 my-6 italic"
+      >
+        {children}
+      </blockquote>
+    ),
+    code: ({ children, ...props }) => {
+      // Check if this code element is inside a pre element
+      const isInline = !props.className?.includes("language-");
+      return (
+        <code
+          {...props}
+          className={`${
+            isInline
+              ? "bg-highlight dark:bg-highlight-dark text-primary rounded p-1"
+              : "text-primary"
+          }`}
+        >
+          {children}
+        </code>
+      );
+    },
     hr: ({ ...props }) => <hr {...props} className="my-6" />,
     ...components,
   };
