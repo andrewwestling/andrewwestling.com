@@ -5,7 +5,7 @@ import { PostedModified } from "@components/PostedModified";
 import { TidbytGif } from "./components/TidbytGif";
 
 export const posted = "2023-08-07";
-export const modified = "2025-02-03";
+export const modified = "2025-06-15";
 
 export const metadata = {
   title: "Tidbyt Apps",
@@ -124,7 +124,7 @@ My developer brain wants everything to be completely consistent, but the reality
 
 ### WNYC
 
-This shows what's currently playing on [WNYC](https://wnyc.org) on Tidbyt
+This shows what's currently playing on [WNYC](https://wnyc.org) on the Tidbyt.
 
 <MdxImage
   src={"/assets/projects/tidbyt/tidbyt-wnyc.png"}
@@ -147,6 +147,33 @@ Key points about this app:
 
 👉 [See the code on GitHub](https://github.com/andrewwestling/tidbyt/tree/main/wnyc)
 
+### BBC Sounds
+
+This shows what's currently playing on various stations on [BBC Sounds](https://www.bbc.co.uk/sounds/stations) on the Tidbyt.
+
+<MdxImage
+  src={"/assets/projects/tidbyt/tidbyt-bbc-sounds.png"}
+  width={512}
+  height={512}
+/>
+
+I threw this one together two years after the other apps, because I wanted to see if I could get Cursor to build a Tidbyt app for me.
+
+I used AI to build this app. [See my addendum below about this one](#addendum-bbc-sounds-app).
+
+Key points about this app:
+
+- **Multi-Station Support**: Ability to choose from 15 major BBC Radio stations
+- **Station-Branded Colors**: Each station displays with its official BBC brand colors
+- **Two Display Modes**: Because the BBC's API returns different data for the "current track" and "programme" endpoints, I added a setting to choose between the two, with an intelligent fallback to the other mode when the current track data isn't available:
+
+|                                                                                                                                                     | <div style={{width: "256px"}}></div>                                                               |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| **Current Track**: Shows details of the currently playing music/content (default)                                                                   | <TidbytGif width={256} src="/assets/projects/tidbyt/bbc-sounds-radio-3-segments-vertical.gif" />   |
+| **Programme**: Shows current programme information. When track details aren't available, the app automatically falls back to programme information. | <TidbytGif width={256} src="/assets/projects/tidbyt/bbc-sounds-radio-3-broadcasts-vertical.gif" /> |
+
+👉 [See the code on GitHub](https://github.com/andrewwestling/tidbyt/tree/main/bbcsounds)
+
 ## Development Environment
 
 Tidbyt's team has done a fantastic job at making good tools (like [Pixlet](https://github.com/tidbyt/pixlet)) for developing for the device.
@@ -155,7 +182,7 @@ In my own workflow, I put together a few other helpful pieces to make my own dev
 
 ### My repo
 
-I build in my [expandrew/tidbyt](https://github.com/andrewwestling/tidbyt) repo. When I'm ready to publish an app to the community, I make a copy of my code with the comments removed, then push to my fork of [tidbyt/community](https://github.com/tidbyt/community) and make a PR from there.
+I build in my [andrewwestling/tidbyt](https://github.com/andrewwestling/tidbyt) repo. When I'm ready to publish an app to the community, I make a copy of my code with the comments removed, then push to my fork of [tidbyt/community](https://github.com/tidbyt/community) and make a PR from there.
 
 ### Mock Endpoints
 
@@ -230,5 +257,147 @@ I configured my repo's tasks to use an [input variable](https://code.visualstudi
 - **"Ambient Information"**: As with other Tidbyt apps, it's fun to have this kind of information just _around and available_ without having to go seeking it 🤗
 
 ---
+
+## Addendum: BBC Sounds App
+
+_(Added 2025-06-15)_
+
+I recently started listening to BBC Radio 3 more for classical music, after coming across [this Reddit thread](https://www.reddit.com/r/classicalmusic/comments/1l800af/is_everyone_else_sick_of_classical_radio/) and [this comment](https://www.reddit.com/r/classicalmusic/comments/1l800af/comment/mx0z05f/) that resonated with me.
+
+<MdxImage
+  src={"/assets/projects/tidbyt/bbc-sounds-reddit-1.png"}
+  width={512}
+  height={512}
+/>
+
+<MdxImage
+  src={"/assets/projects/tidbyt/bbc-sounds-reddit-2.png"}
+  width={512}
+  height={512}
+/>
+
+My classical stations are usually pretty good, but there are definitely days I want more than a Beethoven Symphony or Eine Kleine Nachtmusik.
+
+In the kitchen, I have my Tidbyt showing both of my WQXR and All Classical Radio apps, rotating between them. We usually have either of these stations on throughout the day, and I look to the Tidbyts to see what's on when I'm listening.
+
+With my newfound BBC Radio 3 on the speakers, I wanted to know what I was listening to. I didn't have an app for that.
+
+Luckily, I've grown a lot since I made my last set of Tidbyt apps. I've been using AI tools like Cursor a lot in my work and personal life lately.
+
+This new radio app felt like something AI could do well for me.
+
+I decided to dust off my [Tidbyt repo](https://github.com/andrewwestling/tidbyt) and see if I could prompt together a BBC Radio 3 app from my existing templates/structures.
+
+### Using AI
+
+I really just needed to do two things:
+
+1. find BBC's API endpoints for their "now playing" pages
+2. adjust the apps to accept the formats from BBC
+
+#### Perplexity: Get me the API endpoints
+
+For the first task, this felt like something [Perplexity](https://perplexity.ai) would be able to help with. I pulled it open and asked a [very naive question](https://www.perplexity.ai/search/does-bbc-radio-3-have-a-json-e-iA64ltzcR0CBK9SzSJT5Gw) like this:
+
+> Does BBC Radio 3 have a JSON endpoint that shows what is currently playing?
+
+This gave me a crystal clear, correct answer in less than a minute. Great.
+
+#### Cursor: Adapt my existing app to BBC Radio 3
+
+For the next task, I opened my [andrewwestling/tidbyt](https://github.com/andrewwestling/tidbyt) repo in Cursor, then started prompting like I usually do, adding context where appropriate:
+
+<MdxImage
+  src={"/assets/projects/tidbyt/bbc-sounds-prompt-1.png"}
+  width={512}
+  height={512}
+/>
+
+> I'd like to make a new app like my others in `@wqxr.star` and `@kqac.star` that works for BBC Radio 3 in a similar way
+>
+> They have an endpoint at @https://rms.api.bbc.co.uk/v2/services/bbc_radio_three/segments/latest that displays what is playing
+>
+> Can you generate a new "app" called `bbcradio3` in the same structure as the others `@/wqxr` and `@/kqac` that works with BBC Radio 3?
+
+With that prompt, Cursor (and Claude 4 Sonnet) got it mostly correct on the first try.
+
+#### Perplexity and Cursor: Extend the app with more info
+
+After playing with the first iteration, I noticed that BBC's API returns less info than WQXR or All Classical Radio did, so I started wondering if I could get a little more information.
+
+I went back to Perplexity and asked another simple, unrefined query:
+
+> Does BBC Radio have a JSON endpoint that shows what the current "Show" is? This Schedule endpoint https://www.bbc.co.uk/sounds/schedules/bbc_radio_three#live
+
+Perplexity nailed it again, and got me another correct answer, with information on BBC's "broadcasts" endpoint.
+
+I copied the endpoint it found, then went back to Cursor and asked it to extend the app to show the current show's name:
+
+<MdxImage
+  src={"/assets/projects/tidbyt/bbc-sounds-prompt-2.png"}
+  width={512}
+  height={512}
+/>
+
+> Would it be possible to incorporate the "current show" endpoint into the BBC Radio Player app somehow? I would like to see that we are listening to the Choral Evensong show, and that the currently playing song is (song)
+>
+> We could add this as a configuration option like "Include Show Name" and let the user turn it on or off
+>
+> The endpoint for shows is here: @https://rms.api.bbc.co.uk/v2/broadcasts/latest?service=bbc_radio_three&on_air=now
+
+At this point, I had basically everything I wanted from the app.
+
+I went back and forth with Cursor on some refinements of the "last 20%":
+
+- editing display behavior
+- creating "mock data" for me to use with my test setup
+- writing a README in the style of the other apps' READMEs
+- adding error handling and fallbacks
+
+I was getting ready to publish the app, but realized I was a small step away from way more utility.
+
+#### Cursor: Make it work with all the BBC Sounds stations
+
+It felt shallow to just support BBC Radio 3, when all of BBC's radio stations were available from the same endpoint.
+
+I prompted a little more to rework the app to support all of BBC's streams available on BBC Sounds, with a configuration option to choose which stream to display:
+
+<MdxImage
+  src={"/assets/projects/tidbyt/bbc-sounds-prompt-3.png"}
+  width={512}
+  height={512}
+/>
+
+> We've just made a `bbcradio3` app specifically for BBC Radio 3, but I'm wondering if it would be a heavy lift to reconfigure it and make it generic to all BBC Radio stations
+>
+> All stations are available here: @https://www.bbc.co.uk/sounds/stations
+>
+> I believe the endpoints follow the same structure
+>
+> Could we rework the following like this:
+>
+> - new `bbcsounds` (BBC Sounds) app in `/bbcsounds`
+> - Same contents as the bbcradio3 app, but new configuration option for "Station" with all the options from the page above for stations
+> - Show the current station in the HEADER_BAR and color it according to that station's color
+> - Support the same "broadcasts" or "segments" behavior of the existing one
+
+This got me to about 80% for supporting all stations.
+
+I went back and forth with some more refinement prompts:
+
+- adding some stations it missed in the list
+- adding mock data for the testing setup
+- refining the colors used so the contrast would be appropriate
+- updating the README to reflect the functionality
+
+I also refined a few parts by hand before committing and packaging it all up.
+
+### Overall
+
+Really impressed with how fast this came together. I went from "I want to try a new radio station" to "the 'now-playing' data is showing on my Tidbyt" in less than a day.
+
+Having structured apps for Cursor to copy was key in this situation. Knowing what context to give to the model, and knowing what I wanted to change about it, were both things I still feel are "software engineering skills" in the sense that expertise is still required for doing this effectively.
+
+Overall, a fun little afternoon project 😎
 
 <PostedModified posted={posted} modified={modified} />
