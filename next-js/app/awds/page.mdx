@@ -95,6 +95,9 @@ export const demoMessageContent = (
 
 # Typography
 
+
+## Presets
+
 I use "presets" to avoid needing to think about what combination of font-size, font-weight, line-height, and letter-spacing to use.
 
 I got this idea from <ExternalLink href="https://danmall.com/posts/typography-in-design-systems">Dan Mall</ExternalLink>, and I use 7 because of <ExternalLink href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">The magical number seven, plus or minus two</ExternalLink>.
@@ -136,6 +139,76 @@ export const SAMPLE_TEXT_BOLD = "This is an example of this preset, but bold.";
     </Variant>
   </div>
 </ComponentWrapper>
+
+## Markdown
+
+The examples below show how Markdown elements will render within MDX:
+
+### Bold and Italic
+
+**This is bold**, _this is italic_, _**this is bold and italic**_
+
+### Blockquote
+
+Single line:
+
+> This is a single line blockquote.
+
+Multi-line:
+
+> This is a blockquote.
+>
+> With multiple lines.
+>
+> Continuing more text in the block quote. If it gets too long, the line will wrap.
+
+Nested:
+
+> This is a blockquote with nested blockquotes.
+>
+> > This is a nested blockquote.
+> >
+> > > This is a nested blockquote.
+> > >
+> > > > This is a nested blockquote.
+
+### Link
+
+[This is a link](#)
+
+### Lists
+
+Unordered:
+
+- Item 1
+  - Item 1.1
+  - Item 1.2
+    - Item 1.2.1
+    - Item 1.2.2
+- Item 2
+  - Item 2.1
+  - Item 2.2
+    - Item 2.2.1
+    - Item 2.2.2
+- Item 3
+  - Item 3.1
+  - Item 3.2
+    - Item 3.2.1
+    - Item 3.2.2
+
+Ordered:
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+### Code Block
+
+```typescript
+const a = 1;
+const b = 2;
+const c = a + b;
+```
 
 ---
 

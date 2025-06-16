@@ -6,8 +6,8 @@ export function ProjectsList() {
     <>
       <ul className="list-revert ps-10 p-0">
         <li>
-          📻 <a href="/projects/tidbyt">Tidbyt apps</a> for WQXR, WNYC, and All
-          Classical Radio
+          📻 <a href="/projects/tidbyt">Tidbyt apps</a> for WQXR, WNYC, All
+          Classical Radio, and BBC Sounds
         </li>
         <li>
           📦 <a href="/projects/media-cube">Media Cube</a>, a cabinet for
