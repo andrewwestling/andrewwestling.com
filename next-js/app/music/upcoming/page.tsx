@@ -7,6 +7,7 @@ import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getUpcomingConcerts } from "@music/data/queries";
 import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";
+import { routes } from "@music/lib/routes";
 
 // Make this page dynamic so it will stay up-to-date as concerts happen
 export const dynamic = "force-dynamic";
@@ -32,14 +33,24 @@ export default async function UpcomingPage() {
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-16">
         {/* Up Next */}
-        {upNext && (
-          <section className="space-y-4">
-            <PageTitle>Up Next</PageTitle>
+        <section className="space-y-4">
+          <PageTitle>Up Next</PageTitle>
+          {upNext && (
             <div className="grid gap-4 p-4 bg-surface border border-border dark:bg-surface-dark dark:border-border-dark rounded-lg">
               <ConcertInfo concert={upNext} showAttendActions />
             </div>
-          </section>
-        )}
+          )}
+          {/* If no more concerts, show a message */}
+          {upcomingConcerts.length === 0 && (
+            <>
+              <p>🏖️ No more concerts scheduled for this season.</p>
+              <p>
+                <a href={routes.seasons.index()}>Explore my past seasons</a>, or
+                check back soon!
+              </p>
+            </>
+          )}
+        </section>
 
         {/* Later This Season */}
         {laterConcerts.length > 0 && (
@@ -50,13 +61,6 @@ export default async function UpcomingPage() {
                 <ConcertListItem key={concert.slug} concert={concert} />
               ))}
             </div>
-          </section>
-        )}
-
-        {/* If no more concerts, show a message */}
-        {upcomingConcerts.length === 0 && (
-          <section>
-            <p>No more concerts scheduled for this season. Check back soon!</p>
           </section>
         )}
 
