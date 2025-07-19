@@ -46,8 +46,8 @@ export default function App({
 }) {
   return (
     <html>
-      <SpeedInsights />
       <Suspense>
+        <SpeedInsights />
         <GoatCounter />
       </Suspense>
       <body className="bg-background dark:bg-background-dark text-text dark:text-text-dark">
