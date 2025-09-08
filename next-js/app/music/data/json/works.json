@@ -169,6 +169,20 @@
     "bucketList": false
   },
   {
+    "slug": "barber-knoxville-summer-of-1915",
+    "type": "work",
+    "path": "Works/Barber - Knoxville - Summer of 1915.md",
+    "title": "Barber - Knoxville - Summer of 1915",
+    "content": "",
+    "frontmatter": {
+      "composer": "Barber, Samuel",
+      "catalogue": "24",
+      "displayName": "Knoxville: Summer of 1915"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "barber-music-for-a-scene-from-shelley",
     "type": "work",
     "path": "Works/Barber - Music for a Scene from Shelley.md",
@@ -260,6 +274,19 @@
     "bucketList": false
   },
   {
+    "slug": "beethoven-coriolan-overture",
+    "type": "work",
+    "path": "Works/Beethoven - Coriolan Overture.md",
+    "title": "Beethoven - Coriolan Overture",
+    "content": "",
+    "frontmatter": {
+      "composer": "Beethoven, Ludwig van",
+      "catalogue": "62"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "beethoven-egmont-overture",
     "type": "work",
     "path": "Works/Beethoven - Egmont Overture.md",
@@ -334,7 +361,7 @@
       "composer": "Beethoven, Ludwig van",
       "catalogue": "Op. 67"
     },
-    "concertCount": 3,
+    "concertCount": 4,
     "bucketList": false
   },
   {
@@ -420,12 +447,12 @@
     "type": "work",
     "path": "Works/Berlioz - Symphonie Fantastique.md",
     "title": "Berlioz - Symphonie Fantastique",
-    "content": "",
+    "content": "## Movements\n1. \"Rêveries – Passions\" (Daydreams – passions)\n2. \"Un bal\" (A ball)\n3. \"Scène aux champs\" (Scene in the country)\n4. \"Marche au supplice\" (March to the scaffold)\n5. \"Songe d'une nuit du sabbat\" (Dream of a night of the sabbath)",
     "frontmatter": {
       "composer": "Berlioz, Hector",
       "catalogue": "14"
     },
-    "concertCount": 0,
+    "concertCount": 1,
     "bucketList": true
   },
   {
@@ -749,9 +776,10 @@
     "content": "",
     "frontmatter": {
       "composer": "Chabrier, Emmanuel",
-      "catalogue": ""
+      "catalogue": "",
+      "displayName": "España"
     },
-    "concertCount": 0,
+    "concertCount": 1,
     "bucketList": false
   },
   {
@@ -842,7 +870,7 @@
       "composer": "Copland, Aaron",
       "catalogue": ""
     },
-    "concertCount": 3,
+    "concertCount": 4,
     "bucketList": true
   },
   {
@@ -889,6 +917,19 @@
     "type": "work",
     "path": "Works/Copland - Lincoln Portrait.md",
     "title": "Copland - Lincoln Portrait",
+    "content": "",
+    "frontmatter": {
+      "composer": "Copland, Aaron",
+      "catalogue": ""
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "copland-quiet-city",
+    "type": "work",
+    "path": "Works/Copland - Quiet City.md",
+    "title": "Copland - Quiet City",
     "content": "",
     "frontmatter": {
       "composer": "Copland, Aaron",
@@ -1017,6 +1058,19 @@
     "bucketList": false
   },
   {
+    "slug": "debussy-danse-sacr-e-et-danse-profane",
+    "type": "work",
+    "path": "Works/Debussy - Danse sacrée et danse profane.md",
+    "title": "Debussy - Danse sacrée et danse profane",
+    "content": "",
+    "frontmatter": {
+      "composer": "Debussy, Claude",
+      "catalogue": "L. 103"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "debussy-la-mer",
     "type": "work",
     "path": "Works/Debussy - La Mer.md",
@@ -1040,6 +1094,20 @@
       "catalogue": "L. 65"
     },
     "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "debussy-prelude-to-the-afternoon-of-a-faun",
+    "type": "work",
+    "path": "Works/Debussy - Prelude to the Afternoon of a Faun.md",
+    "title": "Debussy - Prelude to the Afternoon of a Faun",
+    "content": "",
+    "frontmatter": {
+      "composer": "Debussy, Claude",
+      "catalogue": "L. 86",
+      "displayName": "Prélude à l’Après-midi d’un faune"
+    },
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -1097,8 +1165,8 @@
   {
     "slug": "dvorak-string-quintet-no-3-in-e-flat-major",
     "type": "work",
-    "path": "Works/Dvorak - String Quintet No. 3 in E Flat Major.md",
-    "title": "Dvorak - String Quintet No. 3 in E Flat Major",
+    "path": "Works/Dvorak - String Quintet No. 3 in E-Flat Major.md",
+    "title": "Dvorak - String Quintet No. 3 in E-Flat Major",
     "content": "",
     "frontmatter": {
       "composer": "Dvorak, Antonin",
@@ -1156,7 +1224,7 @@
       "composer": "Dvorak, Antonin",
       "catalogue": "Op. 95"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -1285,6 +1353,19 @@
     "frontmatter": {
       "composer": "Faure, Gabriel",
       "catalogue": "50"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "frank-three-latin-american-dances",
+    "type": "work",
+    "path": "Works/Frank - Three Latin American Dances.md",
+    "title": "Frank - Three Latin American Dances",
+    "content": "",
+    "frontmatter": {
+      "composer": "Frank, Gabriel Lena",
+      "catalogue": ""
     },
     "concertCount": 1,
     "bucketList": false
@@ -2035,6 +2116,19 @@
     "bucketList": false
   },
   {
+    "slug": "mendelssohn-symphony-no-4-in-a-major-italian",
+    "type": "work",
+    "path": "Works/Mendelssohn - Symphony No. 4 in A Major, \"Italian\".md",
+    "title": "Mendelssohn - Symphony No. 4 in A Major, \"Italian\"",
+    "content": "## Movements\n1. Allegro vivace\n2. Andante con moto\n3. Con moto moderato\n4. Presto and finale: Saltarello",
+    "frontmatter": {
+      "composer": "Mendelssohn, Felix",
+      "catalogue": "90"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "mendelssohn-violin-concerto-in-e-minor",
     "type": "work",
     "path": "Works/Mendelssohn - Violin Concerto in E Minor.md",
@@ -2068,6 +2162,19 @@
     "content": "",
     "frontmatter": {
       "composer": "Montgomery, Jessie",
+      "catalogue": ""
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "morse-reconciliation",
+    "type": "work",
+    "path": "Works/Morse - Reconciliation.md",
+    "title": "Morse - Reconciliation",
+    "content": "",
+    "frontmatter": {
+      "composer": "Morse, Audrey",
       "catalogue": ""
     },
     "concertCount": 1,
@@ -2165,6 +2272,19 @@
     "bucketList": false
   },
   {
+    "slug": "mozart-piano-concerto-no-27-in-b-flat-major",
+    "type": "work",
+    "path": "Works/Mozart - Piano Concerto No. 27 in B-Flat Major.md",
+    "title": "Mozart - Piano Concerto No. 27 in B-Flat Major",
+    "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro",
+    "frontmatter": {
+      "composer": "Mozart, Wolfgang Amadeus",
+      "catalogue": "K. 595"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "mozart-serenade-no-10-in-b-flat-major",
     "type": "work",
     "path": "Works/Mozart - Serenade No. 10 in B-Flat Major.md",
@@ -2207,8 +2327,8 @@
   {
     "slug": "mozart-symphony-no-39-in-e-flat-major",
     "type": "work",
-    "path": "Works/Mozart - Symphony No. 39 in E Flat Major.md",
-    "title": "Mozart - Symphony No. 39 in E Flat Major",
+    "path": "Works/Mozart - Symphony No. 39 in E-Flat Major.md",
+    "title": "Mozart - Symphony No. 39 in E-Flat Major",
     "content": "## Movements\n\n1. Adagio - Allegro\n2. Andante con moto\n3. Menuetto: Allegretto - Trio\n4. Finale: Allegro",
     "frontmatter": {
       "composer": "Mozart, Wolfgang Amadeus",
@@ -2505,6 +2625,19 @@
     "bucketList": false
   },
   {
+    "slug": "rachmaninoff-5-etudes-tableaux-arr-respighi",
+    "type": "work",
+    "path": "Works/Rachmaninoff - 5 Etudes-Tableaux (arr. Respighi).md",
+    "title": "Rachmaninoff - 5 Etudes-Tableaux (arr. Respighi)",
+    "content": "## Movements\n1. Op. 39 No. 2: La mer et les mouettes (The sea and the seagulls)\n2. Op. 33 No 7: La foire (The fair)\n3. Op. 39 No. 7: Marche funèbre (Funeral march)\n4. Op. 39 No. 6: Le Chaperon rouge et le loup (Little Red Riding Hood and the wolf)\n5. Op. 39 No. 9: Marche (March)",
+    "frontmatter": {
+      "composer": "Rachmaninoff, Sergei",
+      "catalogue": "Op. 33 & Op. 39"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "rachmaninoff-isle-of-the-dead",
     "type": "work",
     "path": "Works/Rachmaninoff - Isle of the Dead.md",
@@ -2529,6 +2662,32 @@
     },
     "concertCount": 0,
     "bucketList": true
+  },
+  {
+    "slug": "rachmaninoff-symphony-no-2-in-e-minor",
+    "type": "work",
+    "path": "Works/Rachmaninoff - Symphony No. 2 in E Minor.md",
+    "title": "Rachmaninoff - Symphony No. 2 in E Minor",
+    "content": "## Movements\n1. Largo – Allegro moderato\n2. Allegro molto\n3. Adagio\n4. Allegro vivace",
+    "frontmatter": {
+      "composer": "Rachmaninoff, Sergei",
+      "catalogue": "27"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "ravel-bolero",
+    "type": "work",
+    "path": "Works/Ravel - Bolero.md",
+    "title": "Ravel - Bolero",
+    "content": "",
+    "frontmatter": {
+      "composer": "Ravel, Maurice",
+      "catalogue": "M. 81"
+    },
+    "concertCount": 1,
+    "bucketList": false
   },
   {
     "slug": "ravel-daphnis-et-chloe-suite-no-2",
@@ -2817,6 +2976,19 @@
     "bucketList": false
   },
   {
+    "slug": "saint-saens-cello-concerto-no-1-in-a-minor",
+    "type": "work",
+    "path": "Works/Saint-Saens - Cello Concerto No. 1 in A Minor.md",
+    "title": "Saint-Saens - Cello Concerto No. 1 in A Minor",
+    "content": "## Movements\n1. Allegro non troppo\n2. Allegretto con moto\n3. Tempo primo",
+    "frontmatter": {
+      "composer": "Saint-Saens, Camille",
+      "catalogue": "33"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "saint-saens-samson-and-delilah",
     "type": "work",
     "path": "Works/Saint-Saens - Samson and Delilah.md",
@@ -2895,6 +3067,19 @@
     "bucketList": false
   },
   {
+    "slug": "schumann-symphony-no-3-in-e-flat-major-rhenish",
+    "type": "work",
+    "path": "Works/Schumann - Symphony No. 3 in E-Flat Major, \"Rhenish\".md",
+    "title": "Schumann - Symphony No. 3 in E-Flat Major, \"Rhenish\"",
+    "content": "## Movements\n1. Lebhaft\n2. Scherzo: Sehr mäßig\n3. Nicht schnell\n4. Feierlich\n5. Lebhaft",
+    "frontmatter": {
+      "composer": "Schumann, Robert",
+      "catalogue": "97"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "schumann-symphony-no-4-in-d-minor",
     "type": "work",
     "path": "Works/Schumann - Symphony No. 4 in D Minor.md",
@@ -2934,6 +3119,19 @@
     "bucketList": false
   },
   {
+    "slug": "shostakovich-cello-concerto-no-1-in-e-flat-major",
+    "type": "work",
+    "path": "Works/Shostakovich - Cello Concerto No. 1 in E-Flat Major.md",
+    "title": "Shostakovich - Cello Concerto No. 1 in E-Flat Major",
+    "content": "## Movements\n1. Allegretto\n2. Moderato\n3. Cadenza (attacca)\n4. Allegro con moto",
+    "frontmatter": {
+      "composer": "Shostakovich, Dmitri",
+      "catalogue": "107"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "shostakovich-festive-overture",
     "type": "work",
     "path": "Works/Shostakovich - Festive Overture.md",
@@ -2943,7 +3141,7 @@
       "composer": "Shostakovich, Dmitri",
       "catalogue": "96"
     },
-    "concertCount": 2,
+    "concertCount": 3,
     "bucketList": false
   },
   {
@@ -3112,7 +3310,7 @@
       "composer": "Sibelius, Jean",
       "catalogue": "Op. 47"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -3167,6 +3365,19 @@
     },
     "concertCount": 1,
     "bucketList": false
+  },
+  {
+    "slug": "sowande-african-suite",
+    "type": "work",
+    "path": "Works/Sowande - African Suite.md",
+    "title": "Sowande - African Suite",
+    "content": "",
+    "frontmatter": {
+      "composer": "Sowande, Fela",
+      "catalogue": ""
+    },
+    "concertCount": 0,
+    "bucketList": true
   },
   {
     "slug": "still-afro-american-symphony",
@@ -3335,6 +3546,19 @@
       "catalogue": ""
     },
     "concertCount": 2,
+    "bucketList": false
+  },
+  {
+    "slug": "strauss-till-eulenspiegel-s-merry-pranks",
+    "type": "work",
+    "path": "Works/Strauss - Till Eulenspiegel's Merry Pranks.md",
+    "title": "Strauss - Till Eulenspiegel's Merry Pranks",
+    "content": "",
+    "frontmatter": {
+      "composer": "Strauss, Richard",
+      "catalogue": "28"
+    },
+    "concertCount": 1,
     "bucketList": false
   },
   {
@@ -3755,6 +3979,19 @@
     "bucketList": false
   },
   {
+    "slug": "wagner-siegfried-idyll",
+    "type": "work",
+    "path": "Works/Wagner - Siegfried Idyll.md",
+    "title": "Wagner - Siegfried Idyll",
+    "content": "",
+    "frontmatter": {
+      "composer": "Wagner, Richard",
+      "catalogue": "WWV 103"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "wagner-tristan-und-isolde",
     "type": "work",
     "path": "Works/Wagner - Tristan und Isolde.md",
@@ -3779,6 +4016,19 @@
     },
     "concertCount": 1,
     "bucketList": false
+  },
+  {
+    "slug": "walton-symphony-no-1",
+    "type": "work",
+    "path": "Works/Walton - Symphony No. 1.md",
+    "title": "Walton - Symphony No. 1",
+    "content": "",
+    "frontmatter": {
+      "composer": "Walton, William",
+      "catalogue": ""
+    },
+    "concertCount": 0,
+    "bucketList": true
   },
   {
     "slug": "weber-phantom-of-the-opera",
@@ -3911,17 +4161,43 @@
     "bucketList": false
   },
   {
-    "slug": "de-falla-the-three-cornered-hat-suite",
+    "slug": "de-falla-suite-no-1-from-the-three-cornered-hat",
     "type": "work",
-    "path": "Works/de Falla - The Three-Cornered Hat Suite.md",
-    "title": "de Falla - The Three-Cornered Hat Suite",
-    "content": "El sombrero de tres picos\n\nThere are two suites but either one is great",
+    "path": "Works/de Falla - Suite No. 1 from \"The Three Cornered Hat\".md",
+    "title": "de Falla - Suite No. 1 from \"The Three Cornered Hat\"",
+    "content": "## Movements\n1. Mediodia (Afternoon) \n2. Danza de la molinera (Dance of the Miller's Wife) \n3. El Corregidor (The Corregidor)\n4. Las uvas (The Grapes)",
     "frontmatter": {
       "composer": "de Falla, Manuel",
       "catalogue": ""
     },
-    "concertCount": 0,
+    "concertCount": 1,
     "bucketList": true
+  },
+  {
+    "slug": "de-falla-suite-no-2-from-the-three-cornered-hat",
+    "type": "work",
+    "path": "Works/de Falla - Suite No. 2 from \"The Three Cornered Hat\".md",
+    "title": "de Falla - Suite No. 2 from \"The Three Cornered Hat\"",
+    "content": "## Movements\n1. Los vecinos\n2. Danza del molinero (Farruca)\n3. Danza final",
+    "frontmatter": {
+      "composer": "de Falla, Manuel",
+      "catalogue": ""
+    },
+    "concertCount": 1,
+    "bucketList": true
+  },
+  {
+    "slug": "de-falla-suite-from-el-amor-brujo",
+    "type": "work",
+    "path": "Works/de Falla - Suite from El amor brujo.md",
+    "title": "de Falla - Suite from El amor brujo",
+    "content": "",
+    "frontmatter": {
+      "composer": "de Falla, Manuel",
+      "catalogue": ""
+    },
+    "concertCount": 1,
+    "bucketList": false
   },
   {
     "slug": "von-suppe-overture-to-banditenstreiche-jolly-robbers",

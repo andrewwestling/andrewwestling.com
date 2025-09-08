@@ -16,7 +16,7 @@ export const buttonClasses = [
   "border-solid",
   "border-border",
   "dark:border-border-dark",
-  "transition-all",
+  "transition-shadow",
   "duration-300",
   "ease-in-out",
   "text-sm",
