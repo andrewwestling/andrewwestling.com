@@ -60,7 +60,7 @@
     "title": "Barber, Samuel",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 10
+    "concertCount": 11
   },
   {
     "slug": "barry-john",
@@ -105,7 +105,7 @@
     "title": "Beethoven, Ludwig van",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 19
+    "concertCount": 21
   },
   {
     "slug": "berko-alex",
@@ -132,7 +132,7 @@
     "title": "Berlioz, Hector",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "bernstein-leonard",
@@ -222,7 +222,7 @@
     "title": "Chabrier, Emmanuel",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 0
+    "concertCount": 1
   },
   {
     "slug": "chausson-ernest",
@@ -285,7 +285,7 @@
     "title": "Copland, Aaron",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 10
+    "concertCount": 12
   },
   {
     "slug": "corelli-arcangelo",
@@ -312,7 +312,7 @@
     "title": "Debussy, Claude",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 3
+    "concertCount": 5
   },
   {
     "slug": "delius-frederick",
@@ -330,7 +330,7 @@
     "title": "Dvorak, Antonin",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 15
+    "concertCount": 16
   },
   {
     "slug": "elgar-edward",
@@ -364,6 +364,15 @@
     "type": "composer",
     "path": "Composers/Faure, Gabriel.md",
     "title": "Faure, Gabriel",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "frank-gabriel-lena",
+    "type": "composer",
+    "path": "Composers/Frank, Gabriel Lena.md",
+    "title": "Frank, Gabriel Lena",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
@@ -708,7 +717,7 @@
     "title": "Mendelssohn, Felix",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 5
+    "concertCount": 6
   },
   {
     "slug": "moncayo-jose-pablo",
@@ -729,6 +738,15 @@
     "concertCount": 1
   },
   {
+    "slug": "morse-audrey",
+    "type": "composer",
+    "path": "Composers/Morse, Audrey.md",
+    "title": "Morse, Audrey",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
     "slug": "mozart-leopold",
     "type": "composer",
     "path": "Composers/Mozart, Leopold.md",
@@ -744,7 +762,7 @@
     "title": "Mozart, Wolfgang Amadeus",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 19
+    "concertCount": 20
   },
   {
     "slug": "mussorgsky-modest",
@@ -834,7 +852,7 @@
     "title": "Rachmaninoff, Sergei",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 0
+    "concertCount": 2
   },
   {
     "slug": "ravel-maurice",
@@ -843,7 +861,7 @@
     "title": "Ravel, Maurice",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 2
+    "concertCount": 3
   },
   {
     "slug": "reinecke-carl",
@@ -942,7 +960,7 @@
     "title": "Saint-Saens, Camille",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 5
+    "concertCount": 6
   },
   {
     "slug": "sankey-stuart",
@@ -960,7 +978,7 @@
     "title": "Schumann, Robert",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 3
+    "concertCount": 4
   },
   {
     "slug": "shchedrin-rodion",
@@ -987,7 +1005,7 @@
     "title": "Shostakovich, Dmitri",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 4
+    "concertCount": 6
   },
   {
     "slug": "sibelius-jean",
@@ -996,7 +1014,7 @@
     "title": "Sibelius, Jean",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 16
+    "concertCount": 17
   },
   {
     "slug": "silvestri-alan",
@@ -1024,6 +1042,15 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
+  },
+  {
+    "slug": "sowande-fela",
+    "type": "composer",
+    "path": "Composers/Sowande, Fela.md",
+    "title": "Sowande, Fela",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
   },
   {
     "slug": "still-william-grant",
@@ -1059,7 +1086,7 @@
     "title": "Strauss, Richard",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 0
+    "concertCount": 1
   },
   {
     "slug": "stravinsky-igor",
@@ -1131,7 +1158,7 @@
     "title": "Wagner, Richard",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 3
+    "concertCount": 4
   },
   {
     "slug": "waldteufel-emile",
@@ -1141,6 +1168,15 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
+  },
+  {
+    "slug": "walton-william",
+    "type": "composer",
+    "path": "Composers/Walton, William.md",
+    "title": "Walton, William",
+    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 0
   },
   {
     "slug": "weber-andrew-lloyd",
@@ -1221,7 +1257,7 @@
     "title": "de Falla, Manuel",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 0
+    "concertCount": 2
   },
   {
     "slug": "von-suppe-franz",

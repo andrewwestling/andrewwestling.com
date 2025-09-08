@@ -33,7 +33,7 @@
               "composer": "Beethoven, Ludwig van",
               "catalogue": "Op. 67"
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": false
           },
           "movements": [
@@ -347,7 +347,7 @@
               "composer": "Beethoven, Ludwig van",
               "catalogue": "Op. 67"
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": false
           },
           "movements": [
@@ -659,7 +659,7 @@
               "composer": "Shostakovich, Dmitri",
               "catalogue": "96"
             },
-            "concertCount": 2,
+            "concertCount": 3,
             "bucketList": false
           }
         },
@@ -736,7 +736,7 @@
               "composer": "Shostakovich, Dmitri",
               "catalogue": "96"
             },
-            "concertCount": 2,
+            "concertCount": 3,
             "bucketList": false
           }
         },
@@ -945,7 +945,7 @@
       "works": [
         "Vivaldi - Concerto for Four Violins in B Minor",
         "Nielsen - Little Suite",
-        "Mozart - Symphony No. 39 in E Flat Major"
+        "Mozart - Symphony No. 39 in E-Flat Major"
       ],
       "conductor": [
         "William Hunt"
@@ -1004,8 +1004,8 @@
           "work": {
             "slug": "mozart-symphony-no-39-in-e-flat-major",
             "type": "work",
-            "path": "Works/Mozart - Symphony No. 39 in E Flat Major.md",
-            "title": "Mozart - Symphony No. 39 in E Flat Major",
+            "path": "Works/Mozart - Symphony No. 39 in E-Flat Major.md",
+            "title": "Mozart - Symphony No. 39 in E-Flat Major",
             "content": "## Movements\n\n1. Adagio - Allegro\n2. Andante con moto\n3. Menuetto: Allegretto - Trio\n4. Finale: Allegro",
             "frontmatter": {
               "composer": "Mozart, Wolfgang Amadeus",
@@ -5049,7 +5049,7 @@
             "bucketList": false
           },
           "movements": [
-            "I. Allegro non troops"
+            "I. Allegro non troppo"
           ]
         }
       ]
@@ -5102,7 +5102,7 @@
       "date": "2018-09-20T19:00:00.000Z",
       "group": "Bantam Studios",
       "works": [
-        "Dvorak - String Quintet No. 3 in E Flat Major"
+        "Dvorak - String Quintet No. 3 in E-Flat Major"
       ],
       "conductor": [
         "Caleigh Drane"
@@ -5115,8 +5115,8 @@
           "work": {
             "slug": "dvorak-string-quintet-no-3-in-e-flat-major",
             "type": "work",
-            "path": "Works/Dvorak - String Quintet No. 3 in E Flat Major.md",
-            "title": "Dvorak - String Quintet No. 3 in E Flat Major",
+            "path": "Works/Dvorak - String Quintet No. 3 in E-Flat Major.md",
+            "title": "Dvorak - String Quintet No. 3 in E-Flat Major",
             "content": "",
             "frontmatter": {
               "composer": "Dvorak, Antonin",
@@ -6688,7 +6688,7 @@
               "composer": "Beethoven, Ludwig van",
               "catalogue": "Op. 67"
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": false
           },
           "movements": [
@@ -7190,7 +7190,7 @@
               "composer": "Copland, Aaron",
               "catalogue": ""
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": true
           }
         },
@@ -7616,7 +7616,7 @@
               "composer": "Copland, Aaron",
               "catalogue": ""
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": true
           }
         },
@@ -8418,7 +8418,7 @@
               "composer": "Sibelius, Jean",
               "catalogue": "Op. 47"
             },
-            "concertCount": 1,
+            "concertCount": 2,
             "bucketList": false
           },
           "movements": [
@@ -8970,7 +8970,7 @@
               "composer": "Dvorak, Antonin",
               "catalogue": "Op. 95"
             },
-            "concertCount": 1,
+            "concertCount": 2,
             "bucketList": false
           },
           "movements": [
@@ -10361,7 +10361,7 @@
               "composer": "Copland, Aaron",
               "catalogue": ""
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": true
           }
         },
@@ -10661,6 +10661,752 @@
             "III. Scherzo: Pizzicato ostinato – Allegro",
             "IV. Finale: Allegro con fuoco"
           ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202510051500",
+    "type": "concert",
+    "path": "Concerts/2025/202510051500 Concert - Greenwich Village Orchestra (Time and Place).md",
+    "title": "202510051500 Concert - Greenwich Village Orchestra (Time and Place)",
+    "content": "",
+    "frontmatter": {
+      "date": "2025-10-05T15:00:00.000Z",
+      "group": "Greenwich Village Orchestra",
+      "works": [
+        "Copland - Quiet City",
+        "Barber - Knoxville - Summer of 1915",
+        "Schumann - Symphony No. 3 in E-Flat Major, \"Rhenish\""
+      ],
+      "conductor": [
+        "Barbara Yahr"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1LUEf0PZhI7JiJEIHUoDEB?si=6f0b7694337442cf",
+      "venue": "High School of Fashion Industries",
+      "season": "2025-2026",
+      "ticketUrl": "https://greenwich-village-orchestra.square.site/product/time-place/6IE6LXF2LIL2374WDLP3KU2C",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "copland-quiet-city",
+            "type": "work",
+            "path": "Works/Copland - Quiet City.md",
+            "title": "Copland - Quiet City",
+            "content": "",
+            "frontmatter": {
+              "composer": "Copland, Aaron",
+              "catalogue": ""
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Jacob Slattery, english horn",
+            "Steve Miller, trumpet"
+          ]
+        },
+        {
+          "work": {
+            "slug": "barber-knoxville-summer-of-1915",
+            "type": "work",
+            "path": "Works/Barber - Knoxville - Summer of 1915.md",
+            "title": "Barber - Knoxville - Summer of 1915",
+            "content": "",
+            "frontmatter": {
+              "composer": "Barber, Samuel",
+              "catalogue": "24",
+              "displayName": "Knoxville: Summer of 1915"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Jasmine Ward, soprano"
+          ]
+        },
+        {
+          "work": {
+            "slug": "schumann-symphony-no-3-in-e-flat-major-rhenish",
+            "type": "work",
+            "path": "Works/Schumann - Symphony No. 3 in E-Flat Major, \"Rhenish\".md",
+            "title": "Schumann - Symphony No. 3 in E-Flat Major, \"Rhenish\"",
+            "content": "## Movements\n1. Lebhaft\n2. Scherzo: Sehr mäßig\n3. Nicht schnell\n4. Feierlich\n5. Lebhaft",
+            "frontmatter": {
+              "composer": "Schumann, Robert",
+              "catalogue": "97"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Lebhaft",
+            "II. Scherzo: Sehr mäßig",
+            "III. Nicht schnell",
+            "IV. Feierlich",
+            "V. Lebhaft"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202511161500",
+    "type": "concert",
+    "path": "Concerts/2025/202511161500 Concert - Greenwich Village Orchestra (Fixations).md",
+    "title": "202511161500 Concert - Greenwich Village Orchestra (Fixations)",
+    "content": "",
+    "frontmatter": {
+      "date": "2025-11-16T15:00:00.000Z",
+      "group": "Greenwich Village Orchestra",
+      "works": [
+        "Debussy - Prelude to the Afternoon of a Faun",
+        "Shostakovich - Cello Concerto No. 1 in E-Flat Major",
+        "Berlioz - Symphonie Fantastique"
+      ],
+      "conductor": [
+        "Barbara Yahr"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/7AYkJWz8korQysvYS5NKDM?si=ff2eb916aca74e8d",
+      "venue": "High School of Fashion Industries",
+      "season": "2025-2026",
+      "ticketUrl": "https://greenwich-village-orchestra.square.site/product/fixations/I5SDHWFJJAWFAVOWM7PQIWFS",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "debussy-prelude-to-the-afternoon-of-a-faun",
+            "type": "work",
+            "path": "Works/Debussy - Prelude to the Afternoon of a Faun.md",
+            "title": "Debussy - Prelude to the Afternoon of a Faun",
+            "content": "",
+            "frontmatter": {
+              "composer": "Debussy, Claude",
+              "catalogue": "L. 86",
+              "displayName": "Prélude à l’Après-midi d’un faune"
+            },
+            "concertCount": 2,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "shostakovich-cello-concerto-no-1-in-e-flat-major",
+            "type": "work",
+            "path": "Works/Shostakovich - Cello Concerto No. 1 in E-Flat Major.md",
+            "title": "Shostakovich - Cello Concerto No. 1 in E-Flat Major",
+            "content": "## Movements\n1. Allegretto\n2. Moderato\n3. Cadenza (attacca)\n4. Allegro con moto",
+            "frontmatter": {
+              "composer": "Shostakovich, Dmitri",
+              "catalogue": "107"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Allegretto",
+            "II. Moderato",
+            "III. Cadenza (attacca)",
+            "IV. Allegro con moto"
+          ],
+          "soloists": [
+            "Ari Evan, cello"
+          ]
+        },
+        {
+          "work": {
+            "slug": "berlioz-symphonie-fantastique",
+            "type": "work",
+            "path": "Works/Berlioz - Symphonie Fantastique.md",
+            "title": "Berlioz - Symphonie Fantastique",
+            "content": "## Movements\n1. \"Rêveries – Passions\" (Daydreams – passions)\n2. \"Un bal\" (A ball)\n3. \"Scène aux champs\" (Scene in the country)\n4. \"Marche au supplice\" (March to the scaffold)\n5. \"Songe d'une nuit du sabbat\" (Dream of a night of the sabbath)",
+            "frontmatter": {
+              "composer": "Berlioz, Hector",
+              "catalogue": "14"
+            },
+            "concertCount": 1,
+            "bucketList": true
+          },
+          "movements": [
+            "I. \"Rêveries – Passions\" (Daydreams – passions)",
+            "II. \"Un bal\" (A ball)",
+            "III. \"Scène aux champs\" (Scene in the country)",
+            "IV. \"Marche au supplice\" (March to the scaffold)",
+            "V. \"Songe d'une nuit du sabbat\" (Dream of a night of the sabbath)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202512141400",
+    "type": "concert",
+    "path": "Concerts/2025/202512141400 Concert - Brooklyn Symphony Orchestra (Shostakovich, Frank, Beethoven).md",
+    "title": "202512141400 Concert - Brooklyn Symphony Orchestra (Shostakovich, Frank, Beethoven)",
+    "content": "",
+    "frontmatter": {
+      "date": "2025-12-14T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "works": [
+        "Shostakovich - Festive Overture",
+        "Frank - Three Latin American Dances",
+        "Beethoven - Symphony No. 5 in C Minor"
+      ],
+      "conductor": [
+        "Felipe Tristan"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2SSj7crahXLVsI1QiM4hH5?si=1e6c16d823754971",
+      "venue": "Brooklyn Museum",
+      "season": "2025-2026",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "shostakovich-festive-overture",
+            "type": "work",
+            "path": "Works/Shostakovich - Festive Overture.md",
+            "title": "Shostakovich - Festive Overture",
+            "content": "",
+            "frontmatter": {
+              "composer": "Shostakovich, Dmitri",
+              "catalogue": "96"
+            },
+            "concertCount": 3,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "frank-three-latin-american-dances",
+            "type": "work",
+            "path": "Works/Frank - Three Latin American Dances.md",
+            "title": "Frank - Three Latin American Dances",
+            "content": "",
+            "frontmatter": {
+              "composer": "Frank, Gabriel Lena",
+              "catalogue": ""
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "beethoven-symphony-no-5-in-c-minor",
+            "type": "work",
+            "path": "Works/Beethoven - Symphony No. 5 in C Minor.md",
+            "title": "Beethoven - Symphony No. 5 in C Minor",
+            "content": "## Movements\n1. Allegro con brio\n2. Andante con moto\n3. Scherzo: Allegro\n4. Allegro – Presto",
+            "frontmatter": {
+              "composer": "Beethoven, Ludwig van",
+              "catalogue": "Op. 67"
+            },
+            "concertCount": 4,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Allegro con brio",
+            "II. Andante con moto",
+            "III. Scherzo: Allegro",
+            "IV. Allegro – Presto"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202602081500",
+    "type": "concert",
+    "path": "Concerts/2026/202602081500 Concert - Greenwich Village Orchestra (Lyrical).md",
+    "title": "202602081500 Concert - Greenwich Village Orchestra (Lyrical)",
+    "content": "",
+    "frontmatter": {
+      "date": "2026-02-08T15:00:00.000Z",
+      "group": "Greenwich Village Orchestra",
+      "works": [
+        "Sibelius - Violin Concerto",
+        "Rachmaninoff - Symphony No. 2 in E Minor"
+      ],
+      "conductor": [
+        "Barbara Yahr"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1RgrR9rNm3WLGkU5UWLdZP?si=40dbe0fb84d54d7d",
+      "venue": "High School of Fashion Industries",
+      "season": "2025-2026",
+      "ticketUrl": "https://greenwich-village-orchestra.square.site/product/lyrical/WHFTOM5UZVKQUUDF36DOTU5X?cp=true&sa=false&sbp=false&q=false&category_id=PVL3LDOH42ZD5VMATE7TR32U",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "sibelius-violin-concerto",
+            "type": "work",
+            "path": "Works/Sibelius - Violin Concerto.md",
+            "title": "Sibelius - Violin Concerto",
+            "content": "## Movements\n1. Allegro moderato\n2. Adagio di molto\n3. Allegro, ma non tanto",
+            "frontmatter": {
+              "composer": "Sibelius, Jean",
+              "catalogue": "Op. 47"
+            },
+            "concertCount": 2,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Allegro moderato",
+            "II. Adagio di molto",
+            "III. Allegro, ma non tanto"
+          ],
+          "soloists": [
+            "Laurel Gagnon, violin"
+          ]
+        },
+        {
+          "work": {
+            "slug": "rachmaninoff-symphony-no-2-in-e-minor",
+            "type": "work",
+            "path": "Works/Rachmaninoff - Symphony No. 2 in E Minor.md",
+            "title": "Rachmaninoff - Symphony No. 2 in E Minor",
+            "content": "## Movements\n1. Largo – Allegro moderato\n2. Allegro molto\n3. Adagio\n4. Allegro vivace",
+            "frontmatter": {
+              "composer": "Rachmaninoff, Sergei",
+              "catalogue": "27"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Largo – Allegro moderato",
+            "II. Allegro molto",
+            "III. Adagio",
+            "IV. Allegro vivace"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202602151400",
+    "type": "concert",
+    "path": "Concerts/2026/202602151400 Concert - Brooklyn Symphony Orchestra (De Falla and Dvorak).md",
+    "title": "202602151400 Concert - Brooklyn Symphony Orchestra (De Falla and Dvorak)",
+    "content": "",
+    "frontmatter": {
+      "date": "2026-02-15T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "works": [
+        "de Falla - Suite No. 1 from \"The Three Cornered Hat\"",
+        "de Falla - Suite No. 2 from \"The Three Cornered Hat\"",
+        "Dvorak - Symphony No. 9 in E Minor"
+      ],
+      "conductor": [
+        "Felipe Tristan"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0W5N7HRB5rCGci9Rxn2tUg?si=b23ae92b849f442c",
+      "venue": "Brooklyn Museum",
+      "season": "2025-2026",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "de-falla-suite-no-1-from-the-three-cornered-hat",
+            "type": "work",
+            "path": "Works/de Falla - Suite No. 1 from \"The Three Cornered Hat\".md",
+            "title": "de Falla - Suite No. 1 from \"The Three Cornered Hat\"",
+            "content": "## Movements\n1. Mediodia (Afternoon) \n2. Danza de la molinera (Dance of the Miller's Wife) \n3. El Corregidor (The Corregidor)\n4. Las uvas (The Grapes)",
+            "frontmatter": {
+              "composer": "de Falla, Manuel",
+              "catalogue": ""
+            },
+            "concertCount": 1,
+            "bucketList": true
+          },
+          "movements": [
+            "I. Mediodia (Afternoon)",
+            "II. Danza de la molinera (Dance of the Miller's Wife)",
+            "III. El Corregidor (The Corregidor)",
+            "IV. Las uvas (The Grapes)"
+          ]
+        },
+        {
+          "work": {
+            "slug": "de-falla-suite-no-2-from-the-three-cornered-hat",
+            "type": "work",
+            "path": "Works/de Falla - Suite No. 2 from \"The Three Cornered Hat\".md",
+            "title": "de Falla - Suite No. 2 from \"The Three Cornered Hat\"",
+            "content": "## Movements\n1. Los vecinos\n2. Danza del molinero (Farruca)\n3. Danza final",
+            "frontmatter": {
+              "composer": "de Falla, Manuel",
+              "catalogue": ""
+            },
+            "concertCount": 1,
+            "bucketList": true
+          },
+          "movements": [
+            "I. Los vecinos",
+            "II. Danza del molinero (Farruca)",
+            "III. Danza final"
+          ]
+        },
+        {
+          "work": {
+            "slug": "dvorak-symphony-no-9-in-e-minor",
+            "type": "work",
+            "path": "Works/Dvorak - Symphony No. 9 in E Minor.md",
+            "title": "Dvorak - Symphony No. 9 in E Minor",
+            "content": "## Movements\n1. Adagio – Allegro molto\n2. Largo\n3. Scherzo: Molto vivace\n4. Allegro con fuoco",
+            "frontmatter": {
+              "composer": "Dvorak, Antonin",
+              "catalogue": "Op. 95"
+            },
+            "concertCount": 2,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Adagio – Allegro molto",
+            "II. Largo",
+            "III. Scherzo: Molto vivace",
+            "IV. Allegro con fuoco"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202603221500",
+    "type": "concert",
+    "path": "Concerts/2026/202603221500 Concert - Greenwich Village Orchestra (Pranks and Pastorales).md",
+    "title": "202603221500 Concert - Greenwich Village Orchestra (Pranks and Pastorales)",
+    "content": "",
+    "frontmatter": {
+      "date": "2026-03-22T15:00:00.000Z",
+      "group": "Greenwich Village Orchestra",
+      "works": [
+        "Mozart - Piano Concerto No. 27 in B-Flat Major",
+        "Wagner - Siegfried Idyll",
+        "Strauss - Till Eulenspiegel's Merry Pranks"
+      ],
+      "conductor": [
+        "Barbara Yahr"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0TSc0Ew8SKvRrgKztBXqzR?si=2f3def57f1ed4b0f",
+      "venue": "High School of Fashion Industries",
+      "season": "2025-2026",
+      "ticketUrl": "https://greenwich-village-orchestra.square.site/product/pranks-pastorales/HAPVKGN2YADSSBREWN6RSGWN",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "mozart-piano-concerto-no-27-in-b-flat-major",
+            "type": "work",
+            "path": "Works/Mozart - Piano Concerto No. 27 in B-Flat Major.md",
+            "title": "Mozart - Piano Concerto No. 27 in B-Flat Major",
+            "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro",
+            "frontmatter": {
+              "composer": "Mozart, Wolfgang Amadeus",
+              "catalogue": "K. 595"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Allegro",
+            "II. Larghetto",
+            "III. Allegro"
+          ],
+          "soloists": [
+            "David Kaplan, piano"
+          ]
+        },
+        {
+          "work": {
+            "slug": "wagner-siegfried-idyll",
+            "type": "work",
+            "path": "Works/Wagner - Siegfried Idyll.md",
+            "title": "Wagner - Siegfried Idyll",
+            "content": "",
+            "frontmatter": {
+              "composer": "Wagner, Richard",
+              "catalogue": "WWV 103"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "conductor": "Christian Olson"
+        },
+        {
+          "work": {
+            "slug": "strauss-till-eulenspiegel-s-merry-pranks",
+            "type": "work",
+            "path": "Works/Strauss - Till Eulenspiegel's Merry Pranks.md",
+            "title": "Strauss - Till Eulenspiegel's Merry Pranks",
+            "content": "",
+            "frontmatter": {
+              "composer": "Strauss, Richard",
+              "catalogue": "28"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202604261400",
+    "type": "concert",
+    "path": "Concerts/2026/202604261400 Concert - Brooklyn Symphony Orchestra (Meehae Ryo Plays Saint-Saens).md",
+    "title": "202604261400 Concert - Brooklyn Symphony Orchestra (Meehae Ryo Plays Saint-Saens)",
+    "content": "",
+    "frontmatter": {
+      "date": "2026-04-26T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "works": [
+        "Beethoven - Coriolan Overture",
+        "Saint-Saens - Cello Concerto No. 1 in A Minor",
+        "Mendelssohn - Symphony No. 4 in A Major, \"Italian\""
+      ],
+      "conductor": [
+        "Felipe Tristan"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1kdZfEnGPQ6zOVTpGdnm2H?si=c67ab6d6c1694b94",
+      "venue": "Brooklyn Museum",
+      "season": "2025-2026",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "beethoven-coriolan-overture",
+            "type": "work",
+            "path": "Works/Beethoven - Coriolan Overture.md",
+            "title": "Beethoven - Coriolan Overture",
+            "content": "",
+            "frontmatter": {
+              "composer": "Beethoven, Ludwig van",
+              "catalogue": "62"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "saint-saens-cello-concerto-no-1-in-a-minor",
+            "type": "work",
+            "path": "Works/Saint-Saens - Cello Concerto No. 1 in A Minor.md",
+            "title": "Saint-Saens - Cello Concerto No. 1 in A Minor",
+            "content": "## Movements\n1. Allegro non troppo\n2. Allegretto con moto\n3. Tempo primo",
+            "frontmatter": {
+              "composer": "Saint-Saens, Camille",
+              "catalogue": "33"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Allegro non troppo",
+            "II. Allegretto con moto",
+            "III. Tempo primo"
+          ],
+          "soloists": [
+            "Meehae Ryo, cello"
+          ]
+        },
+        {
+          "work": {
+            "slug": "mendelssohn-symphony-no-4-in-a-major-italian",
+            "type": "work",
+            "path": "Works/Mendelssohn - Symphony No. 4 in A Major, \"Italian\".md",
+            "title": "Mendelssohn - Symphony No. 4 in A Major, \"Italian\"",
+            "content": "## Movements\n1. Allegro vivace\n2. Andante con moto\n3. Con moto moderato\n4. Presto and finale: Saltarello",
+            "frontmatter": {
+              "composer": "Mendelssohn, Felix",
+              "catalogue": "90"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Allegro vivace",
+            "II. Andante con moto",
+            "III. Con moto moderato",
+            "IV. Presto and finale: Saltarello"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202605041500",
+    "type": "concert",
+    "path": "Concerts/2026/202605041500 Concert - Greenwich Village Orchestra (Rituals and Renewals).md",
+    "title": "202605041500 Concert - Greenwich Village Orchestra (Rituals and Renewals)",
+    "content": "",
+    "frontmatter": {
+      "date": "2026-05-04T15:00:00.000Z",
+      "group": "Greenwich Village Orchestra",
+      "works": [
+        "Chabrier - Espana",
+        "de Falla - Suite from El amor brujo",
+        "Morse - Reconciliation",
+        "Copland - Appalachian Spring"
+      ],
+      "conductor": [
+        "Barbara Yahr"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0zYgUjeE6ocxFl9sQF8FrQ?si=5f63100c4eb745ca",
+      "venue": "High School of Fashion Industries",
+      "season": "2025-2026",
+      "ticketUrl": "https://greenwich-village-orchestra.square.site/product/rituals-renewals/SSYUMFQYXIZZFU5NUB4FROPM",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "chabrier-espana",
+            "type": "work",
+            "path": "Works/Chabrier - Espana.md",
+            "title": "Chabrier - Espana",
+            "content": "",
+            "frontmatter": {
+              "composer": "Chabrier, Emmanuel",
+              "catalogue": "",
+              "displayName": "España"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "de-falla-suite-from-el-amor-brujo",
+            "type": "work",
+            "path": "Works/de Falla - Suite from El amor brujo.md",
+            "title": "de Falla - Suite from El amor brujo",
+            "content": "",
+            "frontmatter": {
+              "composer": "de Falla, Manuel",
+              "catalogue": ""
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "morse-reconciliation",
+            "type": "work",
+            "path": "Works/Morse - Reconciliation.md",
+            "title": "Morse - Reconciliation",
+            "content": "",
+            "frontmatter": {
+              "composer": "Morse, Audrey",
+              "catalogue": ""
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "copland-appalachian-spring",
+            "type": "work",
+            "path": "Works/Copland - Appalachian Spring.md",
+            "title": "Copland - Appalachian Spring",
+            "content": "",
+            "frontmatter": {
+              "composer": "Copland, Aaron",
+              "catalogue": ""
+            },
+            "concertCount": 4,
+            "bucketList": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202606141400",
+    "type": "concert",
+    "path": "Concerts/2026/202606141400 Concert - Brooklyn Symphony Orchestra (Impressions in Color & Light — Debussy, Ravel, Rachmaninoff, Respighi).md",
+    "title": "202606141400 Concert - Brooklyn Symphony Orchestra (Impressions in Color & Light — Debussy, Ravel, Rachmaninoff, Respighi)",
+    "content": "",
+    "frontmatter": {
+      "date": "2026-06-14T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "works": [
+        "Debussy - Prelude to the Afternoon of a Faun",
+        "Debussy - Danse sacrée et danse profane",
+        "Rachmaninoff - 5 Etudes-Tableaux (arr. Respighi)",
+        "Ravel - Bolero"
+      ],
+      "conductor": [
+        "Felipe Tristan"
+      ],
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/08KTRzkSHK0CUTEaQXZ7t3?si=7e1428dd31bd46c6",
+      "venue": "Brooklyn Museum",
+      "season": "2025-2026",
+      "programDetails": [
+        {
+          "work": {
+            "slug": "debussy-prelude-to-the-afternoon-of-a-faun",
+            "type": "work",
+            "path": "Works/Debussy - Prelude to the Afternoon of a Faun.md",
+            "title": "Debussy - Prelude to the Afternoon of a Faun",
+            "content": "",
+            "frontmatter": {
+              "composer": "Debussy, Claude",
+              "catalogue": "L. 86",
+              "displayName": "Prélude à l’Après-midi d’un faune"
+            },
+            "concertCount": 2,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "debussy-danse-sacr-e-et-danse-profane",
+            "type": "work",
+            "path": "Works/Debussy - Danse sacrée et danse profane.md",
+            "title": "Debussy - Danse sacrée et danse profane",
+            "content": "",
+            "frontmatter": {
+              "composer": "Debussy, Claude",
+              "catalogue": "L. 103"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Margery Fitts, harp"
+          ]
+        },
+        {
+          "work": {
+            "slug": "rachmaninoff-5-etudes-tableaux-arr-respighi",
+            "type": "work",
+            "path": "Works/Rachmaninoff - 5 Etudes-Tableaux (arr. Respighi).md",
+            "title": "Rachmaninoff - 5 Etudes-Tableaux (arr. Respighi)",
+            "content": "## Movements\n1. Op. 39 No. 2: La mer et les mouettes (The sea and the seagulls)\n2. Op. 33 No 7: La foire (The fair)\n3. Op. 39 No. 7: Marche funèbre (Funeral march)\n4. Op. 39 No. 6: Le Chaperon rouge et le loup (Little Red Riding Hood and the wolf)\n5. Op. 39 No. 9: Marche (March)",
+            "frontmatter": {
+              "composer": "Rachmaninoff, Sergei",
+              "catalogue": "Op. 33 & Op. 39"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Op. 39 No. 2: La mer et les mouettes (The sea and the seagulls)",
+            "II. Op. 33 No 7: La foire (The fair)",
+            "III. Op. 39 No. 7: Marche funèbre (Funeral march)",
+            "IV. Op. 39 No. 6: Le Chaperon rouge et le loup (Little Red Riding Hood and the wolf)",
+            "V. Op. 39 No. 9: Marche (March)"
+          ]
+        },
+        {
+          "work": {
+            "slug": "ravel-bolero",
+            "type": "work",
+            "path": "Works/Ravel - Bolero.md",
+            "title": "Ravel - Bolero",
+            "content": "",
+            "frontmatter": {
+              "composer": "Ravel, Maurice",
+              "catalogue": "M. 81"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
         }
       ]
     }

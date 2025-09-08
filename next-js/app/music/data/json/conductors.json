@@ -24,7 +24,7 @@
     "title": "Barbara Yahr",
     "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 20
+    "concertCount": 25
   },
   {
     "slug": "bryan-dunnewald",
@@ -168,7 +168,7 @@
     "title": "Felipe Tristan",
     "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 8
+    "concertCount": 12
   },
   {
     "slug": "guillaume-pirard",

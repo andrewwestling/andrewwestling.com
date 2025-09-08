@@ -647,5 +647,53 @@
       "puccini-turandot",
       "tchaikovsky-symphony-no-4-in-f-minor"
     ]
+  },
+  {
+    "slug": "2025-2026",
+    "type": "season",
+    "path": "Seasons/2025-2026.md",
+    "title": "2025-2026",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "frontmatter": {},
+    "concertSlugs": [
+      "202510051500",
+      "202511161500",
+      "202512141400",
+      "202602081500",
+      "202602151400",
+      "202603221500",
+      "202604261400",
+      "202605041500",
+      "202606141400"
+    ],
+    "workSlugs": [
+      "copland-quiet-city",
+      "barber-knoxville-summer-of-1915",
+      "schumann-symphony-no-3-in-e-flat-major-rhenish",
+      "debussy-prelude-to-the-afternoon-of-a-faun",
+      "shostakovich-cello-concerto-no-1-in-e-flat-major",
+      "berlioz-symphonie-fantastique",
+      "shostakovich-festive-overture",
+      "frank-three-latin-american-dances",
+      "beethoven-symphony-no-5-in-c-minor",
+      "sibelius-violin-concerto",
+      "rachmaninoff-symphony-no-2-in-e-minor",
+      "de-falla-suite-no-1-from-the-three-cornered-hat",
+      "de-falla-suite-no-2-from-the-three-cornered-hat",
+      "dvorak-symphony-no-9-in-e-minor",
+      "mozart-piano-concerto-no-27-in-b-flat-major",
+      "wagner-siegfried-idyll",
+      "strauss-till-eulenspiegel-s-merry-pranks",
+      "beethoven-coriolan-overture",
+      "saint-saens-cello-concerto-no-1-in-a-minor",
+      "mendelssohn-symphony-no-4-in-a-major-italian",
+      "chabrier-espana",
+      "de-falla-suite-from-el-amor-brujo",
+      "morse-reconciliation",
+      "copland-appalachian-spring",
+      "debussy-danse-sacr-e-et-danse-profane",
+      "rachmaninoff-5-etudes-tableaux-arr-respighi",
+      "ravel-bolero"
+    ]
   }
 ]
