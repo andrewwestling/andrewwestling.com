@@ -1137,6 +1137,19 @@
     "bucketList": false
   },
   {
+    "slug": "dvorak-in-nature-s-realm",
+    "type": "work",
+    "path": "Works/Dvorak - In Nature's Realm.md",
+    "title": "Dvorak - In Nature's Realm",
+    "content": "",
+    "frontmatter": {
+      "composer": "Dvorak, Antonin",
+      "catalogue": "91"
+    },
+    "concertCount": 0,
+    "bucketList": true
+  },
+  {
     "slug": "dvorak-nocturne-in-b-major",
     "type": "work",
     "path": "Works/Dvorak - Nocturne in B Major.md",
@@ -1343,6 +1356,19 @@
     },
     "concertCount": 1,
     "bucketList": false
+  },
+  {
+    "slug": "faure-masques-et-bergamasques",
+    "type": "work",
+    "path": "Works/Faure - Masques et Bergamasques.md",
+    "title": "Faure - Masques et Bergamasques",
+    "content": "## Movements\n1. Overture: Allegro molto vivo\n2. Menuet: Tempo di minuetto \n3. Gavotte: Allegro vivo\n4. Pastorale: Andantino tranquillo",
+    "frontmatter": {
+      "composer": "Faure, Gabriel",
+      "catalogue": "112"
+    },
+    "concertCount": 0,
+    "bucketList": true
   },
   {
     "slug": "faure-pavane",
@@ -3143,6 +3169,19 @@
     },
     "concertCount": 3,
     "bucketList": false
+  },
+  {
+    "slug": "shostakovich-overture-on-russian-and-kirghiz-themes",
+    "type": "work",
+    "path": "Works/Shostakovich - Overture on Russian and Kirghiz Themes.md",
+    "title": "Shostakovich - Overture on Russian and Kirghiz Themes",
+    "content": "",
+    "frontmatter": {
+      "composer": "Shostakovich, Dmitri",
+      "catalogue": "115"
+    },
+    "concertCount": 0,
+    "bucketList": true
   },
   {
     "slug": "shostakovich-symphony-no-5",
