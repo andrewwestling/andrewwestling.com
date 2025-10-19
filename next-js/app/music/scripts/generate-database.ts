@@ -676,6 +676,43 @@ async function generateDatabase({
   processSeasons(database as unknown as Database);
   processBucketList(database as unknown as Database, vaultPath);
 
+  // Filter out composers who have zero works or whose works only appear on DNP concerts
+  {
+    const typedDb = database as unknown as Database;
+
+    // Build a set of work titles that appear on non-DNP concerts
+    const performedWorkTitles = new Set<string>();
+    const nonDnpConcerts = (typedDb.concert as Concert[]).filter(
+      (c) => !c.frontmatter.didNotPlay
+    );
+    for (const concert of nonDnpConcerts) {
+      const worksForConcert = concert.frontmatter.works;
+      if (Array.isArray(worksForConcert)) {
+        for (const workTitle of worksForConcert) {
+          if (workTitle) performedWorkTitles.add(workTitle);
+        }
+      } else if (typeof worksForConcert === "string" && worksForConcert) {
+        performedWorkTitles.add(worksForConcert);
+      }
+    }
+
+    // Keep only composers with at least one work, and at least one of those works performed on a non-DNP concert
+    // OR at least one work on the bucket list
+    typedDb.composer = typedDb.composer.filter((composer) => {
+      const worksByComposer = (typedDb.work as Work[]).filter(
+        (w) => w.frontmatter.composer === composer.title
+      );
+      if (worksByComposer.length === 0) return false;
+      const hasPerformedWork = worksByComposer.some((w) =>
+        performedWorkTitles.has(w.title)
+      );
+      const hasBucketListWork = worksByComposer.some(
+        (w) => w.bucketList === true
+      );
+      return hasPerformedWork || hasBucketListWork;
+    });
+  }
+
   // Create the output directory
   const outputDir = path.resolve(__dirname, "../data/json");
   await fs.mkdir(outputDir, { recursive: true });
