@@ -807,7 +807,7 @@
     "title": "Paganini, Niccolo",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 0
+    "concertCount": 1
   },
   {
     "slug": "pergolesi-giovanni-battista",
