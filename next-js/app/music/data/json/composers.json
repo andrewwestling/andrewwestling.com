@@ -27,15 +27,6 @@
     "concertCount": 2
   },
   {
-    "slug": "bach-carl-philipp-emanuel",
-    "type": "composer",
-    "path": "Composers/Bach, Carl Philipp Emanuel.md",
-    "title": "Bach, Carl Philipp Emanuel",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
-  },
-  {
     "slug": "bach-johann-sebastian",
     "type": "composer",
     "path": "Composers/Bach, Johann Sebastian.md",
@@ -88,15 +79,6 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
-  },
-  {
-    "slug": "beach-amy",
-    "type": "composer",
-    "path": "Composers/Beach, Amy.md",
-    "title": "Beach, Amy",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
   },
   {
     "slug": "beethoven-ludwig-van",
@@ -187,15 +169,6 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 18
-  },
-  {
-    "slug": "bridge-frank",
-    "type": "composer",
-    "path": "Composers/Bridge, Frank.md",
-    "title": "Bridge, Frank",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
   },
   {
     "slug": "britten-benjamin",
@@ -423,15 +396,6 @@
     "concertCount": 1
   },
   {
-    "slug": "glass-philip",
-    "type": "composer",
-    "path": "Composers/Glass, Philip.md",
-    "title": "Glass, Philip",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
-  },
-  {
     "slug": "glazunov-alexander",
     "type": "composer",
     "path": "Composers/Glazunov, Alexander.md",
@@ -648,15 +612,6 @@
     "concertCount": 5
   },
   {
-    "slug": "lully-jean-baptiste",
-    "type": "composer",
-    "path": "Composers/Lully, Jean-Baptiste.md",
-    "title": "Lully, Jean-Baptiste",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
-  },
-  {
     "slug": "lutoslawski-witold",
     "type": "composer",
     "path": "Composers/Lutoslawski, Witold.md",
@@ -810,15 +765,6 @@
     "concertCount": 1
   },
   {
-    "slug": "pergolesi-giovanni-battista",
-    "type": "composer",
-    "path": "Composers/Pergolesi, Giovanni Battista.md",
-    "title": "Pergolesi, Giovanni Battista",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
-  },
-  {
     "slug": "price-florence",
     "type": "composer",
     "path": "Composers/Price, Florence.md",
@@ -936,15 +882,6 @@
     "concertCount": 10
   },
   {
-    "slug": "roussel-albert",
-    "type": "composer",
-    "path": "Composers/Roussel, Albert.md",
-    "title": "Roussel, Albert",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
-  },
-  {
     "slug": "rubenstein-anton",
     "type": "composer",
     "path": "Composers/Rubenstein, Anton.md",
@@ -979,15 +916,6 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 4
-  },
-  {
-    "slug": "shchedrin-rodion",
-    "type": "composer",
-    "path": "Composers/Shchedrin, Rodion.md",
-    "title": "Shchedrin, Rodion",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
   },
   {
     "slug": "shepherd-sean",
@@ -1213,15 +1141,6 @@
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 5
-  },
-  {
-    "slug": "wolf-ferrari-ermanno",
-    "type": "composer",
-    "path": "Composers/Wolf-Ferrari, Ermanno.md",
-    "title": "Wolf-Ferrari, Ermanno",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 0
   },
   {
     "slug": "yarmolinsky-benjamin",
