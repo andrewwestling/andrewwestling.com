@@ -2,7 +2,7 @@ import database from "@music/data/database";
 import {
   getDateFromFrontmatter,
   isUpcoming,
-  isHappeningNow,
+  isToday,
 } from "@music/lib/helpers";
 
 export function getConcerts() {
@@ -55,7 +55,7 @@ export function getUpcomingConcerts() {
   return database.concert
     .filter((concert) => {
       const date = getDateFromFrontmatter(concert);
-      return date ? isUpcoming(concert) || isHappeningNow(concert) : false;
+      return date ? isUpcoming(concert) || isToday(concert) : false;
     })
     .sort((a, b) => {
       const dateA = getDateFromFrontmatter(a);

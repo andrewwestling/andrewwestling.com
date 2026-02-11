@@ -40,7 +40,7 @@ import { SectionHeading } from "@music/components/SectionHeading";
 import { CalendarUrlCopy } from "@music/components/CalendarUrlCopy";
 import { AttendActions } from "@music/components/AttendActions";
 import VenueMap from "@music/components/VenueMap";
-import { HappeningNow } from "@music/components/HappeningNow";
+import { Today } from "@music/components/Today";
 import { ConcertBadges } from "@music/components/ConcertBadges";
 import { BackForwardNavigation } from "@music/components/BackForwardNavigation";
 import { ConcertInfo } from "@music/components/ConcertInfo";
@@ -574,12 +574,12 @@ This is a generic list item component used throughout the music section to displ
       />
     </Variant>
 
-    <Variant label="Concert Example with statsBadges (Happening Now badge)">
+    <Variant label="Concert Example with statsBadges (Today badge)">
       <ListItem
         title="Example Concert"
         href="/music/concerts/example"
         stats={["January 1, 2024"]}
-        statsBadges={[<HappeningNow />]}
+        statsBadges={[<Today />]}
       />
     </Variant>
   </div>
@@ -661,12 +661,12 @@ This badge is used to indicate when I didn't play in a particular concert, or it
 
 ---
 
-### HappeningNow
+### Today
 
-This badge is used to indicate concerts that are currently in progress (within 2 hours of start time).
+This badge is used to indicate concerts happening today.
 
 <ComponentWrapper>
-  <HappeningNow />
+  <Today />
 </ComponentWrapper>
 
 ---
