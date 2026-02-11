@@ -137,23 +137,21 @@ export function isUpcoming(concert: Concert): boolean {
   return now < concertDate;
 }
 
-export function isHappeningNow(concert: Concert): boolean {
+export function isToday(concert: Concert): boolean {
   const venueObj = concert.frontmatter.venue
     ? getVenueByTitle(concert.frontmatter.venue)
     : undefined;
-  const now = DateTime.now();
+  const zone = getVenueTimeZone(venueObj);
+  const now = DateTime.now().setZone(zone);
 
   // Parse the concert date in its local timezone
   const concertDate = DateTime.fromISO(
     concert.frontmatter.date.replace("Z", ""),
-    { zone: getVenueTimeZone(venueObj) }
+    { zone }
   );
 
-  // Add 2 hours to the concert date
-  const concertEndDate = concertDate.plus({ hours: 2 });
-
-  // Concert is happening now if current time is between start and end
-  return now >= concertDate && now <= concertEndDate;
+  // Concert is today if it falls on the same calendar day in the venue's timezone
+  return now.hasSame(concertDate, "day");
 }
 
 export function getCurrentSeasonYear(): number {

@@ -6,11 +6,11 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getUpcomingConcerts } from "@music/data/queries";
-import { getSiteUrl, isHappeningNow } from "@music/lib/helpers";
+import { getSiteUrl, isToday } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
 
-// Make this page dynamic so it will stay up-to-date as concerts happen
-export const dynamic = "force-dynamic";
+// Revalidate once per day (86400 seconds) instead of on every request
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Upcoming Concerts",
@@ -21,9 +21,9 @@ export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();
   const calendarUrl = `${getSiteUrl()}/music/upcoming.ics`;
 
-  // Find the first happening now or upcoming concert
+  // Find the first today or upcoming concert
   const upNext =
-    upcomingConcerts.find((concert) => isHappeningNow(concert)) ||
+    upcomingConcerts.find((concert) => isToday(concert)) ||
     upcomingConcerts[0];
   const laterConcerts = upcomingConcerts.filter(
     (concert) => concert !== upNext
