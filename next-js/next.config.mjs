@@ -1,9 +1,13 @@
+import path from "path";
+import { fileURLToPath } from "url";
 import createMDX from "@next/mdx";
 import autolinkHeadings from "remark-autolink-headings";
 import collapse from "remark-collapse";
 import gfm from "remark-gfm";
 import slug from "remark-slug";
 import toc from "remark-toc";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const autoLinkHeadingsOptions = {
   behavior: "prepend",
@@ -37,6 +41,7 @@ const autoLinkHeadingsOptions = {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "standalone",
+  outputFileTracingRoot: path.resolve(__dirname, "../"),
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   async redirects() {
     return [
