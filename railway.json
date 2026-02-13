@@ -1,0 +1,17 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd tailwind && npm install && cd ../next-js && npm install && npm run build",
+    "watchPatterns": ["/next-js/**", "/tailwind/**"],
+    "nixpacksPlan": {
+      "providers": ["node"]
+    }
+  },
+  "deploy": {
+    "startCommand": "cp -r next-js/public next-js/.next/standalone/next-js/public && cp -r next-js/.next/static next-js/.next/standalone/next-js/.next/static && cd next-js/.next/standalone/next-js && HOSTNAME=0.0.0.0 node server.js",
+    "healthcheckPath": "/",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 3
+  }
+}
