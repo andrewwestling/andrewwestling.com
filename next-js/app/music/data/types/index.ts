@@ -42,6 +42,8 @@ export interface ConcertFrontmatter {
   spotifyPlaylistUrl: string | null;
   venue?: string | null;
   didNotPlay?: boolean;
+  ticketUrl?: string | null;
+  liveStreamUrl?: string | null;
   /** Optional program details for each work */
   programDetails?: ConcertWork[];
   [key: string]: any;

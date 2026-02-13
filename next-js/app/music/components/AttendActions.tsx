@@ -1,6 +1,6 @@
 import { ButtonLink } from "@components/Button";
 import type { Concert } from "@music/data/types";
-import { isUpcoming } from "@music/lib/helpers";
+import { isUpcoming, formatShortDate } from "@music/lib/helpers";
 
 interface AttendActionsProps {
   concert: Concert;
@@ -23,6 +23,19 @@ export const AttendActions = ({ concert }: AttendActionsProps) => {
       {concert.frontmatter.ticketUrl && (
         <ButtonLink icon={"🎟️"} href={concert.frontmatter.ticketUrl} external>
           Buy Tickets
+        </ButtonLink>
+      )}
+      {concert.frontmatter.liveStreamUrl && (
+        <ButtonLink
+          icon={"📺"}
+          href={concert.frontmatter.liveStreamUrl}
+          external
+        >
+          Live Stream{" "}
+          {formatShortDate(
+            concert.frontmatter.date,
+            concert.frontmatter.venue
+          )}
         </ButtonLink>
       )}
     </div>

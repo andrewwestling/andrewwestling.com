@@ -87,6 +87,38 @@ export function formatDate(dateStr: string | undefined): string {
   }
 }
 
+// Helper to format a short date like "2/15 at 2 PM EST"
+export function formatShortDate(
+  dateStr: string | undefined,
+  venueName?: string | null
+): string {
+  if (!dateStr) return "";
+  const match = dateStr.match(
+    /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/
+  );
+  if (!match) return "";
+  const [_, year, month, day, hour, minute] = match;
+  const m = parseInt(month);
+  const d = parseInt(day);
+  const h = parseInt(hour);
+  const min = parseInt(minute);
+  const ampm = h >= 12 ? "PM" : "AM";
+  const h12 = h % 12 || 12;
+  const timeStr =
+    min === 0
+      ? `${h12} ${ampm}`
+      : `${h12}:${min.toString().padStart(2, "0")} ${ampm}`;
+
+  // Get timezone abbreviation using Luxon + venue timezone
+  const venueObj = venueName ? getVenueByTitle(venueName) : undefined;
+  const zone = getVenueTimeZone(venueObj);
+  const tzAbbrev = DateTime.fromISO(dateStr.replace("Z", ""), {
+    zone,
+  }).toFormat("ZZZZ");
+
+  return `${m}/${d} at ${timeStr} ${tzAbbrev}`;
+}
+
 // Helper to safely get a date for sorting
 export function getDateForSorting(dateStr: string | undefined): number {
   if (!dateStr) return 0;
