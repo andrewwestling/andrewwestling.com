@@ -718,7 +718,7 @@ async function generateDatabase({
   await fs.mkdir(outputDir, { recursive: true });
 
   // Write individual JSON files
-  const fileMap = {
+  const fileMap: Record<string, any[]> = {
     concerts: database.concert,
     works: database.work,
     composers: database.composer,
@@ -730,6 +730,18 @@ async function generateDatabase({
     seasons: database.season,
     "bucket-list": database.orderedBucketList,
   };
+
+  // Read existing JSON files for comparison
+  const previousData: Record<string, any[]> = {};
+  for (const filename of Object.keys(fileMap)) {
+    const filePath = path.join(outputDir, `${filename}.json`);
+    try {
+      const raw = await fs.readFile(filePath, "utf-8");
+      previousData[filename] = JSON.parse(raw);
+    } catch {
+      // File doesn't exist yet (first run)
+    }
+  }
 
   // Write each file
   for (const [filename, data] of Object.entries(fileMap)) {
@@ -761,7 +773,83 @@ async function generateDatabase({
     );
   }
 
-  console.log(`Database files generated in ${outputDir}`);
+  // Print summary of changes
+  console.log(`Database generated in ${outputDir}\n`);
+
+  const maxNameLen = Math.max(
+    ...Object.keys(fileMap).map((name) => name.length)
+  );
+
+  for (const [filename, newData] of Object.entries(fileMap)) {
+    const label = filename.padEnd(maxNameLen);
+    const prev = previousData[filename];
+
+    if (!prev) {
+      console.log(`  ${label}  ${newData.length}  (new)`);
+      continue;
+    }
+
+    const oldCount = prev.length;
+    const newCount = newData.length;
+    const isBucketList = filename === "bucket-list";
+
+    // Determine added and removed items
+    let added: string[] = [];
+    let removed: string[] = [];
+
+    if (isBucketList) {
+      const oldSet = new Set(prev as string[]);
+      const newSet = new Set(newData as string[]);
+      added = (newData as string[]).filter((s) => !oldSet.has(s));
+      removed = (prev as string[]).filter((s) => !newSet.has(s));
+    } else {
+      const oldSlugs = new Map(
+        (prev as any[]).map((item) => [item.slug, item.title])
+      );
+      const newSlugs = new Map(
+        (newData as any[]).map((item) => [item.slug, item.title])
+      );
+      for (const [slug, title] of newSlugs) {
+        if (!oldSlugs.has(slug)) {
+          added.push(`${title} (${slug})`);
+        }
+      }
+      for (const [slug, title] of oldSlugs) {
+        if (!newSlugs.has(slug)) {
+          removed.push(`${title} (${slug})`);
+        }
+      }
+    }
+
+    const hasChanges = added.length > 0 || removed.length > 0;
+
+    if (!hasChanges && oldCount === newCount) {
+      console.log(`  ${label}  ${String(newCount).padStart(4)}  (no changes)`);
+    } else {
+      const diff = newCount - oldCount;
+      const diffStr =
+        diff > 0 ? `(+${diff})` : diff < 0 ? `(${diff})` : "(changed)";
+      console.log(
+        `  ${label}  ${String(oldCount).padStart(4)} → ${newCount}  ${diffStr}`
+      );
+
+      if (added.length > 10) {
+        console.log(`    + ${added.length} items added`);
+      } else {
+        for (const item of added) {
+          console.log(`    + ${item}`);
+        }
+      }
+
+      if (removed.length > 10) {
+        console.log(`    - ${removed.length} items removed`);
+      } else {
+        for (const item of removed) {
+          console.log(`    - ${item}`);
+        }
+      }
+    }
+  }
 }
 
 // Allow running from command line
