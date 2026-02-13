@@ -5,37 +5,37 @@ const socialAccounts = [
     title: "GitHub",
     icon: "github",
     username: "andrewwestling",
-    url: "https://github.com/andrewwestling",
+    url: "/github",
   },
   {
     title: "LinkedIn",
     icon: "linkedin",
     username: "andrewwestling",
-    url: "https://linkedin.com/in/andrewwestling",
+    url: "/linkedin",
   },
   {
     title: "Bluesky",
     icon: "bluesky",
     username: "@andrewwestling.com",
-    url: "https://bsky.app/profile/andrewwestling.com",
+    url: "/bluesky",
   },
   {
     title: "Instagram",
     icon: "instagram",
     username: "expandrew",
-    url: "https://instagram.com/expandrew",
+    url: "/instagram",
   },
   {
     title: "Last.fm",
     icon: "lastfm",
     username: "andwest",
-    url: "https://last.fm/user/andwest",
+    url: "/lastfm",
   },
   {
     title: "Spotify",
     icon: "spotify",
     username: "1283883",
-    url: "https://open.spotify.com/user/1283883",
+    url: "/spotify",
   },
 ];
 
@@ -96,6 +96,7 @@ export const Footer = () => {
                 className="flex gap-2 items-center text-muted dark:text-muted-dark w-fit hover:text-primary"
                 href={account.url}
                 title={`${account.username} on ${account.title}`}
+                data-umami-event={`Click ${account.title} (Footer)`}
               >
                 <svg width={20} height={20} fill={"currentColor"}>
                   <use

@@ -37,6 +37,40 @@ const autoLinkHeadingsOptions = {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  async redirects() {
+    return [
+      {
+        source: "/github",
+        destination: "https://github.com/andrewwestling",
+        permanent: false,
+      },
+      {
+        source: "/linkedin",
+        destination: "https://linkedin.com/in/andrewwestling",
+        permanent: false,
+      },
+      {
+        source: "/bluesky",
+        destination: "https://bsky.app/profile/andrewwestling.com",
+        permanent: false,
+      },
+      {
+        source: "/instagram",
+        destination: "https://instagram.com/expandrew",
+        permanent: false,
+      },
+      {
+        source: "/lastfm",
+        destination: "https://last.fm/user/andwest",
+        permanent: false,
+      },
+      {
+        source: "/spotify",
+        destination: "https://open.spotify.com/user/1283883",
+        permanent: false,
+      },
+    ];
+  },
   webpack: (config) => {
     // Add a rule to handle .html files
     config.module.rules.push({

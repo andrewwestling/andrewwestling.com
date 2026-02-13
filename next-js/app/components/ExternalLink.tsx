@@ -2,12 +2,14 @@ interface ExternalLinkProps {
   href: string;
   children: React.ReactNode;
   className?: string;
+  "data-umami-event"?: string;
 }
 
 export function ExternalLink({
   href,
   children,
   className = "",
+  "data-umami-event": umamiEvent,
 }: ExternalLinkProps) {
   return (
     <a
@@ -15,6 +17,7 @@ export function ExternalLink({
       target="_blank"
       rel="noopener noreferrer"
       className={`inline ${className}`}
+      data-umami-event={umamiEvent ?? `Outbound link: ${href}`}
     >
       {children}
       <svg
