@@ -717,7 +717,7 @@
     "title": "Mozart, Wolfgang Amadeus",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 20
+    "concertCount": 19
   },
   {
     "slug": "mussorgsky-modest",
@@ -1008,15 +1008,6 @@
     "concertCount": 3
   },
   {
-    "slug": "strauss-richard",
-    "type": "composer",
-    "path": "Composers/Strauss, Richard.md",
-    "title": "Strauss, Richard",
-    "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
-    "frontmatter": {},
-    "concertCount": 1
-  },
-  {
     "slug": "stravinsky-igor",
     "type": "composer",
     "path": "Composers/Stravinsky, Igor.md",
@@ -1086,7 +1077,7 @@
     "title": "Wagner, Richard",
     "content": "## Works\n```dataview\nLIST FROM \"Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 4
+    "concertCount": 3
   },
   {
     "slug": "waldteufel-emile",

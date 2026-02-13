@@ -24,7 +24,7 @@
     "title": "Barbara Yahr",
     "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 25
+    "concertCount": 24
   },
   {
     "slug": "bryan-dunnewald",
