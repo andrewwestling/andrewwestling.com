@@ -97,7 +97,7 @@
       "label": "Railway: Pull Environment Variables",
       "detail": "Pull environment variables from Railway to .env.local",
       "type": "shell",
-      "command": "railway variables --format env > .env.local",
+      "command": "railway variables -k > .env.local",
       "options": {
         "cwd": "${workspaceFolder}/next-js"
       },
