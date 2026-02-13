@@ -19,7 +19,13 @@ The theme configuration is imported from `@andrewwestling/tailwind-config` and u
 
 ## Deployment
 
-I'm using Vercel to deploy this. I just followed their instructions. I'm using the Next.js preset and I linked to the GitHub repo from their site.
+This is deployed on [Railway](https://railway.com) with the config in [`railway.json`](../railway.json). The Railway GitHub app is connected to the repo and deploys automatically on push to `main`. PR environments are created automatically for pull requests.
+
+Environment variables are managed in the Railway dashboard. To pull them locally:
+
+```
+railway variables -k > .env.local
+```
 
 ## Meta
 
