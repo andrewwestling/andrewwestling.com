@@ -249,13 +249,13 @@ export function formatComposerName(name: string): string {
 /**
  * Gets the full site URL based on the current environment:
  * - In development: http://localhost:3000
- * - In Vercel preview: The preview URL
+ * - In Railway preview: The preview URL
  * - In production: The production URL
  */
 export function getSiteUrl(): string {
-  // Vercel preview deployments
-  if (process.env.VERCEL_ENV === "preview") {
-    return `https://${process.env.VERCEL_URL}`;
+  // Railway PR/preview deployments
+  if (process.env.RAILWAY_ENVIRONMENT_NAME && process.env.RAILWAY_ENVIRONMENT_NAME !== "production") {
+    return `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
   }
 
   // Local development
@@ -263,7 +263,7 @@ export function getSiteUrl(): string {
     return "http://localhost:3000";
   }
 
-  // Production (either use configured URL or default)
+  // Production
   return process.env.NEXT_PUBLIC_URL || "https://andrewwestling.com";
 }
 

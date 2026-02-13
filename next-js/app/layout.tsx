@@ -1,5 +1,4 @@
 import { awdsColors } from "@andrewwestling/tailwind-config";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 
@@ -49,7 +48,6 @@ export default function App({
     <html>
       <body className="bg-background dark:bg-background-dark text-text dark:text-text-dark">
         <Suspense>
-          <SpeedInsights />
           <GoatCounter />
           <Umami />
         </Suspense>

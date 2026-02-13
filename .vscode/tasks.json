@@ -94,10 +94,10 @@
       "problemMatcher": []
     },
     {
-      "label": "Vercel: Pull Environment Variables",
-      "detail": "Pull environment variables from Vercel to .env.local",
+      "label": "Railway: Pull Environment Variables",
+      "detail": "Pull environment variables from Railway to .env.local",
       "type": "shell",
-      "command": "vercel env pull",
+      "command": "railway variables --format env > .env.local",
       "options": {
         "cwd": "${workspaceFolder}/next-js"
       },
