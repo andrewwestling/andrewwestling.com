@@ -33,7 +33,7 @@ export function BasicsSection({ basics }: { basics?: Basics }) {
           {email && (
             <div className="text-preset-3">
               <span className="mr-2">✉️</span>
-              <ExternalLink href={`mailto:${email}`}>{email}</ExternalLink>
+              <ExternalLink href={`mailto:${email}`} data-umami-event="Click Email (Resume)">{email}</ExternalLink>
             </div>
           )}
           {formattedLocation && (

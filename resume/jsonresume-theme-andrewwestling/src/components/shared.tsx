@@ -33,10 +33,9 @@ export function ExternalLink({
   href,
   children,
   className = "",
-}: {
-  href?: string;
+  ...props
+}: React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   children: React.ReactNode;
-  className?: string;
 }) {
   if (!href) return <>{children}</>;
   return (
@@ -45,6 +44,7 @@ export function ExternalLink({
       target="_blank"
       rel="noopener noreferrer"
       className={`hover:text-primary dark:hover:text-primary ${className}`}
+      {...props}
     >
       {children}
     </a>

@@ -64,6 +64,7 @@ export const Footer = () => {
             <a
               href="mailto:hi@andrewwestling.com"
               className={["no-underline", footerLinkClasses].join(" ")}
+              data-umami-event="Click Email (Footer)"
             >
               <span className="no-underline">✉️</span>
               <span className="underline">hi@andrewwestling.com</span>

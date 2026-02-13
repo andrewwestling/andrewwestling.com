@@ -94,6 +94,16 @@
       "problemMatcher": []
     },
     {
+      "label": "Vercel: Pull Environment Variables",
+      "detail": "Pull environment variables from Vercel to .env.local",
+      "type": "shell",
+      "command": "vercel env pull",
+      "options": {
+        "cwd": "${workspaceFolder}/next-js"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Music: Generate Database",
       "detail": "Generate the database for music content from Obsidian vault",
       "type": "shell",

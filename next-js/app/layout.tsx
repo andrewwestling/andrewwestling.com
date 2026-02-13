@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { Footer } from "@components/Footer";
 import { GoatCounter } from "@components/GoatCounter";
 import { Header } from "@components/Header";
+import { Umami } from "@components/Umami";
 
 import "./globals.css";
 
@@ -50,6 +51,7 @@ export default function App({
         <Suspense>
           <SpeedInsights />
           <GoatCounter />
+          <Umami />
         </Suspense>
         <div className="flex flex-col min-h-screen">
           <Header>{breadcrumbs}</Header>
