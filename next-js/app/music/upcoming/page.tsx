@@ -9,8 +9,8 @@ import { getUpcomingConcerts } from "@music/data/queries";
 import { getSiteUrl, isToday } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
 
-// Revalidate once per day (86400 seconds) instead of on every request
-export const revalidate = 86400;
+// Revalidate every 6 hours so badges like "Today" stay up-to-date
+export const revalidate = 21600;
 
 export const metadata: Metadata = {
   title: "Upcoming Concerts",

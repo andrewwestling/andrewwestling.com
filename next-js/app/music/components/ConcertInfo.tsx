@@ -8,6 +8,7 @@ import {
   formatDate,
   findConductorSlug,
   isUpcoming,
+  isToday,
 } from "@music/lib/helpers";
 import { getLocationFromCoordinates } from "@music/lib/location";
 import { routes } from "@music/lib/routes";
@@ -101,7 +102,7 @@ export async function ConcertInfo({
         )}
       </div>
 
-      {showAttendActions && isUpcoming(concert) && (
+      {showAttendActions && (isUpcoming(concert) || isToday(concert)) && (
         <AttendActions concert={concert} />
       )}
     </article>
