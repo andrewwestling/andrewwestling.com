@@ -1,13 +1,13 @@
 import { ButtonLink } from "@components/Button";
 import type { Concert } from "@music/data/types";
-import { isUpcoming, formatShortDate } from "@music/lib/helpers";
+import { isUpcoming, isToday, formatShortDate } from "@music/lib/helpers";
 
 interface AttendActionsProps {
   concert: Concert;
 }
 
 export const AttendActions = ({ concert }: AttendActionsProps) => {
-  if (!isUpcoming(concert)) {
+  if (!isUpcoming(concert) && !isToday(concert)) {
     return null;
   }
 
