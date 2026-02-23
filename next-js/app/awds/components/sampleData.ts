@@ -1,4 +1,5 @@
-const upcomingDate = new Date(Date.now() + 60 * 1000).toISOString();
+// Use a date 2 days in the future so isToday() returns false and isUpcoming() returns true
+const upcomingDate = new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString();
 
 export const sampleConcertWithTitle = {
   slug: "200001011200",
@@ -57,6 +58,16 @@ export const sampleConcertWithoutTicketUrl = {
     ...sampleConcertWithTitle.frontmatter,
     date: upcomingDate,
     ticketUrl: undefined,
+  },
+};
+
+export const sampleConcertWithLiveStreamUrl = {
+  ...sampleConcertWithTitle,
+  frontmatter: {
+    ...sampleConcertWithTitle.frontmatter,
+    date: upcomingDate,
+    ticketUrl: undefined,
+    liveStreamUrl: "/awds",
   },
 };
 
