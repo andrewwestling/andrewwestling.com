@@ -28,6 +28,7 @@ import {
   sampleSeasonNoConcerts,
   sampleConcertWithTicketUrl,
   sampleConcertWithoutTicketUrl,
+  sampleConcertWithLiveStreamUrl,
   sampleConcertForNavPrev,
   sampleConcertForNavNext,
 } from "./components/sampleData.ts";
@@ -722,6 +723,9 @@ It will not render if the concert date is in the past.
     </Variant>
     <Variant label="With upcoming date; with ticket URL">
       <AttendActions concert={sampleConcertWithTicketUrl} />
+    </Variant>
+    <Variant label="With upcoming date; with live stream URL">
+      <AttendActions concert={sampleConcertWithLiveStreamUrl} />
     </Variant>
   </div>
 </ComponentWrapper>
