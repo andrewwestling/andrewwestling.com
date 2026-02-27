@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "setup": "railway link && cd tailwind && npm install && cd ../next-js && npm install",
+    "setup": "bash scripts/conductor-setup.sh",
     "run": "cd next-js && npm run dev"
   }
 }
