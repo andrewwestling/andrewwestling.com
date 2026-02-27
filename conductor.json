@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "setup": "cd tailwind && npm install && cd ../next-js && npm install",
+    "run": "cd next-js && npm run dev"
+  }
+}
