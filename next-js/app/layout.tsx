@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import { Footer } from "@components/Footer";
 import { GoatCounter } from "@components/GoatCounter";
 import { Header } from "@components/Header";
-import { Umami } from "@components/Umami";
+import { PostHogProvider } from "@components/PostHogProvider";
 
 import "./globals.css";
 
@@ -47,19 +47,20 @@ export default function App({
   return (
     <html>
       <body className="bg-background dark:bg-background-dark text-text dark:text-text-dark">
-        <Suspense>
-          <GoatCounter />
-          <Umami />
-        </Suspense>
-        <div className="flex flex-col min-h-screen">
-          <Header>{breadcrumbs}</Header>
-          <main className="flex-1">
-            <div className="max-w-container mx-auto w-full px-4">
-              {children}
-            </div>
-          </main>
-          <Footer />
-        </div>
+        <PostHogProvider>
+          <Suspense>
+            <GoatCounter />
+          </Suspense>
+          <div className="flex flex-col min-h-screen">
+            <Header>{breadcrumbs}</Header>
+            <main className="flex-1">
+              <div className="max-w-container mx-auto w-full px-4">
+                {children}
+              </div>
+            </main>
+            <Footer />
+          </div>
+        </PostHogProvider>
       </body>
     </html>
   );

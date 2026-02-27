@@ -17,7 +17,6 @@ const Resume = () => (
       <ButtonLink
         icon={"📃"}
         href="/assets/Andrew Westling Resume.pdf"
-        data-umami-event="Download Resume PDF"
       >
         Download as PDF
       </ButtonLink>
