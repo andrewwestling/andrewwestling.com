@@ -4,4 +4,4 @@ This is the repository for my static [andrewwestling.com](http://andrewwestling.
 
 It's built with [Next.js](https://nextjs.org/nextjs.com), TypeScript, [Tailwind](https://tailwindcss.com/), and [MDX](https://mdxjs.com/).
 
-It's deployed on [Railway](https://railway.com/).
+It's deployed on [Vercel](https://vercel.com/).
