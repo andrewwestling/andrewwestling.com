@@ -249,7 +249,7 @@ export function formatComposerName(name: string): string {
 /**
  * Gets the full site URL based on the current environment:
  * - In development: http://localhost:3000
- * - On Railway: Uses RAILWAY_PUBLIC_DOMAIN (preview or production)
+ * - On Vercel: Uses VERCEL_URL (preview or production)
  * - Fallback: https://andrewwestling.com
  */
 export function getSiteUrl(): string {
@@ -257,8 +257,8 @@ export function getSiteUrl(): string {
     return "http://localhost:3000";
   }
 
-  if (process.env.RAILWAY_PUBLIC_DOMAIN) {
-    return `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
   }
 
   return "https://andrewwestling.com";
