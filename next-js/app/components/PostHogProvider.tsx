@@ -10,7 +10,15 @@ const POSTHOG_HOST =
 
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    if (!POSTHOG_KEY) return;
+    if (!POSTHOG_KEY) {
+      if (process.env.NODE_ENV === "production") {
+        console.warn(
+          "[PostHog] NEXT_PUBLIC_POSTHOG_KEY is not set. PostHog will not initialize. " +
+            "Add this environment variable in Vercel and redeploy.",
+        );
+      }
+      return;
+    }
 
     const isProduction = process.env.NODE_ENV === "production";
     const devOverride =
