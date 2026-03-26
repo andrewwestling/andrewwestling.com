@@ -249,15 +249,15 @@ export function formatComposerName(name: string): string {
 /**
  * Gets the full site URL based on the current environment:
  * - In development: http://localhost:3000
- * - On Vercel: Uses VERCEL_URL (preview or production)
- * - Fallback: https://andrewwestling.com
+ * - On Vercel preview: Uses VERCEL_URL
+ * - On Vercel production or fallback: https://andrewwestling.com
  */
 export function getSiteUrl(): string {
   if (process.env.NODE_ENV === "development") {
     return "http://localhost:3000";
   }
 
-  if (process.env.VERCEL_URL) {
+  if (process.env.VERCEL_URL && process.env.VERCEL_ENV !== "production") {
     return `https://${process.env.VERCEL_URL}`;
   }
 
