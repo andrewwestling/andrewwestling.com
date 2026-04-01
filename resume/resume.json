@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Andrew Westling",
-    "label": "Software Engineer",
+    "label": "Design Engineer",
     "image": "",
     "email": "hi@andrewwestling.com",
     "phone": "",
     "url": "https://andrewwestling.com",
-    "summary": "Seasoned web engineer, with a background in design and architecture. Specialty in crafting resilient web applications, with a particular emphasis on design systems and both front-end and full-stack features. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, and more. Dedicated to optimizing processes for scalability and fostering effective teamwork and communication.",
+    "summary": "Design engineer with a formal background in architecture and a decade of experience in web development. Specialty in the intersection of design and engineering: building design systems, crafting resilient interfaces, and thinking holistically about how products are structured and scaled. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, agentic AI tooling, and more. Experienced doing platform-level work that multiplies the output of large engineering organizations.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,12 +32,17 @@
     {
       "name": "Alloy",
       "location": "New York City",
-      "description": "End-to-end identity risk management platform for companies that offer financial products",
+      "description": "End-to-end identity and fraud prevention platform for companies that offer financial products",
       "position": "Senior Design Engineer",
       "url": "https://alloy.com",
       "startDate": "2024-09-09",
-      "summary": "Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity risk management platform for companies that offer financial products.",
-      "highlights": []
+      "summary": "Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity and fraud prevention platform for financial institutions and fintechs.",
+      "highlights": [
+        "**Platform migration**: partnering with a small frontend platform team to lead an architectural migration of Alloy's frontend application, with rollout planned across ~50 product engineers",
+        "**Filter interfaces**: built new filter interfaces for Alloy's risk management platform, improving analyst workflow for complex, multi-dimensional data",
+        "**Design system tooling**: built an internal component usage reporting tool to analyze React component adoption across the codebase, enabling data-driven decisions about design system evolution",
+        "**Design system mentorship**: serve as the design system education resource for Alloy's product engineers, bridging design intent and implementation across teams"
+      ]
     },
     {
       "name": "Droit",
@@ -80,7 +85,7 @@
       "highlights": [
         "**Design systems**: built components for Monograph's component library; wrote documentation and set up workflows between Figma and the codebase",
         "**Features**: built customer-facing features: Team Directory; filter functionality for Monograph Resource; Settings UI; \"Consultants\" feature; etc.",
-        "**[\"Glue\" work](https://noidea.dog/glue)**; a lot of hard-to-quantify things like process documentation, choosing tools, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging, etc."
+        "**Glue work**: process documentation, tool selection, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging — the coordination that kept the team moving"
       ]
     },
     {
@@ -148,6 +153,17 @@
   ],
   "skills": [
     {
+      "name": "AI Tooling",
+      "keywords": [
+        "Cursor",
+        "Claude\u00A0Code",
+        "Codex",
+        "Conductor",
+        "CodeRabbit",
+        "Agentic\u00A0Workflows"
+      ]
+    },
+    {
       "name": "General",
       "keywords": [
         "TypeScript",
@@ -157,7 +173,6 @@
         "GitHub",
         "Docker",
         "Linear",
-        "Cursor",
         "Visual\u00A0Studio\u00A0Code",
         "Figma"
       ]
@@ -196,6 +211,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.1.0",
-    "lastModified": "2025-02-06"
+    "lastModified": "2026-04-01"
   }
 }
