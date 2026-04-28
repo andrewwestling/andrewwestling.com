@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Andrew Westling",
-    "label": "Software Engineer",
+    "label": "Design Engineer",
     "image": "",
     "email": "hi@andrewwestling.com",
     "phone": "",
     "url": "https://andrewwestling.com",
-    "summary": "Seasoned web engineer, with a background in design and architecture. Specialty in crafting resilient web applications, with a particular emphasis on design systems and both front-end and full-stack features. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, and more. Dedicated to optimizing processes for scalability and fostering effective teamwork and communication.",
+    "summary": "Design engineer with a formal background in architecture and a decade of experience in web development. Specialty in the intersection of design and engineering: building design systems, crafting resilient interfaces, and thinking holistically about how products are structured and scaled. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, agentic AI tooling, and more. Experienced doing platform-level work that multiplies the output of large engineering organizations.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,22 +32,27 @@
     {
       "name": "Alloy",
       "location": "New York City",
-      "description": "End-to-end identity risk management platform for companies that offer financial products",
+      "description": "End-to-end identity and fraud prevention platform for companies that offer financial products",
       "position": "Senior Design Engineer",
       "url": "https://alloy.com",
       "startDate": "2024-09-09",
-      "summary": "Solving problems that arise where design and engineering overlap. Alloy is an end-to-end identity risk management platform for companies that offer financial products.",
-      "highlights": []
+      "summary": "Design engineering at an identity and fraud prevention platform for financial institutions. Solving problems where design and engineering overlap.",
+      "highlights": [
+        "**Platform migration**: partnering with a small frontend platform team to lead an architectural migration of Alloy's frontend application, with rollout planned across ~50 product engineers",
+        "**Filter interfaces**: built new filter interfaces for Alloy's risk management platform, improving analyst workflow for complex, multi-dimensional data",
+        "**Design system tooling**: built an internal component usage reporting tool to analyze React component adoption across the codebase, enabling data-driven decisions about design system evolution",
+        "**Design system mentorship**: serve as the design system education resource for Alloy's product engineers, bridging design intent and implementation across teams"
+      ]
     },
     {
-      "name": "Droit",
+      "name": "Droit (acquired by FIS)",
       "location": "New York City",
       "description": "Financial tools for decision-making and regulatory compliance",
       "position": "Senior UI Engineer",
       "url": "https://droit.tech",
       "startDate": "2023-10-30",
       "endDate": "2024-08-16",
-      "summary": "Front-end application development. Droit builds tools for decision-making and global regulatory compliance for financial institutions.",
+      "summary": "Front-end development at a regulatory compliance platform for global financial institutions.",
       "highlights": [
         "**Applications**: productionized and delivered the first version of a new application to help analysts validate transaction reports before they are sent to regulators",
         "**Design systems**: improved build performance and developer experience of Droit's component library"
@@ -61,7 +66,7 @@
       "url": "https://fortelessons.com",
       "startDate": "2022-07-11",
       "endDate": "2023-03-31",
-      "summary": "Feature development. Setting up tools and culture. First engineering hire. Forte is a purpose-built music education platform for teachers and students.",
+      "summary": "First engineering hire at a music education startup; built the application from scratch and set the technical and cultural foundation for a growing team.",
       "highlights": [
         "**From scratch**: set up Forte's Next.js application from the ground up; chose tools and workflows to enable quick iteration; established a component library for consistent user experience",
         "**Built features**: built the first iteration of various customer-facing features for Forte's marketplace: Teacher Profiles; Certified Institutions; Invitations and Sign Up; Teacher Ratings and Reviews; \"Switch Role\" functionality; etc.",
@@ -76,11 +81,11 @@
       "url": "https://monograph.com",
       "startDate": "2021-04-11",
       "endDate": "2022-06-10",
-      "summary": "Design system and feature development for Monograph's applications. Monograph makes tools to help architecture firms manage their projects, budgets, and tasks.",
+      "summary": "Design system and feature development at a practice management platform for architecture firms.",
       "highlights": [
         "**Design systems**: built components for Monograph's component library; wrote documentation and set up workflows between Figma and the codebase",
         "**Features**: built customer-facing features: Team Directory; filter functionality for Monograph Resource; Settings UI; \"Consultants\" feature; etc.",
-        "**[\"Glue\" work](https://noidea.dog/glue)**; a lot of hard-to-quantify things like process documentation, choosing tools, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging, etc."
+        "**Glue work**: process documentation, tool selection, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging; coordination that kept the team moving"
       ]
     },
     {
@@ -91,7 +96,7 @@
       "url": "https://better.com",
       "startDate": "2018-07-01",
       "endDate": "2021-03-30",
-      "summary": "Design system and feature development for Better's loan origination platform. Better.com is a mortgage lender.",
+      "summary": "Design system and feature development on Better's loan origination platform.",
       "highlights": [
         "**Design systems**: established Better's Design Systems team; built libraries to empower engineering teams to build consistent and clean UIs",
         "**Features**: built assorted borrower-facing features: Redisclosure Service; \"Required Assets and Buffer\" logic; Authentication/Session Expiration; UX for uploading a competitor's Loan Estimate; Loan Overview page; etc.",
@@ -106,7 +111,7 @@
       "url": "https://architizer.com",
       "startDate": "2015-09-08",
       "endDate": "2018-06-15",
-      "summary": "Full-stack and front-end feature development and infrastructure maintenance. Architizer is a platform to help architects find products for buildings.",
+      "summary": "Full-stack and front-end development at an architecture products marketplace.",
       "highlights": [
         "**Component libraries**: established and maintained a UI component system to speed up feature development, and improve collaboration with designers",
         "**Features**: built internal- and external-facing features: a private messaging interface; directory interfaces to Solr search indexes; etc.",
@@ -121,7 +126,7 @@
       "url": "https://eyecuelab.com",
       "startDate": "2014-09-01",
       "endDate": "2015-08-15",
-      "summary": "Internship-to-hire. Consultancy/agency setting. Built marketing pages and full-stack features for web applications and client projects.",
+      "summary": "Internship-to-hire at a product consultancy; built full-stack features and marketing pages across client projects.",
       "highlights": []
     },
     {
@@ -132,7 +137,7 @@
       "url": "https://apple.com",
       "startDate": "2013-06-01",
       "endDate": "2014-05-30",
-      "summary": "Technical phone support and customer service for macOS products while completing degree.",
+      "summary": "Technical support for macOS products while completing degree.",
       "highlights": []
     }
   ],
@@ -148,6 +153,17 @@
   ],
   "skills": [
     {
+      "name": "AI Tooling",
+      "keywords": [
+        "Cursor",
+        "Claude\u00A0Code",
+        "Codex",
+        "Conductor",
+        "CodeRabbit",
+        "Agentic\u00A0Workflows"
+      ]
+    },
+    {
       "name": "General",
       "keywords": [
         "TypeScript",
@@ -157,7 +173,6 @@
         "GitHub",
         "Docker",
         "Linear",
-        "Cursor",
         "Visual\u00A0Studio\u00A0Code",
         "Figma"
       ]
@@ -183,11 +198,12 @@
       "keywords": [
         "Storybook",
         "styled-components",
+        "Emotion",
         "SCSS",
         "Tailwind",
-        "Flowbite",
         "Ladle",
         "Radix",
+        "shadcn/ui",
         "MDX",
         "HTML/CSS"
       ]
@@ -196,6 +212,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.1.0",
-    "lastModified": "2025-02-06"
+    "lastModified": "2026-04-01"
   }
 }

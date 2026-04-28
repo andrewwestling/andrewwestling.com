@@ -56,18 +56,33 @@ async function generatePDF(inputHtmlPath, outputPdfPath) {
     await page.waitForNetworkIdle();
     await new Promise(resolve => setTimeout(resolve, 1000));
 
+    const margin = { top: '0.5in', right: '0.25in', bottom: '0.5in', left: '0.25in' };
+
     // Generate PDF
     await page.pdf({
       path: resolvedPdfPath,
       format: 'Letter',
       printBackground: true,
       scale: 0.9,
-      margin: {
-        top: '0.5in',
-        right: '0.25in',
-        bottom: '0.5in',
-        left: '0.25in'
-      }
+      displayHeaderFooter: true,
+      headerTemplate: '<span></span>',
+      footerTemplate: `
+        <div style="
+          width: 100%;
+          padding: 0 ${margin.right} 0 ${margin.left};
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-size: 8px;
+          color: #999;
+        ">
+          <span>Andrew Westling</span>
+          <span>page <span class="pageNumber"></span> of <span class="totalPages"></span></span>
+        </div>
+      `,
+      margin,
     });
 
     console.log('PDF generated successfully!');
