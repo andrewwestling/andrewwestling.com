@@ -4,7 +4,7 @@
     "type": "season",
     "path": "Seasons/2004-2005.md",
     "title": "2004-2005",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "200503191300",
@@ -31,7 +31,7 @@
     "type": "season",
     "path": "Seasons/2005-2006.md",
     "title": "2005-2006",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "200511181930",
@@ -71,7 +71,7 @@
     "type": "season",
     "path": "Seasons/2006-2007.md",
     "title": "2006-2007",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "200609101930",
@@ -113,7 +113,7 @@
     "type": "season",
     "path": "Seasons/2007-2008.md",
     "title": "2007-2008",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "200711161930",
@@ -151,7 +151,7 @@
     "type": "season",
     "path": "Seasons/2008-2009.md",
     "title": "2008-2009",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "200810181930",
@@ -202,7 +202,7 @@
     "type": "season",
     "path": "Seasons/2009-2010.md",
     "title": "2009-2010",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "200910251500",
@@ -225,7 +225,7 @@
     "type": "season",
     "path": "Seasons/2012-2013.md",
     "title": "2012-2013",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "201210281500",
@@ -251,7 +251,7 @@
     "type": "season",
     "path": "Seasons/2013-2014.md",
     "title": "2013-2014",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "201312261930"
@@ -265,7 +265,7 @@
     "type": "season",
     "path": "Seasons/2014-2015.md",
     "title": "2014-2015",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "201411021600",
@@ -309,7 +309,7 @@
     "type": "season",
     "path": "Seasons/2018-2019.md",
     "title": "2018-2019",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "201803191900",
@@ -352,7 +352,7 @@
     "type": "season",
     "path": "Seasons/2019-2020.md",
     "title": "2019-2020",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "201910271400",
@@ -388,7 +388,7 @@
     "type": "season",
     "path": "Seasons/2020-2021.md",
     "title": "2020-2021",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "202105151500",
@@ -416,7 +416,7 @@
     "type": "season",
     "path": "Seasons/2021-2022.md",
     "title": "2021-2022",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "202110241500",
@@ -477,7 +477,7 @@
     "type": "season",
     "path": "Seasons/2022-2023.md",
     "title": "2022-2023",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "202210161500",
@@ -536,7 +536,7 @@
     "type": "season",
     "path": "Seasons/2023-2024.md",
     "title": "2023-2024",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "202310151500",
@@ -593,7 +593,7 @@
     "type": "season",
     "path": "Seasons/2024-2025.md",
     "title": "2024-2025",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "202410061500",
@@ -653,7 +653,7 @@
     "type": "season",
     "path": "Seasons/2025-2026.md",
     "title": "2025-2026",
-    "content": "## Concerts\n\n```dataview\nLIST FROM \"Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
     "frontmatter": {},
     "concertSlugs": [
       "202510051500",
@@ -690,6 +690,38 @@
       "debussy-danse-sacr-e-et-danse-profane",
       "rachmaninoff-5-etudes-tableaux-arr-respighi",
       "ravel-bolero"
+    ]
+  },
+  {
+    "slug": "2026-2027",
+    "type": "season",
+    "path": "Seasons/2026-2027.md",
+    "title": "2026-2027",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" \nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\") \nSORT file.frontmatter.date asc\n```\n\n## Works\n\n```dataview\nLIST\nchoice(length(works)>0, works, \"No works listed\")\nFROM \"Music Library/Concerts\"\nWHERE contains(file.frontmatter.season, \"[[\" + this.file.name + \"]]\")\nSORT file.frontmatter.date asc\n```",
+    "frontmatter": {},
+    "concertSlugs": [
+      "202610041500",
+      "202611151500",
+      "202612061500",
+      "202702071500",
+      "202703211900",
+      "202705021500"
+    ],
+    "workSlugs": [
+      "p-rt-cantus-in-memoriam-benjamin-britten",
+      "brahms-double-concerto-for-violin-and-cello",
+      "elgar-enigma-variations",
+      "walton-viola-concerto",
+      "ravel-mother-goose-suite",
+      "stravinsky-the-firebird-suite-1919",
+      "tchaikovsky-polonaise-from-eugene-onegin",
+      "strauss-der-rosenkavalier",
+      "puccini-la-boheme",
+      "offenbach-les-contes-d-hoffmann",
+      "bartok-concerto-for-orchestra",
+      "beethoven-symphony-no-9-in-d-minor",
+      "shostakovich-piano-concerto-no-1-in-c-minor",
+      "tchaikovsky-symphony-no-5-in-e-minor"
     ]
   }
 ]

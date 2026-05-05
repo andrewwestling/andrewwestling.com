@@ -4,7 +4,7 @@
     "type": "group",
     "path": "Groups/BACK Quartet.md",
     "title": "BACK Quartet",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Brooklyn, New York",
       "slug": "back-quartet",
@@ -17,7 +17,7 @@
     "type": "group",
     "path": "Groups/Bantam Studios.md",
     "title": "Bantam Studios",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Brooklyn, New York",
       "slug": "bantam",
@@ -30,7 +30,7 @@
     "type": "group",
     "path": "Groups/Boise Philharmonic.md",
     "title": "Boise Philharmonic",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Boise, Idaho",
       "slug": "boise-phil",
@@ -43,7 +43,7 @@
     "type": "group",
     "path": "Groups/Bridge City Quartet.md",
     "title": "Bridge City Quartet",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```\n\nJenny Asparro and Andrew Westling, violin\nJulie Asparro, viola\nJulian Kosanovic, cello",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```\n\nJenny Asparro and Andrew Westling, violin\nJulie Asparro, viola\nJulian Kosanovic, cello",
     "frontmatter": {
       "location": "Portland, Oregon",
       "slug": "bridge-city-quartet",
@@ -56,7 +56,7 @@
     "type": "group",
     "path": "Groups/Brooklyn Symphony Orchestra.md",
     "title": "Brooklyn Symphony Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Brooklyn, New York",
       "slug": "bso",
@@ -69,7 +69,7 @@
     "type": "group",
     "path": "Groups/Centre Symphony Orchestra.md",
     "title": "Centre Symphony Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Manhattan, New York",
       "slug": "centre",
@@ -82,7 +82,7 @@
     "type": "group",
     "path": "Groups/Chehalem Symphony Orchestra.md",
     "title": "Chehalem Symphony Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Newberg, Oregon",
       "slug": "chehalem",
@@ -95,7 +95,7 @@
     "type": "group",
     "path": "Groups/Grace Chorale.md",
     "title": "Grace Chorale",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Brooklyn, New York",
       "slug": "grace-chorale",
@@ -108,20 +108,20 @@
     "type": "group",
     "path": "Groups/Greenwich Village Orchestra.md",
     "title": "Greenwich Village Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Manhattan, New York",
       "slug": "gvo",
       "url": "https://gvo.org"
     },
-    "concertCount": 25
+    "concertCount": 31
   },
   {
     "slug": "litha",
     "type": "group",
     "path": "Groups/Litha Symphony.md",
     "title": "Litha Symphony",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Manhattan, New York",
       "slug": "litha",
@@ -134,7 +134,7 @@
     "type": "group",
     "path": "Groups/Marylhurst Symphony Orchestra.md",
     "title": "Marylhurst Symphony Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Lake Oswego, Oregon",
       "slug": "marylhurst",
@@ -147,7 +147,7 @@
     "type": "group",
     "path": "Groups/Metropolitan Youth Symphony.md",
     "title": "Metropolitan Youth Symphony",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Portland, Oregon",
       "slug": "mys",
@@ -160,7 +160,7 @@
     "type": "group",
     "path": "Groups/New School Community Orchestra.md",
     "title": "New School Community Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Manhattan, New York",
       "slug": "new-school",
@@ -173,7 +173,7 @@
     "type": "group",
     "path": "Groups/Oregon All-State Orchestra.md",
     "title": "Oregon All-State Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Eugene, Oregon",
       "slug": "oregon-all-state-orchestra",
@@ -186,7 +186,7 @@
     "type": "group",
     "path": "Groups/Portland Youth Philharmonic Alumni Orchestra.md",
     "title": "Portland Youth Philharmonic Alumni Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Portland, Oregon",
       "slug": "pyp-alumni",
@@ -199,7 +199,7 @@
     "type": "group",
     "path": "Groups/Portland Youth Philharmonic.md",
     "title": "Portland Youth Philharmonic",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Portland, Oregon",
       "slug": "pyp",
@@ -212,7 +212,7 @@
     "type": "group",
     "path": "Groups/Private Studio, William Hunt.md",
     "title": "Private Studio, William Hunt",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Lake Oswego, Oregon",
       "slug": "bill-hunt",
@@ -225,7 +225,7 @@
     "type": "group",
     "path": "Groups/Southridge String Orchestra.md",
     "title": "Southridge String Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Beaverton, Oregon",
       "slug": "southridge",
@@ -238,7 +238,7 @@
     "type": "group",
     "path": "Groups/University of Oregon Symphony Orchestra.md",
     "title": "University of Oregon Symphony Orchestra",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
     "frontmatter": {
       "location": "Eugene, Oregon",
       "slug": "uo-symphony",
