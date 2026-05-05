@@ -15,7 +15,6 @@ import { routes } from "@music/lib/routes";
 
 import { ConcertBadges } from "./ConcertBadges";
 
-
 interface ConcertInfoProps {
   concert: Concert;
   showAttendActions?: boolean;
@@ -38,8 +37,8 @@ export async function ConcertInfo({
   const conductors = Array.isArray(concert.frontmatter.conductor)
     ? concert.frontmatter.conductor
     : concert.frontmatter.conductor
-    ? [concert.frontmatter.conductor]
-    : [];
+      ? [concert.frontmatter.conductor]
+      : [];
 
   return (
     <article className="space-y-6">

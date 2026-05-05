@@ -10,7 +10,6 @@ import {
   getVenueTimeZone,
 } from "@music/lib/helpers";
 
-
 const PRIMARY_COLOR = awdsColors.primary.DEFAULT;
 
 // Convert a concert into an ICS event object

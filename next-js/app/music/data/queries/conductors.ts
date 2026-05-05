@@ -23,8 +23,8 @@ export function getConductorsBySeason(seasonSlug: string) {
     const conductors = Array.isArray(concert.frontmatter.conductor)
       ? concert.frontmatter.conductor
       : concert.frontmatter.conductor
-      ? [concert.frontmatter.conductor]
-      : [];
+        ? [concert.frontmatter.conductor]
+        : [];
     conductors.forEach((conductor) => conductorSet.add(conductor));
   });
 

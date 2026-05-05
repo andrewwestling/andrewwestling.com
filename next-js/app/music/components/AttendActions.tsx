@@ -32,10 +32,7 @@ export const AttendActions = ({ concert }: AttendActionsProps) => {
           external
         >
           Live Stream{" "}
-          {formatShortDate(
-            concert.frontmatter.date,
-            concert.frontmatter.venue
-          )}
+          {formatShortDate(concert.frontmatter.date, concert.frontmatter.venue)}
         </ButtonLink>
       )}
     </div>
