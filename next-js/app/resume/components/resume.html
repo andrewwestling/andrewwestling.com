@@ -1,145 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Andrew Westling</title>
-    <style>*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
+    <style>
+      *,
+      ::before,
+      ::after {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x:  ;
+        --tw-pan-y:  ;
+        --tw-pinch-zoom:  ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-gradient-from-position:  ;
+        --tw-gradient-via-position:  ;
+        --tw-gradient-to-position:  ;
+        --tw-ordinal:  ;
+        --tw-slashed-zero:  ;
+        --tw-numeric-figure:  ;
+        --tw-numeric-spacing:  ;
+        --tw-numeric-fraction:  ;
+        --tw-ring-inset:  ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgb(59 130 246 / 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur:  ;
+        --tw-brightness:  ;
+        --tw-contrast:  ;
+        --tw-grayscale:  ;
+        --tw-hue-rotate:  ;
+        --tw-invert:  ;
+        --tw-saturate:  ;
+        --tw-sepia:  ;
+        --tw-drop-shadow:  ;
+        --tw-backdrop-blur:  ;
+        --tw-backdrop-brightness:  ;
+        --tw-backdrop-contrast:  ;
+        --tw-backdrop-grayscale:  ;
+        --tw-backdrop-hue-rotate:  ;
+        --tw-backdrop-invert:  ;
+        --tw-backdrop-opacity:  ;
+        --tw-backdrop-saturate:  ;
+        --tw-backdrop-sepia:  ;
+        --tw-contain-size:  ;
+        --tw-contain-layout:  ;
+        --tw-contain-paint:  ;
+        --tw-contain-style:  ;
+      }
 
-::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
+      ::backdrop {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x:  ;
+        --tw-pan-y:  ;
+        --tw-pinch-zoom:  ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-gradient-from-position:  ;
+        --tw-gradient-via-position:  ;
+        --tw-gradient-to-position:  ;
+        --tw-ordinal:  ;
+        --tw-slashed-zero:  ;
+        --tw-numeric-figure:  ;
+        --tw-numeric-spacing:  ;
+        --tw-numeric-fraction:  ;
+        --tw-ring-inset:  ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgb(59 130 246 / 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur:  ;
+        --tw-brightness:  ;
+        --tw-contrast:  ;
+        --tw-grayscale:  ;
+        --tw-hue-rotate:  ;
+        --tw-invert:  ;
+        --tw-saturate:  ;
+        --tw-sepia:  ;
+        --tw-drop-shadow:  ;
+        --tw-backdrop-blur:  ;
+        --tw-backdrop-brightness:  ;
+        --tw-backdrop-contrast:  ;
+        --tw-backdrop-grayscale:  ;
+        --tw-backdrop-hue-rotate:  ;
+        --tw-backdrop-invert:  ;
+        --tw-backdrop-opacity:  ;
+        --tw-backdrop-saturate:  ;
+        --tw-backdrop-sepia:  ;
+        --tw-contain-size:  ;
+        --tw-contain-layout:  ;
+        --tw-contain-paint:  ;
+        --tw-contain-style:  ;
+      }
 
-/*
+      /*
 ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
-/*
+      /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
-}
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+        /* 1 */
+        border-width: 0;
+        /* 2 */
+        border-style: solid;
+        /* 2 */
+        border-color: #e5e7eb;
+        /* 2 */
+      }
 
-::before,
-::after {
-  --tw-content: '';
-}
+      ::before,
+      ::after {
+        --tw-content: "";
+      }
 
-/*
+      /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
@@ -149,956 +152,1527 @@
 7. Disable tap highlights on iOS
 */
 
-html,
-:host {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
-  font-feature-settings: normal;
-  /* 5 */
-  font-variation-settings: normal;
-  /* 6 */
-  -webkit-tap-highlight-color: transparent;
-  /* 7 */
-}
+      html,
+      :host {
+        line-height: 1.5;
+        /* 1 */
+        -webkit-text-size-adjust: 100%;
+        /* 2 */
+        -moz-tab-size: 4;
+        /* 3 */
+        -o-tab-size: 4;
+        tab-size: 4;
+        /* 3 */
+        font-family:
+          ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        /* 4 */
+        font-feature-settings: normal;
+        /* 5 */
+        font-variation-settings: normal;
+        /* 6 */
+        -webkit-tap-highlight-color: transparent;
+        /* 7 */
+      }
 
-/*
+      /*
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
-body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
-}
+      body {
+        margin: 0;
+        /* 1 */
+        line-height: inherit;
+        /* 2 */
+      }
 
-/*
+      /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
 
-hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
-}
+      hr {
+        height: 0;
+        /* 1 */
+        color: inherit;
+        /* 2 */
+        border-top-width: 1px;
+        /* 3 */
+      }
 
-/*
+      /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
-abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-}
+      abbr:where([title]) {
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted;
+      }
 
-/*
+      /*
 Remove the default font size and weight for headings.
 */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
 
-/*
+      /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
 
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
 
-/*
+      /*
 Add the correct font weight in Edge and Safari.
 */
 
-b,
-strong {
-  font-weight: bolder;
-}
+      b,
+      strong {
+        font-weight: bolder;
+      }
 
-/*
+      /*
 1. Use the user's configured `mono` font-family by default.
 2. Use the user's configured `mono` font-feature-settings by default.
 3. Use the user's configured `mono` font-variation-settings by default.
 4. Correct the odd `em` font sizing in all browsers.
 */
 
-code,
-kbd,
-samp,
-pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-feature-settings: normal;
-  /* 2 */
-  font-variation-settings: normal;
-  /* 3 */
-  font-size: 1em;
-  /* 4 */
-}
+      code,
+      kbd,
+      samp,
+      pre {
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        /* 1 */
+        font-feature-settings: normal;
+        /* 2 */
+        font-variation-settings: normal;
+        /* 3 */
+        font-size: 1em;
+        /* 4 */
+      }
 
-/*
+      /*
 Add the correct font size in all browsers.
 */
 
-small {
-  font-size: 80%;
-}
+      small {
+        font-size: 80%;
+      }
 
-/*
+      /*
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
 
-sub {
-  bottom: -0.25em;
-}
+      sub {
+        bottom: -0.25em;
+      }
 
-sup {
-  top: -0.5em;
-}
+      sup {
+        top: -0.5em;
+      }
 
-/*
+      /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 3. Remove gaps between table borders by default.
 */
 
-table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
-}
+      table {
+        text-indent: 0;
+        /* 1 */
+        border-color: inherit;
+        /* 2 */
+        border-collapse: collapse;
+        /* 3 */
+      }
 
-/*
+      /*
 1. Change the font styles in all browsers.
 2. Remove the margin in Firefox and Safari.
 3. Remove default padding in all browsers.
 */
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  letter-spacing: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
-}
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        /* 1 */
+        font-feature-settings: inherit;
+        /* 1 */
+        font-variation-settings: inherit;
+        /* 1 */
+        font-size: 100%;
+        /* 1 */
+        font-weight: inherit;
+        /* 1 */
+        line-height: inherit;
+        /* 1 */
+        letter-spacing: inherit;
+        /* 1 */
+        color: inherit;
+        /* 1 */
+        margin: 0;
+        /* 2 */
+        padding: 0;
+        /* 3 */
+      }
 
-/*
+      /*
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
-button,
-select {
-  text-transform: none;
-}
+      button,
+      select {
+        text-transform: none;
+      }
 
-/*
+      /*
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Remove default button styles.
 */
 
-button,
-input:where([type='button']),
-input:where([type='reset']),
-input:where([type='submit']) {
-  -webkit-appearance: button;
-  /* 1 */
-  background-color: transparent;
-  /* 2 */
-  background-image: none;
-  /* 2 */
-}
+      button,
+      input:where([type="button"]),
+      input:where([type="reset"]),
+      input:where([type="submit"]) {
+        -webkit-appearance: button;
+        /* 1 */
+        background-color: transparent;
+        /* 2 */
+        background-image: none;
+        /* 2 */
+      }
 
-/*
+      /*
 Use the modern Firefox focus style for all focusable elements.
 */
 
-:-moz-focusring {
-  outline: auto;
-}
+      :-moz-focusring {
+        outline: auto;
+      }
 
-/*
+      /*
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
-:-moz-ui-invalid {
-  box-shadow: none;
-}
+      :-moz-ui-invalid {
+        box-shadow: none;
+      }
 
-/*
+      /*
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
-progress {
-  vertical-align: baseline;
-}
+      progress {
+        vertical-align: baseline;
+      }
 
-/*
+      /*
 Correct the cursor style of increment and decrement buttons in Safari.
 */
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
+      ::-webkit-inner-spin-button,
+      ::-webkit-outer-spin-button {
+        height: auto;
+      }
 
-/*
+      /*
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-}
+      [type="search"] {
+        -webkit-appearance: textfield;
+        /* 1 */
+        outline-offset: -2px;
+        /* 2 */
+      }
 
-/*
+      /*
 Remove the inner padding in Chrome and Safari on macOS.
 */
 
-::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+      ::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
 
-/*
+      /*
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to `inherit` in Safari.
 */
 
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        /* 1 */
+        font: inherit;
+        /* 2 */
+      }
 
-/*
+      /*
 Add the correct display in Chrome and Safari.
 */
 
-summary {
-  display: list-item;
-}
+      summary {
+        display: list-item;
+      }
 
-/*
+      /*
 Removes the default spacing and border for appropriate elements.
 */
 
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
-  margin: 0;
-}
+      blockquote,
+      dl,
+      dd,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hr,
+      figure,
+      p,
+      pre {
+        margin: 0;
+      }
 
-fieldset {
-  margin: 0;
-  padding: 0;
-}
+      fieldset {
+        margin: 0;
+        padding: 0;
+      }
 
-legend {
-  padding: 0;
-}
+      legend {
+        padding: 0;
+      }
 
-ol,
-ul,
-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+      ol,
+      ul,
+      menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
 
-/*
+      /*
 Reset default styling for dialogs.
 */
 
-dialog {
-  padding: 0;
-}
+      dialog {
+        padding: 0;
+      }
 
-/*
+      /*
 Prevent resizing textareas horizontally by default.
 */
 
-textarea {
-  resize: vertical;
-}
+      textarea {
+        resize: vertical;
+      }
 
-/*
+      /*
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
+      input::-moz-placeholder,
+      textarea::-moz-placeholder {
+        opacity: 1;
+        /* 1 */
+        color: #9ca3af;
+        /* 2 */
+      }
 
-input::placeholder,
-textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
+      input::placeholder,
+      textarea::placeholder {
+        opacity: 1;
+        /* 1 */
+        color: #9ca3af;
+        /* 2 */
+      }
 
-/*
+      /*
 Set the default cursor for buttons.
 */
 
-button,
-[role="button"] {
-  cursor: pointer;
-}
+      button,
+      [role="button"] {
+        cursor: pointer;
+      }
 
-/*
+      /*
 Make sure disabled buttons don't get the pointer cursor.
 */
 
-:disabled {
-  cursor: default;
-}
+      :disabled {
+        cursor: default;
+      }
 
-/*
+      /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
    This can trigger a poorly considered lint error in some tools but is included by design.
 */
 
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  display: block;
-  /* 1 */
-  vertical-align: middle;
-  /* 2 */
-}
+      img,
+      svg,
+      video,
+      canvas,
+      audio,
+      iframe,
+      embed,
+      object {
+        display: block;
+        /* 1 */
+        vertical-align: middle;
+        /* 2 */
+      }
 
-/*
+      /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
 
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Make elements with the HTML hidden attribute stay hidden by default */
-
-[hidden]:where(:not([hidden="until-found"])) {
-  display: none;
-}
-
-:root {
-  --color-text: #050708;
-  --color-background: #ffffff;
-  --color-muted: #666666;
-  --color-highlight: #efefef;
-  --color-primary: #f1553a;
-  --color-secondary: #1d93b2;
-  --color-tertiary: #b8c05d;
-  --color-accent: #fcbb1a;
-  --color-surface: #efefef;
-  --color-border: #666666;
-  --color-active: #050708;
-  --color-selected: #f1553a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-text: #dddddd;
-    --color-background: #050708;
-    --color-muted: #898989;
-    --color-highlight: #333333;
-    --color-surface: #333333;
-    --color-border: #898989;
-    --color-active: #dddddd;
-    --color-selected: #f1553a;
-  }
-}
-
-a {
-  text-decoration-line: underline;
-}
-
-a:hover:hover {
-  --tw-text-opacity: 1;
-  color: rgb(241 85 58 / var(--tw-text-opacity, 1));
-}
-
-/* To use with MDX components to revert list styles back to normal (Tailwind resets it) */
-
-ul.list-revert,
-  ol.list-revert {
-  list-style: revert;
-}
-
-/* Typography Presets */
-
-/* Really small labels labels etc */
-
-.text-preset-1 {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-/* Semibold text in the context of a paragraph */
-
-/* Small labels etc */
-
-.text-preset-2 {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-/* Semibold text in the context of a paragraph */
-
-/* Normal text  */
-
-.text-preset-3 {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-/* Semibold text in the context of a paragraph */
-
-.text-preset-3-bold {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-/* MDX <h4>, <h5>, <h6> */
-
-.text-preset-4 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 500;
-  line-height: 1.375;
-  letter-spacing: -0.025em;
-}
-
-@media (min-width: 640px) {
-  .text-preset-4 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
-/* Semibold text in the context of a paragraph */
-
-.text-preset-4-bold {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  line-height: 1.375;
-  letter-spacing: -0.025em;
-}
-
-@media (min-width: 640px) {
-  .text-preset-4-bold {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
-/* MDX <h3> */
-
-/* Semibold text in the context of a paragraph */
-
-/* MDX <h2>, Music Library SectionHeading */
-
-/* Semibold text in the context of a paragraph */
-
-/* MDX <h1>, Music Library PageTitle */
-
-.text-preset-7 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 600;
-  line-height: 1;
-  letter-spacing: -0.025em;
-}
-
-@media (min-width: 640px) {
-  .text-preset-7 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-}
-
-/* Semibold text in the context of a paragraph */
-
-/* Markdown styles */
-
-.markdown {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.markdown p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.markdown strong {
-  font-weight: 600;
-}
-
-.markdown a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(241 85 58 / var(--tw-text-opacity, 1));
-}
-
-.markdown ul {
-  list-style-position: inside;
-  list-style-type: disc;
-}
-
-.markdown ul > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-
-.markdown li {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.markdown li p {
-  display: inline;
-}
-
-.mx-auto {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.mb-16 {
-  margin-bottom: 4rem !important;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem !important;
-}
-
-.mb-24 {
-  margin-bottom: 6rem !important;
-}
-
-.mb-4 {
-  margin-bottom: 1rem !important;
-}
-
-.mb-8 {
-  margin-bottom: 2rem !important;
-}
-
-.mr-2 {
-  margin-right: 0.5rem !important;
-}
-
-.mt-1 {
-  margin-top: 0.25rem !important;
-}
-
-.mt-2 {
-  margin-top: 0.5rem !important;
-}
-
-.mt-4 {
-  margin-top: 1rem !important;
-}
-
-.mt-6 {
-  margin-top: 1.5rem !important;
-}
-
-.mt-8 {
-  margin-top: 2rem !important;
-}
-
-.flex {
-  display: flex !important;
-}
-
-.h-fit {
-  height: -moz-fit-content !important;
-  height: fit-content !important;
-}
-
-.max-w-container {
-  max-width: 50rem !important;
-}
-
-.list-inside {
-  list-style-position: inside !important;
-}
-
-.list-disc {
-  list-style-type: disc !important;
-}
-
-.justify-between {
-  justify-content: space-between !important;
-}
-
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse)) !important;
-}
-
-.space-y-12 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
-}
-
-.space-y-16 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(4rem * var(--tw-space-y-reverse)) !important;
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse)) !important;
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse)) !important;
-}
-
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)) !important;
-}
-
-.whitespace-nowrap {
-  white-space: nowrap !important;
-}
-
-.bg-background {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1)) !important;
-}
-
-.px-2 {
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
-}
-
-.ps-10 {
-  padding-inline-start: 2.5rem !important;
-}
-
-.text-muted {
-  --tw-text-opacity: 1 !important;
-  color: rgb(102 102 102 / var(--tw-text-opacity, 1)) !important;
-}
-
-.text-text {
-  --tw-text-opacity: 1 !important;
-  color: rgb(5 7 8 / var(--tw-text-opacity, 1)) !important;
-}
-
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
-}
-
-/* Additional Markdown-specific dark mode styles */
-
-.markdown {
-  --tw-text-opacity: 1;
-  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
-}
-
-@media (prefers-color-scheme: dark) {
-  .markdown {
-    --tw-text-opacity: 1;
-    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
-  }
-}
-
-.markdown > p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  line-height: 1.5;
-  --tw-text-opacity: 1;
-  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
-}
-
-@media (prefers-color-scheme: dark) {
-  .markdown > p {
-    --tw-text-opacity: 1;
-    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
-  }
-}
-
-.markdown > strong {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 600;
-  line-height: 1.5;
-  --tw-text-opacity: 1;
-  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
-}
-
-@media (prefers-color-scheme: dark) {
-  .markdown > strong {
-    --tw-text-opacity: 1;
-    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
-  }
-}
-
-.markdown & a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(241 85 58 / var(--tw-text-opacity, 1));
-}
-
-ul.markdown & ul,
-  ol.markdown & ul {
-  list-style: revert;
-}
-
-.markdown & ul > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-
-.markdown & ul {
-  padding-inline-start: 2.5rem;
-}
-
-.markdown & li {
-  --tw-text-opacity: 1;
-  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
-}
-
-@media (prefers-color-scheme: dark) {
-  .markdown & li {
-    --tw-text-opacity: 1;
-    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
-  }
-}
-
-.markdown & li p {
-  display: inline;
-  --tw-text-opacity: 1;
-  color: rgb(5 7 8 / var(--tw-text-opacity, 1));
-}
-
-@media (prefers-color-scheme: dark) {
-  .markdown & li p {
-    --tw-text-opacity: 1;
-    color: rgb(221 221 221 / var(--tw-text-opacity, 1));
-  }
-}
-
-.hover\:text-primary:hover {
-  --tw-text-opacity: 1 !important;
-  color: rgb(241 85 58 / var(--tw-text-opacity, 1)) !important;
-}
-
-@media (min-width: 640px) {
-  .sm\:col-span-1 {
-    grid-column: span 1 / span 1 !important;
-  }
-
-  .sm\:col-span-2 {
-    grid-column: span 2 / span 2 !important;
-  }
-
-  .sm\:mb-0 {
-    margin-bottom: 0px !important;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px !important;
-  }
-
-  .sm\:grid {
-    display: grid !important;
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  }
-
-  .sm\:gap-8 {
-    gap: 2rem !important;
-  }
-
-  .sm\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0 !important;
-    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse))) !important;
-    margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
-  }
-
-  .sm\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0 !important;
-    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse))) !important;
-    margin-bottom: calc(2rem * var(--tw-space-y-reverse)) !important;
-  }
-
-  .sm\:border-l {
-    border-left-width: 1px !important;
-  }
-
-  .sm\:border-highlight {
-    --tw-border-opacity: 1 !important;
-    border-color: rgb(239 239 239 / var(--tw-border-opacity, 1)) !important;
-  }
-
-  .sm\:pl-4 {
-    padding-left: 1rem !important;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-background-dark {
-    --tw-bg-opacity: 1 !important;
-    background-color: rgb(5 7 8 / var(--tw-bg-opacity, 1)) !important;
-  }
-
-  .dark\:text-muted-dark {
-    --tw-text-opacity: 1 !important;
-    color: rgb(137 137 137 / var(--tw-text-opacity, 1)) !important;
-  }
-
-  .dark\:text-text-dark {
-    --tw-text-opacity: 1 !important;
-    color: rgb(221 221 221 / var(--tw-text-opacity, 1)) !important;
-  }
-
-  .dark\:hover\:text-primary:hover {
-    --tw-text-opacity: 1 !important;
-    color: rgb(241 85 58 / var(--tw-text-opacity, 1)) !important;
-  }
-}
-</style>
-</head>
-<body>
-    <div class="max-w-container mx-auto px-2 mb-24 text-text bg-background dark:text-text-dark dark:bg-background-dark"><div class="mb-16 sm:mb-0"><header class="mb-8"><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2"><h1 class="text-preset-7 mb-2">Andrew Westling</h1><div class="text-preset-4">Design Engineer</div></div><div class="mt-4 sm:mt-0 space-y-1 sm:border-l sm:border-highlight sm:pl-4 sm:col-span-1 h-fit"><div class="text-preset-3"><span class="mr-2">✉️</span><a href="mailto:hi@andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary " data-umami-event="Click Email (Resume)">hi@andrewwestling.com</a></div><div class="text-preset-3"><span class="mr-2">📍</span>Brooklyn, NY</div></div></div><div class="mt-6"><span class="markdown "><p>Design engineer with a formal background in architecture and a decade of experience in web development. Specialty in the intersection of design and engineering: building design systems, crafting resilient interfaces, and thinking holistically about how products are structured and scaled. Skilled with <strong>TypeScript</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Tailwind</strong>, agentic AI tooling, and more. Experienced doing platform-level work that multiplies the output of large engineering organizations.</p>
-</span></div></header></div><div class="sm:grid sm:grid-cols-3 sm:gap-8"><div class="sm:col-span-2 space-y-12 sm:space-y-8 mb-16 sm:mb-0"><section><h2 class="text-preset-4 mb-4">👔 Experience</h2><div class="space-y-12"><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior Design Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">9/2024–Present</span></div><div class="text-preset-3"><a href="https://alloy.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Alloy</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Design engineering at an identity and fraud prevention platform for financial institutions. Solving problems where design and engineering overlap.</p>
-</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Platform migration</strong>: partnering with a small frontend platform team to lead an architectural migration of Alloy&#39;s frontend application, with rollout planned across ~50 product engineers</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Filter interfaces</strong>: built new filter interfaces for Alloy&#39;s risk management platform, improving analyst workflow for complex, multi-dimensional data</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Design system tooling</strong>: built an internal component usage reporting tool to analyze React component adoption across the codebase, enabling data-driven decisions about design system evolution</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Design system mentorship</strong>: serve as the design system education resource for Alloy&#39;s product engineers, bridging design intent and implementation across teams</p>
-</span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior UI Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">10/2023–8/2024</span></div><div class="text-preset-3"><a href="https://droit.tech" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Droit (acquired by FIS)</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Front-end development at a regulatory compliance platform for global financial institutions.</p>
-</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Applications</strong>: productionized and delivered the first version of a new application to help analysts validate transaction reports before they are sent to regulators</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: improved build performance and developer experience of Droit&#39;s component library</p>
-</span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior Software Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">7/2022–3/2023</span></div><div class="text-preset-3"><a href="https://fortelessons.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Forte</a> · <!-- -->remote (New York City)</div></div><div class="mt-2"><span class="markdown "><p>First engineering hire at a music education startup; built the application from scratch and set the technical and cultural foundation for a growing team.</p>
-</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>From scratch</strong>: set up Forte&#39;s Next.js application from the ground up; chose tools and workflows to enable quick iteration; established a component library for consistent user experience</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Built features</strong>: built the first iteration of various customer-facing features for Forte&#39;s marketplace: Teacher Profiles; Certified Institutions; Invitations and Sign Up; Teacher Ratings and Reviews; &quot;Switch Role&quot; functionality; etc.</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>UX/Product Architecture</strong>: informed the UX, product flow, and overall architecture of a multi-role marketplace application</p>
-</span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Senior Front End Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">4/2021–6/2022</span></div><div class="text-preset-3"><a href="https://monograph.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Monograph</a> · <!-- -->remote (New York City)</div></div><div class="mt-2"><span class="markdown "><p>Design system and feature development at a practice management platform for architecture firms.</p>
-</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: built components for Monograph&#39;s component library; wrote documentation and set up workflows between Figma and the codebase</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Features</strong>: built customer-facing features: Team Directory; filter functionality for Monograph Resource; Settings UI; &quot;Consultants&quot; feature; etc.</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Glue work</strong>: process documentation, tool selection, configuration, code reviews, data migration scripts, customer support collaboration, bug triaging; coordination that kept the team moving</p>
-</span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Software Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">7/2018–3/2021</span></div><div class="text-preset-3"><a href="https://better.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Better.com</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Design system and feature development on Better&#39;s loan origination platform.</p>
-</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Design systems</strong>: established Better&#39;s Design Systems team; built libraries to empower engineering teams to build consistent and clean UIs</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Features</strong>: built assorted borrower-facing features: Redisclosure Service; &quot;Required Assets and Buffer&quot; logic; Authentication/Session Expiration; UX for uploading a competitor&#39;s Loan Estimate; Loan Overview page; etc.</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Integrations</strong>: extended integrations with sales and marketing tools (call scheduling, A/B testing, etc.)</p>
-</span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Software Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">9/2015–6/2018</span></div><div class="text-preset-3"><a href="https://architizer.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Architizer</a> · <!-- -->New York City</div></div><div class="mt-2"><span class="markdown "><p>Full-stack and front-end development at an architecture products marketplace.</p>
-</span></div><ul class="mt-4 space-y-2 ps-10 list-revert"><li class="text-preset-3"><span class="markdown "><p><strong>Component libraries</strong>: established and maintained a UI component system to speed up feature development, and improve collaboration with designers</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Features</strong>: built internal- and external-facing features: a private messaging interface; directory interfaces to Solr search indexes; etc.</p>
-</span></li><li class="text-preset-3"><span class="markdown "><p><strong>Integrations</strong>: extended integrations with external tools for analytics, error logging, marketing, and customer support</p>
-</span></li></ul></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">Software Engineer</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">9/2014–8/2015</span></div><div class="text-preset-3"><a href="https://eyecuelab.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">EyeCue Lab</a> · <!-- -->Portland, Oregon</div></div><div class="mt-2"><span class="markdown "><p>Internship-to-hire at a product consultancy; built full-stack features and marketing pages across client projects.</p>
-</span></div></div><div class="no-break"><div class="mb-2"><div class="flex justify-between"><span class="text-preset-4-bold">AppleCare Advisor</span><span class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap">6/2013–5/2014</span></div><div class="text-preset-3"><a href="https://apple.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">Apple</a> · <!-- -->remote (Eugene, Oregon)</div></div><div class="mt-2"><span class="markdown "><p>Technical support for macOS products while completing degree.</p>
-</span></div></div></div></section></div><div class="sm:col-span-1 space-y-16 sm:space-y-12 sm:border-l sm:border-highlight sm:pl-4"><section><h2 class="text-preset-4 mb-4">🔧 Tools</h2><div class="space-y-4"><div class="no-break"><div class="text-preset-3-bold">AI Tooling</div><div class="text-preset-2 mt-1">Cursor, Claude Code, Codex, Conductor, CodeRabbit, Agentic Workflows</div></div><div class="no-break"><div class="text-preset-3-bold">General</div><div class="text-preset-2 mt-1">TypeScript, Vercel, CircleCI, AWS, GitHub, Docker, Linear, Visual Studio Code, Figma</div></div><div class="no-break"><div class="text-preset-3-bold">Front End</div><div class="text-preset-2 mt-1">React, JSX/TSX, Next.js, Vite, GraphQL, Apollo, Prisma, Jest/Vitest, Node.js</div></div><div class="no-break"><div class="text-preset-3-bold">UI</div><div class="text-preset-2 mt-1">Storybook, styled-components, Emotion, SCSS, Tailwind, Ladle, Radix, shadcn/ui, MDX, HTML/CSS</div></div></div></section><section><h2 class="text-preset-4 mb-4">🎓 Education</h2><div class="space-y-6"><div class="no-break"><div class="markdown"><span class="markdown "><p>B.Arch, Architecture</p>
-</span></div><div class="text-preset-3 mt-1"><a href="https://www.uoregon.edu/" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary ">University of Oregon</a></div></div></div></section><section><h2 class="text-preset-4 mb-4">🔗 Links</h2><div class="space-y-2 text-preset-3"><div><a href="https://andrewwestling.com" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>andrewwestling.com</strong></a></div><div><a href="https://linkedin.com/in/andrewwestling" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>linkedin.com</strong>/in/andrewwestling</a></div><div><a href="https://github.com/andrewwestling" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary "><strong>github.com</strong>/andrewwestling</a></div></div></section><div class="text-preset-1 text-muted dark:text-muted-dark mt-8">Updated <!-- -->April 2026</div></div></div></div>
-</body>
+      img,
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Make elements with the HTML hidden attribute stay hidden by default */
+
+      [hidden]:where(:not([hidden="until-found"])) {
+        display: none;
+      }
+
+      :root {
+        --color-text: #050708;
+        --color-background: #ffffff;
+        --color-muted: #666666;
+        --color-highlight: #efefef;
+        --color-primary: #f1553a;
+        --color-secondary: #1d93b2;
+        --color-tertiary: #b8c05d;
+        --color-accent: #fcbb1a;
+        --color-surface: #efefef;
+        --color-border: #666666;
+        --color-active: #050708;
+        --color-selected: #f1553a;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --color-text: #dddddd;
+          --color-background: #050708;
+          --color-muted: #898989;
+          --color-highlight: #333333;
+          --color-surface: #333333;
+          --color-border: #898989;
+          --color-active: #dddddd;
+          --color-selected: #f1553a;
+        }
+      }
+
+      a {
+        text-decoration-line: underline;
+      }
+
+      a:hover:hover {
+        --tw-text-opacity: 1;
+        color: rgb(241 85 58 / var(--tw-text-opacity, 1));
+      }
+
+      /* To use with MDX components to revert list styles back to normal (Tailwind resets it) */
+
+      ul.list-revert,
+      ol.list-revert {
+        list-style: revert;
+      }
+
+      /* Typography Presets */
+
+      /* Really small labels labels etc */
+
+      .text-preset-1 {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      /* Semibold text in the context of a paragraph */
+
+      /* Small labels etc */
+
+      .text-preset-2 {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      /* Semibold text in the context of a paragraph */
+
+      /* Normal text  */
+
+      .text-preset-3 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      /* Semibold text in the context of a paragraph */
+
+      .text-preset-3-bold {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+
+      /* MDX <h4>, <h5>, <h6> */
+
+      .text-preset-4 {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        line-height: 1.375;
+        letter-spacing: -0.025em;
+      }
+
+      @media (min-width: 640px) {
+        .text-preset-4 {
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+        }
+      }
+
+      /* Semibold text in the context of a paragraph */
+
+      .text-preset-4-bold {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+        line-height: 1.375;
+        letter-spacing: -0.025em;
+      }
+
+      @media (min-width: 640px) {
+        .text-preset-4-bold {
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+        }
+      }
+
+      /* MDX <h3> */
+
+      /* Semibold text in the context of a paragraph */
+
+      /* MDX <h2>, Music Library SectionHeading */
+
+      /* Semibold text in the context of a paragraph */
+
+      /* MDX <h1>, Music Library PageTitle */
+
+      .text-preset-7 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: -0.025em;
+      }
+
+      @media (min-width: 640px) {
+        .text-preset-7 {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+        }
+      }
+
+      /* Semibold text in the context of a paragraph */
+
+      /* Markdown styles */
+
+      .markdown {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      .markdown p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      .markdown strong {
+        font-weight: 600;
+      }
+
+      .markdown a:hover {
+        --tw-text-opacity: 1;
+        color: rgb(241 85 58 / var(--tw-text-opacity, 1));
+      }
+
+      .markdown ul {
+        list-style-position: inside;
+        list-style-type: disc;
+      }
+
+      .markdown ul > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+      }
+
+      .markdown li {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      .markdown li p {
+        display: inline;
+      }
+
+      .mx-auto {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .mb-16 {
+        margin-bottom: 4rem !important;
+      }
+
+      .mb-2 {
+        margin-bottom: 0.5rem !important;
+      }
+
+      .mb-24 {
+        margin-bottom: 6rem !important;
+      }
+
+      .mb-4 {
+        margin-bottom: 1rem !important;
+      }
+
+      .mb-8 {
+        margin-bottom: 2rem !important;
+      }
+
+      .mr-2 {
+        margin-right: 0.5rem !important;
+      }
+
+      .mt-1 {
+        margin-top: 0.25rem !important;
+      }
+
+      .mt-2 {
+        margin-top: 0.5rem !important;
+      }
+
+      .mt-4 {
+        margin-top: 1rem !important;
+      }
+
+      .mt-6 {
+        margin-top: 1.5rem !important;
+      }
+
+      .mt-8 {
+        margin-top: 2rem !important;
+      }
+
+      .flex {
+        display: flex !important;
+      }
+
+      .h-fit {
+        height: -moz-fit-content !important;
+        height: fit-content !important;
+      }
+
+      .max-w-container {
+        max-width: 50rem !important;
+      }
+
+      .list-inside {
+        list-style-position: inside !important;
+      }
+
+      .list-disc {
+        list-style-type: disc !important;
+      }
+
+      .justify-between {
+        justify-content: space-between !important;
+      }
+
+      .space-y-1 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0 !important;
+        margin-top: calc(
+          0.25rem * calc(1 - var(--tw-space-y-reverse))
+        ) !important;
+        margin-bottom: calc(0.25rem * var(--tw-space-y-reverse)) !important;
+      }
+
+      .space-y-12 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0 !important;
+        margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse))) !important;
+        margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
+      }
+
+      .space-y-16 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0 !important;
+        margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse))) !important;
+        margin-bottom: calc(4rem * var(--tw-space-y-reverse)) !important;
+      }
+
+      .space-y-2 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0 !important;
+        margin-top: calc(
+          0.5rem * calc(1 - var(--tw-space-y-reverse))
+        ) !important;
+        margin-bottom: calc(0.5rem * var(--tw-space-y-reverse)) !important;
+      }
+
+      .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0 !important;
+        margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))) !important;
+        margin-bottom: calc(1rem * var(--tw-space-y-reverse)) !important;
+      }
+
+      .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0 !important;
+        margin-top: calc(
+          1.5rem * calc(1 - var(--tw-space-y-reverse))
+        ) !important;
+        margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)) !important;
+      }
+
+      .whitespace-nowrap {
+        white-space: nowrap !important;
+      }
+
+      .bg-background {
+        --tw-bg-opacity: 1 !important;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1)) !important;
+      }
+
+      .px-2 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+      }
+
+      .ps-10 {
+        padding-inline-start: 2.5rem !important;
+      }
+
+      .text-muted {
+        --tw-text-opacity: 1 !important;
+        color: rgb(102 102 102 / var(--tw-text-opacity, 1)) !important;
+      }
+
+      .text-text {
+        --tw-text-opacity: 1 !important;
+        color: rgb(5 7 8 / var(--tw-text-opacity, 1)) !important;
+      }
+
+      .filter {
+        filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+          var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert)
+          var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
+      }
+
+      /* Additional Markdown-specific dark mode styles */
+
+      .markdown {
+        --tw-text-opacity: 1;
+        color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .markdown {
+          --tw-text-opacity: 1;
+          color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+        }
+      }
+
+      .markdown > p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        --tw-text-opacity: 1;
+        color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .markdown > p {
+          --tw-text-opacity: 1;
+          color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+        }
+      }
+
+      .markdown > strong {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        line-height: 1.5;
+        --tw-text-opacity: 1;
+        color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .markdown > strong {
+          --tw-text-opacity: 1;
+          color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+        }
+      }
+
+      .markdown & a:hover {
+        --tw-text-opacity: 1;
+        color: rgb(241 85 58 / var(--tw-text-opacity, 1));
+      }
+
+      ul.markdown & ul,
+      ol.markdown & ul {
+        list-style: revert;
+      }
+
+      .markdown & ul > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+      }
+
+      .markdown & ul {
+        padding-inline-start: 2.5rem;
+      }
+
+      .markdown & li {
+        --tw-text-opacity: 1;
+        color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .markdown & li {
+          --tw-text-opacity: 1;
+          color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+        }
+      }
+
+      .markdown & li p {
+        display: inline;
+        --tw-text-opacity: 1;
+        color: rgb(5 7 8 / var(--tw-text-opacity, 1));
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .markdown & li p {
+          --tw-text-opacity: 1;
+          color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+        }
+      }
+
+      .hover\:text-primary:hover {
+        --tw-text-opacity: 1 !important;
+        color: rgb(241 85 58 / var(--tw-text-opacity, 1)) !important;
+      }
+
+      @media (min-width: 640px) {
+        .sm\:col-span-1 {
+          grid-column: span 1 / span 1 !important;
+        }
+
+        .sm\:col-span-2 {
+          grid-column: span 2 / span 2 !important;
+        }
+
+        .sm\:mb-0 {
+          margin-bottom: 0px !important;
+        }
+
+        .sm\:mt-0 {
+          margin-top: 0px !important;
+        }
+
+        .sm\:grid {
+          display: grid !important;
+        }
+
+        .sm\:grid-cols-3 {
+          grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        }
+
+        .sm\:gap-8 {
+          gap: 2rem !important;
+        }
+
+        .sm\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
+          --tw-space-y-reverse: 0 !important;
+          margin-top: calc(
+            3rem * calc(1 - var(--tw-space-y-reverse))
+          ) !important;
+          margin-bottom: calc(3rem * var(--tw-space-y-reverse)) !important;
+        }
+
+        .sm\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
+          --tw-space-y-reverse: 0 !important;
+          margin-top: calc(
+            2rem * calc(1 - var(--tw-space-y-reverse))
+          ) !important;
+          margin-bottom: calc(2rem * var(--tw-space-y-reverse)) !important;
+        }
+
+        .sm\:border-l {
+          border-left-width: 1px !important;
+        }
+
+        .sm\:border-highlight {
+          --tw-border-opacity: 1 !important;
+          border-color: rgb(
+            239 239 239 / var(--tw-border-opacity, 1)
+          ) !important;
+        }
+
+        .sm\:pl-4 {
+          padding-left: 1rem !important;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .dark\:bg-background-dark {
+          --tw-bg-opacity: 1 !important;
+          background-color: rgb(5 7 8 / var(--tw-bg-opacity, 1)) !important;
+        }
+
+        .dark\:text-muted-dark {
+          --tw-text-opacity: 1 !important;
+          color: rgb(137 137 137 / var(--tw-text-opacity, 1)) !important;
+        }
+
+        .dark\:text-text-dark {
+          --tw-text-opacity: 1 !important;
+          color: rgb(221 221 221 / var(--tw-text-opacity, 1)) !important;
+        }
+
+        .dark\:hover\:text-primary:hover {
+          --tw-text-opacity: 1 !important;
+          color: rgb(241 85 58 / var(--tw-text-opacity, 1)) !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="max-w-container mx-auto px-2 mb-24 text-text bg-background dark:text-text-dark dark:bg-background-dark"
+    >
+      <div class="mb-16 sm:mb-0">
+        <header class="mb-8">
+          <div class="sm:grid sm:grid-cols-3 sm:gap-8">
+            <div class="sm:col-span-2">
+              <h1 class="text-preset-7 mb-2">Andrew Westling</h1>
+              <div class="text-preset-4">Design Engineer</div>
+            </div>
+            <div
+              class="mt-4 sm:mt-0 space-y-1 sm:border-l sm:border-highlight sm:pl-4 sm:col-span-1 h-fit"
+            >
+              <div class="text-preset-3">
+                <span class="mr-2">✉️</span
+                ><a
+                  href="mailto:hi@andrewwestling.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-primary dark:hover:text-primary"
+                  data-umami-event="Click Email (Resume)"
+                  >hi@andrewwestling.com</a
+                >
+              </div>
+              <div class="text-preset-3">
+                <span class="mr-2">📍</span>Brooklyn, NY
+              </div>
+            </div>
+          </div>
+          <div class="mt-6">
+            <span class="markdown"
+              ><p>
+                Design engineer with a formal background in architecture and a
+                decade of experience in web development. Specialty in the
+                intersection of design and engineering: building design systems,
+                crafting resilient interfaces, and thinking holistically about
+                how products are structured and scaled. Skilled with
+                <strong>TypeScript</strong>, <strong>React</strong>,
+                <strong>Next.js</strong>, <strong>Tailwind</strong>, agentic AI
+                tooling, and more. Experienced doing platform-level work that
+                multiplies the output of large engineering organizations.
+              </p>
+            </span>
+          </div>
+        </header>
+      </div>
+      <div class="sm:grid sm:grid-cols-3 sm:gap-8">
+        <div class="sm:col-span-2 space-y-12 sm:space-y-8 mb-16 sm:mb-0">
+          <section>
+            <h2 class="text-preset-4 mb-4">👔 Experience</h2>
+            <div class="space-y-12">
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold"
+                      >Senior Design Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >9/2024–Present</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://alloy.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Alloy</a
+                    >
+                    ·
+                    <!-- -->New York City
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Design engineering at an identity and fraud prevention
+                      platform for financial institutions. Solving problems
+                      where design and engineering overlap.
+                    </p>
+                  </span>
+                </div>
+                <ul class="mt-4 space-y-2 ps-10 list-revert">
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Platform migration</strong>: partnering with a
+                        small frontend platform team to lead an architectural
+                        migration of Alloy&#39;s frontend application, with
+                        rollout planned across ~50 product engineers
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Filter interfaces</strong>: built new filter
+                        interfaces for Alloy&#39;s risk management platform,
+                        improving analyst workflow for complex,
+                        multi-dimensional data
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Design system tooling</strong>: built an
+                        internal component usage reporting tool to analyze React
+                        component adoption across the codebase, enabling
+                        data-driven decisions about design system evolution
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Design system mentorship</strong>: serve as the
+                        design system education resource for Alloy&#39;s product
+                        engineers, bridging design intent and implementation
+                        across teams
+                      </p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold">Senior UI Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >10/2023–8/2024</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://droit.tech"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Droit (acquired by FIS)</a
+                    >
+                    ·
+                    <!-- -->New York City
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Front-end development at a regulatory compliance platform
+                      for global financial institutions.
+                    </p>
+                  </span>
+                </div>
+                <ul class="mt-4 space-y-2 ps-10 list-revert">
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Applications</strong>: productionized and
+                        delivered the first version of a new application to help
+                        analysts validate transaction reports before they are
+                        sent to regulators
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Design systems</strong>: improved build
+                        performance and developer experience of Droit&#39;s
+                        component library
+                      </p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold"
+                      >Senior Software Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >7/2022–3/2023</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://fortelessons.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Forte</a
+                    >
+                    ·
+                    <!-- -->remote (New York City)
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      First engineering hire at a music education startup; built
+                      the application from scratch and set the technical and
+                      cultural foundation for a growing team.
+                    </p>
+                  </span>
+                </div>
+                <ul class="mt-4 space-y-2 ps-10 list-revert">
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>From scratch</strong>: set up Forte&#39;s
+                        Next.js application from the ground up; chose tools and
+                        workflows to enable quick iteration; established a
+                        component library for consistent user experience
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Built features</strong>: built the first
+                        iteration of various customer-facing features for
+                        Forte&#39;s marketplace: Teacher Profiles; Certified
+                        Institutions; Invitations and Sign Up; Teacher Ratings
+                        and Reviews; &quot;Switch Role&quot; functionality; etc.
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>UX/Product Architecture</strong>: informed the
+                        UX, product flow, and overall architecture of a
+                        multi-role marketplace application
+                      </p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold"
+                      >Senior Front End Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >4/2021–6/2022</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://monograph.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Monograph</a
+                    >
+                    ·
+                    <!-- -->remote (New York City)
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Design system and feature development at a practice
+                      management platform for architecture firms.
+                    </p>
+                  </span>
+                </div>
+                <ul class="mt-4 space-y-2 ps-10 list-revert">
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Design systems</strong>: built components for
+                        Monograph&#39;s component library; wrote documentation
+                        and set up workflows between Figma and the codebase
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Features</strong>: built customer-facing
+                        features: Team Directory; filter functionality for
+                        Monograph Resource; Settings UI; &quot;Consultants&quot;
+                        feature; etc.
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Glue work</strong>: process documentation, tool
+                        selection, configuration, code reviews, data migration
+                        scripts, customer support collaboration, bug triaging;
+                        coordination that kept the team moving
+                      </p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold">Software Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >7/2018–3/2021</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://better.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Better.com</a
+                    >
+                    ·
+                    <!-- -->New York City
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Design system and feature development on Better&#39;s loan
+                      origination platform.
+                    </p>
+                  </span>
+                </div>
+                <ul class="mt-4 space-y-2 ps-10 list-revert">
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Design systems</strong>: established
+                        Better&#39;s Design Systems team; built libraries to
+                        empower engineering teams to build consistent and clean
+                        UIs
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Features</strong>: built assorted
+                        borrower-facing features: Redisclosure Service;
+                        &quot;Required Assets and Buffer&quot; logic;
+                        Authentication/Session Expiration; UX for uploading a
+                        competitor&#39;s Loan Estimate; Loan Overview page; etc.
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Integrations</strong>: extended integrations
+                        with sales and marketing tools (call scheduling, A/B
+                        testing, etc.)
+                      </p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold">Software Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >9/2015–6/2018</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://architizer.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Architizer</a
+                    >
+                    ·
+                    <!-- -->New York City
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Full-stack and front-end development at an architecture
+                      products marketplace.
+                    </p>
+                  </span>
+                </div>
+                <ul class="mt-4 space-y-2 ps-10 list-revert">
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Component libraries</strong>: established and
+                        maintained a UI component system to speed up feature
+                        development, and improve collaboration with designers
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Features</strong>: built internal- and
+                        external-facing features: a private messaging interface;
+                        directory interfaces to Solr search indexes; etc.
+                      </p>
+                    </span>
+                  </li>
+                  <li class="text-preset-3">
+                    <span class="markdown"
+                      ><p>
+                        <strong>Integrations</strong>: extended integrations
+                        with external tools for analytics, error logging,
+                        marketing, and customer support
+                      </p>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold">Software Engineer</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >9/2014–8/2015</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://eyecuelab.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >EyeCue Lab</a
+                    >
+                    ·
+                    <!-- -->Portland, Oregon
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Internship-to-hire at a product consultancy; built
+                      full-stack features and marketing pages across client
+                      projects.
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div class="no-break">
+                <div class="mb-2">
+                  <div class="flex justify-between">
+                    <span class="text-preset-4-bold">AppleCare Advisor</span
+                    ><span
+                      class="text-preset-2 text-muted dark:text-muted-dark whitespace-nowrap"
+                      >6/2013–5/2014</span
+                    >
+                  </div>
+                  <div class="text-preset-3">
+                    <a
+                      href="https://apple.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-primary dark:hover:text-primary"
+                      >Apple</a
+                    >
+                    ·
+                    <!-- -->remote (Eugene, Oregon)
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <span class="markdown"
+                    ><p>
+                      Technical support for macOS products while completing
+                      degree.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div
+          class="sm:col-span-1 space-y-16 sm:space-y-12 sm:border-l sm:border-highlight sm:pl-4"
+        >
+          <section>
+            <h2 class="text-preset-4 mb-4">🔧 Tools</h2>
+            <div class="space-y-4">
+              <div class="no-break">
+                <div class="text-preset-3-bold">AI Tooling</div>
+                <div class="text-preset-2 mt-1">
+                  Cursor, Claude Code, Codex, Conductor, CodeRabbit,
+                  Agentic Workflows
+                </div>
+              </div>
+              <div class="no-break">
+                <div class="text-preset-3-bold">General</div>
+                <div class="text-preset-2 mt-1">
+                  TypeScript, Vercel, CircleCI, AWS, GitHub, Docker, Linear,
+                  Visual Studio Code, Figma
+                </div>
+              </div>
+              <div class="no-break">
+                <div class="text-preset-3-bold">Front End</div>
+                <div class="text-preset-2 mt-1">
+                  React, JSX/TSX, Next.js, Vite, GraphQL, Apollo, Prisma,
+                  Jest/Vitest, Node.js
+                </div>
+              </div>
+              <div class="no-break">
+                <div class="text-preset-3-bold">UI</div>
+                <div class="text-preset-2 mt-1">
+                  Storybook, styled-components, Emotion, SCSS, Tailwind, Ladle,
+                  Radix, shadcn/ui, MDX, HTML/CSS
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2 class="text-preset-4 mb-4">🎓 Education</h2>
+            <div class="space-y-6">
+              <div class="no-break">
+                <div class="markdown">
+                  <span class="markdown"><p>B.Arch, Architecture</p> </span>
+                </div>
+                <div class="text-preset-3 mt-1">
+                  <a
+                    href="https://www.uoregon.edu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-primary dark:hover:text-primary"
+                    >University of Oregon</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2 class="text-preset-4 mb-4">🔗 Links</h2>
+            <div class="space-y-2 text-preset-3">
+              <div>
+                <a
+                  href="https://andrewwestling.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-primary dark:hover:text-primary"
+                  ><strong>andrewwestling.com</strong></a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://linkedin.com/in/andrewwestling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-primary dark:hover:text-primary"
+                  ><strong>linkedin.com</strong>/in/andrewwestling</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/andrewwestling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-primary dark:hover:text-primary"
+                  ><strong>github.com</strong>/andrewwestling</a
+                >
+              </div>
+            </div>
+          </section>
+          <div class="text-preset-1 text-muted dark:text-muted-dark mt-8">
+            Updated
+            <!-- -->April 2026
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

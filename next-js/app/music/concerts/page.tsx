@@ -63,8 +63,8 @@ export default async function ConcertsPage(props: {
         const conductors = Array.isArray(concert.frontmatter.conductor)
           ? concert.frontmatter.conductor
           : concert.frontmatter.conductor
-          ? [concert.frontmatter.conductor]
-          : [];
+            ? [concert.frontmatter.conductor]
+            : [];
         return conductors.includes(conductor.title);
       });
     }

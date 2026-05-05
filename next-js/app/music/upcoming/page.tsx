@@ -6,7 +6,7 @@ import { ConcertListItem } from "@music/components/ConcertListItem";
 import { PageTitle } from "@music/components/PageTitle";
 import { SectionHeading } from "@music/components/SectionHeading";
 import { getUpcomingConcerts } from "@music/data/queries";
-import { getSiteUrl, isToday } from "@music/lib/helpers";
+import { getCurrentSeasonSlug, getSiteUrl, isToday } from "@music/lib/helpers";
 import { routes } from "@music/lib/routes";
 
 // Revalidate every 6 hours so badges like "Today" stay up-to-date
@@ -21,11 +21,20 @@ export default async function UpcomingPage() {
   const upcomingConcerts = getUpcomingConcerts();
   const calendarUrl = `${getSiteUrl()}/music/upcoming.ics`;
 
-  // Find the first today or upcoming concert
+  // A "season" runs September through August (see getCurrentSeasonYear).
+  // Up Next / Later This Season only apply to concerts in the current season;
+  // anything beyond that goes under Future Seasons.
+  const currentSeasonSlug = getCurrentSeasonSlug();
+  const thisSeasonConcerts = upcomingConcerts.filter(
+    (concert) => concert.frontmatter.season === currentSeasonSlug
+  );
+  const futureSeasons = upcomingConcerts.filter(
+    (concert) => concert.frontmatter.season !== currentSeasonSlug
+  );
   const upNext =
-    upcomingConcerts.find((concert) => isToday(concert)) ||
-    upcomingConcerts[0];
-  const laterConcerts = upcomingConcerts.filter(
+    thisSeasonConcerts.find((concert) => isToday(concert)) ||
+    thisSeasonConcerts[0];
+  const laterThisSeason = thisSeasonConcerts.filter(
     (concert) => concert !== upNext
   );
 
@@ -40,24 +49,38 @@ export default async function UpcomingPage() {
               <ConcertInfo concert={upNext} showAttendActions />
             </div>
           )}
-          {/* If no more concerts, show a message */}
-          {upcomingConcerts.length === 0 && (
+          {/* No concerts left this season — message varies by whether future-season concerts exist */}
+          {!upNext && (
             <>
               <p>🏖️ No more concerts scheduled for this season.</p>
-              <p>
-                <a href={routes.seasons.index()}>Explore my past seasons</a>, or
-                check back soon!
-              </p>
+              {futureSeasons.length === 0 && (
+                <p>
+                  <a href={routes.seasons.index()}>Explore my past seasons</a>,
+                  or check back soon!
+                </p>
+              )}
             </>
           )}
         </section>
 
         {/* Later This Season */}
-        {laterConcerts.length > 0 && (
+        {laterThisSeason.length > 0 && (
           <section>
             <SectionHeading>Later This Season</SectionHeading>
             <div className="grid gap-4">
-              {laterConcerts.map((concert) => (
+              {laterThisSeason.map((concert) => (
+                <ConcertListItem key={concert.slug} concert={concert} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Future Seasons */}
+        {futureSeasons.length > 0 && (
+          <section>
+            <SectionHeading>Future Seasons</SectionHeading>
+            <div className="grid gap-4">
+              {futureSeasons.map((concert) => (
                 <ConcertListItem key={concert.slug} concert={concert} />
               ))}
             </div>

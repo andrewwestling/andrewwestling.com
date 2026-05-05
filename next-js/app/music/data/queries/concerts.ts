@@ -45,8 +45,8 @@ export function getConcertsByWork(workTitle: string) {
     const works = Array.isArray(concert.frontmatter.works)
       ? concert.frontmatter.works
       : concert.frontmatter.works
-      ? [concert.frontmatter.works]
-      : [];
+        ? [concert.frontmatter.works]
+        : [];
     return works.includes(workTitle);
   });
 }

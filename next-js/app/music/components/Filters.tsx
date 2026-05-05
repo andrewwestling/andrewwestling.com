@@ -69,13 +69,13 @@ const selectStyles: StylesConfig<SelectOption, boolean> = {
     color: state.isSelected
       ? "var(--color-background)"
       : state.isFocused
-      ? "var(--color-background)"
-      : "var(--color-text)",
+        ? "var(--color-background)"
+        : "var(--color-text)",
     backgroundColor: state.isSelected
       ? "var(--color-selected)"
       : state.isFocused
-      ? "var(--color-selected)"
-      : "var(--color-surface)",
+        ? "var(--color-selected)"
+        : "var(--color-surface)",
     "&:active": {
       backgroundColor: "var(--color-selected)",
       color: "var(--color-active)",
@@ -201,8 +201,8 @@ export function Filters({
                 facets.length > 1
                   ? (newValue as SelectOption[])
                   : newValue
-                  ? [newValue as SelectOption]
-                  : []
+                    ? [newValue as SelectOption]
+                    : []
               )
             }
             options={options}

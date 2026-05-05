@@ -6,8 +6,8 @@
     "title": "Adams - The Chairman Dances (Foxtrot for Orchestra)",
     "content": "",
     "frontmatter": {
-      "composer": "Adams, John",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Adams, John"
     },
     "concertCount": 1,
     "bucketList": false
@@ -19,8 +19,8 @@
     "title": "Anderson - Blue Tango",
     "content": "",
     "frontmatter": {
-      "composer": "Anderson, Leroy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Anderson, Leroy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -32,8 +32,8 @@
     "title": "Anderson - Chicken Reel",
     "content": "",
     "frontmatter": {
-      "composer": "Anderson, Leroy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Anderson, Leroy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -45,8 +45,8 @@
     "title": "Anderson - Christmas Festival",
     "content": "",
     "frontmatter": {
-      "composer": "Anderson, Leroy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Anderson, Leroy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -58,8 +58,8 @@
     "title": "Anderson - Fiddle Faddle",
     "content": "",
     "frontmatter": {
-      "composer": "Anderson, Leroy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Anderson, Leroy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -71,8 +71,8 @@
     "title": "Anderson - Plink, Plank, Plunk",
     "content": "",
     "frontmatter": {
-      "composer": "Anderson, Leroy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Anderson, Leroy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -84,8 +84,8 @@
     "title": "Anderson - Sleigh Ride",
     "content": "",
     "frontmatter": {
-      "composer": "Anderson, Leroy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Anderson, Leroy"
     },
     "concertCount": 5,
     "bucketList": false
@@ -97,8 +97,8 @@
     "title": "Avshalomov - Seasons' Greetings",
     "content": "",
     "frontmatter": {
-      "composer": "Avshalomov, Jacob",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Avshalomov, Jacob"
     },
     "concertCount": 2,
     "bucketList": false
@@ -110,8 +110,8 @@
     "title": "Bach - Flute Concerto in A Major",
     "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro ma non tanto",
     "frontmatter": {
-      "composer": "Bach, Johann Sebastian",
-      "catalogue": "BWV 1055"
+      "catalogue": "BWV 1055",
+      "composer": "Bach, Johann Sebastian"
     },
     "concertCount": 0,
     "bucketList": false
@@ -123,8 +123,8 @@
     "title": "Bach - Fugue in G Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Bach, Johann Sebastian",
-      "catalogue": "BWV 578"
+      "catalogue": "BWV 578",
+      "composer": "Bach, Johann Sebastian"
     },
     "concertCount": 4,
     "bucketList": false
@@ -136,8 +136,8 @@
     "title": "Bach - Toccata and Fugue in D Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Bach, Johann Sebastian",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bach, Johann Sebastian"
     },
     "concertCount": 1,
     "bucketList": false
@@ -149,8 +149,8 @@
     "title": "Badelt - Pirates of the Caribbean",
     "content": "",
     "frontmatter": {
-      "composer": "Badelt, Klaus",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Badelt, Klaus"
     },
     "concertCount": 5,
     "bucketList": false
@@ -162,8 +162,8 @@
     "title": "Barber - Adagio for Strings",
     "content": "",
     "frontmatter": {
-      "composer": "Barber, Samuel",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Barber, Samuel"
     },
     "concertCount": 1,
     "bucketList": false
@@ -175,8 +175,8 @@
     "title": "Barber - Knoxville - Summer of 1915",
     "content": "",
     "frontmatter": {
-      "composer": "Barber, Samuel",
       "catalogue": "24",
+      "composer": "Barber, Samuel",
       "displayName": "Knoxville: Summer of 1915"
     },
     "concertCount": 1,
@@ -189,8 +189,8 @@
     "title": "Barber - Music for a Scene from Shelley",
     "content": "",
     "frontmatter": {
-      "composer": "Barber, Samuel",
-      "catalogue": "7"
+      "catalogue": "7",
+      "composer": "Barber, Samuel"
     },
     "concertCount": 4,
     "bucketList": false
@@ -202,8 +202,8 @@
     "title": "Barber - Souvenirs",
     "content": "## Movements\n1. Waltz\n2. Schottische\n3. Pas de deux\n4. Two-Step\n5. Hesitation-Tango\n6. Galop",
     "frontmatter": {
-      "composer": "Barber, Samuel",
-      "catalogue": "Op. 28"
+      "catalogue": "Op. 28",
+      "composer": "Barber, Samuel"
     },
     "concertCount": 1,
     "bucketList": false
@@ -215,8 +215,8 @@
     "title": "Barber - Violin Concerto",
     "content": "## Movements\n1. Allegro\n2. Andante\n3. Presto in moto perpetuo",
     "frontmatter": {
-      "composer": "Barber, Samuel",
-      "catalogue": "Op. 14"
+      "catalogue": "Op. 14",
+      "composer": "Barber, Samuel"
     },
     "concertCount": 4,
     "bucketList": false
@@ -228,8 +228,8 @@
     "title": "Barry - Dances with Wolves",
     "content": "",
     "frontmatter": {
-      "composer": "Barry, John",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Barry, John"
     },
     "concertCount": 1,
     "bucketList": false
@@ -241,10 +241,10 @@
     "title": "Bartok - Concerto for Orchestra",
     "content": "## Movements\n1. Introduzione: Andante non troppo – Allegro vivace\n2. Giuoco delle coppie: Allegretto scherzando\n3. Elegia: Andante non troppo\n4. Intermezzo interrotto: Allegretto\n5. Finale: Presto",
     "frontmatter": {
-      "composer": "Bartok, Bela",
-      "catalogue": "Sz. 116"
+      "catalogue": "Sz. 116",
+      "composer": "Bartok, Bela"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -254,8 +254,8 @@
     "title": "Bartok - Romanian Folk Dances",
     "content": "",
     "frontmatter": {
-      "composer": "Bartok, Bela",
-      "catalogue": "Sz. 56"
+      "catalogue": "Sz. 56",
+      "composer": "Bartok, Bela"
     },
     "concertCount": 1,
     "bucketList": false
@@ -267,8 +267,8 @@
     "title": "Basulto - Habanera-Reggaeton",
     "content": "",
     "frontmatter": {
-      "composer": "Basulto, Alejandro",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Basulto, Alejandro"
     },
     "concertCount": 1,
     "bucketList": false
@@ -280,8 +280,8 @@
     "title": "Beethoven - Coriolan Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "62"
+      "catalogue": "62",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 1,
     "bucketList": false
@@ -293,8 +293,8 @@
     "title": "Beethoven - Egmont Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "84"
+      "catalogue": "84",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 1,
     "bucketList": false
@@ -306,8 +306,8 @@
     "title": "Beethoven - Leonore Overture No. 3",
     "content": "",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "Op. 72b"
+      "catalogue": "Op. 72b",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 5,
     "bucketList": false
@@ -319,8 +319,8 @@
     "title": "Beethoven - Overture to Fidelio",
     "content": "",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "Op. 72c"
+      "catalogue": "Op. 72c",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 3,
     "bucketList": false
@@ -332,8 +332,8 @@
     "title": "Beethoven - String Quartet No. 4 in C Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "18"
+      "catalogue": "18",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 1,
     "bucketList": false
@@ -345,8 +345,8 @@
     "title": "Beethoven - Symphony No. 3 in E-Flat Major",
     "content": "",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "53"
+      "catalogue": "53",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 0,
     "bucketList": true
@@ -358,8 +358,8 @@
     "title": "Beethoven - Symphony No. 5 in C Minor",
     "content": "## Movements\n1. Allegro con brio\n2. Andante con moto\n3. Scherzo: Allegro\n4. Allegro – Presto",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "Op. 67"
+      "catalogue": "Op. 67",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 4,
     "bucketList": false
@@ -371,8 +371,8 @@
     "title": "Beethoven - Symphony No. 6 in F Major",
     "content": "## Movements\n1. Allegro ma non troppo (Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande)\n2. Andante molto mosso (Szene am Bach)\n3. Allegro (Lustiges Zusammensein der Landleute)\n4. Allegro (Gewitter, Sturm)\n5. Allegretto (Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm)",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "68"
+      "catalogue": "68",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 1,
     "bucketList": false
@@ -384,8 +384,8 @@
     "title": "Beethoven - Symphony No. 7 in A Major",
     "content": "## Movements\n1. Poco sostenuto – Vivace\n2. Allegretto\n3. Presto – Assai meno presto\n4. Allegro con brio",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "Op. 92"
+      "catalogue": "Op. 92",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 2,
     "bucketList": false
@@ -397,10 +397,23 @@
     "title": "Beethoven - Symphony No. 8 in F Major",
     "content": "## Movements\n1. Allegro vivace e con brio\n2. Allegretto scherzando\n3. Tempo di Menuetto\n4. Allegro vivace",
     "frontmatter": {
-      "composer": "Beethoven, Ludwig van",
-      "catalogue": "Op. 93"
+      "catalogue": "Op. 93",
+      "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 3,
+    "bucketList": false
+  },
+  {
+    "slug": "beethoven-symphony-no-9-in-d-minor",
+    "type": "work",
+    "path": "Works/Beethoven - Symphony No. 9 in D Minor.md",
+    "title": "Beethoven - Symphony No. 9 in D Minor",
+    "content": "## Movements\n1. Allegro ma non troppo, un poco maestoso\n2. Molto vivace\n3. Adagio molto e cantabile\n4. Presto — Allegro assai (Ode to Joy)",
+    "frontmatter": {
+      "catalogue": "Op. 125",
+      "composer": "Beethoven, Ludwig van"
+    },
+    "concertCount": 1,
     "bucketList": false
   },
   {
@@ -410,8 +423,8 @@
     "title": "Berko - Condense Eternity",
     "content": "",
     "frontmatter": {
-      "composer": "Berko, Alex",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Berko, Alex"
     },
     "concertCount": 1,
     "bucketList": false
@@ -423,8 +436,8 @@
     "title": "Berlin - White Christmas",
     "content": "",
     "frontmatter": {
-      "composer": "Berlin, Irving",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Berlin, Irving"
     },
     "concertCount": 1,
     "bucketList": false
@@ -436,8 +449,8 @@
     "title": "Berlioz - Roman Carnival Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Berlioz, Hector",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Berlioz, Hector"
     },
     "concertCount": 1,
     "bucketList": false
@@ -449,8 +462,8 @@
     "title": "Berlioz - Symphonie Fantastique",
     "content": "## Movements\n1. \"Rêveries – Passions\" (Daydreams – passions)\n2. \"Un bal\" (A ball)\n3. \"Scène aux champs\" (Scene in the country)\n4. \"Marche au supplice\" (March to the scaffold)\n5. \"Songe d'une nuit du sabbat\" (Dream of a night of the sabbath)",
     "frontmatter": {
-      "composer": "Berlioz, Hector",
-      "catalogue": "14"
+      "catalogue": "14",
+      "composer": "Berlioz, Hector"
     },
     "concertCount": 1,
     "bucketList": true
@@ -462,8 +475,8 @@
     "title": "Bernstein - Overture to Candide",
     "content": "",
     "frontmatter": {
-      "composer": "Bernstein, Leonard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bernstein, Leonard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -475,8 +488,8 @@
     "title": "Bizet - Carmen Suite No. 1",
     "content": "## Movements\n1. Prélude (Aragonaise)\n2. Intermezzo (Entr'acte to Act III)\n3. Séguedille\n4. Les Dragons d'Alcala\n5. Les Toréadors",
     "frontmatter": {
-      "composer": "Bizet, Georges",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bizet, Georges"
     },
     "concertCount": 4,
     "bucketList": false
@@ -488,8 +501,8 @@
     "title": "Bizet - Carmen Suite No. 2",
     "content": "## Movements\n1. Marche des Contrebandiers\n2. Habanera\n3. Nocturne\n4. Chanson du Toréador\n5. La Garde Montante\n6. Danse Bohème",
     "frontmatter": {
-      "composer": "Bizet, Georges",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bizet, Georges"
     },
     "concertCount": 2,
     "bucketList": false
@@ -501,8 +514,8 @@
     "title": "Bizet - Carmen",
     "content": "",
     "frontmatter": {
-      "composer": "Bizet, Georges",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bizet, Georges"
     },
     "concertCount": 1,
     "bucketList": false
@@ -514,8 +527,8 @@
     "title": "Bizet - L'Arlesienne Suite No. 1",
     "content": "## Movements\n1. Prélude\n2. Minuetto\n3. Adagietto\n4. Carillon",
     "frontmatter": {
-      "composer": "Bizet, Georges",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bizet, Georges"
     },
     "concertCount": 1,
     "bucketList": false
@@ -527,8 +540,8 @@
     "title": "Bizet - Symphony in C",
     "content": "",
     "frontmatter": {
-      "composer": "Bizet, Georges",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bizet, Georges"
     },
     "concertCount": 0,
     "bucketList": true
@@ -540,8 +553,8 @@
     "title": "Bloch - Prayer (From Jewish Life)",
     "content": "",
     "frontmatter": {
-      "composer": "Bloch, Ernest",
       "catalogue": "",
+      "composer": "Bloch, Ernest",
       "displayName": "Prayer (From Jewish Life)"
     },
     "concertCount": 1,
@@ -554,8 +567,8 @@
     "title": "Bock - Fiddler on the Roof",
     "content": "",
     "frontmatter": {
-      "composer": "Bock, Jerry",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bock, Jerry"
     },
     "concertCount": 1,
     "bucketList": false
@@ -567,8 +580,8 @@
     "title": "Borzoni - Antinous and Hadrian Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Borzoni, Clint",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Borzoni, Clint"
     },
     "concertCount": 1,
     "bucketList": false
@@ -580,10 +593,23 @@
     "title": "Brahms - Academic Festival Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "80"
+      "catalogue": "80",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 3,
+    "bucketList": false
+  },
+  {
+    "slug": "brahms-double-concerto-for-violin-and-cello",
+    "type": "work",
+    "path": "Works/Brahms - Double Concerto for Violin and Cello.md",
+    "title": "Brahms - Double Concerto for Violin and Cello",
+    "content": "## Movements\n1. Allegro\n2. Andante\n3. Vivace non troppo",
+    "frontmatter": {
+      "catalogue": "Op. 102",
+      "composer": "Brahms, Johannes"
+    },
+    "concertCount": 1,
     "bucketList": false
   },
   {
@@ -593,8 +619,8 @@
     "title": "Brahms - Hungarian Dance No. 1",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 4,
     "bucketList": false
@@ -606,8 +632,8 @@
     "title": "Brahms - Hungarian Dance No. 5",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 6,
     "bucketList": false
@@ -619,8 +645,8 @@
     "title": "Brahms - Hungarian Dance No. 6",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 6,
     "bucketList": false
@@ -632,8 +658,8 @@
     "title": "Brahms - Hungarian Dance No. 7",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 1,
     "bucketList": false
@@ -645,8 +671,8 @@
     "title": "Brahms - String Quartet No. 2 in A Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "51"
+      "catalogue": "51",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 1,
     "bucketList": false
@@ -658,8 +684,8 @@
     "title": "Brahms - Symphony No. 1 in C Minor",
     "content": "## Movements\n1. Un poco sostenuto – Allegro – Meno allegro\n2. Andante sostenuto\n3. Un poco allegretto e grazioso\n4. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "Op. 68"
+      "catalogue": "Op. 68",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 2,
     "bucketList": false
@@ -671,8 +697,8 @@
     "title": "Brahms - Symphony No. 2 in D Major",
     "content": "## Movements\n1. Allegro non troppo\n2. Adagio non troppo\n3. Allegretto grazioso (quasi andantino)\n4. Allegro con spirito",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "Op. 73"
+      "catalogue": "Op. 73",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 1,
     "bucketList": true
@@ -684,8 +710,8 @@
     "title": "Brahms - Symphony No. 3 in F Major",
     "content": "## Movements\n1. Allegro con brio\n2. Andante\n3. Poco allegretto\n4. Allegro",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "Op. 90"
+      "catalogue": "Op. 90",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 2,
     "bucketList": false
@@ -697,8 +723,8 @@
     "title": "Brahms - Symphony No. 4 in E Minor",
     "content": "## Movements\n1. Allegro non troppo\n2. Andante moderato\n3. Allegro giocoso\n4. Allegro energico e passionato",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "Op. 98"
+      "catalogue": "Op. 98",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 1,
     "bucketList": false
@@ -710,8 +736,8 @@
     "title": "Brahms - Tragic Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "81"
+      "catalogue": "81",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 1,
     "bucketList": false
@@ -723,8 +749,8 @@
     "title": "Brahms - Variations on a Theme by Haydn",
     "content": "## Movements\n- Chorale St. Antoni: Andante\n- Variation I: Poco più animato\n- Variation II: Più vivace\n- Variation III: Con moto\n- Variation IV: Andante con moto\n- Variation V: Vivace\n- Variation VI: Vivace\n- Variation VII: Grazioso\n- Variation VIII: Presto non troppo\n- Finale: Andante",
     "frontmatter": {
-      "composer": "Brahms, Johannes",
-      "catalogue": "Op. 56a"
+      "catalogue": "Op. 56a",
+      "composer": "Brahms, Johannes"
     },
     "concertCount": 1,
     "bucketList": false
@@ -736,8 +762,8 @@
     "title": "Britten - Simple Symphony",
     "content": "",
     "frontmatter": {
-      "composer": "Britten, Benjamin",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Britten, Benjamin"
     },
     "concertCount": 0,
     "bucketList": true
@@ -749,8 +775,8 @@
     "title": "Bruch - Kol Nidrei",
     "content": "",
     "frontmatter": {
-      "composer": "Bruch, Max",
-      "catalogue": "47"
+      "catalogue": "47",
+      "composer": "Bruch, Max"
     },
     "concertCount": 1,
     "bucketList": false
@@ -762,8 +788,8 @@
     "title": "Bruch - Three Hebrew Songs",
     "content": "## Movements\n1. Beweinet, die geweint an Babels Strand\n2. In ihrer Schönheit wandelt sie\n3. Arabiens Kameele am Jordan zieh'n",
     "frontmatter": {
-      "composer": "Bruch, Max",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Bruch, Max"
     },
     "concertCount": 1,
     "bucketList": false
@@ -775,8 +801,8 @@
     "title": "Chabrier - Espana",
     "content": "",
     "frontmatter": {
-      "composer": "Chabrier, Emmanuel",
       "catalogue": "",
+      "composer": "Chabrier, Emmanuel",
       "displayName": "España"
     },
     "concertCount": 1,
@@ -789,8 +815,8 @@
     "title": "Chausson - Poeme",
     "content": "",
     "frontmatter": {
-      "composer": "Chausson, Ernest",
-      "catalogue": "25"
+      "catalogue": "25",
+      "composer": "Chausson, Ernest"
     },
     "concertCount": 1,
     "bucketList": false
@@ -802,8 +828,8 @@
     "title": "Chavez - Sinfonia India (\"Symphony No. 2\")",
     "content": "",
     "frontmatter": {
-      "composer": "Chavez, Carlos",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Chavez, Carlos"
     },
     "concertCount": 1,
     "bucketList": true
@@ -815,8 +841,8 @@
     "title": "Chevalier de Saint-Georges - Overture to L'Amant Anonyme",
     "content": "",
     "frontmatter": {
-      "composer": "Chevalier de Saint-Georges, Joseph Bologne",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Chevalier de Saint-Georges, Joseph Bologne"
     },
     "concertCount": 1,
     "bucketList": false
@@ -828,8 +854,8 @@
     "title": "Coates - Joyous Youth Suite",
     "content": "## Movements\n1. Introduction\n2. Serenade\n3. Valse \"Joyous Youth\"",
     "frontmatter": {
-      "composer": "Coates, Eric",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Coates, Eric"
     },
     "concertCount": 5,
     "bucketList": false
@@ -841,8 +867,8 @@
     "title": "Coleman - Seven O'Clock Shout",
     "content": "",
     "frontmatter": {
-      "composer": "Coleman, Valerie",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Coleman, Valerie"
     },
     "concertCount": 1,
     "bucketList": false
@@ -854,8 +880,8 @@
     "title": "Coleridge-Taylor - Scenes from The Song of Hiawatha",
     "content": "",
     "frontmatter": {
-      "composer": "Coleridge-Taylor, Samuel",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Coleridge-Taylor, Samuel"
     },
     "concertCount": 1,
     "bucketList": false
@@ -867,8 +893,8 @@
     "title": "Copland - Appalachian Spring",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 4,
     "bucketList": true
@@ -880,21 +906,21 @@
     "title": "Copland - Billy the Kid",
     "content": "## Movements\n1. Introduction: The Open Prairie\n2. Street in a Frontier Town\n3. Mexican Dance and Finale\n4. Prairie Night (Card Game at Night)\n5. Gun Battle\n6. Celebration (After Billy's Capture)\n7. Billy's Death\n8. The Open Prairie Again",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 4,
     "bucketList": false
   },
   {
-    "slug": "copland-el-sal-n-m-xico",
+    "slug": "copland-el-salon-mexico",
     "type": "work",
     "path": "Works/Copland - El Salón México.md",
     "title": "Copland - El Salón México",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 0,
     "bucketList": true
@@ -906,8 +932,8 @@
     "title": "Copland - Fanfare for the Common Man",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 1,
     "bucketList": false
@@ -919,8 +945,8 @@
     "title": "Copland - Lincoln Portrait",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 1,
     "bucketList": false
@@ -932,8 +958,8 @@
     "title": "Copland - Quiet City",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 1,
     "bucketList": false
@@ -945,8 +971,8 @@
     "title": "Copland - Rodeo",
     "content": "## Movements\n1. Buckaroo Holiday\n2. Corral Nocturne\n3. Ranch House Party\n4. Saturday Night Waltz\n5. Hoe-Down",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 1,
     "bucketList": false
@@ -958,8 +984,8 @@
     "title": "Copland - The Promise of Living from The Tender Land",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Copland, Aaron"
     },
     "concertCount": 1,
     "bucketList": false
@@ -971,8 +997,8 @@
     "title": "Copland - The Red Pony Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Copland, Aaron"
     },
     "concertCount": 0,
     "bucketList": true
@@ -984,8 +1010,8 @@
     "title": "Copland - The Tender Land Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Copland, Aaron",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Copland, Aaron"
     },
     "concertCount": 0,
     "bucketList": true
@@ -997,8 +1023,8 @@
     "title": "Corelli - Concerto Grosso in D Major",
     "content": "## Movements\n1. Adagio - Allegro\n2. Adagio\n3. Vivace\n4. Allegro - Giga: Presto",
     "frontmatter": {
-      "composer": "Corelli, Arcangelo",
-      "catalogue": "Op. 6, No. 4"
+      "catalogue": "Op. 6, No. 4",
+      "composer": "Corelli, Arcangelo"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1010,8 +1036,8 @@
     "title": "Corelli - Violin Sonata in D Minor (Op. 5, No. 7)",
     "content": "",
     "frontmatter": {
-      "composer": "Corelli, Arcangelo",
       "catalogue": "Op. 5, No. 7",
+      "composer": "Corelli, Arcangelo",
       "displayName": "Violin Sonata in D Minor"
     },
     "concertCount": 1,
@@ -1024,8 +1050,8 @@
     "title": "Corelli - Violin Sonata in G Major (Op. 4, No. 10)",
     "content": "",
     "frontmatter": {
-      "composer": "Corelli, Arcangelo",
       "catalogue": "Op, 4, No. 10",
+      "composer": "Corelli, Arcangelo",
       "displayName": "Violin Sonata in G Major"
     },
     "concertCount": 1,
@@ -1038,8 +1064,8 @@
     "title": "Cowell - Ancient Desert Drone",
     "content": "",
     "frontmatter": {
-      "composer": "Cowell, Henry",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Cowell, Henry"
     },
     "concertCount": 4,
     "bucketList": false
@@ -1051,21 +1077,21 @@
     "title": "Debussy - Clair de Lune",
     "content": "",
     "frontmatter": {
-      "composer": "Debussy, Claude",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Debussy, Claude"
     },
     "concertCount": 1,
     "bucketList": false
   },
   {
-    "slug": "debussy-danse-sacr-e-et-danse-profane",
+    "slug": "debussy-danse-sacree-et-danse-profane",
     "type": "work",
     "path": "Works/Debussy - Danse sacrée et danse profane.md",
     "title": "Debussy - Danse sacrée et danse profane",
     "content": "",
     "frontmatter": {
-      "composer": "Debussy, Claude",
-      "catalogue": "L. 103"
+      "catalogue": "L. 103",
+      "composer": "Debussy, Claude"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1077,8 +1103,8 @@
     "title": "Debussy - La Mer",
     "content": "## Movements\n1. De l'aube à midi sur la mer\n2. Jeux de vagues\n3. Dialogue du vent et de la mer",
     "frontmatter": {
-      "composer": "Debussy, Claude",
-      "catalogue": "L.109"
+      "catalogue": "L.109",
+      "composer": "Debussy, Claude"
     },
     "concertCount": 1,
     "bucketList": true
@@ -1090,8 +1116,8 @@
     "title": "Debussy - Petite Suite",
     "content": "## Movements\n1. En bateau (In a boat)\n2. Cortège (Retinue)\n3. Menuet\n4. Ballet",
     "frontmatter": {
-      "composer": "Debussy, Claude",
-      "catalogue": "L. 65"
+      "catalogue": "L. 65",
+      "composer": "Debussy, Claude"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1103,8 +1129,8 @@
     "title": "Debussy - Prelude to the Afternoon of a Faun",
     "content": "",
     "frontmatter": {
-      "composer": "Debussy, Claude",
       "catalogue": "L. 86",
+      "composer": "Debussy, Claude",
       "displayName": "Prélude à l’Après-midi d’un faune"
     },
     "concertCount": 2,
@@ -1117,8 +1143,8 @@
     "title": "Delius - Sleigh Ride",
     "content": "",
     "frontmatter": {
-      "composer": "Delius, Frederick",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Delius, Frederick"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1130,8 +1156,8 @@
     "title": "Dvorak - Carnival Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "92"
+      "catalogue": "92",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1143,8 +1169,8 @@
     "title": "Dvorak - In Nature's Realm",
     "content": "",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "91"
+      "catalogue": "91",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 0,
     "bucketList": true
@@ -1156,8 +1182,8 @@
     "title": "Dvorak - Nocturne in B Major",
     "content": "",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "40"
+      "catalogue": "40",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1169,8 +1195,8 @@
     "title": "Dvorak - String Quartet No. 12 in F Major, \"American\"",
     "content": "## Movements\n1. Allegro ma non troppo\n2. Lento\n3. Molto vivace\n4. Finale: Vivace ma non troppo",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "96"
+      "catalogue": "96",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1182,8 +1208,8 @@
     "title": "Dvorak - String Quintet No. 3 in E-Flat Major",
     "content": "",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "97"
+      "catalogue": "97",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1195,8 +1221,8 @@
     "title": "Dvorak - Symphony No. 6 in D Major",
     "content": "## Movements\n1. Allegro non tanto\n2. Adagio\n3. Scherzo (Furiant): Presto\n4. Finale: Allegro con spirito",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "Op. 60"
+      "catalogue": "Op. 60",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 5,
     "bucketList": false
@@ -1208,8 +1234,8 @@
     "title": "Dvorak - Symphony No. 7 in D Minor",
     "content": "## Movements\n1. Allegro maestoso\n2. Poco adagio\n3. Scherzo. Vivace\n4. Finale. Allegro",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "70"
+      "catalogue": "70",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1221,8 +1247,8 @@
     "title": "Dvorak - Symphony No. 8 in G Major",
     "content": "## Movements\n1. Allegro con brio\n2. Adagio\n3. Allegretto grazioso\n4. Allegro ma non troppo",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "Op. 88"
+      "catalogue": "Op. 88",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 3,
     "bucketList": false
@@ -1234,8 +1260,8 @@
     "title": "Dvorak - Symphony No. 9 in E Minor",
     "content": "## Movements\n1. Adagio – Allegro molto\n2. Largo\n3. Scherzo: Molto vivace\n4. Allegro con fuoco",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "Op. 95"
+      "catalogue": "Op. 95",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1247,8 +1273,8 @@
     "title": "Dvorak - Violin Concerto in A Minor",
     "content": "## Movements\n1. Allegro ma non troppo\n2. Adagio ma non troppo\n3. Finale: Allegro giocoso, ma non troppo",
     "frontmatter": {
-      "composer": "Dvorak, Antonin",
-      "catalogue": "Op. 53"
+      "catalogue": "Op. 53",
+      "composer": "Dvorak, Antonin"
     },
     "concertCount": 0,
     "bucketList": false
@@ -1260,8 +1286,8 @@
     "title": "Elgar - Cello Concerto in E Minor",
     "content": "## Movements\n1. Adagio – Moderato\n2. Lento – Allegro molto\n3. Adagio\n4. Allegro – Moderato – Allegro, ma non-troppo – Poco più lento – Adagio",
     "frontmatter": {
-      "composer": "Elgar, Edward",
-      "catalogue": "85"
+      "catalogue": "85",
+      "composer": "Elgar, Edward"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1273,10 +1299,10 @@
     "title": "Elgar - Enigma Variations",
     "content": "## Movements\n- Theme (Andante)\n- Variation I. L'istesso tempo \"C.A.E.\"\n- Variation II. Allegro \"H.D.S-P.\"\n- Variation III. Allegretto \"R.B.T.\"\n- Variation IV. Allegro di molto \"W.M.B.\"\n- Variation V. Moderato \"R.P.A.\"\n- Variation VI. Andantino \"Ysobel\"\n- Variation VII. Presto \"Troyte\"\n- Variation VIII. Allegretto \"W.N.\"\n- Variation IX. Adagio \"Nimrod\"\n- Variation X. Intermezzo: Allegretto \"Dorabella\"\n- Variation XI. Allegro di molto \"G.R.S.\"\n- Variation XII. Andante \"B.G.N.\"\n- Variation XIII. Romanza: Moderato \"* * *\"\n- Variation XIV. Finale: Allegro Presto \"E.D.U.\"",
     "frontmatter": {
-      "composer": "Elgar, Edward",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Elgar, Edward"
     },
-    "concertCount": 5,
+    "concertCount": 6,
     "bucketList": false
   },
   {
@@ -1286,8 +1312,8 @@
     "title": "Elgar - In The South (Alassio) - Concert Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Elgar, Edward",
-      "catalogue": "50"
+      "catalogue": "50",
+      "composer": "Elgar, Edward"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1299,8 +1325,8 @@
     "title": "Elgar - Pomp and Circumstance March No. 3 in C Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Elgar, Edward",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Elgar, Edward"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1312,8 +1338,8 @@
     "title": "Elgar - Pomp and Circumstance March No. 4 in G Major",
     "content": "",
     "frontmatter": {
-      "composer": "Elgar, Edward",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Elgar, Edward"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1325,8 +1351,8 @@
     "title": "Elgar - Serenade for Strings",
     "content": "## Movements\n1. Allegro piacevole\n2. Larghetto\n3. Allegretto",
     "frontmatter": {
-      "composer": "Elgar, Edward",
-      "catalogue": "20"
+      "catalogue": "20",
+      "composer": "Elgar, Edward"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1338,8 +1364,8 @@
     "title": "Ellington - Nutcracker Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Ellington, Duke",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Ellington, Duke"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1351,8 +1377,8 @@
     "title": "Enescu - Romanian Rhapsody No. 1 in A Major",
     "content": "",
     "frontmatter": {
-      "composer": "Enescu, George",
-      "catalogue": "Op. 11"
+      "catalogue": "Op. 11",
+      "composer": "Enescu, George"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1362,10 +1388,10 @@
     "type": "work",
     "path": "Works/Faure - Masques et Bergamasques.md",
     "title": "Faure - Masques et Bergamasques",
-    "content": "## Movements\n1. Overture: Allegro molto vivo\n2. Menuet: Tempo di minuetto \n3. Gavotte: Allegro vivo\n4. Pastorale: Andantino tranquillo",
+    "content": "## Movements\n1. Overture: Allegro molto vivo\n2. Menuet: Tempo di minuetto\n3. Gavotte: Allegro vivo\n4. Pastorale: Andantino tranquillo",
     "frontmatter": {
-      "composer": "Faure, Gabriel",
-      "catalogue": "112"
+      "catalogue": "112",
+      "composer": "Faure, Gabriel"
     },
     "concertCount": 0,
     "bucketList": true
@@ -1377,8 +1403,8 @@
     "title": "Faure - Pavane",
     "content": "",
     "frontmatter": {
-      "composer": "Faure, Gabriel",
-      "catalogue": "50"
+      "catalogue": "50",
+      "composer": "Faure, Gabriel"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1390,8 +1416,8 @@
     "title": "Frank - Three Latin American Dances",
     "content": "",
     "frontmatter": {
-      "composer": "Frank, Gabriel Lena",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Frank, Gabriel Lena"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1403,8 +1429,8 @@
     "title": "Frucht - A More Perfect Union",
     "content": "Movement V. \"Address on the 50th Anniversary of the Selma, Alabama March Eulogy for Reverend Clementa C. Pinckney\"",
     "frontmatter": {
-      "composer": "Frucht, Paul",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Frucht, Paul"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1416,8 +1442,8 @@
     "title": "Fucik - Entrance of the Gladiators",
     "content": "",
     "frontmatter": {
-      "composer": "Fucik, Julius",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Fucik, Julius"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1429,8 +1455,8 @@
     "title": "Gershwin - An American in Paris",
     "content": "",
     "frontmatter": {
-      "composer": "Gershwin, George",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Gershwin, George"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1442,8 +1468,8 @@
     "title": "Ginastera - Danza Final from Estancia",
     "content": "",
     "frontmatter": {
-      "composer": "Ginastera, Alberto",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Ginastera, Alberto"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1455,8 +1481,8 @@
     "title": "Giordano - Andrea Chenier",
     "content": "",
     "frontmatter": {
-      "composer": "Giordano, Umberto",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Giordano, Umberto"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1468,8 +1494,8 @@
     "title": "Glazunov - Scenes de Ballet",
     "content": "## Movements\n\n1. Prélude (Allegro)\n2. Marionnettes\n3. Mazurka\n4. Pas d'action\n5. Scherzo\n6. Pas de deux\n7. Danse orientale\n8. Valse\n9. Galop\n10. Apotheose (Moderato. Allegro)",
     "frontmatter": {
-      "composer": "Glazunov, Alexander",
-      "catalogue": "52"
+      "catalogue": "52",
+      "composer": "Glazunov, Alexander"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1481,8 +1507,8 @@
     "title": "Glazunov - The Seasons",
     "content": "## Movements\n1. Introduction - Winter\n2. Frost\n3. Ice\n4. Hail\n5. Snow\n6. Introduction - Spring\n7. Roses\n8. Birds\n9. Spring Stream\n10. Introduction - Summer\n11. Waltz of the Cornflowers and Poppies\n12. Barcarolle\n13. Summer Coda\n14. Introduction - Autumn: Petit Adagio\n15. Bacchanal\n16. Autumn: Apotheosis",
     "frontmatter": {
-      "composer": "Glazunov, Alexander",
-      "catalogue": "67"
+      "catalogue": "67",
+      "composer": "Glazunov, Alexander"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1494,8 +1520,8 @@
     "title": "Gliere - Russian Sailor's Dance from The Red Poppy",
     "content": "",
     "frontmatter": {
-      "composer": "Gliere, Reinhold",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Gliere, Reinhold"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1507,8 +1533,8 @@
     "title": "Glinka - Capriccio Brillante on the Jota Aragonesa",
     "content": "",
     "frontmatter": {
-      "composer": "Glinka, Mikhail",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Glinka, Mikhail"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1520,8 +1546,8 @@
     "title": "Glinka - Ruslan and Ludmila Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Glinka, Mikhail",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Glinka, Mikhail"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1533,8 +1559,8 @@
     "title": "Grainger - Molly on the Shore",
     "content": "",
     "frontmatter": {
-      "composer": "Grainger, Percy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Grainger, Percy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1546,8 +1572,8 @@
     "title": "Grainger - Shepherd's Hey",
     "content": "",
     "frontmatter": {
-      "composer": "Grainger, Percy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Grainger, Percy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1559,8 +1585,8 @@
     "title": "Grieg - Holberg Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Grieg, Edvard",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Grieg, Edvard"
     },
     "concertCount": 0,
     "bucketList": true
@@ -1572,8 +1598,8 @@
     "title": "Grieg - Peer Gynt Suite No. 1",
     "content": "## Movements\n1. Morning Mood (Morgenstemning)\n2. The Death of Åse (Åses død)\n3. Anitra's Dance (Anitras dans)\n4. In the Hall of the Mountain King (I Dovregubbens hall)",
     "frontmatter": {
-      "composer": "Grieg, Edvard",
-      "catalogue": "Op. 46"
+      "catalogue": "Op. 46",
+      "composer": "Grieg, Edvard"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1585,8 +1611,8 @@
     "title": "Grieg - Peer Gynt Suite No. 2",
     "content": "## Movements\n1. The Abduction of the Bride (Bruderovet) – Ingrid's Lament\n2. Arabian Dance (Arabisk dans)\n3. Peer Gynt's Homecoming (Stormy Evening on the Sea) (Peer Gynts hjemfart)\n4. Solveig's Song (Solveigs sang)",
     "frontmatter": {
-      "composer": "Grieg, Edvard",
-      "catalogue": "Op. 55"
+      "catalogue": "Op. 55",
+      "composer": "Grieg, Edvard"
     },
     "concertCount": 3,
     "bucketList": false
@@ -1598,8 +1624,8 @@
     "title": "Griffes - Poem for Flute and Orchestra",
     "content": "",
     "frontmatter": {
-      "composer": "Griffes, Charles",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Griffes, Charles"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1611,8 +1637,8 @@
     "title": "Hanson - Song of Democracy",
     "content": "",
     "frontmatter": {
-      "composer": "Hanson, Howard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Hanson, Howard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1624,8 +1650,8 @@
     "title": "Haydn - Cello Concerto No. 1",
     "content": "## Movements\n1. Moderato\n2. Adagio\n3. Finale. Allegro molto",
     "frontmatter": {
-      "composer": "Haydn, Joseph",
-      "catalogue": "Hob. VIIb/1"
+      "catalogue": "Hob. VIIb/1",
+      "composer": "Haydn, Joseph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1637,8 +1663,8 @@
     "title": "Haydn - Symphony No. 104 in D Major, \"London\"",
     "content": "## Movements\n1. Adagio - Allegro\n2. Andante\n3. Menuetto and Trio: Allegro\n4. Finale: Spiritoso",
     "frontmatter": {
-      "composer": "Haydn, Joseph",
-      "catalogue": "Hob. I:104"
+      "catalogue": "Hob. I:104",
+      "composer": "Haydn, Joseph"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1650,8 +1676,8 @@
     "title": "Haydn - Symphony No. 31 in D Major",
     "content": "## Movements\n1. Allegro\n2. Adagio\n3. Menuetto e Trio\n4. Finale: Moderato molto – Presto",
     "frontmatter": {
-      "composer": "Haydn, Joseph",
-      "catalogue": "Hob. I:31"
+      "catalogue": "Hob. I:31",
+      "composer": "Haydn, Joseph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1663,8 +1689,8 @@
     "title": "Haydn - Symphony No. 60 in C Major, \"Il Distratto\"",
     "content": "## Movements\n1. Adagio – Allegro di molto\n2. Andante\n3. Menuetto\n4. Presto\n5. Adagio (di Lamentatione)\n6. Finale: Prestissimo",
     "frontmatter": {
-      "composer": "Haydn, Joseph",
-      "catalogue": "Hob. I:60"
+      "catalogue": "Hob. I:60",
+      "composer": "Haydn, Joseph"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1676,8 +1702,8 @@
     "title": "Haydn - Symphony No. 88 in G Major",
     "content": "## Movements\n\n1. Adagio - Allegro\n2. Largo\n3. Menuetto: Allegretto\n4. Finale: Allegro con spirito",
     "frontmatter": {
-      "composer": "Haydn, Joseph",
-      "catalogue": "Hob. I:88"
+      "catalogue": "Hob. I:88",
+      "composer": "Haydn, Joseph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1689,8 +1715,8 @@
     "title": "Herrmann - Psycho - A Suite for Strings",
     "content": "",
     "frontmatter": {
-      "composer": "Herrmann, Bernard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Herrmann, Bernard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1702,8 +1728,8 @@
     "title": "Higdon - Blue Cathedral",
     "content": "",
     "frontmatter": {
-      "composer": "Higdon, Jennifer",
       "catalogue": "",
+      "composer": "Higdon, Jennifer",
       "displayName": "blue cathedral"
     },
     "concertCount": 1,
@@ -1716,8 +1742,8 @@
     "title": "Hindemith - Symphonic Metamorphosis of Themes by Carl Maria von Weber",
     "content": "## Movements\n1. Allegro\n2. Scherzo (Turandot)\n3. Andantino\n4. Marsch",
     "frontmatter": {
-      "composer": "Hindemith, Paul",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Hindemith, Paul"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1729,8 +1755,8 @@
     "title": "Holst - St. Paul's Suite",
     "content": "## Movements\n1. Jig (Vivace)\n2. Ostinato (Presto)\n3. Intermezzo (Andante con moto)\n4. Finale (The Dargason) (Allegro)",
     "frontmatter": {
-      "composer": "Holst, Gustav",
-      "catalogue": "Op. 29, No. 2"
+      "catalogue": "Op. 29, No. 2",
+      "composer": "Holst, Gustav"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1742,21 +1768,21 @@
     "title": "Holst - The Planets",
     "content": "",
     "frontmatter": {
-      "composer": "Holst, Gustav",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Holst, Gustav"
     },
     "concertCount": 1,
     "bucketList": false
   },
   {
-    "slug": "humperdinck-vorspiel-from-h-nsel-and-gretel-suite",
+    "slug": "humperdinck-vorspiel-from-hansel-and-gretel-suite",
     "type": "work",
     "path": "Works/Humperdinck - Vorspiel from Hänsel and Gretel Suite.md",
     "title": "Humperdinck - Vorspiel from Hänsel and Gretel Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Humperdinck, Engelbert",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Humperdinck, Engelbert"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1768,8 +1794,8 @@
     "title": "Ibert - Concertino da Camera",
     "content": "## Movements\n1. Allegro con moto\n2. Larghetto – Animato molto",
     "frontmatter": {
-      "composer": "Ibert, Jacques",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Ibert, Jacques"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1781,8 +1807,8 @@
     "title": "Ives - The Unanswered Question",
     "content": "",
     "frontmatter": {
-      "composer": "Ives, Charles",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Ives, Charles"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1794,8 +1820,8 @@
     "title": "Janacek - Sinfonietta",
     "content": "",
     "frontmatter": {
-      "composer": "Janacek, Leos",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Janacek, Leos"
     },
     "concertCount": 0,
     "bucketList": true
@@ -1807,8 +1833,8 @@
     "title": "Khachaturian - Maskerade Suite",
     "content": "## Movements\n1. Waltz\n2. Nocturne\n3. Mazurka\n4. Romance\n5. Galop",
     "frontmatter": {
-      "composer": "Khachaturian, Aram",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Khachaturian, Aram"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1820,8 +1846,8 @@
     "title": "Khachaturian - Violin Concerto",
     "content": "",
     "frontmatter": {
-      "composer": "Khachaturian, Aram",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Khachaturian, Aram"
     },
     "concertCount": 0,
     "bucketList": true
@@ -1833,8 +1859,8 @@
     "title": "Kodaly - Dances of Galanta",
     "content": "",
     "frontmatter": {
-      "composer": "Kodaly, Zoltan",
       "catalogue": "",
+      "composer": "Kodaly, Zoltan",
       "displayName": "Dances of Galánta"
     },
     "concertCount": 1,
@@ -1847,8 +1873,8 @@
     "title": "Kodaly - Hary Janos Suite",
     "content": "## Movements\n1. Prelude: The Fairy Tale Begins\n2. Viennese Musical Clock\n3. Song\n4. The Battle and Defeat of Napoleon\n5. Intermezzo\n6. Entrance of the Emperor and His Court",
     "frontmatter": {
-      "composer": "Kodaly, Zoltan",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Kodaly, Zoltan"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1860,8 +1886,8 @@
     "title": "Krommer - Concerto for Two Clarinets and Orchestra",
     "content": "## Movements\n1. Allegro\n2. Adagio\n3. Alla Polacca",
     "frontmatter": {
-      "composer": "Krommer, Franz",
-      "catalogue": "91"
+      "catalogue": "91",
+      "composer": "Krommer, Franz"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1873,8 +1899,8 @@
     "title": "Lecuona - Andalucia Suite",
     "content": "## Movements\n1. Córdoba\n2. Andalucía\n3. Alhambra\n4. Gitanerías\n5. Guadalquivir\n6. Malagueña",
     "frontmatter": {
-      "composer": "Lecuona, Ernesto",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Lecuona, Ernesto"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1886,8 +1912,8 @@
     "title": "Leoncavallo - Pagliacci",
     "content": "",
     "frontmatter": {
-      "composer": "Leoncavallo, Ruggero",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Leoncavallo, Ruggero"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1899,8 +1925,8 @@
     "title": "Leshnoff - Double Concerto for Clarinet & Bassoon",
     "content": "",
     "frontmatter": {
-      "composer": "Leshnoff, Jonathan",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Leshnoff, Jonathan"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1912,8 +1938,8 @@
     "title": "Leyden - Christmas Sing-a-long",
     "content": "",
     "frontmatter": {
-      "composer": "Leyden, Norman",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Leyden, Norman"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1925,8 +1951,8 @@
     "title": "Leyden - Concerto for 3 Trombones",
     "content": "",
     "frontmatter": {
-      "composer": "Leyden, Norman",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Leyden, Norman"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1938,8 +1964,8 @@
     "title": "Liszt - Gaudeamus Igitur",
     "content": "",
     "frontmatter": {
-      "composer": "Liszt, Franz",
-      "catalogue": "S. 240"
+      "catalogue": "S. 240",
+      "composer": "Liszt, Franz"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1951,8 +1977,8 @@
     "title": "Liszt - Les Preludes",
     "content": "",
     "frontmatter": {
-      "composer": "Liszt, Franz",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Liszt, Franz"
     },
     "concertCount": 3,
     "bucketList": false
@@ -1964,8 +1990,8 @@
     "title": "Liszt - Symphonic Poem No. 6 (\"Mazeppa\")",
     "content": "",
     "frontmatter": {
-      "composer": "Liszt, Franz",
-      "catalogue": "S.100"
+      "catalogue": "S.100",
+      "composer": "Liszt, Franz"
     },
     "concertCount": 1,
     "bucketList": false
@@ -1977,8 +2003,8 @@
     "title": "Lutoslawski - Concerto for Orchestra",
     "content": "## Movements\n1. Intrada (Allegro maestoso)\n2. Capriccio notturno e Arioso (Vivace)\n3. Passacaglia, Toccata e Corale (Andante con moto – Allegro giusto)",
     "frontmatter": {
-      "composer": "Lutoslawski, Witold",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Lutoslawski, Witold"
     },
     "concertCount": 2,
     "bucketList": false
@@ -1990,8 +2016,8 @@
     "title": "Mahler - Symphony No. 1",
     "content": "## Movements\n1. Langsam, schleppend – Immer sehr gemächlich\n2. Kräftig bewegt, doch nicht zu schnell – Recht gemächlich\n3. Feierlich und gemessen, ohne zu schleppen\n4. Stürmisch bewegt – Energisch",
     "frontmatter": {
-      "composer": "Mahler, Gustav",
       "catalogue": "",
+      "composer": "Mahler, Gustav",
       "displayName": null
     },
     "concertCount": 1,
@@ -2004,8 +2030,8 @@
     "title": "Mahler - Symphony No. 4",
     "content": "## Movements\n1. Bedächtig, nicht eilen\n2. In gemächlicher Bewegung, ohne Hast\n3. Ruhevoll, poco adagio\n4. Sehr behaglich",
     "frontmatter": {
-      "composer": "Mahler, Gustav",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mahler, Gustav"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2017,8 +2043,8 @@
     "title": "Mahler - Symphony No. 5",
     "content": "## Movements\n1. Trauermarsch (Funeral March)\n2. Stürmisch bewegt, mit größter Vehemenz\n3. Scherzo\n4. Adagietto\n5. Rondo-Finale",
     "frontmatter": {
-      "composer": "Mahler, Gustav",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mahler, Gustav"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2030,8 +2056,8 @@
     "title": "Mancini - The Pink Panther",
     "content": "",
     "frontmatter": {
-      "composer": "Mancini, Henry",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mancini, Henry"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2043,8 +2069,8 @@
     "title": "Marquez - Danzon No. 2",
     "content": "",
     "frontmatter": {
-      "composer": "Marquez, Arturo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Marquez, Arturo"
     },
     "concertCount": 0,
     "bucketList": false
@@ -2056,8 +2082,8 @@
     "title": "Marquez - Danzon No. 4",
     "content": "",
     "frontmatter": {
-      "composer": "Marquez, Arturo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Marquez, Arturo"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2069,8 +2095,8 @@
     "title": "Mascagni - Intermezzo from Cavalleria Rusticana",
     "content": "",
     "frontmatter": {
-      "composer": "Mascagni, Pietro",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mascagni, Pietro"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2082,8 +2108,8 @@
     "title": "Mazzoli - These Worlds in Us",
     "content": "",
     "frontmatter": {
-      "composer": "Mazzoli, Missy",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mazzoli, Missy"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2095,8 +2121,8 @@
     "title": "Mendelssohn - A Midsummer Night's Dream",
     "content": "",
     "frontmatter": {
-      "composer": "Mendelssohn, Felix",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mendelssohn, Felix"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2108,8 +2134,8 @@
     "title": "Mendelssohn - Hebrides Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Mendelssohn, Felix",
-      "catalogue": "26"
+      "catalogue": "26",
+      "composer": "Mendelssohn, Felix"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2121,8 +2147,8 @@
     "title": "Mendelssohn - Sinfonia No. 10 in B Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Mendelssohn, Felix",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mendelssohn, Felix"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2134,8 +2160,8 @@
     "title": "Mendelssohn - Symphony No. 3 in A Minor, \"Scottish\"",
     "content": "## Movements\n1. Andante con moto – Allegro un poco agitato\n2. Vivace non troppo\n3. Adagio\n4. Allegro vivacissimo – Allegro maestoso assai",
     "frontmatter": {
-      "composer": "Mendelssohn, Felix",
       "catalogue": "Op. 56",
+      "composer": "Mendelssohn, Felix",
       "displayName": null
     },
     "concertCount": 1,
@@ -2148,8 +2174,8 @@
     "title": "Mendelssohn - Symphony No. 4 in A Major, \"Italian\"",
     "content": "## Movements\n1. Allegro vivace\n2. Andante con moto\n3. Con moto moderato\n4. Presto and finale: Saltarello",
     "frontmatter": {
-      "composer": "Mendelssohn, Felix",
-      "catalogue": "90"
+      "catalogue": "90",
+      "composer": "Mendelssohn, Felix"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2161,8 +2187,8 @@
     "title": "Mendelssohn - Violin Concerto in E Minor",
     "content": "## Movements\n1. Allegro molto appassionato\n2. Andante\n3. Allegretto non troppo – Allegro molto vivace",
     "frontmatter": {
-      "composer": "Mendelssohn, Felix",
-      "catalogue": "Op. 64"
+      "catalogue": "Op. 64",
+      "composer": "Mendelssohn, Felix"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2174,8 +2200,8 @@
     "title": "Moncayo - Huapango",
     "content": "",
     "frontmatter": {
-      "composer": "Moncayo, Jose Pablo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Moncayo, Jose Pablo"
     },
     "concertCount": 3,
     "bucketList": false
@@ -2187,8 +2213,8 @@
     "title": "Montgomery - Strum",
     "content": "",
     "frontmatter": {
-      "composer": "Montgomery, Jessie",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Montgomery, Jessie"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2200,8 +2226,8 @@
     "title": "Morse - Reconciliation",
     "content": "",
     "frontmatter": {
-      "composer": "Morse, Audrey",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Morse, Audrey"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2213,8 +2239,8 @@
     "title": "Mozart - Clarinet Concerto in A Major",
     "content": "## Movements\n1. Allegro\n2. Adagio\n3. Rondo: Allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 622"
+      "catalogue": "K. 622",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2226,8 +2252,8 @@
     "title": "Mozart - Divertimento in F Major",
     "content": "K. 138\n\n## Movements\n1. Allegro\n2. Andante\n3. Presto",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 138"
+      "catalogue": "K. 138",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2239,8 +2265,8 @@
     "title": "Mozart - Eine Kleine Nachtmusik",
     "content": "",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 525"
+      "catalogue": "K. 525",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2252,8 +2278,8 @@
     "title": "Mozart - Horn Concerto No. 3 in E-Flat Major",
     "content": "## Movements\n1. Allegro\n2. Romance (Larghetto)\n3. Allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 447"
+      "catalogue": "K. 447",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2265,8 +2291,8 @@
     "title": "Mozart - Musical Sleigh Ride",
     "content": "Die musikalische Schlittenfahrt",
     "frontmatter": {
-      "composer": "Mozart, Leopold",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mozart, Leopold"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2278,8 +2304,8 @@
     "title": "Mozart - Overture to The Marriage of Figaro",
     "content": "",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2291,8 +2317,8 @@
     "title": "Mozart - Piano Concerto No. 20 in D Minor",
     "content": "## Movements\n1. Allegro\n2. Romance\n3. Rondo: Allegro assai",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 466"
+      "catalogue": "K. 466",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2304,8 +2330,8 @@
     "title": "Mozart - Piano Concerto No. 27 in B-Flat Major",
     "content": "## Movements\n1. Allegro\n2. Larghetto\n3. Allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 595"
+      "catalogue": "K. 595",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 0,
     "bucketList": false
@@ -2317,8 +2343,8 @@
     "title": "Mozart - Serenade No. 10 in B-Flat Major",
     "content": "## Movements\n1. Largo – Molto allegro\n2. Menuetto – Trio I & II\n3. Adagio\n4. Menuetto (Allegretto) – Trio I & II\n5. Romance (Adagio – Allegretto – Adagio)\n6. Tema con variazioni\n7. Finale: Molto allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
       "catalogue": "K. 361/370a",
+      "composer": "Mozart, Wolfgang Amadeus",
       "displayName": "Gran Partita"
     },
     "concertCount": 1,
@@ -2331,8 +2357,8 @@
     "title": "Mozart - Sinfonia Concertante for Violin and Viola",
     "content": "## Movements\n1. Allegro maestoso\n2. Andante\n3. Presto",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K.364"
+      "catalogue": "K.364",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 7,
     "bucketList": false
@@ -2344,8 +2370,8 @@
     "title": "Mozart - Symphony No. 31",
     "content": "## Movements\n1. Allegro assai\n2. Andante\n3. Allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 297/300a"
+      "catalogue": "K. 297/300a",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2357,8 +2383,8 @@
     "title": "Mozart - Symphony No. 39 in E-Flat Major",
     "content": "## Movements\n\n1. Adagio - Allegro\n2. Andante con moto\n3. Menuetto: Allegretto - Trio\n4. Finale: Allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 543"
+      "catalogue": "K. 543",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2370,8 +2396,8 @@
     "title": "Mozart - Symphony No. 41, \"Jupiter\"",
     "content": "## Movements\n1. Allegro vivace\n2. Andante cantabile\n3. Menuetto: Allegretto\n4. Molto allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 551"
+      "catalogue": "K. 551",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2383,8 +2409,8 @@
     "title": "Mozart - Violin Concerto No. 3 in G Major",
     "content": "## Movements\n1. Allegro\n2. Adagio\n3. Rondeau: Allegro",
     "frontmatter": {
-      "composer": "Mozart, Wolfgang Amadeus",
-      "catalogue": "K. 216"
+      "catalogue": "K. 216",
+      "composer": "Mozart, Wolfgang Amadeus"
     },
     "concertCount": 0,
     "bucketList": false
@@ -2396,8 +2422,8 @@
     "title": "Mussorgsky - Night on Bald Mountain",
     "content": "",
     "frontmatter": {
-      "composer": "Mussorgsky, Modest",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mussorgsky, Modest"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2409,8 +2435,8 @@
     "title": "Mussorgsky - Prelude to Khovantchina",
     "content": "",
     "frontmatter": {
-      "composer": "Mussorgsky, Modest",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Mussorgsky, Modest"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2422,8 +2448,8 @@
     "title": "Nielsen - Flute Concerto",
     "content": "## Movements\n1. Allegro moderato\n2. Allegretto",
     "frontmatter": {
-      "composer": "Nielsen, Carl",
-      "catalogue": "FS 119"
+      "catalogue": "FS 119",
+      "composer": "Nielsen, Carl"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2435,8 +2461,21 @@
     "title": "Nielsen - Little Suite",
     "content": "## Movements\n\n1. Præludium: Andante con moto\n2. Intermezzo: Allegro moderato\n3. Finale: Andante con moto - Allegro con brio",
     "frontmatter": {
-      "composer": "Nielsen, Carl",
-      "catalogue": "1"
+      "catalogue": "1",
+      "composer": "Nielsen, Carl"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "offenbach-les-contes-d-hoffmann",
+    "type": "work",
+    "path": "Works/Offenbach - Les contes d'Hoffmann.md",
+    "title": "Offenbach - Les contes d'Hoffmann",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Offenbach, Jacques"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2448,8 +2487,8 @@
     "title": "Offenbach - Overture to La Belle Helene",
     "content": "",
     "frontmatter": {
-      "composer": "Offenbach, Jacques",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Offenbach, Jacques"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2461,8 +2500,8 @@
     "title": "Ouzounian - Imagined Anatolian Dance",
     "content": "",
     "frontmatter": {
-      "composer": "Ouzounian, Karen",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Ouzounian, Karen"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2474,8 +2513,8 @@
     "title": "Paganini - Violin Concerto No. 1 in D Major",
     "content": "## Movements\n1. Allegro maestoso\n2. Adagio\n3. Rondo: Allegro spirituoso",
     "frontmatter": {
-      "composer": "Paganini, Niccolo",
-      "catalogue": "Op. 6"
+      "catalogue": "Op. 6",
+      "composer": "Paganini, Niccolo"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2487,8 +2526,8 @@
     "title": "Price - Andante Cantabile from String Quartet No. 2",
     "content": "",
     "frontmatter": {
-      "composer": "Price, Florence",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Price, Florence"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2500,8 +2539,8 @@
     "title": "Price - The Oak",
     "content": "",
     "frontmatter": {
-      "composer": "Price, Florence",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Price, Florence"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2513,8 +2552,8 @@
     "title": "Prokofiev - Overture on Hebrew Themes",
     "content": "",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Prokofiev, Sergei"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2526,8 +2565,8 @@
     "title": "Prokofiev - Peter and the Wolf",
     "content": "## Movements\n1. Introduction\n2. The Story Begins\n3. The Bird\n4. The Duck\n5. The Cat\n6. Grandfather\n7. The Wolf\n8. Peter's Capture of the Wolf\n9. The Hunters\n10. The Triumphant Procession",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
-      "catalogue": "67"
+      "catalogue": "67",
+      "composer": "Prokofiev, Sergei"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2539,8 +2578,8 @@
     "title": "Prokofiev - Romeo and Juliet",
     "content": "## Movements\n1. Montagues and Capulets (Dance of the Knights)\n2. The Young Juliet\n3. Friar Laurence\n4. Dance\n5. Romeo and Juliet Before Parting\n6. Dance of the Antilles Girls\n7. Romeo at Juliet's Tomb",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
       "catalogue": "Op. 64",
+      "composer": "Prokofiev, Sergei",
       "displayName": null
     },
     "concertCount": 1,
@@ -2553,8 +2592,8 @@
     "title": "Prokofiev - String Quartet No. 2",
     "content": "",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
-      "catalogue": "92"
+      "catalogue": "92",
+      "composer": "Prokofiev, Sergei"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2566,8 +2605,8 @@
     "title": "Prokofiev - Symphony No. 5 in B-Flat Major",
     "content": "## Movements\n1. Andante\n2. Allegro marcato\n3. Adagio\n4. Allegro giocoso",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
-      "catalogue": "Op. 100"
+      "catalogue": "Op. 100",
+      "composer": "Prokofiev, Sergei"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2579,8 +2618,8 @@
     "title": "Prokofiev - Symphony No. 7 in C-Sharp Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Prokofiev, Sergei"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2592,8 +2631,8 @@
     "title": "Prokofiev - Violin Concerto No. 2 in G Minor",
     "content": "## Movements\n1. Allegro moderato\n2. Andante assai\n3. Allegro, ben marcato",
     "frontmatter": {
-      "composer": "Prokofiev, Sergei",
-      "catalogue": "Op. 63"
+      "catalogue": "Op. 63",
+      "composer": "Prokofiev, Sergei"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2605,8 +2644,8 @@
     "title": "Puccini - Intermezzo from Manon Lescaut",
     "content": "",
     "frontmatter": {
-      "composer": "Puccini, Giacomo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Puccini, Giacomo"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2618,10 +2657,10 @@
     "title": "Puccini - La Boheme",
     "content": "",
     "frontmatter": {
-      "composer": "Puccini, Giacomo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Puccini, Giacomo"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -2631,8 +2670,8 @@
     "title": "Puccini - Tosca",
     "content": "",
     "frontmatter": {
-      "composer": "Puccini, Giacomo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Puccini, Giacomo"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2644,8 +2683,21 @@
     "title": "Puccini - Turandot",
     "content": "",
     "frontmatter": {
-      "composer": "Puccini, Giacomo",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Puccini, Giacomo"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "part-cantus-in-memoriam-benjamin-britten",
+    "type": "work",
+    "path": "Works/Pärt - Cantus in Memoriam Benjamin Britten.md",
+    "title": "Pärt - Cantus in Memoriam Benjamin Britten",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Pärt, Arvo"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2657,8 +2709,8 @@
     "title": "Rachmaninoff - 5 Etudes-Tableaux (arr. Respighi)",
     "content": "## Movements\n1. Op. 39 No. 2: La mer et les mouettes (The sea and the seagulls)\n2. Op. 33 No 7: La foire (The fair)\n3. Op. 39 No. 7: Marche funèbre (Funeral march)\n4. Op. 39 No. 6: Le Chaperon rouge et le loup (Little Red Riding Hood and the wolf)\n5. Op. 39 No. 9: Marche (March)",
     "frontmatter": {
-      "composer": "Rachmaninoff, Sergei",
-      "catalogue": "Op. 33 & Op. 39"
+      "catalogue": "Op. 33 & Op. 39",
+      "composer": "Rachmaninoff, Sergei"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2670,8 +2722,8 @@
     "title": "Rachmaninoff - Isle of the Dead",
     "content": "",
     "frontmatter": {
-      "composer": "Rachmaninoff, Sergei",
-      "catalogue": "29"
+      "catalogue": "29",
+      "composer": "Rachmaninoff, Sergei"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2683,8 +2735,8 @@
     "title": "Rachmaninoff - Symphonic Dances",
     "content": "",
     "frontmatter": {
-      "composer": "Rachmaninoff, Sergei",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rachmaninoff, Sergei"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2696,8 +2748,8 @@
     "title": "Rachmaninoff - Symphony No. 2 in E Minor",
     "content": "## Movements\n1. Largo – Allegro moderato\n2. Allegro molto\n3. Adagio\n4. Allegro vivace",
     "frontmatter": {
-      "composer": "Rachmaninoff, Sergei",
-      "catalogue": "27"
+      "catalogue": "27",
+      "composer": "Rachmaninoff, Sergei"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2709,8 +2761,8 @@
     "title": "Ravel - Bolero",
     "content": "",
     "frontmatter": {
-      "composer": "Ravel, Maurice",
-      "catalogue": "M. 81"
+      "catalogue": "M. 81",
+      "composer": "Ravel, Maurice"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2722,8 +2774,8 @@
     "title": "Ravel - Daphnis et Chloe Suite No. 2",
     "content": "",
     "frontmatter": {
-      "composer": "Ravel, Maurice",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Ravel, Maurice"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2735,8 +2787,8 @@
     "title": "Ravel - Le Tombeau de Couperin",
     "content": "",
     "frontmatter": {
-      "composer": "Ravel, Maurice",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Ravel, Maurice"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2748,10 +2800,10 @@
     "title": "Ravel - Mother Goose Suite",
     "content": "Ma mère l'Oye",
     "frontmatter": {
-      "composer": "Ravel, Maurice",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Ravel, Maurice"
     },
-    "concertCount": 0,
+    "concertCount": 1,
     "bucketList": true
   },
   {
@@ -2761,8 +2813,8 @@
     "title": "Ravel - String Quartet in F Major",
     "content": "## Movements\n1. Allegro moderato – très doux\n2. Assez vif – très rythmé\n3. Très lent\n4. Vif et agité",
     "frontmatter": {
-      "composer": "Ravel, Maurice",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Ravel, Maurice"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2774,8 +2826,8 @@
     "title": "Reinecke - Flute Concerto in D Major",
     "content": "## Movements\n1. Allegro molto moderato\n2. Lento e mesto\n3. Finale: Moderato",
     "frontmatter": {
-      "composer": "Reinecke, Carl",
-      "catalogue": "Op. 283"
+      "catalogue": "Op. 283",
+      "composer": "Reinecke, Carl"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2787,8 +2839,8 @@
     "title": "Respighi - The Fountains of Rome",
     "content": "## Movements\n1. La fontana di Valle Giulia all'alba (The Fountain of Valle Giulia at Dawn)\n2. La fontana del Tritone al mattino (The Triton Fountain at Morning)\n3. La fontana di Trevi al meriggio (The Trevi Fountain at Noon)\n4. La fontana di Villa Medici al tramonto (The Villa Medici Fountain at Sunset)",
     "frontmatter": {
-      "composer": "Respighi, Ottorino",
-      "catalogue": "P. 106"
+      "catalogue": "P. 106",
+      "composer": "Respighi, Ottorino"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2800,8 +2852,8 @@
     "title": "Respighi - The Pines of Rome",
     "content": "## Movements\n1. I pini di Villa Borghese (The Pines of the Villa Borghese) - Allegretto vivace\n2. Pini presso una catacomba (Pines Near a Catacomb) - Lento\n3. I pini del Gianicolo (The Pines of the Janiculum) - Lento\n4. I pini della Via Appia (The Pines of the Appian Way) - Tempo di marcia",
     "frontmatter": {
-      "composer": "Respighi, Ottorino",
-      "catalogue": "P. 141"
+      "catalogue": "P. 141",
+      "composer": "Respighi, Ottorino"
     },
     "concertCount": 1,
     "bucketList": true
@@ -2813,8 +2865,8 @@
     "title": "Richter - Recomposed - The Four Seasons",
     "content": "",
     "frontmatter": {
-      "composer": "Richter, Max",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Richter, Max"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2826,8 +2878,8 @@
     "title": "Rimsky-Korsakov - Capriccio Espagnol",
     "content": "## Movements\n1. Alborada\n2. Variazioni\n3. Alborada\n4. Scena e canto gitano\n5. Fandango asturiano",
     "frontmatter": {
-      "composer": "Rimsky-Korsakov, Nikolai",
-      "catalogue": "Op. 34"
+      "catalogue": "Op. 34",
+      "composer": "Rimsky-Korsakov, Nikolai"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2839,8 +2891,8 @@
     "title": "Rimsky-Korsakov - Russian Easter Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Rimsky-Korsakov, Nikolai",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rimsky-Korsakov, Nikolai"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2852,8 +2904,8 @@
     "title": "Rimsky-Korsakov - Scheherazade",
     "content": "",
     "frontmatter": {
-      "composer": "Rimsky-Korsakov, Nikolai",
-      "catalogue": "35"
+      "catalogue": "35",
+      "composer": "Rimsky-Korsakov, Nikolai"
     },
     "concertCount": 0,
     "bucketList": true
@@ -2865,8 +2917,8 @@
     "title": "Rimsky-Korsakov - Snow Maiden Suite",
     "content": "## Movements\n1. Introduction\n2. Dance of the Birds\n3. Procession of Tsar Berendey\n4. Dance of the Skomorokhi (Tumblers)",
     "frontmatter": {
-      "composer": "Rimsky-Korsakov, Nikolai",
-      "catalogue": "12"
+      "catalogue": "12",
+      "composer": "Rimsky-Korsakov, Nikolai"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2878,8 +2930,8 @@
     "title": "Rogers - Victory at Sea",
     "content": "",
     "frontmatter": {
-      "composer": "Rogers, Richard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rogers, Richard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2891,8 +2943,8 @@
     "title": "Rogerson - Oaken Sky",
     "content": "",
     "frontmatter": {
-      "composer": "Rogerson, Chris",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rogerson, Chris"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2904,8 +2956,8 @@
     "title": "Rosauro - Concerto No. 1 for Marimba & String Orchestra",
     "content": "## Movements\n1. Saudação (Greetings)\n2. Lamento (Lament)\n3. Dança (Dance)\n4. Despedida (Farewell)",
     "frontmatter": {
-      "composer": "Rosauro, Ney",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rosauro, Ney"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2917,8 +2969,8 @@
     "title": "Rossini - Overture to La Cenerentola",
     "content": "",
     "frontmatter": {
-      "composer": "Rossini, Gioachino",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rossini, Gioachino"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2930,8 +2982,8 @@
     "title": "Rossini - Overture to La Gazza Ladra",
     "content": "",
     "frontmatter": {
-      "composer": "Rossini, Gioachino",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rossini, Gioachino"
     },
     "concertCount": 3,
     "bucketList": false
@@ -2943,8 +2995,8 @@
     "title": "Rossini - Overture to The Barber of Seville",
     "content": "",
     "frontmatter": {
-      "composer": "Rossini, Gioachino",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rossini, Gioachino"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2956,8 +3008,8 @@
     "title": "Rossini - Overture to William Tell",
     "content": "",
     "frontmatter": {
-      "composer": "Rossini, Gioachino",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rossini, Gioachino"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2969,8 +3021,8 @@
     "title": "Rossini - Passo a Sei from William Tell",
     "content": "",
     "frontmatter": {
-      "composer": "Rossini, Gioachino",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rossini, Gioachino"
     },
     "concertCount": 2,
     "bucketList": false
@@ -2982,8 +3034,8 @@
     "title": "Rubenstein - Cello Concerto No. 2",
     "content": "## Movements\n- I. Allegro moderato\n- II. Andante\n- Cadenza (Allegro)\n- III. Moderato",
     "frontmatter": {
-      "composer": "Rubenstein, Anton",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Rubenstein, Anton"
     },
     "concertCount": 1,
     "bucketList": false
@@ -2995,8 +3047,8 @@
     "title": "Saint-Saens - Bacchanale from Samson and Delilah",
     "content": "",
     "frontmatter": {
-      "composer": "Saint-Saens, Camille",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Saint-Saens, Camille"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3008,8 +3060,8 @@
     "title": "Saint-Saens - Cello Concerto No. 1 in A Minor",
     "content": "## Movements\n1. Allegro non troppo\n2. Allegretto con moto\n3. Tempo primo",
     "frontmatter": {
-      "composer": "Saint-Saens, Camille",
-      "catalogue": "33"
+      "catalogue": "33",
+      "composer": "Saint-Saens, Camille"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3021,8 +3073,8 @@
     "title": "Saint-Saens - Samson and Delilah",
     "content": "",
     "frontmatter": {
-      "composer": "Saint-Saens, Camille",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Saint-Saens, Camille"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3034,8 +3086,8 @@
     "title": "Saint-Saens - Symphony No. 3 in C Minor, \"Organ\"",
     "content": "## Movements\n1. Adagio – Allegro moderato – Poco adagio\n2. Allegro moderato – Presto – Maestoso – Allegro",
     "frontmatter": {
-      "composer": "Saint-Saens, Camille",
-      "catalogue": "Op. 78"
+      "catalogue": "Op. 78",
+      "composer": "Saint-Saens, Camille"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3047,8 +3099,8 @@
     "title": "Saint-Saens - Violin Concerto No. 3 in B Minor",
     "content": "## Movements\n1. Allegro non troppo\n2. Andantino quasi allegretto\n3. Molto moderato e maestoso – Allegro non troppo",
     "frontmatter": {
-      "composer": "Saint-Saens, Camille",
-      "catalogue": "Op. 61"
+      "catalogue": "Op. 61",
+      "composer": "Saint-Saens, Camille"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3060,8 +3112,8 @@
     "title": "Sankey - Carmen Fantasy (after Bizet)",
     "content": "",
     "frontmatter": {
-      "composer": "Sankey, Stuart",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Sankey, Stuart"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3073,8 +3125,8 @@
     "title": "Schumann - Dichterliebe",
     "content": "## Movements\n- \"Im wunderschönen Monat Mai\"\n- \"Aus meinen Tränen sprießen\"\n- \"Die Rose, die Lilie, die Taube, die Sonne\"\n- \"Wenn ich in deine Augen seh\"\n- \"Ich will meine Seele tauchen\"\n- \"Im Rhein, im heiligen Strome\"\n- \"Ich grolle nicht\"\n- \"Und wüßten's die Blumen, die kleinen\"\n- \"Das ist ein Flöten und Geigen\"\n- \"Hör' ich das Liedchen klingen\"\n- \"Ein Jüngling liebt ein Mädchen\"\n- \"Am leuchtenden Sommermorgen\"\n- \"Ich hab' im Traum geweinet\"\n- \"Allnächtlich im Traume\"\n- \"Aus alten Märchen winkt es\"\n- \"Die alten, bösen Lieder\"",
     "frontmatter": {
-      "composer": "Schumann, Robert",
-      "catalogue": "48"
+      "catalogue": "48",
+      "composer": "Schumann, Robert"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3086,8 +3138,8 @@
     "title": "Schumann - Overture, Scherzo, and Finale",
     "content": "## Movements\n1. Overture: Andante con moto – Allegro\n2. Scherzo: Vivo\n3. Finale: Allegro molto vivace",
     "frontmatter": {
-      "composer": "Schumann, Robert",
-      "catalogue": "Op. 52"
+      "catalogue": "Op. 52",
+      "composer": "Schumann, Robert"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3099,8 +3151,8 @@
     "title": "Schumann - Symphony No. 3 in E-Flat Major, \"Rhenish\"",
     "content": "## Movements\n1. Lebhaft\n2. Scherzo: Sehr mäßig\n3. Nicht schnell\n4. Feierlich\n5. Lebhaft",
     "frontmatter": {
-      "composer": "Schumann, Robert",
-      "catalogue": "97"
+      "catalogue": "97",
+      "composer": "Schumann, Robert"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3112,8 +3164,8 @@
     "title": "Schumann - Symphony No. 4 in D Minor",
     "content": "## Movements\n1. Ziemlich langsam – Lebhaft\n2. Romanze: Ziemlich langsam\n3. Scherzo: Lebhaft\n4. Langsam – Lebhaft",
     "frontmatter": {
-      "composer": "Schumann, Robert",
-      "catalogue": "Op. 120"
+      "catalogue": "Op. 120",
+      "composer": "Schumann, Robert"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3125,8 +3177,8 @@
     "title": "Shchedrin - Carmen Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Shchedrin, Rodion",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Shchedrin, Rodion"
     },
     "concertCount": 0,
     "bucketList": false
@@ -3138,8 +3190,8 @@
     "title": "Shepherd - Songs",
     "content": "",
     "frontmatter": {
-      "composer": "Shepherd, Sean",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Shepherd, Sean"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3151,8 +3203,8 @@
     "title": "Shostakovich - Cello Concerto No. 1 in E-Flat Major",
     "content": "## Movements\n1. Allegretto\n2. Moderato\n3. Cadenza (attacca)\n4. Allegro con moto",
     "frontmatter": {
-      "composer": "Shostakovich, Dmitri",
-      "catalogue": "107"
+      "catalogue": "107",
+      "composer": "Shostakovich, Dmitri"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3164,8 +3216,8 @@
     "title": "Shostakovich - Festive Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Shostakovich, Dmitri",
-      "catalogue": "96"
+      "catalogue": "96",
+      "composer": "Shostakovich, Dmitri"
     },
     "concertCount": 3,
     "bucketList": false
@@ -3177,11 +3229,24 @@
     "title": "Shostakovich - Overture on Russian and Kirghiz Themes",
     "content": "",
     "frontmatter": {
-      "composer": "Shostakovich, Dmitri",
-      "catalogue": "115"
+      "catalogue": "115",
+      "composer": "Shostakovich, Dmitri"
     },
     "concertCount": 0,
     "bucketList": true
+  },
+  {
+    "slug": "shostakovich-piano-concerto-no-1-in-c-minor",
+    "type": "work",
+    "path": "Works/Shostakovich - Piano Concerto No. 1 in C Minor.md",
+    "title": "Shostakovich - Piano Concerto No. 1 in C Minor",
+    "content": "## Movements\n1. Allegro moderato\n2. Lento\n3. Moderato\n4. Allegro con brio",
+    "frontmatter": {
+      "catalogue": "Op. 35",
+      "composer": "Shostakovich, Dmitri"
+    },
+    "concertCount": 1,
+    "bucketList": false
   },
   {
     "slug": "shostakovich-symphony-no-5",
@@ -3190,8 +3255,8 @@
     "title": "Shostakovich - Symphony No. 5",
     "content": "## Movements\n1. Moderato – Allegro non troppo\n2. Allegretto\n3. Largo\n4. Allegro non troppo",
     "frontmatter": {
-      "composer": "Shostakovich, Dmitri",
-      "catalogue": "Op. 47"
+      "catalogue": "Op. 47",
+      "composer": "Shostakovich, Dmitri"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3203,8 +3268,8 @@
     "title": "Sibelius - Andante Festivo",
     "content": "",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3216,8 +3281,8 @@
     "title": "Sibelius - Finlandia",
     "content": "",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "26"
+      "catalogue": "26",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 5,
     "bucketList": false
@@ -3229,8 +3294,8 @@
     "title": "Sibelius - Karelia Suite",
     "content": "## Movements\n1. Intermezzo (Allegro)\n2. Ballade (Tempo di menuetto)\n3. Alla marcia (Moderato)",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "Op. 11"
+      "catalogue": "Op. 11",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3242,8 +3307,8 @@
     "title": "Sibelius - King Christian II Suite",
     "content": "## Movements\n1. Nocturne\n2. Elegie et Musette\n3. Serenade\n4. Ballade",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "27"
+      "catalogue": "27",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 3,
     "bucketList": false
@@ -3255,21 +3320,21 @@
     "title": "Sibelius - Pohjola's Daughter",
     "content": "",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "49"
+      "catalogue": "49",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 0,
     "bucketList": true
   },
   {
-    "slug": "sibelius-spring-song-v-rs-ng",
+    "slug": "sibelius-spring-song-varsang",
     "type": "work",
     "path": "Works/Sibelius - Spring Song (Vårsång).md",
     "title": "Sibelius - Spring Song (Vårsång)",
     "content": "",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "16"
+      "catalogue": "16",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3281,8 +3346,8 @@
     "title": "Sibelius - Suite for Violin and String Orchestra",
     "content": "Also known as JS 185 (https://en.wikipedia.org/wiki/Suite_for_Violin_and_String_Orchestra#cite_note-Op._117-3)",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "JS 185 (Op. 117)"
+      "catalogue": "JS 185 (Op. 117)",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 0,
     "bucketList": true
@@ -3294,8 +3359,8 @@
     "title": "Sibelius - Symphony No. 1 in E Minor",
     "content": "## Movements\n1. Andante, ma non troppo – Allegro energico\n2. Andante (ma non troppo lento)\n3. Scherzo: Allegro\n4. Finale (Quasi una Fantasia): Andante – Allegro molto",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "Op. 39"
+      "catalogue": "Op. 39",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3307,8 +3372,8 @@
     "title": "Sibelius - Symphony No. 2 in D Major",
     "content": "## Movements\n1. Allegretto\n2. Tempo andante, ma rubato\n3. Vivacissimo\n4. Finale: Allegro moderato",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "Op. 43"
+      "catalogue": "Op. 43",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3320,8 +3385,8 @@
     "title": "Sibelius - Symphony No. 3 in C Major",
     "content": "## Movements\n1. Allegro moderato\n2. Andantino con moto, quasi allegretto\n3. Moderato - Allegro (ma non tanto)",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "52"
+      "catalogue": "52",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3333,8 +3398,8 @@
     "title": "Sibelius - Symphony No. 6 in D Minor",
     "content": "",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "104"
+      "catalogue": "104",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 0,
     "bucketList": true
@@ -3346,8 +3411,8 @@
     "title": "Sibelius - Violin Concerto",
     "content": "## Movements\n1. Allegro moderato\n2. Adagio di molto\n3. Allegro, ma non tanto",
     "frontmatter": {
-      "composer": "Sibelius, Jean",
-      "catalogue": "Op. 47"
+      "catalogue": "Op. 47",
+      "composer": "Sibelius, Jean"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3359,8 +3424,8 @@
     "title": "Silvestri - Suite for Orchestra from \"Back to the Future\"",
     "content": "",
     "frontmatter": {
-      "composer": "Silvestri, Alan",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Silvestri, Alan"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3372,8 +3437,8 @@
     "title": "Smetana - The Bartered Bride",
     "content": "",
     "frontmatter": {
-      "composer": "Smetana, Bedrich",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Smetana, Bedrich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3385,8 +3450,8 @@
     "title": "Smetana - The Moldau",
     "content": "Ma Vlast",
     "frontmatter": {
-      "composer": "Smetana, Bedrich",
       "catalogue": null,
+      "composer": "Smetana, Bedrich",
       "displayName": "The Moldau from Má Vlast"
     },
     "concertCount": 1,
@@ -3399,8 +3464,8 @@
     "title": "Sousa - Stars and Stripes Forever",
     "content": "",
     "frontmatter": {
-      "composer": "Sousa, John Philip",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Sousa, John Philip"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3412,8 +3477,8 @@
     "title": "Sowande - African Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Sowande, Fela",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Sowande, Fela"
     },
     "concertCount": 0,
     "bucketList": true
@@ -3425,8 +3490,8 @@
     "title": "Still - Afro-American Symphony",
     "content": "## Movements\n1. Longing (Moderato assai)\n2. Sorrow (Adagio)\n3. Humor (Animato)\n4. Aspiration (Lento, con risoluzione)",
     "frontmatter": {
-      "composer": "Still, William Grant",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Still, William Grant"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3438,8 +3503,8 @@
     "title": "Still - Danzas de Panama",
     "content": "## Movements\n1. Tamborito\n2. Mejorana\n3. Punto\n4. Cumbia y Congo",
     "frontmatter": {
-      "composer": "Still, William Grant",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Still, William Grant"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3451,8 +3516,21 @@
     "title": "Strauss - Artist's Life",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": "316"
+      "catalogue": "316",
+      "composer": "Strauss, Johann"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "strauss-der-rosenkavalier",
+    "type": "work",
+    "path": "Works/Strauss - Der Rosenkavalier.md",
+    "title": "Strauss - Der Rosenkavalier",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 59",
+      "composer": "Strauss, Richard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3464,8 +3542,8 @@
     "title": "Strauss - Emperor Waltz",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": "437"
+      "catalogue": "437",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 3,
     "bucketList": false
@@ -3477,8 +3555,8 @@
     "title": "Strauss - Express Polka",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": "311"
+      "catalogue": "311",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3490,8 +3568,8 @@
     "title": "Strauss - Morning Papers",
     "content": "Morgenblätter\n\nOp. 279",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3503,8 +3581,8 @@
     "title": "Strauss - Ohne Sorgen",
     "content": "Op. 271",
     "frontmatter": {
-      "composer": "Strauss, Josef",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Strauss, Josef"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3516,8 +3594,8 @@
     "title": "Strauss - On Holiday",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Josef",
-      "catalogue": "133"
+      "catalogue": "133",
+      "composer": "Strauss, Josef"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3529,8 +3607,8 @@
     "title": "Strauss - Perpetuum Mobile",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3542,8 +3620,8 @@
     "title": "Strauss - Radetsky March",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 3,
     "bucketList": false
@@ -3555,8 +3633,8 @@
     "title": "Strauss - Roses from the South",
     "content": "Rosen aus dem Suden\n\nOp. 388",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3568,8 +3646,8 @@
     "title": "Strauss - The Blue Danube",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": "314"
+      "catalogue": "314",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 3,
     "bucketList": false
@@ -3581,8 +3659,8 @@
     "title": "Strauss - Thunder and Lightning",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3594,8 +3672,8 @@
     "title": "Strauss - Till Eulenspiegel's Merry Pranks",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Richard",
-      "catalogue": "28"
+      "catalogue": "28",
+      "composer": "Strauss, Richard"
     },
     "concertCount": 0,
     "bucketList": false
@@ -3607,8 +3685,8 @@
     "title": "Strauss - Vienna Blood",
     "content": "Wiener Blut",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": "354"
+      "catalogue": "354",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3620,8 +3698,8 @@
     "title": "Strauss - Voices of Spring",
     "content": "",
     "frontmatter": {
-      "composer": "Strauss, Johann",
-      "catalogue": "410"
+      "catalogue": "410",
+      "composer": "Strauss, Johann"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3633,11 +3711,24 @@
     "title": "Stravinsky - Pulcinella Suite",
     "content": "",
     "frontmatter": {
-      "composer": "Stravinsky, Igor",
-      "catalogue": null
+      "catalogue": null,
+      "composer": "Stravinsky, Igor"
     },
     "concertCount": 0,
     "bucketList": true
+  },
+  {
+    "slug": "stravinsky-the-firebird-suite-1919",
+    "type": "work",
+    "path": "Works/Stravinsky - The Firebird Suite (1919).md",
+    "title": "Stravinsky - The Firebird Suite (1919)",
+    "content": "## Movements\n1. Introduction\n2. The Firebird and Her Dance — Variations\n3. Round Dance of the Princesses (Khorovod)\n4. Infernal Dance of King Kashchei\n5. Berceuse\n6. Finale",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Stravinsky, Igor"
+    },
+    "concertCount": 1,
+    "bucketList": false
   },
   {
     "slug": "tchaikovsky-capriccio-italien",
@@ -3646,8 +3737,21 @@
     "title": "Tchaikovsky - Capriccio Italien",
     "content": "",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "45"
+      "catalogue": "45",
+      "composer": "Tchaikovsky, Piotr Ilyich"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "tchaikovsky-polonaise-from-eugene-onegin",
+    "type": "work",
+    "path": "Works/Tchaikovsky - Polonaise from Eugene Onegin.md",
+    "title": "Tchaikovsky - Polonaise from Eugene Onegin",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 24",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3659,8 +3763,8 @@
     "title": "Tchaikovsky - Romeo & Juliet Fantasy Overture",
     "content": "",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3672,8 +3776,8 @@
     "title": "Tchaikovsky - Serenade for Strings",
     "content": "## Movements\n1. Pezzo in forma di sonatina: Andante non troppo – Allegro moderato\n2. Valse: Moderato – Tempo di valse\n3. Élégie: Larghetto elegiaco\n4. Finale (Tema russo): Andante – Allegro con spirito",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 48"
+      "catalogue": "Op. 48",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3685,8 +3789,8 @@
     "title": "Tchaikovsky - Sleeping Beauty",
     "content": "",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3698,8 +3802,8 @@
     "title": "Tchaikovsky - String Quartet No. 1 in D Major",
     "content": "## Movements\n1. Moderato e semplice\n2. Andante cantabile\n3. Scherzo: Allegro non tanto e con fuoco\n4. Finale: Allegro giusto",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 11"
+      "catalogue": "Op. 11",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3711,8 +3815,8 @@
     "title": "Tchaikovsky - Suite No. 4 in G Major, \"Mozartiana\"",
     "content": "## Movements\n1. Gigue (Allegro)\n2. Menuet (Moderato)\n3. Preghiera (Andante non tanto)\n4. Theme and Variations (Allegro giusto)",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 61"
+      "catalogue": "Op. 61",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 3,
     "bucketList": false
@@ -3724,8 +3828,8 @@
     "title": "Tchaikovsky - Swan Lake Suite",
     "content": "## Movements\n1. Scene\n2. Valse\n3. Danse des cygnes\n4. Scene\n5. Czardas: Danse hongroise\n6. Scene finale",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 20a"
+      "catalogue": "Op. 20a",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3737,8 +3841,8 @@
     "title": "Tchaikovsky - Symphony No. 1 in G Minor",
     "content": "## Movements\n1. Dreams of a Winter Journey: Allegro tranquillo\n2. Land of Desolation, Land of Mists: Adagio cantabile ma non tanto\n3. Scherzo: Allegro scherzando giocoso\n4. Finale: Andante lugubre – Allegro moderato – Allegro maestoso",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
       "catalogue": "Op. 13",
+      "composer": "Tchaikovsky, Piotr Ilyich",
       "displayName": null
     },
     "concertCount": 1,
@@ -3751,8 +3855,8 @@
     "title": "Tchaikovsky - Symphony No. 4 in F Minor",
     "content": "## Movements\n1. Andante sostenuto – Moderato con anima\n2. Andantino in modo di canzona\n3. Scherzo: Pizzicato ostinato – Allegro\n4. Finale: Allegro con fuoco",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 36"
+      "catalogue": "Op. 36",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 6,
     "bucketList": false
@@ -3764,10 +3868,10 @@
     "title": "Tchaikovsky - Symphony No. 5 in E Minor",
     "content": "## Movements\n1. Andante – Allegro con anima\n2. Andante cantabile, con alcuna licenza\n3. Valse: Allegro moderato\n4. Finale: Andante maestoso – Allegro vivace",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 64"
+      "catalogue": "Op. 64",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -3777,8 +3881,8 @@
     "title": "Tchaikovsky - Symphony No. 6 in B Minor",
     "content": "## Movements\n1. Adagio – Allegro non troppo\n2. Allegro con grazia\n3. Allegro molto vivace\n4. Finale: Adagio lamentoso – Andante",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 74"
+      "catalogue": "Op. 74",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 0,
     "bucketList": true
@@ -3790,8 +3894,8 @@
     "title": "Tchaikovsky - The Nutcracker Suite",
     "content": "## Movements\n1. Miniature Overture\n2. Characteristic Dances\n   a. March\n   b. Dance of the Sugar-Plum Fairy\n   c. Russian Dance (Trepak)\n   d. Arabian Dance\n   e. Chinese Dance\n   f. Dance of the Reed Flutes\n3. Waltz of the Flowers",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 71a"
+      "catalogue": "Op. 71a",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 5,
     "bucketList": false
@@ -3803,8 +3907,8 @@
     "title": "Tchaikovsky - Variations on a Rococo Theme",
     "content": "## Movements\n- Moderato assai quasi Andante – Thema: Moderato semplice\n- Var. I: Tempo della Thema\n- Var. II: Tempo della Thema\n- Var. III: Andante sostenuto\n- Var. IV: Andante grazioso\n- Var. V: Allegro moderato\n- Var. VI: Andante\n- Var. VII e Coda: Allegro vivo\n-",
     "frontmatter": {
-      "composer": "Tchaikovsky, Piotr Ilyich",
-      "catalogue": "Op. 33"
+      "catalogue": "Op. 33",
+      "composer": "Tchaikovsky, Piotr Ilyich"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3816,8 +3920,8 @@
     "title": "Theofanidis - Rainbow Body",
     "content": "",
     "frontmatter": {
-      "composer": "Theofanidis, Christopher",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Theofanidis, Christopher"
     },
     "concertCount": 0,
     "bucketList": true
@@ -3829,8 +3933,8 @@
     "title": "Vaughan Williams - Concerto Grosso",
     "content": "",
     "frontmatter": {
-      "composer": "Vaughan Williams, Ralph",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Vaughan Williams, Ralph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3842,8 +3946,8 @@
     "title": "Vaughan Williams - Fantasia on Christmas Carols",
     "content": "",
     "frontmatter": {
-      "composer": "Vaughan Williams, Ralph",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Vaughan Williams, Ralph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3855,8 +3959,8 @@
     "title": "Vaughan Williams - Fantasia on Greensleeves",
     "content": "",
     "frontmatter": {
-      "composer": "Vaughan Williams, Ralph",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Vaughan Williams, Ralph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3868,8 +3972,8 @@
     "title": "Vaughan Williams - Norfolk Rhapsody No. 1 in E minor",
     "content": "",
     "frontmatter": {
-      "composer": "Vaughan Williams, Ralph",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Vaughan Williams, Ralph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3881,8 +3985,8 @@
     "title": "Vaughan Williams - Symphony No. 5",
     "content": "## Movements\n1. Preludio\n2. Scherzo\n3. Romanza\n4. Passacaglia",
     "frontmatter": {
-      "composer": "Vaughan Williams, Ralph",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Vaughan Williams, Ralph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3894,8 +3998,8 @@
     "title": "Vaughan Williams - The Lark Ascending",
     "content": "",
     "frontmatter": {
-      "composer": "Vaughan Williams, Ralph",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Vaughan Williams, Ralph"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3907,8 +4011,8 @@
     "title": "Verdi - La Forza del Destino",
     "content": "",
     "frontmatter": {
-      "composer": "Verdi, Giuseppe",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Verdi, Giuseppe"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3920,8 +4024,8 @@
     "title": "Verdi - Overture to La Forza del Destino",
     "content": "",
     "frontmatter": {
-      "composer": "Verdi, Giuseppe",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Verdi, Giuseppe"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3933,8 +4037,8 @@
     "title": "Verdi - Overture to Nabucco",
     "content": "",
     "frontmatter": {
-      "composer": "Verdi, Giuseppe",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Verdi, Giuseppe"
     },
     "concertCount": 4,
     "bucketList": false
@@ -3946,8 +4050,8 @@
     "title": "Verdi - Rigoletto",
     "content": "",
     "frontmatter": {
-      "composer": "Verdi, Giuseppe",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Verdi, Giuseppe"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3959,8 +4063,8 @@
     "title": "Villoldo - El Choclo",
     "content": "Tango Argentino",
     "frontmatter": {
-      "composer": "Villoldo, Angel",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Villoldo, Angel"
     },
     "concertCount": 2,
     "bucketList": false
@@ -3972,8 +4076,8 @@
     "title": "Vivaldi - Concerto for Four Violins in B Minor",
     "content": "## Movements\n\n1. Allegro\n2. Largo - Larghetto\n3. Allegro",
     "frontmatter": {
-      "composer": "Vivaldi, Antonio",
-      "catalogue": "RV 580"
+      "catalogue": "RV 580",
+      "composer": "Vivaldi, Antonio"
     },
     "concertCount": 1,
     "bucketList": false
@@ -3985,21 +4089,21 @@
     "title": "Vivaldi - Concerto for Strings in G Minor",
     "content": "## Movements\n1. Allegro\n2. Largo\n3. Allegro",
     "frontmatter": {
-      "composer": "Vivaldi, Antonio",
-      "catalogue": "RV 157"
+      "catalogue": "RV 157",
+      "composer": "Vivaldi, Antonio"
     },
     "concertCount": 1,
     "bucketList": false
   },
   {
-    "slug": "wagner-die-walk-re",
+    "slug": "wagner-die-walkure",
     "type": "work",
     "path": "Works/Wagner - Die Walküre.md",
     "title": "Wagner - Die Walküre",
     "content": "",
     "frontmatter": {
-      "composer": "Wagner, Richard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Wagner, Richard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4011,8 +4115,8 @@
     "title": "Wagner - Lohengrin",
     "content": "",
     "frontmatter": {
-      "composer": "Wagner, Richard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Wagner, Richard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4024,8 +4128,8 @@
     "title": "Wagner - Siegfried Idyll",
     "content": "",
     "frontmatter": {
-      "composer": "Wagner, Richard",
-      "catalogue": "WWV 103"
+      "catalogue": "WWV 103",
+      "composer": "Wagner, Richard"
     },
     "concertCount": 0,
     "bucketList": false
@@ -4037,8 +4141,8 @@
     "title": "Wagner - Tristan und Isolde",
     "content": "",
     "frontmatter": {
-      "composer": "Wagner, Richard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Wagner, Richard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4050,8 +4154,8 @@
     "title": "Waldteufel - The Skater's Waltz (Les Patineurs)",
     "content": "",
     "frontmatter": {
-      "composer": "Waldteufel, Emile",
-      "catalogue": "183"
+      "catalogue": "183",
+      "composer": "Waldteufel, Emile"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4063,11 +4167,24 @@
     "title": "Walton - Symphony No. 1",
     "content": "",
     "frontmatter": {
-      "composer": "Walton, William",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Walton, William"
     },
     "concertCount": 0,
     "bucketList": true
+  },
+  {
+    "slug": "walton-viola-concerto",
+    "type": "work",
+    "path": "Works/Walton - Viola Concerto.md",
+    "title": "Walton - Viola Concerto",
+    "content": "## Movements\n1. Andante comodo\n2. Vivo, con molto preciso\n3. Allegro moderato",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Walton, William"
+    },
+    "concertCount": 1,
+    "bucketList": false
   },
   {
     "slug": "weber-phantom-of-the-opera",
@@ -4076,8 +4193,8 @@
     "title": "Weber - Phantom of the Opera",
     "content": "",
     "frontmatter": {
-      "composer": "Weber, Andrew Lloyd",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Weber, Andrew Lloyd"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4089,8 +4206,8 @@
     "title": "Webern - Langsamer Satz",
     "content": "",
     "frontmatter": {
-      "composer": "Webern, Anton",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Webern, Anton"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4102,8 +4219,8 @@
     "title": "White - Childhood Scenes",
     "content": "",
     "frontmatter": {
-      "composer": "White, Richard",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "White, Richard"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4115,8 +4232,8 @@
     "title": "Williams - Harry Potter and the Sorcerer's Stone",
     "content": "",
     "frontmatter": {
-      "composer": "Williams, John",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Williams, John"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4128,8 +4245,8 @@
     "title": "Williams - Star Wars",
     "content": "",
     "frontmatter": {
-      "composer": "Williams, John",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Williams, John"
     },
     "concertCount": 4,
     "bucketList": false
@@ -4141,8 +4258,8 @@
     "title": "Williams - Superman March",
     "content": "",
     "frontmatter": {
-      "composer": "Williams, John",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Williams, John"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4154,8 +4271,8 @@
     "title": "Yarmolinsky - The Consitution, A Secular Oratorio",
     "content": "",
     "frontmatter": {
-      "composer": "Yarmolinsky, Benjamin",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Yarmolinsky, Benjamin"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4167,8 +4284,8 @@
     "title": "Zaerr - Celtic Concerto for Harp",
     "content": "",
     "frontmatter": {
-      "composer": "Zaerr, Laura",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Zaerr, Laura"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4180,8 +4297,8 @@
     "title": "Zimmer - Gladiator",
     "content": "",
     "frontmatter": {
-      "composer": "Zimmer, Hans",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Zimmer, Hans"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4193,8 +4310,8 @@
     "title": "Zimmer - The Crown",
     "content": "",
     "frontmatter": {
-      "composer": "Zimmer, Hans",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "Zimmer, Hans"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4206,8 +4323,8 @@
     "title": "de Falla - Suite No. 1 from \"The Three Cornered Hat\"",
     "content": "## Movements\n1. Mediodia (Afternoon) \n2. Danza de la molinera (Dance of the Miller's Wife) \n3. El Corregidor (The Corregidor)\n4. Las uvas (The Grapes)",
     "frontmatter": {
-      "composer": "de Falla, Manuel",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "de Falla, Manuel"
     },
     "concertCount": 1,
     "bucketList": true
@@ -4219,8 +4336,8 @@
     "title": "de Falla - Suite No. 2 from \"The Three Cornered Hat\"",
     "content": "## Movements\n1. Los vecinos\n2. Danza del molinero (Farruca)\n3. Danza final",
     "frontmatter": {
-      "composer": "de Falla, Manuel",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "de Falla, Manuel"
     },
     "concertCount": 1,
     "bucketList": true
@@ -4232,8 +4349,8 @@
     "title": "de Falla - Suite from El amor brujo",
     "content": "",
     "frontmatter": {
-      "composer": "de Falla, Manuel",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "de Falla, Manuel"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4245,8 +4362,8 @@
     "title": "von Suppe - Overture to Banditenstreiche (Jolly Robbers)",
     "content": "",
     "frontmatter": {
-      "composer": "von Suppe, Franz",
-      "catalogue": ""
+      "catalogue": "",
+      "composer": "von Suppe, Franz"
     },
     "concertCount": 1,
     "bucketList": false
@@ -4258,8 +4375,8 @@
     "title": "von Weber - Clarinet Concerto No. 1",
     "content": "## Movements\n1. Allegro\n2. Adagio ma non troppo\n3. Rondo: Allegretto",
     "frontmatter": {
-      "composer": "von Weber, Carl Maria",
-      "catalogue": "Op. 73"
+      "catalogue": "Op. 73",
+      "composer": "von Weber, Carl Maria"
     },
     "concertCount": 1,
     "bucketList": false

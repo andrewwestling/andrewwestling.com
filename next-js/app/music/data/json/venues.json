@@ -177,7 +177,7 @@
       "coordinates": "40.74559725687072, -73.99604441594519",
       "url": "https://www.hsfi.nyc"
     },
-    "concertCount": 14
+    "concertCount": 19
   },
   {
     "slug": "jackson-middle-school",
@@ -369,6 +369,18 @@
       "url": "https://en.wikipedia.org/wiki/Marylhurst_University"
     },
     "concertCount": 3
+  },
+  {
+    "slug": "st-bartholomew-s-church",
+    "type": "venue",
+    "path": "Venues/St. Bartholomew's Church.md",
+    "title": "St. Bartholomew's Church",
+    "content": "",
+    "frontmatter": {
+      "coordinates": "40.75770, -73.97243",
+      "url": "https://stbarts.org"
+    },
+    "concertCount": 1
   },
   {
     "slug": "taylor-meade-performing-arts-center-pacific-university",

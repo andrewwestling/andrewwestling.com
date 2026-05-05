@@ -16,6 +16,8 @@ import type {
 // Helper to convert strings to URL-friendly slugs
 function slugify(text: string): string {
   return text
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "") // strip combining diacritics so ä→a, é→e, etc.
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-") // Replace non-alphanumeric chars with hyphens
     .replace(/^-+|-+$/g, "") // Remove leading/trailing hyphens

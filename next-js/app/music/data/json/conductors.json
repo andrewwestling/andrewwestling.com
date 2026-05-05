@@ -4,7 +4,7 @@
     "type": "conductor",
     "path": "Conductors/Andrew Kim.md",
     "title": "Andrew Kim",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -13,7 +13,7 @@
     "type": "conductor",
     "path": "Conductors/Andy Bhasin.md",
     "title": "Andy Bhasin",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 3
   },
@@ -22,16 +22,16 @@
     "type": "conductor",
     "path": "Conductors/Barbara Yahr.md",
     "title": "Barbara Yahr",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 24
+    "concertCount": 30
   },
   {
     "slug": "bryan-dunnewald",
     "type": "conductor",
     "path": "Conductors/Bryan Dunnewald.md",
     "title": "Bryan Dunnewald",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -40,7 +40,7 @@
     "type": "conductor",
     "path": "Conductors/Bryant Denmark.md",
     "title": "Bryant Denmark",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -49,7 +49,7 @@
     "type": "conductor",
     "path": "Conductors/Caleigh Drane.md",
     "title": "Caleigh Drane",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 4
   },
@@ -58,7 +58,7 @@
     "type": "conductor",
     "path": "Conductors/Christian Olson.md",
     "title": "Christian Olson",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -67,7 +67,7 @@
     "type": "conductor",
     "path": "Conductors/Conrad Chu.md",
     "title": "Conrad Chu",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 3
   },
@@ -76,7 +76,7 @@
     "type": "conductor",
     "path": "Conductors/Daniel Velasquez.md",
     "title": "Daniel Velasquez",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -85,7 +85,7 @@
     "type": "conductor",
     "path": "Conductors/David Bernard.md",
     "title": "David Bernard",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -94,7 +94,7 @@
     "type": "conductor",
     "path": "Conductors/David Hagy.md",
     "title": "David Hagy",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -103,7 +103,7 @@
     "type": "conductor",
     "path": "Conductors/David Hattner.md",
     "title": "David Hattner",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 16
   },
@@ -112,7 +112,7 @@
     "type": "conductor",
     "path": "Conductors/David Jacobs.md",
     "title": "David Jacobs",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 3
   },
@@ -121,7 +121,7 @@
     "type": "conductor",
     "path": "Conductors/Donald Schleicher.md",
     "title": "Donald Schleicher",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -130,7 +130,7 @@
     "type": "conductor",
     "path": "Conductors/Eli Spindel.md",
     "title": "Eli Spindel",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -139,7 +139,7 @@
     "type": "conductor",
     "path": "Conductors/Eric Garcia.md",
     "title": "Eric Garcia",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -148,7 +148,7 @@
     "type": "conductor",
     "path": "Conductors/Eric Hayslett.md",
     "title": "Eric Hayslett",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 4
   },
@@ -157,7 +157,7 @@
     "type": "conductor",
     "path": "Conductors/Eric Mahl.md",
     "title": "Eric Mahl",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 4
   },
@@ -166,7 +166,7 @@
     "type": "conductor",
     "path": "Conductors/Felipe Tristan.md",
     "title": "Felipe Tristan",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 12
   },
@@ -175,7 +175,7 @@
     "type": "conductor",
     "path": "Conductors/Guillaume Pirard.md",
     "title": "Guillaume Pirard",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -184,7 +184,7 @@
     "type": "conductor",
     "path": "Conductors/Ian Shafer.md",
     "title": "Ian Shafer",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -193,7 +193,7 @@
     "type": "conductor",
     "path": "Conductors/Jason Asbury.md",
     "title": "Jason Asbury",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -202,7 +202,7 @@
     "type": "conductor",
     "path": "Conductors/Lajos Balogh.md",
     "title": "Lajos Balogh",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 16
   },
@@ -211,7 +211,7 @@
     "type": "conductor",
     "path": "Conductors/Nick Armstrong.md",
     "title": "Nick Armstrong",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 5
   },
@@ -220,7 +220,7 @@
     "type": "conductor",
     "path": "Conductors/Nico Olarte-Hayes.md",
     "title": "Nico Olarte-Hayes",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -229,7 +229,7 @@
     "type": "conductor",
     "path": "Conductors/Scott Jackson Wiley.md",
     "title": "Scott Jackson Wiley",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -238,7 +238,7 @@
     "type": "conductor",
     "path": "Conductors/Suzanne Gaye.md",
     "title": "Suzanne Gaye",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 1
   },
@@ -247,7 +247,7 @@
     "type": "conductor",
     "path": "Conductors/Todd Zimbelman.md",
     "title": "Todd Zimbelman",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -256,7 +256,7 @@
     "type": "conductor",
     "path": "Conductors/Wayne Bennett.md",
     "title": "Wayne Bennett",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   },
@@ -265,7 +265,7 @@
     "type": "conductor",
     "path": "Conductors/William Hunt.md",
     "title": "William Hunt",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 12
   },
@@ -274,7 +274,7 @@
     "type": "conductor",
     "path": "Conductors/Zach Nicely.md",
     "title": "Zach Nicely",
-    "content": "## Concerts\n```dataview\nLIST FROM \"Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
     "concertCount": 2
   }

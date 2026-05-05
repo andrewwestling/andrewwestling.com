@@ -39,7 +39,7 @@ export interface ConcertFrontmatter {
   group: string;
   works: string[] | null;
   conductor: string | string[] | null;
-  spotifyPlaylistUrl: string | null;
+  spotifyPlaylistUrl?: string | null;
   venue?: string | null;
   didNotPlay?: boolean;
   ticketUrl?: string | null;

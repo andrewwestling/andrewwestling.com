@@ -41,8 +41,7 @@ export const Button = ({
   </button>
 );
 
-interface ButtonLinkProps
-  extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+interface ButtonLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   external?: boolean;
   icon?: React.ReactNode;
 }
