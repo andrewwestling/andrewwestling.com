@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Andrew Westling",
-    "label": "Design Engineer",
+    "label": "Software Engineer",
     "image": "",
     "email": "hi@andrewwestling.com",
     "phone": "",
     "url": "https://andrewwestling.com",
-    "summary": "Design engineer with a formal background in architecture and a decade of experience in web development. Specialty in the intersection of design and engineering: building design systems, crafting resilient interfaces, and thinking holistically about how products are structured and scaled. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, agentic AI tooling, and more. Experienced doing platform-level work that multiplies the output of large engineering organizations.",
+    "summary": "Software engineer with a decade of experience in web development and a formal background in architecture. Specialty in building resilient interfaces, design systems, and platform-level tooling that multiplies the output of large engineering organizations. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, agentic AI tooling, and more.",
     "location": {
       "address": "",
       "postalCode": "",
