@@ -20,6 +20,9 @@ export function getProjectsBreadcrumbs(segments: string[]): Crumb[] {
       case "tidbyt":
         label = "Tidbyt Apps";
         break;
+      case "music-library":
+        label = "Music Library";
+        break;
     }
 
     crumbs.push({
