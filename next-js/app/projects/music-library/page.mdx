@@ -16,8 +16,8 @@ export const messageContent = (
   <>
     <p className="mb-3">
       I built a personal archive of probably every concert and work I&apos;ve
-      ever performed — partly to see my own performing career in one place, and
-      partly to turn years of notes into structured data I can actually use.
+      ever performed. It lets me see the repertoire I&apos;ve accumulated over a
+      lifetime and revisit when, where, and with whom I played it.
     </p>
     <p className="mb-0">
       👉{" "}
@@ -36,52 +36,143 @@ export const messageContent = (
 
 ## Why I Built It
 
-_TBD: Personal performance archive — why it exists and its dual purpose._
+I had always wanted one big list of all the repertoire I had performed. The
+information existed, but it was scattered across a lifetime of artifacts. I had
+paper programs from concerts I played as a kid and digital programs, emails,
+and calendar entries from more recent years. None of those sources could show
+me the whole picture.
 
-- See a performing career in one place
-- Turn scattered notes into structured, queryable data
+At some point, I went home to my dad&apos;s house in Oregon, found the box of
+concert programs I had saved since childhood, and started entering them into
+[Obsidian](https://obsidian.md/). I was already a heavy Obsidian user, and its
+properties, frontmatter, and links between notes made it possible to record more
+than a flat list. A concert could point to the works on its program, the group
+that played them, the conductor, and the venue. For the first time, seeing
+probably every work I had performed felt possible.
+
+The idea initially grew out of
+[anti-performances](https://instagram.com/antiperformances), my Instagram
+account about orchestra life. I imagined extending it with the photos, audio,
+and other media attached to each concert. As I worked on it, though, the program
+information became the center. The lasting value was not any one photo; it was
+the connected record of what I played. The project became the Music Library.
+
+I love seeing the size and shape of that repertoire, but the archive is also a
+way back into its context. I can find the last time I played a piece, where the
+concert happened, and who was there. Opening an old concert often takes me back
+to the person I was and the life I was living when I played it.
 
 {/* Placeholder: `/music` archive overview screenshot */}
 
 ## Building with AI
 
-_TBD: Early Cursor and Claude 3.5 Sonnet as the narrative hinge — when the project became possible._
+Once I had a useful amount of information in Obsidian, I realized that the vault
+was just a collection of files underneath. If I could parse those files, the
+same notes I wrote for myself could power a website. I knew what I wanted the
+archive to express, but building every type, parser, query, and page by hand
+would have made it a much bigger project.
 
-- First major Cursor build in this repo (PR #54)
-- Scaffolded app structure, types from vault Templates
-- The moment AI&apos;s potential clicked for personal tooling
+This was one of the first projects where working with Cursor made a personal
+idea suddenly feel feasible. I was using Claude 3.5 Sonnet in Cursor, and the
+experience was less like asking for a finished app and more like shaping one
+through a conversation. I could point Cursor at the templates in my vault and
+ask it to turn the concepts already there into TypeScript types, data-processing
+code, and a familiar Next.js structure. Then I could run what it made, see what
+was wrong or missing, and steer the next pass.
+
+That translation from templates to software was the moment the potential of
+AI-assisted building clicked for me. The model could hold a lot of mechanical
+context at once and move quickly across layers of the app. It made experiments
+cheap enough that I could discover the product while building it instead of
+fully specifying everything up front.
+
+It did not replace the difficult judgment. Cursor did not know what a Concert
+or a Work meant in my archive, which relationships mattered, or whether a page
+felt useful to a musician. I supplied the records, the domain knowledge, the
+direction, and the taste; Cursor accelerated the implementation. The most
+important work was still thinking carefully about the nouns in the system and
+how they connected.
 
 {/* Placeholder: Cursor chat / prompt screenshot */}
 
-## The Megavault
+## Connected Notes
 
-_TBD: Obsidian vault (Megavault) as the source of truth for concerts, works, venues, and related metadata._
+The Music Library&apos;s source material is a set of human-authored Markdown
+notes. Obsidian gives me a pleasant place to edit them, but their location in a
+particular vault is not the important part. The music notes originally lived in
+their own vault and were later consolidated into my larger Obsidian setup. The
+connections between the notes are what make the archive work.
 
-- Human-authored Markdown notes with frontmatter
-- Organized by entity type (Concerts, Works, Composers, Venues…)
-- Private vault; organizational shape only on the public page
+A **Concert** sits at the center of the model. It has a date and belongs to a
+season. It links to a group, a venue, one or more conductors, and every work on
+the program. A **Work** links to its composer and, in the other direction, to
+every concert where I performed it. Following those links answers the questions
+I actually care about: When did I last play this? Which orchestra was it with?
+What else was on that program? Have I performed another work by this composer?
+
+There are notes for composers, conductors, groups, venues, seasons, rehearsals,
+and sheet music, too. They are not independent database rows that I maintain in
+an abstract admin screen. They are readable notes I can connect with Obsidian
+links and properties as I write. The structure is deliberate, but it stays
+close to the way I naturally think about a concert program.
+
+That connected-note model is also the boundary between my work and the
+generated site. I decide what the objects mean and maintain the source material;
+the software follows those relationships outward to create the archive people
+can browse.
 
 {/* Placeholder: Obsidian/Megavault note screenshot (sanitized) */}
 
 ## From Notes to the Site
 
-_TBD: How vault notes flow through generation scripts into the `/music` site._
+The publishing pipeline is intentionally simple. I run
+`npm run generate-music-db`, which invokes `generate-database.ts` against the
+music notes. The script reads the Markdown and frontmatter, resolves the
+Obsidian links, and produces separate JSON files for concerts, works,
+composers, groups, venues, and the other entity types.
 
-- `generate-database.ts` reads vault Markdown
-- `npm run generate-music-db` → per-entity JSON
-- Next.js routes render browse UI, filters, and entity pages
+The Next.js app imports that generated data and turns it into the pages under
+`/music`. The index pages can sort composers and works by concert count. A
+concert page can assemble its program, venue, performers, map, and optional
+Spotify link from the same relationships I authored in Obsidian. Faceted
+filters work because seasons, groups, venues, conductors, and composers are
+connected consistently instead of trapped in program-shaped blocks of text.
+
+The private notes themselves are not published. The generator selects the
+structured information the site needs and emits a static snapshot that can be
+built and deployed with the rest of this site. That separation lets Obsidian
+remain my writing environment while the public Music Library gets predictable,
+queryable data.
 
 {/* Placeholder: `/music` browse UI screenshot */}
 
-👉 TBD: [See the generate scripts on GitHub](https://github.com/andrewwestling/andrewwestling.com/tree/main/next-js/app/music/scripts)
+👉 [See the generate scripts on GitHub](https://github.com/andrewwestling/andrewwestling.com/tree/main/next-js/app/music/scripts)
 
-## Using the Archive
+## Browsing the Archive
 
-_TBD: How `/music` fits into day-to-day use — browsing past seasons, upcoming concerts, bucket list._
+I do not really think of the Music Library as a tool I sit down to _use_. It is
+more like a place I browse and explore. I might open a work and discover that I
+have played it more often than I remembered, or move from a concert to a venue
+to see everything else I performed there. Filters let me narrow the history by
+season, group, conductor, venue, or composer, but the point is usually curiosity
+rather than productivity.
 
-- Upcoming concerts and ICS calendar subscribe
-- Faceted filters across seasons, groups, venues, composers
-- Bucket list, concert counts, entity cross-links
+The counts and cross-links make the scale of a performing life visible in a way
+that a stack of programs never could. They also make the archive associative.
+Looking up a piece can lead to an old orchestra, another work on the same
+program, or a concert I had not thought about in years. The record is factual,
+but browsing it is personal.
+
+There are practical corners of the library. Upcoming concerts have an ICS
+calendar subscription. The bucket list gives me a place for repertoire I still
+hope to play. Concert pages can include ticket or calendar links, venue maps,
+and Spotify recordings. Those features make the archive richer, but they are
+not why I keep returning to it.
+
+I return because an old program is more than a list of pieces. It remembers a
+place, a group of people, and a particular moment in my life. Entering all those
+paper programs gave me the complete repertoire list I had always wanted.
+Connecting them gave me a way to wander back through it.
 
 {/* Placeholder: upcoming concerts or filters screenshot */}
 
