@@ -1,0 +1,69 @@
+import NextLink from "next/link";
+import { Message } from "@components/Message";
+import { PostedModified } from "@components/PostedModified";
+
+export const posted = "2025-06-16";
+export const modified = "2026-07-16";
+
+export const metadata = {
+  title: "Music Library",
+  description:
+    "Music Library is Andrew Westling's archive of concerts and works performed, built from an Obsidian vault with AI-assisted scripts",
+  date: posted,
+};
+
+export const messageContent = (
+  <>
+    <p className="mb-3">
+      I built a personal archive of probably every concert and work I&apos;ve
+      ever performed — partly to see my own performing career in one place, and
+      partly to turn years of notes into structured data I can actually use.
+    </p>
+    <p className="mb-0">
+      👉{" "}
+      <NextLink href="/music" className="font-semibold">
+        Browse the live Music Library
+      </NextLink>
+    </p>
+  </>
+);
+
+# Music Library
+
+<Message>{messageContent}</Message>
+
+## Table of Contents
+
+## Why a Music Library?
+
+_TBD: Personal archive lead — why this exists as a career-long record of performances._
+
+- See a performing career in one place
+- Turn scattered notes into usable structured data
+
+## The Megavault
+
+_TBD: Obsidian vault (Megavault) as the source of truth for concerts, works, venues, and related metadata._
+
+{/* Placeholder: Obsidian/Megavault note screenshot */}
+
+## From Notes to the Site
+
+_TBD: How vault notes flow through AI-assisted scripts into the `/music` site — generate-database, pages, and browse UI._
+
+{/* Placeholder: Cursor chat / prompt screenshot */}
+{/* Placeholder: `/music` browse UI screenshot */}
+
+👉 TBD: [See the generate scripts on GitHub](https://github.com/andrewwestling/andrewwestling.com/tree/main/next-js/app/music/scripts)
+
+## Building with AI
+
+_TBD: Pivotal first use of Cursor and Claude Sonnet / 3.5 as a development tool — what got done, and what it showed was possible._
+
+## Using the Archive
+
+_TBD: How `/music` fits into day-to-day use — browsing past seasons, upcoming concerts, bucket list, and the rest of the live archive._
+
+---
+
+<PostedModified posted={posted} modified={modified} />
