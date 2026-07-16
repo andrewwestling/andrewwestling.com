@@ -1,0 +1,63 @@
+name: Open agent PR (AW-2)
+
+on:
+  push:
+    branches:
+      - cursor/scaffold-music-library-mdx-35db
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  open-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create draft PR if missing
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const head = "cursor/scaffold-music-library-mdx-35db";
+            const { data: prs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `${context.repo.owner}:${head}`,
+              state: "open",
+            });
+
+            if (prs.length > 0) {
+              core.setOutput("url", prs[0].html_url);
+              core.info(`PR already exists: ${prs[0].html_url}`);
+              return;
+            }
+
+            const body = [
+              "## Summary",
+              "",
+              "Scaffolds `/projects/music-library` following the Tidbyt project page pattern, with a production publish gate so the stub can merge to `main` without going live.",
+              "",
+              "## Changes",
+              "",
+              "- `next-js/app/projects/music-library/page.mdx` — Tidbyt-shaped shell (AW-2)",
+              "- `next-js/app/projects/music-library/layout.tsx` — `published = false` gate (404 on production)",
+              "- `next-js/app/projects/breadcrumbs.ts` — register `music-library` breadcrumb label",
+              "",
+              "## Linear",
+              "",
+              "- [AW-2](https://linear.app/mcwestling/issue/AW-2/scaffold-music-library-project-mdx-page-shell)",
+              "- Parent: [AW-1](https://linear.app/mcwestling/issue/AW-1/music-library-project-page)",
+            ].join("\n");
+
+            const { data: pr } = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Scaffold Music Library project page shell (AW-2)",
+              head,
+              base: "main",
+              draft: true,
+              body,
+            });
+
+            core.setOutput("url", pr.html_url);
+            core.info(`Created PR: ${pr.html_url}`);
