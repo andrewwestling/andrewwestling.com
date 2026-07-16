@@ -30,3 +30,23 @@ Single-context layout: root `CONTEXT.md` + `docs/adr/`. See `docs/agents/domain.
 | Large multi-session planning | `/wayfinder` |
 | Test-first feature/fix | `/tdd` |
 | Hard bug diagnosis | `/diagnosing-bugs` |
+
+## Cursor Cloud specific instructions
+
+This repo is a small multi-package layout for the static site `andrewwestling.com`:
+
+- `next-js/` — the main product (Next.js 15 + TypeScript + MDX + Tailwind). This is what you run and test.
+- `tailwind/` — shared Tailwind config, consumed by `next-js` as a local `file:../tailwind` dependency. It must have its deps installed before/alongside `next-js`, otherwise `next-js` installs/builds can't resolve `@andrewwestling/tailwind-config`. `next-js`'s `prebuild` script also runs `npm install` in `tailwind` automatically.
+- `resume/` — a standalone JSON Resume → HTML/PDF generator (uses Puppeteer/Chromium). Not part of the website runtime; only touch it when working on the resume artifact.
+
+Running / testing the site (all commands run inside `next-js/`, see `next-js/README.md` and its `package.json` scripts):
+
+- Dev server: `npm run dev` → http://localhost:3000 (no build step needed; MDX content is static, no DB/external services required).
+- Lint: `npm run lint` (`next lint` prints a deprecation notice — that is expected noise, not a failure).
+- Build: `npm run build` (statically prerenders ~59 pages).
+
+Non-obvious notes:
+
+- No env vars are required to run locally. PostHog analytics (`NEXT_PUBLIC_POSTHOG_KEY`) is optional and only initializes in production; the app runs fine without it.
+- Ignore `scripts/conductor-setup.sh` / `vercel env pull` for local setup — they require Vercel auth and are not needed to run or test the site.
+- Venue pages render an interactive Leaflet/OpenStreetMap map and concert pages embed Spotify; both need outbound network access to display fully.
