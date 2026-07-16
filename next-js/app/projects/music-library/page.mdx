@@ -34,35 +34,56 @@ export const messageContent = (
 
 ## Table of Contents
 
-## Why a Music Library?
+## Why I Built It
 
-_TBD: Personal archive lead — why this exists as a career-long record of performances._
+_TBD: Personal performance archive — why it exists and its dual purpose._
 
 - See a performing career in one place
-- Turn scattered notes into usable structured data
+- Turn scattered notes into structured, queryable data
+
+{/* Placeholder: `/music` archive overview screenshot */}
+
+## Building with AI
+
+_TBD: Early Cursor and Claude 3.5 Sonnet as the narrative hinge — when the project became possible._
+
+- First major Cursor build in this repo (PR #54)
+- Scaffolded app structure, types from vault Templates
+- The moment AI&apos;s potential clicked for personal tooling
+
+{/* Placeholder: Cursor chat / prompt screenshot */}
 
 ## The Megavault
 
 _TBD: Obsidian vault (Megavault) as the source of truth for concerts, works, venues, and related metadata._
 
-{/* Placeholder: Obsidian/Megavault note screenshot */}
+- Human-authored Markdown notes with frontmatter
+- Organized by entity type (Concerts, Works, Composers, Venues…)
+- Private vault; organizational shape only on the public page
+
+{/* Placeholder: Obsidian/Megavault note screenshot (sanitized) */}
 
 ## From Notes to the Site
 
-_TBD: How vault notes flow through AI-assisted scripts into the `/music` site — generate-database, pages, and browse UI._
+_TBD: How vault notes flow through generation scripts into the `/music` site._
 
-{/* Placeholder: Cursor chat / prompt screenshot */}
+- `generate-database.ts` reads vault Markdown
+- `npm run generate-music-db` → per-entity JSON
+- Next.js routes render browse UI, filters, and entity pages
+
 {/* Placeholder: `/music` browse UI screenshot */}
 
 👉 TBD: [See the generate scripts on GitHub](https://github.com/andrewwestling/andrewwestling.com/tree/main/next-js/app/music/scripts)
 
-## Building with AI
-
-_TBD: Pivotal first use of Cursor and Claude Sonnet / 3.5 as a development tool — what got done, and what it showed was possible._
-
 ## Using the Archive
 
-_TBD: How `/music` fits into day-to-day use — browsing past seasons, upcoming concerts, bucket list, and the rest of the live archive._
+_TBD: How `/music` fits into day-to-day use — browsing past seasons, upcoming concerts, bucket list._
+
+- Upcoming concerts and ICS calendar subscribe
+- Faceted filters across seasons, groups, venues, composers
+- Bucket list, concert counts, entity cross-links
+
+{/* Placeholder: upcoming concerts or filters screenshot */}
 
 ---
 
