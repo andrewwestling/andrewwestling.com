@@ -1,4 +1,5 @@
 import NextLink from "next/link";
+import { MdxImage } from "@components/MdxImage";
 import { Message } from "@components/Message";
 import { PostedModified } from "@components/PostedModified";
 
@@ -62,7 +63,12 @@ way back into its context. I can find the last time I played a piece, where the
 concert happened, and who was there. Opening an old concert often takes me back
 to the person I was and the life I was living when I played it.
 
-{/* Placeholder: `/music` archive overview screenshot */}
+<MdxImage
+  alt="Music Library home page showing Andrew's performance archive"
+  src={"/assets/projects/music-library/music-library-home.png"}
+  width={1980}
+  height={1704}
+/>
 
 ## Building with AI
 
@@ -93,8 +99,6 @@ direction, and the taste; Cursor accelerated the implementation. The most
 important work was still thinking carefully about the nouns in the system and
 how they connected.
 
-{/* Placeholder: Cursor chat / prompt screenshot */}
-
 ## Connected Notes
 
 The Music Library&apos;s source material is a set of human-authored Markdown
@@ -121,7 +125,12 @@ generated site. I decide what the objects mean and maintain the source material;
 the software follows those relationships outward to create the archive people
 can browse.
 
-{/* Placeholder: Obsidian/Megavault note screenshot (sanitized) */}
+<MdxImage
+  alt="Completed Obsidian Concert note for the February 23, 2025 Brooklyn Symphony Orchestra program"
+  src={"/assets/projects/music-library/obsidian-concert-note.png"}
+  width={3644}
+  height={2370}
+/>
 
 ## From Notes to the Site
 
@@ -144,7 +153,12 @@ built and deployed with the rest of this site. That separation lets Obsidian
 remain my writing environment while the public Music Library gets predictable,
 queryable data.
 
-{/* Placeholder: `/music` browse UI screenshot */}
+<MdxImage
+  alt="Music Library browse UI on the live /music archive"
+  src={"/assets/projects/music-library/music-browse-ui.png"}
+  width={3644}
+  height={2370}
+/>
 
 👉 [See the generate scripts on GitHub](https://github.com/andrewwestling/andrewwestling.com/tree/main/next-js/app/music/scripts)
 
@@ -173,8 +187,6 @@ I return because an old program is more than a list of pieces. It remembers a
 place, a group of people, and a particular moment in my life. Entering all those
 paper programs gave me the complete repertoire list I had always wanted.
 Connecting them gave me a way to wander back through it.
-
-{/* Placeholder: upcoming concerts or filters screenshot */}
 
 ---
 
