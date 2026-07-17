@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 
 /** Flip to true when the write-up is reviewed and ready to publish. */
-const published = false;
+const published = true;
 
 export default function MusicLibraryProjectLayout({
   children,
