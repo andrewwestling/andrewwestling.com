@@ -60,7 +60,7 @@ export default async function MusicPage() {
 
       <p className="text-sm md:text-base">
         👉{" "}
-        <Link href="/projects/music-library" className="font-semibold">
+        <Link href="/projects/music-library">
           Read about how and why I made this
         </Link>
       </p>
