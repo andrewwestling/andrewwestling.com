@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 import { ButtonLink } from "@components/Button";
 import { PageTitle } from "@music/components/PageTitle";
@@ -56,6 +57,13 @@ export default async function MusicPage() {
           </ButtonLink>
         </div>
       </section>
+
+      <p className="text-sm md:text-base">
+        👉{" "}
+        <Link href="/projects/music-library" className="font-semibold">
+          Read about how and why I made this
+        </Link>
+      </p>
     </div>
   );
 }
