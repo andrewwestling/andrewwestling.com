@@ -3,7 +3,7 @@
 **Ticket:** [AW-5](https://linear.app/mcwestling/issue/AW-5) (map [AW-1](https://linear.app/mcwestling/issue/AW-1))  
 **Question:** What narrative beats, dates, and primary-source evidence should feed a Tidbyt-style project write-up about the Music Library?  
 **Researched:** 2026-07-16  
-**Scope:** Primary sources only (this site repo git/PR history + code/docs). Private vault clone was **not** available (see § Vault).
+**Scope:** Primary sources (this site repo git/PR history + code/docs) plus human-confirmed vault workflow (see § Vault).
 
 ---
 
@@ -13,13 +13,20 @@ Ship a Tidbyt-shaped page that leads with **personal performance archive**, then
 
 ---
 
-## Vault (private Megavault)
+## Vault (source of truth + authoring workflow)
 
-| Check | Result |
-| ----- | ------ |
-| Expected path | `/tmp/o-vault-music-library` (clone of `andrewwestling/o-vault-music-library`) |
-| Status | **Missing** — `ls` → no such file or directory |
-| Consequence | No vault README, changelog, commit themes, or folder photos from the private repo. Do **not** invent vault narrative. |
+Human-confirmed (AW-12): the standalone `~/Obsidian/Music Library` vault is **canonical**. Megavault holds a copy only. Authoring is Concert-first.
+
+| Step | Workflow |
+| ---- | -------- |
+| 1 | Start from a **Concert** (or create its **Group** first if the Concert template selector needs an existing group) |
+| 2 | Create the Concert shell from the template |
+| 3 | Create any missing referenced entities before completing the note (Composer before Work) |
+| 4 | Return to the Concert in the same session; populate Obsidian Properties and wiki-links |
+| 5 | Add per-work soloists, conductors, or movements under `## Program Details` |
+| 6 | Dataview reverse views in the vault and the public site both follow the same link graph |
+
+**Public-safe walkthrough / screenshot target:** [February 23, 2025 Brooklyn Symphony Orchestra concert](/music/concerts/202502231400) — slug `202502231400` in `next-js/app/music/data/json/concerts.json` (Saint-Georges, Fauré, Sankey Carmen Fantasy with double-bass soloist, Bloch, Dvořák 7; venue Brooklyn Museum; conductor Nico Olarte-Hayes).
 
 ### Vault shape inferable from **public** site code (not vault note bodies)
 
@@ -95,8 +102,8 @@ Also: Instagram brand **anti-performances** remains separate (homepage / Project
 
 | Piece | Evidence |
 | ----- | -------- |
-| Script | `next-js/app/music/scripts/generate-database.ts` |
-| npm script | `generate-music-db` in `next-js/package.json` (present at #54; PR text still said `generate-db` in places) |
+| Script | `next-js/app/music/scripts/generate-database.ts` (requires `<vault-path>` argument) |
+| npm script | `generate-music-db` in `next-js/package.json` — run as `npm run generate-music-db -- <vault-path>` |
 | Output | Originally monolithic `vault-data.json` in #54; split per entity in **#65** (`e8b3a5f`, 2025-03-06) → `next-js/app/music/data/json/*.json` |
 | Queries | `next-js/app/music/data/queries/*` + `database.ts` |
 | Routes | `/music`, `/music/upcoming`, concerts/works/composers/…, bucket-list, ICS |
@@ -171,8 +178,8 @@ Aligned with Tidbyt’s explanatory arc; titles provisional for AW-3 grilling:
 
 1. **What it is** — personal Music Library / archive (cite `/music` tagline + ProjectsList)
 2. **Why** — see a performing history; make it data (concert counts, filters, upcoming)
-3. **Where the data lives** — Obsidian vault folders (public list above); Megavault name only if defining privately elsewhere
-4. **How it becomes the site** — `generate-database.ts` / `npm run generate-music-db` → JSON → routes
+3. **Where the data lives** — standalone `~/Obsidian/Music Library` vault (canonical); Megavault copy; Concert-first authoring workflow
+4. **How it becomes the site** — `generate-database.ts <vault-path>` / `npm run generate-music-db -- <vault-path>` → JSON → routes
 5. **Building it with Cursor** — #54 quotes; first Cursor mention in this repo; cost/Cline asides optional color
 6. **Growing the product** — Program Details (#61), JSON split (#65), seasons/upcoming polish
 7. **Links** — live `/music`; GitHub paths for script + app (`next-js/app/music/…`); anti-performances Instagram if desired
@@ -185,7 +192,7 @@ Aligned with Tidbyt’s explanatory arc; titles provisional for AW-3 grilling:
 
 | Asset | Status in this research |
 | ----- | ----------------------- |
-| Obsidian note | Private vault **unavailable** here |
+| Obsidian note (completed) | Use **202502231400** BSO concert as public-safe example; generated JSON in repo |
 | Cursor chat | Not in repo; only PR-embedded prompts (#54 Filters prompt, #65 refactor prompts) |
 | `/music` browse | Live product in tree |
 | Script GitHub links | `next-js/app/music/scripts/generate-database.ts` |
@@ -205,4 +212,4 @@ Aligned with Tidbyt’s explanatory arc; titles provisional for AW-3 grilling:
 | S7 | `next-js/app/projects/tidbyt/page.mdx` — write-up pattern |
 | S8 | `next-js/app/projects/ProjectsList.tsx`, `next-js/app/page.mdx`, `next-js/app/music/page.tsx` — public archive wording |
 | S9 | `next-js/.gitignore` — vault path ignored |
-| S10 | Vault clone `/tmp/o-vault-music-library` — **absent** |
+| S10 | AW-12 human-confirmed workflow + `concerts.json` slug `202502231400` — public-safe authoring example |
