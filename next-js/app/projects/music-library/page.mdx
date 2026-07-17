@@ -102,10 +102,10 @@ how they connected.
 ## Connected Notes
 
 The Music Library&apos;s source material is a set of human-authored Markdown
-notes. Obsidian gives me a pleasant place to edit them, but their location in a
-particular vault is not the important part. The music notes originally lived in
-their own vault and were later consolidated into my larger Obsidian setup. The
-connections between the notes are what make the archive work.
+notes in a standalone Obsidian vault at `~/Obsidian/Music Library`. That vault
+is the source of truth: it is where the system was originally designed, and a
+copy also lives in my larger Megavault setup. The connections between the notes
+are what make the archive work.
 
 A **Concert** sits at the center of the model. It has a date and belongs to a
 season. It links to a group, a venue, one or more conductors, and every work on
@@ -119,6 +119,24 @@ and sheet music, too. They are not independent database rows that I maintain in
 an abstract admin screen. They are readable notes I can connect with Obsidian
 links and properties as I write. The structure is deliberate, but it stays
 close to the way I naturally think about a concert program.
+
+Authoring usually starts with a Concert. If the group is new, I create the
+**Group** note first, because the Concert template selector requires an existing
+group. I then create the Concert shell from the template, add any missing
+referenced entities in dependency order (a **Composer** before its **Work**),
+and return to the Concert in the same session to fill in Obsidian Properties and
+wiki-links. Per-work soloists, conductors, or movements go under
+`## Program Details`.
+
+A concrete example is the
+[February 23, 2025 Brooklyn Symphony Orchestra concert](/music/concerts/202502231400):
+create the Concert shell, add Brooklyn Symphony Orchestra, Brooklyn Museum, Nico
+Olarte-Hayes, and each work on the program (creating composers and works as
+needed), link them through Properties, then record Stuart Sankey&apos;s double-bass
+solo on the Carmen Fantasy in Program Details. Dataview queries in the vault
+surface reverse views from those same links—every concert for a work, every
+work by a composer—while the public site derives its pages and filters from the
+identical relationships when I run the generator.
 
 That connected-note model is also the boundary between my work and the
 generated site. I decide what the objects mean and maintain the source material;
@@ -135,10 +153,11 @@ can browse.
 ## From Notes to the Site
 
 The publishing pipeline is intentionally simple. I run
-`npm run generate-music-db`, which invokes `generate-database.ts` against the
-music notes. The script reads the Markdown and frontmatter, resolves the
-Obsidian links, and produces separate JSON files for concerts, works,
-composers, groups, venues, and the other entity types.
+`npm run generate-music-db -- <vault-path>`, which invokes
+`generate-database.ts` against the music notes in the standalone Music Library
+vault (or another path I pass). The script reads the Markdown and frontmatter,
+resolves the Obsidian links, and produces separate JSON files for concerts,
+works, composers, groups, venues, and the other entity types.
 
 The Next.js app imports that generated data and turns it into the pages under
 `/music`. The index pages can sort composers and works by concert count. A
@@ -187,6 +206,11 @@ I return because an old program is more than a list of pieces. It remembers a
 place, a group of people, and a particular moment in my life. Entering all those
 paper programs gave me the complete repertoire list I had always wanted.
 Connecting them gave me a way to wander back through it.
+
+👉{" "}
+<NextLink href="/music" className="font-semibold">
+  Go browse the Music Library
+</NextLink>
 
 ---
 

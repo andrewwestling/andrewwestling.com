@@ -21,9 +21,10 @@ export function ProjectsList() {
           , my violinstagram
         </li>
         <li>
-          🎻 <a href="/projects/music-library">Music Library</a> (
-          <a href="/music">live archive</a>), my archive of all the concerts
-          and works I&apos;ve ever performed
+          🎻 Music Library, my archive of all the concerts and works I&apos;ve
+          ever performed —{" "}
+          <a href="/projects/music-library">Read about it</a> ·{" "}
+          <a href="/music">Browse</a>
         </li>
       </ul>
     </>
