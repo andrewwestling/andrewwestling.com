@@ -8,13 +8,13 @@
     "src"
   ],
   "dependencies": {
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "typescript": "^5.3.3"
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
   },
   "peerDependencies": {
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^4.3.3"
   }
 }
