@@ -11,8 +11,8 @@
     "serve": "resumed serve resume.json"
   },
   "dependencies": {
-    "resumed": "^3.0.0",
+    "resumed": "^6.1.0",
     "jsonresume-theme-andrewwestling": "file:./jsonresume-theme-andrewwestling",
-    "puppeteer": "^22.8.2"
+    "puppeteer": "^25.5.0"
   }
 }
