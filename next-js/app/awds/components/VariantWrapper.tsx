@@ -11,7 +11,9 @@ export const VariantWrapper = (
     <div className="flex flex-col gap-1">
       <label
         className={`${
-          props.className?.includes("border-t" || "border") ? "mt-[-1px]" : ""
+          props.className?.includes("border-t") || props.className?.includes("border")
+            ? "mt-[-1px]"
+            : ""
         } text-xs rounded border border-fuchsia-500 border-dashed text-fuchsia-500 px-1 w-fit`}
       >
         {props.label}
