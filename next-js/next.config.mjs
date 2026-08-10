@@ -61,7 +61,7 @@ const nextConfig = {
       },
       {
         source: "/lastfm",
-        destination: "https://last.fm/user/andwest",
+        destination: "https://www.last.fm/user/andrewwestling",
         permanent: false,
       },
       {
