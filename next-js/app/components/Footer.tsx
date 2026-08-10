@@ -28,7 +28,7 @@ const socialAccounts = [
   {
     title: "Last.fm",
     icon: "lastfm",
-    username: "andwest",
+    username: "andrewwestling",
     url: "/lastfm",
   },
   {
