@@ -51,7 +51,7 @@
     "title": "Barber, Samuel",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 11
+    "concertCount": 12
   },
   {
     "slug": "barry-john",
@@ -87,7 +87,7 @@
     "title": "Beethoven, Ludwig van",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 22
+    "concertCount": 23
   },
   {
     "slug": "berko-alex",
@@ -123,7 +123,7 @@
     "title": "Bernstein, Leonard",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "bizet-georges",
@@ -153,6 +153,15 @@
     "concertCount": 1
   },
   {
+    "slug": "bonds-margaret",
+    "type": "composer",
+    "path": "Composers/Bonds, Margaret.md",
+    "title": "Bonds, Margaret",
+    "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
     "slug": "borzoni-clint",
     "type": "composer",
     "path": "Composers/Borzoni, Clint.md",
@@ -168,7 +177,7 @@
     "title": "Brahms, Johannes",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 19
+    "concertCount": 20
   },
   {
     "slug": "britten-benjamin",
@@ -447,7 +456,7 @@
     "title": "Griffes, Charles",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "hanson-howard",
@@ -456,7 +465,7 @@
     "title": "Hanson, Howard",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "haydn-joseph",
@@ -780,7 +789,7 @@
     "title": "Prokofiev, Sergei",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 5
+    "concertCount": 6
   },
   {
     "slug": "puccini-giacomo",
@@ -807,7 +816,7 @@
     "title": "Rachmaninoff, Sergei",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 2
+    "concertCount": 3
   },
   {
     "slug": "ravel-maurice",
@@ -816,7 +825,7 @@
     "title": "Ravel, Maurice",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 4
+    "concertCount": 5
   },
   {
     "slug": "reinecke-carl",
@@ -924,7 +933,7 @@
     "title": "Schumann, Robert",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 4
+    "concertCount": 5
   },
   {
     "slug": "shepherd-sean",
@@ -951,7 +960,7 @@
     "title": "Sibelius, Jean",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 17
+    "concertCount": 18
   },
   {
     "slug": "silvestri-alan",
@@ -1041,7 +1050,7 @@
     "title": "Tchaikovsky, Piotr Ilyich",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 26
+    "concertCount": 27
   },
   {
     "slug": "theofanidis-christopher",

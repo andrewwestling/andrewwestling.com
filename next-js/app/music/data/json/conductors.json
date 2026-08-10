@@ -1,5 +1,23 @@
 [
   {
+    "slug": "alex-wen",
+    "type": "conductor",
+    "path": "Conductors/Alex Wen.md",
+    "title": "Alex Wen",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
+    "slug": "alison-norris",
+    "type": "conductor",
+    "path": "Conductors/Alison Norris.md",
+    "title": "Alison Norris",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
     "slug": "andrew-kim",
     "type": "conductor",
     "path": "Conductors/Andrew Kim.md",
@@ -60,7 +78,16 @@
     "title": "Christian Olson",
     "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 2
+    "concertCount": 3
+  },
+  {
+    "slug": "claire-lewis",
+    "type": "conductor",
+    "path": "Conductors/Claire Lewis.md",
+    "title": "Claire Lewis",
+    "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
   },
   {
     "slug": "conrad-chu",
@@ -159,7 +186,7 @@
     "title": "Eric Mahl",
     "content": "## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.conductor, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 4
+    "concertCount": 5
   },
   {
     "slug": "felipe-tristan",

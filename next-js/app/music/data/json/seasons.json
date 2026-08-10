@@ -701,27 +701,45 @@
     "frontmatter": {},
     "concertSlugs": [
       "202610041500",
+      "202611011400",
       "202611151500",
       "202612061500",
+      "202612201400",
       "202702071500",
+      "202702211400",
       "202703211900",
-      "202705021500"
+      "202704111400",
+      "202705021500",
+      "202706131400"
     ],
     "workSlugs": [
       "part-cantus-in-memoriam-benjamin-britten",
       "brahms-double-concerto-for-violin-and-cello",
       "elgar-enigma-variations",
+      "rachmaninoff-symphonic-dances",
+      "ravel-daphnis-et-chloe-suite-no-2",
       "walton-viola-concerto",
       "ravel-mother-goose-suite",
       "stravinsky-the-firebird-suite-1919",
+      "beethoven-piano-concerto-no-5-in-e-flat-major-emperor",
+      "tchaikovsky-symphony-no-5-in-e-minor",
       "tchaikovsky-polonaise-from-eugene-onegin",
       "strauss-der-rosenkavalier",
       "puccini-la-boheme",
       "offenbach-les-contes-d-hoffmann",
       "bartok-concerto-for-orchestra",
+      "sibelius-karelia-overture",
+      "prokofiev-violin-concerto-no-1-in-d-major",
+      "hanson-symphony-no-2-romantic",
       "beethoven-symphony-no-9-in-d-minor",
+      "bernstein-overture-to-candide",
+      "griffes-three-poems-of-fiona-macleod",
+      "barber-knoxville-summer-of-1915",
+      "bonds-montgomery-variations",
       "shostakovich-piano-concerto-no-1-in-c-minor",
-      "tchaikovsky-symphony-no-5-in-e-minor"
+      "brahms-academic-festival-overture",
+      "schumann-cello-concerto-in-a-minor",
+      "brahms-symphony-no-1-in-c-minor"
     ]
   }
 ]
