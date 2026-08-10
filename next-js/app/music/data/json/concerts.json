@@ -3763,7 +3763,7 @@
               "catalogue": "80",
               "composer": "Brahms, Johannes"
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": false
           }
         },
@@ -4154,7 +4154,7 @@
               "catalogue": "Op. 64",
               "composer": "Tchaikovsky, Piotr Ilyich"
             },
-            "concertCount": 2,
+            "concertCount": 3,
             "bucketList": false
           },
           "movements": [
@@ -4354,7 +4354,7 @@
               "catalogue": "Op. 68",
               "composer": "Brahms, Johannes"
             },
-            "concertCount": 2,
+            "concertCount": 3,
             "bucketList": false
           },
           "movements": [
@@ -6629,7 +6629,7 @@
               "catalogue": "80",
               "composer": "Brahms, Johannes"
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": false
           }
         },
@@ -6735,7 +6735,7 @@
               "catalogue": "80",
               "composer": "Brahms, Johannes"
             },
-            "concertCount": 3,
+            "concertCount": 4,
             "bucketList": false
           }
         },
@@ -7699,7 +7699,7 @@
               "catalogue": "",
               "composer": "Bernstein, Leonard"
             },
-            "concertCount": 1,
+            "concertCount": 2,
             "bucketList": false
           }
         },
@@ -8800,7 +8800,7 @@
               "catalogue": "Op. 68",
               "composer": "Brahms, Johannes"
             },
-            "concertCount": 2,
+            "concertCount": 3,
             "bucketList": false
           },
           "movements": [
@@ -10718,7 +10718,7 @@
               "composer": "Barber, Samuel",
               "displayName": "Knoxville: Summer of 1915"
             },
-            "concertCount": 1,
+            "concertCount": 2,
             "bucketList": false
           },
           "soloists": [
@@ -11352,13 +11352,13 @@
       "date": "2026-10-04T15:00:00.000Z",
       "group": "Greenwich Village Orchestra",
       "season": "2026-2027",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1k9L91ZmFE9Q0xaxkoU6Gb",
       "venue": "High School of Fashion Industries",
       "works": [
         "Pärt - Cantus in Memoriam Benjamin Britten",
         "Brahms - Double Concerto for Violin and Cello",
         "Elgar - Enigma Variations"
       ],
-      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1k9L91ZmFE9Q0xaxkoU6Gb",
       "programDetails": [
         {
           "work": {
@@ -11435,6 +11435,60 @@
     }
   },
   {
+    "slug": "202611011400",
+    "type": "concert",
+    "path": "Concerts/2026/202611011400 Concert - Brooklyn Symphony Orchestra (The Inheritance of Beauty).md",
+    "title": "202611011400 Concert - Brooklyn Symphony Orchestra (The Inheritance of Beauty)",
+    "content": "",
+    "frontmatter": {
+      "conductor": [
+        "Christian Olson"
+      ],
+      "date": "2026-11-01T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "liveStreamUrl": "https://bso.nyc/live",
+      "season": "2026-2027",
+      "ticketUrl": "https://go.bso.nyc/t1",
+      "venue": "Brooklyn Museum",
+      "works": [
+        "Rachmaninoff - Symphonic Dances",
+        "Ravel - Daphnis et Chloe Suite No. 2"
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "rachmaninoff-symphonic-dances",
+            "type": "work",
+            "path": "Works/Rachmaninoff - Symphonic Dances.md",
+            "title": "Rachmaninoff - Symphonic Dances",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Rachmaninoff, Sergei"
+            },
+            "concertCount": 1,
+            "bucketList": true
+          }
+        },
+        {
+          "work": {
+            "slug": "ravel-daphnis-et-chloe-suite-no-2",
+            "type": "work",
+            "path": "Works/Ravel - Daphnis et Chloe Suite No. 2.md",
+            "title": "Ravel - Daphnis et Chloe Suite No. 2",
+            "content": "",
+            "frontmatter": {
+              "catalogue": null,
+              "composer": "Ravel, Maurice"
+            },
+            "concertCount": 1,
+            "bucketList": true
+          }
+        }
+      ]
+    }
+  },
+  {
     "slug": "202611151500",
     "type": "concert",
     "path": "Concerts/2026/202611151500 Concert - Greenwich Village Orchestra (Legends).md",
@@ -11447,13 +11501,13 @@
       "date": "2026-11-15T15:00:00.000Z",
       "group": "Greenwich Village Orchestra",
       "season": "2026-2027",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2VUDrpw9rydHjgyK7dCLg9",
       "venue": "High School of Fashion Industries",
       "works": [
         "Walton - Viola Concerto",
         "Ravel - Mother Goose Suite",
         "Stravinsky - The Firebird Suite (1919)"
       ],
-      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2VUDrpw9rydHjgyK7dCLg9",
       "programDetails": [
         {
           "work": {
@@ -11537,6 +11591,69 @@
     }
   },
   {
+    "slug": "202612201400",
+    "type": "concert",
+    "path": "Concerts/2026/202612201400 Concert - Brooklyn Symphony Orchestra (Majestic Fifths).md",
+    "title": "202612201400 Concert - Brooklyn Symphony Orchestra (Majestic Fifths)",
+    "content": "",
+    "frontmatter": {
+      "conductor": [
+        "Claire Lewis"
+      ],
+      "date": "2026-12-20T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "liveStreamUrl": "https://bso.nyc/live",
+      "season": "2026-2027",
+      "ticketUrl": "https://go.bso.nyc/t2",
+      "venue": "Brooklyn Museum",
+      "works": [
+        "Beethoven - Piano Concerto No. 5 in E-Flat Major, \"Emperor\"",
+        "Tchaikovsky - Symphony No. 5 in E Minor"
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "beethoven-piano-concerto-no-5-in-e-flat-major-emperor",
+            "type": "work",
+            "path": "Works/Beethoven - Piano Concerto No. 5 in E-Flat Major, \"Emperor\".md",
+            "title": "Beethoven - Piano Concerto No. 5 in E-Flat Major, \"Emperor\"",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "Op. 73",
+              "composer": "Beethoven, Ludwig van"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "William Wolfram, piano"
+          ]
+        },
+        {
+          "work": {
+            "slug": "tchaikovsky-symphony-no-5-in-e-minor",
+            "type": "work",
+            "path": "Works/Tchaikovsky - Symphony No. 5 in E Minor.md",
+            "title": "Tchaikovsky - Symphony No. 5 in E Minor",
+            "content": "## Movements\n1. Andante – Allegro con anima\n2. Andante cantabile, con alcuna licenza\n3. Valse: Allegro moderato\n4. Finale: Andante maestoso – Allegro vivace",
+            "frontmatter": {
+              "catalogue": "Op. 64",
+              "composer": "Tchaikovsky, Piotr Ilyich"
+            },
+            "concertCount": 3,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Andante – Allegro con anima",
+            "II. Andante cantabile, con alcuna licenza",
+            "III. Valse: Allegro moderato",
+            "IV. Finale: Andante maestoso – Allegro vivace"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "slug": "202702071500",
     "type": "concert",
     "path": "Concerts/2027/202702071500 Concert - Greenwich Village Orchestra (Showcase).md",
@@ -11549,6 +11666,7 @@
       "date": "2027-02-07T15:00:00.000Z",
       "group": "Greenwich Village Orchestra",
       "season": "2026-2027",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0RafiW0NUKQt7O2e7WHXIp",
       "venue": "High School of Fashion Industries",
       "works": [
         "Tchaikovsky - Polonaise from Eugene Onegin",
@@ -11557,7 +11675,6 @@
         "Offenbach - Les contes d'Hoffmann",
         "Bartok - Concerto for Orchestra"
       ],
-      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/0RafiW0NUKQt7O2e7WHXIp",
       "programDetails": [
         {
           "work": {
@@ -11663,6 +11780,79 @@
     }
   },
   {
+    "slug": "202702211400",
+    "type": "concert",
+    "path": "Concerts/2027/202702211400 Concert - Brooklyn Symphony Orchestra (Painted Soundscapes).md",
+    "title": "202702211400 Concert - Brooklyn Symphony Orchestra (Painted Soundscapes)",
+    "content": "",
+    "frontmatter": {
+      "conductor": [
+        "Alison Norris"
+      ],
+      "date": "2027-02-21T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "liveStreamUrl": "https://bso.nyc/live",
+      "season": "2026-2027",
+      "ticketUrl": "https://go.bso.nyc/t3",
+      "venue": "Brooklyn Museum",
+      "works": [
+        "Sibelius - Karelia Overture",
+        "Prokofiev - Violin Concerto No. 1 in D Major",
+        "Hanson - Symphony No. 2, \"Romantic\""
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "sibelius-karelia-overture",
+            "type": "work",
+            "path": "Works/Sibelius - Karelia Overture.md",
+            "title": "Sibelius - Karelia Overture",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "Op. 10",
+              "composer": "Sibelius, Jean"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "prokofiev-violin-concerto-no-1-in-d-major",
+            "type": "work",
+            "path": "Works/Prokofiev - Violin Concerto No. 1 in D Major.md",
+            "title": "Prokofiev - Violin Concerto No. 1 in D Major",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "Op. 19",
+              "composer": "Prokofiev, Sergei"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Dylan Hamme, violin"
+          ]
+        },
+        {
+          "work": {
+            "slug": "hanson-symphony-no-2-romantic",
+            "type": "work",
+            "path": "Works/Hanson - Symphony No. 2, \"Romantic\".md",
+            "title": "Hanson - Symphony No. 2, \"Romantic\"",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "Op. 30",
+              "composer": "Hanson, Howard"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "slug": "202703211900",
     "type": "concert",
     "path": "Concerts/2027/202703211900 Concert - Greenwich Village Orchestra (Joy).md",
@@ -11675,11 +11865,11 @@
       "date": "2027-03-21T19:00:00.000Z",
       "group": "Greenwich Village Orchestra",
       "season": "2026-2027",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1eQdGddiIzPaCOWvS5jy9X",
       "venue": "St. Bartholomew's Church",
       "works": [
         "Beethoven - Symphony No. 9 in D Minor"
       ],
-      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/1eQdGddiIzPaCOWvS5jy9X",
       "programDetails": [
         {
           "work": {
@@ -11706,6 +11896,99 @@
     }
   },
   {
+    "slug": "202704111400",
+    "type": "concert",
+    "path": "Concerts/2027/202704111400 Concert - Brooklyn Symphony Orchestra (American Song).md",
+    "title": "202704111400 Concert - Brooklyn Symphony Orchestra (American Song)",
+    "content": "",
+    "frontmatter": {
+      "conductor": [
+        "Eric Mahl"
+      ],
+      "date": "2027-04-11T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "liveStreamUrl": "https://bso.nyc/live",
+      "season": "2026-2027",
+      "ticketUrl": "https://go.bso.nyc/t4",
+      "venue": "Brooklyn Museum",
+      "works": [
+        "Bernstein - Overture to Candide",
+        "Griffes - Three Poems of Fiona MacLeod",
+        "Barber - Knoxville - Summer of 1915",
+        "Bonds - Montgomery Variations"
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "bernstein-overture-to-candide",
+            "type": "work",
+            "path": "Works/Bernstein - Overture to Candide.md",
+            "title": "Bernstein - Overture to Candide",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Bernstein, Leonard"
+            },
+            "concertCount": 2,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "griffes-three-poems-of-fiona-macleod",
+            "type": "work",
+            "path": "Works/Griffes - Three Poems of Fiona MacLeod.md",
+            "title": "Griffes - Three Poems of Fiona MacLeod",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "Op. 11",
+              "composer": "Griffes, Charles"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Sarah Joyce Cooper, soprano"
+          ]
+        },
+        {
+          "work": {
+            "slug": "barber-knoxville-summer-of-1915",
+            "type": "work",
+            "path": "Works/Barber - Knoxville - Summer of 1915.md",
+            "title": "Barber - Knoxville - Summer of 1915",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "24",
+              "composer": "Barber, Samuel",
+              "displayName": "Knoxville: Summer of 1915"
+            },
+            "concertCount": 2,
+            "bucketList": false
+          },
+          "soloists": [
+            "Sarah Joyce Cooper, soprano"
+          ]
+        },
+        {
+          "work": {
+            "slug": "bonds-montgomery-variations",
+            "type": "work",
+            "path": "Works/Bonds - Montgomery Variations.md",
+            "title": "Bonds - Montgomery Variations",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Bonds, Margaret"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "slug": "202705021500",
     "type": "concert",
     "path": "Concerts/2027/202705021500 Concert - Greenwich Village Orchestra (Brilliance).md",
@@ -11718,12 +12001,12 @@
       "date": "2027-05-02T15:00:00.000Z",
       "group": "Greenwich Village Orchestra",
       "season": "2026-2027",
+      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2tIrb4qtKMLOlSqYxFaDIn",
       "venue": "High School of Fashion Industries",
       "works": [
         "Shostakovich - Piano Concerto No. 1 in C Minor",
         "Tchaikovsky - Symphony No. 5 in E Minor"
       ],
-      "spotifyPlaylistUrl": "https://open.spotify.com/playlist/2tIrb4qtKMLOlSqYxFaDIn",
       "programDetails": [
         {
           "work": {
@@ -11760,7 +12043,7 @@
               "catalogue": "Op. 64",
               "composer": "Tchaikovsky, Piotr Ilyich"
             },
-            "concertCount": 2,
+            "concertCount": 3,
             "bucketList": false
           },
           "movements": [
@@ -11768,6 +12051,85 @@
             "II. Andante cantabile, con alcuna licenza",
             "III. Valse: Allegro moderato",
             "IV. Finale: Andante maestoso – Allegro vivace"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "202706131400",
+    "type": "concert",
+    "path": "Concerts/2027/202706131400 Concert - Brooklyn Symphony Orchestra (Romantic Hero).md",
+    "title": "202706131400 Concert - Brooklyn Symphony Orchestra (Romantic Hero)",
+    "content": "",
+    "frontmatter": {
+      "conductor": [
+        "Alex Wen"
+      ],
+      "date": "2027-06-13T14:00:00.000Z",
+      "group": "Brooklyn Symphony Orchestra",
+      "liveStreamUrl": "https://bso.nyc/live",
+      "season": "2026-2027",
+      "ticketUrl": "https://go.bso.nyc/t5",
+      "venue": "Brooklyn Museum",
+      "works": [
+        "Brahms - Academic Festival Overture",
+        "Schumann - Cello Concerto in A Minor",
+        "Brahms - Symphony No. 1 in C Minor"
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "brahms-academic-festival-overture",
+            "type": "work",
+            "path": "Works/Brahms - Academic Festival Overture.md",
+            "title": "Brahms - Academic Festival Overture",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "80",
+              "composer": "Brahms, Johannes"
+            },
+            "concertCount": 4,
+            "bucketList": false
+          }
+        },
+        {
+          "work": {
+            "slug": "schumann-cello-concerto-in-a-minor",
+            "type": "work",
+            "path": "Works/Schumann - Cello Concerto in A Minor.md",
+            "title": "Schumann - Cello Concerto in A Minor",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "Op. 129",
+              "composer": "Schumann, Robert"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Ruth Stokes, cello"
+          ]
+        },
+        {
+          "work": {
+            "slug": "brahms-symphony-no-1-in-c-minor",
+            "type": "work",
+            "path": "Works/Brahms - Symphony No. 1 in C Minor.md",
+            "title": "Brahms - Symphony No. 1 in C Minor",
+            "content": "## Movements\n1. Un poco sostenuto – Allegro – Meno allegro\n2. Andante sostenuto\n3. Un poco allegretto e grazioso\n4. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
+            "frontmatter": {
+              "catalogue": "Op. 68",
+              "composer": "Brahms, Johannes"
+            },
+            "concertCount": 3,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Un poco sostenuto – Allegro – Meno allegro",
+            "II. Andante sostenuto",
+            "III. Un poco allegretto e grazioso",
+            "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro"
           ]
         }
       ]

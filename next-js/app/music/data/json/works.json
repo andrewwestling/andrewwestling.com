@@ -179,7 +179,7 @@
       "composer": "Barber, Samuel",
       "displayName": "Knoxville: Summer of 1915"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -323,6 +323,19 @@
       "composer": "Beethoven, Ludwig van"
     },
     "concertCount": 3,
+    "bucketList": false
+  },
+  {
+    "slug": "beethoven-piano-concerto-no-5-in-e-flat-major-emperor",
+    "type": "work",
+    "path": "Works/Beethoven - Piano Concerto No. 5 in E-Flat Major, \"Emperor\".md",
+    "title": "Beethoven - Piano Concerto No. 5 in E-Flat Major, \"Emperor\"",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 73",
+      "composer": "Beethoven, Ludwig van"
+    },
+    "concertCount": 1,
     "bucketList": false
   },
   {
@@ -478,7 +491,7 @@
       "catalogue": "",
       "composer": "Bernstein, Leonard"
     },
-    "concertCount": 1,
+    "concertCount": 2,
     "bucketList": false
   },
   {
@@ -574,6 +587,19 @@
     "bucketList": false
   },
   {
+    "slug": "bonds-montgomery-variations",
+    "type": "work",
+    "path": "Works/Bonds - Montgomery Variations.md",
+    "title": "Bonds - Montgomery Variations",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Bonds, Margaret"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "borzoni-antinous-and-hadrian-suite",
     "type": "work",
     "path": "Works/Borzoni - Antinous and Hadrian Suite.md",
@@ -596,7 +622,7 @@
       "catalogue": "80",
       "composer": "Brahms, Johannes"
     },
-    "concertCount": 3,
+    "concertCount": 4,
     "bucketList": false
   },
   {
@@ -687,7 +713,7 @@
       "catalogue": "Op. 68",
       "composer": "Brahms, Johannes"
     },
-    "concertCount": 2,
+    "concertCount": 3,
     "bucketList": false
   },
   {
@@ -1631,6 +1657,19 @@
     "bucketList": false
   },
   {
+    "slug": "griffes-three-poems-of-fiona-macleod",
+    "type": "work",
+    "path": "Works/Griffes - Three Poems of Fiona MacLeod.md",
+    "title": "Griffes - Three Poems of Fiona MacLeod",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 11",
+      "composer": "Griffes, Charles"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "hanson-song-of-democracy",
     "type": "work",
     "path": "Works/Hanson - Song of Democracy.md",
@@ -1638,6 +1677,19 @@
     "content": "",
     "frontmatter": {
       "catalogue": "",
+      "composer": "Hanson, Howard"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "hanson-symphony-no-2-romantic",
+    "type": "work",
+    "path": "Works/Hanson - Symphony No. 2, \"Romantic\".md",
+    "title": "Hanson - Symphony No. 2, \"Romantic\"",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 30",
       "composer": "Hanson, Howard"
     },
     "concertCount": 1,
@@ -2625,6 +2677,19 @@
     "bucketList": true
   },
   {
+    "slug": "prokofiev-violin-concerto-no-1-in-d-major",
+    "type": "work",
+    "path": "Works/Prokofiev - Violin Concerto No. 1 in D Major.md",
+    "title": "Prokofiev - Violin Concerto No. 1 in D Major",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 19",
+      "composer": "Prokofiev, Sergei"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "prokofiev-violin-concerto-no-2-in-g-minor",
     "type": "work",
     "path": "Works/Prokofiev - Violin Concerto No. 2 in G Minor.md",
@@ -2738,7 +2803,7 @@
       "catalogue": "",
       "composer": "Rachmaninoff, Sergei"
     },
-    "concertCount": 0,
+    "concertCount": 1,
     "bucketList": true
   },
   {
@@ -2777,7 +2842,7 @@
       "catalogue": null,
       "composer": "Ravel, Maurice"
     },
-    "concertCount": 0,
+    "concertCount": 1,
     "bucketList": true
   },
   {
@@ -3119,6 +3184,19 @@
     "bucketList": false
   },
   {
+    "slug": "schumann-cello-concerto-in-a-minor",
+    "type": "work",
+    "path": "Works/Schumann - Cello Concerto in A Minor.md",
+    "title": "Schumann - Cello Concerto in A Minor",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 129",
+      "composer": "Schumann, Robert"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "schumann-dichterliebe",
     "type": "work",
     "path": "Works/Schumann - Dichterliebe.md",
@@ -3285,6 +3363,19 @@
       "composer": "Sibelius, Jean"
     },
     "concertCount": 5,
+    "bucketList": false
+  },
+  {
+    "slug": "sibelius-karelia-overture",
+    "type": "work",
+    "path": "Works/Sibelius - Karelia Overture.md",
+    "title": "Sibelius - Karelia Overture",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "Op. 10",
+      "composer": "Sibelius, Jean"
+    },
+    "concertCount": 1,
     "bucketList": false
   },
   {
@@ -3871,7 +3962,7 @@
       "catalogue": "Op. 64",
       "composer": "Tchaikovsky, Piotr Ilyich"
     },
-    "concertCount": 2,
+    "concertCount": 3,
     "bucketList": false
   },
   {
