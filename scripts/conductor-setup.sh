@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Conductor workspace setup script
-# Runs automatically when Conductor creates a new worktree.
+# Pull Vercel Development values only for local Conductor workspaces. The
+# project ID avoids requiring a linked `.vercel` directory in each worktree.
+if [[ "${CONDUCTOR_IS_LOCAL:-0}" == "1" ]]; then
+  npx --yes vercel@59.14.0 env pull next-js/.env.local \
+    --project prj_b376unVYNMOlq8BhwPWIYHPr6bMS \
+    --environment development \
+    --yes
+fi
 
-# Link Vercel project (non-interactive)
-vercel link --yes --project prj_b376unVYNMOlq8BhwPWIYHPr6bMS
-
-# Pull env vars
-vercel env pull next-js/.env.local
-echo "Pulled environment variables"
-
-# Install dependencies
-cd tailwind && npm install
-cd ../next-js && npm install
+cd tailwind
+npm ci
+cd ../next-js
+npm ci

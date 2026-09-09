@@ -1,0 +1,11 @@
+"$schema" = "https://conductor.build/schemas/settings.repo.schema.json"
+
+[scripts]
+setup = "bash scripts/conductor-setup.sh"
+run_mode = "concurrent"
+
+[scripts.run.dev]
+available_in = ["local"]
+command = "cd next-js && npm run dev -- --port $CONDUCTOR_PORT"
+default = true
+icon = "play"
