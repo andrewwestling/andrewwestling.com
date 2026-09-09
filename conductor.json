@@ -1,6 +1,0 @@
-{
-  "scripts": {
-    "setup": "bash scripts/conductor-setup.sh",
-    "run": "cd next-js && npm run dev"
-  }
-}
