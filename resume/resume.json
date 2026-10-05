@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Andrew Westling",
-    "label": "Software Engineer",
+    "label": "Design Engineer",
     "image": "",
     "email": "hi@andrewwestling.com",
     "phone": "",
     "url": "https://andrewwestling.com",
-    "summary": "Software engineer with a decade of experience in web development and a formal background in architecture. Specialty in building resilient interfaces, design systems, and platform-level tooling that multiplies the output of large engineering organizations. Skilled with **TypeScript**, **React**, **Next.js**, **Tailwind**, agentic AI tooling, and more.",
+    "summary": "Design engineer with a decade of experience working where product design and software engineering meet. I build resilient interfaces, design systems, and frontend platforms that help teams ship high-quality products. I bring a background in architecture and work primarily with TypeScript, React, Next.js, Tailwind, and AI-assisted development workflows.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,29 +30,30 @@
   },
   "work": [
     {
+      "name": "McWestling",
+      "location": "Brooklyn, NY",
+      "description": "Family software factory and holding company",
+      "position": "Member of Technical Staff",
+      "url": "https://mcwestling.com",
+      "startDate": "2025-12-20",
+      "summary": "My family software factory and holding company. I do everything, from paperwork and accounting, to deciding what to build and writing the software.",
+      "highlights": []
+    },
+    {
       "name": "Alloy",
       "location": "New York City",
       "description": "End-to-end identity and fraud prevention platform for companies that offer financial products",
       "position": "Senior Design Engineer",
       "url": "https://alloy.com",
       "startDate": "2024-09-09",
-      "summary": "Design engineering at an identity and fraud prevention platform for financial institutions. Solving problems where design and engineering overlap.",
+      "endDate": "2026-10-02",
+      "summary": "Design engineering at an identity and fraud prevention platform for financial institutions.",
       "highlights": [
-        "**Platform migration**: partnering with a small frontend platform team to lead an architectural migration of Alloy's frontend application, with rollout planned across ~50 product engineers",
-        "**Filter interfaces**: built new filter interfaces for Alloy's risk management platform, improving analyst workflow for complex, multi-dimensional data",
-        "**Design system tooling**: built an internal component usage reporting tool to analyze React component adoption across the codebase, enabling data-driven decisions about design system evolution",
-        "**Design system mentorship**: serve as the design system education resource for Alloy's product engineers, bridging design intent and implementation across teams"
+        "**Platform migration**: led the early stages of an architectural migration of Alloy's frontend application, with rollout planned across ~50 product engineers.",
+        "**Filter interfaces**: built filter interfaces for Alloy's risk management platform, improving analyst workflows for complex, multidimensional data.",
+        "**Design system tooling**: built an internal component-usage reporting tool to analyze React adoption across the codebase and inform design system decisions.",
+        "**Design system mentorship**: served as a technical resource for product engineers working with the design system and translating design intent into implementation."
       ]
-    },
-    {
-      "name": "McWestling",
-      "location": "Brooklyn",
-      "description": "Family software factory and holding company",
-      "position": "Member of Technical Staff",
-      "url": "https://mcwestling.com",
-      "startDate": "2025-12-20",
-      "summary": "Scratching itches and building toys. My family software factory and holding company.",
-      "highlights": []
     },
     {
       "name": "Droit (acquired by FIS)",
@@ -177,15 +178,15 @@
       "name": "General",
       "keywords": [
         "TypeScript",
-        "Vercel",
         "Railway",
-        "CircleCI",
+        "Cloudflare",
+        "Vercel",
+        "PostHog",
         "AWS",
         "GitHub",
         "Docker",
         "Linear",
-        "Visual\u00A0Studio\u00A0Code",
-        "Figma"
+        "Visual\u00A0Studio\u00A0Code"
       ]
     },
     {
@@ -222,6 +223,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.1.0",
-    "lastModified": "2026-08-09"
+    "lastModified": "2026-10-05"
   }
 }
