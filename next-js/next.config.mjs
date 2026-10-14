@@ -69,6 +69,11 @@ const nextConfig = {
         destination: "https://open.spotify.com/user/1283883",
         permanent: false,
       },
+      {
+        source: "/cal",
+        destination: "https://cal.com/andrewwestling",
+        permanent: false,
+      },
     ];
   },
   webpack: (config) => {
