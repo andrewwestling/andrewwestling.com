@@ -11490,6 +11490,81 @@
     }
   },
   {
+    "slug": "202611071400",
+    "type": "concert",
+    "path": "Concerts/2026/202611071400 Concert - Chamber Music with Friends (Tabula Rasa).md",
+    "title": "202611071400 Concert - Chamber Music with Friends (Tabula Rasa)",
+    "content": "",
+    "frontmatter": {
+      "conductor": null,
+      "date": "2026-11-07T14:00:00.000Z",
+      "group": "Chamber Music with Friends",
+      "season": "2026-2027",
+      "venue": "Saint John's in the Village",
+      "ticketUrl": "https://partiful.com/e/FvoJajPOJeVHPgU89dWI",
+      "works": [
+        "Glass - String Quartet No. 5",
+        "Pärt - Tabula Rasa"
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "glass-string-quartet-no-5",
+            "type": "work",
+            "path": "Works/Glass - String Quartet No. 5.md",
+            "title": "Glass - String Quartet No. 5",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Glass, Philip"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Grace Johnson, violin",
+            "Yichen Cao, violin",
+            "Ashwin Rane, viola",
+            "Darsha Kumar, cello"
+          ]
+        },
+        {
+          "work": {
+            "slug": "part-tabula-rasa",
+            "type": "work",
+            "path": "Works/Pärt - Tabula Rasa.md",
+            "title": "Pärt - Tabula Rasa",
+            "content": "## Movements\n- I. Ludus\n- II. Silentium",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Pärt, Arvo"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Ludus",
+            "II. Silentium"
+          ],
+          "soloists": [
+            "Maeve Farrell, violin",
+            "Kendra Nealon, violin",
+            "Candice McCardle, violin",
+            "Grace Johnson, violin",
+            "Andrew Westling, violin",
+            "Yichen Cao, violin",
+            "Ashwin Rane, viola",
+            "Isabelle Uhl, viola",
+            "David Balatero, cello",
+            "Darsha Kumar, cello",
+            "Jared Chamoff, bass",
+            "James Du, piano"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "slug": "202611151500",
     "type": "concert",
     "path": "Concerts/2026/202611151500 Concert - Greenwich Village Orchestra (Legends).md",

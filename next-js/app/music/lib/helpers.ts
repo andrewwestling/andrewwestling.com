@@ -7,7 +7,12 @@ import {
   getVenueByTitle,
   getConcerts,
 } from "@music/data/queries";
-import type { Concert, Work, Season } from "@music/data/types";
+import type {
+  Concert,
+  GroupFrontmatter,
+  Work,
+  Season,
+} from "@music/data/types";
 
 // Get timezone from venue coordinates if available, otherwise use New York
 export function getVenueTimeZone(venue?: {
@@ -36,13 +41,15 @@ export function getDateFromFrontmatter(concert: {
 // Helper to format concert title
 export function formatConcertTitle(
   filename: string,
-  group: { title: string } | undefined
+  group: { title: string; frontmatter?: GroupFrontmatter } | undefined
 ): string {
   // Extract the part in parentheses
   const parenthesesMatch = filename.match(/\((.*?)\)$/);
   const subtitle = parenthesesMatch ? parenthesesMatch[1] : "";
 
-  if (!group) return subtitle || filename;
+  // Groups with `hideFromConcertTitle` (e.g. ad hoc chamber groups) show only the subtitle
+  if (!group || (group.frontmatter?.hideFromConcertTitle && subtitle))
+    return subtitle || filename;
 
   return subtitle ? `${group.title}: ${subtitle}` : group.title;
 }

@@ -78,6 +78,20 @@
     "concertCount": 2
   },
   {
+    "slug": "chamber-music-with-friends",
+    "type": "group",
+    "path": "Groups/Chamber Music with Friends.md",
+    "title": "Chamber Music with Friends",
+    "content": "Chamber music groups formed by me and my friends around the city.\n\n## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "frontmatter": {
+      "hideFromConcertTitle": true,
+      "location": "Manhattan, New York",
+      "slug": "chamber-music-with-friends",
+      "url": ""
+    },
+    "concertCount": 1
+  },
+  {
     "slug": "chehalem",
     "type": "group",
     "path": "Groups/Chehalem Symphony Orchestra.md",
