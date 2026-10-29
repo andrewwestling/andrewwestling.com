@@ -11492,13 +11492,13 @@
   {
     "slug": "202611071400",
     "type": "concert",
-    "path": "Concerts/2026/202611071400 Concert - Chamber Ensembles (Tabula Rasa).md",
-    "title": "202611071400 Concert - Chamber Ensembles (Tabula Rasa)",
+    "path": "Concerts/2026/202611071400 Concert - Chamber Music with Friends (Tabula Rasa).md",
+    "title": "202611071400 Concert - Chamber Music with Friends (Tabula Rasa)",
     "content": "",
     "frontmatter": {
       "conductor": null,
       "date": "2026-11-07T14:00:00.000Z",
-      "group": "Chamber Ensembles",
+      "group": "Chamber Music with Friends",
       "season": "2026-2027",
       "venue": "Saint John's in the Village",
       "ticketUrl": "https://partiful.com/e/FvoJajPOJeVHPgU89dWI",
@@ -11545,6 +11545,20 @@
           "movements": [
             "I. Ludus",
             "II. Silentium"
+          ],
+          "soloists": [
+            "Maeve Farrell, violin",
+            "Kendra Nealon, violin",
+            "Candice McCardle, violin",
+            "Grace Johnson, violin",
+            "Andrew Westling, violin",
+            "Yichen Cao, violin",
+            "Ashwin Rane, viola",
+            "Isabelle, viola",
+            "David Balatero, cello",
+            "Darsha Kumar, cello",
+            "Jared Chamoff, bass",
+            "James Du, piano"
           ]
         }
       ]
