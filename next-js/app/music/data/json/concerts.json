@@ -11490,6 +11490,66 @@
     }
   },
   {
+    "slug": "202611071400",
+    "type": "concert",
+    "path": "Concerts/2026/202611071400 Concert - Chamber Ensembles (Tabula Rasa).md",
+    "title": "202611071400 Concert - Chamber Ensembles (Tabula Rasa)",
+    "content": "",
+    "frontmatter": {
+      "conductor": null,
+      "date": "2026-11-07T14:00:00.000Z",
+      "group": "Chamber Ensembles",
+      "season": "2026-2027",
+      "venue": "Saint John's in the Village",
+      "works": [
+        "Glass - String Quartet No. 5",
+        "Pärt - Tabula Rasa"
+      ],
+      "programDetails": [
+        {
+          "work": {
+            "slug": "glass-string-quartet-no-5",
+            "type": "work",
+            "path": "Works/Glass - String Quartet No. 5.md",
+            "title": "Glass - String Quartet No. 5",
+            "content": "",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Glass, Philip"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "soloists": [
+            "Grace Johnson, violin",
+            "Yichen Cao, violin",
+            "Ashwin Rane, viola",
+            "Darsha Kumar, cello"
+          ]
+        },
+        {
+          "work": {
+            "slug": "part-tabula-rasa",
+            "type": "work",
+            "path": "Works/Pärt - Tabula Rasa.md",
+            "title": "Pärt - Tabula Rasa",
+            "content": "## Movements\n- I. Ludus\n- II. Silentium",
+            "frontmatter": {
+              "catalogue": "",
+              "composer": "Pärt, Arvo"
+            },
+            "concertCount": 1,
+            "bucketList": false
+          },
+          "movements": [
+            "I. Ludus",
+            "II. Silentium"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "slug": "202611151500",
     "type": "concert",
     "path": "Concerts/2026/202611151500 Concert - Greenwich Village Orchestra (Legends).md",
@@ -11858,8 +11918,8 @@
   {
     "slug": "202703211900",
     "type": "concert",
-    "path": "Concerts/2027/202703211900 Concert - Greenwich Village Orchestra (Joy).md",
-    "title": "202703211900 Concert - Greenwich Village Orchestra (Joy)",
+    "path": "Concerts/2027/202703211900 Concert - Greenwich Village Orchestra (JOY).md",
+    "title": "202703211900 Concert - Greenwich Village Orchestra (JOY)",
     "content": "",
     "frontmatter": {
       "conductor": [

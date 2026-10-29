@@ -78,6 +78,19 @@
     "concertCount": 2
   },
   {
+    "slug": "chamber-ensembles",
+    "type": "group",
+    "path": "Groups/Chamber Ensembles.md",
+    "title": "Chamber Ensembles",
+    "content": "One-off chamber ensembles without a name of their own.\n\n## Concerts\n\n```dataview\nLIST FROM \"Music Library/Concerts\" WHERE contains(file.frontmatter.group, \"[[\" + this.file.name + \"]]\")\n```",
+    "frontmatter": {
+      "location": "",
+      "slug": "chamber-ensembles",
+      "url": ""
+    },
+    "concertCount": 1
+  },
+  {
     "slug": "chehalem",
     "type": "group",
     "path": "Groups/Chehalem Symphony Orchestra.md",

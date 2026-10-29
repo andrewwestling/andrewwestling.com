@@ -405,6 +405,15 @@
     "concertCount": 1
   },
   {
+    "slug": "glass-philip",
+    "type": "composer",
+    "path": "Composers/Glass, Philip.md",
+    "title": "Glass, Philip",
+    "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
+    "frontmatter": {},
+    "concertCount": 1
+  },
+  {
     "slug": "glazunov-alexander",
     "type": "composer",
     "path": "Composers/Glazunov, Alexander.md",
@@ -807,7 +816,7 @@
     "title": "Pärt, Arvo",
     "content": "## Works\n\n```dataview\nLIST FROM \"Music Library/Works\" WHERE contains(file.frontmatter.composer, this.file.name)\n```",
     "frontmatter": {},
-    "concertCount": 1
+    "concertCount": 2
   },
   {
     "slug": "rachmaninoff-sergei",

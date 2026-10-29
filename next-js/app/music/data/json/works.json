@@ -1514,6 +1514,19 @@
     "bucketList": false
   },
   {
+    "slug": "glass-string-quartet-no-5",
+    "type": "work",
+    "path": "Works/Glass - String Quartet No. 5.md",
+    "title": "Glass - String Quartet No. 5",
+    "content": "",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Glass, Philip"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
     "slug": "glazunov-scenes-de-ballet",
     "type": "work",
     "path": "Works/Glazunov - Scenes de Ballet.md",
@@ -2760,6 +2773,19 @@
     "path": "Works/Pärt - Cantus in Memoriam Benjamin Britten.md",
     "title": "Pärt - Cantus in Memoriam Benjamin Britten",
     "content": "",
+    "frontmatter": {
+      "catalogue": "",
+      "composer": "Pärt, Arvo"
+    },
+    "concertCount": 1,
+    "bucketList": false
+  },
+  {
+    "slug": "part-tabula-rasa",
+    "type": "work",
+    "path": "Works/Pärt - Tabula Rasa.md",
+    "title": "Pärt - Tabula Rasa",
+    "content": "## Movements\n- I. Ludus\n- II. Silentium",
     "frontmatter": {
       "catalogue": "",
       "composer": "Pärt, Arvo"
