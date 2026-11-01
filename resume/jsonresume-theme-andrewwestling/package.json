@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "browser-sync": "^3.0.4",
-    "concurrently": "^9.2.4",
+    "concurrently": "^9.2.5",
     "html-validate": "^7.1.1"
   }
 }
