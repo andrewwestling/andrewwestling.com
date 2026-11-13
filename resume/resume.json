@@ -166,11 +166,11 @@
     {
       "name": "AI Tooling",
       "keywords": [
-        "Cursor",
         "Claude\u00A0Code",
         "Codex",
+        "Orca",
         "Conductor",
-        "CodeRabbit",
+        "Cursor",
         "Agentic\u00A0Workflows"
       ]
     },
@@ -223,6 +223,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.1.0",
-    "lastModified": "2026-10-05"
+    "lastModified": "2026-11-13"
   }
 }
